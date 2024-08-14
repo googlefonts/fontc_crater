@@ -1,0 +1,74 @@
+[
+  {
+    "began": "2024-07-22T18:48:44.780736Z",
+    "finished": "2024-07-22T18:48:44.780736Z",
+    "fontc_rev": "deadbeef",
+    "results_file": "july22.json",
+    "input_file": "myinputs",
+    "stats": {
+      "total_targets": 642,
+      "identical": 0,
+      "produced_diff": 514,
+      "fontc_failed": 72,
+      "fontmake_failed": 8,
+      "both_failed": 45,
+      "other_failure": 2,
+      "diff_perc_including_failures": 68.696434,
+      "diff_perc_excluding_failures": 85.67007
+    }
+  },
+  {
+    "began": "2024-07-24T18:48:44.761184Z",
+    "finished": "2024-07-24T18:48:44.761211Z",
+    "fontc_rev": "afabacaa",
+    "results_file": "july24.json",
+    "input_file": "myinputs",
+    "stats": {
+      "total_targets": 642,
+      "identical": 0,
+      "produced_diff": 536,
+      "fontc_failed": 50,
+      "fontmake_failed": 12,
+      "both_failed": 41,
+      "other_failure": 2,
+      "diff_perc_including_failures": 71.35411,
+      "diff_perc_excluding_failures": 85.332054
+    }
+  },
+  {
+    "began": "2024-08-01T18:48:44.788526Z",
+    "finished": "2024-08-01T18:48:44.788526Z",
+    "fontc_rev": "baabaaba",
+    "results_file": "aug1.json",
+    "input_file": "myinputs",
+    "stats": {
+      "total_targets": 642,
+      "identical": 0,
+      "produced_diff": 541,
+      "fontc_failed": 45,
+      "fontmake_failed": 13,
+      "both_failed": 40,
+      "other_failure": 2,
+      "diff_perc_including_failures": 71.97932,
+      "diff_perc_excluding_failures": 85.28417
+    }
+  },
+  {
+    "began": "2024-08-08T18:49:04.771470Z",
+    "finished": "2024-08-08T18:48:44.771469Z",
+    "fontc_rev": "dadadada",
+    "results_file": "aug08.json",
+    "input_file": "myinputs",
+    "stats": {
+      "total_targets": 642,
+      "identical": 0,
+      "produced_diff": 556,
+      "fontc_failed": 28,
+      "fontmake_failed": 13,
+      "both_failed": 40,
+      "other_failure": 4,
+      "diff_perc_including_failures": 73.85829,
+      "diff_perc_excluding_failures": 85.149574
+    }
+  }
+]
