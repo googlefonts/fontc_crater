@@ -21,15 +21,32 @@ FONTC_DIR=./fontc
 FONTC_REQUIREMENTS="$FONTC_DIR/resources/scripts/requirements.txt"
 # relative to FONTC_DIR
 SCRIPT_PATH=fontc_crater/resources/ci.sh
+GITHUB_TOKEN=$(<"GITHUB_TOKEN")
 
+# make sure that the upstream repo is configured to authenticate with our token:
+git remote set-url origin "https://$GITHUB_TOKEN:x-oauth-basic@github.com/googlefonts/fontc_crater.git"
 
-if [ ! -d venv ]; then
-  echo "setting up venv"
-  python -m venv venv
-  if [ $? -ne 0 ]; then
+if [ $? -ne 0 ]; then
+    echo "failed to set upstream"
+    exit 1
+fi
+
+# first make sure this repo is up to date, in case some config changes were pushed
+git pull
+if [ $? -ne 0 ]; then
+    echo "git pull failed, exiting"
+    exit 1
+fi
+
+if [ -d venv ]; then
+    rm -rf venv
+fi
+
+echo "setting up venv"
+python -m venv venv
+if [ $? -ne 0 ]; then
     echo could not setup venv, exiting
     exit 1
-  fi
 fi
 
 source venv/bin/activate
@@ -54,3 +71,8 @@ deactivate
 mv $GENERATED_HTML index.html
 
 # todo: commit and push repo
+git add .
+git commit -m 'Automated commit'
+if [ $? -eq 0 ]; then
+    git push
+fi
