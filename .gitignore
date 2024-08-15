@@ -1,4 +1,5 @@
 venv/
 .DS_Store
 fontc/
+GITHUB_TOKEN
 
