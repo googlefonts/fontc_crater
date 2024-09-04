@@ -2,4 +2,5 @@ venv/
 .DS_Store
 fontc/
 GITHUB_TOKEN
+results/CRATER.lock
 

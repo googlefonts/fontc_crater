@@ -16,6 +16,7 @@ export FONTC_CRATER_RESULTS=$(realpath  ./results)
 export FONTC_CRATER_INPUT=$(realpath "gf-repos-2024-08-12.json")
 
 GENERATED_HTML="$FONTC_CRATER_RESULTS/index.html"
+LOCKFILE="$FONTC_CRATER_RESULTS/CRATER.lock"
 FONTC_REPO=https://github.com/googlefonts/fontc.git
 FONTC_DIR=./fontc
 FONTC_REQUIREMENTS="$FONTC_DIR/resources/scripts/requirements.txt"
@@ -23,11 +24,27 @@ FONTC_REQUIREMENTS="$FONTC_DIR/resources/scripts/requirements.txt"
 SCRIPT_PATH=fontc_crater/resources/ci.sh
 GITHUB_TOKEN=$(<"GITHUB_TOKEN")
 
+cleanup() {
+    echo "cleaning up"
+    rm -rf $FONTC_DIR
+    rm $LOCKFILE
+    deactivate
+}
+
+# acquire lock, or bail:
+if [ -f $LOCKFILE ]; then
+    echo "$LOCKFILE exists (CI is already running, or failed and requires manual cleanup)"
+    exit 1
+else
+    touch $LOCKFILE
+fi
+
 # make sure that the upstream repo is configured to authenticate with our token:
 git remote set-url origin "https://$GITHUB_TOKEN:x-oauth-basic@github.com/googlefonts/fontc_crater.git"
 
 if [ $? -ne 0 ]; then
     echo "failed to set upstream"
+    cleanup
     exit 1
 fi
 
@@ -35,6 +52,7 @@ fi
 git pull
 if [ $? -ne 0 ]; then
     echo "git pull failed, exiting"
+    cleanup
     exit 1
 fi
 
@@ -46,6 +64,7 @@ echo "setting up venv"
 python -m venv venv
 if [ $? -ne 0 ]; then
     echo could not setup venv, exiting
+    cleanup
     exit 1
 fi
 
@@ -63,9 +82,6 @@ if git clone $FONTC_REPO $FONTC_DIR ; then
     ( $SCRIPT_PATH )
     cd ..
 fi
-echo "cleaning up"
-rm -rf $FONTC_DIR
-deactivate
 
 # move index.html from results/ to repo root
 mv $GENERATED_HTML index.html
@@ -76,3 +92,6 @@ git commit -m 'Automated commit'
 if [ $? -eq 0 ]; then
     git push
 fi
+
+# finally, cleanup if we got this far
+cleanup
