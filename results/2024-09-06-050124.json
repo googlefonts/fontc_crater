@@ -1,0 +1,1918 @@
+{
+  "success": {},
+  "failure": {
+    "ADLaM-Display/sources/ADLaM-Display.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ANRT-Baskervville/sources/Baskervville-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ANRT-Baskervville/sources/Baskervville.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Advent/sources/AdventPro.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Afacad/sources/Afacad-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Afacad/sources/Afacad.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Agbalumo/sources/Agbalumo.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alata/sources/Alata.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alatsi/sources/Alatsi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Albert-Sans/sources/AlbertSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Albert-Sans/sources/AlbertSans-Roman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alexandria/sources/Alexandria.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alice/sources/Alice.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alike/sources/Alike.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alike-Angular/sources/AlikeAngular.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Alkatra/sources/Alkatra.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Amita/sources/Amita.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Anta-Regular/sources/Anta-Regular.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "AntonFont/sources/Anton.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Anuphan/sources/Anuphan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Anybody/sources/Anybody-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Anybody/sources/Anybody.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Archivo/sources/Archivo-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Archivo/sources/Archivo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ArchivoNarrow/sources/ArchivoNarrow-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ArchivoNarrow/sources/ArchivoNarrow.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Asap/sources/Asap-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Asap/sources/Asap.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Asar/sources/Asar.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Asset/sources/Asset.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Azeret/sources/AzeretMono-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Azeret/sources/AzeretMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BagelFat/sources/BagelFat.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BeVietnamPro/sources/BeVietnamPro-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BeVietnamPro/sources/BeVietnamPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Benne/sources/Benne-Regular.ufo": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BevanFont/sources/Bevan-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BevanFont/sources/Bevan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BitterPro/sources/Bitter-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "BitterPro/sources/Bitter.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Bodoni/sources/BodoniModa-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Bodoni/sources/BodoniModa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Bona-Nova/sources/BonaNova-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Bona-Nova/sources/BonaNova.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Brawler/sources/Brawler.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Briem-Hand/sources/BriemHand.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Brygada-1918/sources/Brygada1918-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Brygada-1918/sources/Brygada1918.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Calistoga/sources/Calistoga.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Chivo/sources/Chivo-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Chivo/sources/Chivo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Commissioner/sources/Commissioner.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Crimson/sources/CrimsonText-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Crimson/sources/CrimsonText.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "CrimsonPro/sources/CrimsonPro-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "CrimsonPro/sources/CrimsonPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "CutiveFont/sources/Cutive.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "DTPhudu/sources/Phudu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "DancingScript/sources/DancingScript.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "DarkerGrotesque/sources/DarkerGrotesque.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Dekko/sources/Dekko.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Delicious-Handrawn/sources/Delicious-Handrawn.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Denk-One/sources/DenkOne.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Diphylleia/sources/Diphylleia.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "EBGaramond12/sources/EBGaramond-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "EBGaramond12/sources/EBGaramond.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "El-Messiri/sources/ElMessiri.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Epilogue/sources/Epilogue.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Exo-1.0/sources/Exo-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Exo-1.0/sources/Exo.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Exo-2.0/sources/Exo2-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Exo-2.0/sources/Exo2.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Expletus-Sans/sources/ExpletusSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Expletus-Sans/sources/ExpletusSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Familjen-Grotesk/sources/FamiljenGrotesk-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Familjen-Grotesk/sources/FamiljenGrotesk.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Faustina/sources/Faustina-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Faustina/sources/Faustina.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Finlandica/sources/Finlandica-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Finlandica/sources/Finlandica.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Foldit/sources/./glyphs-decomposed/Foldit.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Fredoka-One/sources/Fredoka.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Freeman/sources/Freeman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Fruktur/sources/Fruktur.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Fustat/sources/Fustat.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "GaMaamli/sources/GaMaamli.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gabriela/sources/Gabriela.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "GajrajOne/sources/GajrajOne-Regular.ufo": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gantari/sources/Gantari-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gantari/sources/Gantari.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gasoek/sources/Gasoek.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gelasio/sources/Gelasio-Italic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gelasio/sources/Gelasio.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Gluten/sources/Gluten.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grandiflora/sources/Grandiflora.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grandstander/sources/Grandstander-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grandstander/sources/Grandstander.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grenze/sources/Grenze-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grenze/sources/Grenze.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Grenze-Gotisch/sources/GrenzeGotisch.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "HoltwoodFont/sources/HoltwoodOneSC.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Honk/sources/HonkExportFile.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Inconsolata/sources/Inconsolata.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Jaldi/sources/Jaldi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Jaro/sources/Jaro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "JetBrainsMono/sources/JetBrainsMono-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "JetBrainsMono/sources/JetBrainsMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Joan/sources/Joan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Kalnia-Glaze/sources/KalniaGlaze.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Kalnia-Typeface/sources/Kalnia.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Karantina/sources/karantina.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "KonKhmer_SleokChher/sources/Konkhmer Sleokchher.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "KumbhSans/sources/KumbhSans.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Labrada/sources/Labrada-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Labrada/sources/Labrada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Lemonada/sources/Lemonada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Libre-Bodoni/sources/LibreBodoni-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Libre-Bodoni/sources/LibreBodoni.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Lora-Cyrillic/sources/Lora-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Lora-Cyrillic/sources/Lora.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Manuale/sources/Manuale-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Manuale/sources/Manuale.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Marmelad-Cyrillic/sources/Marmelad.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Matemasie-Font/sources/Matemasie.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Miriam-Libre/sources/MiriamLibre.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Moderustic/sources/Moderustic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Mohave-Typefaces/sources/Mohave-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Mohave-Typefaces/sources/Mohave.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Moirai/sources/Moirai.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Murecho-Project/sources/Murecho.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "MuseoModerno/sources/MuseoModerno-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "MuseoModerno/sources/MuseoModerno.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "MyNerve/sources/Mynerve.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "NewAmsterdam/sources/NewAmsterdam.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "NunitoSans/sources/NunitoSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "NunitoSans/sources/NunitoSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Oi/sources/Oi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Orbit/sources/Orbit.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "OswaldFont/sources/Oswald.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Outfit-Fonts/sources/Outfit.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Overpass/sources/Overpass-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Overpass/sources/Overpass.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Pacifico/sources/Pacifico.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Pathway-Variable-Font/sources/PathwayExtreme-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Pathway-Variable-Font/sources/PathwayExtreme.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Pinyon/sources/PinyonScript.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Pixelify-Sans/sources/PixelifySans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Playfair/sources/Playfair-2_1-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Playfair/sources/Playfair-2_1-Roman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Playwrite/sources/Playwrite_MM.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "PlusJakartaSans/sources/PlusJakartaSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "PlusJakartaSans/sources/PlusJakartaSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Podkova/sources/Podkova.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Poltawski-Nowy/sources/PoltawskiNowy-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Poltawski-Nowy/sources/PoltawskiNowy.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "PontanoSansFont/sources/PontanoSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Protest/sources/ProtestGuerrilla.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Protest/sources/ProtestRevolution.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Protest/sources/ProtestRiot.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Protest/sources/ProtestStrike.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "REM/sources/REM-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "REM/sources/REM.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "RammettoFont/sources/Rammetto.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Rethink-Sans/sources/RethinkSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Rethink-Sans/sources/RethinkSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Roboto-Flex/sources/RobotoFlex.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "RokkittFont/sources/Rokkitt-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "RokkittFont/sources/Rokkitt.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Rosario/sources/Rosario-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Rosario/sources/Rosario.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Sankofa-Display/sources/Sankofa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ShantiFont/sources/Shanti.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Signika/sources/Signika.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "SplineSans/sources/SplineSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "SplineSansMono/sources/SplineSansMono-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "SplineSansMono/sources/SplineSansMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Teachers-fonts/sources/Teachers-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Teachers-fonts/sources/Teachers.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Tektur/sources/UFO/Tektur.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Texturina/sources/Texturina-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Texturina/sources/Texturina.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Tourney/sources/Tourney-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Tourney/sources/Tourney.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Urbanist/sources/Urbanist.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "VICWANTSchoolhandAustralia/sources/AuVICWANT.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Voltaire/sources/Voltaire.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Wittgenstein/sources/Wittgenstein-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Wittgenstein/sources/Wittgenstein.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Work-Sans/sources/WorkSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Work-Sans/sources/WorkSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "YoungSerif/sources/Young-Serif.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Ysabeau/sources/Ysabeau-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "Ysabeau/sources/Ysabeau.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "abeezee/sources/ABeeZee-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "abeezee/sources/ABeeZee.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "abhaya-libre-font/sources/AbhayaLibre.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "adlam/sources/NotoSansAdlam.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "adlam/sources/NotoSansAdlamUnjoined.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "agdasima-fonts/sources/Agdasima-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ahom/sources/NotoSerifAhom.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "aleo/sources/Aleo-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "aleo/sources/Aleo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alex-brush/sources/AlexBrush.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "allison/sources/Allison.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "allura/sources/Allura.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni/sources/AlumniSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni/sources/AlumniSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-collegiate/sources/AlumniSansCollegiate-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-collegiate/sources/AlumniSansCollegiate.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-inline/sources/AlumniSansInline-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-inline/sources/AlumniSansInline.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-pinstripe/sources/AlumniSansPinstripe-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "alumni-sans-pinstripe/sources/AlumniSansPinstripe.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "anaheimFont/sources/Anaheim.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "anatolian-hieroglyphs/sources/NotoSansAnatolianHieroglyphs.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "antonioFont/sources/Antonio.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ar-one-sans/sources/AROneSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arabic/sources/NotoKufiArabic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arabic/sources/NotoNaskhArabic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arabic/sources/NotoNaskhArabicUI.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arabic/sources/NotoSansArabic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arabic/sources/NotoSansArabicUI.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "are-you-serious/sources/AreYouSerious.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "arizonia/sources/Arizonia.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "armenian/sources/NotoSansArmenian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "armenian/sources/NotoSerifArmenian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "atkinson-hyperlegible/sources/AtkinsonHyperlegible-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "atkinson-hyperlegible/sources/AtkinsonHyperlegible.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "avestan/sources/NotoSansAvestan.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "babylonica/sources/Babylonica.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bacasime-antique-fonts/sources/Bacasime-Antique-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "balinese/sources/NotoSansBalinese.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "balinese/sources/NotoSerifBalinese.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "balsamiqsans/sources/glyphs/BalsamiqSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "balsamiqsans/sources/glyphs/BalsamiqSans-Roman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bamum/sources/NotoSansBamum.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bassa-vah/sources/NotoSansBassaVah.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "batak/sources/NotoSansBatak.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "beau-rivage/sources/BeauRivage-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "belanosima-fonts/sources/Belanosima-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bengali/sources/NotoSansBengali.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bengali/sources/NotoSerifBengali.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bhaiksuki/sources/NotoSansBhaiksuki.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bilbo/sources/BilboPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "birthstone/sources/BirthstonePro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "birthstone-bounce/sources/BirthstoneBounce.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bonheur-royale/sources/BonheurRoyale.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "brahmi/sources/NotoSansBrahmi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "bricolage/sources/BricolageGrotesque.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "buginese/sources/NotoSansBuginese.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "buhid/sources/NotoSansBuhid.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "canadian-aboriginal/sources/NotoSansCanadianAboriginal.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "caprasimo-fonts/sources/Caprasimo-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "caramel/sources/CaramelPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "carattere/sources/Carattere.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "carian/sources/NotoSansCarian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "caucasian-albanian/sources/NotoSansCaucasianAlbanian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "chakma/sources/NotoSansChakma.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cham/sources/NotoSansCham.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "changa-vf/sources/Changa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cherish/sources/Cherish.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cherokee/sources/NotoSansCherokee.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "chorasmian/sources/NotoSansChorasmian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "comforter/sources/ComforterPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "comforter-brush/sources/ComforterBrush-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "comme/sources/Comme.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "coptic/sources/NotoSansCoptic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "corinthia/sources/Corinthia.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cuneiform/sources/NotoSansCuneiform.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cutivemono/sources/CutiveMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cypriot/sources/NotoSansCypriot.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "cypro-minoan/sources/NotoSansCyproMinoan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "damionFont/sources/Damion.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "danfo/sources/Danfo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "david-libre/sources/DavidLibre.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "deseret/sources/NotoSansDeseret.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "devanagari/sources/NotoSansDevanagari.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "devanagari/sources/NotoSansDevanagariUI.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "devanagari/sources/NotoSerifDevanagari.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "dogra/sources/NotoSerifDogra.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "dosis-vf/sources/Dosis.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "duployan/sources/NotoSansDuployan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "dynapuff/sources/DynaPuff.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "egyptian-hieroglyphs/sources/NotoSansEgyptianHieroglyphs.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "elbasan/sources/NotoSansElbasan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "elymaic/sources/NotoSansElymaic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ephesis/sources/Ephesis.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "estonia/sources/EstoniaPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ethiopic/sources/NotoSansEthiopic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ethiopic/sources/NotoSerifEthiopic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "explora/sources/ExploraPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "festive/sources/Festive-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "figtree/sources/Figtree-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "figtree/sources/Figtree.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "fleurdeleah/sources/FleurDeLeah.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "font_tiny5/sources/tiny5-Regular.sfd": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "fragment-mono/sources/Fragment-Mono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "francoisoneFont/sources/FrancoisOne.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "frankruhllibre/sources/FrankRuhlLibre.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "fuggles/sources/Fuggles.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "fuzzy-bubbles/sources/FuzzyBubbles.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gabarito/sources/Gabarito.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "genos/sources/Genos-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "genos/sources/Genos.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "geologica/sources/master_ufo/Geologica.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "georgian/sources/NotoSansGeorgian.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "georgian/sources/NotoSerifGeorgian.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gideon/sources/GideonRoman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "glagolitic/sources/NotoSansGlagolitic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gloock/sources/Gloock.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "golos-text/sources/GolosText.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gothic/sources/NotoSansGothic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "graduate/sources/graduate.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "grantha/sources/NotoSansGrantha.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "grantha/sources/NotoSerifGrantha.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "grapenuts/sources/GrapeNuts.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "great-vibes/sources/GreatVibes-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "grechen-fuemen/sources/GrechenFuemen.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "grey-qo/sources/GreyQo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gujarati/sources/NotoSansGujarati.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gujarati/sources/NotoSerifGujarati.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gunjala-gondi/sources/NotoSansGunjalaGondi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gurmukhi/sources/NotoSansGurmukhi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gurmukhi/sources/NotoSerifGurmukhi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "gwendolyn/sources/GwendolynPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hahmlet/sources/Hahmlet.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hanifi-rohingya/sources/NotoSansHanifiRohingya.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hanken-grotesk/sources/HankenGrotesk-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hanken-grotesk/sources/HankenGrotesk.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hanunoo/sources/NotoSansHanunoo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hatran/sources/NotoSansHatran.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hebrew/sources/NotoRashiHebrew.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hebrew/sources/NotoSansHebrew.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hebrew/sources/NotoSansHebrewDroid.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hebrew/sources/NotoSerifHebrew.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "heebo/sources/Heebo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hentaigana/sources/NotoSerifHentaigana.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "hurricane/sources/Hurricane-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "imperial-aramaic/sources/NotoSansImperialAramaic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "imperial-script/sources/ImperialScript.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "indic-siyaq-numbers/sources/NotoSansIndicSiyaqNumbers.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ingrid-darling/sources/IngridDarling.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "inscriptional-pahlavi/sources/NotoSansInscriptionalPahlavi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "inscriptional-parthian/sources/NotoSansInscriptionalParthian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "instrument-sans/sources/InstrumentSans-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "instrument-sans/sources/InstrumentSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "instrument-serif/sources/Instrument_Serif.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "instrument-serif/sources/Instrument_Serif_Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "inter-gf-tight/sources/InterTight-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "inter-gf-tight/sources/InterTight.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "island-moments/sources/IslandMomentsPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "italianno/sources/Italianno.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "javanese/sources/NotoSansJavanese.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "jura/sources/Jura.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kablammo/sources/Kablammo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kaffeesatz/sources/YanoneKaffeesatz.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kaithi/sources/NotoSansKaithi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kannada/sources/NotoSansKannada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kannada/sources/NotoSerifKannada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kantumruy-pro/sources/Italic/KantumruyPro-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kantumruy-pro/sources/Upright/KantumruyPro.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "karla/sources/Karla-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "karla/sources/Karla.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kawi/sources/NotoSansKawi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kayah-li/sources/NotoSansKayahLi.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kdam-thmor-pro/sources/KdamThmorPro.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kharoshthi/sources/NotoSansKharoshthi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khitan-small-script/sources/NotoFangsongKSSRotated.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khitan-small-script/sources/NotoFangsongKSSVertical.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khitan-small-script/sources/NotoSerifKhitanSmallScript.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khmer/sources/NotoSansKhmer.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khmer/sources/NotoSansKhmerUI.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khmer/sources/NotoSerifKhmer.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khojki/sources/NotoSansKhojki.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khojki/sources/NotoSerifKhojki.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "khudawadi/sources/NotoSansKhudawadi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kings/sources/KingsPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kode-mono/sources/./KodeMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kolker-brush/sources/KolkerBrush.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "kreon/sources/Kreon.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lao/sources/NotoSansLao.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lao/sources/NotoSansLaoLooped.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lao/sources/NotoSansLaoLoopedUI.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lao/sources/NotoSansLaoUI-MM.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lao/sources/NotoSerifLao.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "latin-greek-cyrillic/sources/NotoSans-Italic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "latin-greek-cyrillic/sources/NotoSans.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "latin-greek-cyrillic/sources/NotoSansMono.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "latin-greek-cyrillic/sources/NotoSerif-Italic.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "latin-greek-cyrillic/sources/NotoSerif.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lavishly-yours/sources/LavishlyYours.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "league-gothic/sources/LeagueGothic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "league-spartan/sources/LeagueSpartan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lepcha/sources/NotoSansLepcha.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "licorice/sources/Licorice.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "life-savers/sources/LifeSavers.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "limbu/sources/NotoSansLimbu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "linear-a/sources/NotoSansLinearA.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "linear-b/sources/NotoSansLinearB.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "linefont/sources/Linefont.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lisu/sources/NotoSansLisu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "literata/sources/Literata-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "literata/sources/Literata.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "love-light/sources/LoveLight.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lovers-quarrel/sources/LoversQuarrel.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lugrasimo-fonts/sources/Lugrasimo-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lumanosimo-fonts/sources/Lumanosimo-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lunasima-fonts/sources/Lunasima-Regular.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "luxurious/sources/Luxurious-Script.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "luxurious-roman/sources/Luxurious-Roman.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lycian/sources/NotoSansLycian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "lydian/sources/NotoSansLydian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "madimi/sources/madimi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mahajani/sources/NotoSansMahajani.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "makasar/sources/NotoSerifMakasar.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "makingbiorhyme/sources/BioRhyme.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "malayalam/sources/NotoSansMalayalam.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "malayalam/sources/NotoSerifMalayalam.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "maname-font/sources/Maname.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mandaic/sources/NotoSansMandaic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "manichaean/sources/NotoSansManichaean.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mansalva/sources/Mansalva.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "marchen/sources/NotoSansMarchen.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "markazitext/sources/MarkaziText.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "masaram-gondi/sources/NotoSansMasaramGondi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "math/sources/NotoSansMath.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mavenproFont/sources/MavenPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mayan-numerals/sources/NotoSansMayanNumerals.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mea-culpa/sources/MeaCulpaPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "medefaidrin/sources/NotoSansMedefaidrin.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "meetei-mayek/sources/NotoSansMeeteiMayek.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mende-kikakui/sources/NotoSansMendeKikakui.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "meow-script/sources/MeowScript.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "merienda/sources/Merienda.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "meroitic/sources/NotoSansMeroitic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "miao/sources/NotoSansMiao.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "modi/sources/NotoSansModi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mona-sans/sources/MonaSans.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mondaFont/sources/Monda.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mongolian/sources/NotoSansMongolian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mono/sources/MartianMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "monte-carlo/sources/MonteCarloPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "moolahlah/sources/MooLahLah.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mooliFont/sources/Mooli.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "moondance/sources/MoonDancePro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mro/sources/NotoSansMro.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ms-madi/sources/MsMadi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mulish/sources/Mulish-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "mulish/sources/Mulish.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "multani/sources/NotoSansMultani.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "music/sources/NotoMusic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "my-soul/sources/MySoul.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "myanmar/sources/NotoSansMyanmar.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "myanmar/sources/NotoSansMyanmarUI.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "myanmar/sources/NotoSerifMyanmar.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nabataean/sources/NotoSansNabataean.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nag-mundari/sources/NotoSansNagMundari.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nandinagari/sources/NotoSansNandinagari.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nastaliq/sources/NotoNastaliqUrdu.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "neonderthaw/sources/NeonDerThaw.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "new-tai-lue/sources/NotoSansNewTaiLue.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "newa/sources/NotoSansNewa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nko/sources/NotoSansNKo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nko/sources/NotoSansNKoUnjoined.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nushu/sources/NotoSansNushu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "nushu/sources/NotoTraditionalNushu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ogham/sources/NotoSansOgham.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ojuju/sources/Ojuju.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ol-chiki/sources/NotoSansOlChiki.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-hungarian/sources/NotoSansOldHungarian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-italic/sources/NotoSansOldItalic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-north-arabian/sources/NotoSansOldNorthArabian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-permic/sources/NotoSansOldPermic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-persian/sources/NotoSansOldPersian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-sogdian/sources/NotoSansOldSogdian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-south-arabian/sources/NotoSansOldSouthArabian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-turkic/sources/NotoSansOldTurkic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "old-uyghur/sources/NotoSerifOldUyghur.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ole/sources/Ole.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "onest/sources/Onest.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "oooh-baby/sources/OoohBaby.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "orbitron-vf/sources/Orbitron.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "oriya/sources/NotoSansOriya.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "oriya/sources/NotoSerifOriya.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "osage/sources/NotoSansOsage.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "osmanya/sources/NotoSansOsmanya.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ottoman-siyaq-numbers/sources/NotoSerifOttomanSiyaq.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "pahawh-hmong/sources/NotoSansPahawhHmong.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "palmyrene/sources/NotoSansPalmyrene.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "paprika/sources/Paprika.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "passions-conflict/sources/PassionsConflict.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "pau-cin-hau/sources/NotoSansPauCinHau.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "petemoss/sources/Petemoss.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "phags-pa/sources/NotoSansPhagsPa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "philosopher/sources/Philosopher-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "philosopher/sources/Philosopher.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "phoenician/sources/NotoSansPhoenician.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "platypi/sources/Platypi-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "platypi/sources/Platypi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "play-ball/sources/Playball.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "praise-script/sources/Praise-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "psalter-pahlavi/sources/NotoSansPsalterPahlavi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "puppies-play/sources/PuppiesPlay.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "questrial/sources/Questrial.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "qwigley/sources/Qwigley.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "qwitcher-grypen/sources/QwitcherGrypenPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "radiocanadadisplay/sources/RadioCanadaBig-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "radiocanadadisplay/sources/RadioCanadaBig.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "radiocanadafonts/sources/RadioCanada-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "radiocanadafonts/sources/RadioCanada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "readexpro/sources/ReadexPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "rejang/sources/NotoSansRejang.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "road-rage/sources/RoadRage.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "roboto-serif/sources/RobotoSerif-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "roboto-serif/sources/RobotoSerif.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "rubik/sources/Rubik-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "rubik/sources/Rubik.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ruge-boogie/sources/RugeBoogiePro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "runic/sources/NotoSansRunic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ruthie/sources/Ruthie.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "samaritan/sources/NotoSansSamaritan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sancreek/sources/Sancreek.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sassy-frass/sources/SassyFrass.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "saurashtra/sources/NotoSansSaurashtra.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sawarabi-mincho/sources/SawarabiMincho.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "schibsted-grotesk/sources/SchibstedGrotesk-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "schibsted-grotesk/sources/SchibstedGrotesk.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sedan/sources/Sedan-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sedan/sources/Sedan-Regular.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "send-flowers/sources/SendFlowers.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "seymourFont/sources/SeymourOne.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "shalimar/sources/Shalimar.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sharada/sources/NotoSansSharada.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "shavian/sources/NotoSansShavian.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "siddham/sources/NotoSansSiddham.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sign-writing/sources/NotoSansSignWriting.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "signika/sources/Signika.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "silkscreen/sources/Silkscreen.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sinhala/sources/NotoSansSinhala.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sinhala/sources/NotoSerifSinhala.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "smooch/sources/SmoochPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "smooch-sans/sources/SmoochSans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jacquard/sources/Jacquard12.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jacquard/sources/Jacquard12Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jacquard/sources/Jacquard24.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jacquard/sources/Jacquard24Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jacquarda-bastarda/sources/Jacquarda-Bastarda-9.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey10.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey10Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey15.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey15Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey20.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey20Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey25.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-jersey/sources/Jersey25Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-micro/sources/Micro5.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-yarndings/sources/Yarndings12.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-yarndings/sources/Yarndings12Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-yarndings/sources/Yarndings20.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soft-type-yarndings/sources/Yarndings20Charted.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sogdian/sources/NotoSansSogdian.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "solitreo/sources/Solitreo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sometype-mono/sources/SometypeMono-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sometype-mono/sources/SometypeMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sono/sources/Sono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sora-sompeng/sources/NotoSansSoraSompeng.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "soyombo/sources/NotoSansSoyombo.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "splash/sources/Splash.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "square-peg/sources/SquarePeg.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "style-script/sources/StyleScript-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "sundanese/sources/NotoSansSundanese.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "syloti-nagri/sources/NotoSansSylotiNagri.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "symbols/sources/NotoSansSymbols.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "symbols/sources/NotoSansSymbols2.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "syriac/sources/NotoSansSyriac.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "syriac/sources/NotoSansSyriacEastern.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "syriac/sources/NotoSansSyriacWestern.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tac/sources/Tac.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tagalog/sources/NotoSansTagalog.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tagbanwa/sources/NotoSansTagbanwa.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tai-le/sources/NotoSansTaiLe.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tai-tham/sources/NotoSansTaiTham.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tai-viet/sources/NotoSansTaiViet.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "takri/sources/NotoSansTakri.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tamil/sources/NotoSansTamil.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tamil/sources/NotoSansTamilSupplement.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tamil/sources/NotoSerifTamil-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tamil/sources/NotoSerifTamil.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tangsa/sources/NotoSansTangsa.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tangut/sources/NotoSerifTangut.glyphspackage": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tapestry/sources/Tapestry.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "teko/sources/Teko.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "telugu/sources/NotoSansTelugu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "telugu/sources/NotoSerifTelugu.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thaana/sources/NotoSansThaana.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thai/sources/NotoSansThai.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thai/sources/NotoSansThaiLooped.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thai/sources/NotoSansThaiLoopedUI.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thai/sources/NotoSansThaiUI.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "thai/sources/NotoSerifThai.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "the-nautigal/sources/TheNautigalPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tibetan/sources/NotoSerifTibetan.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tifinagh/sources/NotoSansTifinagh.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "tirhuta/sources/NotoSansTirhuta.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "toto/sources/NotoSerifToto.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "twinkle-star/sources/TwinkleStar-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "ugaritic/sources/NotoSansUgaritic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "updock/sources/Updock-Pro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "vai/sources/NotoSansVai.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "victor-mono-font/sources/VictorMono-Italic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "victor-mono-font/sources/VictorMono.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "vinasans/sources/Vina Sans.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "vithkuqi/sources/NotoSansVithkuqi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "vithkuqi/sources/NotoSerifVithkuqi.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "vujahday/sources/VujahDayPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "wancho/sources/NotoSansWancho.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "warang-citi/sources/NotoSansWarangCiti.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "water-brush/sources/WaterBrush.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "waterfall/sources/WaterfallPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "wavefont/sources/Wavefont.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "whisper/sources/Whisper.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "windsong/sources/WindSongPro.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "wixmadefor/sources/WixMadeforDisplay.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "wixmadefor/sources/WixMadeforText-Italic.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "wixmadefor/sources/WixMadeforText.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "yezidi/sources/NotoSerifYezidi.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "yi/sources/NotoSansYi.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "zanabazar-square/sources/NotoSansZanabazarSquare.designspace": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "zen-dots/sources/ZenDots.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "zen-loop/sources/ZenLoop.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "zen-loop/sources/ZenLoopItalic.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "zen-tokyo-zoo/sources/TokyoZoo.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    },
+    "znamenny/sources/NotoZnamennyMusicalNotation.glyphs": {
+      "other": "No such file or directory (os error 2)"
+    }
+  },
+  "panic": [],
+  "skipped": {
+    "/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmproZkHg/ClimateCrisis": "GitFail",
+    "/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmproZkHg/Playfair": "GitFail",
+    "/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmproZkHg/Playpen-Sans": {
+      "BadConfig": "missing field `sources`"
+    },
+    "/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmproZkHg/manjari": {
+      "BadConfig": "No such file or directory (os error 2)"
+    },
+    "/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmproZkHg/syne-typeface": {
+      "BadConfig": "No such file or directory (os error 2)"
+    }
+  }
+}
