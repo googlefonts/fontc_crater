@@ -700,5 +700,23 @@
       "diff_perc_including_failures": 85.71997,
       "diff_perc_excluding_failures": 97.59126
     }
+  },
+  {
+    "began": "2024-10-16T18:01:42.849090Z",
+    "finished": "2024-10-16T18:17:50.115505Z",
+    "fontc_rev": "5be2ba0d",
+    "results_file": "2024-10-16-180142.json",
+    "input_file": "gf-repos-2024-08-12.json",
+    "stats": {
+      "total_targets": 638,
+      "identical": 106,
+      "produced_diff": 452,
+      "fontc_failed": 16,
+      "fontmake_failed": 16,
+      "both_failed": 41,
+      "other_failure": 2,
+      "diff_perc_including_failures": 86.03571,
+      "diff_perc_excluding_failures": 97.599655
+    }
   }
 ]
