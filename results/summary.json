@@ -3,6 +3,7 @@
     "began": "2024-07-22T00:00:00.780736Z",
     "finished": "2024-07-22T00:00:00.780736Z",
     "fontc_rev": "e7019c39",
+    "pip_freeze_sha": "",
     "results_file": "july22.json",
     "input_file": "myinputs",
     "stats": {
@@ -21,6 +22,7 @@
     "began": "2024-07-24T00:00:00.761184Z",
     "finished": "2024-07-24T00:00:00.761211Z",
     "fontc_rev": "06a9f4a2",
+    "pip_freeze_sha": "",
     "results_file": "july24.json",
     "input_file": "myinputs",
     "stats": {
@@ -39,6 +41,7 @@
     "began": "2024-08-01T00:00:00.788526Z",
     "finished": "2024-08-01T00:00:00.788526Z",
     "fontc_rev": "4f4d1653",
+    "pip_freeze_sha": "",
     "results_file": "aug1.json",
     "input_file": "myinputs",
     "stats": {
@@ -57,6 +60,7 @@
     "began": "2024-08-08T00:00:00.771470Z",
     "finished": "2024-08-08T00:00:00.771469Z",
     "fontc_rev": "3d7a5892",
+    "pip_freeze_sha": "",
     "results_file": "aug08.json",
     "input_file": "myinputs",
     "stats": {
@@ -75,6 +79,7 @@
     "began": "2024-08-14T22:25:20.099105Z",
     "finished": "2024-08-15T14:09:50.426577Z",
     "fontc_rev": "aab24cce",
+    "pip_freeze_sha": "",
     "results_file": "2024-08-14-222520.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -93,6 +98,7 @@
     "began": "2024-08-16T19:40:10.694689Z",
     "finished": "2024-08-17T18:20:48.213913Z",
     "fontc_rev": "9fc858b2",
+    "pip_freeze_sha": "",
     "results_file": "2024-08-16-194010.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -111,6 +117,7 @@
     "began": "2024-08-22T21:06:37.484252Z",
     "finished": "2024-08-23T00:55:18.402163Z",
     "fontc_rev": "9279e2ac",
+    "pip_freeze_sha": "",
     "results_file": "2024-08-22-210637.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -129,6 +136,7 @@
     "began": "2024-08-23T18:03:25.881222Z",
     "finished": "2024-08-24T00:47:47.864177Z",
     "fontc_rev": "7e99de60",
+    "pip_freeze_sha": "",
     "results_file": "2024-08-23-180325.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -147,6 +155,7 @@
     "began": "2024-08-24T01:06:31.316166Z",
     "finished": "2024-08-24T04:51:53.322462Z",
     "fontc_rev": "88964a7f",
+    "pip_freeze_sha": "",
     "results_file": "2024-08-24-010631.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -165,6 +174,7 @@
     "began": "2024-09-03T17:08:57.405139Z",
     "finished": "2024-09-04T02:14:50.715231Z",
     "fontc_rev": "b4510aac",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-03-170857.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -183,6 +193,7 @@
     "began": "2024-09-04T02:57:10.230284Z",
     "finished": "2024-09-04T15:13:01.325609Z",
     "fontc_rev": "b8d421ca",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-04-025710.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -201,6 +212,7 @@
     "began": "2024-09-04T21:32:20.634293Z",
     "finished": "2024-09-05T01:52:01.690271Z",
     "fontc_rev": "1c75077e",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-04-213220.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -219,6 +231,7 @@
     "began": "2024-09-06T15:09:29.888044Z",
     "finished": "2024-09-07T00:18:21.032460Z",
     "fontc_rev": "d6e43bba",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-06-150929.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -237,6 +250,7 @@
     "began": "2024-09-07T05:01:28.456379Z",
     "finished": "2024-09-07T14:09:23.657582Z",
     "fontc_rev": "9def1070",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-07-050128.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -255,6 +269,7 @@
     "began": "2024-09-08T05:01:28.127783Z",
     "finished": "2024-09-08T14:04:11.667531Z",
     "fontc_rev": "588ee88a",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-08-050128.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -273,6 +288,7 @@
     "began": "2024-09-11T19:30:49.401337Z",
     "finished": "2024-09-12T04:31:14.566016Z",
     "fontc_rev": "316fdb06",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-11-193049.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -291,6 +307,7 @@
     "began": "2024-09-12T05:01:27.139529Z",
     "finished": "2024-09-12T09:25:13.157775Z",
     "fontc_rev": "195d1cae",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-12-050127.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -309,6 +326,7 @@
     "began": "2024-09-17T05:01:22.902984Z",
     "finished": "2024-09-17T14:10:08.027180Z",
     "fontc_rev": "809cb6fd",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-17-050122.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -327,6 +345,7 @@
     "began": "2024-09-17T22:03:17.141951Z",
     "finished": "2024-09-17T22:43:52.909934Z",
     "fontc_rev": "09025bf4",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-17-220317.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -345,6 +364,7 @@
     "began": "2024-09-20T05:01:29.706779Z",
     "finished": "2024-09-20T05:18:25.345331Z",
     "fontc_rev": "a612b74d",
+    "pip_freeze_sha": "",
     "results_file": "2024-09-20-050129.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -363,6 +383,7 @@
     "began": "2024-10-02T05:01:29.518443Z",
     "finished": "2024-10-02T10:11:14.871998Z",
     "fontc_rev": "d818f469",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-02-050129.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -381,6 +402,7 @@
     "began": "2024-10-03T05:01:46.409349Z",
     "finished": "2024-10-03T10:10:45.855420Z",
     "fontc_rev": "8644ab9b",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-03-050146.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -399,6 +421,7 @@
     "began": "2024-10-03T13:55:12.858936Z",
     "finished": "2024-10-03T14:17:28.225535Z",
     "fontc_rev": "266624a8",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-03-135512.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -417,6 +440,7 @@
     "began": "2024-10-04T05:01:40.069259Z",
     "finished": "2024-10-04T10:12:55.201855Z",
     "fontc_rev": "603af2a5",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-04-050140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -435,6 +459,7 @@
     "began": "2024-10-05T05:01:35.490674Z",
     "finished": "2024-10-05T10:04:36.317165Z",
     "fontc_rev": "f592d199",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-05-050135.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -453,6 +478,7 @@
     "began": "2024-10-07T17:56:40.146306Z",
     "finished": "2024-10-07T22:59:54.382384Z",
     "fontc_rev": "7c393d33",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-07-175640.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -471,6 +497,7 @@
     "began": "2024-10-07T23:01:33.911433Z",
     "finished": "2024-10-07T23:15:56.456395Z",
     "fontc_rev": "90cc0d8b",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-07-230133.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -489,6 +516,7 @@
     "began": "2024-10-08T17:01:33.946294Z",
     "finished": "2024-10-08T17:17:02.455457Z",
     "fontc_rev": "9a1e4375",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-08-170133.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -507,6 +535,7 @@
     "began": "2024-10-08T23:01:32.748087Z",
     "finished": "2024-10-08T23:27:30.256761Z",
     "fontc_rev": "a8193c11",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-08-230132.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -525,6 +554,7 @@
     "began": "2024-10-09T17:01:40.186868Z",
     "finished": "2024-10-09T17:15:33.801077Z",
     "fontc_rev": "caeba53c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-09-170140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -543,6 +573,7 @@
     "began": "2024-10-09T23:01:42.504758Z",
     "finished": "2024-10-09T23:31:18.810796Z",
     "fontc_rev": "34076b5e",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-09-230142.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -561,6 +592,7 @@
     "began": "2024-10-10T23:01:40.095102Z",
     "finished": "2024-10-10T23:16:33.090170Z",
     "fontc_rev": "a18c3bd9",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-10-230140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -579,6 +611,7 @@
     "began": "2024-10-12T11:01:41.001829Z",
     "finished": "2024-10-12T11:15:49.752964Z",
     "fontc_rev": "44f1a6e2",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-12-110141.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -597,6 +630,7 @@
     "began": "2024-10-14T11:01:35.263733Z",
     "finished": "2024-10-14T11:21:50.656230Z",
     "fontc_rev": "c074d550",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-14-110135.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -615,6 +649,7 @@
     "began": "2024-10-14T17:01:51.640492Z",
     "finished": "2024-10-14T17:16:07.826447Z",
     "fontc_rev": "d03e19bc",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-14-170151.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -633,6 +668,7 @@
     "began": "2024-10-14T23:01:36.497558Z",
     "finished": "2024-10-14T23:16:31.067828Z",
     "fontc_rev": "7c3be612",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-14-230136.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -651,6 +687,7 @@
     "began": "2024-10-15T05:01:39.148082Z",
     "finished": "2024-10-15T05:25:26.211366Z",
     "fontc_rev": "d4b2a84c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-15-050139.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -669,6 +706,7 @@
     "began": "2024-10-15T17:01:38.774385Z",
     "finished": "2024-10-15T17:16:13.641430Z",
     "fontc_rev": "37143a0c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-15-170138.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -687,6 +725,7 @@
     "began": "2024-10-16T16:01:41.779867Z",
     "finished": "2024-10-16T16:31:15.837587Z",
     "fontc_rev": "9df83ca5",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-16-160141.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -705,6 +744,7 @@
     "began": "2024-10-16T18:01:42.849090Z",
     "finished": "2024-10-16T18:17:50.115505Z",
     "fontc_rev": "5be2ba0d",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-16-180142.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -723,6 +763,7 @@
     "began": "2024-10-16T21:01:38.737249Z",
     "finished": "2024-10-16T21:15:29.255501Z",
     "fontc_rev": "36053b81",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-16-210138.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -741,6 +782,7 @@
     "began": "2024-10-16T22:01:40.417258Z",
     "finished": "2024-10-16T22:24:26.981567Z",
     "fontc_rev": "65a0703a",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-16-220140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -759,6 +801,7 @@
     "began": "2024-10-17T08:01:32.078201Z",
     "finished": "2024-10-17T08:19:39.706010Z",
     "fontc_rev": "00b2890c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-17-080132.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -777,6 +820,7 @@
     "began": "2024-10-17T21:01:34.698760Z",
     "finished": "2024-10-17T21:15:40.214374Z",
     "fontc_rev": "6351da4e",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-17-210134.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -795,6 +839,7 @@
     "began": "2024-10-18T08:01:45.488119Z",
     "finished": "2024-10-18T08:16:50.173589Z",
     "fontc_rev": "1e4906f0",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-18-080145.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -813,6 +858,7 @@
     "began": "2024-10-18T15:01:40.444766Z",
     "finished": "2024-10-18T15:16:07.025685Z",
     "fontc_rev": "2611c59c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-18-150140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -831,6 +877,7 @@
     "began": "2024-10-18T16:01:36.097824Z",
     "finished": "2024-10-18T16:15:34.739002Z",
     "fontc_rev": "ab35d44b",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-18-160136.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -849,6 +896,7 @@
     "began": "2024-10-22T16:01:37.297971Z",
     "finished": "2024-10-22T16:18:38.934573Z",
     "fontc_rev": "081b6041",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-22-160137.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -867,6 +915,7 @@
     "began": "2024-10-23T00:01:40.352055Z",
     "finished": "2024-10-23T00:15:59.094749Z",
     "fontc_rev": "cf0809b5",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-23-000140.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -885,6 +934,7 @@
     "began": "2024-10-24T22:13:55.986168Z",
     "finished": "2024-10-24T22:28:17.617600Z",
     "fontc_rev": "96d887da",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-24-220143.json",
     "input_file": "gf-repos-2024-08-12.json",
     "stats": {
@@ -903,6 +953,7 @@
     "began": "2024-10-25T16:02:09.423433Z",
     "finished": "2024-10-25T16:15:38.210989Z",
     "fontc_rev": "ddd569cc",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-25-160137.json",
     "input_file": "gf-repos-2024-09-23.json",
     "stats": {
@@ -921,6 +972,7 @@
     "began": "2024-10-28T22:01:38.143655Z",
     "finished": "2024-10-28T22:15:39.413757Z",
     "fontc_rev": "184a37c5",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-28-220133.json",
     "input_file": "gf-repos-2024-09-23.json",
     "stats": {
@@ -939,6 +991,7 @@
     "began": "2024-10-29T01:02:00.887432Z",
     "finished": "2024-10-29T01:43:33.997187Z",
     "fontc_rev": "6aa45e69",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-29-010156.json",
     "input_file": "gf-repos-2024-09-23.json",
     "stats": {
@@ -957,6 +1010,7 @@
     "began": "2024-10-29T10:01:53.241962Z",
     "finished": "2024-10-29T10:41:25.514603Z",
     "fontc_rev": "723e233c",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-29-100148.json",
     "input_file": "gf-repos-2024-09-23.json",
     "stats": {
@@ -975,6 +1029,7 @@
     "began": "2024-10-29T13:01:53.993567Z",
     "finished": "2024-10-29T14:38:27.541825Z",
     "fontc_rev": "fd1fc6ab",
+    "pip_freeze_sha": "",
     "results_file": "2024-10-29-130149.json",
     "input_file": "gf-repos-2024-09-23.json",
     "stats": {
@@ -987,6 +1042,25 @@
       "other_failure": 4,
       "diff_perc_including_failures": 74.35643,
       "diff_perc_excluding_failures": 92.14081
+    }
+  },
+  {
+    "began": "2024-10-29T19:01:51.366048Z",
+    "finished": "2024-10-29T20:38:46.768236Z",
+    "fontc_rev": "49f16f90",
+    "pip_freeze_sha": "3fc2217fb572ec36e1abac39ed6ed8d7ea6c81d4  -",
+    "results_file": "2024-10-29-190146.json",
+    "input_file": "gf-repos-2024-09-23.json",
+    "stats": {
+      "total_targets": 1145,
+      "identical": 167,
+      "produced_diff": 757,
+      "fontc_failed": 36,
+      "fontmake_failed": 64,
+      "both_failed": 119,
+      "other_failure": 2,
+      "diff_perc_including_failures": 74.37116,
+      "diff_perc_excluding_failures": 92.159065
     }
   }
 ]
