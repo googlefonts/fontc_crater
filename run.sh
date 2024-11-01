@@ -29,6 +29,7 @@ cleanup() {
     rm -rf $FONTC_DIR
     rm $LOCKFILE
     deactivate
+    # if we crashed after writing some files, stash them
 }
 
 # acquire lock, or bail:
@@ -80,6 +81,12 @@ if git clone $FONTC_REPO $FONTC_DIR ; then
     # run the actual script that starts CI:
     chmod +x $SCRIPT_PATH
     ( $SCRIPT_PATH )
+    if [ $? -ne 0 ]; then
+        echo script did not finish successfully, exiting
+        cleanup
+        exit 1
+    fi
+
     cd ..
 fi
 
