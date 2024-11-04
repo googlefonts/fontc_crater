@@ -75,7 +75,7 @@ echo "fetching fontc"
 if git clone $FONTC_REPO $FONTC_DIR ; then
     # install requirements:
     echo "installing requirements"
-    pip install -r $FONTC_REQUIREMENTS -c constraints.txt
+    pip install -r $FONTC_REQUIREMENTS
 
     cd $FONTC_DIR
     # run the actual script that starts CI:
