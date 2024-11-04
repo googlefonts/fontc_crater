@@ -27,9 +27,9 @@ To get running:
 `run.sh`. To change the inputs, add a new inputs file and then modify the
 `FONTC_CRATER_INPUT` var in that script.
 
-**fontmake dependencies**: We use `constraints.txt` to ensure that fontmake is
-using a consistent set of dependencies between runs. To update these
-dependencies, install the desired version of fontmake into a new `venv` and run
-`pip freeze` to generate a new constraints list.
+**python dependencies**: we manage python dependencies using pip-compile,
+based on a `requirements.in` file in the `fontc` repo. See
+[`fontc_crater README`][crater-readme] in that repository for more details.
 
 [`fontc`]: https://github.com/googlefonts/fontc
+[crater-readme]: https://github.com/googlefonts/fontc/blob/main/fontc_crater/README.md
