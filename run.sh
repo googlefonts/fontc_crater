@@ -30,6 +30,8 @@ cleanup() {
     rm $LOCKFILE
     deactivate
     # if we crashed after writing some files, stash them
+    git add .
+    git stash save "changes found at cleanup $(date '+%a %h %d %Y %H:%M')"
 }
 
 # acquire lock, or bail:
@@ -93,7 +95,17 @@ fi
 # move index.html from results/ to repo root
 mv $GENERATED_HTML index.html
 
-# todo: commit and push repo
+## commit and push repo
+
+# before we commit let's stash changes and pull
+# in case there's been some maintanance change made upstream
+# while we were running:
+
+git add .
+git stash save
+git pull
+git stash pop
+
 git add .
 git commit -m 'Automated commit'
 if [ $? -eq 0 ]; then
