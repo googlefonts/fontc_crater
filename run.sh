@@ -82,7 +82,9 @@ if git clone $FONTC_REPO $FONTC_DIR ; then
     cd $FONTC_DIR
     # run the actual script that starts CI:
     chmod +x $SCRIPT_PATH
-    ( $SCRIPT_PATH )
+    # pass our token through to the crater executable, it will use it to
+    # authenticate to private repos
+    ( export GITHUB_TOKEN=$GITHUB_TOKEN; $SCRIPT_PATH )
     if [ $? -ne 0 ]; then
         echo script did not finish successfully, exiting
         cleanup
