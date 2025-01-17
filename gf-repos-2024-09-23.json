@@ -3558,5 +3558,21 @@
       "config-underline.yaml",
       "config.yaml"
     ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans",
+    "rev": "b77673c3f",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans-flex",
+    "rev": "fc079d89fbe",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
+    ]
   }
 ]
