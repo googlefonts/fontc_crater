@@ -3574,5 +3574,13 @@
     "config_files": [
       "config.yaml"
     ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans-code",
+    "rev": "4de3a9eddffd7df57abc0f6f28c83a428329f437",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
+    ]
   }
 ]
