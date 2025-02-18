@@ -1,21 +1,21 @@
 [
     {
         "repo_url": "https://github.com/Afrotype/danfo",
-        "rev": "f4a0c2d",
+        "rev": "f4a0c2dd9c65c42707208ec788371cec30b71b7f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Afrotype/tac",
-        "rev": "b18a7f5",
+        "rev": "b18a7f59ff2e14cbc28968ea550926306426f6ce",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/AlessioLaiso/aleo",
-        "rev": "ce875e4",
+        "rev": "ce875e48d9983031648e87f38b7a269f4fbf5eb5",
         "config_files": [
             "config.yaml"
         ]
@@ -36,7 +36,7 @@
     },
     {
         "repo_url": "https://github.com/Dicotype/Afacad",
-        "rev": "b294b1f",
+        "rev": "b294b1f8610ff16a3846a255b1a6a2e6788a056e",
         "config_files": [
             "config.yaml",
             "config_flux.yaml"
@@ -58,14 +58,14 @@
     },
     {
         "repo_url": "https://github.com/EbenSorkin/Dekko",
-        "rev": "4887c14",
+        "rev": "4887c14997f1158a2a122d4351343e8745a8d504",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/EkType/Honk",
-        "rev": "99094d4",
+        "rev": "99094d4f6e3e73745fe3f2a6387d56c19d2a04cd",
         "config_files": [
             "config.yaml"
         ]
@@ -86,7 +86,7 @@
     },
     {
         "repo_url": "https://github.com/Etcetera-Type-Co/Epilogue",
-        "rev": "76bd97a",
+        "rev": "76bd97a82f0105535fb06e6940f2140b2c1a660c",
         "config_files": [
             "config.yaml"
         ]
@@ -114,21 +114,21 @@
     },
     {
         "repo_url": "https://github.com/Familjen-Sthlm/Familjen-Grotesk",
-        "rev": "de7dfe0",
+        "rev": "de7dfe09f6014e43bfad3724ac4a07b95972763c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Fonthausen/CrimsonPro",
-        "rev": "24e8f7b",
+        "rev": "24e8f7bf59ec45d77c67879ad80d97e5f94c787b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Fonthausen/RokkittFont",
-        "rev": "762d1439",
+        "rev": "762d1439aaa7cf4a590f604451dfc2e1c6970b9f",
         "config_files": [
             "config.yaml"
         ]
@@ -142,42 +142,42 @@
     },
     {
         "repo_url": "https://github.com/Gue3bara/Alexandria",
-        "rev": "4fd1422",
+        "rev": "4fd1422be3488837c41fbdb84a77350f0f56a734",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Gue3bara/El-Messiri",
-        "rev": "553b98d",
+        "rev": "553b98d8e374318694b50862849af666268fd278",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Gue3bara/Lemonada",
-        "rev": "21a53a1",
+        "rev": "21a53a1760f6f3c3e585bc50bc3463e97f1fa7e6",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/HelsinkiTypeStudio/Finlandica",
-        "rev": "959e075",
+        "rev": "959e075ccc9652de57c72ecf56f887e13a537c85",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Instrument/instrument-sans",
-        "rev": "7fa2230",
+        "rev": "7fa22308a3d0c94ee2b3cd537a1196b65db34a3e",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Instrument/instrument-serif",
-        "rev": "65c0ef2",
+        "rev": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
         "config_files": [
             "config.yaml"
         ]
@@ -248,49 +248,49 @@
     },
     {
         "repo_url": "https://github.com/Lafontype/Gantari",
-        "rev": "363a3dd",
+        "rev": "363a3dd5634bfec7e9f7db11ca3e1f4739a182ab",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/NDISCOVER/Exo-1.0",
-        "rev": "3be4f55",
+        "rev": "3be4f55b626129f17a3b82677703e48c03dc2052",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/OdedEzer/heebo",
-        "rev": "76c7d53",
+        "rev": "76c7d538568d3e6d7f052a12c5675c84430df25f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Archivo",
-        "rev": "b5d6398",
+        "rev": "b5d63988ce19d044d3e10362de730af00526b672",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/ArchivoNarrow",
-        "rev": "9793ec7",
+        "rev": "9793ec77b6682a26bc7a6ed523ca65cc3cb90aec",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Asap",
-        "rev": "927ab39",
+        "rev": "927ab390d4ece9eaa70a3b16a6124baa9192e34c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Chivo",
-        "rev": "dc61c46",
+        "rev": "dc61c468d79781eb5183426e88e844af16cdc3e5",
         "config_files": [
             "configmono.yaml",
             "config.yaml"
@@ -298,84 +298,84 @@
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Faustina",
-        "rev": "eaed582",
+        "rev": "eaed5823e55b6256571a2bb379b5203083cab452",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Grenze",
-        "rev": "a2a182c",
+        "rev": "a2a182c7b828c3d6a1784ef08b22be8521b2b9a7",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Grenze-Gotisch",
-        "rev": "7b5eac1",
+        "rev": "7b5eac166bc3b2a519f98b5c124cb7a11670cc7b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Jaldi",
-        "rev": "1331545",
+        "rev": "13315457c7dd2cadd03642a2edd9d9552d0c227f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Labrada",
-        "rev": "b15424f",
+        "rev": "b15424f8840bda81f5dfa88f97bb634598faeadc",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Manuale",
-        "rev": "20a5ab6",
+        "rev": "20a5ab6a0da1c8cb56916d843e50db0ad6b6dfd3",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/MuseoModerno",
-        "rev": "ad2f135",
+        "rev": "ad2f135bea4525cf6d1f14d488593c0fc6ef82db",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Rosario",
-        "rev": "d8bf836",
+        "rev": "d8bf83600979c82357d8023243d3d01a386fc7fe",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Omnibus-Type/Texturina",
-        "rev": "5f38963",
+        "rev": "5f38963152042ab3bcb1722c1bdcc950f8605345",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Outfitio/Outfit-Fonts",
-        "rev": "9027738",
+        "rev": "902773808eb372f70fb34e8946dd1ffe604efc79",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/PaoloBiagini/Joan",
-        "rev": "981cb73",
+        "rev": "981cb73299f7d9164eedcb647e57fb34c9dc1139",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/RedHatOfficial/Overpass",
-        "rev": "c580d28",
+        "rev": "c580d28bfab7f39013568e684a65eeb23eff588d",
         "config_files": [
             "config.yaml",
             "config_mono.yaml"
@@ -404,28 +404,28 @@
     },
     {
         "repo_url": "https://github.com/SorkinType/Alata",
-        "rev": "3b051d2",
+        "rev": "3b051d2a6181deba154717cfd6be409effe32ffa",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Alatsi",
-        "rev": "92b5663",
+        "rev": "92b5663a41d41e2912ec46cb4e523303e33f9723",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Asar",
-        "rev": "d04fb75",
+        "rev": "d04fb75bf304be9bfb0eff403a1d6ef8dc6c5f94",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Asset",
-        "rev": "8b65aa0",
+        "rev": "8b65aa032ccd4cd76c6e1e6e28bad4601210c8fe",
         "config_files": [
             "config.yaml"
         ]
@@ -439,56 +439,56 @@
     },
     {
         "repo_url": "https://github.com/SorkinType/Calistoga",
-        "rev": "6166268",
+        "rev": "61662683b93028d797e7ddb327fd33ff7e2838d4",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Denk-One",
-        "rev": "eadc321",
+        "rev": "eadc321b9f89db0d7090550e1d7bf6dcd75b6996",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Fruktur",
-        "rev": "0f8b79b",
+        "rev": "0f8b79b91438420d4c158890cb28bcb1eef407a0",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/GaMaamli",
-        "rev": "aed1210",
+        "rev": "aed1210a08dacfa86e419caf81fdb42940ee4e2a",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Gelasio",
-        "rev": "9228e69",
+        "rev": "9228e69b160d79f33950e026293f6e13ba9780d0",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/Pinyon",
-        "rev": "91d502f",
+        "rev": "91d502f9b3a98c210c54916c356caa534cdc4d70",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/SplineSans",
-        "rev": "5196436",
+        "rev": "5196436e0714c188c70f30a93b4759e8ed8afb69",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/SorkinType/SplineSansMono",
-        "rev": "b167db0",
+        "rev": "b167db03b7d7ae754bf7071c13415e7aeee7d073",
         "config_files": [
             "config.yaml"
         ]
@@ -509,7 +509,7 @@
     },
     {
         "repo_url": "https://github.com/TaVaTake/madimi",
-        "rev": "b0fedf3",
+        "rev": "b0fedf3bfa1ac17a00bdbcbf06e8fe2aecfa009e",
         "config_files": [
             "config.yaml"
         ]
@@ -523,7 +523,7 @@
     },
     {
         "repo_url": "https://github.com/Tural/Moderustic",
-        "rev": "6f0d4e1b",
+        "rev": "6f0d4e1bbc8725b0e8b936a6ae94103f7104defa",
         "config_files": [
             "config.yaml"
         ]
@@ -551,28 +551,28 @@
     },
     {
         "repo_url": "https://github.com/Typedesigners/Anta-Regular",
-        "rev": "7ef14d1",
+        "rev": "7ef14d1901946d317cb3bc136a895ff6c74c246c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/Vectro-Type-Foundry/kablammo",
-        "rev": "cccc120",
+        "rev": "cccc120d23cbf65f7f263122407d980a24f65f27",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/YADAMSS/Matemasie-Font",
-        "rev": "a6dbde5",
+        "rev": "a6dbde5f9eb448066e8c751ee4c5b4146a7fbc99",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/aaronbell/signika",
-        "rev": "bd06625",
+        "rev": "bd066259b5a87d24b23c4f0da03a96889b6d0503",
         "config_files": [
             "configNegative.yaml",
             "config.yaml"
@@ -580,42 +580,42 @@
     },
     {
         "repo_url": "https://github.com/agyeiarcher/Jaro",
-        "rev": "51096c4",
+        "rev": "51096c4f8e9e0076709d509b905741470beb972d",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/alexeiva/philosopher",
-        "rev": "9983715",
+        "rev": "9983715d443b6be727d886cd16bce241cf9ad0b7",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
-        "rev": "4548961",
+        "rev": "454896185708d68530577800804c032756040370",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/anrt-type/ANRT-Baskervville",
-        "rev": "11a43fe",
+        "rev": "11a43fe1ef8b4c23aff9f24c218412d15cca54fd",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/aoifemooney/makingbiorhyme",
-        "rev": "b3c0488",
+        "rev": "b3c0488559ad7c42e11b71e65d255344faff63b9",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/ateliertriay/bricolage",
-        "rev": "84745e5",
+        "rev": "84745e5b96261ae5f8c6c856e262fe78d1d6efdd",
         "config_files": [
             "config.yaml"
         ]
@@ -629,56 +629,56 @@
     },
     {
         "repo_url": "https://github.com/batsimadz/Sankofa-Display",
-        "rev": "078848b",
+        "rev": "078848b9058a9e51b36ac4602c7c7424d34bef21",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/bettergui/BeVietnamPro",
-        "rev": "804e62d",
+        "rev": "804e62d81abbbcdcce5686069c69b41b8c245192",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/bettergui/DarkerGrotesque",
-        "rev": "a5c3584",
+        "rev": "a5c3584b44ab3a7d272565662139ee07bb72e8e8",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cadsondemak/Anuphan",
-        "rev": "a8ee844",
+        "rev": "a8ee8448324cc13fb69d585c4f6da4994f7652b0",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/carolinashort/MyNerve",
-        "rev": "4220ec7",
+        "rev": "4220ec76c588d97b43757c5332b0aa45ed9a52f3",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/carolinashort/mansalva",
-        "rev": "192d65f",
+        "rev": "192d65ff2d1560ff6399abde05904d910965d483",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cbcrc/radiocanadafonts",
-        "rev": "61a4efa8",
+        "rev": "61a4efa847d6361be8e9cd3c656b3256b29d4ff4",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/chankfonts/Teachers-fonts",
-        "rev": "71a4377",
+        "rev": "71a4377cf26d6d016527557d2c8bd18894d0c7ad",
         "config_files": [
             "config.yaml"
         ]
@@ -692,35 +692,35 @@
     },
     {
         "repo_url": "https://github.com/coreyhu/Urbanist",
-        "rev": "5497164",
+        "rev": "549716453f76335ccc5a9e537cbe0da03d6fed34",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cyrealtype/Alice",
-        "rev": "19421ef",
+        "rev": "19421efc21eeeb872773006539ddcd743fb72440",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cyrealtype/Alike",
-        "rev": "2de9216",
+        "rev": "2de9216949bad46e02460fcb9e455be87d75462d",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cyrealtype/Alike-Angular",
-        "rev": "2076569",
+        "rev": "20765691758ef999907b9a20950d4f57f62de1d1",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cyrealtype/Brawler",
-        "rev": "628e718",
+        "rev": "628e7189feb4a17dc20059f9346356e63d531eda",
         "config_files": [
             "config.yaml"
         ]
@@ -734,98 +734,98 @@
     },
     {
         "repo_url": "https://github.com/cyrealtype/Marmelad-Cyrillic",
-        "rev": "16362f6",
+        "rev": "16362f68353c2115209b2e6f94e6d3ec8378626b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/cyrealtype/Podkova",
-        "rev": "e321080",
+        "rev": "e321080f4bfe74e7b14b4e928880c495f8b40675",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/d-sargent/platypi",
-        "rev": "c204c7b",
+        "rev": "c204c7ba647cd05f55a68be6973340fa47aa67d1",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/dancoull/ClimateCrisis",
-        "rev": "abb2058",
+        "rev": "abb2058c737b353e2b32ece0bc6c229bf7f6858b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/displaay/Azeret",
-        "rev": "3d45a6c",
+        "rev": "3d45a6c3e094f08bfc70551b525bd2037cac51ba",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/agdasima-fonts",
-        "rev": "c971400",
+        "rev": "c971400d774dfd6d28e7a8e34aedc3b3dfdce6f9",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/bacasime-antique-fonts",
-        "rev": "673db74",
+        "rev": "673db74ee28486bb370847e062a97a5f94cec2e0",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/belanosima-fonts",
-        "rev": "b772e9b",
+        "rev": "b772e9b7c44f32e17230f255fac9cac4bfaaa07f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/caprasimo-fonts",
-        "rev": "9f11e8f",
+        "rev": "9f11e8fd4e8a4bdf069612a275a40103c5337ccf",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/lugrasimo-fonts",
-        "rev": "1810308",
+        "rev": "18103084964ae884ad65dc31115dbc650b164a1a",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/lumanosimo-fonts",
-        "rev": "a7395fd",
+        "rev": "a7395fda4d79523ae6f0a798e2ea2d8ed524fc80",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/docrepair-fonts/lunasima-fonts",
-        "rev": "88f44d7",
+        "rev": "88f44d7a6c3693aa455dc7194c6e5a01cb2a39ae",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/duartp/gloock",
-        "rev": "de92978",
+        "rev": "de92978ce821ae0cba86954b4c46abc70486981d",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/duongtrtype/DTPhudu",
-        "rev": "338aed7",
+        "rev": "338aed71470e70e6d00a919489ca7da21792e7e6",
         "config_files": [
             "config.yaml"
         ]
@@ -846,7 +846,7 @@
     },
     {
         "repo_url": "https://github.com/eifetx/Pixelify-Sans",
-        "rev": "39df74a",
+        "rev": "39df74aba80df8157546034b878e8be1eb565ced",
         "config_files": [
             "config.yaml"
         ]
@@ -860,49 +860,49 @@
     },
     {
         "repo_url": "https://github.com/erikdkennedy/figtree",
-        "rev": "937cfe8",
+        "rev": "937cfe82ffa598f4965350aa9edfdf133f483d90",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/Amita",
-        "rev": "92680c0",
+        "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/Gabriela",
-        "rev": "961e4fb",
+        "rev": "961e4fb89c38cbe8ddcc3c9268c42d94c834d5da",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/Pathway-Variable-Font",
-        "rev": "4fa691f",
+        "rev": "4fa691f3898690d1f485839743ace01c5e6410da",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/graduate",
-        "rev": "d6031c4",
+        "rev": "d6031c4ce60208e8e68f5e4dee771420d22c3815",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/merienda",
-        "rev": "15f2f36",
+        "rev": "15f2f36d29595fa3dd6cf068323ef44bc0713b56",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/etunni/paprika",
-        "rev": "4297101",
+        "rev": "4297101a8717fd9ee5795b693f37f3c80bdd3d68",
         "config_files": [
             "config.yaml"
         ]
@@ -916,70 +916,70 @@
     },
     {
         "repo_url": "https://github.com/fontef/frankruhllibre",
-        "rev": "2372d19",
+        "rev": "2372d1998e51dc011f86554c0d23f1ccf44afddf",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/fridamedrano/Kalnia-Glaze",
-        "rev": "3338853",
+        "rev": "3338853e096724f548386c608d7c42c63c6c33bd",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/fridamedrano/Kalnia-Typeface",
-        "rev": "b58d268",
+        "rev": "b58d2689de548478ed6cee6937c37eabc4140958",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Advent",
-        "rev": "d206a13",
+        "rev": "d206a139ee9045993fbd1e530b93f28f8bf4e3b1",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/AntonFont",
-        "rev": "beb92fc",
+        "rev": "beb92fcad87808357123bb66881b4032dc96efe7",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Benne",
-        "rev": "0e13f2e",
+        "rev": "0e13f2e4e66eb5ed0076224b113398b78109748d",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/BevanFont",
-        "rev": "ab1035d",
+        "rev": "ab1035d7823b4c53400a6007ee077ecc9324c3e5",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Crimson",
-        "rev": "4f1458a",
+        "rev": "4f1458ae64c6c0d9c5fdfbf5095c7fabe0fa063f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/CutiveFont",
-        "rev": "d97e7cb",
+        "rev": "d97e7cb29296a2c091568d01e3394ae87111bd39",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/DancingScript",
-        "rev": "291f87c",
+        "rev": "291f87c05206179b6bfd53735a5638b5cc84e3b3",
         "config_files": [
             "config.yaml"
         ]
@@ -993,28 +993,28 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/Expletus-Sans",
-        "rev": "b64823a",
+        "rev": "b64823a38d36cb09ec9ffce05f079585a4811217",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/HoltwoodFont",
-        "rev": "4e8e360",
+        "rev": "4e8e360635badb21940ad39fa97a495bf879e89b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Inconsolata",
-        "rev": "fc1fc21",
+        "rev": "fc1fc21081558b39a2db43bfd9b65bf9acb50701",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Libre-Bodoni",
-        "rev": "37d0489",
+        "rev": "37d048938a8a32e6ba3992072cb3857659a7828f",
         "config_files": [
             "config.yaml"
         ]
@@ -1028,21 +1028,21 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/NunitoSans",
-        "rev": "058bd7a",
+        "rev": "058bd7a2f33d6ad5ef1df985b3db403622016a8c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/OswaldFont",
-        "rev": "8979526",
+        "rev": "89795261ac9eeb9aa8cd99f43982c4e4b0e53261",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Pacifico",
-        "rev": "423e7cb",
+        "rev": "423e7cb2b036ead2624c05197e17a83ddf5c6068",
         "config_files": [
             "config.yaml"
         ]
@@ -1056,35 +1056,35 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/PontanoSansFont",
-        "rev": "240072e",
+        "rev": "240072e22db75e84578dc80b757f589792f9e723",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/RammettoFont",
-        "rev": "a60e02d",
+        "rev": "a60e02d4bc60c0e5ca87076da98c52a16f87bd99",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Roboto-Flex",
-        "rev": "739e06dc",
+        "rev": "739e06dc46ebb14cddd88b9768a6c1504d4677f6",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ShantiFont",
-        "rev": "511bc90",
+        "rev": "511bc905381c9863b3dc241fc47523d1c3ba382f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/Signika",
-        "rev": "7361a22",
+        "rev": "7361a224d1d77274af1ea11dd06448c54c16f598",
         "config_files": [
             "configNegative.yaml",
             "config.yaml"
@@ -1092,63 +1092,63 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/abeezee",
-        "rev": "b9bd3f3",
+        "rev": "b9bd3f3522d91aca81eb668f56d40c2c62a90125",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/alex-brush",
-        "rev": "1a50bd1",
+        "rev": "1a50bd10383f6c5416f5b4806a9368fd2009ea8c",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/allison",
-        "rev": "fe22423",
+        "rev": "fe224232fbcf0a6db60877e835df7219a99784f3",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/allura",
-        "rev": "38a78b4",
+        "rev": "38a78b41510a10b1129c50fa5177b642bd2b4a19",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/alumni",
-        "rev": "44a7998",
+        "rev": "44a7998fa2bfa1b3e119983cdc565dd7f0f03bda",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/alumni-sans-collegiate",
-        "rev": "9dc96be",
+        "rev": "9dc96be1ead732fb1677c88632665e0bbf2e4ee2",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/alumni-sans-inline",
-        "rev": "81ea544",
+        "rev": "81ea544e0ce487475c75df9545cd3df946c7ba26",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/alumni-sans-pinstripe",
-        "rev": "26cf834",
+        "rev": "26cf834f2eca219b017478be9ea1387c78756e78",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/anaheimFont",
-        "rev": "2b346ea",
+        "rev": "2b346ea7993c2e4eee6224d4bd2c143cc65b54d9",
         "config_files": [
             "config.yaml"
         ]
@@ -1162,224 +1162,224 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/are-you-serious",
-        "rev": "2975e6b",
+        "rev": "2975e6bae2dba4fa1e30e9cd0b210e3a47b478d8",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/arizonia",
-        "rev": "e135e33",
+        "rev": "e135e3351c17de6f0f12066e98d7af9abe1cd76e",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/atkinson-hyperlegible",
-        "rev": "1cb3116",
+        "rev": "1cb311624b2ddf88e9e37873999d165a8cd28b46",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/babylonica",
-        "rev": "7b1c733",
+        "rev": "7b1c733f74a11604a711e87f840010e0746cfcd1",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/beau-rivage",
-        "rev": "a80b72a",
+        "rev": "a80b72a03f6ea0a5667c58620973efdb72384ffa",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/bilbo",
-        "rev": "1ffb162",
+        "rev": "1ffb16299d6f1ae0304a0ed6a36a95acbb1148e3",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/birthstone",
-        "rev": "6fb65f5",
+        "rev": "6fb65f5dc60e40fe907e5dfe22917613bde97f73",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/birthstone-bounce",
-        "rev": "db48de4",
+        "rev": "db48de44b60017495c71a024aa2c079d70869225",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/bonheur-royale",
-        "rev": "90087bb",
+        "rev": "90087bb825c798641a29d2a1114ce7acd4048b0b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/caramel",
-        "rev": "87aff25",
+        "rev": "87aff25878217835c9d22342d60678d4dcf8be75",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/carattere",
-        "rev": "18fbebe",
+        "rev": "18fbebe0c73ec82068be167eb3e63a795bd814ac",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/changa-vf",
-        "rev": "fb3207d",
+        "rev": "fb3207d4fe7234f610d0d4ef77dce01cfda57027",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/cherish",
-        "rev": "fd3a5b6",
+        "rev": "fd3a5b6b7fa7865540892380eb94290c2d49227b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/comforter",
-        "rev": "3112f6b",
+        "rev": "3112f6b6990f10c7a101e5577b8267988989cff7",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/comforter-brush",
-        "rev": "4f30811",
+        "rev": "4f308116699899ec59db6b7596e00912abd4ebef",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/comme",
-        "rev": "45a6e22",
+        "rev": "45a6e22afc31eb55a46c9b4da4a25ed374886ebf",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/corinthia",
-        "rev": "9c81839",
+        "rev": "9c81839655dfec773b737abc90cb09ac94b1bea1",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/cutivemono",
-        "rev": "4422d78",
+        "rev": "4422d783b81be0fcec82ef3610eac94784d989c1",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/damionFont",
-        "rev": "6408c98",
+        "rev": "6408c983f707a0bd5129eecf74a834146fec2983",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/dosis-vf",
-        "rev": "3407d52",
+        "rev": "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/dynapuff",
-        "rev": "0cc624e",
+        "rev": "0cc624ef50b654ffe1a30785396aaba308406132",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ephesis",
-        "rev": "8b303b5",
+        "rev": "8b303b53193b302c8894fb4635bbd49d4420d433",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/estonia",
-        "rev": "d4ee6f0",
+        "rev": "d4ee6f0558f9af9ad0cc950e740a81eb95b36526",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/explora",
-        "rev": "b0d0e02",
+        "rev": "b0d0e026f48eefee38dc06821f2c9088a347fa9b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/festive",
-        "rev": "5a37931",
+        "rev": "5a37931ba2af0e7eb487e7c04f800e9006618bc7",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/fleurdeleah",
-        "rev": "69626fa",
+        "rev": "69626faaf6a596ea822d4b0fd9521a506b9ffcc0",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/francoisoneFont",
-        "rev": "09ca2d1",
+        "rev": "09ca2d148ed2ae88b0b89b5309f5eedd1daa2e0c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/fuggles",
-        "rev": "cc9766c",
+        "rev": "cc9766c14a1aabedb7ef7dbf3e9aa0e325542c5a",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/fuzzy-bubbles",
-        "rev": "16d63fb",
+        "rev": "16d63fbca17f057559d0187fa7c07dd302d2276d",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/genos",
-        "rev": "7071818",
+        "rev": "707181862a0fe1ceecc334bb54c63ea4377e95d8",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/geologica",
-        "rev": "685f38d",
+        "rev": "685f38d7c9e86b0c8530204c97ddcaf6558dd17b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/gideon",
-        "rev": "c722031",
+        "rev": "c7220310f3d5a41af5c7906b3c33672a0a2146c8",
         "config_files": [
             "config.yml"
         ]
@@ -1417,35 +1417,35 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/grapenuts",
-        "rev": "1313fb4",
+        "rev": "1313fb48d7196fd9388b8327d1a30c03323c33ee",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/great-vibes",
-        "rev": "f95eb96",
+        "rev": "f95eb967a3414e5accd65f4fa653c47f607654fa",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/grechen-fuemen",
-        "rev": "4e4ac4c",
+        "rev": "4e4ac4caeac05708e6b3a05f0d91d1bb0476c045",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/grey-qo",
-        "rev": "33db197",
+        "rev": "33db197cb6b5c11851eee946d28a0380f9eced9d",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/gwendolyn",
-        "rev": "8ab228a",
+        "rev": "8ab228a0fd9cc201781ce4596cb039330b504e57",
         "config_files": [
             "config.yml"
         ]
@@ -1459,119 +1459,119 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/hurricane",
-        "rev": "bb10369",
+        "rev": "bb10369a4820ebee5af7892e8661978c015cb077",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/imperial-script",
-        "rev": "01a1656",
+        "rev": "01a1656c6ffebe306262129aafee029fe6a7f3f3",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ingrid-darling",
-        "rev": "ea2b489",
+        "rev": "ea2b4893cf8dc8cd0e7fb2b89f9631b38fde4ed3",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/island-moments",
-        "rev": "665d59f",
+        "rev": "665d59f297c782358f09699fc2231c0eee293f25",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/italianno",
-        "rev": "3e3995e",
+        "rev": "3e3995ef5b90bd2b9dc587fb8f831f3a158cb95b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/karla",
-        "rev": "69b25f6",
+        "rev": "69b25f663101efb4113dd7ed416c120dd2dce56a",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/kings",
-        "rev": "3163262",
+        "rev": "316326276cb919f88ac51dbe887958e50a3bba49",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/kolker-brush",
-        "rev": "03ba4eb",
+        "rev": "03ba4eb35eb2801089ff9343695a1f54f9b8d5b7",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/kreon",
-        "rev": "d7f798b",
+        "rev": "d7f798b480013cfa899779d6dae4511fd3c310cb",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/lavishly-yours",
-        "rev": "06ea77a",
+        "rev": "06ea77a251dc2d763d199995ec06da0a0c1a85f1",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/licorice",
-        "rev": "8bc5263",
+        "rev": "8bc5263602a190f212684ea69d5b9d3b21a59bc0",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/life-savers",
-        "rev": "76eb6d1",
+        "rev": "76eb6d11fa7a003dae0e05c4fa9e2f00a535d8c2",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/literata",
-        "rev": "0c2761b",
+        "rev": "0c2761b727a1b3a7cffd313c37f0f5163dfc7a63",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/love-light",
-        "rev": "e4fc541",
+        "rev": "e4fc541136be7d2814ac542a930be1ebaa17b5e1",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/lovers-quarrel",
-        "rev": "bf3a5fd",
+        "rev": "bf3a5fd5bf11cd96b5545ee9191a16460296eb71",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/luxurious",
-        "rev": "234fe6f",
+        "rev": "234fe6f071f7e4450893f159a4ca3512310c66ee",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/luxurious-roman",
-        "rev": "79ca0d1",
+        "rev": "79ca0d1eececc94be7fe0e23f306043de77c7457",
         "config_files": [
             "config.yml"
         ]
@@ -1585,14 +1585,14 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/mea-culpa",
-        "rev": "13dd5b6",
+        "rev": "13dd5b66076ddc6706d85a30dfed8d007e2f8350",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/meow-script",
-        "rev": "6882d38",
+        "rev": "6882d389cb287bd7b7716c125e9728b81ed0ab41",
         "config_files": [
             "config.yml"
         ]
@@ -1606,252 +1606,252 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/mondaFont",
-        "rev": "13ca3d8",
+        "rev": "13ca3d8bce80e715a736026c043f33e5c0bb5b83",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/monte-carlo",
-        "rev": "6296259",
+        "rev": "62962590ae6b6dea67788c485d38217abe196e1b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/moolahlah",
-        "rev": "ef01539",
+        "rev": "ef0153966b76e4b4c136ed98e087607f71b75612",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/mooliFont",
-        "rev": "ecf6cc6",
+        "rev": "ecf6cc6fe2cb9c9d61f243f673c9181188f81499",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/moondance",
-        "rev": "ebba2ff",
+        "rev": "ebba2ffb57b1b7c23e9dd382605ab9c92119cc49",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ms-madi",
-        "rev": "867703c",
+        "rev": "867703c03535006513ced087c9d2a1a1fda8f565",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/mulish",
-        "rev": "5503f7a",
+        "rev": "5503f7a18ce79870148b9f9cb8e592ac44c044c3",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/my-soul",
-        "rev": "bf7a506",
+        "rev": "bf7a506caeb8994fd9820787fb6f2c0f0480ec09",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/neonderthaw",
-        "rev": "67e6f60",
+        "rev": "67e6f60e5addb09d39d7a36f908430cc508165fb",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ole",
-        "rev": "fe77f34",
+        "rev": "fe77f34a3002bc4c2e26a8e27bee31cb45307846",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/oooh-baby",
-        "rev": "f36e245",
+        "rev": "f36e2452e1c1a793fcf49524ab392eb6a2cd1dce",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/orbitron-vf",
-        "rev": "f164828",
+        "rev": "f16482824e0ce4d008dee59b9b632e9ce9663359",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/passions-conflict",
-        "rev": "214cc29",
+        "rev": "214cc2936ec1ec8fde1143ce215c0ec189a6638d",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/petemoss",
-        "rev": "c08e530",
+        "rev": "c08e5306e6d86292071852778b043f5f81de32ae",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/play-ball",
-        "rev": "13a5412",
+        "rev": "13a54129eb380bb0f3a086b31da09e7f2cd46ba9",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/praise-script",
-        "rev": "678af73",
+        "rev": "678af73de9e596fa80cbd1ab89ba45a18ad69991",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/puppies-play",
-        "rev": "5f5c9a3",
+        "rev": "5f5c9a3f1373ea85403f314696a968887c8106c3",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/questrial",
-        "rev": "8db71bf",
+        "rev": "8db71bfbabedd8c8dda35818ea5d5508758c2e19",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/qwigley",
-        "rev": "7a96336",
+        "rev": "7a963366b5efe19ef39603d03888a2105105dc01",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/qwitcher-grypen",
-        "rev": "cd12ed2",
+        "rev": "cd12ed20d42c30bae735809f5cf84d44ad598837",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/radiocanadadisplay",
-        "rev": "9ac9cf8",
+        "rev": "9ac9cf87d0fbd85bce912535994e02614b1b525f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/road-rage",
-        "rev": "e55c939",
+        "rev": "e55c939b96e80e4760f27d81d1abca714739e3fe",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/roboto-serif",
-        "rev": "1ecc2513e",
+        "rev": "1ecc2513e8215b569246a5802f18aa4b0e1d67a5",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/rubik",
-        "rev": "e337a5f",
+        "rev": "e337a5f69a9bea30e58d05bd40184d79cc099628",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ruge-boogie",
-        "rev": "9031c61",
+        "rev": "9031c615c877101741a6535077e283aba9536919",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/ruthie",
-        "rev": "73c9815",
+        "rev": "73c981515aaf81ab6b027f7e10716f6be62c3fd5",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/sancreek",
-        "rev": "6a26130",
+        "rev": "6a26130542b916d49c5ed3e06ec5edfe68743d8a",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/sassy-frass",
-        "rev": "9d93a3c",
+        "rev": "9d93a3cc26cb069a2405362b45d95f0ddd4453a1",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/sawarabi-mincho",
-        "rev": "8bd1525",
+        "rev": "8bd1525717e74e24943d30e07b0ae56ee60c0915",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/sedan",
-        "rev": "35a4019",
+        "rev": "35a4019d7c2547b58177cff9a65b91e47dd79546",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/send-flowers",
-        "rev": "5cee2ce",
+        "rev": "5cee2ce8a5ce832b12d409fee214f54164916e92",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/seymourFont",
-        "rev": "67aa8dc",
+        "rev": "67aa8dc604b252424e431a73ff50011cc474d881",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/shalimar",
-        "rev": "f071bc2",
+        "rev": "f071bc2cfa26969d846d9848b7b2f53e9fab16f9",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/silkscreen",
-        "rev": "206ccf3",
+        "rev": "206ccf3f5234c281461e63ecc59cbc6b0563472b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/smooch",
-        "rev": "90c4cbd",
+        "rev": "90c4cbdfbb06bf83e05b0b690e73f9dc8a760d03",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/smooch-sans",
-        "rev": "0a0a405",
+        "rev": "0a0a405279f4a706e657e95d97fad245e327d5bd",
         "config_files": [
             "config.yml"
         ]
@@ -1865,161 +1865,161 @@
     },
     {
         "repo_url": "https://github.com/googlefonts/splash",
-        "rev": "7653a0b",
+        "rev": "7653a0b5fcccd37a920ba9a4da8f1680c0203af2",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/square-peg",
-        "rev": "ec16285",
+        "rev": "ec1628592761b8b9e7713b6d2b463fb9724c6e8e",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/style-script",
-        "rev": "618d9e0",
+        "rev": "618d9e00fb65b051f65f00f8e09f57e07c6af251",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/tapestry",
-        "rev": "b38b62f",
+        "rev": "b38b62f1a12633abf4c2a11fad398afdd162427b",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/the-nautigal",
-        "rev": "1d644f7",
+        "rev": "1d644f7cd792c5cc64a91e88f0ca568016f820aa",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/twinkle-star",
-        "rev": "b91b9bb",
+        "rev": "b91b9bb130e238e2ab91d1dfd855cfcbb74c5677",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/updock",
-        "rev": "392c240",
+        "rev": "392c2404f3860e8f06f63aa4dfc91eec3831d294",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/vujahday",
-        "rev": "37a8a21",
+        "rev": "37a8a215d0a4b152bf5acb1b04b1dc3eade51ced",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/water-brush",
-        "rev": "b7a3610",
+        "rev": "b7a36104b4ba7d489ba4f34a14c7e39dccbab86f",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/waterfall",
-        "rev": "89e483e",
+        "rev": "89e483e54f06bc487898d221f99c1050ad8154b6",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/whisper",
-        "rev": "e546c2e",
+        "rev": "e546c2e4c06f4d04a8e5400ac64aba88b1cca511",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/windsong",
-        "rev": "08da686",
+        "rev": "08da686e588864189c5c1616ed6971c1aeebafd5",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/zen-dots",
-        "rev": "c9f0bc0",
+        "rev": "c9f0bc02e2aad7544f843aefce01845a2d3ba372",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/zen-loop",
-        "rev": "6ca5323",
+        "rev": "6ca53231f8adfb03f75d63b1dc1a8d8db6d641cf",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/googlefonts/zen-tokyo-zoo",
-        "rev": "083c7b5",
+        "rev": "083c7b58656f53568f964d72b31bba42b3df28c2",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/hafontia-zz/Fredoka-One",
-        "rev": "35c584f",
+        "rev": "35c584ff23450c9bcdf8819706e12fcdeefe1712",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/hans-thiessen/Rethink-Sans",
-        "rev": "20d5980",
+        "rev": "20d5980cd14ce827e82d7fc58d758f7cc5086c91",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/hyper-type/hahmlet",
-        "rev": "f9c5dac",
+        "rev": "f9c5dac25d88015e9f0953253cec1a71854b7d24",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/hyvyys/Tektur",
-        "rev": "0313e96",
+        "rev": "0313e9612ed814c7a480fa54c7b295452b966954",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/indestructible-type/Bodoni",
-        "rev": "30ce6cd",
+        "rev": "30ce6cdc354ef179a3b72ba0f0e71826e599348c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/isaozler/kode-mono",
-        "rev": "2d427d3",
+        "rev": "2d427d3f44649656d2c1932bb671d0c4cd064041",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/jobosonchisa/ojuju",
-        "rev": "61052b2",
+        "rev": "61052b2801035d3011c87708bd3367eeabd0bb82",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/jrgdrs/Wittgenstein",
-        "rev": "56c1cf1",
+        "rev": "56c1cf1b4a9f5127d4621f1e167f6415b0a284e9",
         "config_files": [
             "config.yaml"
         ]
@@ -2033,21 +2033,21 @@
     },
     {
         "repo_url": "https://github.com/kosmynkab/Bona-Nova",
-        "rev": "a5cbdfb",
+        "rev": "a5cbdfb8741af20ea5bfe252f0128beed6c8beed",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/kosmynkab/Brygada-1918",
-        "rev": "8325dc3",
+        "rev": "8325dc36ca87b8c7b8909c3e048fe90fd7e46c4b",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/kosmynkab/Poltawski-Nowy",
-        "rev": "4d54184",
+        "rev": "4d541846c51c5267937a06fd5da9ab7837be166f",
         "config_files": [
             "config.yaml"
         ]
@@ -2061,21 +2061,21 @@
     },
     {
         "repo_url": "https://github.com/m4rc1e/Commissioner",
-        "rev": "7f7dc8e",
+        "rev": "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/marcologous/hanken-grotesk",
-        "rev": "1ab416e",
+        "rev": "1ab416e82130b2d3ddb7710abf7ceabf07156a13",
         "config_files": [
             "config.yml"
         ]
     },
     {
         "repo_url": "https://github.com/meirsadan/david-libre",
-        "rev": "15496c1",
+        "rev": "15496c1be77e35f3fa3d0df14a2c2c6f9adfd297",
         "config_files": [
             "config.yaml"
         ]
@@ -2103,21 +2103,21 @@
     },
     {
         "repo_url": "https://github.com/naipefoundry/gabarito",
-        "rev": "1f3fb39",
+        "rev": "1f3fb39d6449eefa880543f109f33ede0cd4064f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/nguyentype/vinasans",
-        "rev": "e99f043",
+        "rev": "e99f043b3542ccaf24a21f04601942ca8bc28d53",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/niteeshy/ar-one-sans",
-        "rev": "6dc5e68",
+        "rev": "6dc5e6850f2ced9f28e733c9a7860c54246e17a8",
         "config_files": [
             "config.yaml"
         ]
@@ -3292,7 +3292,7 @@
     },
     {
         "repo_url": "https://github.com/octaviopardo/EBGaramond12",
-        "rev": "e608414",
+        "rev": "e608414f52e532b68e2182f96b4ce9db35335593",
         "config_files": [
             "config.yaml"
         ]
@@ -3309,7 +3309,7 @@
     },
     {
         "repo_url": "https://github.com/octaviopardo/REM",
-        "rev": "b26d584",
+        "rev": "b26d584ebdb3d8084355205d22c87e4e99658d56",
         "config_files": [
             "config.yaml"
         ]
@@ -3330,7 +3330,7 @@
     },
     {
         "repo_url": "https://github.com/positype/Murecho-Project",
-        "rev": "0efba44",
+        "rev": "0efba44c1c504efe50edc3ae30da5840461e5d49",
         "config_files": [
             "config.yaml"
         ]
@@ -3344,7 +3344,7 @@
     },
     {
         "repo_url": "https://github.com/rfuenzalida/Freeman",
-        "rev": "5ced8a9",
+        "rev": "5ced8a95f5b0e0c3dcea3b033398ba93a56fb687",
         "config_files": [
             "config.yaml"
         ]
@@ -3358,14 +3358,14 @@
     },
     {
         "repo_url": "https://github.com/rsms/inter-gf-tight",
-        "rev": "c194f94",
+        "rev": "c194f94c60b569b47876811321f5ef1f0c2614a2",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/rubjo/victor-mono-font",
-        "rev": "8c00076",
+        "rev": "8c00076e5afe53f3707db3ec0865b93f6d464b04",
         "config_files": [
             "config.yaml"
         ]
@@ -3422,14 +3422,14 @@
     },
     {
         "repo_url": "https://github.com/schibsted/schibsted-grotesk",
-        "rev": "d485f61",
+        "rev": "d485f61f105e1b3935f4d21dfb4d371359798603",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/simoncozens/Miriam-Libre",
-        "rev": "fc1dbbb",
+        "rev": "fc1dbbb7ef6f331b10771c22d33b4bf7543efbd8",
         "config_files": [
             "config.yaml"
         ]
@@ -3450,14 +3450,14 @@
     },
     {
         "repo_url": "https://github.com/sovichet/kantumruy-pro",
-        "rev": "dfca20d",
+        "rev": "dfca20df61b64efa148539a0103e52189aca78bc",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/sovichet/kdam-thmor-pro",
-        "rev": "02b97ee",
+        "rev": "02b97ee272f9a32d06135f70e220d2c4d6dd218f",
         "config_files": [
             "config.yaml"
         ]
@@ -3471,21 +3471,21 @@
     },
     {
         "repo_url": "https://github.com/suonmaysophanith7/KonKhmer_SleokChher",
-        "rev": "1289371",
+        "rev": "1289371ce1f5f4f9223f023f607d83c98fc03625",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/sursly/league-gothic",
-        "rev": "f1d4a1c",
+        "rev": "f1d4a1c8c1db3c4a32cc13763c5fbb1776b5d478",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/sursly/sono",
-        "rev": "7dc8590",
+        "rev": "7dc859025b464e8530d90116782b5407b7b6376d",
         "config_files": [
             "config.yaml"
         ]
@@ -3499,49 +3499,49 @@
     },
     {
         "repo_url": "https://github.com/tokotype/Mohave-Typefaces",
-        "rev": "703dda9",
+        "rev": "703dda9b4da22ec66dd2a09cc492f6228401147a",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/tokotype/PlusJakartaSans",
-        "rev": "18d1cd2",
+        "rev": "18d1cd2f7ea10481919d2f05c1f7064b7307fc26",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/usted/Albert-Sans",
-        "rev": "f7f4608",
+        "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/vladimirnikolic1/NewAmsterdam",
-        "rev": "7a82ccc",
+        "rev": "7a82ccc566f424481f09cb1ee0b1f43e42cf59fa",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/weiweihuanghuang/Work-Sans",
-        "rev": "b35c810",
+        "rev": "b35c81086186162164947bd39574683073d9b268",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/weiweihuanghuang/fragment-mono",
-        "rev": "177a79b",
+        "rev": "177a79b53ae0c8f02e56a8671c29c57144f609e9",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/wix/wixmadefor",
-        "rev": "85646f1",
+        "rev": "85646f130c8d3edffe66c4d8755c3f9f7abfa877",
         "config_files": [
             "config_display.yaml",
             "config.yaml",
@@ -3550,14 +3550,14 @@
     },
     {
         "repo_url": "https://github.com/xconsau/GajrajOne",
-        "rev": "5768aa3",
+        "rev": "5768aa3d4522b402ead302e5bb8697e965da694f",
         "config_files": [
             "config.yaml"
         ]
     },
     {
         "repo_url": "https://github.com/xconsau/KumbhSans",
-        "rev": "b1c41a8",
+        "rev": "b1c41a8ff0916a5421bd3976c361f1980c0e7cfc",
         "config_files": [
             "config.yaml"
         ]
