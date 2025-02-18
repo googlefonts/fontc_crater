@@ -287,6 +287,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/LivKing/Inclusive-Sans",
+        "rev": "54ed9e4da94e7ea566a0322afc60b750c8544eaa",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/NDISCOVER/Exo-1.0",
         "rev": "3be4f55b626129f17a3b82677703e48c03dc2052",
         "config_files": [
