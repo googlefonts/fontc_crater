@@ -90,6 +90,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/EbenSorkin/Merriweather4",
+        "rev": "e586023aa0fe1dba9a7d4ec80fa8b9e546cb7ecf",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/EkType/Honk",
         "rev": "99094d4f6e3e73745fe3f2a6387d56c19d2a04cd",
         "config_files": [
