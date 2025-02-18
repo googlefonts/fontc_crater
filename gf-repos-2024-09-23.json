@@ -1285,6 +1285,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/googlefonts/buenard",
+        "rev": "cf400a29bbb4c8d850c221aa5b9835e8783648fb",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/googlefonts/caramel",
         "rev": "87aff25878217835c9d22342d60678d4dcf8be75",
         "config_files": [
