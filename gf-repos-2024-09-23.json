@@ -36,6 +36,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/ButTaiwan/iansui",
+        "rev": "a66e7fe5bc492b358d8dc916f359157133a1d23c",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/CatharsisFonts/Cormorant",
         "rev": "78a664cdea69af8ea721a0b4cae4bee04f12e701",
         "config_files": [
