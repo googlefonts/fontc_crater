@@ -1,5 +1,13 @@
 [
     {
+        "repo_url": "https://github.com/42dot/42dot-Sans",
+        "rev": "d23e87fe44d5b4f5afaa9dca9d5926d7c414d625",
+        "config_files": [
+            "config_static.yaml",
+            "config_variable.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/Afrotype/danfo",
         "rev": "f4a0c2dd9c65c42707208ec788371cec30b71b7f",
         "config_files": [
