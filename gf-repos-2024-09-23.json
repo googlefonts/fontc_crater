@@ -976,6 +976,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/github/mona-sans",
+        "rev": "0d07d5a501a2d8d4ea456fab73aad6b9fda2060a",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/googlefonts/Advent",
         "rev": "d206a139ee9045993fbd1e530b93f28f8bf4e3b1",
         "config_files": [
