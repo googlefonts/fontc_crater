@@ -36,6 +36,17 @@
         ]
     },
     {
+        "repo_url": "https://github.com/CatharsisFonts/Cormorant",
+        "rev": "78a664cdea69af8ea721a0b4cae4bee04f12e701",
+        "config_files": [
+            "config-cormorant.yaml",
+            "config-unicase.yaml",
+            "config-infant.yaml",
+            "config-garamond.yaml",
+            "config-upright.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/CatharsisFonts/Ysabeau",
         "rev": "5f5c5af",
         "config_files": [
