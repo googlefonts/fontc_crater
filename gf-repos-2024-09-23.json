@@ -1229,6 +1229,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/googlefonts/atkinson-hyperlegible-next",
+        "rev": "5d633f80fc654ef5fffa7cfc257528685158dcef",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/googlefonts/babylonica",
         "rev": "7b1c733f74a11604a711e87f840010e0746cfcd1",
         "config_files": [
