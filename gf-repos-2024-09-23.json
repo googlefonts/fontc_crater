@@ -626,6 +626,13 @@
         ]
     },
     {
+        "repo_url": "https://github.com/alexeiva/badscript",
+        "rev": "dca2962433a2b5817f1e716d6731a743440fbd79",
+        "config_files": [
+            "config.yaml"
+        ]
+    },
+    {
         "repo_url": "https://github.com/alexeiva/philosopher",
         "rev": "9983715d443b6be727d886cd16bce241cf9ad0b7",
         "config_files": [
