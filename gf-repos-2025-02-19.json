@@ -30,7 +30,7 @@
   },
   {
     "repo_url": "https://github.com/BornaIz/markazitext",
-    "rev": "ccc1945",
+    "rev": "a876c4f0111b96f407741a877e79f207e9117338",
     "config_files": [
       "config.yaml"
     ]
@@ -55,7 +55,7 @@
   },
   {
     "repo_url": "https://github.com/CatharsisFonts/Ysabeau",
-    "rev": "5f5c5af",
+    "rev": "c21395fc7e596c66e8e03daa09babf245005ce01",
     "config_files": [
       "config.yaml"
     ]
@@ -64,8 +64,7 @@
     "repo_url": "https://github.com/Dicotype/Afacad",
     "rev": "b294b1f8610ff16a3846a255b1a6a2e6788a056e",
     "config_files": [
-      "config.yaml",
-      "config_flux.yaml"
+      "config.yaml"
     ]
   },
   {
@@ -77,7 +76,7 @@
   },
   {
     "repo_url": "https://github.com/DylanYoungKoto/FacultyGlyphic",
-    "rev": "217893d53b5e77627f997b41e75e45d5818bc0e2",
+    "rev": "0f609bebfae8490a140feebfd3faacf3dfa87d62",
     "config_files": [
       "config.yaml"
     ]
@@ -105,14 +104,14 @@
   },
   {
     "repo_url": "https://github.com/Element-Type/HostGrotesk",
-    "rev": "4f267d366fec1961bb219fe156fe7b4821ce8a15",
+    "rev": "ab2ba6769119e7ae71aa2fab46eedcb993c670a3",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/Etcetera-Type-Co/Anybody",
-    "rev": "fe7b55c",
+    "rev": "fe7b55cf9d1563348ad95ac8e05f43b81a420c31",
     "config_files": [
       "config.yaml"
     ]
@@ -126,21 +125,21 @@
   },
   {
     "repo_url": "https://github.com/Etcetera-Type-Co/Gluten",
-    "rev": "c8525e6",
+    "rev": "c8525e6a8d31dde1795485cc66f622beed3e5e80",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/Etcetera-Type-Co/Grandstander",
-    "rev": "0bf9e31",
+    "rev": "0bf9e31d529d7a67b23510b841cb3597db0cb130",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/Etcetera-Type-Co/Tourney",
-    "rev": "643f102",
+    "rev": "643f1026ad6d41b4527f42cd93c776414fdd6503",
     "config_files": [
       "config.yaml"
     ]
@@ -162,13 +161,6 @@
   {
     "repo_url": "https://github.com/Fonthausen/RokkittFont",
     "rev": "762d1439aaa7cf4a590f604451dfc2e1c6970b9f",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Gissio/font_tiny5",
-    "rev": "f32b609",
     "config_files": [
       "config.yaml"
     ]
@@ -217,64 +209,63 @@
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/BagelFat",
-    "rev": "d8dd4e8",
+    "rev": "d8dd4e8b5dd0e74fbf87a78290ee9a9aaed1270b",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/Diphylleia",
-    "rev": "10589dd",
+    "rev": "6a20531aa22286238d89f3bc1d8c29694acaec53",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/Gasoek",
-    "rev": "f6b875c",
+    "rev": "f6b875c95ad933c5f937c2494ae2337f5aef2694",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/Grandiflora",
-    "rev": "5e5d39d",
+    "rev": "5e5d39d3d49c5de0815020ba3996e9725d717e3f",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/Moirai",
-    "rev": "2da4839",
+    "rev": "2da483959021f384eebc39feb6da1e8cbcdf452d",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JAMO-TYPEFACE/Orbit",
-    "rev": "9512239",
+    "rev": "95122395c6d1fda07aebdf36f566a75678bc3bdd",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JetBrains/JetBrainsMono",
-    "rev": "b0a3712",
+    "rev": "19371302b95d218af43299bce79ddbddd0bc364d",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/JulietaUla/Montserrat",
-    "rev": "f1f4e9b6",
+    "rev": "cc8daf2e7085006b9c112542fc82b58afc13521d",
     "config_files": [
-      "config-underline.yaml",
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/Kief-Type-Foundry/Fustat",
-    "rev": "75b87dc",
+    "rev": "8e5354428eb81c3ebf9edbc86bfa9cdca23ce8b1",
     "config_files": [
       "config.yaml"
     ]
@@ -332,7 +323,6 @@
     "repo_url": "https://github.com/Omnibus-Type/Chivo",
     "rev": "dc61c468d79781eb5183426e88e844af16cdc3e5",
     "config_files": [
-      "configmono.yaml",
       "config.yaml"
     ]
   },
@@ -417,8 +407,7 @@
     "repo_url": "https://github.com/RedHatOfficial/Overpass",
     "rev": "c580d28bfab7f39013568e684a65eeb23eff588d",
     "config_files": [
-      "config.yaml",
-      "config_mono.yaml"
+      "config.yaml"
     ]
   },
   {
@@ -430,14 +419,14 @@
   },
   {
     "repo_url": "https://github.com/SophiaDesign/Foldit",
-    "rev": "4f1d196",
+    "rev": "934034370b760240516ba533549436935c49fbc2",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/SorkinType/Agbalumo",
-    "rev": "1ca98bf",
+    "rev": "9d9ec3e32c10533233c9e48835e436ff5e5aa451",
     "config_files": [
       "config.yaml"
     ]
@@ -472,7 +461,7 @@
   },
   {
     "repo_url": "https://github.com/SorkinType/Briem-Hand",
-    "rev": "7bb035f",
+    "rev": "7b991840508c9a90632354034ed0a72002836c05",
     "config_files": [
       "config.yaml"
     ]
@@ -535,14 +524,14 @@
   },
   {
     "repo_url": "https://github.com/SorkinType/VICWANTSchoolhandAustralia",
-    "rev": "4d4efe7",
+    "rev": "6529c525fceb9ec15e51dfa6d87244ef053c2d8a",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/SorkinType/Voltaire",
-    "rev": "40a82d5",
+    "rev": "3587d918a1a19e01a9b8f9dbcb504ffc12d04dbe",
     "config_files": [
       "config.yaml"
     ]
@@ -556,7 +545,7 @@
   },
   {
     "repo_url": "https://github.com/ThomasJockin/readexpro",
-    "rev": "6a4f24e",
+    "rev": "563dfbb36ae45e52ec50829b016ce724ac2fca70",
     "config_files": [
       "config.yaml"
     ]
@@ -569,22 +558,15 @@
     ]
   },
   {
-    "repo_url": "https://github.com/TypeNetwork/Josefinslab",
-    "rev": "b8b24fe",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
     "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
-    "rev": "8854f87",
+    "rev": "c85bb380b56b2009e7c9bff11f573a3028034161",
     "config_files": [
       "config.yml"
     ]
   },
   {
     "repo_url": "https://github.com/TypeTogether/Playwrite",
-    "rev": "b2682ec",
+    "rev": "02e4e15767f5b6c2109413429fc51879b9507ab4",
     "config_files": [
       "config.yaml"
     ]
@@ -614,7 +596,6 @@
     "repo_url": "https://github.com/aaronbell/signika",
     "rev": "bd066259b5a87d24b23c4f0da03a96889b6d0503",
     "config_files": [
-      "configNegative.yaml",
       "config.yaml"
     ]
   },
@@ -669,7 +650,7 @@
   },
   {
     "repo_url": "https://github.com/balsamiq/balsamiqsans",
-    "rev": "b1dca64",
+    "rev": "009740f8b2c3915b1553182ec406aaddb1a12dc7",
     "config_files": [
       "config.yaml"
     ]
@@ -732,7 +713,7 @@
   },
   {
     "repo_url": "https://github.com/clauseggers/Playfair",
-    "rev": "c147927",
+    "rev": "80a334101928546b04fa9e709ad4b2f11f8a9e10",
     "config_files": [
       "config.yaml"
     ]
@@ -774,7 +755,7 @@
   },
   {
     "repo_url": "https://github.com/cyrealtype/Lora-Cyrillic",
-    "rev": "d5e22b6",
+    "rev": "c44a1dde19a3fcff5bf549677e08a64510837e9d",
     "config_files": [
       "config.yaml"
     ]
@@ -879,14 +860,14 @@
   },
   {
     "repo_url": "https://github.com/dy/linefont",
-    "rev": "272967e",
+    "rev": "9edec1a1f780db52db0297bab464451f3dbd4d5a",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/dy/wavefont",
-    "rev": "6c91af1f",
+    "rev": "76d6e2cb12f3cbea3fb2766ae3f849a061a54227",
     "config_files": [
       "config.yaml"
     ]
@@ -956,7 +937,7 @@
   },
   {
     "repo_url": "https://github.com/evilmartians/mono",
-    "rev": "0ff0013",
+    "rev": "a96373b28656b2608f28761e598471c99a4599e3",
     "config_files": [
       "config.yaml"
     ]
@@ -978,6 +959,13 @@
   {
     "repo_url": "https://github.com/fridamedrano/Kalnia-Typeface",
     "rev": "b58d2689de548478ed6cee6937c37eabc4140958",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/github/hubot-sans",
+    "rev": "d4b2f67cd7686f5907296d3f027112bbc4f69f42",
     "config_files": [
       "config.yaml"
     ]
@@ -1103,7 +1091,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/Playfair",
-    "rev": "beae635",
+    "rev": "a49f9f9dc9a2924641cefba3f5e33ac1c5aa4264",
     "config_files": [
       "config.yaml"
     ]
@@ -1140,7 +1128,6 @@
     "repo_url": "https://github.com/googlefonts/Signika",
     "rev": "7361a224d1d77274af1ea11dd06448c54c16f598",
     "config_files": [
-      "configNegative.yaml",
       "config.yaml"
     ]
   },
@@ -1209,7 +1196,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/antonioFont",
-    "rev": "0856299",
+    "rev": "08562998b10c6c21a3505f47236b42f5d58c9909",
     "config_files": [
       "config.yaml"
     ]
@@ -1460,32 +1447,15 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/glory",
+    "rev": "76ea446c0499989af653f75c1cbd80447ef955d6",
+    "config_files": [
+      "config.yml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/golos-text",
-    "rev": "cf2e272",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/googlefonts/googlesans",
-    "rev": "b77673c3f",
-    "auth": true,
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/googlefonts/googlesans-code",
-    "rev": "0713088a41bc08edec1149cefa90b963715efcf2",
-    "auth": true,
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/googlefonts/googlesans-flex",
-    "rev": "fc079d89fbe",
-    "auth": true,
+    "rev": "cf2e27222937d97c2d858fff0499bcc667a64e9d",
     "config_files": [
       "config.yaml"
     ]
@@ -1526,13 +1496,6 @@
     ]
   },
   {
-    "repo_url": "https://github.com/googlefonts/hubot-sans",
-    "rev": "9c2cc3ac30ac77cc7c3b40e0813b3487a0c56b7b",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
     "repo_url": "https://github.com/googlefonts/hurricane",
     "rev": "bb10369a4820ebee5af7892e8661978c015cb077",
     "config_files": [
@@ -1565,6 +1528,13 @@
     "rev": "3e3995ef5b90bd2b9dc587fb8f831f3a158cb95b",
     "config_files": [
       "config.yml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/josefinslab",
+    "rev": "61773366f714341802e5f131bd7181073094898f",
+    "config_files": [
+      "config.yaml"
     ]
   },
   {
@@ -1652,13 +1622,6 @@
     ]
   },
   {
-    "repo_url": "https://github.com/googlefonts/mavenproFont",
-    "rev": "1c21ee5",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
     "repo_url": "https://github.com/googlefonts/mea-culpa",
     "rev": "13dd5b66076ddc6706d85a30dfed8d007e2f8350",
     "config_files": [
@@ -1670,13 +1633,6 @@
     "rev": "6882d389cb287bd7b7716c125e9728b81ed0ab41",
     "config_files": [
       "config.yml"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/googlefonts/mona-sans",
-    "rev": "56384c90b986d431470303b4f7296585cb9c4515",
-    "config_files": [
-      "config.yaml"
     ]
   },
   {
@@ -1933,7 +1889,14 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/sometype-mono",
-    "rev": "cf583c2",
+    "rev": "cf583c22bc6279d23e587e3ca310e131dd277286",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/spacemono",
+    "rev": "329858c2c4dbd3476f972a4ae00624b018cf4b81",
     "config_files": [
       "config.yaml"
     ]
@@ -2101,7 +2064,7 @@
   },
   {
     "repo_url": "https://github.com/kosbarts/Oi",
-    "rev": "1938199",
+    "rev": "bd7ccfa844054ec4a0b2b17e56c33830646668ea",
     "config_files": [
       "config.yaml"
     ]
@@ -2129,7 +2092,14 @@
   },
   {
     "repo_url": "https://github.com/ladinoprojects/solitreo",
-    "rev": "9b03239",
+    "rev": "9b03239708d7d37e86cb2594cf9360121be0740e",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/loudifier/Comic-Relief",
+    "rev": "856315f5a45dfdad75090e4454f1ebfd019296b9",
     "config_files": [
       "config.yaml"
     ]
@@ -2157,21 +2127,21 @@
   },
   {
     "repo_url": "https://github.com/microsoft/ADLaM-Display",
-    "rev": "8791762",
+    "rev": "879176243e9f7161a8aefdab8c36a4a7318ebe15",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/mooniak/abhaya-libre-font",
-    "rev": "a6a3091b",
+    "rev": "edaabf89929778cb947bbd230a257c2a3bbd9979",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/mooniak/maname-font",
-    "rev": "9fa7dcbc",
+    "rev": "626ceee1311626c5240a68b0ef27722f44c374af",
     "config_files": [
       "config.yaml"
     ]
@@ -2199,14 +2169,14 @@
   },
   {
     "repo_url": "https://github.com/noirblancrouge/YoungSerif",
-    "rev": "cf552d2",
+    "rev": "d307c79320df6b8ccc656b5ab83719519ddffc28",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/adlam",
-    "rev": "66c3f01",
+    "rev": "dc2e98029eb798d0dfd8a187d6b5959fcccca355",
     "config_files": [
       "config-sans-adlam.yaml",
       "config-sans-adlam-unjoined.yaml"
@@ -2214,32 +2184,32 @@
   },
   {
     "repo_url": "https://github.com/notofonts/ahom",
-    "rev": "831b7b7",
+    "rev": "fb3e25e81eb2a7d8301ddd86085f60a4b2a88d73",
     "config_files": [
       "config-serif-ahom.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/anatolian-hieroglyphs",
-    "rev": "5805307",
+    "rev": "d82f0bce270456bb1e975e11b250f61cd1f0e8c7",
     "config_files": [
       "config-sans-anatolian-hieroglyphs.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/arabic",
-    "rev": "b38c6b3",
+    "rev": "9e68bce70fc5b3e51d16e4d7d4866a0779e27c26",
     "config_files": [
-      "config-sans-arabic-ui.yaml",
+      "config-sans-arabic.yaml",
       "config-kufi-arabic.yaml",
-      "config-naskh-arabic.yaml",
       "config-naskh-arabic-ui.yaml",
-      "config-sans-arabic.yaml"
+      "config-naskh-arabic.yaml",
+      "config-sans-arabic-ui.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/armenian",
-    "rev": "2d2274f",
+    "rev": "36e1e68c90eed63e7046adeafca55ff4fcaf1a24",
     "config_files": [
       "config-sans-armenian.yaml",
       "config-serif-armenian.yaml"
@@ -2247,14 +2217,14 @@
   },
   {
     "repo_url": "https://github.com/notofonts/avestan",
-    "rev": "fd2b353",
+    "rev": "c19976eacac1ca2abf665d3363cf61893342c0ab",
     "config_files": [
       "config-sans-avestan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/balinese",
-    "rev": "3677ecc",
+    "rev": "b0f7466a6e15d48061e41d04dc7320ad6eec81db",
     "config_files": [
       "config-sans-balinese.yaml",
       "config-serif-balinese.yaml"
@@ -2262,200 +2232,200 @@
   },
   {
     "repo_url": "https://github.com/notofonts/bamum",
-    "rev": "af2c50c",
+    "rev": "92bf2329accf9c1e6bc9373a64def94578a5f89b",
     "config_files": [
       "config-sans-bamum.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/bassa-vah",
-    "rev": "db05ffb",
+    "rev": "bed459c24b109a612b53f44542d4fe6f9c754641",
     "config_files": [
       "config-sans-bassa-vah.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/batak",
-    "rev": "8666cec",
+    "rev": "9e4d85f112e7c8a5b1d958b5b848db15eea069b2",
     "config_files": [
       "config-sans-batak.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/bengali",
-    "rev": "93b84d0",
+    "rev": "487ac26db8cd7befbf4632d36ca59486bf2f64dc",
     "config_files": [
-      "config-serif-bengali.yaml",
-      "config-sans-bengali.yaml"
+      "config-sans-bengali.yaml",
+      "config-serif-bengali.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/bhaiksuki",
-    "rev": "01af78e",
+    "rev": "570db5a125e4f011e2d54b55220c0e2111adea2e",
     "config_files": [
       "config-sans-bhaiksuki.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/brahmi",
-    "rev": "c49f83e",
+    "rev": "7803437c1a61033137e89a7860cccb8f735a6088",
     "config_files": [
       "config-sans-brahmi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/buginese",
-    "rev": "9a2ea75",
+    "rev": "8d73947363e673e82d4812be966a212d7633a7ee",
     "config_files": [
       "config-sans-buginese.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/buhid",
-    "rev": "94e63cc",
+    "rev": "f678808af467ed38aa5a8d29a3f0925c14b1f570",
     "config_files": [
       "config-sans-buhid.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/canadian-aboriginal",
-    "rev": "268bebb4",
+    "rev": "1766b85dfc150695e2322c33fdc441f552720b6f",
     "config_files": [
       "config-sans-canadian-aboriginal.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/carian",
-    "rev": "d8cb85b",
+    "rev": "90653aaa664123ff3b49ac9a1380d08feb84cf4e",
     "config_files": [
       "config-sans-carian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/caucasian-albanian",
-    "rev": "25fe773",
+    "rev": "fe112d99202d347b106fe63ebc6b10c3655e00cd",
     "config_files": [
       "config-sans-caucasian-albanian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/chakma",
-    "rev": "e1a7139",
+    "rev": "239fe3aac753fa2007fa34fa4897a6b520994e88",
     "config_files": [
       "config-sans-chakma.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/cham",
-    "rev": "1688bf8",
+    "rev": "ab48c582e3c834028dc0444b832874be83532350",
     "config_files": [
       "config-sans-cham.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/cherokee",
-    "rev": "e8c5af2",
+    "rev": "a8a61f7f537960c468130795eaa168f4a594266e",
     "config_files": [
       "config-sans-cherokee.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/chorasmian",
-    "rev": "64c4a72",
+    "rev": "0ce3cfe5b4aecaa18ee820c9a668c7cd3744a29f",
     "config_files": [
       "config-sans-chorasmian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/coptic",
-    "rev": "abe1bdd",
+    "rev": "ed3522436a4e3c41b0479c8d7785facd3c397eaa",
     "config_files": [
       "config-sans-coptic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/cuneiform",
-    "rev": "5de2510",
+    "rev": "24c590e3586376ead66466b6c8b8a810df24d06f",
     "config_files": [
       "config-sans-cuneiform.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/cypriot",
-    "rev": "bc65101",
+    "rev": "4f81293d17d7b3c9c67b9ab2c335905c75ad3f1d",
     "config_files": [
       "config-sans-cypriot.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/cypro-minoan",
-    "rev": "6cc10b0",
+    "rev": "12b0fed7738a0a2b6d47040d383c2a5a5e796b0d",
     "config_files": [
       "config-sans-cypro-minoan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/deseret",
-    "rev": "1336558",
+    "rev": "fab3d4d90de5f00b318f70a2d0c247402348fd8f",
     "config_files": [
       "config-sans-deseret.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/devanagari",
-    "rev": "b9504c0",
+    "rev": "88d8a1d0ca7340a677a1a6227107c3254baddccd",
     "config_files": [
-      "config-sans-devanagari.yaml",
       "config-sans-devanagari-ui.yaml",
+      "config-sans-devanagari.yaml",
       "config-serif-devanagari.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/dogra",
-    "rev": "7ab5646",
+    "rev": "ca3e78b572e9f0a62e7b843905255e7cbd2db380",
     "config_files": [
       "config-serif-dogra.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/duployan",
-    "rev": "1242fd7",
+    "rev": "9626869cc851873c96eafd019fab55d984bbebc0",
     "config_files": [
       "config-sans-duployan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/egyptian-hieroglyphs",
-    "rev": "08dec90",
+    "rev": "773da399bed8fb50cf285b13d75dfd1667d6fbca",
     "config_files": [
       "config-sans-egyptian-hieroglyphs.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/elbasan",
-    "rev": "f439f3e",
+    "rev": "42c59134bafaf22df600e5b3e3a97224f14cca06",
     "config_files": [
       "config-sans-elbasan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/elymaic",
-    "rev": "f9b4109",
+    "rev": "4a230cd737fee5c57d6343ff349ca74531a5e92c",
     "config_files": [
       "config-sans-elymaic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/ethiopic",
-    "rev": "e5ffb56",
+    "rev": "31765294f38566c8e7a743cd39b9275bbdc30775",
     "config_files": [
-      "config-sans-ethiopic.yaml",
-      "config-serif-ethiopic.yaml"
+      "config-serif-ethiopic.yaml",
+      "config-sans-ethiopic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/georgian",
-    "rev": "a22bf6c",
+    "rev": "b9e1ca76829e4454840fb514e8be1d802cff83a5",
     "config_files": [
       "config-sans-georgian.yaml",
       "config-serif-georgian.yaml"
@@ -2463,44 +2433,44 @@
   },
   {
     "repo_url": "https://github.com/notofonts/glagolitic",
-    "rev": "7eec7b1",
+    "rev": "142196c12c02018cbd55250f9ebf9380fa006203",
     "config_files": [
       "config-sans-glagolitic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/gothic",
-    "rev": "ba27db8",
+    "rev": "1fdfe7f6a2be15afc26970deb0420146549766c3",
     "config_files": [
       "config-sans-gothic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/grantha",
-    "rev": "6bb911f",
+    "rev": "e341f72f17dc888d79ecf57e231cb3027f94c3f4",
     "config_files": [
-      "config-serif-grantha.yaml",
-      "config-sans-grantha.yaml"
+      "config-sans-grantha.yaml",
+      "config-serif-grantha.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/gujarati",
-    "rev": "76198ff",
+    "rev": "d4f75b93fae09038176dfa570adbb04616e3ba24",
     "config_files": [
-      "config-serif-gujarati.yaml",
-      "config-sans-gujarati.yaml"
+      "config-sans-gujarati.yaml",
+      "config-serif-gujarati.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/gunjala-gondi",
-    "rev": "17bad64",
+    "rev": "ab82937f84db18fad4493b1c689c8f8852ad13ed",
     "config_files": [
       "config-sans-gunjala-gondi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/gurmukhi",
-    "rev": "2925c42",
+    "rev": "ced28332766bca59a21828d0077e06998d1fda9d",
     "config_files": [
       "config-sans-gurmukhi.yaml",
       "config-serif-gurmukhi.yaml"
@@ -2508,87 +2478,87 @@
   },
   {
     "repo_url": "https://github.com/notofonts/hanifi-rohingya",
-    "rev": "d3cf7bd",
+    "rev": "48ba61fd61998b8378d977bc999bf5caf7c80079",
     "config_files": [
       "config-sans-hanifi-rohingya.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/hanunoo",
-    "rev": "81bdc6b",
+    "rev": "5799d6111ecc607bf5fcfdb9ce8b6dcb1712eef5",
     "config_files": [
       "config-sans-hanunoo.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/hatran",
-    "rev": "4c71b07",
+    "rev": "de472058911afccdf8ab8ddafc7b0314ad30e673",
     "config_files": [
       "config-sans-hatran.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/hebrew",
-    "rev": "c14a1e0",
+    "rev": "b86e60930dc706d390cad2466ca3afb872a40c8a",
     "config_files": [
-      "config-sans-hebrew.yaml",
-      "config-sans-hebrew-droid.yaml",
       "config-rashi-hebrew.yaml",
-      "config-serif-hebrew.yaml"
+      "config-sans-hebrew-droid.yaml",
+      "config-serif-hebrew.yaml",
+      "config-sans-hebrew.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/hentaigana",
-    "rev": "940d058",
+    "rev": "837f6c277c2beb9c6c5fedde59025210eeb7c76c",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/imperial-aramaic",
-    "rev": "f32017c",
+    "rev": "059b859599f8e189962b73d357882446f195e77f",
     "config_files": [
       "config-sans-imperial-aramaic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/indic-siyaq-numbers",
-    "rev": "8edc2ee",
+    "rev": "5c2be06e8ce0f4a3f552cc7100cffbbf5a200ad5",
     "config_files": [
       "config-sans-indic-siyaq-numbers.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/inscriptional-pahlavi",
-    "rev": "ccf6d04",
+    "rev": "ae11e4305961021e457dc2f9a17b3a7eb1fe3357",
     "config_files": [
       "config-sans-inscriptional-pahlavi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/inscriptional-parthian",
-    "rev": "8930035",
+    "rev": "3ad1b227f70b46d299ec1a911a39136c8b2a5a89",
     "config_files": [
       "config-sans-inscriptional-parthian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/javanese",
-    "rev": "47fac81",
+    "rev": "da4d01347950f097f175ff332955f5d95f8bd617",
     "config_files": [
       "config-sans-javanese.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/kaithi",
-    "rev": "a439d16",
+    "rev": "897d285a72e97fa29eed1c6db8db95ede52951e7",
     "config_files": [
       "config-sans-kaithi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/kannada",
-    "rev": "7eeac89",
+    "rev": "58083945be6ca9828fee2a729287c8617bdd7fd9",
     "config_files": [
       "config-serif-kannada.yaml",
       "config-sans-kannada.yaml"
@@ -2596,72 +2566,72 @@
   },
   {
     "repo_url": "https://github.com/notofonts/kawi",
-    "rev": "c52ddbe",
+    "rev": "7b1182376580f1192b0ac9cc172ee1ee723655b7",
     "config_files": [
       "config-sans-kawi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/kayah-li",
-    "rev": "0ede9a6",
+    "rev": "d804f259b83b41e7435284b5b389624631bedf35",
     "config_files": [
       "config-sans-kayah-li.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/kharoshthi",
-    "rev": "922cbed",
+    "rev": "aacffd48d67ea30b8836a4069df73aa789148c01",
     "config_files": [
       "config-sans-kharoshthi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/khitan-small-script",
-    "rev": "20bf39d",
+    "rev": "0b9bd72bfcf815d73a3416520c44a3ed52e5bb04",
     "config_files": [
       "config-serif.yaml",
-      "config-fangsong-vertical.yaml",
-      "config-fangsong-rotated.yaml"
+      "config-fangsong-rotated.yaml",
+      "config-fangsong-vertical.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/khmer",
-    "rev": "46ad2c6",
+    "rev": "fddb0ac3610fe0f4b29743c58011577809a1a04c",
     "config_files": [
-      "config-sans-khmer.yaml",
+      "config-serif-khmer.yaml",
       "config-sans-khmer-ui.yaml",
-      "config-serif-khmer.yaml"
+      "config-sans-khmer.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/khojki",
-    "rev": "1f04a37",
+    "rev": "12a29ae5a1fc834ee0e2d8206714fde94f34f2a2",
     "config_files": [
-      "config-serif-khojki.yaml",
-      "config-sans-khojki.yaml"
+      "config-sans-khojki.yaml",
+      "config-serif-khojki.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/khudawadi",
-    "rev": "77a425b",
+    "rev": "842e04f50a19bc13847da26afbbf3ccac2ccc125",
     "config_files": [
       "config-sans-khudawadi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/lao",
-    "rev": "3b4d031",
+    "rev": "3b78b9c89f25d756b6307d5b3c0b782818f64c41",
     "config_files": [
-      "config-sans-lao.yaml",
-      "config-serif-lao.yaml",
       "config-sans-lao-looped-ui.yaml",
       "config-sans-lao-ui.yaml",
-      "config-sans-lao-looped.yaml"
+      "config-sans-lao-looped.yaml",
+      "config-serif-lao.yaml",
+      "config-sans-lao.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/latin-greek-cyrillic",
-    "rev": "4e0e245f",
+    "rev": "c4a321e123e4d4ff315f57f4e0adf294fe3a95be",
     "config_files": [
       "config-serif.yaml",
       "config-sans.yaml",
@@ -2670,70 +2640,70 @@
   },
   {
     "repo_url": "https://github.com/notofonts/lepcha",
-    "rev": "9e90cf9",
+    "rev": "22993dbe4ed924277e75a444a40d2b420a372e7c",
     "config_files": [
       "config-sans-lepcha.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/limbu",
-    "rev": "d82787e",
+    "rev": "191ac5f51c1dc7603d7636a26161ff9c36b9671b",
     "config_files": [
       "config-sans-limbu.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/linear-a",
-    "rev": "4803de7",
+    "rev": "e139e1cc000341fbe4c154932e02d4996f105b85",
     "config_files": [
       "config-sans-linear-a.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/linear-b",
-    "rev": "99f8ab7",
+    "rev": "410f88c1d4d10b5db76217e57e7b153811ce0674",
     "config_files": [
       "config-sans-linear-b.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/lisu",
-    "rev": "0e0d8fa",
+    "rev": "d7e34571c41408f05975acaee719c2353408eb9e",
     "config_files": [
       "config-sans-lisu.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/lycian",
-    "rev": "02cef55",
+    "rev": "1e9e778f10314086451d972c0e42693890dfda36",
     "config_files": [
       "config-sans-lycian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/lydian",
-    "rev": "396e00e",
+    "rev": "fb2444aa3ac4b7e4bd8d5a0e971895f6545aa418",
     "config_files": [
       "config-sans-lydian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/mahajani",
-    "rev": "7142323",
+    "rev": "6af195b21b1841f6b842af2a3d2f6b252718a70d",
     "config_files": [
       "config-sans-mahajani.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/makasar",
-    "rev": "a44a4ff",
+    "rev": "e7902cc5d89ed7d091c247c855f516fe49f8b6ac",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/malayalam",
-    "rev": "ec0ef52",
+    "rev": "66cd7c097345e7b5c2537bdcc5d1ab854626a5ad",
     "config_files": [
       "config-serif-malayalam.yaml",
       "config-sans-malayalam.yaml"
@@ -2741,426 +2711,426 @@
   },
   {
     "repo_url": "https://github.com/notofonts/mandaic",
-    "rev": "ef8c8ef",
+    "rev": "36a3804b7febaa6827c198f9a39324c8b24ad366",
     "config_files": [
       "config-sans-mandaic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/manichaean",
-    "rev": "45f925c",
+    "rev": "d3d108ab2cdf0250927b267fab4d2c8dea07dd68",
     "config_files": [
       "config-sans-manichaean.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/marchen",
-    "rev": "0efb263",
+    "rev": "8b7d0d75ddbd5e2069b8b0f1a89a842d6b37cff2",
     "config_files": [
       "config-sans-marchen.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/masaram-gondi",
-    "rev": "ce1d619",
+    "rev": "aa688154eb5d517ed368e6905fbf1d2e087141a1",
     "config_files": [
       "config-sans-masaram-gondi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/mayan-numerals",
-    "rev": "4ab74b5",
+    "rev": "2361f677ead1b84ce88cdef75d6c25e6ca0ff39f",
     "config_files": [
       "config-sans-mayan-numerals.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/medefaidrin",
-    "rev": "6875062",
+    "rev": "db67ede293998b151205e6b7ca30f699f71e1624",
     "config_files": [
       "config-sans-medefaidrin.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/meetei-mayek",
-    "rev": "8c41d41",
+    "rev": "0df27325288cee071d2f5d06016b0de1e6738aa5",
     "config_files": [
       "config-sans-meetei-mayek.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/mende-kikakui",
-    "rev": "f9cbb61",
+    "rev": "70eb55ce4b682dc87c87266a25aa9b12b44f479d",
     "config_files": [
       "config-sans-mende-kikakui.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/meroitic",
-    "rev": "d7e3c21",
+    "rev": "d682685c8c0ef7ef9d1091a6dad7d8ce2843e565",
     "config_files": [
       "config-sans-meroitic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/miao",
-    "rev": "dcbd5ac",
+    "rev": "60e05da3a76e726c5496c3dcbead5051e8b782f7",
     "config_files": [
       "config-sans-miao.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/modi",
-    "rev": "7b6303e",
+    "rev": "8e9d4844a2daef44f622cb15639649c5d075625d",
     "config_files": [
       "config-sans-modi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/mongolian",
-    "rev": "8089c2a",
+    "rev": "a61ef47935dcf4e4675456b632d6248836a5496a",
     "config_files": [
       "config-sans-mongolian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/mro",
-    "rev": "24b2532",
+    "rev": "3d7debf9b0faf7750c1c9191e9bc348c2a1fcedd",
     "config_files": [
       "config-sans-mro.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/multani",
-    "rev": "c18ac4c",
+    "rev": "1ef5899c9e386c6b824641d32352444d8c418a6c",
     "config_files": [
       "config-sans-multani.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/music",
-    "rev": "65aff20",
+    "rev": "2c97b9ea6927a3a80bc7289d663d9115b070f365",
     "config_files": [
       "config-music.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/myanmar",
-    "rev": "2901d18",
+    "rev": "e63df089cf13058143e307b68859e7e1e46e2a47",
     "config_files": [
-      "config-serif-myanmar.yaml",
       "config-sans-myanmar-ui.yaml",
+      "config-serif-myanmar.yaml",
       "config-sans-myanmar.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nabataean",
-    "rev": "4eae9b5",
+    "rev": "d16bdaad189b2af2547b7e39819b0501f324f9f7",
     "config_files": [
       "config-sans-nabataean.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nag-mundari",
-    "rev": "aa14d2d",
+    "rev": "64846ef2e38f46694aca851f48837ed2635994a4",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nandinagari",
-    "rev": "c751456",
+    "rev": "6fd9a06474f168966558decc068b3f404b7d9063",
     "config_files": [
       "config-sans-nandinagari.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nastaliq",
-    "rev": "f8432ae",
+    "rev": "3508acd351a8603c6b74d2cff2da66b0806374d1",
     "config_files": [
       "config-nastaliq-urdu.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/new-tai-lue",
-    "rev": "3049a13",
+    "rev": "f591483c535ff7c2db1f010907be69251fc0bb1c",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/newa",
-    "rev": "ccc0e5c",
+    "rev": "5a902c1fb6abf546e88d61af912d0b40f2a55de3",
     "config_files": [
       "config-sans-newa.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nko",
-    "rev": "dada5d4",
+    "rev": "aee63be419b2e15fb778c15351c05dd81bd3e72b",
     "config_files": [
-      "config-sans-nko-unjoined.yaml",
-      "config-sans-nko.yaml"
+      "config-sans-nko.yaml",
+      "config-sans-nko-unjoined.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/nushu",
-    "rev": "ca5dfa0",
+    "rev": "759580e6cd7c146c802592f644e0176e49a1d1fc",
     "config_files": [
-      "config-traditional-nushu.yaml",
-      "config-sans-nushu.yaml"
+      "config-sans-nushu.yaml",
+      "config-traditional-nushu.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/ogham",
-    "rev": "a4eb11b",
+    "rev": "f9ef276aefef0c9442f613db21f69a02d4102888",
     "config_files": [
       "config-sans-ogham.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/ol-chiki",
-    "rev": "df57d98",
+    "rev": "61f81d5651c9c31d44d2731dc840607dd443c604",
     "config_files": [
       "config-sans-ol-chiki.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-hungarian",
-    "rev": "2249d78",
+    "rev": "1e4081448c3313c4486e148b86aff6cbbc1584d5",
     "config_files": [
       "config-sans-old-hungarian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-italic",
-    "rev": "5142063",
+    "rev": "486912f34b04a5ce9eb157ab3045ac665b6c36a8",
     "config_files": [
       "config-sans-old.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-north-arabian",
-    "rev": "50b78ad",
+    "rev": "da9dd37a1d09e6c3b3c17d7f3d907c3ba8dc1a76",
     "config_files": [
       "config-sans-old-north-arabian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-permic",
-    "rev": "89d15c3",
+    "rev": "080df8840211dde6b17fc87957950358b723e5e0",
     "config_files": [
       "config-sans-old-permic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-persian",
-    "rev": "24ac053",
+    "rev": "27b5583d16934490eda51cb723316f65d8b8379b",
     "config_files": [
       "config-sans-old-persian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-sogdian",
-    "rev": "63f9407",
+    "rev": "aa13b986b6b48a97ab305a8915d2349fdfc87692",
     "config_files": [
       "config-sans-old-sogdian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-south-arabian",
-    "rev": "1683548",
+    "rev": "e77ff1f357de7696d8c44f0ea0394a32d6a19745",
     "config_files": [
       "config-sans-old-south-arabian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-turkic",
-    "rev": "b9616ab",
+    "rev": "598d6ec8b4cb7db6012a370b9546b29d4a0bc607",
     "config_files": [
       "config-sans-old-turkic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/old-uyghur",
-    "rev": "da8ad06",
+    "rev": "44b6cbf951161b70309c5e4ddff7738e76aec195",
     "config_files": [
       "config-serif-old-uyghur.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/oriya",
-    "rev": "be18c96",
+    "rev": "757b8f141168cf2c7d4b97211963b6a296e6eee7",
     "config_files": [
-      "config-sans-oriya.yaml",
-      "config-serif-oriya.yaml"
+      "config-serif-oriya.yaml",
+      "config-sans-oriya.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/osage",
-    "rev": "f466eb6",
+    "rev": "7778dc00e3e91c0ca4498acbf6ea5b43b70fefcb",
     "config_files": [
       "config-sans-osage.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/osmanya",
-    "rev": "6d665ae",
+    "rev": "6b87e2ca0c0b8e746247b9c2d073d4cacd522dce",
     "config_files": [
       "config-sans-osmanya.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/ottoman-siyaq-numbers",
-    "rev": "aa42405",
+    "rev": "b6cca8ffe60e4978e07980dd9ae8820a474a9301",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/pahawh-hmong",
-    "rev": "b09196e",
+    "rev": "793abf16bdd65ee298dcfaf6a8c77113341c4890",
     "config_files": [
       "config-sans-pahawh-hmong.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/palmyrene",
-    "rev": "203c23c",
+    "rev": "bbb69ea150a25cabb937bcbd654c171ff958b426",
     "config_files": [
       "config-sans-palmyrene.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/pau-cin-hau",
-    "rev": "e4ee24d",
+    "rev": "31ef11c2be728b8f709ea9b65fa04aa3519af39a",
     "config_files": [
       "config-sans-pau-cin-hau.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/phags-pa",
-    "rev": "e1ca953",
+    "rev": "a2cd1a7833b6e7d2be2519fe2539b1d3be53f28e",
     "config_files": [
       "config-sans-phags-pa.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/phoenician",
-    "rev": "780c098",
+    "rev": "42000fa28062130c663c83e38fe9df00f9a85a4f",
     "config_files": [
       "config-sans-phoenician.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/psalter-pahlavi",
-    "rev": "c7f8c2c",
+    "rev": "2f531fdc967e90d6d01da58384063314ccd14bf5",
     "config_files": [
       "config-sans-psalter-pahlavi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/rejang",
-    "rev": "23ebbfd",
+    "rev": "260e890f159e60ffbcc4994006a003b7a9a28f07",
     "config_files": [
       "config-sans-rejang.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/runic",
-    "rev": "1f0a034",
+    "rev": "0badcd990e0be2e6010362488af5a901a7bfefa1",
     "config_files": [
       "config-sans-runic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/samaritan",
-    "rev": "e7b3ddd",
+    "rev": "86c2e96b021b020d39b51641a541443e36c7ce62",
     "config_files": [
       "config-sans-samaritan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/saurashtra",
-    "rev": "1c68739",
+    "rev": "922f6bdd4c2f6b6bae4d140253f810359ef2e62b",
     "config_files": [
       "config-sans-saurashtra.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sharada",
-    "rev": "a66024f",
+    "rev": "cafc138eaa89d3fa491ea6d81051fc910ade8c87",
     "config_files": [
       "config-sans-sharada.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/shavian",
-    "rev": "9575fea",
+    "rev": "15edbc9e0dd0c0ad627c658bbf439dce175a8ba4",
     "config_files": [
       "config-sans-shavian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/siddham",
-    "rev": "fbb964b",
+    "rev": "6ff212cb17efb2ad8b6a3b677d61cb66edc44dae",
     "config_files": [
       "config-sans-siddham.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sign-writing",
-    "rev": "9e07f61e",
+    "rev": "a0a0e9a8691ea81cfd32f7afb971c1ed4bf58f9a",
     "config_files": [
       "config-sans-sign-writing.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sinhala",
-    "rev": "6cc7c8c",
+    "rev": "ed40d912d40b9668387f2d5ea4507844e1ff547d",
     "config_files": [
-      "config-serif-sinhala.yaml",
-      "config-sans-sinhala.yaml"
+      "config-sans-sinhala.yaml",
+      "config-serif-sinhala.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sogdian",
-    "rev": "ff05273",
+    "rev": "9f27761f150f7d0952e4873296cdc0eeaa6d28d3",
     "config_files": [
       "config-sans-sogdian.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sora-sompeng",
-    "rev": "499ef10",
+    "rev": "d6dc3eaa0f252c018aaf41314e24bcc889a8c5e4",
     "config_files": [
       "config-sans-sora-sompeng.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/soyombo",
-    "rev": "93bb72b",
+    "rev": "c2488cb18ec2296faa98ddc50144c1be4e94dffb",
     "config_files": [
       "config-sans-soyombo.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/sundanese",
-    "rev": "de739c0",
+    "rev": "8069fb6e2b3a9bc2888748b4d3cc1dd5919728ee",
     "config_files": [
       "config-sans-sundanese.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/syloti-nagri",
-    "rev": "1aaa56e",
+    "rev": "24ab3ac364a1b0882f36fa18f8f090145b009bf8",
     "config_files": [
       "config-sans-syloti-nagri.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/symbols",
-    "rev": "a388e63",
+    "rev": "635cef9edab91611990bd3d5d0457044ed410077",
     "config_files": [
       "config-sans-symbols2.yaml",
       "config-sans-symbols.yaml"
@@ -3168,81 +3138,81 @@
   },
   {
     "repo_url": "https://github.com/notofonts/syriac",
-    "rev": "47ef681",
+    "rev": "0be4b71ccc6f9477c3be18d151642eb7d70dcf63",
     "config_files": [
-      "config-sans-syriac.yaml",
+      "config-sans-syriac-western.yaml",
       "config-sans-syriac-eastern.yaml",
-      "config-sans-syriac-western.yaml"
+      "config-sans-syriac.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tagalog",
-    "rev": "6ddc11f",
+    "rev": "3546fa08fc9d624166a1521054c6f3f473ee1485",
     "config_files": [
       "config-sans-tagalog.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tagbanwa",
-    "rev": "7f663a0",
+    "rev": "ec39a09e038aae3d9551027fcfb43b417aa486a2",
     "config_files": [
       "config-sans-tagbanwa.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tai-le",
-    "rev": "ff2e2d3",
+    "rev": "297f30f9460ad4d16f64ed70f659320e415ccee1",
     "config_files": [
       "config-sans-tai-le.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tai-tham",
-    "rev": "18e1240",
+    "rev": "e336c5170ba284d0726e4a82a5b7a12fa07367bf",
     "config_files": [
       "config-sans-tai-tham.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tai-viet",
-    "rev": "224809f",
+    "rev": "8e1e11187d6bc19f48530777d268d2eee8b644b6",
     "config_files": [
       "config-sans-tai-viet.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/takri",
-    "rev": "cf0ca6f",
+    "rev": "bf175ad0b88bacf551fa992f19ce0e1cd2270b22",
     "config_files": [
       "config-sans-takri.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tamil",
-    "rev": "a712e46",
+    "rev": "2a450f1e88b1f1f21da197d98c5074d3b1483270",
     "config_files": [
+      "config-sans-tamil.yaml",
       "config-serif-tamil.yaml",
-      "config-sans-tamil-supplement.yaml",
-      "config-sans-tamil.yaml"
+      "config-sans-tamil-supplement.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tangsa",
-    "rev": "39077e3",
+    "rev": "8d40c34e78702e6ec2ef9a8e2cbd6a38cd7f6d4a",
     "config_files": [
       "config-sans-tangsa.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tangut",
-    "rev": "fe94969c",
+    "rev": "fd05a0c467af2d97ebcb6ed46453c9a0a37dfa66",
     "config_files": [
       "config-serif-tangut.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/telugu",
-    "rev": "41de4bf",
+    "rev": "2729e309c09e83ceb4a34139fddeec3d51c15c2c",
     "config_files": [
       "config-sans-telugu.yaml",
       "config-serif-telugu.yaml"
@@ -3250,117 +3220,117 @@
   },
   {
     "repo_url": "https://github.com/notofonts/thaana",
-    "rev": "0502740",
+    "rev": "18a413df01de7199c95d4115b8cd5ad492b9819c",
     "config_files": [
       "config-sans-thaana.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/thai",
-    "rev": "dbb3e9d",
+    "rev": "c62000b1b2328aa5e08470c1924ac9987fdb83b9",
     "config_files": [
-      "config-sans-thai.yaml",
-      "config-sans-thai-ui.yaml",
+      "config-serif-thai.yaml",
       "config-sans-thai-looped.yaml",
       "config-looped-thai-ui.yaml",
-      "config-serif-thai.yaml"
+      "config-sans-thai.yaml",
+      "config-sans-thai-ui.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tibetan",
-    "rev": "ebda038",
+    "rev": "28f1693070a917c50b3d275c9381def412a2ea2b",
     "config_files": [
       "config-serif-tibetan.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tifinagh",
-    "rev": "5a8c5fa",
+    "rev": "6c19a68ff330ec938fb21d6be8c94b2183e1b077",
     "config_files": [
       "config-sans-tifinagh.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/tirhuta",
-    "rev": "2ca94d6",
+    "rev": "3c941a6f7183c147e807ed92b4a4f894c4e5e7f6",
     "config_files": [
       "config-sans-tirhuta.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/todhri",
-    "rev": "203e8ff",
+    "rev": "203e8ffb944c09d0974ca652a202a18ef3be234f",
     "config_files": [
       "config-serif-todhri.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/toto",
-    "rev": "3ea8167",
+    "rev": "654cc6c340ccd33ea8935bfe936933861eb998b1",
     "config_files": [
       "config-serif-toto.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/ugaritic",
-    "rev": "78bb779",
+    "rev": "9ddf5ed058fcb2b8694c6dbdd4d0e914989e1d92",
     "config_files": [
       "config-sans-ugaritic.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/vai",
-    "rev": "0a0da41",
+    "rev": "f30c6331f2be292991c1ae047f5aeec48bd79644",
     "config_files": [
       "config-sans-vai.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/vithkuqi",
-    "rev": "653cab3",
+    "rev": "124a12d183edfdb440d501a695104979d48e2374",
     "config_files": [
-      "config-sans-vithkuqi.yaml",
-      "config-serif-vithkuqi.yaml"
+      "config-serif-vithkuqi.yaml",
+      "config-sans-vithkuqi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/wancho",
-    "rev": "a5fddfb",
+    "rev": "91ab06e9185d9a294a4c6a522dfa9d55d56d561f",
     "config_files": [
       "config-sans-wancho.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/warang-citi",
-    "rev": "4bee456",
+    "rev": "4e2380582fe87044e718328edaf1eaa38e108fc4",
     "config_files": [
       "config-sans-warang-citi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/yezidi",
-    "rev": "1b337d3",
+    "rev": "905a5f0b0de80d566e756478bc77a0c0f37c3348",
     "config_files": [
       "config-serif-yezidi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/yi",
-    "rev": "8207c5d",
+    "rev": "bdf568a724f7dd9c59f6fb04cdac4e3450699d63",
     "config_files": [
       "config-sans-yi.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/zanabazar-square",
-    "rev": "1f76d9c",
+    "rev": "41b2554e25c1ff4c7ea1231c8c966d0d5ec200b3",
     "config_files": [
       "config-sans-zanabazar-square.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/znamenny",
-    "rev": "4c3fa5d",
+    "rev": "342a8039c2317865d203a448d118c384f2b51313",
     "config_files": [
       "config-znamenny.yaml"
     ]
@@ -3374,12 +3344,12 @@
   },
   {
     "repo_url": "https://github.com/octaviopardo/Protest",
-    "rev": "094e740",
+    "rev": "094e74050a0547c8decd760b4f926321a5e72c6e",
     "config_files": [
-      "config-Riot.yaml",
+      "config-Strike.yaml",
       "config-Revolution.yaml",
       "config-Guerrilla.yaml",
-      "config-Strike.yaml"
+      "config-Riot.yaml"
     ]
   },
   {
@@ -3398,7 +3368,14 @@
   },
   {
     "repo_url": "https://github.com/ossobuffo/jura",
-    "rev": "f9df75d",
+    "rev": "f9df75d92c93324e74e5ec0df6d91c8ee4b84b5a",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+    "rev": "653fc48a72cf3b6a293f6fc207a770f537921889",
     "config_files": [
       "config.yaml"
     ]
@@ -3412,7 +3389,14 @@
   },
   {
     "repo_url": "https://github.com/productiontype/Spectral",
-    "rev": "e1179c4f",
+    "rev": "dbc06862d7030eedb1b01b60cdad8f6102f4ddfa",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/redstonedesign/parkinsans",
+    "rev": "9b5ec433f1944dfc0453ef3ce15f67a0649c13b0",
     "config_files": [
       "config.yaml"
     ]
@@ -3426,7 +3410,7 @@
   },
   {
     "repo_url": "https://github.com/ronykoch/Karantina",
-    "rev": "efb7e92",
+    "rev": "efb7e920f0a441badef8920cd87d894383a19e6a",
     "config_files": [
       "config.yaml"
     ]
@@ -3447,52 +3431,50 @@
   },
   {
     "repo_url": "https://github.com/scfried/soft-type-jacquard",
-    "rev": "ff555eb",
+    "rev": "b11565152caccd6eaedce5fe2ca0e377d1a7c597",
     "config_files": [
       "config-jacquard12charted.yaml",
+      "config-jacquard12.yaml",
       "config-jacquard24charted.yaml",
-      "config-jacquard24.yaml",
-      "config-jacquard12.yaml"
+      "config-jacquard24.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/scfried/soft-type-jacquarda-bastarda",
-    "rev": "3d76c96",
+    "rev": "ca6bf8560d7e3fd2aae341ffe0838b61b35b3c61",
     "config_files": [
-      "config.yaml",
-      "config-charted.yaml"
+      "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/scfried/soft-type-jersey",
-    "rev": "afc20d5",
+    "rev": "d8446c4c9c2ba14cf408c295be35213c006e19ff",
     "config_files": [
-      "config-jersey10.yaml",
-      "config-jersey15charted.yaml",
-      "config-jersey10charted.yaml",
-      "config-jersey20.yaml",
+      "config-jersey20charted.yaml",
       "config-jersey25charted.yaml",
       "config-jersey15.yaml",
-      "config-jersey20charted.yaml",
+      "config-jersey20.yaml",
+      "config-jersey15charted.yaml",
+      "config-jersey10.yaml",
+      "config-jersey10charted.yaml",
       "config-jersey25.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/scfried/soft-type-micro",
-    "rev": "01f7b5f",
+    "rev": "a5a61b057a6804ea75840f2b9f31cfb339652e58",
     "config_files": [
-      "config.yaml",
-      "config-charted.yaml"
+      "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/scfried/soft-type-yarndings",
-    "rev": "ea39c0f",
+    "rev": "31a5afb1007733ed93b7ade5b1eccc164fc75bca",
     "config_files": [
-      "config-yarndings12.yaml",
+      "config-yarndings20.yaml",
       "config-yarndings12charted.yaml",
       "config-yarndings20charted.yaml",
-      "config-yarndings20.yaml"
+      "config-yarndings12.yaml"
     ]
   },
   {
@@ -3511,14 +3493,56 @@
   },
   {
     "repo_url": "https://github.com/simpals/onest",
-    "rev": "f18c06a",
+    "rev": "f18c06a14512e43a6191849278d6f07fdaf347d6",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/skugiz/liter",
+    "rev": "3808843f982fae783aedd11d2f6ed8956f37fa04",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/slavonic/Monomakh",
+    "rev": "5131e23dcd584741d7481ecbd3e81a8cb3eea871",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/slavonic/Ponomar",
+    "rev": "a3023c5d838ee65b5617f3f9179269160bd177e5",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/slavonic/Triodion",
+    "rev": "3274de97310bf4660d6fb2a1ea49f771071be4b0",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/slavonic/pochaevsk",
+    "rev": "2117e7362d9b465ff0ac1850b535860d43d05f1d",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/slavonic/shafarik",
+    "rev": "e4045d59b275755b2b8532b201402786055466d8",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/solmatas/BitterPro",
-    "rev": "e776876",
+    "rev": "3238d7ae2cb0b564b81225d68b3c893a40b1d3ce",
     "config_files": [
       "config.yaml"
     ]
@@ -3539,7 +3563,7 @@
   },
   {
     "repo_url": "https://github.com/suman51284/Alkatra",
-    "rev": "0192cbf",
+    "rev": "0192cbf706f1dc560534c73153fd0e566323b31e",
     "config_files": [
       "config.yaml"
     ]
@@ -3567,7 +3591,14 @@
   },
   {
     "repo_url": "https://github.com/theleagueof/league-spartan",
-    "rev": "27341b9",
+    "rev": "27341b9bf93a2c7faa140538a64ce342486c5fb5",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/theseunbadejo/Agu-Display",
+    "rev": "d520ebead8de4091a82040fe3d8f94d84c38c66f",
     "config_files": [
       "config.yaml"
     ]
@@ -3591,6 +3622,14 @@
     "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vercel/geist-font",
+    "rev": "4ed1df170f23236dc69d3e3e0b3c023d5faf5b3e",
+    "config_files": [
+      "config-Geist.yaml",
+      "config-GeistMono.yaml"
     ]
   },
   {
@@ -3618,9 +3657,7 @@
     "repo_url": "https://github.com/wix/wixmadefor",
     "rev": "85646f130c8d3edffe66c4d8755c3f9f7abfa877",
     "config_files": [
-      "config_display.yaml",
-      "config.yaml",
-      "config_text.yaml"
+      "config.yaml"
     ]
   },
   {
@@ -3639,23 +3676,76 @@
   },
   {
     "repo_url": "https://github.com/yanone/kaffeesatz",
-    "rev": "104c0ce",
+    "rev": "104c0ced99e8390bf5b138c5ca6065c0f5fcc333",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/yanone/tagesschrift",
+    "rev": "3c08faf1630c3e56d5c893f013f421ed33a62d0e",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://gitlab.com/bonjour-monde/fonderie/syne-typeface",
+    "rev": "e536e8f1a8724bf282da74bbae410f91231ce94c",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://gitlab.com/smc/fonts/manjari",
+    "rev": "8d9524b5d81dc7c0f71076fe69ace3935a30fe51",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://www.github.com/googlefonts/teko",
-    "rev": "2bf909d",
+    "rev": "2bf909d46b0061a5e3e16e8acc4fef670e36a8f2",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://www.github.com/m4rc1e/mavenproFont",
+    "rev": "a694ee80d067e6f8cad700930e78ce395d4949e6",
     "config_files": [
       "config.yaml"
     ]
   },
   {
     "repo_url": "https://www.github.com/notofonts/math",
-    "rev": "b1f8b81",
+    "rev": "38b1f4ecbbf1e8edc3de4a9a6fb394824eb1d6ff",
     "config_files": [
+      "config-sans-mathxplat.yaml",
       "config-sans-math.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans",
+    "rev": "fce0e0668e22a324a021f1afb407b0ca155034ce",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans-flex",
+    "rev": "fc079d89fbe7f49c3ecb624eb729552e14842a4f",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/googlesans-code",
+    "rev": "0713088a41bc08edec1149cefa90b963715efcf2",
+    "auth": true,
+    "config_files": [
+      "config.yaml"
     ]
   }
 ]
