@@ -1272,6 +1272,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/boldonse",
+    "rev": "ebf7dd8db35ccdb0fb262331234634d92ac1231f",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/bonheur-royale",
     "rev": "90087bb825c798641a29d2a1114ce7acd4048b0b",
     "config_files": [
