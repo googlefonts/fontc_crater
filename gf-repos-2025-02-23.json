@@ -656,6 +656,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/balt-dev/bytesized-gf",
+    "rev": "11abbf2db0602d93f35ec9d493a074e384f0cdb3",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/batsimadz/Sankofa-Display",
     "rev": "078848b9058a9e51b36ac4602c7c7424d34bef21",
     "config_files": [
