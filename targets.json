@@ -1853,6 +1853,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/secular",
+    "rev": "6a1b3caa448955ffe8fe7e5440f620abc0913995",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/sedan",
     "rev": "35a4019d7c2547b58177cff9a65b91e47dd79546",
     "config_files": [
