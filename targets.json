@@ -1055,6 +1055,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/Homenaje",
+    "rev": "d371ad8e2f096db1f866c8fdfb9804f90dc39453",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/Inconsolata",
     "rev": "fc1fc21081558b39a2db43bfd9b65bf9acb50701",
     "config_files": [
