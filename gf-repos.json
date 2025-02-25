@@ -992,6 +992,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/AmaticSC",
+    "rev": "c17494779c56581666b230d79689caa8c95616eb",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/AntonFont",
     "rev": "beb92fcad87808357123bb66881b4032dc96efe7",
     "config_files": [
