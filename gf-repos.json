@@ -1552,6 +1552,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/kameronFont",
+    "rev": "c13447c3b5fc11abd2eb640bd4a8dd789e38d76f",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/karla",
     "rev": "69b25f663101efb4113dd7ed416c120dd2dce56a",
     "config_files": [
