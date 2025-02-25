@@ -47,9 +47,9 @@
     "rev": "78a664cdea69af8ea721a0b4cae4bee04f12e701",
     "config_files": [
       "config-cormorant.yaml",
-      "config-unicase.yaml",
-      "config-infant.yaml",
       "config-garamond.yaml",
+      "config-infant.yaml",
+      "config-unicase.yaml",
       "config-upright.yaml"
     ]
   },
@@ -1023,8 +1023,8 @@
     "repo_url": "https://github.com/googlefonts/Bruno-ace",
     "rev": "20f7e26ed3cdccaf1ad682e2b27eaf4f951fef20",
     "config_files": [
-      "config-small-caps.yaml",
-      "config-regular.yaml"
+      "config-regular.yaml",
+      "config-small-caps.yaml"
     ]
   },
   {
@@ -2242,8 +2242,8 @@
     "repo_url": "https://github.com/notofonts/adlam",
     "rev": "dc2e98029eb798d0dfd8a187d6b5959fcccca355",
     "config_files": [
-      "config-sans-adlam.yaml",
-      "config-sans-adlam-unjoined.yaml"
+      "config-sans-adlam-unjoined.yaml",
+      "config-sans-adlam.yaml"
     ]
   },
   {
@@ -2264,11 +2264,11 @@
     "repo_url": "https://github.com/notofonts/arabic",
     "rev": "9e68bce70fc5b3e51d16e4d7d4866a0779e27c26",
     "config_files": [
-      "config-sans-arabic.yaml",
       "config-kufi-arabic.yaml",
       "config-naskh-arabic-ui.yaml",
       "config-naskh-arabic.yaml",
-      "config-sans-arabic-ui.yaml"
+      "config-sans-arabic-ui.yaml",
+      "config-sans-arabic.yaml"
     ]
   },
   {
@@ -2483,8 +2483,8 @@
     "repo_url": "https://github.com/notofonts/ethiopic",
     "rev": "31765294f38566c8e7a743cd39b9275bbdc30775",
     "config_files": [
-      "config-serif-ethiopic.yaml",
-      "config-sans-ethiopic.yaml"
+      "config-sans-ethiopic.yaml",
+      "config-serif-ethiopic.yaml"
     ]
   },
   {
@@ -2567,8 +2567,8 @@
     "config_files": [
       "config-rashi-hebrew.yaml",
       "config-sans-hebrew-droid.yaml",
-      "config-serif-hebrew.yaml",
-      "config-sans-hebrew.yaml"
+      "config-sans-hebrew.yaml",
+      "config-serif-hebrew.yaml"
     ]
   },
   {
@@ -2624,8 +2624,8 @@
     "repo_url": "https://github.com/notofonts/kannada",
     "rev": "58083945be6ca9828fee2a729287c8617bdd7fd9",
     "config_files": [
-      "config-serif-kannada.yaml",
-      "config-sans-kannada.yaml"
+      "config-sans-kannada.yaml",
+      "config-serif-kannada.yaml"
     ]
   },
   {
@@ -2653,18 +2653,18 @@
     "repo_url": "https://github.com/notofonts/khitan-small-script",
     "rev": "0b9bd72bfcf815d73a3416520c44a3ed52e5bb04",
     "config_files": [
-      "config-serif.yaml",
       "config-fangsong-rotated.yaml",
-      "config-fangsong-vertical.yaml"
+      "config-fangsong-vertical.yaml",
+      "config-serif.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/khmer",
     "rev": "fddb0ac3610fe0f4b29743c58011577809a1a04c",
     "config_files": [
-      "config-serif-khmer.yaml",
       "config-sans-khmer-ui.yaml",
-      "config-sans-khmer.yaml"
+      "config-sans-khmer.yaml",
+      "config-serif-khmer.yaml"
     ]
   },
   {
@@ -2687,19 +2687,19 @@
     "rev": "3b78b9c89f25d756b6307d5b3c0b782818f64c41",
     "config_files": [
       "config-sans-lao-looped-ui.yaml",
-      "config-sans-lao-ui.yaml",
       "config-sans-lao-looped.yaml",
-      "config-serif-lao.yaml",
-      "config-sans-lao.yaml"
+      "config-sans-lao-ui.yaml",
+      "config-sans-lao.yaml",
+      "config-serif-lao.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/latin-greek-cyrillic",
     "rev": "c4a321e123e4d4ff315f57f4e0adf294fe3a95be",
     "config_files": [
-      "config-serif.yaml",
+      "config-sans-mono.yaml",
       "config-sans.yaml",
-      "config-sans-mono.yaml"
+      "config-serif.yaml"
     ]
   },
   {
@@ -2769,8 +2769,8 @@
     "repo_url": "https://github.com/notofonts/malayalam",
     "rev": "66cd7c097345e7b5c2537bdcc5d1ab854626a5ad",
     "config_files": [
-      "config-serif-malayalam.yaml",
-      "config-sans-malayalam.yaml"
+      "config-sans-malayalam.yaml",
+      "config-serif-malayalam.yaml"
     ]
   },
   {
@@ -2883,8 +2883,8 @@
     "rev": "e63df089cf13058143e307b68859e7e1e46e2a47",
     "config_files": [
       "config-sans-myanmar-ui.yaml",
-      "config-serif-myanmar.yaml",
-      "config-sans-myanmar.yaml"
+      "config-sans-myanmar.yaml",
+      "config-serif-myanmar.yaml"
     ]
   },
   {
@@ -2933,8 +2933,8 @@
     "repo_url": "https://github.com/notofonts/nko",
     "rev": "aee63be419b2e15fb778c15351c05dd81bd3e72b",
     "config_files": [
-      "config-sans-nko.yaml",
-      "config-sans-nko-unjoined.yaml"
+      "config-sans-nko-unjoined.yaml",
+      "config-sans-nko.yaml"
     ]
   },
   {
@@ -3026,8 +3026,8 @@
     "repo_url": "https://github.com/notofonts/oriya",
     "rev": "757b8f141168cf2c7d4b97211963b6a296e6eee7",
     "config_files": [
-      "config-serif-oriya.yaml",
-      "config-sans-oriya.yaml"
+      "config-sans-oriya.yaml",
+      "config-serif-oriya.yaml"
     ]
   },
   {
@@ -3196,16 +3196,16 @@
     "repo_url": "https://github.com/notofonts/symbols",
     "rev": "635cef9edab91611990bd3d5d0457044ed410077",
     "config_files": [
-      "config-sans-symbols2.yaml",
-      "config-sans-symbols.yaml"
+      "config-sans-symbols.yaml",
+      "config-sans-symbols2.yaml"
     ]
   },
   {
     "repo_url": "https://github.com/notofonts/syriac",
     "rev": "0be4b71ccc6f9477c3be18d151642eb7d70dcf63",
     "config_files": [
-      "config-sans-syriac-western.yaml",
       "config-sans-syriac-eastern.yaml",
+      "config-sans-syriac-western.yaml",
       "config-sans-syriac.yaml"
     ]
   },
@@ -3255,9 +3255,9 @@
     "repo_url": "https://github.com/notofonts/tamil",
     "rev": "2a450f1e88b1f1f21da197d98c5074d3b1483270",
     "config_files": [
+      "config-sans-tamil-supplement.yaml",
       "config-sans-tamil.yaml",
-      "config-serif-tamil.yaml",
-      "config-sans-tamil-supplement.yaml"
+      "config-serif-tamil.yaml"
     ]
   },
   {
@@ -3293,11 +3293,11 @@
     "repo_url": "https://github.com/notofonts/thai",
     "rev": "c62000b1b2328aa5e08470c1924ac9987fdb83b9",
     "config_files": [
-      "config-serif-thai.yaml",
-      "config-sans-thai-looped.yaml",
       "config-looped-thai-ui.yaml",
+      "config-sans-thai-looped.yaml",
+      "config-sans-thai-ui.yaml",
       "config-sans-thai.yaml",
-      "config-sans-thai-ui.yaml"
+      "config-serif-thai.yaml"
     ]
   },
   {
@@ -3353,8 +3353,8 @@
     "repo_url": "https://github.com/notofonts/vithkuqi",
     "rev": "124a12d183edfdb440d501a695104979d48e2374",
     "config_files": [
-      "config-serif-vithkuqi.yaml",
-      "config-sans-vithkuqi.yaml"
+      "config-sans-vithkuqi.yaml",
+      "config-serif-vithkuqi.yaml"
     ]
   },
   {
@@ -3410,10 +3410,10 @@
     "repo_url": "https://github.com/octaviopardo/Protest",
     "rev": "094e74050a0547c8decd760b4f926321a5e72c6e",
     "config_files": [
-      "config-Strike.yaml",
-      "config-Revolution.yaml",
       "config-Guerrilla.yaml",
-      "config-Riot.yaml"
+      "config-Revolution.yaml",
+      "config-Riot.yaml",
+      "config-Strike.yaml"
     ]
   },
   {
@@ -3497,10 +3497,10 @@
     "repo_url": "https://github.com/scfried/soft-type-jacquard",
     "rev": "b11565152caccd6eaedce5fe2ca0e377d1a7c597",
     "config_files": [
-      "config-jacquard12charted.yaml",
       "config-jacquard12.yaml",
-      "config-jacquard24charted.yaml",
-      "config-jacquard24.yaml"
+      "config-jacquard12charted.yaml",
+      "config-jacquard24.yaml",
+      "config-jacquard24charted.yaml"
     ]
   },
   {
@@ -3514,14 +3514,14 @@
     "repo_url": "https://github.com/scfried/soft-type-jersey",
     "rev": "d8446c4c9c2ba14cf408c295be35213c006e19ff",
     "config_files": [
-      "config-jersey20charted.yaml",
-      "config-jersey25charted.yaml",
-      "config-jersey15.yaml",
-      "config-jersey20.yaml",
-      "config-jersey15charted.yaml",
       "config-jersey10.yaml",
       "config-jersey10charted.yaml",
-      "config-jersey25.yaml"
+      "config-jersey15.yaml",
+      "config-jersey15charted.yaml",
+      "config-jersey20.yaml",
+      "config-jersey20charted.yaml",
+      "config-jersey25.yaml",
+      "config-jersey25charted.yaml"
     ]
   },
   {
@@ -3535,10 +3535,10 @@
     "repo_url": "https://github.com/scfried/soft-type-yarndings",
     "rev": "31a5afb1007733ed93b7ade5b1eccc164fc75bca",
     "config_files": [
-      "config-yarndings20.yaml",
+      "config-yarndings12.yaml",
       "config-yarndings12charted.yaml",
-      "config-yarndings20charted.yaml",
-      "config-yarndings12.yaml"
+      "config-yarndings20.yaml",
+      "config-yarndings20charted.yaml"
     ]
   },
   {
@@ -3784,8 +3784,8 @@
     "repo_url": "https://www.github.com/notofonts/math",
     "rev": "38b1f4ecbbf1e8edc3de4a9a6fb394824eb1d6ff",
     "config_files": [
-      "config-sans-mathxplat.yaml",
-      "config-sans-math.yaml"
+      "config-sans-math.yaml",
+      "config-sans-mathxplat.yaml"
     ]
   },
   {
