@@ -1280,6 +1280,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/bangers",
+    "rev": "a08adf7432de7eb3d8fc1f9fde67eeb5f4421d06",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/beau-rivage",
     "rev": "a80b72a03f6ea0a5667c58620973efdb72384ffa",
     "config_files": [
