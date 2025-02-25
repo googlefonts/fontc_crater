@@ -1049,6 +1049,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/Domine",
+    "rev": "2974ac627aad3a34190288c07fd0a0040d38550f",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/Exo-2.0",
     "rev": "f83ea8a02d3e1d6963ab6e910038521f27e283a2",
     "config_files": [
