@@ -1020,6 +1020,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/Bruno-ace",
+    "rev": "20f7e26ed3cdccaf1ad682e2b27eaf4f951fef20",
+    "config_files": [
+      "config-small-caps.yaml",
+      "config-regular.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/Crimson",
     "rev": "4f1458ae64c6c0d9c5fdfbf5095c7fabe0fa063f",
     "config_files": [
