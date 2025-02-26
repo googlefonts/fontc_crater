@@ -3759,6 +3759,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/typofactur/winkysans",
+    "rev": "0c6c255d031c0328fcfcfbee5fbb87289ff18bc2",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/usted/Albert-Sans",
     "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
     "config_files": [
