@@ -1168,6 +1168,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/RadleyFont",
+    "rev": "91a50ead8d55be9bb2fed161f4a6038ba86f9619",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/RammettoFont",
     "rev": "a60e02d4bc60c0e5ca87076da98c52a16f87bd99",
     "config_files": [
