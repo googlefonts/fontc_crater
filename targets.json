@@ -1126,6 +1126,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/NoricanFont",
+    "rev": "5e30b33570463b57d70795d7ccac56b4d69688e5",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/NunitoSans",
     "rev": "058bd7a2f33d6ad5ef1df985b3db403622016a8c",
     "config_files": [
