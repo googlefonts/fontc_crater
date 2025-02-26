@@ -3837,20 +3837,6 @@
     ]
   },
   {
-    "repo_url": "https://gitlab.com/bonjour-monde/fonderie/syne-typeface",
-    "rev": "e536e8f1a8724bf282da74bbae410f91231ce94c",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://gitlab.com/smc/fonts/manjari",
-    "rev": "8d9524b5d81dc7c0f71076fe69ace3935a30fe51",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
     "repo_url": "https://www.github.com/googlefonts/teko",
     "rev": "2bf909d46b0061a5e3e16e8acc4fef670e36a8f2",
     "config_files": [
