@@ -1112,6 +1112,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/MetrophobicFont",
+    "rev": "c834ca0e9188d756627252ae510266ed5e8d2416",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/NunitoSans",
     "rev": "058bd7a2f33d6ad5ef1df985b3db403622016a8c",
     "config_files": [
