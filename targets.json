@@ -1203,6 +1203,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/VocesFont",
+    "rev": "7b1bd6dae9aa675c12e2ded3b1bb6508e447b78a",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/abeezee",
     "rev": "b9bd3f3522d91aca81eb668f56d40c2c62a90125",
     "config_files": [
