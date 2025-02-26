@@ -1980,6 +1980,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/sedgwickave",
+    "rev": "4cb633cf654a7bd2a495061ea284c23f0bc65a23",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/send-flowers",
     "rev": "5cee2ce8a5ce832b12d409fee214f54164916e92",
     "config_files": [
