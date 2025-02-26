@@ -1847,6 +1847,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/paytoneFont",
+    "rev": "13ead8c7855371177f8d46f1a65aad918bba3d62",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/petemoss",
     "rev": "c08e5306e6d86292071852778b043f5f81de32ae",
     "config_files": [
