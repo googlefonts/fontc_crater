@@ -1105,6 +1105,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/MakoFont",
+    "rev": "f1365c6fd308090395e543858ce9c8520061c913",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/NunitoSans",
     "rev": "058bd7a2f33d6ad5ef1df985b3db403622016a8c",
     "config_files": [
