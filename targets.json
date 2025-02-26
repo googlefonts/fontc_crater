@@ -1567,6 +1567,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/indieflower",
+    "rev": "db44d10c34c1d74011b7f3bee8c7c12123b6068e",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/ingrid-darling",
     "rev": "ea2b4893cf8dc8cd0e7fb2b89f9631b38fde4ed3",
     "config_files": [
