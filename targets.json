@@ -2071,6 +2071,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/teko",
+    "rev": "2bf909d46b0061a5e3e16e8acc4fef670e36a8f2",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/the-nautigal",
     "rev": "1d644f7cd792c5cc64a91e88f0ca568016f820aa",
     "config_files": [
@@ -2250,6 +2257,13 @@
     "rev": "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02",
     "config_files": [
       "config.yml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/m4rc1e/mavenproFont",
+    "rev": "a694ee80d067e6f8cad700930e78ce395d4949e6",
+    "config_files": [
+      "config.yaml"
     ]
   },
   {
@@ -2876,6 +2890,14 @@
     "rev": "aa688154eb5d517ed368e6905fbf1d2e087141a1",
     "config_files": [
       "config-sans-masaram-gondi.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/notofonts/math",
+    "rev": "38b1f4ecbbf1e8edc3de4a9a6fb394824eb1d6ff",
+    "config_files": [
+      "config-sans-math.yaml",
+      "config-sans-mathxplat.yaml"
     ]
   },
   {
@@ -3834,28 +3856,6 @@
     "rev": "3c08faf1630c3e56d5c893f013f421ed33a62d0e",
     "config_files": [
       "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://www.github.com/googlefonts/teko",
-    "rev": "2bf909d46b0061a5e3e16e8acc4fef670e36a8f2",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://www.github.com/m4rc1e/mavenproFont",
-    "rev": "a694ee80d067e6f8cad700930e78ce395d4949e6",
-    "config_files": [
-      "config.yaml"
-    ]
-  },
-  {
-    "repo_url": "https://www.github.com/notofonts/math",
-    "rev": "38b1f4ecbbf1e8edc3de4a9a6fb394824eb1d6ff",
-    "config_files": [
-      "config-sans-math.yaml",
-      "config-sans-mathxplat.yaml"
     ]
   },
   {
