@@ -1791,6 +1791,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/nunito",
+    "rev": "058c852a6617abfaa1497ca4b350cda2a0cc50d0",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/ole",
     "rev": "fe77f34a3002bc4c2e26a8e27bee31cb45307846",
     "config_files": [
