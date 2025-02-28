@@ -13,7 +13,7 @@
 # the script we call in the fontc repo will use these variables to set
 # arguments on fontc_crater
 export FONTC_CRATER_RESULTS=$(realpath  ./results)
-export FONTC_CRATER_INPUT=$(realpath "gf-repos-2025-02-19.json")
+export FONTC_CRATER_INPUT=$(realpath "targets.json")
 
 GENERATED_HTML="$FONTC_CRATER_RESULTS/index.html"
 LOCKFILE="$FONTC_CRATER_RESULTS/CRATER.lock"
