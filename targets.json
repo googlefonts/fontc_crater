@@ -1539,6 +1539,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/gidole",
+    "rev": "8568937c577ea42b7c2655d93a5d822222c08321",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/glory",
     "rev": "76ea446c0499989af653f75c1cbd80447ef955d6",
     "config_files": [
