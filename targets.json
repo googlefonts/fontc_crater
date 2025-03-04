@@ -993,7 +993,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/AmaticSC",
-    "rev": "c17494779c56581666b230d79689caa8c95616eb",
+    "rev": "308846136d2dcfb6aef2160d7e927698cdaf9c05",
     "config_files": [
       "config.yaml"
     ]
@@ -1021,7 +1021,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/Bruno-ace",
-    "rev": "20f7e26ed3cdccaf1ad682e2b27eaf4f951fef20",
+    "rev": "b6fea3bcf7edde0fb4f468502a1c81fdbba2e182",
     "config_files": [
       "config-regular.yaml",
       "config-small-caps.yaml"
@@ -1113,7 +1113,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/MetrophobicFont",
-    "rev": "c834ca0e9188d756627252ae510266ed5e8d2416",
+    "rev": "d4da54632ddd53631332a5a469183c887b4ea3e1",
     "config_files": [
       "config.yaml"
     ]
@@ -1169,7 +1169,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/RadleyFont",
-    "rev": "91a50ead8d55be9bb2fed161f4a6038ba86f9619",
+    "rev": "7f54a0b10f092538849afcfbae11b9968eb2970b",
     "config_files": [
       "config.yaml"
     ]
@@ -1204,7 +1204,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/VocesFont",
-    "rev": "7b1bd6dae9aa675c12e2ded3b1bb6508e447b78a",
+    "rev": "48b989992d00a8df49a81c26989876b77c633597",
     "config_files": [
       "config.yaml"
     ]
@@ -1323,7 +1323,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/bangers",
-    "rev": "a08adf7432de7eb3d8fc1f9fde67eeb5f4421d06",
+    "rev": "ca6d2f15db343ee373e9c62a127f3a48cd251228",
     "config_files": [
       "config.yaml"
     ]
@@ -1820,7 +1820,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/nunito",
-    "rev": "058c852a6617abfaa1497ca4b350cda2a0cc50d0",
+    "rev": "8c6a9bb9732545b9ed53f29ec5e1ab0ff53c4e6f",
     "config_files": [
       "config.yaml"
     ]
@@ -1855,7 +1855,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/paytoneFont",
-    "rev": "13ead8c7855371177f8d46f1a65aad918bba3d62",
+    "rev": "126567cf41b70d287e05359dbaf31561496282fa",
     "config_files": [
       "config.yaml"
     ]
@@ -1988,7 +1988,7 @@
   },
   {
     "repo_url": "https://github.com/googlefonts/sedgwickave",
-    "rev": "4cb633cf654a7bd2a495061ea284c23f0bc65a23",
+    "rev": "3b269a9037e6ed8c8bc8f4bd90cd4d955855a20e",
     "config_files": [
       "config.yaml"
     ]
