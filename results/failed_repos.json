@@ -1,0 +1,18 @@
+{
+  "https://github.com/42dot/42dot-Sans": "missing source 'masters/42dotSans.designspace'",
+  "https://github.com/TypeTogether/Playpen-Sans": "missing field `sources`",
+  "https://github.com/cyrealtype/Brawler": "could not find commit 'a8e1fc6a4c43dedc38394c4f4086f526b72e852d'",
+  "https://github.com/googlefonts/Bruno-ace": "could not find commit '20f7e26ed3cdccaf1ad682e2b27eaf4f951fef20'",
+  "https://github.com/googlefonts/RadleyFont": "could not find commit '91a50ead8d55be9bb2fed161f4a6038ba86f9619'",
+  "https://github.com/googlefonts/VocesFont": "could not find commit '7b1bd6dae9aa675c12e2ded3b1bb6508e447b78a'",
+  "https://github.com/googlefonts/bangers": "could not find commit 'a08adf7432de7eb3d8fc1f9fde67eeb5f4421d06'",
+  "https://github.com/googlefonts/glory": "git failed: 'Cloning into '/Users/rofls/.crater_cache/googlefonts/glory'...\nfailed to get: -128\nfatal: could not read Username for 'https://github.com': terminal prompts disabled\n'",
+  "https://github.com/googlefonts/nunito": "could not find commit '058c852a6617abfaa1497ca4b350cda2a0cc50d0'",
+  "https://github.com/googlefonts/paytoneFont": "could not find commit '13ead8c7855371177f8d46f1a65aad918bba3d62'",
+  "https://github.com/googlefonts/sawarabi-mincho": "missing source 'SawarabiMincho.glyphs'",
+  "https://github.com/googlefonts/sedgwickave": "could not find commit '4cb633cf654a7bd2a495061ea284c23f0bc65a23'",
+  "https://github.com/loudifier/Comic-Relief": "missing source 'ComicRelief-Regular.ufo'",
+  "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
+  "https://github.com/notofonts/math": "missing field `sources`",
+  "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`"
+}
