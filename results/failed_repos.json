@@ -2,7 +2,7 @@
   "https://github.com/42dot/42dot-Sans": "missing source 'masters/42dotSans.designspace'",
   "https://github.com/TypeTogether/Playpen-Sans": "missing field `sources`",
   "https://github.com/cyrealtype/Brawler": "could not find commit 'a8e1fc6a4c43dedc38394c4f4086f526b72e852d'",
-  "https://github.com/googlefonts/glory": "git failed: 'Cloning into '/Users/rofls/.crater_cache/googlefonts/glory'...\nfailed to get: -128\nfatal: could not read Username for 'https://github.com': terminal prompts disabled\n'",
+  "https://github.com/googlefonts/glory": "git failed: 'Cloning into '/Users/rofls/.crater_cache/googlefonts/glory'...\nfatal: could not read Username for 'https://github.com': terminal prompts disabled\n'",
   "https://github.com/googlefonts/sawarabi-mincho": "missing source 'SawarabiMincho.glyphs'",
   "https://github.com/loudifier/Comic-Relief": "missing source 'ComicRelief-Regular.ufo'",
   "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
