@@ -3344,63 +3344,6 @@
     }
   },
   {
-    "began": "2025-03-11T19:02:54.522164Z",
-    "finished": "2025-03-11T19:39:29.765800Z",
-    "fontc_rev": "11db6bbc",
-    "pip_freeze_sha": "5044962161038a019dc604ffb5db77d65f37cda7  -",
-    "results_file": "2025-03-11-190139.json",
-    "input_file_sha": "821d8bae2066485083d235e63c294813295c6c91  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
-    "stats": {
-      "total_targets": 1266,
-      "identical": 41,
-      "produced_diff": 1000,
-      "fontc_failed": 37,
-      "fontmake_failed": 54,
-      "both_failed": 134,
-      "other_failure": 0,
-      "diff_perc_including_failures": 80.184326,
-      "diff_perc_excluding_failures": 97.51523
-    }
-  },
-  {
-    "began": "2025-03-11T20:02:55.000780Z",
-    "finished": "2025-03-11T20:39:21.501414Z",
-    "fontc_rev": "b38274a8",
-    "pip_freeze_sha": "5044962161038a019dc604ffb5db77d65f37cda7  -",
-    "results_file": "2025-03-11-200140.json",
-    "input_file_sha": "821d8bae2066485083d235e63c294813295c6c91  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
-    "stats": {
-      "total_targets": 1266,
-      "identical": 41,
-      "produced_diff": 1000,
-      "fontc_failed": 37,
-      "fontmake_failed": 54,
-      "both_failed": 134,
-      "other_failure": 0,
-      "diff_perc_including_failures": 79.90219,
-      "diff_perc_excluding_failures": 97.17211
-    }
-  },
-  {
-    "began": "2025-03-11T21:02:54.448408Z",
-    "finished": "2025-03-11T21:50:21.264722Z",
-    "fontc_rev": "da507915",
-    "pip_freeze_sha": "934a0c76bdc9c0bd1aa29103c074cc6c6b833c44  -",
-    "results_file": "2025-03-11-210138.json",
-    "input_file_sha": "821d8bae2066485083d235e63c294813295c6c91  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
-    "stats": {
-      "total_targets": 1266,
-      "identical": 463,
-      "produced_diff": 578,
-      "fontc_failed": 37,
-      "fontmake_failed": 54,
-      "both_failed": 134,
-      "other_failure": 0,
-      "diff_perc_including_failures": 79.91716,
-      "diff_perc_excluding_failures": 97.19032
-    }
-  },
-  {
     "began": "2025-03-12T00:02:53.712605Z",
     "finished": "2025-03-12T00:39:26.115684Z",
     "fontc_rev": "db66538e",
