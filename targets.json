@@ -3945,6 +3945,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/tallchai/akshar-type",
+    "rev": "703a8e549e5691fd35eaa4b94983a7d3bdd7190a",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/theleagueof/league-spartan",
     "rev": "27341b9bf93a2c7faa140538a64ce342486c5fb5",
     "config_files": [
