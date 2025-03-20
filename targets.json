@@ -640,6 +640,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/aaronbell/ChocolateSans",
+    "rev": "91c9c5179adc1b2af2de1e3972d91e5e62c7bbc4",
+    "config_files": [
+      "project.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/aaronbell/signika",
     "rev": "bd066259b5a87d24b23c4f0da03a96889b6d0503",
     "config_files": [
