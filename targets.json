@@ -271,6 +271,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/KanonFoundry/HedvigLetters",
+    "rev": "5331b7044a8f97dafc8587c70aef62a828084fd4",
+    "config_files": [
+      "Sans.yaml",
+      "Serif.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/Kief-Type-Foundry/Fustat",
     "rev": "8e5354428eb81c3ebf9edbc86bfa9cdca23ce8b1",
     "config_files": [
