@@ -29,6 +29,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
+    "rev": "805adb65b7262a7abf1c37877ff657111bfcf864",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/BornaIz/markazitext",
     "rev": "a876c4f0111b96f407741a877e79f207e9117338",
     "config_files": [
