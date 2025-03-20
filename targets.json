@@ -180,6 +180,16 @@
     ]
   },
   {
+    "repo_url": "https://github.com/Gue3bara/Blaka",
+    "rev": "7f264eee862d3e94c2cb6a728c6429c2f3b9adc3",
+    "config_files": [
+      "black.yaml",
+      "blakahollow.yaml",
+      "blakaink.yaml",
+      "blakaregular.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/Gue3bara/El-Messiri",
     "rev": "553b98d8e374318694b50862849af666268fd278",
     "config_files": [
