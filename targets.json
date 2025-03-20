@@ -29,6 +29,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
+    "rev": "805adb65b7262a7abf1c37877ff657111bfcf864",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/BornaIz/markazitext",
     "rev": "a876c4f0111b96f407741a877e79f207e9117338",
     "config_files": [
@@ -173,6 +180,24 @@
     ]
   },
   {
+    "repo_url": "https://github.com/Gue3bara/Blaka",
+    "rev": "7f264eee862d3e94c2cb6a728c6429c2f3b9adc3",
+    "config_files": [
+      "black.yaml",
+      "blakahollow.yaml",
+      "blakaink.yaml",
+      "blakaregular.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Gue3bara/Cairo",
+    "rev": "73d16933c6a0f341c27a69e401da83dcb0d53114",
+    "config_files": [
+      "cairo.yaml",
+      "cairoplay.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/Gue3bara/El-Messiri",
     "rev": "553b98d8e374318694b50862849af666268fd278",
     "config_files": [
@@ -264,6 +289,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/KanonFoundry/HedvigLetters",
+    "rev": "5331b7044a8f97dafc8587c70aef62a828084fd4",
+    "config_files": [
+      "Sans.yaml",
+      "Serif.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/Kief-Type-Foundry/Fustat",
     "rev": "8e5354428eb81c3ebf9edbc86bfa9cdca23ce8b1",
     "config_files": [
@@ -282,6 +315,13 @@
     "rev": "38b8ed1dd67bd25ef4180140492810cf050ef501",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/NDISCOVER/Arima-Font",
+    "rev": "c5fd72960f129076fbf3759d6d777cedcbceb468",
+    "config_files": [
+      "builder.yaml"
     ]
   },
   {
@@ -559,9 +599,14 @@
   },
   {
     "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
-    "rev": "c85bb380b56b2009e7c9bff11f573a3028034161",
+    "rev": "44ce90015ca3bada1ad6f6c608aeccc1df5582ad",
     "config_files": [
-      "config.yml"
+      "config-Arabic.yaml",
+      "config-Deva.yaml",
+      "config-Hebrew.yaml",
+      "config-LGC.yaml",
+      "config-Multi.yaml",
+      "config-Thai.yaml"
     ]
   },
   {
@@ -590,6 +635,27 @@
     "rev": "a6dbde5f9eb448066e8c751ee4c5b4146a7fbc99",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aaronbell/CactusSerif",
+    "rev": "1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d",
+    "config_files": [
+      "project.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aaronbell/ChocolateSans",
+    "rev": "91c9c5179adc1b2af2de1e3972d91e5e62c7bbc4",
+    "config_files": [
+      "project.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aaronbell/LxgwWenkaiTC",
+    "rev": "32516dff7ede6673850c3b88dcbe281150e185a8",
+    "config_files": [
+      "project.yaml"
     ]
   },
   {
@@ -670,6 +736,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/benhoepner/National-Park",
+    "rev": "ef0531a85a833b90713743639e3c5ffb8e345833",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/bettergui/BeVietnamPro",
     "rev": "804e62d81abbbcdcce5686069c69b41b8c245192",
     "config_files": [
@@ -733,6 +806,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/coz-m/MPLUS_FONTS",
+    "rev": "56b8226f4fae1111e38fddb3dae8a09e170bec5b",
+    "config_files": [
+      "MPLUS_STAT.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/cyrealtype/Alice",
     "rev": "19421efc21eeeb872773006539ddcd743fb72440",
     "config_files": [
@@ -751,6 +831,20 @@
     "rev": "20765691758ef999907b9a20950d4f57f62de1d1",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cyrealtype/Artifika",
+    "rev": "50137a4bf13c4918f78d4b566d14ae3dde703456",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cyrealtype/Aubrey",
+    "rev": "1946b0d99c0fec87702a59afc8b5b941a32e0171",
+    "config_files": [
+      "builder.yaml"
     ]
   },
   {
@@ -779,6 +873,13 @@
     "rev": "e321080f4bfe74e7b14b4e928880c495f8b40675",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cyrealtype/Wire-One",
+    "rev": "16db96d77889d4a8de2015ca5f3fc965446437d4",
+    "config_files": [
+      "builder.yaml"
     ]
   },
   {
@@ -901,6 +1002,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/erinmclaughlin/BhuTuka-Extended-One",
+    "rev": "ac2ad17bcd23da70b2c63a4ed794cbb7a7ebaac6",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/etunni/Amita",
     "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
     "config_files": [
@@ -922,10 +1030,26 @@
     ]
   },
   {
+    "repo_url": "https://github.com/etunni/diplomata",
+    "rev": "32dc35e6b420631acc10808e1f92f74e3048e81d",
+    "config_files": [
+      "diplomata.yaml",
+      "diplomatasc.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/etunni/graduate",
     "rev": "d6031c4ce60208e8e68f5e4dee771420d22c3815",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/etunni/mate",
+    "rev": "2ea8febc952610379af663b1651411493d34beea",
+    "config_files": [
+      "mate.yaml",
+      "matesc.yaml"
     ]
   },
   {
@@ -1322,6 +1446,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/bakbak",
+    "rev": "b53b9c31c16f0021b7c206a57a8f04a4d382bc67",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/bangers",
     "rev": "ca6d2f15db343ee373e9c62a127f3a48cd251228",
     "config_files": [
@@ -1683,6 +1814,21 @@
     "rev": "06ea77a251dc2d763d199995ec06da0a0c1a85f1",
     "config_files": [
       "config.yml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/googlefonts/lexend",
+    "rev": "7894f02b2e7eabc48595f1d4eff3b17b48c6e651",
+    "config_files": [
+      "deca.yaml",
+      "exa.yaml",
+      "giga.yaml",
+      "lexend-1axis.yaml",
+      "lexend.yaml",
+      "mega.yaml",
+      "peta.yaml",
+      "tera.yaml",
+      "zetta.yaml"
     ]
   },
   {
@@ -2176,6 +2322,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/huertatipografica/Andada-Pro",
+    "rev": "49278d5d3e269f4ebb8b726d7cbc0fbbfa635e9a",
+    "config_files": [
+      "build.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/hyper-type/hahmlet",
     "rev": "f9c5dac25d88015e9f0953253cec1a71854b7d24",
     "config_files": [
@@ -2295,6 +2448,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/microsoft/cascadia-code",
+    "rev": "56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+    "config_files": [
+      "stat.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/mooniak/abhaya-libre-font",
     "rev": "edaabf89929778cb947bbd230a257c2a3bbd9979",
     "config_files": [
@@ -2302,10 +2462,31 @@
     ]
   },
   {
+    "repo_url": "https://github.com/mooniak/gemunu-libre-font",
+    "rev": "90f5ecf8fbf25bc1c5e0b3540a7657fb19d62e23",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/mooniak/maname-font",
     "rev": "626ceee1311626c5240a68b0ef27722f44c374af",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mooniak/stick-no-bills-font",
+    "rev": "ca59f34fa4d381e6fc695297846c29078c0604be",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mooniak/yaldevi-font",
+    "rev": "6be60ebadd35d7c1f8be342436531e16da44a8f7",
+    "config_files": [
+      "builder.yaml"
     ]
   },
   {
@@ -3558,10 +3739,26 @@
     ]
   },
   {
+    "repo_url": "https://github.com/productiontype/Georama",
+    "rev": "1b063b6256c228a56d13b8b2f8f1d807f41467f8",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/productiontype/Spectral",
     "rev": "dbc06862d7030eedb1b01b60cdad8f6102f4ddfa",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/reddit/redditsans",
+    "rev": "60e19b50bde6de34b695591a8a047a6a3618a37c",
+    "config_files": [
+      "mono.yaml",
+      "sans.yaml",
+      "sanscondensed.yaml"
     ]
   },
   {
@@ -3583,6 +3780,13 @@
     "rev": "efb7e920f0a441badef8920cd87d894383a19e6a",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/rosettatype/eczar",
+    "rev": "f248ec9c0c5e3a9442d22824cc1cba6c713725d5",
+    "config_files": [
+      "builder.yaml"
     ]
   },
   {
@@ -3760,6 +3964,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/tallchai/akshar-type",
+    "rev": "703a8e549e5691fd35eaa4b94983a7d3bdd7190a",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/theleagueof/league-spartan",
     "rev": "27341b9bf93a2c7faa140538a64ce342486c5fb5",
     "config_files": [
@@ -3788,6 +3999,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/typofactur/winkyrough",
+    "rev": "505f77bdee3b09d4290a9a6813d1eded2dea81b5",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/typofactur/winkysans",
     "rev": "0c6c255d031c0328fcfcfbee5fbb87289ff18bc2",
     "config_files": [
@@ -3799,6 +4017,13 @@
     "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
     "config_files": [
       "config.yaml"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/uswds/public-sans",
+    "rev": "f72e00d4f64bf1f880210f4f9e181c7e7037662b",
+    "config_files": [
+      "stat.yaml"
     ]
   },
   {
