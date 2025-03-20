@@ -692,6 +692,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/benhoepner/National-Park",
+    "rev": "ef0531a85a833b90713743639e3c5ffb8e345833",
+    "config_files": [
+      "config.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/bettergui/BeVietnamPro",
     "rev": "804e62d81abbbcdcce5686069c69b41b8c245192",
     "config_files": [
