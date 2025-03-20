@@ -599,9 +599,14 @@
   },
   {
     "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
-    "rev": "c85bb380b56b2009e7c9bff11f573a3028034161",
+    "rev": "44ce90015ca3bada1ad6f6c608aeccc1df5582ad",
     "config_files": [
-      "config.yml"
+      "config-Arabic.yaml",
+      "config-Deva.yaml",
+      "config-Hebrew.yaml",
+      "config-LGC.yaml",
+      "config-Multi.yaml",
+      "config-Thai.yaml"
     ]
   },
   {
