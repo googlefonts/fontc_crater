@@ -3764,6 +3764,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/rosettatype/eczar",
+    "rev": "f248ec9c0c5e3a9442d22824cc1cba6c713725d5",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/rsms/inter-gf-tight",
     "rev": "c194f94c60b569b47876811321f5ef1f0c2614a2",
     "config_files": [
