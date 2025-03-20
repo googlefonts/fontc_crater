@@ -190,6 +190,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/Gue3bara/Cairo",
+    "rev": "73d16933c6a0f341c27a69e401da83dcb0d53114",
+    "config_files": [
+      "cairo.yaml",
+      "cairoplay.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/Gue3bara/El-Messiri",
     "rev": "553b98d8e374318694b50862849af666268fd278",
     "config_files": [
