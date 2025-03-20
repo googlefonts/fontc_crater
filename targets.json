@@ -2455,6 +2455,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/mooniak/gemunu-libre-font",
+    "rev": "90f5ecf8fbf25bc1c5e0b3540a7657fb19d62e23",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/mooniak/maname-font",
     "rev": "626ceee1311626c5240a68b0ef27722f44c374af",
     "config_files": [
