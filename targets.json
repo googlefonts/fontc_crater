@@ -818,6 +818,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/cyrealtype/Wire-One",
+    "rev": "16db96d77889d4a8de2015ca5f3fc965446437d4",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/d-sargent/platypi",
     "rev": "c204c7ba647cd05f55a68be6973340fa47aa67d1",
     "config_files": [
