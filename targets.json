@@ -2464,6 +2464,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/mooniak/yaldevi-font",
+    "rev": "6be60ebadd35d7c1f8be342436531e16da44a8f7",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/naipefoundry/gabarito",
     "rev": "1f3fb39d6449eefa880543f109f33ede0cd4064f",
     "config_files": [
