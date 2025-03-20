@@ -3667,6 +3667,15 @@
     ]
   },
   {
+    "repo_url": "https://github.com/reddit/redditsans",
+    "rev": "60e19b50bde6de34b695591a8a047a6a3618a37c",
+    "config_files": [
+      "mono.yaml",
+      "sans.yaml",
+      "sanscondensed.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/redstonedesign/parkinsans",
     "rev": "9b5ec433f1944dfc0453ef3ce15f67a0649c13b0",
     "config_files": [
