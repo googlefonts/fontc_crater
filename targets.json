@@ -300,6 +300,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/NDISCOVER/Arima-Font",
+    "rev": "c5fd72960f129076fbf3759d6d777cedcbceb468",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/NDISCOVER/Exo-1.0",
     "rev": "3be4f55b626129f17a3b82677703e48c03dc2052",
     "config_files": [
