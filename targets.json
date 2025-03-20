@@ -2448,6 +2448,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/microsoft/cascadia-code",
+    "rev": "56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+    "config_files": [
+      "stat.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/mooniak/abhaya-libre-font",
     "rev": "edaabf89929778cb947bbd230a257c2a3bbd9979",
     "config_files": [
