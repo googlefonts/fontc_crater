@@ -944,6 +944,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/erinmclaughlin/BhuTuka-Extended-One",
+    "rev": "ac2ad17bcd23da70b2c63a4ed794cbb7a7ebaac6",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/etunni/Amita",
     "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
     "config_files": [
