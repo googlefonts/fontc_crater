@@ -3653,6 +3653,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/productiontype/Georama",
+    "rev": "1b063b6256c228a56d13b8b2f8f1d807f41467f8",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/productiontype/Spectral",
     "rev": "dbc06862d7030eedb1b01b60cdad8f6102f4ddfa",
     "config_files": [
