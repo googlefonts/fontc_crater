@@ -1388,6 +1388,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/bakbak",
+    "rev": "b53b9c31c16f0021b7c206a57a8f04a4d382bc67",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/bangers",
     "rev": "ca6d2f15db343ee373e9c62a127f3a48cd251228",
     "config_files": [
