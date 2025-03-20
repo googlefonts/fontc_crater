@@ -1759,6 +1759,21 @@
     ]
   },
   {
+    "repo_url": "https://github.com/googlefonts/lexend",
+    "rev": "7894f02b2e7eabc48595f1d4eff3b17b48c6e651",
+    "config_files": [
+      "deca.yaml",
+      "exa.yaml",
+      "giga.yaml",
+      "lexend-1axis.yaml",
+      "lexend.yaml",
+      "mega.yaml",
+      "peta.yaml",
+      "tera.yaml",
+      "zetta.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/googlefonts/licorice",
     "rev": "8bc5263602a190f212684ea69d5b9d3b21a59bc0",
     "config_files": [
