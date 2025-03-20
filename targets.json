@@ -972,6 +972,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/etunni/diplomata",
+    "rev": "32dc35e6b420631acc10808e1f92f74e3048e81d",
+    "config_files": [
+      "diplomata.yaml",
+      "diplomatasc.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/etunni/graduate",
     "rev": "d6031c4ce60208e8e68f5e4dee771420d22c3815",
     "config_files": [
