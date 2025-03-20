@@ -2264,6 +2264,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/huertatipografica/Andada-Pro",
+    "rev": "49278d5d3e269f4ebb8b726d7cbc0fbbfa635e9a",
+    "config_files": [
+      "build.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/hyper-type/hahmlet",
     "rev": "f9c5dac25d88015e9f0953253cec1a71854b7d24",
     "config_files": [
