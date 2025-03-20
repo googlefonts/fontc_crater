@@ -4001,6 +4001,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/uswds/public-sans",
+    "rev": "f72e00d4f64bf1f880210f4f9e181c7e7037662b",
+    "config_files": [
+      "stat.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/vercel/geist-font",
     "rev": "4ed1df170f23236dc69d3e3e0b3c023d5faf5b3e",
     "config_files": [
