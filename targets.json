@@ -987,6 +987,14 @@
     ]
   },
   {
+    "repo_url": "https://github.com/etunni/mate",
+    "rev": "2ea8febc952610379af663b1651411493d34beea",
+    "config_files": [
+      "mate.yaml",
+      "matesc.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/etunni/merienda",
     "rev": "15f2f36d29595fa3dd6cf068323ef44bc0713b56",
     "config_files": [
