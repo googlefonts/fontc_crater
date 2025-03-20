@@ -2457,6 +2457,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/mooniak/stick-no-bills-font",
+    "rev": "ca59f34fa4d381e6fc695297846c29078c0604be",
+    "config_files": [
+      "builder.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/naipefoundry/gabarito",
     "rev": "1f3fb39d6449eefa880543f109f33ede0cd4064f",
     "config_files": [
