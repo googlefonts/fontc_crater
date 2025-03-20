@@ -762,6 +762,13 @@
     ]
   },
   {
+    "repo_url": "https://github.com/coz-m/MPLUS_FONTS",
+    "rev": "56b8226f4fae1111e38fddb3dae8a09e170bec5b",
+    "config_files": [
+      "MPLUS_STAT.yaml"
+    ]
+  },
+  {
     "repo_url": "https://github.com/cyrealtype/Alice",
     "rev": "19421efc21eeeb872773006539ddcd743fb72440",
     "config_files": [
