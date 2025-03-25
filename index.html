@@ -171,7 +171,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			192 results</a>
+			193 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -5633,7 +5633,7 @@
 			80.199 <span class="better">+0.001</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2025-03-12 0002 <span class="elapsed">(36m32s)</span>
 		</td>
@@ -6114,22 +6114,50 @@
 			452 <span class="worse">-29</span>
 		</td>
 		<td class="fontc_err">
-			<a href="#fontc-failures">145 <span class=
-			"worse">+108</span></a>
+			145 <span class="worse">+108</span>
 		</td>
 		<td class="fontmake_err">
-			<a href="#fontmake-failures">46 <span class=
-			"better">-8</span></a>
+			46 <span class="better">-8</span>
 		</td>
 		<td class="both_err">
-			<a href="#both-failures">142 <span class=
-			"worse">+8</span></a>
+			142 <span class="worse">+8</span>
+		</td>
+		<td class="other_err">
+			0
+		</td>
+		<td class="diff_perc">
+			71.911 <span class="worse">-8.339</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2025-03-25 2302 <span class="elapsed">(42m39s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/e227e186...e227e186/">
+			e227e186</a>
+		</td>
+		<td class="total">
+			1266
+		</td>
+		<td class="identical">
+			452
+		</td>
+		<td class="fontc_err">
+			<a href="#fontc-failures">145</a>
+		</td>
+		<td class="fontmake_err">
+			<a href="#fontmake-failures">46</a>
+		</td>
+		<td class="both_err">
+			<a href="#both-failures">142</a>
 		</td>
 		<td class="other_err">
 			<a href="#other-failures">0</a>
 		</td>
 		<td class="diff_perc">
-			71.911 <span class="worse">-8.339</span>
+			71.911
 		</td>
 		</tr>
 	</tbody>
@@ -6182,52 +6210,8 @@
 		Diffs
 	</h3>
 	<div class="matching_families">
-		159 <span class="worse">-4</span> of 618 total families are
-		identical.
+		159 of 618 total families are identical.
 	</div>
-	<details>
-		<summary>
-		<span class=
-		"font_path">suonmaysophanith7/KonKhmer_SleokChher/sources/Konkhmer
-		Sleokchher.glyphs (default)</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+0.001</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GDEF
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.275</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.001</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/suonmaysophanith7/KonKhmer_SleokChher">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python resources/scripts/ttx_diff.py 'https://github.com/suonmaysophanith7/KonKhmer_SleokChher#sources/Konkhmer Sleokchher.glyphs'&quot;);">
-		copy reproduction command</a>
-		</div>
-	</details>
 	<details>
 		<summary>
 		<span class=
@@ -9268,8 +9252,7 @@
 		<span class=
 		"font_path">suonmaysophanith7/KonKhmer_SleokChher/sources/Konkhmer
 		Sleokchher.glyphs (gftools)</span><span class=
-		"diff_result">99.921% <span class=
-		"better">+0.000</span></span><span class=
+		"diff_result">99.921%</span> <span class=
 		"changed_tag_list">(glyf, maxp, name)</span>
 		</summary>
 		<div class="diff_info">
@@ -9284,14 +9267,6 @@
 				</th>
 			</tr>
 			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GDEF
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.275</span>
-			</td>
-			</tr>
 			<tr class="table_diff_row">
 			<td class="table_diff_name">
 				glyf
@@ -9321,7 +9296,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.921% <span class="better">+0.000</span>
+				99.921%
 			</td>
 			</tr>
 		</table><a href=
@@ -21789,9 +21764,8 @@
 		<summary>
 		<span class=
 		"font_path">notofonts/tai-tham/sources/NotoSansTaiTham.glyphs
-		(default)</span><span class="diff_result">98.996%
-		<span class="better">+0.013</span></span><span class=
-		"changed_tag_list">(GDEF, avar, fvar, gvar,
+		(default)</span><span class="diff_result">98.996%</span>
+		<span class="changed_tag_list">(GDEF, avar, fvar, gvar,
 		ligcaret)</span>
 		</summary>
 		<div class="diff_info">
@@ -21811,7 +21785,7 @@
 				GDEF
 			</td>
 			<td class="table_diff_value">
-				99.391% <span class="better">+0.761</span>
+				99.391%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -21851,7 +21825,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				98.996% <span class="better">+0.013</span>
+				98.996%
 			</td>
 			</tr>
 		</table><a href=
@@ -37845,7 +37819,7 @@
 		<details class="report_group_item">
 		<summary>
 			ButTaiwan/iansui/sources/Iansui-build.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/ButTaiwan/iansui">view
@@ -37884,7 +37858,7 @@
 		<details class="report_group_item">
 		<summary>
 			ButTaiwan/iansui/sources/Iansui-build.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/ButTaiwan/iansui">view
@@ -37923,7 +37897,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/Cormorant-Italic.glyphs
-			(config-cormorant.yaml) (default) 🆕
+			(config-cormorant.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -37963,7 +37937,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/Cormorant-Italic.glyphs
-			(config-cormorant.yaml) (gftools) 🆕
+			(config-cormorant.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38002,7 +37976,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/Cormorant.glyphs
-			(config-cormorant.yaml) (default) 🆕
+			(config-cormorant.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38042,7 +38016,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/Cormorant.glyphs
-			(config-cormorant.yaml) (gftools) 🆕
+			(config-cormorant.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38081,7 +38055,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantGaramond-Italic.glyphs
-			(config-garamond.yaml) (default) 🆕
+			(config-garamond.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38121,7 +38095,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantGaramond-Italic.glyphs
-			(config-garamond.yaml) (gftools) 🆕
+			(config-garamond.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38160,7 +38134,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantGaramond.glyphs
-			(config-garamond.yaml) (default) 🆕
+			(config-garamond.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38200,7 +38174,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantGaramond.glyphs
-			(config-garamond.yaml) (gftools) 🆕
+			(config-garamond.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38239,7 +38213,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantInfant-Italic.glyphs
-			(config-infant.yaml) (default) 🆕
+			(config-infant.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38279,7 +38253,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantInfant-Italic.glyphs
-			(config-infant.yaml) (gftools) 🆕
+			(config-infant.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38318,7 +38292,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantInfant.glyphs
-			(config-infant.yaml) (default) 🆕
+			(config-infant.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38358,7 +38332,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantInfant.glyphs
-			(config-infant.yaml) (gftools) 🆕
+			(config-infant.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38397,7 +38371,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantUnicase.glyphs
-			(config-unicase.yaml) (default) 🆕
+			(config-unicase.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38437,7 +38411,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Cormorant/sources/generated/CormorantUnicase.glyphs
-			(config-unicase.yaml) (gftools) 🆕
+			(config-unicase.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38476,7 +38450,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Dekko/sources/Dekko.glyphs (config.yaml)
-			(default) 🆕
+			(default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/EbenSorkin/Dekko">view
@@ -38509,7 +38483,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Dekko/sources/Dekko.glyphs (config.yaml)
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/EbenSorkin/Dekko">view
@@ -38548,7 +38522,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Merriweather4/sources/Merriweather-Italic.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38587,7 +38561,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Merriweather4/sources/Merriweather-Italic.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38627,7 +38601,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Merriweather4/sources/Merriweather.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38666,7 +38640,7 @@
 		<details class="report_group_item">
 		<summary>
 			EbenSorkin/Merriweather4/sources/Merriweather.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38706,7 +38680,7 @@
 		<details class="report_group_item">
 		<summary>
 			JetBrains/JetBrainsMono/sources/JetBrainsMono-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38745,7 +38719,7 @@
 		<details class="report_group_item">
 		<summary>
 			JetBrains/JetBrainsMono/sources/JetBrainsMono-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38784,7 +38758,7 @@
 		<details class="report_group_item">
 		<summary>
 			JetBrains/JetBrainsMono/sources/JetBrainsMono.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38823,7 +38797,7 @@
 		<details class="report_group_item">
 		<summary>
 			JetBrains/JetBrainsMono/sources/JetBrainsMono.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -38862,7 +38836,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/MontserratUnderline-Italic.glyphs
-			(config-underline.yaml) (default) 🆕
+			(config-underline.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -38901,7 +38875,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/MontserratUnderline-Italic.glyphs
-			(config-underline.yaml) (gftools) 🆕
+			(config-underline.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -38940,7 +38914,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/MontserratUnderline.glyphs
-			(config-underline.yaml) (default) 🆕
+			(config-underline.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -38979,7 +38953,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/MontserratUnderline.glyphs
-			(config-underline.yaml) (gftools) 🆕
+			(config-underline.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -39018,7 +38992,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/Montserrat-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -39057,7 +39031,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/Montserrat-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -39095,7 +39069,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/Montserrat.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -39134,7 +39108,7 @@
 		<details class="report_group_item">
 		<summary>
 			JulietaUla/Montserrat/sources/Montserrat.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/JulietaUla/Montserrat">view
@@ -39172,7 +39146,7 @@
 		<details class="report_group_item">
 		<summary>
 			RedHatOfficial/Overpass/sources/OverpassMono.glyphs
-			(config_mono.yaml) (default) 🆕
+			(config_mono.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39212,7 +39186,7 @@
 		<details class="report_group_item">
 		<summary>
 			RedHatOfficial/Overpass/sources/OverpassMono.glyphs
-			(config_mono.yaml) (gftools) 🆕
+			(config_mono.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39329,7 +39303,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/Briem-Hand/sources/BriemHand.glyphs
-			(config-fontprimer.yaml) (default) 🆕
+			(config-fontprimer.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/SorkinType/Briem-Hand">view
@@ -39368,7 +39342,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/Briem-Hand/sources/BriemHand.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/SorkinType/Briem-Hand">view
@@ -39407,7 +39381,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/SplineSansMono/sources/SplineSansMono-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39446,7 +39420,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/SplineSansMono/sources/SplineSansMono-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39484,7 +39458,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/SplineSansMono/sources/SplineSansMono.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39523,7 +39497,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/SplineSansMono/sources/SplineSansMono.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39561,7 +39535,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/Voltaire/sources/Voltaire.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/SorkinType/Voltaire">view
@@ -39603,7 +39577,7 @@
 		<details class="report_group_item">
 		<summary>
 			SorkinType/Voltaire/sources/Voltaire.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/SorkinType/Voltaire">view
@@ -39644,7 +39618,7 @@
 		<details class="report_group_item">
 		<summary>
 			Tural/Moderustic/sources/Moderustic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/Tural/Moderustic">view
@@ -39672,7 +39646,7 @@
 		<details class="report_group_item">
 		<summary>
 			Tural/Moderustic/sources/Moderustic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/Tural/Moderustic">view
@@ -39776,7 +39750,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Lora-Cyrillic/sources/Lora-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39816,7 +39790,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Lora-Cyrillic/sources/Lora-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39855,7 +39829,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Lora-Cyrillic/sources/Lora.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39895,7 +39869,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Lora-Cyrillic/sources/Lora.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39934,7 +39908,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Marmelad-Cyrillic/sources/Marmelad.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -39961,7 +39935,7 @@
 		<details class="report_group_item">
 		<summary>
 			cyrealtype/Marmelad-Cyrillic/sources/Marmelad.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -40001,7 +39975,7 @@
 		<details class="report_group_item">
 		<summary>
 			displaay/Azeret/sources/AzeretMono-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/displaay/Azeret">view
@@ -40039,7 +40013,7 @@
 		<details class="report_group_item">
 		<summary>
 			displaay/Azeret/sources/AzeretMono-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/displaay/Azeret">view
@@ -40077,7 +40051,7 @@
 		<details class="report_group_item">
 		<summary>
 			displaay/Azeret/sources/AzeretMono.glyphs (config.yaml)
-			(default) 🆕
+			(default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/displaay/Azeret">view
@@ -40115,7 +40089,7 @@
 		<details class="report_group_item">
 		<summary>
 			displaay/Azeret/sources/AzeretMono.glyphs (config.yaml)
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/displaay/Azeret">view
@@ -40231,7 +40205,7 @@
 		<details class="report_group_item">
 		<summary>
 			etunni/Amita/sources/Amita.glyphs (config.yaml)
-			(default) 🆕
+			(default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/etunni/Amita">view source
@@ -40262,7 +40236,7 @@
 		<details class="report_group_item">
 		<summary>
 			etunni/Amita/sources/Amita.glyphs (config.yaml)
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/etunni/Amita">view source
@@ -40300,7 +40274,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/Playfair/sources/Playfair-Italic.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/Playfair">view
@@ -40339,7 +40313,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/Playfair/sources/Playfair-Italic.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/Playfair">view
@@ -40378,7 +40352,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/Playfair/sources/Playfair.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/Playfair">view
@@ -40417,7 +40391,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/Playfair/sources/Playfair.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/Playfair">view
@@ -40498,7 +40472,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni/sources/AlumniSans-Italic.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/alumni">view
@@ -40538,7 +40512,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni/sources/AlumniSans-Italic.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/alumni">view
@@ -40577,7 +40551,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni/sources/AlumniSans.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/alumni">view
@@ -40617,7 +40591,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni/sources/AlumniSans.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/alumni">view
@@ -40656,7 +40630,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni-sans-pinstripe/sources/AlumniSansPinstripe-Italic.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -40690,7 +40664,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni-sans-pinstripe/sources/AlumniSansPinstripe-Italic.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -40709,7 +40683,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni-sans-pinstripe/sources/AlumniSansPinstripe.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -40954,7 +40928,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/estonia/sources/EstoniaPro.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/estonia">view
@@ -40989,7 +40963,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/estonia/sources/EstoniaPro.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/estonia">view
@@ -41008,7 +40982,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/great-vibes/sources/GreatVibes-Pro.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41048,7 +41022,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/great-vibes/sources/GreatVibes-Pro.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41155,7 +41129,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/literata/sources/Literata-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/literata">view
@@ -41188,7 +41162,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/literata/sources/Literata-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/literata">view
@@ -41227,7 +41201,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/literata/sources/Literata.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/literata">view
@@ -41260,7 +41234,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/literata/sources/Literata.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/literata">view
@@ -41299,7 +41273,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/questrial/sources/Questrial.glyphspackage
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/questrial">view
@@ -41330,7 +41304,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/questrial/sources/Questrial.glyphspackage
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/questrial">view
@@ -41468,7 +41442,7 @@
 		</details>
 		<details class="report_group_item">
 		<summary>
-			kosbarts/Oi/sources/Oi.glyphs (config.yaml) (default) 🆕
+			kosbarts/Oi/sources/Oi.glyphs (config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/kosbarts/Oi">view source
@@ -41506,7 +41480,7 @@
 		</details>
 		<details class="report_group_item">
 		<summary>
-			kosbarts/Oi/sources/Oi.glyphs (config.yaml) (gftools) 🆕
+			kosbarts/Oi/sources/Oi.glyphs (config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/kosbarts/Oi">view source
@@ -41527,7 +41501,7 @@
 		<details class="report_group_item">
 		<summary>
 			kosmynkab/Bona-Nova/sources/BonaNova-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/kosmynkab/Bona-Nova">view
@@ -41562,7 +41536,7 @@
 		<details class="report_group_item">
 		<summary>
 			kosmynkab/Bona-Nova/sources/BonaNova-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/kosmynkab/Bona-Nova">view
@@ -41601,7 +41575,7 @@
 		<details class="report_group_item">
 		<summary>
 			kosmynkab/Bona-Nova/sources/BonaNova.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/kosmynkab/Bona-Nova">view
@@ -41638,7 +41612,7 @@
 		<details class="report_group_item">
 		<summary>
 			kosmynkab/Brygada-1918/sources/Brygada1918.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41678,7 +41652,7 @@
 		<details class="report_group_item">
 		<summary>
 			kosmynkab/Brygada-1918/sources/Brygada1918.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41717,7 +41691,7 @@
 		<details class="report_group_item">
 		<summary>
 			m4rc1e/Commissioner/sources/Commissioner.glyphs
-			(config.yml) (default) 🆕
+			(config.yml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/m4rc1e/Commissioner">view
@@ -41757,7 +41731,7 @@
 		<details class="report_group_item">
 		<summary>
 			m4rc1e/Commissioner/sources/Commissioner.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/m4rc1e/Commissioner">view
@@ -41796,7 +41770,7 @@
 		<details class="report_group_item">
 		<summary>
 			microsoft/ADLaM-Display/Sources/ADLaM-Display.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41828,7 +41802,7 @@
 		<details class="report_group_item">
 		<summary>
 			microsoft/ADLaM-Display/Sources/ADLaM-Display.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -41984,7 +41958,7 @@
 		<details class="report_group_item">
 		<summary>
 			noirblancrouge/YoungSerif/sources/Young-Serif.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42016,7 +41990,7 @@
 		<details class="report_group_item">
 		<summary>
 			noirblancrouge/YoungSerif/sources/Young-Serif.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42096,7 +42070,7 @@
 		<details class="report_group_item">
 		<summary>
 			notofonts/gujarati/sources/NotoSansGujarati.glyphs
-			(config-sans-gujarati.yaml) (default) 🆕
+			(config-sans-gujarati.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/notofonts/gujarati">view
@@ -42491,7 +42465,7 @@
 		<details class="report_group_item">
 		<summary>
 			notofonts/tirhuta/sources/NotoSansTirhuta.glyphs
-			(config-sans-tirhuta.yaml) (default) 🆕
+			(config-sans-tirhuta.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/notofonts/tirhuta">view
@@ -42530,7 +42504,7 @@
 		<details class="report_group_item">
 		<summary>
 			notofonts/todhri/sources/NotoSerifTodhri.glyphs
-			(config-serif-todhri.yaml) (default) 🆕
+			(config-serif-todhri.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/notofonts/todhri">view
@@ -42556,7 +42530,7 @@
 		<details class="report_group_item">
 		<summary>
 			octaviopardo/EBGaramond12/sources/EBGaramond.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42596,7 +42570,7 @@
 		<details class="report_group_item">
 		<summary>
 			rfuenzalida/Freeman/sources/Freeman.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/rfuenzalida/Freeman">view
@@ -42632,7 +42606,7 @@
 		<details class="report_group_item">
 		<summary>
 			rfuenzalida/Freeman/sources/Freeman.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/rfuenzalida/Freeman">view
@@ -42670,7 +42644,7 @@
 		<details class="report_group_item">
 		<summary>
 			rubjo/victor-mono-font/sources/VictorMono-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42703,7 +42677,7 @@
 		<details class="report_group_item">
 		<summary>
 			rubjo/victor-mono-font/sources/VictorMono-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42742,7 +42716,7 @@
 		<details class="report_group_item">
 		<summary>
 			rubjo/victor-mono-font/sources/VictorMono.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -42775,7 +42749,7 @@
 		<details class="report_group_item">
 		<summary>
 			rubjo/victor-mono-font/sources/VictorMono.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -43044,7 +43018,7 @@
 		<details class="report_group_item">
 		<summary>
 			solmatas/BitterPro/sources/Bitter-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/solmatas/BitterPro">view
@@ -43083,7 +43057,7 @@
 		<details class="report_group_item">
 		<summary>
 			solmatas/BitterPro/sources/Bitter-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/solmatas/BitterPro">view
@@ -43121,7 +43095,7 @@
 		<details class="report_group_item">
 		<summary>
 			solmatas/BitterPro/sources/Bitter.glyphs (config.yaml)
-			(default) 🆕
+			(default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/solmatas/BitterPro">view
@@ -43160,7 +43134,7 @@
 		<details class="report_group_item">
 		<summary>
 			solmatas/BitterPro/sources/Bitter.glyphs (config.yaml)
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/solmatas/BitterPro">view
@@ -43198,7 +43172,7 @@
 		<details class="report_group_item">
 		<summary>
 			yanone/kaffeesatz/sources/YanoneKaffeesatz.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/yanone/kaffeesatz">view
@@ -43235,7 +43209,7 @@
 		<details class="report_group_item">
 		<summary>
 			yanone/kaffeesatz/sources/YanoneKaffeesatz.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/yanone/kaffeesatz">view
@@ -44953,7 +44927,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Ysabeau/sources/Ysabeau-Italic.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -45025,7 +44999,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Ysabeau/sources/Ysabeau-Italic.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -45097,7 +45071,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Ysabeau/sources/Ysabeau.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -45169,7 +45143,7 @@
 		<details class="report_group_item">
 		<summary>
 			CatharsisFonts/Ysabeau/sources/Ysabeau.glyphs
-			(config.yaml) (gftools) 🆕
+			(config.yaml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -46475,7 +46449,7 @@
 		<details class="report_group_item">
 		<summary>
 			Omnibus-Type/Jaldi/sources/Jaldi.glyphs (config.yaml)
-			(default) 🆕
+			(default)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/Omnibus-Type/Jaldi">view
@@ -46547,7 +46521,7 @@
 		<details class="report_group_item">
 		<summary>
 			Omnibus-Type/Jaldi/sources/Jaldi.glyphs (config.yaml)
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/Omnibus-Type/Jaldi">view
@@ -48700,7 +48674,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/Inconsolata/sources/Inconsolata.glyphs
-			(config.yaml) (default) 🆕
+			(config.yaml) (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -49300,7 +49274,7 @@
 		<details class="report_group_item">
 		<summary>
 			googlefonts/alumni-sans-pinstripe/sources/AlumniSansPinstripe.glyphs
-			(config.yml) (gftools) 🆕
+			(config.yml) (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
