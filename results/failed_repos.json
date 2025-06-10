@@ -1,9 +1,12 @@
 {
+  "https://github.com/Gue3bara/Cairo": "missing source 'CairoPlay.glyphs'",
   "https://github.com/TypeTogether/Playpen-Sans": "missing field `sources`",
-  "https://github.com/cyrealtype/Brawler": "could not find commit 'a8e1fc6a4c43dedc38394c4f4086f526b72e852d'",
+  "https://github.com/aaronbell/CactusSerif": "could not find commit '1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d'",
+  "https://github.com/aaronbell/LxgwMarkerGothic": "no config file was found",
+  "https://github.com/balt-dev/bytesized-gf": "could not find commit '11abbf2db0602d93f35ec9d493a074e384f0cdb3'",
   "https://github.com/googlefonts/sawarabi-mincho": "missing source 'SawarabiMincho.glyphs'",
-  "https://github.com/loudifier/Comic-Relief": "missing source 'ComicRelief-Regular.ufo'",
+  "https://github.com/loudifier/Comic-Relief": "missing source 'ComicRelief-Bold.ufo'",
   "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
-  "https://github.com/notofonts/math": "missing field `sources`",
+  "https://github.com/notofonts/khojki": "could not find commit '02e25bf94664812076be4fa7dd1d688641e4bf8a'",
   "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`"
 }
