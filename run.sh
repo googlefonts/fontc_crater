@@ -64,7 +64,7 @@ if [ -d venv ]; then
 fi
 
 echo "setting up venv"
-python -m venv venv
+python3 -m venv venv
 if [ $? -ne 0 ]; then
     echo could not setup venv, exiting
     cleanup
