@@ -105,6 +105,43 @@
 	.hidden_row {
 	display: none;
 	}
+
+	/* Modal overlay - covers entire screen */
+	.modal-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	}
+
+	/* Modal content box */
+	.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	max-width: 800px;
+	width: 90%;
+	/*text-align: center;*/
+	}
+
+	.modal pre {
+	background: #ddd;
+	}
+
+	/* Show modal when active */
+	.modal-overlay.show {
+	display: block;
+	}
+
 	</style>
 	<meta charset="utf-8">
 	<script>
@@ -122,6 +159,40 @@
 	    document.querySelectorAll(".hidden_row").forEach(e => e.classList.remove("hidden_row"));
 	    document.querySelector("#show_all_row").classList.add("hidden_row");
 	}
+
+	// used to show info on adding annotations
+	function openModal(target) {
+	    const content = createAnnotationPreBlock(target)
+	    document.getElementById('modalContent').innerHTML = content || 'No content provided.';
+	    document.getElementById('modalOverlay').classList.add('show');
+	}
+
+	function closeModal(event) {
+	    // Only close if clicking the overlay (not the modal content) or the close button
+	    if (!event || event.target.id === 'modalOverlay' || event.target.classList.contains('close-btn')) {
+	        document.getElementById('modalOverlay').classList.remove('show');
+	    }
+	}
+
+	function createAnnotationPreBlock(target) {
+	    const jsonObj = {
+	        [target]: [
+	        {
+	            "text": "your text here",
+	            "link": "http://www.example.com/your_link_here"
+	        }
+	        ]
+	    };
+
+	    return `<pre>${JSON.stringify(jsonObj, null, 2)}</pre>`;
+	}
+
+	// Close modal when pressing Escape key
+	document.addEventListener('keydown', function(event) {
+	    if (event.key === 'Escape') {
+	        closeModal();
+	    }
+	});
 	</script>
 	</head>
 	<body>
@@ -171,7 +242,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			358 results</a>
+			359 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -10779,7 +10850,7 @@
 			80.913 <span class="better">+0.000</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2025-07-23 1516 <span class="elapsed">(35m17s)</span>
 		</td>
@@ -11260,6 +11331,37 @@
 			867 <span class="better">+2</span>
 		</td>
 		<td class="fontc_err">
+			53
+		</td>
+		<td class="fontmake_err">
+			52
+		</td>
+		<td class="both_err">
+			138
+		</td>
+		<td class="other_err">
+			2 <span class="worse">+2</span>
+		</td>
+		<td class="diff_perc">
+			80.904 <span class="worse">-0.149</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2025-08-11 2004 <span class="elapsed">(48m5s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/d8b338f5...4288bd7d/">
+			4288bd7d</a>
+		</td>
+		<td class="total">
+			1332
+		</td>
+		<td class="identical">
+			867
+		</td>
+		<td class="fontc_err">
 			<a href="#fontc-failures">53</a>
 		</td>
 		<td class="fontmake_err">
@@ -11269,11 +11371,10 @@
 			<a href="#both-failures">138</a>
 		</td>
 		<td class="other_err">
-			<a href="#other-failures">2 <span class=
-			"worse">+2</span></a>
+			<a href="#other-failures">2</a>
 		</td>
 		<td class="diff_perc">
-			80.904 <span class="worse">-0.149</span>
+			80.904
 		</td>
 		</tr>
 	</tbody>
@@ -11331,88 +11432,6 @@
 	</div>
 	<details>
 		<summary>
-		<span class="font_path">GoogleSansCode-Italic.glyphspackage
-		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+0.004</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				name
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+2.479</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.004</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/googlesans-code">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/googlesans-code?0713088a41#sources/GoogleSansCode-Italic.glyphspackage'&quot;);">
-		copy reproduction command</a>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">GoogleSansCode.glyphspackage
-		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+0.004</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				name
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+2.479</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.004</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/googlesans-code">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/googlesans-code?0713088a41#sources/GoogleSansCode.glyphspackage'&quot;);">
-		copy reproduction command</a>
-		</div>
-	</details>
-	<details>
-		<summary>
 		<span class="font_path">Matemasie.glyphspackage
 		<em>(gftools)</em></span><span class=
 		"diff_result">99.999%</span> <span class=
@@ -11450,7 +11469,9 @@
 		"https://github.com/YADAMSS/Matemasie-Font">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/YADAMSS/Matemasie-Font?a6dbde5f9e#sources/Matemasie.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/YADAMSS/Matemasie-Font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;YADAMSS/Matemasie-Font/sources/config.yaml Matemasie.glyphspackage?a6dbde5f9e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11492,7 +11513,9 @@
 		"https://github.com/aaronbell/ChocolateSans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/aaronbell/ChocolateSans?91c9c5179a#sources/ChocolateClassicalSans-Regular.ufo'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11534,7 +11557,9 @@
 		"https://github.com/aaronbell/ChocolateSans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/aaronbell/ChocolateSans?91c9c5179a#sources/ChocolateClassicalSans-Regular.ufo' --compare gftools --config ~/.fontc_crater_cache/aaronbell/ChocolateSans/sources/project.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11576,7 +11601,9 @@
 		"https://github.com/googlefonts/questrial">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/questrial?8db71bfbab#sources/Questrial.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/googlefonts/questrial/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/questrial/sources/config.yaml Questrial.glyphspackage?8db71bfbab (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11617,7 +11644,9 @@
 		</table><a href="https://github.com/notofonts/myanmar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/myanmar?bd34805667#sources/NotoSansMyanmar.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/myanmar/sources/config-sans-myanmar.yaml NotoSansMyanmar.glyphs?bd34805667 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11658,7 +11687,9 @@
 		</table><a href="https://github.com/notofonts/tangut">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/tangut?fd05a0c467#sources/NotoSerifTangut.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/tangut/sources/config-serif-tangut.yaml NotoSerifTangut.glyphspackage?fd05a0c467 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11700,7 +11731,9 @@
 		"https://github.com/suonmaysophanith7/KonKhmer_SleokChher">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/suonmaysophanith7/KonKhmer_SleokChher?1289371ce1#sources/Konkhmer Sleokchher.glyphs' --compare gftools --config ~/.fontc_crater_cache/suonmaysophanith7/KonKhmer_SleokChher/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;suonmaysophanith7/KonKhmer_SleokChher/sources/config.yaml Konkhmer Sleokchher.glyphs?1289371ce1 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11742,7 +11775,9 @@
 		"https://github.com/SorkinType/Fruktur">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Fruktur?0f8b79b914#sources/Fruktur.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Fruktur/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Fruktur/sources/config.yaml Fruktur.glyphs?0f8b79b914 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11784,7 +11819,9 @@
 		"https://github.com/googlefonts/play-ball">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/play-ball?13a54129eb#sources/Playball.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/play-ball/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/play-ball/sources/config.yml Playball.glyphs?13a54129eb (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11826,7 +11863,9 @@
 		"https://github.com/googlefonts/Exo-2.0">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Exo-2.0?f83ea8a02d#sources/Glyphs/Exo2.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Exo-2.0/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11868,7 +11907,9 @@
 		"https://github.com/googlefonts/Exo-2.0">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Exo-2.0?f83ea8a02d#sources/Glyphs/Exo2-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11910,7 +11951,9 @@
 		"https://github.com/googlefonts/Exo-2.0">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Exo-2.0?f83ea8a02d#sources/Glyphs/Exo2-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Exo-2.0/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11952,7 +11995,9 @@
 		"https://github.com/googlefonts/Exo-2.0">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Exo-2.0?f83ea8a02d#sources/Glyphs/Exo2.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -11993,7 +12038,9 @@
 		</table><a href="https://github.com/SorkinType/Asar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Asar?d04fb75bf3#sources/Asar.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Asar/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Asar/sources/config.yaml Asar.glyphs?d04fb75bf3 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12035,7 +12082,9 @@
 		"https://github.com/batsimadz/Sankofa-Display">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/batsimadz/Sankofa-Display?078848b905#sources/Sankofa.glyphs' --compare gftools --config ~/.fontc_crater_cache/batsimadz/Sankofa-Display/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;batsimadz/Sankofa-Display/sources/config.yaml Sankofa.glyphs?078848b905 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12077,7 +12126,9 @@
 		"https://github.com/googlefonts/googlesans-code">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/googlesans-code?0713088a41#sources/GoogleSansCode-Italic.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/googlefonts/googlesans-code/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/googlesans-code/sources/config.yaml GoogleSansCode-Italic.glyphspackage?0713088a41 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12119,7 +12170,9 @@
 		"https://github.com/googlefonts/road-rage">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/road-rage?e55c939b96#sources/RoadRage.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/road-rage/sources/config.yml RoadRage.glyphs?e55c939b96 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12160,7 +12213,9 @@
 		</table><a href="https://github.com/notofonts/kannada">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/kannada?6387faa161#sources/NotoSansKannada.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/kannada_6387faa161/sources/config-sans-kannada.yaml NotoSansKannada.glyphs?6387faa161 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12202,7 +12257,9 @@
 		"https://github.com/googlefonts/great-vibes">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/great-vibes?f95eb967a3#sources/GreatVibes-Pro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/great-vibes/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/great-vibes/sources/config.yaml GreatVibes-Pro.glyphs?f95eb967a3 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12244,7 +12301,9 @@
 		"https://github.com/googlefonts/comforter">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/comforter?3112f6b699#sources/ComforterPro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/comforter/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/comforter/sources/config.yml ComforterPro.glyphs?3112f6b699 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12286,7 +12345,9 @@
 		"https://github.com/googlefonts/comforter">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/comforter?3112f6b699#sources/ComforterPro.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/comforter/sources/config.yml ComforterPro.glyphs?3112f6b699 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12328,7 +12389,9 @@
 		"https://github.com/SorkinType/Voltaire">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Voltaire?3587d918a1#sources/Voltaire.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Voltaire/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Voltaire/sources/config.yaml Voltaire.glyphs?3587d918a1 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12370,7 +12433,9 @@
 		"https://github.com/googlefonts/festive">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/festive?5a37931ba2#sources/Festive-Pro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/festive/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/festive/sources/config.yml Festive-Pro.glyphs?5a37931ba2 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12412,7 +12477,9 @@
 		"https://github.com/googlefonts/meow-script">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/meow-script?6882d389cb#sources/MeowScript.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/meow-script/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/meow-script/sources/config.yml MeowScript.glyphs?6882d389cb (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12454,7 +12521,9 @@
 		"https://github.com/googlefonts/qwigley">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/qwigley?7a963366b5#sources/Qwigley.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/qwigley/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/qwigley/sources/config.yml Qwigley.glyphs?7a963366b5 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12495,7 +12564,9 @@
 		</table><a href="https://github.com/etunni/diplomata">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/etunni/diplomata?32dc35e6b4#sources/Diplomata.glyphs' --compare gftools --config ~/.fontc_crater_cache/etunni/diplomata/sources/diplomata.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;etunni/diplomata/sources/diplomata.yaml Diplomata.glyphs?32dc35e6b4 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12536,7 +12607,9 @@
 		</table><a href="https://github.com/notofonts/oriya">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/oriya?97abab82ec#sources/NotoSansOriya.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/oriya/sources/config-sans-oriya.yaml NotoSansOriya.glyphs?97abab82ec (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12577,7 +12650,9 @@
 		</table><a href="https://github.com/etunni/diplomata">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/etunni/diplomata?32dc35e6b4#sources/DiplomataSC.glyphs' --compare gftools --config ~/.fontc_crater_cache/etunni/diplomata/sources/diplomatasc.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;etunni/diplomata/sources/diplomatasc.yaml DiplomataSC.glyphs?32dc35e6b4 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12619,7 +12694,9 @@
 		"https://github.com/notofonts/georgian">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/georgian?d0d6ca54c3#sources/NotoSerifGeorgian.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/georgian/sources/config-serif-georgian.yaml NotoSerifGeorgian.designspace?d0d6ca54c3 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12660,7 +12737,9 @@
 		</table><a href="https://github.com/skugiz/liter">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/skugiz/liter?3808843f98#sources/liter.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;skugiz/liter/sources/config.yaml liter.glyphs?3808843f98 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12701,7 +12780,9 @@
 		</table><a href="https://github.com/reddit/redditsans">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/reddit/redditsans?60e19b50bd#sources/RedditMono.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;reddit/redditsans/sources/mono.yaml RedditMono.glyphs?60e19b50bd (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12743,7 +12824,9 @@
 		"https://github.com/googlefonts/birthstone">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/birthstone?6fb65f5dc6#sources/BirthstonePro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/birthstone/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/birthstone/sources/config.yml BirthstonePro.glyphs?6fb65f5dc6 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12785,7 +12868,9 @@
 		"https://github.com/DylanYoungKoto/FacultyGlyphic">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/DylanYoungKoto/FacultyGlyphic?0f609bebfa#sources/FacultyGlyphic .glyphspackage' --compare gftools --config ~/.fontc_crater_cache/DylanYoungKoto/FacultyGlyphic/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;DylanYoungKoto/FacultyGlyphic/sources/config.yaml FacultyGlyphic .glyphspackage?0f609bebfa (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12827,7 +12912,9 @@
 		"https://github.com/googlefonts/alex-brush">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/alex-brush?1a50bd1038#sources/AlexBrush.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/alex-brush/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/alex-brush/sources/config.yml AlexBrush.glyphs?1a50bd1038 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12868,7 +12955,9 @@
 		</table><a href="https://github.com/Tural/Moderustic">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Tural/Moderustic?6f0d4e1bbc#sources/Moderustic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Tural/Moderustic/sources/config.yaml Moderustic.glyphs?6f0d4e1bbc (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12910,7 +12999,9 @@
 		"https://github.com/googlefonts/lovers-quarrel">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/lovers-quarrel?bf3a5fd5bf#sources/LoversQuarrel.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/lovers-quarrel/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/lovers-quarrel/sources/config.yml LoversQuarrel.glyphs?bf3a5fd5bf (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -12983,7 +13074,9 @@
 		</table><a href="https://github.com/Dicotype/Afacad">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Dicotype/Afacad?b294b1f861#sources/Afacad-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13048,7 +13141,9 @@
 		</table><a href="https://github.com/Dicotype/Afacad">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Dicotype/Afacad?b294b1f861#sources/Afacad-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/Dicotype/Afacad/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13090,7 +13185,9 @@
 		"https://github.com/googlefonts/indieflower">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/indieflower?db44d10c34#sources/IndieFlower.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/indieflower/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/indieflower/sources/config.yaml IndieFlower.glyphs?db44d10c34 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13132,7 +13229,9 @@
 		"https://github.com/googlefonts/ruge-boogie">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/ruge-boogie?9031c615c8#sources/RugeBoogiePro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/ruge-boogie/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/ruge-boogie/sources/config.yml RugeBoogiePro.glyphs?9031c615c8 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13174,7 +13273,9 @@
 		"https://github.com/aoifemooney/makingbiorhyme">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/aoifemooney/makingbiorhyme?b3c0488559#sources/BioRhyme.glyphs' --compare gftools --config ~/.fontc_crater_cache/aoifemooney/makingbiorhyme/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;aoifemooney/makingbiorhyme/sources/config.yaml BioRhyme.glyphs?b3c0488559 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13216,7 +13317,9 @@
 		"https://github.com/aoifemooney/makingbiorhyme">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/aoifemooney/makingbiorhyme?b3c0488559#sources/BioRhyme.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;aoifemooney/makingbiorhyme/sources/config.yaml BioRhyme.glyphs?b3c0488559 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13258,7 +13361,9 @@
 		"https://github.com/ladinoprojects/solitreo">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/ladinoprojects/solitreo?9b03239708#sources/Solitreo.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;ladinoprojects/solitreo/sources/config.yaml Solitreo.glyphs?9b03239708 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13300,7 +13405,9 @@
 		"https://github.com/ladinoprojects/solitreo">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/ladinoprojects/solitreo?9b03239708#sources/Solitreo.glyphs' --compare gftools --config ~/.fontc_crater_cache/ladinoprojects/solitreo/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;ladinoprojects/solitreo/sources/config.yaml Solitreo.glyphs?9b03239708 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13350,7 +13457,9 @@
 		"https://github.com/googlefonts/road-rage">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/road-rage?e55c939b96#sources/RoadRage.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/road-rage/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/road-rage/sources/config.yml RoadRage.glyphs?e55c939b96 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13391,7 +13500,9 @@
 		</table><a href="https://github.com/googlefonts/kings">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/kings?316326276c#sources/KingsPro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/kings/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/kings/sources/config.yml KingsPro.glyphs?316326276c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13433,7 +13544,9 @@
 		"https://github.com/googlefonts/explora">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/explora?b0d0e026f4#sources/ExploraPro.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/explora/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/explora/sources/config.yml ExploraPro.glyphs?b0d0e026f4 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13475,7 +13588,9 @@
 		"https://github.com/googlefonts/italianno">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/italianno?3e3995ef5b#sources/Italianno.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/italianno/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/italianno/sources/config.yml Italianno.glyphs?3e3995ef5b (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13517,7 +13632,9 @@
 		"https://github.com/noirblancrouge/YoungSerif">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/noirblancrouge/YoungSerif?d307c79320#sources/Young-Serif.glyphs' --compare gftools --config ~/.fontc_crater_cache/noirblancrouge/YoungSerif/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;noirblancrouge/YoungSerif/sources/config.yaml Young-Serif.glyphs?d307c79320 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13559,7 +13676,9 @@
 		"https://github.com/googlefonts/are-you-serious">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/are-you-serious?2975e6bae2#sources/AreYouSerious.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/are-you-serious/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/are-you-serious/sources/config.yml AreYouSerious.glyphs?2975e6bae2 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13601,7 +13720,9 @@
 		"https://github.com/SorkinType/Denk-One">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Denk-One?eadc321b9f#sources/DenkOne.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Denk-One/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Denk-One/sources/config.yaml DenkOne.glyphs?eadc321b9f (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13642,7 +13763,9 @@
 		</table><a href="https://github.com/notofonts/lao">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/lao?ab77daf4d8#sources/NotoSansLao.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/lao/sources/config-sans-lao.yaml NotoSansLao.glyphs?ab77daf4d8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13684,7 +13807,9 @@
 		"https://github.com/microsoft/ADLaM-Display">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/microsoft/ADLaM-Display?879176243e#Sources/ADLaM-Display.glyphs' --compare gftools --config ~/.fontc_crater_cache/microsoft/ADLaM-Display/Sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;microsoft/ADLaM-Display/Sources/config.yaml ADLaM-Display.glyphs?879176243e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13726,7 +13851,9 @@
 		"https://github.com/googlefonts/shalimar">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/shalimar?f071bc2cfa#sources/Shalimar.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/shalimar/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/shalimar/sources/config.yml Shalimar.glyphs?f071bc2cfa (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13775,7 +13902,9 @@
 		</table><a href="https://github.com/notofonts/oriya">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/oriya?795268df4e#sources/NotoSerifOriya.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/oriya_795268df4e/sources/config-serif-oriya.yaml NotoSerifOriya.glyphs?795268df4e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13824,7 +13953,9 @@
 		</table><a href="https://github.com/xconsau/GajrajOne">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/xconsau/GajrajOne?5768aa3d45#sources/GajrajOne-Regular.ufo' --compare gftools --config ~/.fontc_crater_cache/xconsau/GajrajOne/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13873,7 +14004,9 @@
 		</table><a href="https://github.com/xconsau/GajrajOne">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/xconsau/GajrajOne?5768aa3d45#sources/GajrajOne-Regular.ufo'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13922,7 +14055,9 @@
 		</table><a href="https://github.com/notofonts/kannada">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/kannada?b0e78acf31#sources/NotoSerifKannada.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/kannada/sources/config-serif-kannada.yaml NotoSerifKannada.glyphs?b0e78acf31 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -13964,7 +14099,9 @@
 		"https://github.com/googlefonts/fleurdeleah">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/fleurdeleah?69626faaf6#sources/FleurDeLeah.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/fleurdeleah/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/fleurdeleah/sources/config.yml FleurDeLeah.glyphs?69626faaf6 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14014,7 +14151,9 @@
 		"https://github.com/googlefonts/HoltwoodFont">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/HoltwoodFont?4e8e360635#sources/HoltwoodOneSC.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/HoltwoodFont/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/HoltwoodFont/sources/config.yaml HoltwoodOneSC.glyphs?4e8e360635 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14055,7 +14194,9 @@
 		</table><a href="https://github.com/SorkinType/Pinyon">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Pinyon?91d502f9b3#sources/PinyonScript.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Pinyon/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Pinyon/sources/config.yaml PinyonScript.glyphs?91d502f9b3 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14097,7 +14238,9 @@
 		"https://github.com/notofonts/kharoshthi">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/kharoshthi?aacffd48d6#sources/NotoSansKharoshthi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/kharoshthi/sources/config-sans-kharoshthi.yaml NotoSansKharoshthi.glyphs?aacffd48d6 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14139,7 +14282,9 @@
 		"https://github.com/googlefonts/puppies-play">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/puppies-play?5f5c9a3f13#sources/PuppiesPlay.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/puppies-play/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puppies-play/sources/config.yml PuppiesPlay.glyphs?5f5c9a3f13 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14181,7 +14326,9 @@
 		"https://github.com/googlefonts/allison">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/allison?fe224232fb#sources/Allison.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/allison/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/allison/sources/config.yml Allison.glyphs?fe224232fb (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14238,7 +14385,9 @@
 		</table><a href="https://github.com/notofonts/thai">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/thai?f8f3f02470#sources/NotoSansThai.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/thai/sources/config-sans-thai.yaml NotoSansThai.designspace?f8f3f02470 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14280,7 +14429,9 @@
 		"https://github.com/googlefonts/bonheur-royale">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/bonheur-royale?90087bb825#sources/BonheurRoyale.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/bonheur-royale/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/bonheur-royale/sources/config.yml BonheurRoyale.glyphs?90087bb825 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14322,7 +14473,9 @@
 		"https://github.com/googlefonts/grechen-fuemen">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/grechen-fuemen?4e4ac4caea#sources/GrechenFuemen.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/grechen-fuemen/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/grechen-fuemen/sources/config.yml GrechenFuemen.glyphs?4e4ac4caea (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14364,7 +14517,9 @@
 		"https://github.com/googlefonts/bakbak">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/bakbak?b53b9c31c1#sources/Bakbak.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/bakbak/sources/builder.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/bakbak/sources/builder.yaml Bakbak.glyphs?b53b9c31c1 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14406,7 +14561,9 @@
 		"https://github.com/googlefonts/bakbak">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/bakbak?b53b9c31c1#sources/Bakbak.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/bakbak/sources/builder.yaml Bakbak.glyphs?b53b9c31c1 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14447,7 +14604,9 @@
 		</table><a href="https://github.com/SorkinType/Asset">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Asset?8b65aa032c#sources/Asset.glyphs' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Asset/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Asset/sources/config.yaml Asset.glyphs?8b65aa032c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14489,7 +14648,9 @@
 		"https://github.com/googlefonts/francoisoneFont">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/francoisoneFont?09ca2d148e#sources/FrancoisOne.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/francoisoneFont/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/francoisoneFont/sources/config.yaml FrancoisOne.glyphs?09ca2d148e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14547,7 +14708,9 @@
 		"https://github.com/solmatas/BitterPro">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/solmatas/BitterPro?3238d7ae2c#sources/Bitter-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/solmatas/BitterPro/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;solmatas/BitterPro/sources/config.yaml Bitter-Italic.glyphs?3238d7ae2c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14589,7 +14752,9 @@
 		"https://github.com/notofonts/gujarati">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/gujarati?825b7f9e39#sources/NotoSerifGujarati.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/gujarati/sources/config-serif-gujarati.yaml NotoSerifGujarati.glyphs?825b7f9e39 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14630,7 +14795,9 @@
 		</table><a href="https://github.com/etunni/paprika">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/etunni/paprika?4297101a87#sources/Paprika.glyphs' --compare gftools --config ~/.fontc_crater_cache/etunni/paprika/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;etunni/paprika/sources/config.yaml Paprika.glyphs?4297101a87 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14679,7 +14846,9 @@
 		</table><a href="https://github.com/kosbarts/Oi">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/kosbarts/Oi?bd7ccfa844#sources/Oi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;kosbarts/Oi/sources/config.yaml Oi.glyphs?bd7ccfa844 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14720,7 +14889,9 @@
 		</table><a href="https://github.com/notofonts/lao">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/lao?ab77daf4d8#sources/NotoSansLaoLooped.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/lao/sources/config-sans-lao-looped.yaml NotoSansLaoLooped.glyphs?ab77daf4d8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14762,7 +14933,9 @@
 		</table><a href="https://github.com/Gue3bara/Blaka">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Gue3bara/Blaka?7f264eee86#sources/temp/BlakaHollow-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/Gue3bara/Blaka/sources/blakahollow.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Gue3bara/Blaka/sources/blakahollow.yaml temp/BlakaHollow-Regular.glyphs?7f264eee86 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14812,7 +14985,9 @@
 		"https://github.com/solmatas/BitterPro">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/solmatas/BitterPro?3238d7ae2c#sources/Bitter.glyphs' --compare gftools --config ~/.fontc_crater_cache/solmatas/BitterPro/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14862,7 +15037,9 @@
 		"https://github.com/solmatas/BitterPro">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/solmatas/BitterPro?3238d7ae2c#sources/Bitter.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14911,7 +15088,9 @@
 		</table><a href="https://github.com/notofonts/bengali">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/bengali?020a5701f6#sources/NotoSansBengali.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/bengali/sources/config-sans-bengali.yaml NotoSansBengali.glyphs?020a5701f6 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14953,7 +15132,9 @@
 		"https://github.com/thegraphicant/Matangi">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/thegraphicant/Matangi?c67a7d9b7d#sources/Matangi.glyphs' --compare gftools --config ~/.fontc_crater_cache/thegraphicant/Matangi/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;thegraphicant/Matangi/sources/config.yaml Matangi.glyphs?c67a7d9b7d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -14995,7 +15176,9 @@
 		"https://github.com/thegraphicant/Matangi">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/thegraphicant/Matangi?c67a7d9b7d#sources/Matangi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;thegraphicant/Matangi/sources/config.yaml Matangi.glyphs?c67a7d9b7d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15052,7 +15235,9 @@
 		</table><a href="https://github.com/kosbarts/Oi">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/kosbarts/Oi?bd7ccfa844#sources/Oi.glyphs' --compare gftools --config ~/.fontc_crater_cache/kosbarts/Oi/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;kosbarts/Oi/sources/config.yaml Oi.glyphs?bd7ccfa844 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15110,7 +15295,9 @@
 		"https://github.com/Instrument/instrument-serif">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Instrument/instrument-serif?65c0ef225f#sources/Instrument_Serif_Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/Instrument/instrument-serif/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Instrument/instrument-serif/sources/config.yaml Instrument_Serif_Italic.glyphs?65c0ef225f (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15160,7 +15347,9 @@
 		"https://github.com/jobosonchisa/ojuju">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/jobosonchisa/ojuju?61052b2801#sources/Ojuju.glyphs' --compare gftools --config ~/.fontc_crater_cache/jobosonchisa/ojuju/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;jobosonchisa/ojuju/sources/config.yaml Ojuju.glyphs?61052b2801 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15210,7 +15399,9 @@
 		"https://github.com/jobosonchisa/ojuju">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/jobosonchisa/ojuju?61052b2801#sources/Ojuju.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;jobosonchisa/ojuju/sources/config.yaml Ojuju.glyphs?61052b2801 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15252,7 +15443,9 @@
 		"https://github.com/googlefonts/buenard">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/buenard?cf400a29bb#sources/Buenard.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/buenard/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/buenard/sources/config.yaml Buenard.glyphs?cf400a29bb (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15301,7 +15494,9 @@
 		</table><a href="https://github.com/skugiz/liter">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/skugiz/liter?3808843f98#sources/liter.glyphs' --compare gftools --config ~/.fontc_crater_cache/skugiz/liter/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;skugiz/liter/sources/config.yaml liter.glyphs?3808843f98 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15343,7 +15538,9 @@
 		"https://github.com/googlefonts/buenard">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/buenard?cf400a29bb#sources/Buenard.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/buenard/sources/config.yaml Buenard.glyphs?cf400a29bb (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15393,7 +15590,9 @@
 		"https://github.com/googlefonts/geologica">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/geologica?685f38d7c9#sources/master_ufo/Geologica.designspace' --compare gftools --config ~/.fontc_crater_cache/googlefonts/geologica/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/geologica/sources/config.yaml master_ufo/Geologica.designspace?685f38d7c9 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15443,7 +15642,9 @@
 		"https://github.com/googlefonts/geologica">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/geologica?685f38d7c9#sources/master_ufo/Geologica.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/geologica/sources/config.yaml master_ufo/Geologica.designspace?685f38d7c9 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15485,7 +15686,9 @@
 		"https://github.com/KanonFoundry/HedvigLetters">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/KanonFoundry/HedvigLetters?345b4d9015#sources/HedvigLettersSans.glyphs' --compare gftools --config ~/.fontc_crater_cache/KanonFoundry/HedvigLetters/sources/Sans.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;KanonFoundry/HedvigLetters/sources/Sans.yaml HedvigLettersSans.glyphs?345b4d9015 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15544,7 +15747,9 @@
 		"https://github.com/octaviopardo/Protest">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/octaviopardo/Protest?094e74050a#sources/ProtestRevolution.glyphs' --compare gftools --config ~/.fontc_crater_cache/octaviopardo/Protest/sources/config-Revolution.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;octaviopardo/Protest/sources/config-Revolution.yaml ProtestRevolution.glyphs?094e74050a (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15593,7 +15798,9 @@
 		</table><a href="https://github.com/etunni/graduate">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/etunni/graduate?d6031c4ce6#sources/graduate.glyphs' --compare gftools --config ~/.fontc_crater_cache/etunni/graduate/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;etunni/graduate/sources/config.yaml graduate.glyphs?d6031c4ce6 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15634,7 +15841,9 @@
 		</table><a href="https://github.com/calcom/font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/calcom/font?b833fb1129#sources/Cal-Sans.glyphs' --compare gftools --config ~/.fontc_crater_cache/calcom/font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;calcom/font/sources/config.yaml Cal-Sans.glyphs?b833fb1129 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15683,7 +15892,9 @@
 		</table><a href="https://github.com/notofonts/music">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/music?2c97b9ea69#sources/NotoMusic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/music/sources/config-music.yaml NotoMusic.glyphs?2c97b9ea69 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15733,7 +15944,9 @@
 		"https://github.com/googlefonts/Michroma-font">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Michroma-font?8602c0e9a8#sources/Michroma-Round.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Michroma-font/sources/config.yaml Michroma-Round.glyphs?8602c0e9a8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15790,7 +16003,9 @@
 		</table><a href="https://github.com/calcom/font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/calcom/font?b833fb1129#sources/Cal-Sans.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;calcom/font/sources/config.yaml Cal-Sans.glyphs?b833fb1129 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15832,7 +16047,9 @@
 		"https://github.com/notofonts/ottoman-siyaq-numbers">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/ottoman-siyaq-numbers?b6cca8ffe6#sources/NotoSerifOttomanSiyaq.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/ottoman-siyaq-numbers/sources/config.yaml NotoSerifOttomanSiyaq.glyphs?b6cca8ffe6 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15882,7 +16099,9 @@
 		"https://github.com/notofonts/bhaiksuki">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/bhaiksuki?570db5a125#sources/NotoSansBhaiksuki.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/bhaiksuki/sources/config-sans-bhaiksuki.yaml NotoSansBhaiksuki.designspace?570db5a125 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15924,7 +16143,9 @@
 		"https://github.com/SorkinType/Briem-Hand">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Briem-Hand?7b99184050#sources/BriemHand.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -15974,7 +16195,9 @@
 		"https://github.com/schibsted/schibsted-grotesk">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/schibsted/schibsted-grotesk?d485f61f10#sources/SchibstedGrotesk-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/schibsted/schibsted-grotesk/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;schibsted/schibsted-grotesk/sources/config.yaml SchibstedGrotesk-Italic.glyphs?d485f61f10 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16024,7 +16247,9 @@
 		"https://github.com/schibsted/schibsted-grotesk">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/schibsted/schibsted-grotesk?d485f61f10#sources/SchibstedGrotesk-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;schibsted/schibsted-grotesk/sources/config.yaml SchibstedGrotesk-Italic.glyphs?d485f61f10 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16065,7 +16290,9 @@
 		</table><a href="https://github.com/displaay/Azeret">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/displaay/Azeret?3d45a6c3e0#sources/AzeretMono-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/displaay/Azeret/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;displaay/Azeret/sources/config.yaml AzeretMono-Italic.glyphs?3d45a6c3e0 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16106,7 +16333,9 @@
 		</table><a href="https://github.com/displaay/Azeret">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/displaay/Azeret?3d45a6c3e0#sources/AzeretMono.glyphs' --compare gftools --config ~/.fontc_crater_cache/displaay/Azeret/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;displaay/Azeret/sources/config.yaml AzeretMono.glyphs?3d45a6c3e0 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16148,7 +16377,9 @@
 		"https://github.com/notofonts/vithkuqi">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/vithkuqi?b1538fae37#sources/NotoSerifVithkuqi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/vithkuqi/sources/config-serif-vithkuqi.yaml NotoSerifVithkuqi.glyphs?b1538fae37 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16198,7 +16429,9 @@
 		"https://github.com/weiweihuanghuang/Work-Sans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/weiweihuanghuang/Work-Sans?b35c810861#sources/WorkSans-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/weiweihuanghuang/Work-Sans/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;weiweihuanghuang/Work-Sans/sources/config.yaml WorkSans-Italic.glyphs?b35c810861 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16240,7 +16473,9 @@
 		"https://github.com/notofonts/vithkuqi">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/vithkuqi?b1538fae37#sources/NotoSansVithkuqi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/vithkuqi/sources/config-sans-vithkuqi.yaml NotoSansVithkuqi.glyphs?b1538fae37 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16290,7 +16525,9 @@
 		"https://github.com/weiweihuanghuang/Work-Sans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/weiweihuanghuang/Work-Sans?b35c810861#sources/WorkSans-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;weiweihuanghuang/Work-Sans/sources/config.yaml WorkSans-Italic.glyphs?b35c810861 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16372,7 +16609,9 @@
 		</table><a href="https://github.com/notofonts/chakma">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/chakma?239fe3aac7#sources/NotoSansChakma.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/chakma/sources/config-sans-chakma.yaml NotoSansChakma.designspace?239fe3aac7 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16414,7 +16653,9 @@
 		"https://github.com/notofonts/gujarati">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/gujarati?825b7f9e39#sources/NotoSansGujarati.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/gujarati/sources/config-sans-gujarati.yaml NotoSansGujarati.glyphs?825b7f9e39 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16472,7 +16713,9 @@
 		"https://github.com/googlefonts/Michroma-font">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Michroma-font?8602c0e9a8#sources/Michroma-Round.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Michroma-font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Michroma-font/sources/config.yaml Michroma-Round.glyphs?8602c0e9a8 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16514,7 +16757,9 @@
 		"https://github.com/mooniak/yaldevi-font">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/mooniak/yaldevi-font?187eddeb8d#sources/Yaldevi.glyphs' --compare gftools --config ~/.fontc_crater_cache/mooniak/yaldevi-font/sources/builder.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16556,7 +16801,9 @@
 		"https://github.com/mooniak/yaldevi-font">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/mooniak/yaldevi-font?187eddeb8d#sources/Yaldevi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16646,7 +16893,9 @@
 		</table><a href="https://github.com/rosettatype/eczar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/rosettatype/eczar?f248ec9c0c#sources/Eczar.glyphs' --compare gftools --config ~/.fontc_crater_cache/rosettatype/eczar/sources/builder.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;rosettatype/eczar/sources/builder.yaml Eczar.glyphs?f248ec9c0c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16736,7 +16985,9 @@
 		</table><a href="https://github.com/rosettatype/eczar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/rosettatype/eczar?f248ec9c0c#sources/Eczar.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;rosettatype/eczar/sources/builder.yaml Eczar.glyphs?f248ec9c0c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16793,7 +17044,9 @@
 		</table><a href="https://github.com/googlefonts/rubik">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/rubik?e337a5f69a#sources/Rubik-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rubik/sources/config.yaml Rubik-Italic.glyphs?e337a5f69a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16850,7 +17103,9 @@
 		</table><a href="https://github.com/googlefonts/rubik">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/rubik?e337a5f69a#sources/Rubik.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rubik/sources/config.yaml Rubik.glyphs?e337a5f69a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16892,7 +17147,9 @@
 		"https://github.com/notofonts/sign-writing">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/sign-writing?a0a0e9a869#sources/NotoSansSignWriting.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -16934,7 +17191,9 @@
 		"https://github.com/googlefonts/Advent">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Advent?d206a139ee#sources/AdventPro.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Advent/sources/config.yaml AdventPro.designspace?d206a139ee (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17041,7 +17300,9 @@
 		"https://github.com/googlefonts/Playfair">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Playfair?a49f9f9dc9#sources/Playfair-Italic.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Playfair/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17083,7 +17344,9 @@
 		"https://github.com/googlefonts/Advent">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Advent?d206a139ee#sources/AdventPro.designspace' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Advent/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Advent/sources/config.yaml AdventPro.designspace?d206a139ee (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17190,7 +17453,9 @@
 		"https://github.com/googlefonts/Playfair">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Playfair?a49f9f9dc9#sources/Playfair-Italic.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17232,7 +17497,9 @@
 		"https://github.com/notofonts/ethiopic">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/ethiopic?1cc6933c58#sources/NotoSerifEthiopic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/ethiopic/sources/config-serif-ethiopic.yaml NotoSerifEthiopic.glyphs?1cc6933c58 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17274,7 +17541,9 @@
 		"https://github.com/notofonts/ethiopic">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/ethiopic?1cc6933c58#sources/NotoSansEthiopic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/ethiopic/sources/config-sans-ethiopic.yaml NotoSansEthiopic.glyphs?1cc6933c58 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17315,7 +17584,9 @@
 		</table><a href="https://github.com/notofonts/tamil">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/tamil?626575fa0c#sources/NotoSerifTamil-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/tamil/sources/config-serif-tamil.yaml NotoSerifTamil-Italic.glyphs?626575fa0c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17356,7 +17627,9 @@
 		</table><a href="https://github.com/notofonts/tamil">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/tamil?626575fa0c#sources/NotoSerifTamil.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/tamil/sources/config-serif-tamil.yaml NotoSerifTamil.glyphs?626575fa0c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17398,7 +17671,9 @@
 		"https://github.com/notofonts/new-tai-lue">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/new-tai-lue?f591483c53#sources/NotoSansNewTaiLue.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/new-tai-lue/sources/config.yaml NotoSansNewTaiLue.glyphs?f591483c53 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17456,7 +17731,9 @@
 		"https://github.com/erikdkennedy/figtree">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/erikdkennedy/figtree?032dfa7fe2#sources/Figtree.glyphs' --compare gftools --config ~/.fontc_crater_cache/erikdkennedy/figtree/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;erikdkennedy/figtree/sources/config.yaml Figtree.glyphs?032dfa7fe2 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17514,7 +17791,9 @@
 		"https://github.com/erikdkennedy/figtree">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/erikdkennedy/figtree?032dfa7fe2#sources/Figtree.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;erikdkennedy/figtree/sources/config.yaml Figtree.glyphs?032dfa7fe2 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17556,7 +17835,9 @@
 		"https://github.com/googlefonts/alex-brush">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/alex-brush?1a50bd1038#sources/AlexBrush.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/alex-brush/sources/config.yml AlexBrush.glyphs?1a50bd1038 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17671,7 +17952,9 @@
 		"https://github.com/googlefonts/Playfair">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Playfair?a49f9f9dc9#sources/Playfair.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Playfair/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17786,7 +18069,9 @@
 		"https://github.com/googlefonts/Playfair">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Playfair?a49f9f9dc9#sources/Playfair.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17827,7 +18112,9 @@
 		</table><a href="https://github.com/notofonts/takri">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/takri?bf175ad0b8#sources/NotoSansTakri.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/takri/sources/config-sans-takri.yaml NotoSansTakri.designspace?bf175ad0b8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17893,7 +18180,9 @@
 		"https://github.com/notofonts/tai-tham">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/tai-tham?e336c5170b#sources/NotoSansTaiTham.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/tai-tham/sources/config-sans-tai-tham.yaml NotoSansTaiTham.glyphs?e336c5170b (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17942,7 +18231,9 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SUSE/suse-font?f315ee4634#sources/SUSE.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE.glyphs?f315ee4634 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -17984,7 +18275,9 @@
 		"https://github.com/googlefonts/ruthie">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/ruthie?73c981515a#sources/Ruthie.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/ruthie/sources/config.yml Ruthie.glyphs?73c981515a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18033,7 +18326,9 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SUSE/suse-font?f315ee4634#sources/SUSE.glyphs' --compare gftools --config ~/.fontc_crater_cache/SUSE/suse-font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE.glyphs?f315ee4634 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18083,7 +18378,9 @@
 		"https://github.com/huertatipografica/Andada-Pro">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/huertatipografica/Andada-Pro?a0b87b9470#sources/AndadaPro.glyphs' --compare gftools --config ~/.fontc_crater_cache/huertatipografica/Andada-Pro/sources/build.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;huertatipografica/Andada-Pro/sources/build.yaml AndadaPro.glyphs?a0b87b9470 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18133,7 +18430,9 @@
 		"https://github.com/huertatipografica/Andada-Pro">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/huertatipografica/Andada-Pro?a0b87b9470#sources/AndadaPro.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;huertatipografica/Andada-Pro/sources/build.yaml AndadaPro.glyphs?a0b87b9470 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18183,7 +18482,9 @@
 		"https://github.com/googlefonts/literata">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/literata?0c2761b727#sources/Literata-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/literata/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/literata/sources/config.yaml Literata-Italic.glyphs?0c2761b727 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18233,7 +18534,9 @@
 		"https://github.com/googlefonts/literata">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/literata?0c2761b727#sources/Literata-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/literata/sources/config.yaml Literata-Italic.glyphs?0c2761b727 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18316,7 +18619,9 @@
 		"https://github.com/notofonts/hentaigana">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/hentaigana?05826fcd09#sources/NotoSerifHentaigana.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/hentaigana/sources/config.yaml NotoSerifHentaigana.glyphspackage?05826fcd09 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18357,7 +18662,9 @@
 		</table><a href="https://github.com/notofonts/nushu">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/nushu?836ef3cc41#sources/NotoTraditionalNushu.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/nushu_836ef3cc41/sources/config-traditional-nushu.yaml NotoTraditionalNushu.glyphs?836ef3cc41 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18407,7 +18714,9 @@
 		"https://github.com/googlefonts/literata">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/literata?0c2761b727#sources/Literata.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/literata/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/literata/sources/config.yaml Literata.glyphs?0c2761b727 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18457,7 +18766,9 @@
 		"https://github.com/googlefonts/literata">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/literata?0c2761b727#sources/Literata.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/literata/sources/config.yaml Literata.glyphs?0c2761b727 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18507,7 +18818,9 @@
 		"https://github.com/SorkinType/VICWANTSchoolhandAustralia">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/VICWANTSchoolhandAustralia?6529c525fc#sources/AuVICWANT.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/VICWANTSchoolhandAustralia/sources/config.yaml AuVICWANT.glyphs?6529c525fc (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18557,7 +18870,9 @@
 		"https://github.com/notofonts/balinese">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/balinese?3677ecce12#sources/NotoSerifBalinese.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/balinese_3677ecce12/sources/config-serif-balinese.yaml NotoSerifBalinese.glyphs?3677ecce12 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18598,7 +18913,9 @@
 		</table><a href="https://github.com/notofonts/symbols">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/symbols?b61fa7f86f#sources/NotoSansSymbols.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/symbols/sources/config-sans-symbols.yaml NotoSansSymbols.glyphspackage?b61fa7f86f (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18647,7 +18964,9 @@
 		</table><a href="https://github.com/notofonts/hebrew">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/hebrew?d2ce986faa#sources/NotoSansHebrew.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/hebrew_d2ce986faa/sources/config-sans-hebrew.yaml NotoSansHebrew.glyphs?d2ce986faa (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18697,7 +19016,9 @@
 		"https://github.com/m4rc1e/Commissioner">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/m4rc1e/Commissioner?7f7dc8e9ed#sources/Commissioner.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;m4rc1e/Commissioner/sources/config.yml Commissioner.glyphs?7f7dc8e9ed (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18747,7 +19068,9 @@
 		"https://github.com/m4rc1e/Commissioner">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/m4rc1e/Commissioner?7f7dc8e9ed#sources/Commissioner.glyphs' --compare gftools --config ~/.fontc_crater_cache/m4rc1e/Commissioner/sources/config.yml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;m4rc1e/Commissioner/sources/config.yml Commissioner.glyphs?7f7dc8e9ed (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18788,7 +19111,9 @@
 		</table><a href="https://github.com/notofonts/thaana">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/thaana?18a413df01#sources/NotoSansThaana.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/thaana/sources/config-sans-thaana.yaml NotoSansThaana.glyphs?18a413df01 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18830,7 +19155,9 @@
 		"https://github.com/googlefonts/Bruno-ace">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Bruno-ace?58dc219db3#sources/BrunoAce-Regular.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18881,7 +19208,9 @@
 		"https://github.com/notofonts/canadian-aboriginal">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/canadian-aboriginal?1766b85dfc#sources/NotoSansCanadianAboriginal.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/canadian-aboriginal/sources/config-sans-canadian-aboriginal.yaml NotoSansCanadianAboriginal.glyphspackage?1766b85dfc (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18930,7 +19259,9 @@
 		</table><a href="https://github.com/notofonts/kawi">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/kawi?7b11823765#sources/NotoSansKawi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/kawi/sources/config-sans-kawi.yaml NotoSansKawi.glyphs?7b11823765 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -18972,7 +19303,9 @@
 		"https://github.com/googlefonts/Bruno-ace">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Bruno-ace?58dc219db3#sources/BrunoAceSC-Regular.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19030,7 +19363,9 @@
 		"https://github.com/positype/Murecho-Project">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/positype/Murecho-Project?0efba44c1c#sources/Murecho.glyphs' --compare gftools --config ~/.fontc_crater_cache/positype/Murecho-Project/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;positype/Murecho-Project/sources/config.yaml Murecho.glyphs?0efba44c1c (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19088,7 +19423,9 @@
 		"https://github.com/positype/Murecho-Project">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/positype/Murecho-Project?0efba44c1c#sources/Murecho.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;positype/Murecho-Project/sources/config.yaml Murecho.glyphs?0efba44c1c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19130,7 +19467,9 @@
 		"https://github.com/notofonts/sora-sompeng">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/sora-sompeng?d6dc3eaa0f#sources/NotoSansSoraSompeng.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/sora-sompeng/sources/config-sans-sora-sompeng.yaml NotoSansSoraSompeng.glyphs?d6dc3eaa0f (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19171,7 +19510,9 @@
 		</table><a href="https://github.com/notofonts/adlam">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/adlam?66c3f0126b#sources/NotoSansAdlamUnjoined.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/adlam/sources/config-sans-adlam-unjoined.yaml NotoSansAdlamUnjoined.glyphs?66c3f0126b (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19221,7 +19562,9 @@
 		"https://github.com/notofonts/javanese">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/javanese?da4d013479#sources/NotoSansJavanese.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/javanese/sources/config-sans-javanese.yaml NotoSansJavanese.glyphs?da4d013479 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19271,7 +19614,9 @@
 		"https://github.com/anrt-type/ANRT-Baskervville">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/anrt-type/ANRT-Baskervville?0629447774#sources/Baskervville.glyphs' --compare gftools --config ~/.fontc_crater_cache/anrt-type/ANRT-Baskervville/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;anrt-type/ANRT-Baskervville/sources/config.yaml Baskervville.glyphs?0629447774 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19321,7 +19666,9 @@
 		"https://github.com/anrt-type/ANRT-Baskervville">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/anrt-type/ANRT-Baskervville?0629447774#sources/Baskervville.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;anrt-type/ANRT-Baskervville/sources/config.yaml Baskervville.glyphs?0629447774 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19428,7 +19775,9 @@
 		"https://github.com/sovichet/kdam-thmor-pro">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/sovichet/kdam-thmor-pro?02b97ee272#sources/KdamThmorPro.designspace' --compare gftools --config ~/.fontc_crater_cache/sovichet/kdam-thmor-pro/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;sovichet/kdam-thmor-pro/sources/config.yaml KdamThmorPro.designspace?02b97ee272 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19469,7 +19818,9 @@
 		</table><a href="https://github.com/notofonts/lepcha">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/lepcha?22993dbe4e#sources/NotoSansLepcha.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/lepcha/sources/config-sans-lepcha.yaml NotoSansLepcha.glyphs?22993dbe4e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19575,7 +19926,9 @@
 		</table><a href="https://github.com/ButTaiwan/iansui">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/ButTaiwan/iansui?a66e7fe5bc#sources/Iansui-build.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/ButTaiwan/iansui/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19681,7 +20034,9 @@
 		</table><a href="https://github.com/ButTaiwan/iansui">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/ButTaiwan/iansui?a66e7fe5bc#sources/Iansui-build.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19722,7 +20077,9 @@
 		</table><a href="https://github.com/notofonts/cham">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/cham?ab48c582e3#sources/NotoSansCham.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19772,7 +20129,9 @@
 		"https://github.com/googlefonts/PontanoSansFont">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/PontanoSansFont?240072e22d#sources/PontanoSans.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/PontanoSansFont/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/PontanoSansFont/sources/config.yaml PontanoSans.glyphs?240072e22d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19822,7 +20181,9 @@
 		"https://github.com/googlefonts/PontanoSansFont">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/PontanoSansFont?240072e22d#sources/PontanoSans.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/PontanoSansFont/sources/config.yaml PontanoSans.glyphs?240072e22d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19879,7 +20240,9 @@
 		</table><a href="https://github.com/agyeiarcher/Jaro">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/agyeiarcher/Jaro?51096c4f8e#sources/Jaro.glyphs' --compare gftools --config ~/.fontc_crater_cache/agyeiarcher/Jaro/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19937,7 +20300,9 @@
 		"https://github.com/googlefonts/Libre-Franklin">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Libre-Franklin?310b7eef1f#sources/LibreFranklin-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Libre-Franklin/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -19995,7 +20360,9 @@
 		"https://github.com/googlefonts/Libre-Franklin">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Libre-Franklin?310b7eef1f#sources/LibreFranklin-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20052,7 +20419,9 @@
 		</table><a href="https://github.com/agyeiarcher/Jaro">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/agyeiarcher/Jaro?51096c4f8e#sources/Jaro.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20125,7 +20494,9 @@
 		</table><a href="https://github.com/notofonts/makasar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/makasar?e7902cc5d8#sources/NotoSerifMakasar.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/makasar/sources/config.yaml NotoSerifMakasar.designspace?e7902cc5d8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20183,7 +20554,9 @@
 		"https://github.com/indestructible-type/Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/indestructible-type/Bodoni?30ce6cdc35#sources/BodoniModa.glyphs' --compare gftools --config ~/.fontc_crater_cache/indestructible-type/Bodoni/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20241,7 +20614,9 @@
 		"https://github.com/indestructible-type/Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/indestructible-type/Bodoni?30ce6cdc35#sources/BodoniModa.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20291,7 +20666,9 @@
 		"https://github.com/googlefonts/Libre-Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Libre-Bodoni?37d048938a#sources/LibreBodoni.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Libre-Bodoni/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Libre-Bodoni/sources/config.yaml LibreBodoni.glyphs?37d048938a (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20341,7 +20718,9 @@
 		"https://github.com/googlefonts/Libre-Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Libre-Bodoni?37d048938a#sources/LibreBodoni.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Libre-Bodoni/sources/config.yaml LibreBodoni.glyphs?37d048938a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20399,7 +20778,9 @@
 		"https://github.com/indestructible-type/Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/indestructible-type/Bodoni?30ce6cdc35#sources/BodoniModa-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/indestructible-type/Bodoni/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20457,7 +20838,9 @@
 		"https://github.com/indestructible-type/Bodoni">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/indestructible-type/Bodoni?30ce6cdc35#sources/BodoniModa-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20507,7 +20890,9 @@
 		"https://github.com/notofonts/mongolian">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/mongolian?a61ef47935#sources/NotoSansMongolian.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/mongolian/sources/config-sans-mongolian.yaml NotoSansMongolian.designspace?a61ef47935 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20565,7 +20950,9 @@
 		"https://github.com/googlefonts/golos-text">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/golos-text?cf2e272229#sources/GolosText.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/golos-text/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20623,7 +21010,9 @@
 		"https://github.com/googlefonts/golos-text">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/golos-text?cf2e272229#sources/GolosText.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20738,7 +21127,9 @@
 		</table><a href="https://github.com/notofonts/elymaic">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/elymaic?4a230cd737#sources/NotoSansElymaic.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/elymaic/sources/config-sans-elymaic.yaml NotoSansElymaic.designspace?4a230cd737 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20804,7 +21195,9 @@
 		"https://github.com/googlefonts/Domine">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Domine?2974ac627a#sources/Domine.designspace' --compare gftools --config ~/.fontc_crater_cache/googlefonts/Domine/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20887,7 +21280,9 @@
 		"https://github.com/googlefonts/Domine">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/Domine?2974ac627a#sources/Domine.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -20986,7 +21381,9 @@
 		"https://github.com/docrepair-fonts/lugrasimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/lugrasimo-fonts?1810308496#sources/Lugrasimo-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21044,7 +21441,9 @@
 		"https://github.com/notofonts/nandinagari">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/nandinagari?6fd9a06474#sources/NotoSansNandinagari.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/nandinagari/sources/config-sans-nandinagari.yaml NotoSansNandinagari.glyphs?6fd9a06474 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21159,14 +21558,16 @@
 		"https://github.com/docrepair-fonts/caprasimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/caprasimo-fonts?9f11e8fd4e#sources/Caprasimo-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Lugrasimo-Regular.designspace
-		<em>(gftools)</em></span><span class="diff_result">91.769%
-		<span class="better">+0.018</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">91.769%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, HVAR, OS_2,
 		STAT, fvar, gvar, name, sizeof(name))</span>
 		</summary>
@@ -21251,7 +21652,7 @@
 				name
 			</td>
 			<td class="table_diff_value">
-				60.690% <span class="better">+1.230</span>
+				60.690%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -21267,21 +21668,23 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				91.769% <span class="better">+0.018</span>
+				91.769%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/docrepair-fonts/lugrasimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/lugrasimo-fonts?1810308496#sources/Lugrasimo-Regular.designspace' --compare gftools --config ~/.fontc_crater_cache/docrepair-fonts/lugrasimo-fonts/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Caprasimo-Regular.designspace
-		<em>(gftools)</em></span><span class="diff_result">91.348%
-		<span class="better">+0.014</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">91.348%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, HVAR, OS_2,
 		STAT, fvar, gvar, name, sizeof(GPOS), sizeof(name))</span>
 		</summary>
@@ -21366,7 +21769,7 @@
 				name
 			</td>
 			<td class="table_diff_value">
-				57.746% <span class="better">+1.195</span>
+				57.746%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -21390,21 +21793,23 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				91.348% <span class="better">+0.014</span>
+				91.348%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/docrepair-fonts/caprasimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/caprasimo-fonts?9f11e8fd4e#sources/Caprasimo-Regular.designspace' --compare gftools --config ~/.fontc_crater_cache/docrepair-fonts/caprasimo-fonts/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">GoogleSans.designspace
-		<em>(default)</em></span><span class="diff_result">89.933%
-		<span class="better">+0.002</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">89.933%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, GSUB, fvar,
 		glyf, gvar, maxp, name)</span>
 		</summary>
@@ -21425,7 +21830,7 @@
 				(mark/kern)
 			</td>
 			<td class="table_diff_value">
-				84.740% <span class="better">+0.004</span>
+				84.740%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -21497,14 +21902,16 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				89.934% <span class="better">+0.002</span>
+				89.934%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/googlefonts/googlesans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/googlesans?fce0e0668e#sources/../source/GoogleSans/GoogleSans.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/googlesans/sources/config.yaml ../source/GoogleSans/GoogleSans.designspace?fce0e0668e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21562,14 +21969,16 @@
 		"https://github.com/notofonts/devanagari">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/devanagari?bb8d2566a1#sources/NotoSerifDevanagari.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">GoogleSans-Italic.designspace
-		<em>(default)</em></span><span class="diff_result">89.275%
-		<span class="worse">-0.004</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">89.275%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, GSUB, fvar,
 		glyf, gvar, maxp, name)</span>
 		</summary>
@@ -21590,7 +21999,7 @@
 				(mark/kern)
 			</td>
 			<td class="table_diff_value">
-				84.047% <span class="worse">-0.006</span>
+				84.047%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -21662,14 +22071,16 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				89.275% <span class="worse">-0.004</span>
+				89.275%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/googlefonts/googlesans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/googlefonts/googlesans?fce0e0668e#sources/../source/GoogleSans/GoogleSans-Italic.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/googlesans/sources/config.yaml ../source/GoogleSans/GoogleSans-Italic.designspace?fce0e0668e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21736,7 +22147,9 @@
 		"https://github.com/docrepair-fonts/agdasima-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/agdasima-fonts?c971400d77#sources/Agdasima-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21793,7 +22206,9 @@
 		</table><a href="https://github.com/notofonts/grantha">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/grantha?6bb911fa06#sources/NotoSansGrantha.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21915,7 +22330,9 @@
 		</table><a href="https://github.com/notofonts/math">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/math?4b78263eac#sources/NotoSansMath.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -21958,7 +22375,9 @@
 		"https://github.com/notofonts/khitan-small-script">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/khitan-small-script?8769c8b092#sources/NotoSerifKhitanSmallScript.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/khitan-small-script/sources/config-serif.yaml NotoSerifKhitanSmallScript.glyphspackage?8769c8b092 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22016,7 +22435,9 @@
 		"https://github.com/notofonts/devanagari">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/devanagari?bb8d2566a1#sources/NotoSansDevanagari.glyphspackage'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22123,14 +22544,16 @@
 		"https://github.com/docrepair-fonts/lumanosimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/lumanosimo-fonts?a7395fda4d#sources/Lumanosimo-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Lumanosimo-Regular.designspace
-		<em>(gftools)</em></span><span class="diff_result">81.892%
-		<span class="better">+0.012</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">81.892%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, HVAR, OS_2,
 		STAT, fvar, gvar, name, sizeof(name))</span>
 		</summary>
@@ -22215,7 +22638,7 @@
 				name
 			</td>
 			<td class="table_diff_value">
-				59.459% <span class="better">+1.181</span>
+				59.459%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -22231,14 +22654,16 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				81.893% <span class="better">+0.012</span>
+				81.893%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/docrepair-fonts/lumanosimo-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/lumanosimo-fonts?a7395fda4d#sources/Lumanosimo-Regular.designspace' --compare gftools --config ~/.fontc_crater_cache/docrepair-fonts/lumanosimo-fonts/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22279,7 +22704,9 @@
 		</table><a href="https://github.com/notofonts/kaithi">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/kaithi?897d285a72#sources/NotoSansKaithi.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/kaithi/sources/config-sans-kaithi.yaml NotoSansKaithi.glyphs?897d285a72 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22328,7 +22755,9 @@
 		</table><a href="https://github.com/notofonts/grantha">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/grantha?6bb911fa06#sources/NotoSerifGrantha.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/grantha/sources/config-serif-grantha.yaml NotoSerifGrantha.glyphs?6bb911fa06 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22467,7 +22896,9 @@
 		</table><a href="https://github.com/EkType/Honk">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/EkType/Honk?99094d4f6e#sources/HonkExportFile.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22606,7 +23037,9 @@
 		</table><a href="https://github.com/EkType/Honk">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/EkType/Honk?99094d4f6e#sources/HonkExportFile.glyphs' --compare gftools --config ~/.fontc_crater_cache/EkType/Honk/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22655,7 +23088,9 @@
 		</table><a href="https://github.com/notofonts/tirhuta">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/notofonts/tirhuta?3c941a6f71#sources/NotoSansTirhuta.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;notofonts/tirhuta/sources/config-sans-tirhuta.yaml NotoSansTirhuta.glyphs?3c941a6f71 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22755,15 +23190,17 @@
 		"https://github.com/docrepair-fonts/bacasime-antique-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/bacasime-antique-fonts?673db74ee2#sources/Bacasime-Antique-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class=
 		"font_path">Bacasime-Antique-Regular.designspace
-		<em>(gftools)</em></span><span class="diff_result">71.390%
-		<span class="better">+0.007</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">71.390%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS, HVAR, OS_2,
 		STAT, fvar, gvar, name)</span>
 		</summary>
@@ -22848,7 +23285,7 @@
 				name
 			</td>
 			<td class="table_diff_value">
-				96.703% <span class="better">+3.086</span>
+				96.703%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -22856,14 +23293,16 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				71.390% <span class="better">+0.007</span>
+				71.390%
 			</td>
 			</tr>
 		</table><a href=
 		"https://github.com/docrepair-fonts/bacasime-antique-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/bacasime-antique-fonts?673db74ee2#sources/Bacasime-Antique-Regular.designspace' --compare gftools --config ~/.fontc_crater_cache/docrepair-fonts/bacasime-antique-fonts/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -22977,7 +23416,9 @@
 		</table><a href="https://github.com/Afrotype/danfo">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Afrotype/danfo?a66fc9ded8#sources/Danfo.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23068,7 +23509,9 @@
 		"https://github.com/niteeshy/ar-one-sans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/niteeshy/ar-one-sans?6dc5e6850f#sources/AROneSans.glyphs' --compare gftools --config ~/.fontc_crater_cache/niteeshy/ar-one-sans/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23159,7 +23602,9 @@
 		"https://github.com/niteeshy/ar-one-sans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/niteeshy/ar-one-sans?6dc5e6850f#sources/AROneSans.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23299,7 +23744,9 @@
 		"https://github.com/fridamedrano/Kalnia-Glaze">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/fridamedrano/Kalnia-Glaze?3338853e09#sources/KalniaGlaze.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23405,7 +23852,9 @@
 		</table><a href="https://github.com/Gue3bara/Blaka">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Gue3bara/Blaka?7f264eee86#sources/Blaka-Ink.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23488,7 +23937,9 @@
 		"https://github.com/theseunbadejo/Agu-Display">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/theseunbadejo/Agu-Display?d520ebead8#sources/AguDisplay.glyphs' --compare gftools --config ~/.fontc_crater_cache/theseunbadejo/Agu-Display/sources/config.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23571,7 +24022,9 @@
 		"https://github.com/theseunbadejo/Agu-Display">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/theseunbadejo/Agu-Display?d520ebead8#sources/AguDisplay.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23685,7 +24138,9 @@
 		</table><a href="https://github.com/Gue3bara/Blaka">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/Gue3bara/Blaka?7f264eee86#sources/Blaka-Ink.glyphs' --compare gftools --config ~/.fontc_crater_cache/Gue3bara/Blaka/sources/blakaink.yaml&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23760,7 +24215,9 @@
 		"https://github.com/docrepair-fonts/lunasima-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/docrepair-fonts/lunasima-fonts?88f44d7a6c#sources/Lunasima-Regular.designspace'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -23891,7 +24348,9 @@
 		"https://github.com/SophiaDesign/Foldit">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SophiaDesign/Foldit?934034370b#sources/./glyphs-decomposed/Foldit.glyphs'&quot;);">
-		copy reproduction command</a>
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	</div>
@@ -34659,7 +35118,7 @@
 		<details class="report_group_item">
 		<summary>
 			Vectro-Type-Foundry/kablammo/sources/config.yml
-			Kablammo.glyphs?cccc120d23 (default) 🆕
+			Kablammo.glyphs?cccc120d23 (default)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -34743,7 +35202,7 @@
 		<details class="report_group_item">
 		<summary>
 			Vectro-Type-Foundry/kablammo/sources/config.yml
-			Kablammo.glyphs?cccc120d23 (gftools) 🆕
+			Kablammo.glyphs?cccc120d23 (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
@@ -34823,6 +35282,18 @@
 			lxml.etree.XPathEvalError: unknown error '
 		</div>
 		</details>
+	</div>
+	</div>
+	<div id="modalOverlay" class="modal-overlay" onclick=
+	"closeModal(event)">
+	<div class="modal">
+		To add an annotation for this target, paste the following text
+		into an 'annotations.json' file in the output directory, and PR
+		the new annotation to the host repository.)
+		<div id="modalContent">
+		Default content
+		</div><a href="" onclick=
+		"event.preventDefault(); closeModal()">close [x]</a>
 	</div>
 	</div>
 	</body>
