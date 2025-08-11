@@ -1,0 +1,16 @@
+{
+  "solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (default)": [
+    {
+      "text": "flattening drops intermediate layers",
+      "link": "https://github.com/googlefonts/fontc/issues/1592"
+    }
+  ],
+    "reddit/redditsans/sources/mono.yaml RedditMono.glyphs?60e19b50bd (default)": [
+    {
+      "text": "glyphslib skipping unnamed brace layers",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/1097"
+    }
+  ]
+}
+
+
