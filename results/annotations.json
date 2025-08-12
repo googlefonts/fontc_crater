@@ -1,4 +1,10 @@
 {
+    "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)": [
+    {
+      "text": "we don't generate cmap format 14",
+      "link": "https://github.com/googlefonts/fontc/issues/1543"
+    }
+  ],
   "solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (default)": [
     {
       "text": "flattening drops intermediate layers",
