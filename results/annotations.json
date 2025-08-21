@@ -28,6 +28,12 @@
       "text": "rvrn impacts lookup order",
       "link": "https://github.com/googlefonts/fontc/issues/1610"
     }
+  ],
+  "notofonts/kannada/sources/config-serif-kannada.yaml NotoSerifKannada.glyphs?b0e78acf31 (default)": [
+    {
+      "text": "gsub closure difference",
+      "link": "https://github.com/googlefonts/fontations/pull/1627"
+    }
   ]
 }
 
