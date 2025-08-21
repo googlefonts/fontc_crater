@@ -16,6 +16,18 @@
       "text": "glyphslib skipping unnamed brace layers",
       "link": "https://github.com/googlefonts/glyphsLib/issues/1097"
     }
+  ],
+  "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)": [
+    {
+      "text": "rvrn impacts lookup order",
+      "link": "https://github.com/googlefonts/fontc/issues/1610"
+    }
+  ],
+  "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (default)": [
+    {
+      "text": "rvrn impacts lookup order",
+      "link": "https://github.com/googlefonts/fontc/issues/1610"
+    }
   ]
 }
 
