@@ -439,6 +439,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/SorkinType/Menbere",
+      "rev": "ab34feb55b02536fd40281b7651ddafbfcabc544",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/SorkinType/Pinyon",
       "rev": "91d502f9b3a98c210c54916c356caa534cdc4d70",
       "config": "sources/config.yaml"
@@ -1925,6 +1930,16 @@
       "config": "sources/builder.yaml"
     },
     {
+      "repo_url": "https://github.com/mozilla/mozilla-headline-type",
+      "rev": "a6ff8ec6ceb014463fe16e6eaeb158ae0af60879",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/mozilla/mozilla-text-type",
+      "rev": "5ff275ec4906665df3126ad88c70ffd19d770335",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/naipefoundry/gabarito",
       "rev": "1f3fb39d6449eefa880543f109f33ede0cd4064f",
       "config": "sources/config.yaml"
@@ -3198,6 +3213,11 @@
       "config": "sources/builder.yaml"
     },
     {
+      "repo_url": "https://github.com/tanukifont/Coral-Pixels",
+      "rev": "2817da74e36af89291ed233f6e2d799554eff991",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/thegraphicant/Matangi",
       "rev": "c67a7d9b7d52f4582b7167131d46e2992563ea66",
       "config": "sources/config.yaml"
@@ -3303,6 +3323,11 @@
       "repo_url": "https://github.com/googlefonts/googlesans-code",
       "rev": "0713088a41bc08edec1149cefa90b963715efcf2",
       "auth": true,
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/zalando/sans",
+      "rev": "2fe06d0700b5b9ccd18a52c240e8927f48e92629",
       "config": "sources/config.yaml"
     }
   ]
