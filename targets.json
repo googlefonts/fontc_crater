@@ -644,6 +644,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/canonical/Ubuntu-Sans-Mono-fonts",
+      "rev": "5f47c8f963e2863468e49d2bb5bb6e6c4eb18ef7",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/canonical/Ubuntu-Sans-fonts",
+      "rev": "9554af00fb9d438a12c916df8451c10dcedc9b7e",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/carolinashort/MyNerve",
       "rev": "4220ec76c588d97b43757c5332b0aa45ed9a52f3",
       "config": "sources/config.yaml"
@@ -1410,6 +1420,16 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/kosugi",
+      "rev": "75171a2738135ab888549e76a9037e826094f0ce",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/kosugi-maru",
+      "rev": "bd22c671a9ffc10cc4313e6f2fd75f2b86d6b14b",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/kreon",
       "rev": "d7f798b480013cfa899779d6dae4511fd3c310cb",
       "config": "sources/config.yaml"
@@ -1633,6 +1653,11 @@
       "repo_url": "https://github.com/googlefonts/roboto-serif",
       "rev": "1ecc2513e8215b569246a5802f18aa4b0e1d67a5",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/robotoslab",
+      "rev": "67af3ce9c4ca574419e1295b6165a2eeee112e6e",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/rubik",
