@@ -78,6 +78,7 @@
   "SorkinType/Fruktur": "https://github.com/SorkinType/Fruktur",
   "SorkinType/GaMaamli": "https://github.com/SorkinType/GaMaamli",
   "SorkinType/Gelasio": "https://github.com/SorkinType/Gelasio",
+  "SorkinType/Menbere": "https://github.com/SorkinType/Menbere",
   "SorkinType/Pinyon": "https://github.com/SorkinType/Pinyon",
   "SorkinType/SplineSans": "https://github.com/SorkinType/SplineSans",
   "SorkinType/SplineSansMono": "https://github.com/SorkinType/SplineSansMono",
@@ -363,6 +364,8 @@
   "mooniak/maname-font": "https://github.com/mooniak/maname-font",
   "mooniak/stick-no-bills-font": "https://github.com/mooniak/stick-no-bills-font",
   "mooniak/yaldevi-font": "https://github.com/mooniak/yaldevi-font",
+  "mozilla/mozilla-headline-type": "https://github.com/mozilla/mozilla-headline-type",
+  "mozilla/mozilla-text-type": "https://github.com/mozilla/mozilla-text-type",
   "naipefoundry/gabarito": "https://github.com/naipefoundry/gabarito",
   "nguyentype/vinasans": "https://github.com/nguyentype/vinasans",
   "niteeshy/ar-one-sans": "https://github.com/niteeshy/ar-one-sans",
@@ -576,6 +579,7 @@
   "sursly/league-gothic": "https://github.com/sursly/league-gothic",
   "sursly/sono": "https://github.com/sursly/sono",
   "tallchai/akshar-type": "https://github.com/tallchai/akshar-type",
+  "tanukifont/Coral-Pixels": "https://github.com/tanukifont/Coral-Pixels",
   "thegraphicant/Matangi": "https://github.com/thegraphicant/Matangi",
   "theleagueof/league-spartan": "https://github.com/theleagueof/league-spartan",
   "theseunbadejo/Agu-Display": "https://github.com/theseunbadejo/Agu-Display",
@@ -592,5 +596,6 @@
   "xconsau/GajrajOne": "https://github.com/xconsau/GajrajOne",
   "xconsau/KumbhSans": "https://github.com/xconsau/KumbhSans",
   "yanone/kaffeesatz": "https://github.com/yanone/kaffeesatz",
-  "yanone/tagesschrift": "https://github.com/yanone/tagesschrift"
+  "yanone/tagesschrift": "https://github.com/yanone/tagesschrift",
+  "zalando/sans": "https://github.com/zalando/sans"
 }
