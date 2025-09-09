@@ -7218,5 +7218,24 @@
       "diff_perc_including_failures": 81.11226,
       "diff_perc_excluding_failures": 98.9993
     }
+  },
+  {
+    "began": "2025-09-09T10:03:01.919926Z",
+    "finished": "2025-09-09T11:03:22.146274Z",
+    "fontc_rev": "1e89c900",
+    "pip_freeze_sha": "337c8d296c572abbf63951ed10ee60d3eb57a987  -",
+    "results_file": "2025-09-09-100141.json",
+    "input_file_sha": "e9c4bbed0d0f38c04ab4a4d1fb6c21688cb2ea5f  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
+    "stats": {
+      "total_targets": 1356,
+      "identical": 924,
+      "produced_diff": 187,
+      "fontc_failed": 56,
+      "fontmake_failed": 52,
+      "both_failed": 137,
+      "other_failure": 0,
+      "diff_perc_including_failures": 81.11263,
+      "diff_perc_excluding_failures": 98.99976
+    }
   }
 ]
