@@ -34,6 +34,18 @@
       "text": "gsub closure difference",
       "link": "https://github.com/googlefonts/fontations/pull/1627"
     }
+  ],
+  "jobosonchisa/ojuju/sources/config.yaml Ojuju.glyphs?61052b2801 (default)": [
+    {
+      "text": "cu2qu difference",
+      "link": "https://github.com/fonttools/fonttools/issues/3928"
+    }
+  ],
+    "googlefonts/geologica/sources/config.yaml master_ufo/Geologica.designspace?685f38d7c9 (gftools)": [
+    {
+      "text": "erase open corners is only run on glyphs sources",
+      "link": "https://github.com/googlefonts/fontc/issues/1627"
+    }
   ]
 }
 
