@@ -1923,6 +1923,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/localremotetw/TASA-Typeface-Collection",
+      "rev": "4c5acaf21a4cd84f9c49c9907d83a25d2350f635",
+      "config": "sources/config-TASAExplorer.yaml"
+    },
+    {
       "repo_url": "https://github.com/loudifier/Comic-Relief",
       "rev": "856315f5a45dfdad75090e4454f1ebfd019296b9",
       "config": "sources/config.yaml"
