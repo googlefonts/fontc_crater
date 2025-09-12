@@ -2053,6 +2053,12 @@
     },
     {
       "repo_url": "https://github.com/notofonts/arabic",
+      "rev": "136d96955b0581da8718eb4cdb2e700a723aefc6",
+      "config": "sources/config-naskh-arabic.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/arabic",
       "rev": "6c8320740db19efbb3127c3697b0ee5d0fa62319",
       "config": "sources/config-sans-arabic.yaml"
     },
