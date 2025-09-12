@@ -687,6 +687,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/chiron-fonts/chiron-hei-hk",
+      "rev": "d2115b4e7a390f83f9279f4fd7b6f79eeba30a3e",
+      "config": "scripts/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/clauseggers/Playfair",
       "rev": "80a334101928546b04fa9e709ad4b2f11f8a9e10",
       "config": "sources/config.yaml"
