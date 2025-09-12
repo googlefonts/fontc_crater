@@ -3319,6 +3319,42 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshouldersdisplaysc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshouldersinlinedisplaysc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshouldersinlinetextsc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshouldersstencildisplaysc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshouldersstenciltextsc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
+      "config": "google/fonts/ofl/bigshoulderstextsc/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/yanone/kaffeesatz",
       "rev": "104c0ced99e8390bf5b138c5ca6065c0f5fcc333",
       "config": "sources/config.yaml"
