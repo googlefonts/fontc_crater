@@ -28,6 +28,12 @@
     },
     {
       "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
+      "rev": "17774cf97eec75a115aebc7ed66a57ce67b88177",
+      "config": "sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
       "rev": "805adb65b7262a7abf1c37877ff657111bfcf864",
       "config": "sources/config-condensed.yaml"
     },
@@ -35,11 +41,6 @@
       "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
       "rev": "805adb65b7262a7abf1c37877ff657111bfcf864",
       "config": "sources/config-expanded.yaml"
-    },
-    {
-      "repo_url": "https://github.com/AlistairMcCready/Special-Gothic",
-      "rev": "805adb65b7262a7abf1c37877ff657111bfcf864",
-      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/BornaIz/markazitext",
