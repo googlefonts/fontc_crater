@@ -274,6 +274,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
+      "rev": "0446a76d969f9788b0b339a9923f6541699df903",
+      "config": "sources/project.yaml"
+    },
+    {
       "repo_url": "https://github.com/NDISCOVER/Arima-Font",
       "rev": "c5fd72960f129076fbf3759d6d777cedcbceb468",
       "config": "sources/builder.yaml"
@@ -547,11 +552,6 @@
     {
       "repo_url": "https://github.com/aaronbell/CactusSerif",
       "rev": "1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d",
-      "config": "sources/project.yaml"
-    },
-    {
-      "repo_url": "https://github.com/aaronbell/ChocolateSans",
-      "rev": "91c9c5179adc1b2af2de1e3972d91e5e62c7bbc4",
       "config": "sources/project.yaml"
     },
     {
