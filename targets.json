@@ -3051,6 +3051,12 @@
     {
       "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
       "rev": "653fc48a72cf3b6a293f6fc207a770f537921889",
+      "config": "sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
       "config": "sources/config.yaml"
     },
     {
