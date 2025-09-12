@@ -2105,12 +2105,12 @@
     },
     {
       "repo_url": "https://github.com/notofonts/bengali",
-      "rev": "020a5701f6fc6a363d5eccbae45e37714c0ad686",
+      "rev": "7ab89a047313e4a2c7ca5d670b28ced031c86542",
       "config": "sources/config-sans-bengali.yaml"
     },
     {
       "repo_url": "https://github.com/notofonts/bengali",
-      "rev": "020a5701f6fc6a363d5eccbae45e37714c0ad686",
+      "rev": "7ab89a047313e4a2c7ca5d670b28ced031c86542",
       "config": "sources/config-serif-bengali.yaml"
     },
     {
