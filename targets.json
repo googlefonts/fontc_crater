@@ -3432,6 +3432,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/zalando/sans",
+      "rev": "2fe06d0700b5b9ccd18a52c240e8927f48e92629",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/googlesans",
       "rev": "fce0e0668e22a324a021f1afb407b0ca155034ce",
       "auth": true,
