@@ -2899,7 +2899,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/tangut",
-      "rev": "fd05a0c467af2d97ebcb6ed46453c9a0a37dfa66",
+      "rev": "bc79cdc478cd198b4ea77827c42a50dbb3613187",
       "config": "sources/config-serif-tangut.yaml"
     },
     {
