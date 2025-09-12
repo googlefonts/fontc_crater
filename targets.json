@@ -1932,6 +1932,18 @@
       "config": "Sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/microsoft/cascadia-code",
+      "rev": "56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+      "config": "google/fonts/ofl/cascadiacode/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/microsoft/cascadia-code",
+      "rev": "56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+      "config": "google/fonts/ofl/cascadiamono/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/mooniak/abhaya-libre-font",
       "rev": "f53da70786fe1dba6193bdbd45a2c4159e511079",
       "config": "sources/config.yaml"
