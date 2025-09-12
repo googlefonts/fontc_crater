@@ -2815,6 +2815,11 @@
       "config": "sources/config-sans-sundanese.yaml"
     },
     {
+      "repo_url": "https://github.com/notofonts/sunuwar",
+      "rev": "981b7c03c93f203c838b280c232de9166e8fb8c6",
+      "config": "sources/config-sans-sunuwar.yaml"
+    },
+    {
       "repo_url": "https://github.com/notofonts/syloti-nagri",
       "rev": "24ab3ac364a1b0882f36fa18f8f090145b009bf8",
       "config": "sources/config-sans-syloti-nagri.yaml"
