@@ -279,6 +279,11 @@
       "config": "sources/project.yaml"
     },
     {
+      "repo_url": "https://github.com/MoonlitOwen/ThenKhung",
+      "rev": "cdf0805fd0db0aba5c7789f60033060e1566d4cc",
+      "config": "source/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/NDISCOVER/Arima-Font",
       "rev": "c5fd72960f129076fbf3759d6d777cedcbceb468",
       "config": "sources/builder.yaml"
