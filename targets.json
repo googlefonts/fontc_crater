@@ -702,6 +702,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/cossette/cossette-fonts",
+      "rev": "7a3a7d62f4eac78d1ac722d25def17c67d9bb445",
+      "config": "sources/config-titre.yaml"
+    },
+    {
       "repo_url": "https://github.com/cyrealtype/Alice",
       "rev": "13be04734d33464e627bd201d35aa9697feed289",
       "config": "sources/config.yaml"
