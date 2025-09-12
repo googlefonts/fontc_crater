@@ -570,6 +570,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/alexeiva/Arsenal",
+      "rev": "e34db566b2f5de986eea9b36986d602015d80615",
+      "config": "google/fonts/ofl/arsenalsc/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/alexeiva/badscript",
       "rev": "dca2962433a2b5817f1e716d6731a743440fbd79",
       "config": "sources/config.yaml"
