@@ -667,6 +667,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/carolinashort/asimovian",
+      "rev": "ae24db36d32c554da5a4a831663700c18d1360cf",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/carolinashort/mansalva",
       "rev": "192d65ff2d1560ff6399abde05904d910965d483",
       "config": "sources/config.yaml"
