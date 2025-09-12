@@ -316,8 +316,14 @@
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Chivo",
+      "rev": "d98623c96068cd02fbe9f22982d4b0504be8b851",
+      "config": "sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/Omnibus-Type/Chivo",
       "rev": "dc61c468d79781eb5183426e88e844af16cdc3e5",
-      "config": "sources/config.yaml"
+      "config": "sources/configmono.yaml"
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Faustina",
