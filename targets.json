@@ -2100,7 +2100,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/batak",
-      "rev": "9e4d85f112e7c8a5b1d958b5b848db15eea069b2",
+      "rev": "fc86bc4c723d242557799aef77634ef49033b28e",
       "config": "sources/config-sans-batak.yaml"
     },
     {
