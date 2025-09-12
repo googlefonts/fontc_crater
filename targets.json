@@ -550,11 +550,6 @@
       "config": "sources/config.yaml"
     },
     {
-      "repo_url": "https://github.com/aaronbell/CactusSerif",
-      "rev": "1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d",
-      "config": "sources/project.yaml"
-    },
-    {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
       "rev": "fe8357007423a983e696d2d3ff545ac9bb1bb89e",
       "config": "sources/project.yaml"
