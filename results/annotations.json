@@ -46,6 +46,12 @@
       "text": "erase open corners is only run on glyphs sources",
       "link": "https://github.com/googlefonts/fontc/issues/1627"
     }
+  ],
+    "googlefonts/rubik/sources/config.yaml Rubik.glyphs?e337a5f69a (default)": [
+    {
+      "text": "ufo filters can sneak into glyphs userData",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/1106"
+    }
   ]
 }
 
