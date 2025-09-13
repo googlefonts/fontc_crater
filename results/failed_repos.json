@@ -1,12 +1,19 @@
 {
   "https://github.com/Gue3bara/Cairo": "missing source 'CairoPlay.glyphs'",
+  "https://github.com/MoonlitOwen/ChocolateSans": "no config file was found",
+  "https://github.com/MoonlitOwen/ThenKhung": "missing source 'temp/UoqMunThenKhung-Regular.ufo'",
   "https://github.com/TypeTogether/Playpen-Sans": "missing field `sources`",
-  "https://github.com/aaronbell/CactusSerif": "could not find commit '1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d'",
   "https://github.com/aaronbell/LxgwMarkerGothic": "no config file was found",
+  "https://github.com/alexeiva/Arsenal": "no config file was found",
   "https://github.com/balt-dev/bytesized-gf": "could not find commit '11abbf2db0602d93f35ec9d493a074e384f0cdb3'",
+  "https://github.com/chiron-fonts/chiron-hei-hk": "could not find commit '5d80c2cecb7d0d702c23b4caa71e524b030d99d5'",
+  "https://github.com/cossette/cossette-fonts": "git failed: 'Cloning into '/Users/rofls/.fontc_crater_cache/cossette/cossette-fonts'...\nfatal: could not read Username for 'https://github.com': terminal prompts disabled\n'",
   "https://github.com/googlefonts/sawarabi-mincho": "missing source 'SawarabiMincho.glyphs'",
   "https://github.com/loudifier/Comic-Relief": "missing source 'ComicRelief-Bold.ufo'",
+  "https://github.com/microsoft/cascadia-code": "no config file was found",
+  "https://github.com/mooniak/abhaya-libre-font": "no config file was found",
   "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
   "https://github.com/notofonts/khojki": "could not find commit '02e25bf94664812076be4fa7dd1d688641e4bf8a'",
-  "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`"
+  "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`",
+  "https://github.com/xotypeco/big_shoulders": "no config file was found"
 }
