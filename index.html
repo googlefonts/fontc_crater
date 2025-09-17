@@ -242,7 +242,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			389 results</a>
+			390 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -12121,7 +12121,7 @@
 			80.910
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2025-08-22 1802 <span class=
 			"elapsed">(34m37.46s)</span>
@@ -12616,22 +12616,52 @@
 			936
 		</td>
 		<td class="fontc_err">
-			<a href="#fontc-failures">50 <span class=
-			"better">-1</span></a>
+			50 <span class="better">-1</span>
 		</td>
 		<td class="fontmake_err">
-			<a href="#fontmake-failures">53 <span class=
-			"worse">+1</span></a>
+			53 <span class="worse">+1</span>
 		</td>
 		<td class="both_err">
-			<a href="#both-failures">136 <span class=
-			"better">-1</span></a>
+			136 <span class="better">-1</span>
+		</td>
+		<td class="other_err">
+			0
+		</td>
+		<td class="diff_perc">
+			81.561 <span class="better">+0.073</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2025-09-17 1002 <span class=
+			"elapsed">(33m25.99s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/29659ff1...9dd6d1fc/">
+			9dd6d1fc</a>
+		</td>
+		<td class="total">
+			1368
+		</td>
+		<td class="identical">
+			938 <span class="better">+2</span>
+		</td>
+		<td class="fontc_err">
+			<a href="#fontc-failures">48 <span class=
+			"better">-2</span></a>
+		</td>
+		<td class="fontmake_err">
+			<a href="#fontmake-failures">53</a>
+		</td>
+		<td class="both_err">
+			<a href="#both-failures">136</a>
 		</td>
 		<td class="other_err">
 			<a href="#other-failures">0</a>
 		</td>
 		<td class="diff_perc">
-			81.561 <span class="better">+0.073</span>
+			81.707 <span class="better">+0.146</span>
 		</td>
 		</tr>
 	</tbody>
@@ -12709,8 +12739,39 @@
 		Diffs
 	</h3>
 	<div class="matching_families">
-		414 of 658 total families are identical.
+		415 <span class="better">+1</span> of 658 total families are
+		identical.
 	</div>
+	<details>
+		<summary>
+		<span class="font_path">Agbalumo.glyphspackage
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/SorkinType/Agbalumo">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Agbalumo/sources/config.yaml Agbalumo.glyphspackage?261ad51ef2 (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">Agbalumo.glyphspackage
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/SorkinType/Agbalumo">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Agbalumo/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;SorkinType/Agbalumo/sources/config.yaml Agbalumo.glyphspackage?261ad51ef2 (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
 	<details>
 		<summary>
 		<span class="font_path">Matemasie.glyphspackage
@@ -18624,8 +18685,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Radley-Italic.ufo
-		<em>(default)</em></span><span class="diff_result">99.355%
-		<span class="better">+99.355</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.355%</span> <span class=
 		"changed_tag_list">(glyf)</span>
 		</summary>
 		<div class="diff_info">
@@ -18645,7 +18706,7 @@
 				glyf
 			</td>
 			<td class="table_diff_value">
-				99.141% <span class="better">+99.141</span>
+				99.141%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -18653,7 +18714,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.355% <span class="better">+99.355</span>
+				99.355%
 			</td>
 			</tr>
 		</table><a href=
@@ -26300,68 +26361,6 @@
 	<div class="failures">
 		<details class="report_group_item">
 		<summary>
-			SorkinType/Agbalumo/sources/config.yaml
-			Agbalumo.glyphspackage?261ad51ef2 (default)
-		</summary>
-		<div class="diff_info">
-			<a href="https://github.com/SorkinType/Agbalumo">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage'&quot;);">
-			copy reproduction command</a>
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			67973Z ThreadId(1) glyphs_reader::font WARN]
-			unknown custom parameter 'blueScale'
-			[2025-09-16T21:13:47.767975Z ThreadId(1)
-			glyphs_reader::font WARN] unknown custom parameter
-			'blueShift' [2025-09-16T21:13:47.767976Z
-			ThreadId(1) glyphs_reader::font WARN] unknown
-			custom parameter 'Use Extension Kerning'
-			[2025-09-16T21:13:47.767977Z ThreadId(1)
-			glyphs_reader::font WARN] unknown custom parameter
-			'Use Line Breaks' [2025-09-16T21:13:47.767979Z
-			ThreadId(1) glyphs_reader::font WARN] unknown
-			custom parameter 'Enforce Compatibility Check'
-			[2025-09-16T21:13:47.768104Z ThreadId(1)
-			glyphs_reader::font WARN] Regular instance's 'Axis
-			Location' includes axis "Weight" not included in
-			font [2025-09-16T21:13:47.768106Z ThreadId(1)
-			glyphs_reader::font WARN] unknown custom parameter
-			'Axis Location' thread 'main' panicked at
-			glyphs-reader/src/font.rs:2160:17: Axis has no
-			index AxisLocation { axis_name: "Weight", location:
-			400.0 } note: run with `RUST_BACKTRACE=1`
-			environment variable to display a backtrace
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
-			SorkinType/Agbalumo/sources/config.yaml
-			Agbalumo.glyphspackage?261ad51ef2 (gftools)
-		</summary>
-		<div class="diff_info">
-			<a href="https://github.com/SorkinType/Agbalumo">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 resources/scripts/ttx_diff.py 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Agbalumo/sources/config.yaml&quot;);">
-			copy reproduction command</a>
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/utils.py:31:
-			UserWarning: pkg_resources is deprecated as an API.
-			See
-			https://setuptools.pypa.io/en/latest/pkg_resources.html.
-			The pkg_resources package is slated for removal as
-			early as 2025-11-30. Refrain from using this
-			package or pin to Setuptools&lt;81. from
-			pkg_resources import resource_filename
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
 			TypeTogether/Playpen-Sans/sources/config-Thai.yaml
 			PlaypenSans.glyphspackage?edaffec145 (default)
 		</summary>
@@ -26374,25 +26373,25 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			lt5)) [2025-09-16T21:23:12.549090Z ThreadId(1)
-			fontc::workload DEBUG] 14541/22544 complete, most
-			recently Be(GlyfFragment(jh_na-deva))
-			[2025-09-16T21:23:12.549093Z ThreadId(1)
-			fontc::workload DEBUG] 14542/22544 complete, most
-			recently Be(GlyfFragment(b_dha-deva.alt1))
-			[2025-09-16T21:23:12.549095Z ThreadId(1)
-			fontc::workload DEBUG] 14543/22544 complete, most
-			recently Be(GlyfFragment(bmacronbelow))
-			[2025-09-16T21:23:12.750692Z ThreadId(1) fontc
+			25-09-17T10:14:10.365827Z ThreadId(1)
+			fontc::workload DEBUG] 16135/22544 complete, most
+			recently Be(GlyfFragment(tcaron.alt2))
+			[2025-09-17T10:14:10.365829Z ThreadId(1)
+			fontc::workload DEBUG] 16136/22544 complete, most
+			recently Be(GlyfFragment(noonghunna-ar.fina.alt3))
+			[2025-09-17T10:14:10.365832Z ThreadId(1)
+			fontc::workload DEBUG] 16137/22544 complete, most
+			recently Be(GlyfFragment(dzhe-cy.alt1))
+			[2025-09-17T10:14:10.528522Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 2 errors
-			[2025-09-16T21:23:12.750705Z ThreadId(1) fontc
-			WARN] warning: ';' should only follow a statement
-			in features/PlaypenSans.fea at 1756:27 | 1756 | sub
-			florin by florin.ss19;; | ^ error: Expected ';' in
+			[2025-09-17T10:14:10.528533Z ThreadId(1) fontc
+			WARN] error: Expected ';' in
 			features/ara-classes-PlaypenSans.fea at 41:514 | 41
 			| ...addaKasra-ar shaddaAlefabove-ar sukun-ar
 			madda-ar noonghunnaabove-ar threedotsabove-ar
-			goalcomma-ar] | ^
+			goalcomma-ar] | ^ warning: ';' should only follow a
+			statement in features/PlaypenSans.fea at 1756:27 |
+			1756 | sub florin by florin.ss19;; | ^
 			</div>
 		</div>
 		</details>
@@ -26435,25 +26434,26 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			nt(ohookabove)) [2025-09-16T21:12:57.696734Z
-			ThreadId(1) fontc::workload DEBUG] 14579/22552
-			complete, most recently Be(GlyfFragment(egrave))
-			[2025-09-16T21:12:57.696737Z ThreadId(1)
-			fontc::workload DEBUG] 14580/22552 complete, most
-			recently Be(GlyfFragment(gdotaccent))
-			[2025-09-16T21:12:57.696740Z ThreadId(1)
-			fontc::workload DEBUG] 14581/22552 complete, most
-			recently Be(GlyfFragment(Oslashacute))
-			[2025-09-16T21:12:57.904247Z ThreadId(1) fontc
+			nt(Palochka-cy)) [2025-09-17T10:04:28.725116Z
+			ThreadId(1) fontc::workload DEBUG] 15728/22552
+			complete, most recently
+			Be(GlyfFragment(dzhe-cy.alt2))
+			[2025-09-17T10:04:28.725119Z ThreadId(1)
+			fontc::workload DEBUG] 15729/22552 complete, most
+			recently Be(GlyfFragment(En-cy.alt5))
+			[2025-09-17T10:04:28.764536Z ThreadId(6)
+			fontbe::features::kern DEBUG] 3 ir kerns became 693
+			classes and 10432 adjustments
+			[2025-09-17T10:04:28.921839Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 2 errors
-			[2025-09-16T21:12:57.904269Z ThreadId(1) fontc
-			WARN] error: Expected ';' in
+			[2025-09-17T10:04:28.921853Z ThreadId(1) fontc
+			WARN] warning: ';' should only follow a statement
+			in features/PlaypenSans.fea at 1756:27 | 1756 | sub
+			florin by florin.ss19;; | ^ error: Expected ';' in
 			features/ara-classes-PlaypenSans.fea at 41:514 | 41
 			| ...addaKasra-ar shaddaAlefabove-ar sukun-ar
 			madda-ar noonghunnaabove-ar threedotsabove-ar
-			goalcomma-ar] | ^ warning: ';' should only follow a
-			statement in features/PlaypenSans.fea at 1756:27 |
-			1756 | sub florin by florin.ss19;; | ^
+			goalcomma-ar] | ^
 			</div>
 		</div>
 		</details>
@@ -26496,19 +26496,18 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			-09-16T21:16:06.344502Z ThreadId(1) fontc::workload
-			DEBUG] 13492/22552 complete, most recently
-			Be(GlyfFragment(z_ra-deva))
-			[2025-09-16T21:16:06.344506Z ThreadId(1)
-			fontc::workload DEBUG] 13493/22552 complete, most
-			recently
-			Be(GlyfFragment(auMatra_candraBindu-deva.alt3))
-			[2025-09-16T21:16:06.344512Z ThreadId(1)
-			fontc::workload DEBUG] 13494/22552 complete, most
-			recently Be(GlyfFragment(uhorn.alt2))
-			[2025-09-16T21:16:06.573374Z ThreadId(1) fontc
+			nos.alt2)) [2025-09-17T10:07:39.365776Z ThreadId(1)
+			fontc::workload DEBUG] 17553/22552 complete, most
+			recently Be(GlyfFragment(Gdotaccent))
+			[2025-09-17T10:07:39.365778Z ThreadId(1)
+			fontc::workload DEBUG] 17554/22552 complete, most
+			recently Be(GlyfFragment(de-cy.loclSRB.alt2))
+			[2025-09-17T10:07:39.402901Z ThreadId(9)
+			fontbe::features::kern DEBUG] 3 ir kerns became 693
+			classes and 10432 adjustments
+			[2025-09-17T10:07:39.505208Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 2 errors
-			[2025-09-16T21:16:06.573387Z ThreadId(1) fontc
+			[2025-09-17T10:07:39.505216Z ThreadId(1) fontc
 			WARN] error: Expected ';' in
 			features/ara-classes-PlaypenSans.fea at 41:514 | 41
 			| ...addaKasra-ar shaddaAlefabove-ar sukun-ar
@@ -26558,18 +26557,19 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			(1) fontc::workload DEBUG] Be(GlyfFragment(Oacute))
-			successful [2025-09-16T21:20:06.324235Z ThreadId(1)
-			fontc::workload DEBUG] Be(GlyfFragment(adieresis))
-			successful [2025-09-16T21:20:06.324392Z ThreadId(4)
-			fontbe::features WARN] compile failed; fea written
-			to "./debug/features.fea"
-			[2025-09-16T21:20:06.324464Z ThreadId(1)
-			fontc::workload DEBUG] 14391/22540 complete, most
-			recently Be(FeaturesAst)
-			[2025-09-16T21:20:06.561037Z ThreadId(1) fontc
+			t_ra-deva)) [2025-09-17T10:10:59.123370Z
+			ThreadId(1) fontc::workload DEBUG] 14066/22540
+			complete, most recently
+			Be(GlyfFragment(gamma.alt3))
+			[2025-09-17T10:10:59.123373Z ThreadId(1)
+			fontc::workload DEBUG] 14067/22540 complete, most
+			recently Be(GlyfFragment(dd_ddha-deva))
+			[2025-09-17T10:10:59.123375Z ThreadId(1)
+			fontc::workload DEBUG] 14068/22540 complete, most
+			recently Be(GlyfFragment(p_va-deva))
+			[2025-09-17T10:10:59.304955Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 2 errors
-			[2025-09-16T21:20:06.561050Z ThreadId(1) fontc
+			[2025-09-17T10:10:59.304972Z ThreadId(1) fontc
 			WARN] warning: ';' should only follow a statement
 			in features/PlaypenSans.fea at 1756:27 | 1756 | sub
 			florin by florin.ss19;; | ^ error: Expected ';' in
@@ -26653,24 +26653,24 @@
 		<div class="backtrace">
 			<div class="stderr">
 			unnecessary limitation.
-			[2025-09-16T21:11:30.165774Z ThreadId(2)
+			[2025-09-17T10:15:13.480007Z ThreadId(2)
 			ufo2fontir::source DEBUG] Paint graph not
-			implemented for UFO [2025-09-16T21:11:30.165780Z
+			implemented for UFO [2025-09-17T10:15:13.480012Z
 			ThreadId(2) ufo2fontir::source DEBUG] Color
 			palettes not implemented for UFO
-			[2025-09-16T21:11:30.165858Z ThreadId(1)
+			[2025-09-17T10:15:13.480070Z ThreadId(1)
 			fontc::workload DEBUG] 1/1593 complete, most
-			recently Fe(Features) [2025-09-16T21:11:30.165884Z
+			recently Fe(Features) [2025-09-17T10:15:13.480079Z
 			ThreadId(1) fontc::workload DEBUG] 2/1593 complete,
 			most recently Fe(PaintGraph)
-			[2025-09-16T21:11:30.165905Z ThreadId(1)
+			[2025-09-17T10:15:13.480082Z ThreadId(1)
 			fontc::workload DEBUG] 3/1593 complete, most
 			recently Fe(ColorPalettes)
-			[2025-09-16T21:11:30.170111Z ThreadId(4)
+			[2025-09-17T10:15:13.484168Z ThreadId(3)
 			fontir::ir::static_metadata DEBUG] Reuse existing
 			subfamily name 'Thin' for default instance at User
 			{wdth: 100.00, wght: 100.00}
-			[2025-09-16T21:11:30.174396Z ThreadId(1) fontc
+			[2025-09-17T10:15:13.486047Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/dy/linefont/sources/Linefont[min,min].ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/dy/linefont/sources/Linefont[min,max].ufo/features.fea
@@ -26741,20 +26741,20 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:04:12.880632Z ThreadId(1) fontc
+			[2025-09-17T10:16:04.952556Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:04:12.880651Z ThreadId(1)
+			[2025-09-17T10:16:04.952579Z ThreadId(1)
 			glyphs_reader::font DEBUG] Read glyphs
 			"/Users/rofls/.fontc_crater_cache/googlefonts/atkinson-hyperlegible-next-mono/sources/AtkinsonHyperlegibleMono-Italic.glyphs"
-			[2025-09-16T21:04:12.884147Z ThreadId(1)
+			[2025-09-17T10:16:04.957368Z ThreadId(1)
 			glyphs_reader::font WARN] unknown custom parameter
 			'Enforce Compatibility Check'
-			[2025-09-16T21:04:12.884156Z ThreadId(1)
+			[2025-09-17T10:16:04.957383Z ThreadId(1)
 			glyphs_reader::font WARN] unknown custom parameter
-			'Variable Font Origin' [2025-09-16T21:04:12.884157Z
+			'Variable Font Origin' [2025-09-17T10:16:04.957384Z
 			ThreadId(1) glyphs_reader::font WARN] unknown
 			custom parameter 'Axis Mappings' thread 'main'
-			panicked at glyphs-reader/src/font.rs:2160:17: Axis
+			panicked at glyphs-reader/src/font.rs:2165:17: Axis
 			has no index AxisLocation { axis_name: "Italic",
 			location: 1.0 } note: run with `RUST_BACKTRACE=1`
 			environment variable to display a backtrace
@@ -26801,20 +26801,20 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:04:02.314565Z ThreadId(1) fontc
+			[2025-09-17T10:15:51.008591Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:04:02.314585Z ThreadId(1)
+			[2025-09-17T10:15:51.008612Z ThreadId(1)
 			glyphs_reader::font DEBUG] Read glyphs
 			"/Users/rofls/.fontc_crater_cache/googlefonts/atkinson-hyperlegible-next-mono/sources/AtkinsonHyperlegibleMono.glyphs"
-			[2025-09-16T21:04:02.317601Z ThreadId(1)
+			[2025-09-17T10:15:51.011840Z ThreadId(1)
 			glyphs_reader::font WARN] unknown custom parameter
 			'Enforce Compatibility Check'
-			[2025-09-16T21:04:02.317612Z ThreadId(1)
+			[2025-09-17T10:15:51.011853Z ThreadId(1)
 			glyphs_reader::font WARN] unknown custom parameter
-			'Variable Font Origin' [2025-09-16T21:04:02.317613Z
+			'Variable Font Origin' [2025-09-17T10:15:51.011855Z
 			ThreadId(1) glyphs_reader::font WARN] unknown
 			custom parameter 'Axis Mappings' thread 'main'
-			panicked at glyphs-reader/src/font.rs:2160:17: Axis
+			panicked at glyphs-reader/src/font.rs:2165:17: Axis
 			has no index AxisLocation { axis_name: "Italic",
 			location: 0.0 } note: run with `RUST_BACKTRACE=1`
 			environment variable to display a backtrace
@@ -26859,10 +26859,10 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			became 88 classes and 208 adjustments
-			[2025-09-16T21:04:26.262289Z ThreadId(1) fontc
+			y Be(GlyfFragment(Lcommaaccent.ss01))
+			[2025-09-17T10:16:27.588983Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 6 errors
-			[2025-09-16T21:04:26.262303Z ThreadId(1) fontc
+			[2025-09-17T10:16:27.588996Z ThreadId(1) fontc
 			WARN] error: Unexpected token, expected glyph or
 			glyph class in at 440:10 | 440 | @ss01 = [ $[name
 			endswith 'ss01'] ]; | ^ error: Expected ';' in at
@@ -26917,29 +26917,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			complete, most recently Fe(ColorPalettes)
-			[2025-09-16T21:05:35.306820Z ThreadId(1)
-			fontc::workload DEBUG] 3/905 complete, most
-			recently Fe(PaintGraph)
-			[2025-09-16T21:05:35.306842Z ThreadId(1)
-			fontc::workload DEBUG] Fe(Features) successful
-			[2025-09-16T21:05:35.306881Z ThreadId(1)
+			5:31.144542Z ThreadId(1) fontc::workload DEBUG]
+			Fe(Features) successful
+			[2025-09-17T10:05:31.144552Z ThreadId(1)
 			fontc::workload DEBUG] Fe(ColorPalettes) successful
-			[2025-09-16T21:05:35.306943Z ThreadId(1)
+			[2025-09-17T10:05:31.144555Z ThreadId(1)
 			fontc::workload DEBUG] Fe(PaintGraph) successful
-			[2025-09-16T21:05:35.307342Z ThreadId(2)
+			[2025-09-17T10:05:31.144663Z ThreadId(1)
+			fontc::workload DEBUG] 4/905 complete, most
+			recently Be(Cpal) [2025-09-17T10:05:31.144669Z
+			ThreadId(1) fontc::workload DEBUG] 5/905 complete,
+			most recently Be(Colr) [2025-09-17T10:05:31.144672Z
+			ThreadId(1) fontc::workload DEBUG] Be(Cpal)
+			successful [2025-09-17T10:05:31.144675Z ThreadId(1)
+			fontc::workload DEBUG] Be(Colr) successful
+			[2025-09-17T10:05:31.145082Z ThreadId(3)
 			fontir::ir::static_metadata DEBUG] Reuse existing
 			subfamily name 'Thin Italic' for default instance
-			at User {wght: 100.00} [2025-09-16T21:05:35.307397Z
-			ThreadId(1) fontc::workload DEBUG] 4/905 complete,
-			most recently Fe(StaticMetadata)
-			[2025-09-16T21:05:35.307408Z ThreadId(1)
-			fontc::workload DEBUG] 5/905 complete, most
-			recently Be(Cpal) [2025-09-16T21:05:35.307411Z
+			at User {wght: 100.00} [2025-09-17T10:05:31.145171Z
 			ThreadId(1) fontc::workload DEBUG] 6/905 complete,
-			most recently Be(Colr) [2025-09-16T21:05:35.307965Z
-			ThreadId(1) fontc ERROR] Invalid tag ' GOOG':
-			Invalid length (5)
+			most recently Fe(StaticMetadata)
+			[2025-09-17T10:05:31.145900Z ThreadId(1) fontc
+			ERROR] Invalid tag ' GOOG': Invalid length (5)
 			</div>
 		</div>
 		</details>
@@ -26982,30 +26981,29 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			adId(1) fontc::workload DEBUG] 1459/2531 complete,
-			most recently Be(GlyfFragment(h))
-			[2025-09-16T21:26:51.978235Z ThreadId(1)
-			fontc::workload DEBUG] 1460/2531 complete, most
-			recently
-			Be(GlyfFragment(h_i_p_h_o_p_g_o_o_g_l_e.liga))
-			[2025-09-16T21:26:51.978236Z ThreadId(1)
+			complete, most recently Be(GlyfFragment(uni20B9))
+			[2025-09-17T10:22:15.767523Z ThreadId(1)
+			fontc::workload ERROR] task 'Be(GlyfFragment(s))'
+			failed: ''s' has interpolation-incompatible paths'
+			[2025-09-17T10:22:15.767524Z ThreadId(1)
+			fontc::workload DEBUG] 1297/2531 complete, most
+			recently Be(GlyfFragment(s))
+			[2025-09-17T10:22:15.767525Z ThreadId(1)
 			fontc::workload ERROR] task
-			'Be(GlyfFragment(uni0324))' failed: ''uni0324' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:26:51.978237Z ThreadId(1)
-			fontc::workload DEBUG] 1461/2531 complete, most
-			recently Be(GlyfFragment(uni0324))
-			[2025-09-16T21:26:51.978238Z ThreadId(1)
-			fontc::workload DEBUG] 1462/2531 complete, most
-			recently Be(GlyfFragment(h_i_p_h_o_p_two.liga))
-			[2025-09-16T21:26:51.978239Z ThreadId(1)
-			fontc::workload ERROR] task 'Be(GlyfFragment(a))'
-			failed: ''a' has interpolation-incompatible paths'
-			[2025-09-16T21:26:51.978240Z ThreadId(1)
-			fontc::workload DEBUG] 1463/2531 complete, most
-			recently Be(GlyfFragment(a))
-			[2025-09-16T21:26:51.981895Z ThreadId(1) fontc
-			ERROR] 'J' has interpolation-incompatible paths
+			'Be(GlyfFragment(leftRightArrow))' failed:
+			''leftRightArrow' has interpolation-incompatible
+			paths' [2025-09-17T10:22:15.767526Z ThreadId(1)
+			fontc::workload DEBUG] 1298/2531 complete, most
+			recently Be(GlyfFragment(leftRightArrow))
+			[2025-09-17T10:22:15.767527Z ThreadId(1)
+			fontc::workload ERROR] task
+			'Be(GlyfFragment(caroncomb.alt))' failed:
+			''caroncomb.alt' has interpolation-incompatible
+			paths' [2025-09-17T10:22:15.767528Z ThreadId(1)
+			fontc::workload DEBUG] 1299/2531 complete, most
+			recently Be(GlyfFragment(caroncomb.alt))
+			[2025-09-17T10:22:15.769775Z ThreadId(1) fontc
+			ERROR] 'W' has interpolation-incompatible paths
 			</div>
 		</div>
 		</details>
@@ -27047,24 +27045,23 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			025-09-16T21:20:04.124901Z ThreadId(4)
-			ufo2fontir::source DEBUG] Paint graph not
-			implemented for UFO [2025-09-16T21:20:04.124903Z
-			ThreadId(4) ufo2fontir::source DEBUG] Color
-			palettes not implemented for UFO
-			[2025-09-16T21:20:04.125024Z ThreadId(1)
-			fontc::workload DEBUG] 1/4557 complete, most
-			recently Fe(Features) [2025-09-16T21:20:04.125042Z
-			ThreadId(1) fontc::workload DEBUG] 2/4557 complete,
-			most recently Fe(PaintGraph)
-			[2025-09-16T21:20:04.125045Z ThreadId(1)
+			rater_cache/hyvyys/Tektur/sources/UFO/Tektur.designspace"
+			[2025-09-17T10:31:31.507848Z ThreadId(4)
+			ufo2fontir::source WARN] Bailing out due to
+			non-identical feature files. This is an unnecessary
+			limitation. [2025-09-17T10:31:31.507872Z
+			ThreadId(1) fontc::workload DEBUG] 1/4557 complete,
+			most recently Fe(ColorPalettes)
+			[2025-09-17T10:31:31.507881Z ThreadId(1)
+			fontc::workload DEBUG] 2/4557 complete, most
+			recently Fe(PaintGraph)
+			[2025-09-17T10:31:31.507883Z ThreadId(1)
 			fontc::workload DEBUG] 3/4557 complete, most
-			recently Fe(ColorPalettes)
-			[2025-09-16T21:20:04.128098Z ThreadId(3)
-			fontir::ir::static_metadata DEBUG] Reuse existing
-			subfamily name 'Regular' for default instance at
-			User {wdth: 100.00, wght: 400.00}
-			[2025-09-16T21:20:04.133470Z ThreadId(1) fontc
+			recently Fe(Features) [2025-09-17T10:31:31.509543Z
+			ThreadId(3) fontir::ir::static_metadata DEBUG]
+			Reuse existing subfamily name 'Regular' for default
+			instance at User {wdth: 100.00, wght: 400.00}
+			[2025-09-17T10:31:31.516910Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/hyvyys/Tektur/sources/UFO/masters/Tektur-Black.ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/hyvyys/Tektur/sources/UFO/masters/Tektur-CondRegular.ufo/features.fea
@@ -27084,27 +27081,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ThreadId(1) fontc::workload DEBUG] 2308/3987
-			complete, most recently Be(GlyfFragment(vturned))
-			[2025-09-16T21:27:49.454775Z ThreadId(1)
-			fontc::workload DEBUG] 2309/3987 complete, most
-			recently Be(GlyfFragment(dblgravecomb))
-			[2025-09-16T21:27:49.454776Z ThreadId(1)
-			fontc::workload DEBUG] 2310/3987 complete, most
-			recently Be(GlyfFragment(Hturned))
-			[2025-09-16T21:27:49.454777Z ThreadId(1)
-			fontc::workload DEBUG] 2311/3987 complete, most
-			recently Be(GlyfFragment(hungarumlautcomb))
-			[2025-09-16T21:27:49.454778Z ThreadId(1)
-			fontc::workload DEBUG] 2312/3987 complete, most
-			recently Be(GlyfFragment(adhesiveBandage))
-			[2025-09-16T21:27:49.454779Z ThreadId(1)
-			fontc::workload DEBUG] 2313/3987 complete, most
-			recently Be(GlyfFragment(nhookleft))
-			[2025-09-16T21:27:49.454781Z ThreadId(1)
-			fontc::workload DEBUG] 2314/3987 complete, most
-			recently Be(GlyfFragment(obarred))
-			[2025-09-16T21:27:49.458018Z ThreadId(1) fontc
+			dId(1) fontc::workload DEBUG] 2328/3987 complete,
+			most recently
+			Be(GlyfFragment(hryvnia.BRACKET.varAlt01))
+			[2025-09-17T10:24:53.044920Z ThreadId(1)
+			fontc::workload DEBUG] 2329/3987 complete, most
+			recently Be(GlyfFragment(glottalstop))
+			[2025-09-17T10:24:53.044921Z ThreadId(1)
+			fontc::workload DEBUG] 2330/3987 complete, most
+			recently Be(GlyfFragment(lari))
+			[2025-09-17T10:24:53.044923Z ThreadId(1)
+			fontc::workload DEBUG] 2331/3987 complete, most
+			recently Be(GlyfFragment(A))
+			[2025-09-17T10:24:53.044924Z ThreadId(1)
+			fontc::workload DEBUG] 2332/3987 complete, most
+			recently Be(GlyfFragment(f_b))
+			[2025-09-17T10:24:53.044926Z ThreadId(1)
+			fontc::workload DEBUG] 2333/3987 complete, most
+			recently Be(GlyfFragment(eight.blackCircled))
+			[2025-09-17T10:24:53.044927Z ThreadId(1)
+			fontc::workload DEBUG] 2334/3987 complete, most
+			recently Be(GlyfFragment(nine.blackCircled))
+			[2025-09-17T10:24:53.051803Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'O': 'undefined at
 			required location Normalized {wght: 0.56}'
 			</div>
@@ -27147,27 +27145,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			Id(9) fontir::glyph DEBUG] ConvertToContour Istroke
-			[2025-09-16T21:27:25.856585Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Jstroke
-			[2025-09-16T21:27:25.856600Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Kstroke
-			[2025-09-16T21:27:25.856613Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Lbar
-			[2025-09-16T21:27:25.856624Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Lbelt
-			[2025-09-16T21:27:25.856635Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Ldoublebar
-			[2025-09-16T21:27:25.856646Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Lmiddletilde
-			[2025-09-16T21:27:25.856660Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Lslash
-			[2025-09-16T21:27:25.856673Z ThreadId(9)
-			fontir::glyph DEBUG] ConvertToContour Obarred
-			[2025-09-16T21:27:25.856797Z ThreadId(1)
-			fontc::workload DEBUG] 2595/3991 complete, most
-			recently Fe(GlyphOrder)
-			[2025-09-16T21:27:25.862088Z ThreadId(1) fontc
+			3.160759Z ThreadId(1) fontc::workload DEBUG]
+			2294/3991 complete, most recently
+			Be(GlyfFragment(beta-latin))
+			[2025-09-17T10:24:33.160762Z ThreadId(1)
+			fontc::workload DEBUG] 2295/3991 complete, most
+			recently Be(GlyfFragment(K))
+			[2025-09-17T10:24:33.160765Z ThreadId(1)
+			fontc::workload DEBUG] 2296/3991 complete, most
+			recently Be(GlyfFragment(nine.osf))
+			[2025-09-17T10:24:33.160767Z ThreadId(1)
+			fontc::workload DEBUG] 2297/3991 complete, most
+			recently Be(GlyfFragment(three.blackCircled))
+			[2025-09-17T10:24:33.160770Z ThreadId(1)
+			fontc::workload DEBUG] 2298/3991 complete, most
+			recently Be(GlyfFragment(germandbls))
+			[2025-09-17T10:24:33.160773Z ThreadId(1)
+			fontc::workload DEBUG] 2299/3991 complete, most
+			recently Be(GlyfFragment(plusminus))
+			[2025-09-17T10:24:33.160775Z ThreadId(1)
+			fontc::workload DEBUG] 2300/3991 complete, most
+			recently Be(GlyfFragment(pstroke))
+			[2025-09-17T10:24:33.165637Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'O': 'undefined at
 			required location Normalized {wght: 0.56}'
 			</div>
@@ -27210,29 +27209,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			readId(1) fontc::workload DEBUG] 631/4742 complete,
-			most recently Fe(Glyph(sinSsRa))
-			[2025-09-16T21:29:00.916344Z ThreadId(1)
-			fontc::workload DEBUG] 632/4742 complete, most
-			recently Fe(Glyph(Uhorngrave))
-			[2025-09-16T21:29:00.916347Z ThreadId(1)
-			fontc::workload DEBUG] 633/4742 complete, most
-			recently Fe(Glyph(sinKV.virama))
-			[2025-09-16T21:29:00.916349Z ThreadId(1)
-			fontc::workload DEBUG] 634/4742 complete, most
-			recently Fe(Glyph(sinMatraLl))
-			[2025-09-16T21:29:00.917395Z ThreadId(7)
+			kload DEBUG] 204/4742 complete, most recently
+			Fe(Glyph(tcaron)) [2025-09-17T10:26:18.354608Z
+			ThreadId(1) fontc::workload DEBUG] 205/4742
+			complete, most recently Fe(Glyph(one))
+			[2025-09-17T10:26:18.354611Z ThreadId(1)
+			fontc::workload DEBUG] 206/4742 complete, most
+			recently Fe(Glyph(sinMatraEe))
+			[2025-09-17T10:26:18.354614Z ThreadId(1)
+			fontc::workload DEBUG] 207/4742 complete, most
+			recently Fe(Glyph(sinGR.virama))
+			[2025-09-17T10:26:18.354616Z ThreadId(1)
+			fontc::workload DEBUG] 208/4742 complete, most
+			recently Fe(Glyph(euro))
+			[2025-09-17T10:26:18.354619Z ThreadId(1)
+			fontc::workload DEBUG] 209/4742 complete, most
+			recently Fe(Glyph(softhyphen))
+			[2025-09-17T10:26:18.360855Z ThreadId(3)
 			fontir::ir::erase_open_corners DEBUG] found an open
-			corner [2025-09-16T21:29:00.917423Z ThreadId(7)
+			corner [2025-09-17T10:26:18.360867Z ThreadId(3)
 			glyphs2fontir::toir DEBUG] erased open contours for
-			sinDVIi [2025-09-16T21:29:00.920651Z ThreadId(2)
-			fontir::ir::erase_open_corners DEBUG] found an open
-			corner [2025-09-16T21:29:00.920677Z ThreadId(2)
-			glyphs2fontir::toir DEBUG] erased open contours for
-			sinDVI [2025-09-16T21:29:00.932011Z ThreadId(1)
-			fontc ERROR] Invalid source glyph 'guarani':
-			'invalid path: 'has 1 consecutive offcurve points
-			[(281.0, 573.0)]''
+			sinDVI [2025-09-17T10:26:18.368062Z ThreadId(1)
+			fontc ERROR] Invalid source glyph 'cedi': 'invalid
+			path: 'has 1 consecutive offcurve points [(336.0,
+			557.0)]''
 			</div>
 		</div>
 		</details>
@@ -27341,22 +27341,23 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			_crater_cache/notofonts/hanifi-rohingya/sources/NotoSansHanifiRohingya.designspace"
-			[2025-09-16T21:03:08.375300Z ThreadId(3)
-			fontir::ir::static_metadata DEBUG] Reuse existing
-			subfamily name 'Regular' for default instance at
-			User {wght: 400.00} [2025-09-16T21:03:08.384034Z
+			gya/sources/NotoSansHanifiRohingya.designspace"
+			[2025-09-17T10:03:08.965165Z ThreadId(2)
+			ufo2fontir::source WARN] Bailing out due to
+			non-identical feature files. This is an unnecessary
+			limitation. [2025-09-17T10:03:08.965190Z
 			ThreadId(1) fontc::workload DEBUG] 1/757 complete,
-			most recently Fe(PaintGraph)
-			[2025-09-16T21:03:08.384052Z ThreadId(1)
+			most recently Fe(ColorPalettes)
+			[2025-09-17T10:03:08.965198Z ThreadId(1)
 			fontc::workload DEBUG] 2/757 complete, most
-			recently Fe(ColorPalettes)
-			[2025-09-16T21:03:08.384055Z ThreadId(1)
+			recently Fe(PaintGraph)
+			[2025-09-17T10:03:08.965201Z ThreadId(1)
 			fontc::workload DEBUG] 3/757 complete, most
-			recently Fe(Features) [2025-09-16T21:03:08.384058Z
-			ThreadId(1) fontc::workload DEBUG] 4/757 complete,
-			most recently Fe(StaticMetadata)
-			[2025-09-16T21:03:08.384537Z ThreadId(1) fontc
+			recently Fe(Features) [2025-09-17T10:03:08.966345Z
+			ThreadId(8) fontir::ir::static_metadata DEBUG]
+			Reuse existing subfamily name 'Regular' for default
+			instance at User {wght: 400.00}
+			[2025-09-17T10:03:08.967215Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/notofonts/hanifi-rohingya/sources/NotoSansHanifiRohingya-Regular.ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/notofonts/hanifi-rohingya/sources/NotoSansHanifiRohingya-Bold.ufo/features.fea
@@ -27377,27 +27378,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			EBUG] 11157/15755 complete, most recently
-			Be(GlyfFragment(five.osf))
-			[2025-09-16T21:05:15.345795Z ThreadId(1)
-			fontc::workload DEBUG] 11158/15755 complete, most
-			recently Be(GlyfFragment(onarrow-cy))
-			[2025-09-16T21:05:15.345797Z ThreadId(1)
-			fontc::workload DEBUG] 11159/15755 complete, most
-			recently Be(GlyfFragment(oe))
-			[2025-09-16T21:05:15.345801Z ThreadId(1)
-			fontc::workload DEBUG] 11160/15755 complete, most
-			recently Be(GlyfFragment(dje-cy))
-			[2025-09-16T21:05:15.345803Z ThreadId(1)
-			fontc::workload DEBUG] 11161/15755 complete, most
-			recently Be(GlyfFragment(reversedsemicolon))
-			[2025-09-16T21:05:15.345806Z ThreadId(1)
-			fontc::workload DEBUG] 11162/15755 complete, most
-			recently Be(GlyfFragment(oopenretroflexhook))
-			[2025-09-16T21:05:15.345809Z ThreadId(1)
-			fontc::workload DEBUG] 11163/15755 complete, most
-			recently Be(GlyfFragment(kadescender-cy))
-			[2025-09-16T21:05:15.385292Z ThreadId(1) fontc
+			17T10:05:09.901427Z ThreadId(1) fontc::workload
+			DEBUG] 9986/15755 complete, most recently
+			Be(GlyfFragment(endhightonemod))
+			[2025-09-17T10:05:09.901430Z ThreadId(1)
+			fontc::workload DEBUG] 9987/15755 complete, most
+			recently Be(GlyfFragment(yangdepartingtone))
+			[2025-09-17T10:05:09.901432Z ThreadId(1)
+			fontc::workload DEBUG] 9988/15755 complete, most
+			recently
+			Be(GlyfFragment(tonebarextrahighmod_tonebarlowmod_tonebarhighmod))
+			[2025-09-17T10:05:09.901435Z ThreadId(1)
+			fontc::workload DEBUG] 9989/15755 complete, most
+			recently
+			Be(GlyfFragment(tonebarmidmod_tonebarextrahighmod_tonebarextralowmod))
+			[2025-09-17T10:05:09.901438Z ThreadId(1)
+			fontc::workload DEBUG] 9990/15755 complete, most
+			recently Be(GlyfFragment(epsilonLunateSymbol))
+			[2025-09-17T10:05:09.901441Z ThreadId(1)
+			fontc::workload DEBUG] 9991/15755 complete, most
+			recently Be(GlyfFragment(v))
+			[2025-09-17T10:05:09.962706Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'l': 'undefined at
 			required location Normalized {wdth: -1.00, wght:
 			0.61}'
@@ -27418,27 +27419,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			/15727 complete, most recently
-			Be(GlyfFragment(isbelowcomb))
-			[2025-09-16T21:04:38.245633Z ThreadId(1)
-			fontc::workload DEBUG] 10638/15727 complete, most
-			recently Be(GlyfFragment(ampersand.sc))
-			[2025-09-16T21:04:38.245642Z ThreadId(1)
-			fontc::workload DEBUG] 10639/15727 complete, most
-			recently Be(GlyfFragment(Bscript))
-			[2025-09-16T21:04:38.245645Z ThreadId(1)
-			fontc::workload DEBUG] 10640/15727 complete, most
-			recently Be(GlyfFragment(propertyline))
-			[2025-09-16T21:04:38.245648Z ThreadId(1)
-			fontc::workload DEBUG] 10641/15727 complete, most
-			recently Be(GlyfFragment(omonocular-cy))
-			[2025-09-16T21:04:38.245650Z ThreadId(1)
-			fontc::workload DEBUG] 10642/15727 complete, most
-			recently Be(GlyfFragment(dotslashmod))
-			[2025-09-16T21:04:38.245653Z ThreadId(1)
-			fontc::workload DEBUG] 10643/15727 complete, most
-			recently Be(GlyfFragment(iretroflexhookdotless))
-			[2025-09-16T21:04:38.298426Z ThreadId(1) fontc
+			727 complete, most recently
+			Be(GlyfFragment(koppa-cy))
+			[2025-09-17T10:04:33.900663Z ThreadId(1)
+			fontc::workload DEBUG] 10031/15727 complete, most
+			recently Be(GlyfFragment(dtopbar))
+			[2025-09-17T10:04:33.900666Z ThreadId(1)
+			fontc::workload DEBUG] 10032/15727 complete, most
+			recently Be(GlyfFragment(Ghestroke-cy))
+			[2025-09-17T10:04:33.900669Z ThreadId(1)
+			fontc::workload DEBUG] 10033/15727 complete, most
+			recently
+			Be(GlyfFragment(tonebarlowmod_tonebarextralowmod_tonebarmidmod))
+			[2025-09-17T10:04:33.900672Z ThreadId(1)
+			fontc::workload DEBUG] 10034/15727 complete, most
+			recently Be(GlyfFragment(eshretroflexhook))
+			[2025-09-17T10:04:33.900676Z ThreadId(1)
+			fontc::workload DEBUG] 10035/15727 complete, most
+			recently Fe(GlyphOrder)
+			[2025-09-17T10:04:33.900679Z ThreadId(1)
+			fontc::workload DEBUG] 10036/15727 complete, most
+			recently Be(GlyfFragment(Uhorn))
+			[2025-09-17T10:04:33.968189Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'e': 'undefined at
 			required location Normalized {wdth: 0.00, wght:
 			0.61}'
@@ -27459,27 +27461,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			Id(1) fontc::workload DEBUG] 9920/15499 complete,
-			most recently Be(GlyfFragment(uniA7D9))
-			[2025-09-16T21:06:37.365235Z ThreadId(1)
-			fontc::workload DEBUG] 9921/15499 complete, most
-			recently Be(GlyfFragment(underscore))
-			[2025-09-16T21:06:37.365238Z ThreadId(1)
-			fontc::workload DEBUG] 9922/15499 complete, most
-			recently Be(GlyfFragment(um))
-			[2025-09-16T21:06:37.365240Z ThreadId(1)
-			fontc::workload DEBUG] 9923/15499 complete, most
-			recently Be(GlyfFragment(Chook))
-			[2025-09-16T21:06:37.365243Z ThreadId(1)
-			fontc::workload DEBUG] 9924/15499 complete, most
-			recently Be(GlyfFragment(de-cy.loclSRB))
-			[2025-09-16T21:06:37.365245Z ThreadId(1)
-			fontc::workload DEBUG] 9925/15499 complete, most
-			recently Be(GlyfFragment(Omegabroad-cy))
-			[2025-09-16T21:06:37.365248Z ThreadId(1)
-			fontc::workload DEBUG] 9926/15499 complete, most
-			recently Be(GlyfFragment(Che-cy))
-			[2025-09-16T21:06:37.440949Z ThreadId(1) fontc
+			recently Be(GlyfFragment(verticalfourdots))
+			[2025-09-17T10:06:28.480650Z ThreadId(1)
+			fontc::workload DEBUG] 8818/15499 complete, most
+			recently Be(GlyfFragment(gamma-latin))
+			[2025-09-17T10:06:28.480651Z ThreadId(1)
+			fontc::workload DEBUG] 8819/15499 complete, most
+			recently Be(GlyfFragment(Ve-cy))
+			[2025-09-17T10:06:28.480652Z ThreadId(1)
+			fontc::workload DEBUG] 8820/15499 complete, most
+			recently Be(GlyfFragment(parenleft))
+			[2025-09-17T10:06:28.480653Z ThreadId(1)
+			fontc::workload DEBUG] 8821/15499 complete, most
+			recently Be(GlyfFragment(lefttranspositionbracket))
+			[2025-09-17T10:06:28.480654Z ThreadId(1)
+			fontc::workload DEBUG] 8822/15499 complete, most
+			recently Be(GlyfFragment(Z))
+			[2025-09-17T10:06:28.498869Z ThreadId(9)
+			fontbe::glyphs WARN] u10780 has inconsistent path
+			elements: {"",
+			"MLLLCCLLLCCLLLLLCLLLLCCLLLLLCLLLLLLCLLZMLCCLLZMLCCLLZ"}
+			[2025-09-17T10:06:28.577819Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'ii-cy': 'undefined at
 			required location Normalized {wdth: 0.00, wght:
 			0.58}'
@@ -27500,27 +27502,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			.464361Z ThreadId(1) fontc::workload DEBUG]
-			10026/15487 complete, most recently
-			Be(GlyfFragment(Reversedze-cy))
-			[2025-09-16T21:05:57.464362Z ThreadId(1)
-			fontc::workload DEBUG] 10027/15487 complete, most
-			recently Be(GlyfFragment(arrowheadrightmod))
-			[2025-09-16T21:05:57.464364Z ThreadId(1)
-			fontc::workload DEBUG] 10028/15487 complete, most
+			tonebarhighmod_tonebarlowmod_tonebarmidmod))
+			[2025-09-17T10:05:48.906181Z ThreadId(1)
+			fontc::workload DEBUG] 10273/15487 complete, most
+			recently Be(GlyfFragment(threeemdash))
+			[2025-09-17T10:05:48.906184Z ThreadId(1)
+			fontc::workload DEBUG] 10274/15487 complete, most
+			recently Be(GlyfFragment(dcroat))
+			[2025-09-17T10:05:48.906187Z ThreadId(1)
+			fontc::workload DEBUG] 10275/15487 complete, most
+			recently Be(GlyfFragment(ezhretroflexhook))
+			[2025-09-17T10:05:48.906189Z ThreadId(1)
+			fontc::workload DEBUG] 10276/15487 complete, most
 			recently
-			Be(GlyfFragment(tonebarextrahighmod_tonebarhighmod_tonebarmidmod))
-			[2025-09-16T21:05:57.464365Z ThreadId(1)
-			fontc::workload DEBUG] 10029/15487 complete, most
-			recently
-			Be(GlyfFragment(tonebarextrahighmod_tonebarextralowmod_tonebarmidmod))
-			[2025-09-16T21:05:57.464366Z ThreadId(1)
-			fontc::workload DEBUG] 10030/15487 complete, most
-			recently Be(GlyfFragment(estecomb-cy))
-			[2025-09-16T21:05:57.464367Z ThreadId(1)
-			fontc::workload DEBUG] 10031/15487 complete, most
-			recently Be(GlyfFragment(Em-cy))
-			[2025-09-16T21:05:57.542351Z ThreadId(1) fontc
+			Be(GlyfFragment(highDottedLeftStemToneBarmod))
+			[2025-09-17T10:05:48.906192Z ThreadId(1)
+			fontc::workload DEBUG] 10277/15487 complete, most
+			recently Be(GlyfFragment(phook))
+			[2025-09-17T10:05:48.906194Z ThreadId(1)
+			fontc::workload DEBUG] 10278/15487 complete, most
+			recently Be(GlyfFragment(strokeshortcomb))
+			[2025-09-17T10:05:48.973738Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'softsign-cy':
 			'undefined at required location Normalized {wdth:
 			-1.00, wght: 0.58}'
@@ -27572,24 +27574,25 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			he/productiontype/Georama/sources/Georama-Italic.designspace"
-			[2025-09-16T21:21:53.225390Z ThreadId(2)
-			ufo2fontir::source DEBUG] Color palettes not
-			implemented for UFO [2025-09-16T21:21:53.225396Z
-			ThreadId(2) ufo2fontir::source DEBUG] Paint graph
-			not implemented for UFO
-			[2025-09-16T21:21:53.227647Z ThreadId(1)
-			fontc::workload DEBUG] 1/4401 complete, most
-			recently Fe(Features) [2025-09-16T21:21:53.227672Z
-			ThreadId(1) fontc::workload DEBUG] 2/4401 complete,
-			most recently Fe(ColorPalettes)
-			[2025-09-16T21:21:53.227675Z ThreadId(1)
+			eorama-Italic.designspace"
+			[2025-09-17T10:20:29.943112Z ThreadId(4)
+			ufo2fontir::source WARN] Bailing out due to
+			non-identical feature files. This is an unnecessary
+			limitation. [2025-09-17T10:20:29.943142Z
+			ThreadId(4) ufo2fontir::source DEBUG] Color
+			palettes not implemented for UFO
+			[2025-09-17T10:20:29.943148Z ThreadId(4)
+			ufo2fontir::source DEBUG] Paint graph not
+			implemented for UFO [2025-09-17T10:20:29.943500Z
+			ThreadId(1) fontc::workload DEBUG] 1/4401 complete,
+			most recently Fe(Features)
+			[2025-09-17T10:20:29.943551Z ThreadId(1)
+			fontc::workload DEBUG] 2/4401 complete, most
+			recently Fe(ColorPalettes)
+			[2025-09-17T10:20:29.943559Z ThreadId(1)
 			fontc::workload DEBUG] 3/4401 complete, most
 			recently Fe(PaintGraph)
-			[2025-09-16T21:21:53.227678Z ThreadId(1)
-			fontc::workload DEBUG] 4/4401 complete, most
-			recently Fe(StaticMetadata)
-			[2025-09-16T21:21:53.231418Z ThreadId(1) fontc
+			[2025-09-17T10:20:29.970153Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/productiontype/Georama/sources/Georama-iXCn-XLt.ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/productiontype/Georama/sources/Georama-iXCn-XBk.ufo/features.fea
@@ -27658,28 +27661,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ragment(comma)) successful
-			[2025-09-16T21:19:25.974823Z ThreadId(1)
+			] Be(GlyfFragment(O)) successful
+			[2025-09-17T10:16:44.237291Z ThreadId(1)
 			fontc::workload DEBUG]
-			Be(GlyfFragment(downBlackTriangle)) successful
-			[2025-09-16T21:19:25.974825Z ThreadId(1)
+			Be(GlyfFragment(hungarumlautcomb.case)) successful
+			[2025-09-17T10:16:44.237296Z ThreadId(1)
+			fontc::workload DEBUG] Be(GlyfFragment(daggerdbl))
+			successful [2025-09-17T10:16:44.237300Z ThreadId(1)
 			fontc::workload DEBUG]
-			Be(GlyfFragment(upWhiteTriangle)) successful
-			[2025-09-16T21:19:25.974827Z ThreadId(1)
-			fontc::workload DEBUG] Be(GlyfFragment(k))
-			successful [2025-09-16T21:19:25.974829Z ThreadId(1)
-			fontc::workload DEBUG] Be(GlyfFragment(pi))
-			successful [2025-09-16T21:19:25.974831Z ThreadId(1)
-			fontc::workload DEBUG] Be(GlyfFragment(colonsign))
-			successful [2025-09-16T21:19:25.974832Z ThreadId(1)
-			fontc::workload DEBUG]
-			Be(GlyfFragment(cedillacomb)) successful
-			[2025-09-16T21:19:25.974834Z ThreadId(1)
-			fontc::workload DEBUG] Be(GlyfFragment(literSign))
-			successful [2025-09-16T21:19:25.975312Z ThreadId(1)
-			fontc::workload DEBUG] 2857/4860 complete, most
+			Be(GlyfFragment(slashlongcomb.case)) successful
+			[2025-09-17T10:16:44.237304Z ThreadId(1)
+			fontc::workload DEBUG] Be(GlyfFragment(nbspace))
+			successful [2025-09-17T10:16:44.237315Z ThreadId(1)
+			fontc::workload DEBUG] Be(GlyfFragment(X))
+			successful [2025-09-17T10:16:44.237320Z ThreadId(1)
+			fontc::workload DEBUG] Be(GlyfFragment(N))
+			successful [2025-09-17T10:16:44.237324Z ThreadId(1)
+			fontc::workload DEBUG] Be(GlyfFragment(a))
+			successful [2025-09-17T10:16:44.238326Z ThreadId(1)
+			fontc::workload DEBUG] 2951/4860 complete, most
 			recently Fe(GlyphOrder)
-			[2025-09-16T21:19:26.000386Z ThreadId(1) fontc
+			[2025-09-17T10:16:44.251082Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'H': 'undefined at
 			required location Normalized {wght: -0.36}'
 			</div>
@@ -27722,29 +27724,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			) [2025-09-16T21:19:51.740002Z ThreadId(1)
-			fontc::workload DEBUG] 4059/4868 complete, most
-			recently Be(GlyfFragment(sacutedotaccent))
-			[2025-09-16T21:19:51.740004Z ThreadId(1)
-			fontc::workload DEBUG] 4060/4868 complete, most
-			recently Be(GlyfFragment(macron))
-			[2025-09-16T21:19:51.740007Z ThreadId(1)
-			fontc::workload DEBUG] 4061/4868 complete, most
-			recently Be(GlyfFragment(Iogonek.ss03))
-			[2025-09-16T21:19:51.740009Z ThreadId(1)
-			fontc::workload DEBUG] 4062/4868 complete, most
-			recently Be(GlyfFragment(uinvertedbreve.ss01))
-			[2025-09-16T21:19:51.740012Z ThreadId(1)
-			fontc::workload DEBUG] 4063/4868 complete, most
-			recently Be(GlyfFragment(parenright.case))
-			[2025-09-16T21:19:51.740014Z ThreadId(1)
-			fontc::workload DEBUG] 4064/4868 complete, most
-			recently Be(GlyfFragment(f_f_i.ss01))
-			[2025-09-16T21:19:51.740017Z ThreadId(1)
-			fontc::workload DEBUG] 4065/4868 complete, most
-			recently Be(GlyfFragment(schwa))
-			[2025-09-16T21:19:51.759786Z ThreadId(1) fontc
-			ERROR] 'f_f' has interpolation-incompatible paths
+			)) [2025-09-17T10:17:02.334790Z ThreadId(1)
+			fontc::workload DEBUG] 4050/4868 complete, most
+			recently Be(GlyfFragment(Ocircumflexgrave))
+			[2025-09-17T10:17:02.334792Z ThreadId(1)
+			fontc::workload DEBUG] 4051/4868 complete, most
+			recently Be(GlyfFragment(idblgrave))
+			[2025-09-17T10:17:02.334795Z ThreadId(1)
+			fontc::workload DEBUG] 4052/4868 complete, most
+			recently Be(GlyfFragment(quotesinglbase))
+			[2025-09-17T10:17:02.334797Z ThreadId(1)
+			fontc::workload DEBUG] 4053/4868 complete, most
+			recently Be(GlyfFragment(edblgrave))
+			[2025-09-17T10:17:02.334800Z ThreadId(1)
+			fontc::workload DEBUG] 4054/4868 complete, most
+			recently Be(GlyfFragment(emdash.case))
+			[2025-09-17T10:17:02.334803Z ThreadId(1)
+			fontc::workload DEBUG] 4055/4868 complete, most
+			recently Be(GlyfFragment(hyphen.case))
+			[2025-09-17T10:17:02.334805Z ThreadId(1)
+			fontc::workload DEBUG] 4056/4868 complete, most
+			recently Be(GlyfFragment(Rcaron))
+			[2025-09-17T10:17:02.343542Z ThreadId(1) fontc
+			ERROR] 'f_f.ss01' has interpolation-incompatible
+			paths
 			</div>
 		</div>
 		</details>
@@ -27785,28 +27788,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			5-09-16T21:20:18.022775Z ThreadId(1)
-			fontc::workload DEBUG] 2941/4864 complete, most
-			recently Be(GlyfFragment(rightBlackTriangle))
-			[2025-09-16T21:20:18.022776Z ThreadId(1)
-			fontc::workload DEBUG] 2942/4864 complete, most
-			recently Be(GlyfFragment(h))
-			[2025-09-16T21:20:18.022777Z ThreadId(1)
-			fontc::workload DEBUG] 2943/4864 complete, most
-			recently Be(GlyfFragment(o))
-			[2025-09-16T21:20:18.022778Z ThreadId(1)
-			fontc::workload DEBUG] 2944/4864 complete, most
-			recently Be(GlyfFragment(two.dnom))
-			[2025-09-16T21:20:18.022779Z ThreadId(1)
-			fontc::workload DEBUG] 2945/4864 complete, most
-			recently Be(GlyfFragment(one.dnom))
-			[2025-09-16T21:20:18.022781Z ThreadId(1)
-			fontc::workload DEBUG] 2946/4864 complete, most
-			recently Be(GlyfFragment(cedillacomb))
-			[2025-09-16T21:20:18.022782Z ThreadId(1)
-			fontc::workload DEBUG] 2947/4864 complete, most
-			recently Be(GlyfFragment(T))
-			[2025-09-16T21:20:18.031537Z ThreadId(1) fontc
+			7T10:17:20.983046Z ThreadId(1) fontc::workload
+			DEBUG] 3079/4864 complete, most recently
+			Be(GlyfFragment(L)) [2025-09-17T10:17:20.983048Z
+			ThreadId(1) fontc::workload DEBUG] 3080/4864
+			complete, most recently
+			Be(GlyfFragment(cedillacomb))
+			[2025-09-17T10:17:20.983051Z ThreadId(1)
+			fontc::workload DEBUG] 3081/4864 complete, most
+			recently Be(GlyfFragment(germandbls))
+			[2025-09-17T10:17:20.983054Z ThreadId(1)
+			fontc::workload DEBUG] 3082/4864 complete, most
+			recently Be(GlyfFragment(five.osf))
+			[2025-09-17T10:17:20.983056Z ThreadId(1)
+			fontc::workload DEBUG] 3083/4864 complete, most
+			recently Be(GlyfFragment(at.case))
+			[2025-09-17T10:17:20.983059Z ThreadId(1)
+			fontc::workload DEBUG] 3084/4864 complete, most
+			recently Be(GlyfFragment(emptyset))
+			[2025-09-17T10:17:20.983062Z ThreadId(1)
+			fontc::workload DEBUG] 3085/4864 complete, most
+			recently Be(GlyfFragment(braceleft))
+			[2025-09-17T10:17:20.991139Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'H': 'undefined at
 			required location Normalized {wght: 0.20}'
 			</div>
@@ -27849,10 +27852,10 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ntly Be(GlyfFragment(Gcommaaccent))
-			[2025-09-16T21:32:37.720056Z ThreadId(1) fontc
+			Be(GlyfFragment(hungarumlautcomb))
+			[2025-09-17T10:31:23.879440Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 6 errors
-			[2025-09-16T21:32:37.720068Z ThreadId(1) fontc
+			[2025-09-17T10:31:23.879452Z ThreadId(1) fontc
 			WARN] error: Unexpected token, expected glyph or
 			glyph class in at 302:9 | 302 | @number=[$[category
 			like 'Number']]; | ^ error: Expected ';' in at
@@ -29378,12 +29381,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:02:58.563435Z ThreadId(1) fontc
+			[2025-09-17T10:02:59.388754Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:02:58.565951Z ThreadId(1)
+			[2025-09-17T10:02:59.389859Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/42dot/42dot-Sans/sources/42dotSans.designspace"
-			[2025-09-16T21:02:58.566805Z ThreadId(1) fontc
+			[2025-09-17T10:02:59.390574Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/42dot/42dot-Sans/sources/masters/42dotSans-Light.ufo':
 			'cannot access UFO package'
@@ -29461,12 +29464,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:03:05.701447Z ThreadId(1) fontc
+			[2025-09-17T10:03:05.941888Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:03:05.701873Z ThreadId(1)
+			[2025-09-17T10:03:05.942875Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/42dot/Asta-Sans/sources/AstaSans.designspace"
-			[2025-09-16T21:03:05.701923Z ThreadId(1) fontc
+			[2025-09-17T10:03:05.942930Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/42dot/Asta-Sans/sources/masters/AstaSans-Light.ufo':
 			'cannot access UFO package'
@@ -29700,29 +29703,29 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			e, most recently Be(GlyfFragment(oe))
-			[2025-09-16T21:33:47.932568Z ThreadId(1)
-			fontc::workload DEBUG] 1775/2942 complete, most
-			recently Be(GlyfFragment(cent))
-			[2025-09-16T21:33:47.932570Z ThreadId(1)
-			fontc::workload DEBUG] 1776/2942 complete, most
-			recently Be(GlyfFragment(eogonek))
-			[2025-09-16T21:33:47.932573Z ThreadId(1)
-			fontc::workload DEBUG] 1777/2942 complete, most
-			recently Be(GlyfFragment(l.ss01))
-			[2025-09-16T21:33:47.932575Z ThreadId(1)
-			fontc::workload DEBUG] 1778/2942 complete, most
-			recently Be(GlyfFragment(hookabovecomb.case))
-			[2025-09-16T21:33:47.932578Z ThreadId(1)
-			fontc::workload DEBUG] 1779/2942 complete, most
-			recently Be(GlyfFragment(u))
-			[2025-09-16T21:33:47.932580Z ThreadId(1)
-			fontc::workload DEBUG] 1780/2942 complete, most
-			recently Be(GlyfFragment(oslash))
-			[2025-09-16T21:33:47.932583Z ThreadId(1)
-			fontc::workload DEBUG] 1781/2942 complete, most
-			recently Be(GlyfFragment(D))
-			[2025-09-16T21:33:47.940229Z ThreadId(1) fontc
+			most recently Be(GlyfFragment(y.ss01))
+			[2025-09-17T10:33:06.382073Z ThreadId(1)
+			fontc::workload DEBUG] 1891/2942 complete, most
+			recently Be(GlyfFragment(enquad))
+			[2025-09-17T10:33:06.382075Z ThreadId(1)
+			fontc::workload DEBUG] 1892/2942 complete, most
+			recently Be(GlyfFragment(zerowidthspace))
+			[2025-09-17T10:33:06.382078Z ThreadId(1)
+			fontc::workload DEBUG] 1893/2942 complete, most
+			recently Be(GlyfFragment(hungarumlaut))
+			[2025-09-17T10:33:06.382081Z ThreadId(1)
+			fontc::workload DEBUG] 1894/2942 complete, most
+			recently Be(GlyfFragment(t))
+			[2025-09-17T10:33:06.382083Z ThreadId(1)
+			fontc::workload DEBUG] 1895/2942 complete, most
+			recently Be(GlyfFragment(n))
+			[2025-09-17T10:33:06.382086Z ThreadId(1)
+			fontc::workload DEBUG] 1896/2942 complete, most
+			recently Be(GlyfFragment(dollar))
+			[2025-09-17T10:33:06.382088Z ThreadId(1)
+			fontc::workload DEBUG] 1897/2942 complete, most
+			recently Be(GlyfFragment(J))
+			[2025-09-17T10:33:06.389325Z ThreadId(1) fontc
 			ERROR] 't.ss01' has interpolation-incompatible
 			paths
 			</div>
@@ -29985,28 +29988,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			T21:24:35.838588Z ThreadId(1) fontc::workload
-			DEBUG] 931/1540 complete, most recently
-			Be(GlyfFragment(Ygrave))
-			[2025-09-16T21:24:35.838590Z ThreadId(1)
-			fontc::workload DEBUG] 932/1540 complete, most
-			recently Be(GlyfFragment(aring))
-			[2025-09-16T21:24:35.838591Z ThreadId(1)
-			fontc::workload DEBUG] 933/1540 complete, most
-			recently Be(GlyfFragment(Eogonek))
-			[2025-09-16T21:24:35.838592Z ThreadId(1)
-			fontc::workload DEBUG] 934/1540 complete, most
-			recently Be(GlyfFragment(tcommaaccent))
-			[2025-09-16T21:24:35.838593Z ThreadId(1)
-			fontc::workload DEBUG] 935/1540 complete, most
-			recently Be(GlyfFragment(kcommaaccent))
-			[2025-09-16T21:24:35.838594Z ThreadId(1)
-			fontc::workload DEBUG] 936/1540 complete, most
-			recently Be(GlyfFragment(ogonek))
-			[2025-09-16T21:24:35.838595Z ThreadId(1)
-			fontc::workload DEBUG] 937/1540 complete, most
-			recently Be(GlyfFragment(tcaron))
-			[2025-09-16T21:24:35.868103Z ThreadId(1) fontc
+			:13.851239Z ThreadId(1) fontc::workload DEBUG]
+			1337/1540 complete, most recently
+			Be(GlyfFragment(Udieresis))
+			[2025-09-17T10:20:13.851242Z ThreadId(1)
+			fontc::workload DEBUG] 1338/1540 complete, most
+			recently Be(GlyfFragment(cedilla))
+			[2025-09-17T10:20:13.851244Z ThreadId(1)
+			fontc::workload DEBUG] 1339/1540 complete, most
+			recently Be(GlyfFragment(Dcroat))
+			[2025-09-17T10:20:13.851247Z ThreadId(1)
+			fontc::workload DEBUG] 1340/1540 complete, most
+			recently Be(GlyfFragment(cacute))
+			[2025-09-17T10:20:13.851249Z ThreadId(1)
+			fontc::workload DEBUG] 1341/1540 complete, most
+			recently Be(GlyfFragment(Abreve))
+			[2025-09-17T10:20:13.851252Z ThreadId(1)
+			fontc::workload DEBUG] 1342/1540 complete, most
+			recently Be(GlyfFragment(wdieresis))
+			[2025-09-17T10:20:13.851254Z ThreadId(1)
+			fontc::workload DEBUG] 1343/1540 complete, most
+			recently Be(GlyfFragment(gdotaccent))
+			[2025-09-17T10:20:13.853985Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map 'ı' (U+0131)
 			to two different glyph ids: GID_153 and GID_154
 			</div>
@@ -30098,28 +30101,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			6T21:24:19.316840Z ThreadId(1) fontc::workload
-			DEBUG] 1195/1540 complete, most recently
-			Be(GlyfFragment(guillemotright))
-			[2025-09-16T21:24:19.316843Z ThreadId(1)
-			fontc::workload DEBUG] 1196/1540 complete, most
-			recently Be(GlyfFragment(tildecomb))
-			[2025-09-16T21:24:19.316846Z ThreadId(1)
-			fontc::workload DEBUG] 1197/1540 complete, most
-			recently Be(GlyfFragment(florin))
-			[2025-09-16T21:24:19.316848Z ThreadId(1)
-			fontc::workload DEBUG] 1198/1540 complete, most
-			recently Be(GlyfFragment(at))
-			[2025-09-16T21:24:19.316851Z ThreadId(1)
-			fontc::workload DEBUG] 1199/1540 complete, most
-			recently Be(GlyfFragment(hbar))
-			[2025-09-16T21:24:19.316854Z ThreadId(1)
-			fontc::workload DEBUG] 1200/1540 complete, most
-			recently Be(GlyfFragment(IJ))
-			[2025-09-16T21:24:19.316857Z ThreadId(1)
-			fontc::workload DEBUG] 1201/1540 complete, most
+			809867Z ThreadId(1) fontc::workload DEBUG]
+			1339/1540 complete, most recently
+			Be(GlyfFragment(cdotaccent))
+			[2025-09-17T10:20:01.809870Z ThreadId(1)
+			fontc::workload DEBUG] 1340/1540 complete, most
+			recently Be(GlyfFragment(Otilde))
+			[2025-09-17T10:20:01.809873Z ThreadId(1)
+			fontc::workload DEBUG] 1341/1540 complete, most
 			recently Be(GlyfFragment(Adieresis))
-			[2025-09-16T21:24:19.320630Z ThreadId(1) fontc
+			[2025-09-17T10:20:01.809875Z ThreadId(1)
+			fontc::workload DEBUG] 1342/1540 complete, most
+			recently Be(GlyfFragment(Cacute))
+			[2025-09-17T10:20:01.809878Z ThreadId(1)
+			fontc::workload DEBUG] 1343/1540 complete, most
+			recently Be(GlyfFragment(idotaccent))
+			[2025-09-17T10:20:01.809881Z ThreadId(1)
+			fontc::workload DEBUG] 1344/1540 complete, most
+			recently Be(GlyfFragment(nacute))
+			[2025-09-17T10:20:01.809883Z ThreadId(1)
+			fontc::workload DEBUG] 1345/1540 complete, most
+			recently Be(GlyfFragment(Cdotaccent))
+			[2025-09-17T10:20:01.812780Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map 'ı' (U+0131)
 			to two different glyph ids: GID_153 and GID_154
 			</div>
@@ -30212,27 +30215,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ThreadId(1) fontc::workload DEBUG] 2970/3552
-			complete, most recently Be(GlyfFragment(umacron))
-			[2025-09-16T21:08:09.252733Z ThreadId(1)
-			fontc::workload DEBUG] 2971/3552 complete, most
-			recently Be(GlyfFragment(idieresis))
-			[2025-09-16T21:08:09.252737Z ThreadId(1)
-			fontc::workload DEBUG] 2972/3552 complete, most
-			recently Be(GlyfFragment(zero.osf.zero))
-			[2025-09-16T21:08:09.252740Z ThreadId(1)
+			382Z ThreadId(1) fontc::workload DEBUG] 2972/3552
+			complete, most recently
+			Be(GlyfFragment(rcommaaccent))
+			[2025-09-17T10:03:17.152385Z ThreadId(1)
 			fontc::workload DEBUG] 2973/3552 complete, most
-			recently Be(GlyfFragment(ymacron))
-			[2025-09-16T21:08:09.252743Z ThreadId(1)
+			recently Be(GlyfFragment(ubar))
+			[2025-09-17T10:03:17.152387Z ThreadId(1)
 			fontc::workload DEBUG] 2974/3552 complete, most
-			recently Be(GlyfFragment(Ainvertedbreve))
-			[2025-09-16T21:08:09.252747Z ThreadId(1)
+			recently Be(GlyfFragment(six.dnom))
+			[2025-09-17T10:03:17.152390Z ThreadId(1)
 			fontc::workload DEBUG] 2975/3552 complete, most
-			recently Be(GlyfFragment(uhorn))
-			[2025-09-16T21:08:09.252750Z ThreadId(1)
+			recently Be(GlyfFragment(zdotaccent))
+			[2025-09-17T10:03:17.152392Z ThreadId(1)
 			fontc::workload DEBUG] 2976/3552 complete, most
-			recently Be(GlyfFragment(Edotbelow))
-			[2025-09-16T21:08:09.258371Z ThreadId(1) fontc
+			recently Be(GlyfFragment(udieresisgrave))
+			[2025-09-17T10:03:17.152395Z ThreadId(1)
+			fontc::workload DEBUG] 2977/3552 complete, most
+			recently Be(GlyfFragment(Ncaron))
+			[2025-09-17T10:03:17.152398Z ThreadId(1)
+			fontc::workload DEBUG] 2978/3552 complete, most
+			recently Be(GlyfFragment(one.tf))
+			[2025-09-17T10:03:17.155835Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map 'ᵻ' (U+1D7B)
 			to two different glyph ids: GID_223 and GID_307
 			</div>
@@ -30326,27 +30330,26 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			09-16T21:09:16.836217Z ThreadId(1) fontc::workload
-			DEBUG] 812/3280 complete, most recently
-			Fe(Glyph(Odieresismacron))
-			[2025-09-16T21:09:16.836220Z ThreadId(1)
-			fontc::workload DEBUG] 813/3280 complete, most
-			recently Fe(Glyph(greaterequal))
-			[2025-09-16T21:09:16.836222Z ThreadId(1)
-			fontc::workload DEBUG] 814/3280 complete, most
-			recently Fe(Glyph(idotaccent))
-			[2025-09-16T21:09:16.836225Z ThreadId(1)
-			fontc::workload DEBUG] 815/3280 complete, most
-			recently Fe(Glyph(acircumflex))
-			[2025-09-16T21:09:16.836228Z ThreadId(1)
-			fontc::workload DEBUG] 816/3280 complete, most
-			recently Fe(Glyph(J)) [2025-09-16T21:09:16.836230Z
-			ThreadId(1) fontc::workload DEBUG] 817/3280
-			complete, most recently Fe(Glyph(fraction))
-			[2025-09-16T21:09:16.836233Z ThreadId(1)
-			fontc::workload DEBUG] 818/3280 complete, most
-			recently Fe(Glyph(Odotaccentmacron))
-			[2025-09-16T21:09:16.841203Z ThreadId(1) fontc
+			ontc::workload DEBUG] 1267/3280 complete, most
+			recently Fe(Glyph(Lj)) [2025-09-17T10:04:25.136480Z
+			ThreadId(1) fontc::workload DEBUG] 1268/3280
+			complete, most recently Fe(Glyph(macroncomb.case))
+			[2025-09-17T10:04:25.136483Z ThreadId(1)
+			fontc::workload DEBUG] 1269/3280 complete, most
+			recently Fe(Glyph(zeroWidthNoBreakSpace))
+			[2025-09-17T10:04:25.136485Z ThreadId(1)
+			fontc::workload DEBUG] 1270/3280 complete, most
+			recently Be(GlyfFragment(braceright))
+			[2025-09-17T10:04:25.136488Z ThreadId(1)
+			fontc::workload DEBUG] 1271/3280 complete, most
+			recently Be(GlyfFragment(one.lf))
+			[2025-09-17T10:04:25.136491Z ThreadId(1)
+			fontc::workload DEBUG] 1272/3280 complete, most
+			recently Be(GlyfFragment(dagger))
+			[2025-09-17T10:04:25.136494Z ThreadId(1)
+			fontc::workload DEBUG] 1273/3280 complete, most
+			recently Be(GlyfFragment(apostrophecomb))
+			[2025-09-17T10:04:25.151827Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'two.lf': 'invalid
 			path: 'has 2 consecutive offcurve points [(372.0,
 			229.0), (307.0, 396.0)]''
@@ -30438,27 +30441,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			16T21:09:07.033029Z ThreadId(1) fontc::workload
-			DEBUG] 816/3280 complete, most recently
-			Fe(Glyph(utilde)) [2025-09-16T21:09:07.033032Z
-			ThreadId(1) fontc::workload DEBUG] 817/3280
-			complete, most recently Fe(Glyph(Rcaron))
-			[2025-09-16T21:09:07.033034Z ThreadId(1)
-			fontc::workload DEBUG] 818/3280 complete, most
-			recently Fe(Glyph(odotaccentmacron))
-			[2025-09-16T21:09:07.033037Z ThreadId(1)
-			fontc::workload DEBUG] 819/3280 complete, most
-			recently Fe(Glyph(ohornacute))
-			[2025-09-16T21:09:07.033039Z ThreadId(1)
-			fontc::workload DEBUG] 820/3280 complete, most
-			recently Fe(Glyph(Abrevedotbelow))
-			[2025-09-16T21:09:07.033042Z ThreadId(1)
-			fontc::workload DEBUG] 821/3280 complete, most
-			recently Fe(Glyph(Abrevetilde))
-			[2025-09-16T21:09:07.033044Z ThreadId(1)
-			fontc::workload DEBUG] 822/3280 complete, most
-			recently Fe(Glyph(acute.loclPLK))
-			[2025-09-16T21:09:07.041743Z ThreadId(1) fontc
+			) [2025-09-17T10:04:16.073916Z ThreadId(1)
+			fontc::workload DEBUG] 1302/3280 complete, most
+			recently Fe(Glyph(hyphen.case))
+			[2025-09-17T10:04:16.073919Z ThreadId(1)
+			fontc::workload DEBUG] 1303/3280 complete, most
+			recently Fe(Glyph(acaron))
+			[2025-09-17T10:04:16.073922Z ThreadId(1)
+			fontc::workload DEBUG] 1304/3280 complete, most
+			recently Fe(Glyph(Oogonek))
+			[2025-09-17T10:04:16.073924Z ThreadId(1)
+			fontc::workload DEBUG] 1305/3280 complete, most
+			recently Fe(Glyph(nine.osf))
+			[2025-09-17T10:04:16.073934Z ThreadId(1)
+			fontc::workload DEBUG] 1306/3280 complete, most
+			recently Fe(Glyph(ebreve))
+			[2025-09-17T10:04:16.073949Z ThreadId(1)
+			fontc::workload DEBUG] 1307/3280 complete, most
+			recently Fe(Glyph(Icircumflex))
+			[2025-09-17T10:04:16.073954Z ThreadId(1)
+			fontc::workload DEBUG] 1308/3280 complete, most
+			recently Fe(Glyph(dotaccent))
+			[2025-09-17T10:04:16.085944Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'two.lf': 'invalid
 			path: 'has 2 consecutive offcurve points [(222.0,
 			355.0), (174.0, 385.0)]''
@@ -30549,12 +30553,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:12:50.975881Z ThreadId(1) fontc
+			[2025-09-17T10:07:41.032870Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:12:50.976357Z ThreadId(1)
+			[2025-09-17T10:07:41.033475Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/RedHatOfficial/Overpass/sources/Overpass-Italic.designspace"
-			[2025-09-16T21:12:50.976407Z ThreadId(1) fontc
+			[2025-09-17T10:07:41.033539Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/RedHatOfficial/Overpass/sources/master_ufo/Overpass-Italic.ufo':
 			'cannot access UFO package'
@@ -30634,12 +30638,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:12:46.212344Z ThreadId(1) fontc
+			[2025-09-17T10:07:35.630006Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:12:46.212703Z ThreadId(1)
+			[2025-09-17T10:07:35.631498Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/RedHatOfficial/Overpass/sources/Overpass.designspace"
-			[2025-09-16T21:12:46.212746Z ThreadId(1) fontc
+			[2025-09-17T10:07:35.631569Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/RedHatOfficial/Overpass/sources/master_ufo/Overpass-Regular.ufo':
 			'cannot access UFO package'
@@ -30790,12 +30794,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:27:44.544058Z ThreadId(1) fontc
+			[2025-09-17T10:29:17.988148Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:27:44.545612Z ThreadId(1)
+			[2025-09-17T10:29:17.990324Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Bold.designspace"
-			[2025-09-16T21:27:44.545742Z ThreadId(1) fontc
+			[2025-09-17T10:29:17.990437Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Bold.ufo':
 			'cannot access UFO package'
@@ -30877,12 +30881,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:17:39.105394Z ThreadId(1) fontc
+			[2025-09-17T10:29:23.482896Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:17:39.107009Z ThreadId(1)
+			[2025-09-17T10:29:23.484907Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Light.designspace"
-			[2025-09-16T21:17:39.107116Z ThreadId(1) fontc
+			[2025-09-17T10:29:23.485010Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Light.ufo':
 			'cannot access UFO package'
@@ -30964,12 +30968,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:17:45.749357Z ThreadId(1) fontc
+			[2025-09-17T10:29:29.365503Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:17:45.750822Z ThreadId(1)
+			[2025-09-17T10:29:29.366845Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Regular.designspace"
-			[2025-09-16T21:17:45.750933Z ThreadId(1) fontc
+			[2025-09-17T10:29:29.366932Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiMonoTC-Regular.ufo':
 			'cannot access UFO package'
@@ -31051,12 +31055,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:17:51.418959Z ThreadId(1) fontc
+			[2025-09-17T10:29:35.555601Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:17:51.420650Z ThreadId(1)
+			[2025-09-17T10:29:35.557667Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Bold.designspace"
-			[2025-09-16T21:17:51.420823Z ThreadId(1) fontc
+			[2025-09-17T10:29:35.557767Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Bold.ufo':
 			'cannot access UFO package'
@@ -31138,12 +31142,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:11:54.131974Z ThreadId(1) fontc
+			[2025-09-17T10:29:41.775841Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:11:54.134462Z ThreadId(1)
+			[2025-09-17T10:29:41.777964Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Light.designspace"
-			[2025-09-16T21:11:54.134575Z ThreadId(1) fontc
+			[2025-09-17T10:29:41.778067Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Light.ufo':
 			'cannot access UFO package'
@@ -31225,12 +31229,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:11:59.222049Z ThreadId(1) fontc
+			[2025-09-17T10:29:48.381546Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:11:59.224050Z ThreadId(1)
+			[2025-09-17T10:29:48.383837Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Regular.designspace"
-			[2025-09-16T21:11:59.224140Z ThreadId(1) fontc
+			[2025-09-17T10:29:48.383942Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/LxgwWenkaiTC/sources/build/LXGWWenKaiTC-Regular.ufo':
 			'cannot access UFO package'
@@ -31310,12 +31314,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:12:03.332113Z ThreadId(1) fontc
+			[2025-09-17T10:29:55.250742Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:12:03.332449Z ThreadId(1)
+			[2025-09-17T10:29:55.251176Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/aaronbell/signika/sources/Signika.designspace"
-			[2025-09-16T21:12:03.332494Z ThreadId(1) fontc
+			[2025-09-17T10:29:55.251247Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/aaronbell/signika/sources/instance_UFO/Signika-Light.ufo':
 			'cannot access UFO package'
@@ -31393,27 +31397,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			st recently Fe(Glyph(te-cy))
-			[2025-09-16T21:12:39.932154Z ThreadId(1)
-			fontc::workload DEBUG] 651/2631 complete, most
-			recently Fe(Glyph(Ge-cy))
-			[2025-09-16T21:12:39.932157Z ThreadId(1)
-			fontc::workload DEBUG] 652/2631 complete, most
-			recently Fe(Glyph(S)) [2025-09-16T21:12:39.932160Z
-			ThreadId(1) fontc::workload DEBUG] 653/2631
-			complete, most recently Fe(Glyph(Ocircumflexgrave))
-			[2025-09-16T21:12:39.932163Z ThreadId(1)
-			fontc::workload DEBUG] 654/2631 complete, most
-			recently Fe(Glyph(Idotaccent))
-			[2025-09-16T21:12:39.932165Z ThreadId(1)
-			fontc::workload DEBUG] 655/2631 complete, most
-			recently Fe(Glyph(X)) [2025-09-16T21:12:39.932168Z
-			ThreadId(1) fontc::workload DEBUG] 656/2631
-			complete, most recently Fe(Glyph(Rcaron))
-			[2025-09-16T21:12:39.932170Z ThreadId(1)
-			fontc::workload DEBUG] 657/2631 complete, most
-			recently Fe(Glyph(plus))
-			[2025-09-16T21:12:39.937682Z ThreadId(1) fontc
+			ent(M)) [2025-09-17T10:30:42.408385Z ThreadId(1)
+			fontc::workload DEBUG] 678/2631 complete, most
+			recently Be(GlyfFragment(e-cy))
+			[2025-09-17T10:30:42.408388Z ThreadId(1)
+			fontc::workload DEBUG] 679/2631 complete, most
+			recently Fe(Glyph(brokenbar))
+			[2025-09-17T10:30:42.408391Z ThreadId(1)
+			fontc::workload DEBUG] 680/2631 complete, most
+			recently Fe(Glyph(Em-cy))
+			[2025-09-17T10:30:42.408393Z ThreadId(1)
+			fontc::workload DEBUG] 681/2631 complete, most
+			recently Fe(Glyph(descender-cy))
+			[2025-09-17T10:30:42.408396Z ThreadId(1)
+			fontc::workload DEBUG] 682/2631 complete, most
+			recently Fe(Glyph(acircumflextilde))
+			[2025-09-17T10:30:42.408398Z ThreadId(1)
+			fontc::workload DEBUG] 683/2631 complete, most
+			recently Fe(Glyph(uring))
+			[2025-09-17T10:30:42.408401Z ThreadId(1)
+			fontc::workload DEBUG] 684/2631 complete, most
+			recently Fe(Glyph(Dcaron))
+			[2025-09-17T10:30:42.411698Z ThreadId(1) fontc
 			ERROR] Invalid source glyph 'yusbig-cy': 'bad
 			anchor: 'Invalid anchor 'bottomright': 'no value at
 			default location'''
@@ -31504,31 +31509,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ete, most recently Fe(Glyph(ecaron))
-			[2025-09-16T21:12:27.186124Z ThreadId(1)
-			fontc::workload DEBUG] 234/2639 complete, most
-			recently Fe(Glyph(a-cy))
-			[2025-09-16T21:12:27.186127Z ThreadId(1)
-			fontc::workload DEBUG] 235/2639 complete, most
-			recently Fe(Glyph(obarred-cy))
-			[2025-09-16T21:12:27.186129Z ThreadId(1)
-			fontc::workload DEBUG] 236/2639 complete, most
-			recently Fe(Glyph(tcaron))
-			[2025-09-16T21:12:27.186132Z ThreadId(1)
-			fontc::workload DEBUG] 237/2639 complete, most
-			recently Fe(Glyph(aie-cy))
-			[2025-09-16T21:12:27.186134Z ThreadId(1)
-			fontc::workload DEBUG] 238/2639 complete, most
-			recently Fe(Glyph(O)) [2025-09-16T21:12:27.186137Z
-			ThreadId(1) fontc::workload DEBUG] 239/2639
-			complete, most recently Fe(Glyph(exclam))
-			[2025-09-16T21:12:27.186139Z ThreadId(1)
-			fontc::workload DEBUG] 240/2639 complete, most
-			recently Fe(Glyph(Ha-cy))
-			[2025-09-16T21:12:27.197707Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'Gje-cy': 'bad anchor:
-			'Invalid anchor 'bottomright': 'no value at default
-			location'''
+			-17T10:30:26.254229Z ThreadId(1) fontc::workload
+			DEBUG] 666/2639 complete, most recently
+			Fe(Glyph(Edotaccent)) [2025-09-17T10:30:26.254232Z
+			ThreadId(1) fontc::workload DEBUG] 667/2639
+			complete, most recently Fe(Glyph(ehookabove))
+			[2025-09-17T10:30:26.254234Z ThreadId(1)
+			fontc::workload DEBUG] 668/2639 complete, most
+			recently Fe(Glyph(Uhornacute))
+			[2025-09-17T10:30:26.254237Z ThreadId(1)
+			fontc::workload DEBUG] 669/2639 complete, most
+			recently Be(GlyfFragment(Hbar))
+			[2025-09-17T10:30:26.254240Z ThreadId(1)
+			fontc::workload DEBUG] 670/2639 complete, most
+			recently Be(GlyfFragment(germandbls))
+			[2025-09-17T10:30:26.254242Z ThreadId(1)
+			fontc::workload DEBUG] 671/2639 complete, most
+			recently Be(GlyfFragment(G))
+			[2025-09-17T10:30:26.254245Z ThreadId(1)
+			fontc::workload DEBUG] 672/2639 complete, most
+			recently Fe(Glyph(kadescender-cy))
+			[2025-09-17T10:30:26.264302Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'yusbig-cy': 'bad
+			anchor: 'Invalid anchor 'bottomright': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -31625,31 +31629,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			Fe(Glyph(apple)) [2025-09-16T21:14:27.483097Z
-			ThreadId(1) fontc::workload DEBUG] 226/4067
-			complete, most recently Fe(Glyph(Kcaron))
-			[2025-09-16T21:14:27.483100Z ThreadId(1)
-			fontc::workload DEBUG] 227/4067 complete, most
-			recently Fe(Glyph(Iebreve-cy))
-			[2025-09-16T21:14:27.483102Z ThreadId(1)
-			fontc::workload DEBUG] 228/4067 complete, most
-			recently Fe(Glyph(Dcaron))
-			[2025-09-16T21:14:27.483105Z ThreadId(1)
-			fontc::workload DEBUG] 229/4067 complete, most
-			recently Fe(Glyph(Izhitsadblgrave-cy))
-			[2025-09-16T21:14:27.483107Z ThreadId(1)
-			fontc::workload DEBUG] 230/4067 complete, most
-			recently Fe(Glyph(chedieresis-cy))
-			[2025-09-16T21:14:27.483110Z ThreadId(1)
-			fontc::workload DEBUG] 231/4067 complete, most
-			recently Fe(Glyph(zcaron))
-			[2025-09-16T21:14:27.483112Z ThreadId(1)
-			fontc::workload DEBUG] 232/4067 complete, most
-			recently Fe(Glyph(Yhook))
-			[2025-09-16T21:14:27.501842Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'Ubreve': 'bad anchor:
-			'Invalid anchor '_top': 'no value at default
-			location'''
+			LCCCLLLLZMLCCCLLCLLLLZMLCLCCCCCCLLLLZMLLLLCLCZMCLLLLZMLLCLLLLZMLLCCLLCZMLLLLLZMLLLCLLCLLLZMCCLLLLLZMLLCCCCCCLCCLLLCZMLLCCLLCCZMCLLLLLZ"}
+			[2025-09-17T10:33:00.204135Z ThreadId(4)
+			fontbe::glyphs WARN] iishort-cy has inconsistent
+			path elements:
+			{"MLLCCLCCCCCCCLLCCCCCZMLLCCCCLCCLCCZ",
+			"MLLCCCCCCCCCLLCCCCCZMLLCCCCZ"}
+			[2025-09-17T10:33:00.204161Z ThreadId(2)
+			fontbe::glyphs WARN] Er-cy has inconsistent path
+			elements: {"MLLCCCCCCCCLCCCCCCZMLLCLCCCCCZ",
+			"MLLCLLCCCCCCCCCCCCZMLLCCCCCCCZ"}
+			[2025-09-17T10:33:00.204148Z ThreadId(5)
+			fontbe::glyphs WARN] Btopbar has inconsistent path
+			elements: {"MLLCCCCCCCCCCCCCCCCCCCCZMLLCCCCCCCZ",
+			"MLLCCCCCCCCCCCCCCCCCCCCCCZMLLCCCCCCCCZ"}
+			[2025-09-17T10:33:00.204086Z ThreadId(9)
+			fontbe::glyphs WARN] Udieresis-cy has inconsistent
+			path elements: {"MLLCCCCCCLCCCCCCZMLLCCZMLLCCZ",
+			"MLLCCCCCLCCCCCCCCZMLLCCZMLLCCZ"}
+			[2025-09-17T10:33:00.210898Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'edieresis': 'bad
+			anchor: 'Invalid anchor '_top': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -31740,30 +31741,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ogonek)) [2025-09-16T21:13:49.245485Z ThreadId(1)
-			fontc::workload DEBUG] 18/4067 complete, most
-			recently Fe(Glyph(Btopbar))
-			[2025-09-16T21:13:49.245489Z ThreadId(1)
-			fontc::workload DEBUG] 19/4067 complete, most
-			recently Fe(Glyph(obarreddieresis-cy))
-			[2025-09-16T21:13:49.245492Z ThreadId(1)
-			fontc::workload DEBUG] 20/4067 complete, most
-			recently Fe(Glyph(Ibreve))
-			[2025-09-16T21:13:49.245495Z ThreadId(1)
-			fontc::workload DEBUG] 21/4067 complete, most
-			recently Fe(Glyph(six.blackCircled))
-			[2025-09-16T21:13:49.245497Z ThreadId(1)
-			fontc::workload DEBUG] 22/4067 complete, most
-			recently Fe(Glyph(AE)) [2025-09-16T21:13:49.245501Z
-			ThreadId(1) fontc::workload DEBUG] 23/4067
-			complete, most recently Fe(Glyph(upperRightPencil))
-			[2025-09-16T21:13:49.245504Z ThreadId(1)
-			fontc::workload DEBUG] 24/4067 complete, most
-			recently Fe(Glyph(nine))
-			[2025-09-16T21:13:49.265036Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'obarreddieresis-cy':
-			'bad anchor: 'Invalid anchor 'top': 'no value at
-			default location'''
+			g)) [2025-09-17T10:32:02.615726Z ThreadId(1)
+			fontc::workload DEBUG] 591/4067 complete, most
+			recently Fe(Glyph(ie-cy))
+			[2025-09-17T10:32:02.615727Z ThreadId(1)
+			fontc::workload DEBUG] 592/4067 complete, most
+			recently Fe(Glyph(braceleft))
+			[2025-09-17T10:32:02.615728Z ThreadId(1)
+			fontc::workload DEBUG] 593/4067 complete, most
+			recently Fe(Glyph(heavyChevronSnowflake))
+			[2025-09-17T10:32:02.615729Z ThreadId(1)
+			fontc::workload DEBUG] 594/4067 complete, most
+			recently Fe(Glyph(Idotaccent))
+			[2025-09-17T10:32:02.615731Z ThreadId(1)
+			fontc::workload DEBUG] 595/4067 complete, most
+			recently Fe(Glyph(Gcircumflex))
+			[2025-09-17T10:32:02.615732Z ThreadId(1)
+			fontc::workload DEBUG] 596/4067 complete, most
+			recently Fe(Glyph(carriagereturn))
+			[2025-09-17T10:32:02.615733Z ThreadId(1)
+			fontc::workload DEBUG] 597/4067 complete, most
+			recently Fe(Glyph(uacute))
+			[2025-09-17T10:32:02.636854Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'ugrave': 'bad anchor:
+			'Invalid anchor 'bottom': 'no value at default
+			location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -31855,23 +31857,23 @@
 		<div class="backtrace">
 			<div class="stderr">
 			iExpanded Italic for 'zcaron.smcp'
-			[2025-09-16T21:06:51.401655Z ThreadId(1)
+			[2025-09-17T10:06:44.022036Z ThreadId(1)
 			glyphs_reader::font DEBUG] synthesized layer
 			{"ital": (None, None), "opsz": (None, Some(200)),
 			"wdth": (None, None), "wght": (None, None)} in
 			master Agate Black SemiCondensed Italic for
-			'zcaron.smcp' [2025-09-16T21:06:51.401657Z
+			'zcaron.smcp' [2025-09-17T10:06:44.022038Z
 			ThreadId(1) glyphs_reader::font DEBUG] synthesized
 			layer {"ital": (None, None), "opsz": (None,
 			Some(200)), "wdth": (None, None), "wght": (None,
 			None)} in master Needlepoint Black SemiExpanded
 			Italic for 'zcaron.smcp'
-			[2025-09-16T21:06:51.401659Z ThreadId(1)
+			[2025-09-17T10:06:44.022040Z ThreadId(1)
 			glyphs_reader::font DEBUG] synthesized layer
 			{"ital": (None, None), "opsz": (None, Some(200)),
 			"wdth": (None, None), "wght": (None, None)} in
 			master Agate Black SemiExpanded Italic for
-			'zcaron.smcp' [2025-09-16T21:06:51.484693Z
+			'zcaron.smcp' [2025-09-17T10:06:44.106735Z
 			ThreadId(1) fontc ERROR] Missing mapping on Width
 			for max at DesignSpace(113.0). Mappings
 			[(UserSpace(100.0), DesignSpace(100.0)),
@@ -31967,22 +31969,22 @@
 			<div class="stderr">
 			t": (None, None)} in master Agate SemiCondensed
 			Upright for 'tdiagonalstroke.smcp'
-			[2025-09-16T21:05:51.316065Z ThreadId(1)
+			[2025-09-17T10:05:45.060301Z ThreadId(1)
 			glyphs_reader::font DEBUG] synthesized layer
 			{"opsz": (None, Some(800)), "wdth": (None, None),
 			"wght": (None, None)} in master Agate SemiExpanded
 			Upright for 'tdiagonalstroke.smcp'
-			[2025-09-16T21:05:51.316069Z ThreadId(1)
+			[2025-09-17T10:05:45.060305Z ThreadId(1)
 			glyphs_reader::font DEBUG] synthesized layer
 			{"opsz": (None, Some(800)), "wdth": (None, None),
 			"wght": (None, None)} in master Agate Black
 			SemiCondensed Upright for 'tdiagonalstroke.smcp'
-			[2025-09-16T21:05:51.316073Z ThreadId(1)
+			[2025-09-17T10:05:45.060310Z ThreadId(1)
 			glyphs_reader::font DEBUG] synthesized layer
 			{"opsz": (None, Some(800)), "wdth": (None, None),
 			"wght": (None, None)} in master Agate Black
 			SemiExpanded Upright for 'tdiagonalstroke.smcp'
-			[2025-09-16T21:05:51.390529Z ThreadId(1) fontc
+			[2025-09-17T10:05:45.144919Z ThreadId(1) fontc
 			ERROR] Missing mapping on Width for max at
 			DesignSpace(113.0). Mappings [(UserSpace(100.0),
 			DesignSpace(100.0)), (UserSpace(112.5),
@@ -32149,12 +32151,12 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:10:09.172032Z ThreadId(1) fontc
+			[2025-09-17T10:13:55.531739Z ThreadId(1) fontc
 			DEBUG] require_dir "./debug"
-			[2025-09-16T21:10:09.172296Z ThreadId(1)
+			[2025-09-17T10:13:55.532347Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"/Users/rofls/.fontc_crater_cache/docrepair-fonts/belanosima-fonts/sources/Belanosima-Regular.designspace"
-			[2025-09-16T21:10:09.172321Z ThreadId(1) fontc
+			[2025-09-17T10:13:55.532375Z ThreadId(1) fontc
 			ERROR] No default master in
 			/Users/rofls/.fontc_crater_cache/docrepair-fonts/belanosima-fonts/sources/Belanosima-Regular.designspace
 			</div>
@@ -32280,28 +32282,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			491Z ThreadId(1) fontc::workload DEBUG] 1915/2578
-			complete, most recently
-			Be(GlyfFragment(acircumflex.alt))
-			[2025-09-16T21:03:57.963493Z ThreadId(1)
-			fontc::workload DEBUG] 1916/2578 complete, most
-			recently Be(GlyfFragment(C))
-			[2025-09-16T21:03:57.963496Z ThreadId(1)
-			fontc::workload DEBUG] 1917/2578 complete, most
-			recently Be(GlyfFragment(approxequal))
-			[2025-09-16T21:03:57.963499Z ThreadId(1)
-			fontc::workload DEBUG] 1918/2578 complete, most
-			recently Be(GlyfFragment(ocircumflex))
-			[2025-09-16T21:03:57.963501Z ThreadId(1)
-			fontc::workload DEBUG] 1919/2578 complete, most
-			recently Be(GlyfFragment(Agrave.alt))
-			[2025-09-16T21:03:57.963504Z ThreadId(1)
-			fontc::workload DEBUG] 1920/2578 complete, most
-			recently Be(GlyfFragment(l))
-			[2025-09-16T21:03:57.963506Z ThreadId(1)
-			fontc::workload DEBUG] 1921/2578 complete, most
-			recently Be(GlyfFragment(dotaccentcomb))
-			[2025-09-16T21:03:57.973369Z ThreadId(1) fontc
+			T10:03:56.359430Z ThreadId(1) fontc::workload
+			DEBUG] 2466/2578 complete, most recently
+			Be(GlyfFragment(grSxA))
+			[2025-09-17T10:03:56.359433Z ThreadId(1)
+			fontc::workload DEBUG] 2467/2578 complete, most
+			recently Be(GlyfFragment(grJA_RAc2))
+			[2025-09-17T10:03:56.359443Z ThreadId(1)
+			fontc::workload DEBUG] 2468/2578 complete, most
+			recently Be(GlyfFragment(grKA_RAc2))
+			[2025-09-17T10:03:56.359446Z ThreadId(1)
+			fontc::workload DEBUG] 2469/2578 complete, most
+			recently Be(GlyfFragment(grPHxA_RAc2))
+			[2025-09-17T10:03:56.359449Z ThreadId(1)
+			fontc::workload DEBUG] 2470/2578 complete, most
+			recently Be(GlyfFragment(grGxA))
+			[2025-09-17T10:03:56.359451Z ThreadId(1)
+			fontc::workload DEBUG] 2471/2578 complete, most
+			recently Be(GlyfFragment(grNA_RAc2))
+			[2025-09-17T10:03:56.359454Z ThreadId(1)
+			fontc::workload DEBUG] 2472/2578 complete, most
+			recently Be(GlyfFragment(h))
+			[2025-09-17T10:03:56.361783Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map 'Ţ' (U+0162)
 			to two different glyph ids: GID_89 and GID_90
 			</div>
@@ -32555,30 +32557,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			UG] 872/3451 complete, most recently
-			Be(GlyfFragment(Q)) [2025-09-16T21:08:05.752800Z
-			ThreadId(1) fontc::workload DEBUG] 873/3451
-			complete, most recently Be(GlyfFragment(pe-hb))
-			[2025-09-16T21:08:05.752802Z ThreadId(1)
-			fontc::workload DEBUG] 874/3451 complete, most
-			recently Fe(Glyph(brevecomb_acutecomb))
-			[2025-09-16T21:08:05.752805Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(hryvnia))' failed: ''hryvnia' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:08:05.752807Z ThreadId(1)
-			fontc::workload DEBUG] 875/3451 complete, most
-			recently Be(GlyfFragment(hryvnia))
-			[2025-09-16T21:08:05.752810Z ThreadId(1)
-			fontc::workload ERROR] task 'Be(GlyfFragment(N))'
-			failed: ''N' has interpolation-incompatible paths'
-			[2025-09-16T21:08:05.752812Z ThreadId(1)
-			fontc::workload DEBUG] 876/3451 complete, most
-			recently Be(GlyfFragment(N))
-			[2025-09-16T21:08:05.758579Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'M.boldened': 'bad
-			anchor: 'Invalid anchor 'top': 'no value at default
-			location'''
+			CCCCCZ"} [2025-09-17T10:08:01.735821Z ThreadId(2)
+			fontbe::glyphs WARN] Eth has inconsistent path
+			elements:
+			{"MCCCLCCCCCCCCCLLCCCCCCLCCZMCCLCCLCCCCLCCCCCCCZ",
+			"MCCCCCCLCCCCCLCCCCCCCCCZMCCCCCCCCZMLCCLCCCCCZ"}
+			[2025-09-17T10:08:01.735825Z ThreadId(2)
+			fontbe::glyphs WARN] r has inconsistent path
+			elements: {"MCCCCCCCCLCCCCCLLLCCCLCCCZMCCCCCCCZ",
+			"MCCCCCCLCCCCLLLCCCLCCCLZMLCCCCCCCZ"}
+			[2025-09-17T10:08:01.735828Z ThreadId(2)
+			fontbe::glyphs WARN] brevecomb-cy has inconsistent
+			path elements: {"MCCCCCCCZ", "MCCCCCCCCCZ"}
+			[2025-09-17T10:08:01.735831Z ThreadId(2)
+			fontbe::glyphs WARN] degree has inconsistent path
+			elements: {"MCCCCCCCCCZMCCCCCCCCCZ",
+			"MCCCCCZMCCCCCCZ"} [2025-09-17T10:08:01.735836Z
+			ThreadId(2) fontbe::glyphs WARN] Tse-cy has
+			inconsistent path elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCCCCCCCCCCCZ"}
+			[2025-09-17T10:08:01.741639Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'ohorndotbelow': 'bad
+			anchor: 'Invalid anchor '_topright': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -32795,29 +32797,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			4/3256 complete, most recently
-			Fe(Glyph(Scarondotaccent))
-			[2025-09-16T21:09:34.630700Z ThreadId(1)
-			fontc::workload DEBUG] 155/3256 complete, most
-			recently Fe(Glyph(percent))
-			[2025-09-16T21:09:34.630703Z ThreadId(1)
-			fontc::workload DEBUG] 156/3256 complete, most
-			recently Fe(Glyph(Wcircumflex))
-			[2025-09-16T21:09:34.638158Z ThreadId(3)
-			fontbe::glyphs WARN] OE has inconsistent path
+			ThreadId(7) fontbe::glyphs WARN] M has inconsistent
+			path elements:
+			{"MLCCCCCLCCLCCLCCCLCCCCLCCCCCCLCCCCCLLCCCCLCCCCLCCCCZ",
+			"MCCCCCCCCCLLCLCCCLCCCCLCCLCCCCCCCCCLLCCCCCCCCCCLLCCZ",
+			"MLCCCCLCCCLCCLCCCLCCCCCCLCCCCCCCCCCLCCLCCCCCCCLCCCCZ"}
+			[2025-09-17T10:09:29.926798Z ThreadId(2)
+			fontbe::glyphs WARN] jdotless has inconsistent path
+			elements: {"MCCCCCLCCCCLCCZ", "MCCCCCCLCCCCLCCZ"}
+			[2025-09-17T10:09:29.926278Z ThreadId(8)
+			fontbe::glyphs WARN] T_h has inconsistent path
 			elements:
-			{"MCCCCCCCLCCLCCCCCLCCCLCLCCLCCCCCCCCCCZMCCCCLCCZ",
-			"MCCCCCCCLCCLCCCCCLCCCLCLCCLCCCCCCCCZMCCCCLCCZ",
-			"MCCCCCCCLCCLCCCCCLCCCCLCLCCLCCCLCCCCCCZMCCCCLCZ"}
-			[2025-09-16T21:09:34.638169Z ThreadId(2)
-			fontbe::glyphs WARN] horncomb has inconsistent path
-			elements: {"MCCCCCCLZ", "MCCCCCLZ", "MLCCCCCLZ"}
-			[2025-09-16T21:09:34.638182Z ThreadId(3)
-			fontbe::glyphs WARN] apostrophemod has inconsistent
-			path elements: {"MCCCCCCLCZ", "MCCCCCCCLCZ"}
-			[2025-09-16T21:09:34.642939Z ThreadId(1) fontc
+			{"MLCCLCCCLCCCCCCCLCCCCCCCCCCCLCCCCCCLCCCCCCCCCCLCCCCCZ",
+			"MLCCLCCCLCCCCCCCLCCCLCCLCCCCCCLCCCCCLCCCCLCCLCCCCLCCCCZ",
+			"MCLCCLCCCLCCCCLCCCLCCCCLCCCCCCLCCCCCLCCCCLCCCLCCLCCCZ"}
+			[2025-09-17T10:09:29.927141Z ThreadId(9)
+			fontbe::glyphs WARN] Ohorn has inconsistent path
+			elements: {"MCCLCCCCCCCCCZMCCCCZ",
+			"MCCCCCCCCCCCZMCCCCZ", "MCCCCCCCCCCCCZMCCCCZ"}
+			[2025-09-17T10:09:29.934437Z ThreadId(1) fontc
 			ERROR] Invalid source glyph
-			'circumflexcomb_gravecomb': 'bad anchor: 'Invalid
+			'circumflexcomb_tildecomb': 'bad anchor: 'Invalid
 			anchor 'top_viet': 'no value at default location'''
 			</div>
 		</div>
@@ -32905,31 +32905,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			y Fe(Glyph(Udieresisgrave))
-			[2025-09-16T21:08:54.901653Z ThreadId(1)
-			fontc::workload DEBUG] 159/5528 complete, most
-			recently Fe(Glyph(zdotbelow))
-			[2025-09-16T21:08:54.901656Z ThreadId(1)
-			fontc::workload DEBUG] 160/5528 complete, most
-			recently Fe(Glyph(Gangia-coptic))
-			[2025-09-16T21:08:54.901658Z ThreadId(1)
-			fontc::workload DEBUG] 161/5528 complete, most
-			recently Fe(Glyph(ddotbelow))
-			[2025-09-16T21:08:54.901661Z ThreadId(1)
-			fontc::workload DEBUG] 162/5528 complete, most
-			recently Fe(Glyph(Udieresisacute))
-			[2025-09-16T21:08:54.901663Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Fe(Glyph(Uhorndotbelow))' failed: 'Invalid source
-			glyph 'Uhorndotbelow': 'bad anchor: 'Invalid anchor
-			'ogonek': 'no value at default location''''
-			[2025-09-16T21:08:54.901667Z ThreadId(1)
-			fontc::workload DEBUG] 163/5528 complete, most
-			recently Fe(Glyph(Uhorndotbelow))
-			[2025-09-16T21:08:54.925227Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'Yu-cy': 'bad anchor:
-			'Invalid anchor 'top': 'no value at default
-			location'''
+			5/5528 complete, most recently Fe(Glyph(g))
+			[2025-09-17T10:08:50.467369Z ThreadId(1)
+			fontc::workload DEBUG] 86/5528 complete, most
+			recently Fe(Glyph(lira))
+			[2025-09-17T10:08:50.467371Z ThreadId(1)
+			fontc::workload DEBUG] 87/5528 complete, most
+			recently Fe(Glyph(sigmaLunateDottedSymbol))
+			[2025-09-17T10:08:50.467374Z ThreadId(1)
+			fontc::workload DEBUG] 88/5528 complete, most
+			recently Fe(Glyph(e.sc))
+			[2025-09-17T10:08:50.467376Z ThreadId(1)
+			fontc::workload ERROR] task 'Fe(Glyph(upsilon))'
+			failed: 'Invalid source glyph 'upsilon': 'bad
+			anchor: 'Invalid anchor 'top': 'no value at default
+			location'''' [2025-09-17T10:08:50.467379Z
+			ThreadId(1) fontc::workload DEBUG] 89/5528
+			complete, most recently Fe(Glyph(upsilon))
+			[2025-09-17T10:08:50.467382Z ThreadId(1)
+			fontc::workload DEBUG] 90/5528 complete, most
+			recently Fe(Glyph(twosuperior))
+			[2025-09-17T10:08:50.489021Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'Uhorndotbelow': 'bad
+			anchor: 'Invalid anchor 'topright': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -33018,27 +33017,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			AT") [2025-09-16T21:05:58.257491Z ThreadId(5)
+			AT") [2025-09-17T10:05:53.873088Z ThreadId(5)
 			glyphs2fontir::source WARN] Invalid kern side:
 			@MMK_R_KO_periodcentered.loclCAT, no group
 			Side2("KO_periodcentered.loclCAT")
-			[2025-09-16T21:05:58.260185Z ThreadId(5)
+			[2025-09-17T10:05:53.877185Z ThreadId(5)
 			glyphs2fontir::source WARN] Invalid kern side:
 			@MMK_L_KO_periodcentered.loclCAT, no group
 			Side1("KO_periodcentered.loclCAT")
-			[2025-09-16T21:05:58.260688Z ThreadId(5)
+			[2025-09-17T10:05:53.877199Z ThreadId(5)
 			glyphs2fontir::source WARN] Invalid kern side:
 			@MMK_L_KO_periodcentered.loclCAT, no group
 			Side1("KO_periodcentered.loclCAT")
-			[2025-09-16T21:05:58.260696Z ThreadId(5)
+			[2025-09-17T10:05:53.877201Z ThreadId(5)
 			glyphs2fontir::source WARN] Invalid kern side:
 			@MMK_L_KO_periodcentered.loclCAT.case, no group
 			Side1("KO_periodcentered.loclCAT.case")
-			[2025-09-16T21:05:58.260699Z ThreadId(5)
+			[2025-09-17T10:05:53.877202Z ThreadId(5)
 			glyphs2fontir::source WARN] Invalid kern side:
 			@MMK_L_KO_periodcentered.loclCAT.case, no group
 			Side1("KO_periodcentered.loclCAT.case")
-			[2025-09-16T21:05:58.288755Z ThreadId(1) fontc
+			[2025-09-17T10:05:53.899662Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map 'ṿ' (U+1E7F)
 			to two different glyph ids: GID_269 and GID_739
 			</div>
@@ -33165,21 +33164,22 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			r_cache/googlefonts/Roboto-Flex/sources/RobotoFlex.designspace"
-			[2025-09-16T21:09:30.956455Z ThreadId(2)
-			ufo2fontir::source WARN] Bailing out due to
-			non-identical feature files. This is an unnecessary
-			limitation. [2025-09-16T21:09:30.956502Z
-			ThreadId(1) fontc::workload DEBUG] 5/3833 complete,
-			most recently Fe(Features)
-			[2025-09-16T21:09:30.993551Z ThreadId(3)
+			7T10:09:23.194443Z ThreadId(1) fontc::workload
+			DEBUG] 1/3833 complete, most recently Fe(Features)
+			[2025-09-17T10:09:23.194479Z ThreadId(1)
+			fontc::workload DEBUG] 2/3833 complete, most
+			recently Fe(ColorPalettes)
+			[2025-09-17T10:09:23.194482Z ThreadId(1)
+			fontc::workload DEBUG] 3/3833 complete, most
+			recently Fe(PaintGraph)
+			[2025-09-17T10:09:23.218908Z ThreadId(3)
 			fontir::ir::static_metadata DEBUG] Reuse existing
 			subfamily name 'Regular' for default instance at
 			User {GRAD: 0.00, XOPQ: 96.00, XTRA: 468.00, YOPQ:
 			79.00, YTAS: 750.00, YTDE: -203.00, YTFI: 738.00,
 			YTLC: 514.00, YTUC: 712.00, opsz: 14.00, slnt:
 			0.00, wdth: 100.00, wght: 400.00}
-			[2025-09-16T21:09:31.116732Z ThreadId(1) fontc
+			[2025-09-17T10:09:23.290733Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/googlefonts/Roboto-Flex/sources/1A-drawings/Mains/RobotoFlex_GRAD-200.ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/googlefonts/Roboto-Flex/sources/1A-drawings/Mains/slnt/RobotoFlex_opsz144_wght1000_wdth100_slnt-10.ufo/features.fea
@@ -33296,29 +33296,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			9Z ThreadId(1) fontc::workload DEBUG] 113/5907
-			complete, most recently Fe(Glyph(oacute.fina))
-			[2025-09-16T21:05:33.031742Z ThreadId(1)
-			fontc::workload DEBUG] 114/5907 complete, most
-			recently Fe(Glyph(acircumflexgrave.fina))
-			[2025-09-16T21:05:33.031744Z ThreadId(1)
-			fontc::workload DEBUG] 115/5907 complete, most
-			recently Fe(Glyph(Wcircumflex.titl))
-			[2025-09-16T21:05:33.031747Z ThreadId(1)
-			fontc::workload DEBUG] 116/5907 complete, most
-			recently Fe(Glyph(Ocircumflexdotbelow))
-			[2025-09-16T21:05:33.031749Z ThreadId(1)
-			fontc::workload DEBUG] 117/5907 complete, most
-			recently Fe(Glyph(Ecaron.titl))
-			[2025-09-16T21:05:33.031752Z ThreadId(1)
-			fontc::workload DEBUG] 118/5907 complete, most
-			recently Fe(Glyph(Iacute.ss01))
-			[2025-09-16T21:05:33.031754Z ThreadId(1)
-			fontc::workload DEBUG] 119/5907 complete, most
-			recently Fe(Glyph(rcommaaccent.ss01))
-			[2025-09-16T21:05:33.062577Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'i.fina': 'bad anchor:
-			'Invalid anchor 'ogonek': 'no value at default
+			5-09-17T10:17:30.725079Z ThreadId(1)
+			fontc::workload DEBUG] 182/5907 complete, most
+			recently Fe(Glyph(atilde.fina))
+			[2025-09-17T10:17:30.725081Z ThreadId(1)
+			fontc::workload DEBUG] 183/5907 complete, most
+			recently Fe(Glyph(t.ss02))
+			[2025-09-17T10:17:30.725084Z ThreadId(1)
+			fontc::workload DEBUG] 184/5907 complete, most
+			recently Fe(Glyph(Ntilde.ss01))
+			[2025-09-17T10:17:30.725086Z ThreadId(1)
+			fontc::workload DEBUG] 185/5907 complete, most
+			recently Fe(Glyph(Lslash.titl))
+			[2025-09-17T10:17:30.725089Z ThreadId(1)
+			fontc::workload DEBUG] 186/5907 complete, most
+			recently Fe(Glyph(r.ss02))
+			[2025-09-17T10:17:30.725092Z ThreadId(1)
+			fontc::workload DEBUG] 187/5907 complete, most
+			recently Fe(Glyph(Oinvertedbreve.ss01))
+			[2025-09-17T10:17:30.725095Z ThreadId(1)
+			fontc::workload DEBUG] 188/5907 complete, most
+			recently Fe(Glyph(ohorntilde.ss01))
+			[2025-09-17T10:17:30.746963Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'wdieresis.fina': 'bad
+			anchor: 'Invalid anchor 'top': 'no value at default
 			location'''
 			</div>
 		</div>
@@ -33446,32 +33447,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ly Fe(Glyph(divisionslash))
-			[2025-09-16T21:03:43.459663Z ThreadId(1)
-			fontc::workload DEBUG] 794/3196 complete, most
-			recently Fe(Glyph(scedilla))
-			[2025-09-16T21:03:43.459665Z ThreadId(1)
-			fontc::workload DEBUG] 795/3196 complete, most
-			recently Fe(Glyph(trademark))
-			[2025-09-16T21:03:43.459668Z ThreadId(1)
-			fontc::workload DEBUG] 796/3196 complete, most
-			recently Fe(Glyph(odieresis.fina))
-			[2025-09-16T21:03:43.459670Z ThreadId(1)
-			fontc::workload DEBUG] 797/3196 complete, most
-			recently Fe(Glyph(Itilde))
-			[2025-09-16T21:03:43.459673Z ThreadId(1)
-			fontc::workload DEBUG] 798/3196 complete, most
-			recently Fe(Glyph(longs_t))
-			[2025-09-16T21:03:43.459675Z ThreadId(1)
-			fontc::workload DEBUG] 799/3196 complete, most
-			recently Fe(Glyph(ntilde))
-			[2025-09-16T21:03:43.459678Z ThreadId(1)
-			fontc::workload DEBUG] 800/3196 complete, most
-			recently Fe(Glyph(two.lf))
-			[2025-09-16T21:03:43.468663Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'ij': 'bad anchor:
-			'Invalid anchor 'bottom': 'no value at default
-			location'''
+			Fe(Glyph(ebreve.fina)) [2025-09-17T10:15:37.190623Z
+			ThreadId(1) fontc::workload DEBUG] 501/3196
+			complete, most recently
+			Fe(Glyph(parenrightinferior))
+			[2025-09-17T10:15:37.190626Z ThreadId(1)
+			fontc::workload DEBUG] 502/3196 complete, most
+			recently Fe(Glyph(oinvertedbreve))
+			[2025-09-17T10:15:37.190628Z ThreadId(1)
+			fontc::workload DEBUG] 503/3196 complete, most
+			recently Fe(Glyph(odieresismacron))
+			[2025-09-17T10:15:37.190631Z ThreadId(1)
+			fontc::workload DEBUG] 504/3196 complete, most
+			recently Fe(Glyph(f)) [2025-09-17T10:15:37.194270Z
+			ThreadId(8) fontbe::glyphs WARN] equal has
+			inconsistent path elements:
+			{"MLCCCCCCCCZMLCCCCCCCCZ", "MCCCCCZMCCCCCZ"}
+			[2025-09-17T10:15:37.194274Z ThreadId(9)
+			fontbe::glyphs WARN] X has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCLCCCCCCCCCCCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCCCCLCLCCCLCCCCCCCCCCZ"}
+			[2025-09-17T10:15:37.200574Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'gravecomb': 'bad
+			anchor: 'Invalid anchor '_topviet': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -33570,28 +33570,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			.627201Z ThreadId(1) fontc::workload DEBUG]
-			1947/2287 complete, most recently
-			Be(GlyfFragment(Abreveacute))
-			[2025-09-16T21:04:16.627204Z ThreadId(1)
-			fontc::workload DEBUG] 1948/2287 complete, most
-			recently Be(GlyfFragment(dotbelowcomb))
-			[2025-09-16T21:04:16.627206Z ThreadId(1)
-			fontc::workload DEBUG] 1949/2287 complete, most
-			recently Be(GlyfFragment(Iacute))
-			[2025-09-16T21:04:16.627210Z ThreadId(1)
-			fontc::workload DEBUG] 1950/2287 complete, most
-			recently Be(GlyfFragment(iacute))
-			[2025-09-16T21:04:16.627212Z ThreadId(1)
-			fontc::workload DEBUG] 1951/2287 complete, most
-			recently Be(GlyfFragment(Uhungarumlaut))
-			[2025-09-16T21:04:16.627215Z ThreadId(1)
-			fontc::workload DEBUG] 1952/2287 complete, most
-			recently Be(GlyfFragment(IJ))
-			[2025-09-16T21:04:16.627217Z ThreadId(1)
-			fontc::workload DEBUG] 1953/2287 complete, most
-			recently Be(GlyfFragment(Ugrave))
-			[2025-09-16T21:04:16.630334Z ThreadId(1) fontc
+			3.356701Z ThreadId(1) fontc::workload DEBUG]
+			1933/2287 complete, most recently
+			Be(GlyfFragment(Rcommaaccent))
+			[2025-09-17T10:16:13.356704Z ThreadId(1)
+			fontc::workload DEBUG] 1934/2287 complete, most
+			recently Be(GlyfFragment(Ohorn))
+			[2025-09-17T10:16:13.356706Z ThreadId(1)
+			fontc::workload DEBUG] 1935/2287 complete, most
+			recently Be(GlyfFragment(uhorngrave))
+			[2025-09-17T10:16:13.356709Z ThreadId(1)
+			fontc::workload DEBUG] 1936/2287 complete, most
+			recently Be(GlyfFragment(Eogonek))
+			[2025-09-17T10:16:13.356711Z ThreadId(1)
+			fontc::workload DEBUG] 1937/2287 complete, most
+			recently Be(GlyfFragment(etilde))
+			[2025-09-17T10:16:13.356714Z ThreadId(1)
+			fontc::workload DEBUG] 1938/2287 complete, most
+			recently Be(GlyfFragment(uhorn))
+			[2025-09-17T10:16:13.356716Z ThreadId(1)
+			fontc::workload DEBUG] 1939/2287 complete, most
+			recently Be(GlyfFragment(Ohornacute))
+			[2025-09-17T10:16:13.361168Z ThreadId(1) fontc
 			ERROR] Error making CMap: Cannot map '¯' (U+00AF)
 			to two different glyph ids: GID_526 and GID_545
 			</div>
@@ -33686,31 +33686,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			recently Fe(Glyph(V)) [2025-09-16T21:06:38.050243Z
-			ThreadId(1) fontc::workload DEBUG] 625/2533
-			complete, most recently Fe(Glyph(nine.lf))
-			[2025-09-16T21:06:38.050245Z ThreadId(1)
-			fontc::workload DEBUG] 626/2533 complete, most
-			recently Fe(Glyph(Odotbelow))
-			[2025-09-16T21:06:38.050248Z ThreadId(1)
-			fontc::workload DEBUG] 627/2533 complete, most
-			recently Fe(Glyph(tildecomb))
-			[2025-09-16T21:06:38.050250Z ThreadId(1)
-			fontc::workload DEBUG] 628/2533 complete, most
-			recently Fe(Glyph(germandbls))
-			[2025-09-16T21:06:38.050253Z ThreadId(1)
-			fontc::workload DEBUG] 629/2533 complete, most
-			recently Fe(Glyph(ytilde))
-			[2025-09-16T21:06:38.050255Z ThreadId(1)
-			fontc::workload DEBUG] 630/2533 complete, most
-			recently Fe(Glyph(ocircumflexacute))
-			[2025-09-16T21:06:38.050258Z ThreadId(1)
-			fontc::workload DEBUG] 631/2533 complete, most
-			recently Fe(Glyph(oacute))
-			[2025-09-16T21:06:38.056452Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'kip': 'bad anchor:
-			'Invalid anchor 'top': 'no value at default
-			location'''
+			Id(1) fontc::workload DEBUG] 84/2533 complete, most
+			recently Fe(Glyph(currency))
+			[2025-09-17T10:18:39.140346Z ThreadId(1)
+			fontc::workload DEBUG] 85/2533 complete, most
+			recently Fe(Glyph(foursuperior))
+			[2025-09-17T10:18:39.140349Z ThreadId(1)
+			fontc::workload DEBUG] 86/2533 complete, most
+			recently Fe(Glyph(odotbelow))
+			[2025-09-17T10:18:39.140351Z ThreadId(1)
+			fontc::workload DEBUG] 87/2533 complete, most
+			recently Fe(Glyph(idblgrave))
+			[2025-09-17T10:18:39.140354Z ThreadId(1)
+			fontc::workload DEBUG] 88/2533 complete, most
+			recently Fe(Glyph(uhungarumlaut))
+			[2025-09-17T10:18:39.148893Z ThreadId(5)
+			fontbe::glyphs WARN] D has inconsistent path
+			elements: {"MCCCCCCCCCLCLCZMCLCCCCCCZ",
+			"MCCCCCCCCCZMCLCCCCCCZ"}
+			[2025-09-17T10:18:39.148912Z ThreadId(5)
+			fontbe::glyphs WARN] semicolon has inconsistent
+			path elements: {"MCCCCCCCCCZMCCCCZ",
+			"MCCCCCCZMCCCCZ"} [2025-09-17T10:18:39.151122Z
+			ThreadId(1) fontc ERROR] Invalid source glyph 'K':
+			'bad anchor: 'Invalid anchor 'top': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -33806,30 +33806,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			UG] 642/2555 complete, most recently
-			Fe(Glyph(gravecomb)) [2025-09-16T21:04:02.352567Z
-			ThreadId(1) fontc::workload DEBUG] 643/2555
-			complete, most recently Be(GlyfFragment(nbspace))
-			[2025-09-16T21:04:02.352570Z ThreadId(1)
-			fontc::workload DEBUG] 644/2555 complete, most
-			recently Be(GlyfFragment(tildecomb.case))
-			[2025-09-16T21:04:02.352572Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(eight))' failed: ''eight' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:04:02.352577Z ThreadId(1)
-			fontc::workload DEBUG] 645/2555 complete, most
-			recently Be(GlyfFragment(eight))
-			[2025-09-16T21:04:02.352579Z ThreadId(1)
-			fontc::workload DEBUG] 646/2555 complete, most
-			recently Be(GlyfFragment(dotaccentcomb))
-			[2025-09-16T21:04:02.352582Z ThreadId(1)
-			fontc::workload DEBUG] 647/2555 complete, most
-			recently Be(GlyfFragment(doubleprimemod))
-			[2025-09-16T21:04:02.357514Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'Oslash': 'bad anchor:
-			'Invalid anchor 'topright': 'no value at default
-			location'''
+			)) [2025-09-17T10:04:00.121331Z ThreadId(1)
+			fontc::workload DEBUG] 636/2555 complete, most
+			recently Fe(Glyph(ohookabove))
+			[2025-09-17T10:04:00.121381Z ThreadId(1)
+			fontc::workload DEBUG] 637/2555 complete, most
+			recently Fe(Glyph(amacron))
+			[2025-09-17T10:04:00.121384Z ThreadId(1)
+			fontc::workload DEBUG] 638/2555 complete, most
+			recently Fe(Glyph(brevecomb_hookabovecomb.case))
+			[2025-09-17T10:04:00.121387Z ThreadId(1)
+			fontc::workload DEBUG] 639/2555 complete, most
+			recently Fe(Glyph(J)) [2025-09-17T10:04:00.121389Z
+			ThreadId(1) fontc::workload DEBUG] 640/2555
+			complete, most recently Fe(Glyph(Ecircumflex))
+			[2025-09-17T10:04:00.121392Z ThreadId(1)
+			fontc::workload DEBUG] 641/2555 complete, most
+			recently Fe(Glyph(Udotbelow))
+			[2025-09-17T10:04:00.121394Z ThreadId(1)
+			fontc::workload DEBUG] 642/2555 complete, most
+			recently Fe(Glyph(ogonek))
+			[2025-09-17T10:04:00.127841Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'Oslashacute': 'bad
+			anchor: 'Invalid anchor 'center': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -33914,29 +33914,32 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			CCCCCCCCCCCCCCCCCZ"} [2025-09-16T21:14:03.381082Z
-			ThreadId(8) fontbe::glyphs WARN] numbersign has
-			inconsistent path elements:
-			{"MCCCCCLCCCCCCCLLLCCCCCCCCCLCCCCCCCCCLLLCCLLCCZMLLLLCCZ",
-			"MCCCCCLCCCCCCCCLLLCCCCCCCLCCLCCCLCCCLLLCCCCCCZMCCLLLCCZ",
-			"MCCCCLCCCCCCCLLLCCCCCCCLCCLCCCCCCCCLLLCCCCCCZMLCCCCCCZ"}
-			[2025-09-16T21:14:03.381091Z ThreadId(8)
-			fontbe::glyphs WARN] Otilde has inconsistent path
-			elements: {"MCCCCCCCZMCCCCCZMCCCCCCCCCCCZ",
-			"MCCCCCCCCZMCCCCCCZMCCCCCCCCCCCCCCZ",
-			"MCCCCCCZMCCCCCZMCCCCCCCCCCZ"}
-			[2025-09-16T21:14:03.381100Z ThreadId(8)
-			fontbe::glyphs WARN] zdotaccent has inconsistent
-			path elements:
-			{"MCCCCCLCCLCLCCCCCCCCCLCCLLLCCCCCZMCCCCZ",
-			"MCCCCCLCCCLCLCCCCCCCCCLCCCCLLCCCCZMCCCCZ"}
-			[2025-09-16T21:14:03.381196Z ThreadId(7)
-			fontbe::glyphs WARN] Ohungarumlaut has inconsistent
-			path elements: {"MCCCCCCCCZMCCCCCCZMCCCCZMCCCCZ",
-			"MCCCCCCZMCCCCCZMCCCCZMCCCCZ",
-			"MCCCCCCCZMCCCCCZMCCCCZMCCCCZ"}
-			[2025-09-16T21:14:03.385433Z ThreadId(1) fontc
-			ERROR] 'T' has interpolation-incompatible paths
+			:workload DEBUG] 482/1928 complete, most recently
+			Be(GlyfFragment(fiveinferior))
+			[2025-09-17T10:13:46.286310Z ThreadId(1)
+			fontc::workload DEBUG] 483/1928 complete, most
+			recently Fe(Glyph(seveninferior))
+			[2025-09-17T10:13:46.286313Z ThreadId(1)
+			fontc::workload DEBUG] 484/1928 complete, most
+			recently Fe(Glyph(dotaccentcomb))
+			[2025-09-17T10:13:46.286315Z ThreadId(1)
+			fontc::workload DEBUG] 485/1928 complete, most
+			recently Fe(Glyph(a.salt))
+			[2025-09-17T10:13:46.286317Z ThreadId(1)
+			fontc::workload DEBUG] 486/1928 complete, most
+			recently Fe(Glyph(five))
+			[2025-09-17T10:13:46.286320Z ThreadId(1)
+			fontc::workload DEBUG] 487/1928 complete, most
+			recently Fe(Glyph(Tcaron))
+			[2025-09-17T10:13:46.286322Z ThreadId(1)
+			fontc::workload DEBUG] 488/1928 complete, most
+			recently Fe(Glyph(paragraph))
+			[2025-09-17T10:13:46.286325Z ThreadId(1)
+			fontc::workload DEBUG] 489/1928 complete, most
+			recently Fe(Glyph(f_f_i))
+			[2025-09-17T10:13:46.290220Z ThreadId(1) fontc
+			ERROR] 'Ntilde' has interpolation-incompatible
+			paths
 			</div>
 		</div>
 		<div class="h5">
@@ -34035,30 +34038,25 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			09-16T21:20:39.800769Z ThreadId(1) fontc::workload
-			DEBUG] 741/2519 complete, most recently
-			Fe(Glyph(ampersand)) [2025-09-16T21:20:39.800770Z
-			ThreadId(1) fontc::workload ERROR] task
-			'Be(GlyfFragment(two))' failed: ''two' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:20:39.800772Z ThreadId(1)
-			fontc::workload DEBUG] 742/2519 complete, most
-			recently Be(GlyfFragment(two))
-			[2025-09-16T21:20:39.800773Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(five))' failed: ''five' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:20:39.800774Z ThreadId(1)
-			fontc::workload DEBUG] 743/2519 complete, most
-			recently Be(GlyfFragment(five))
-			[2025-09-16T21:20:39.800775Z ThreadId(1)
-			fontc::workload ERROR] task 'Be(GlyfFragment(v))'
-			failed: ''v' has interpolation-incompatible paths'
-			[2025-09-16T21:20:39.800776Z ThreadId(1)
-			fontc::workload DEBUG] 744/2519 complete, most
-			recently Be(GlyfFragment(v))
-			[2025-09-16T21:20:39.802365Z ThreadId(1) fontc
-			ERROR] 'ae' has interpolation-incompatible paths
+			) fontbe::glyphs WARN] N has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCLCCCCCCCCCCCCCCCCCLCCCCCCCCLCCZ",
+			"MCCCCCCCCCLCCCCCCCCCCCLLCCCCLCCCLCCCCLCCCCCCLLLLCCCCCCCLCCLCCZ"}
+			[2025-09-17T10:21:05.682812Z ThreadId(7)
+			fontbe::glyphs WARN] Lslash has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCLLCCLCCCCCCCCCCCCCCCCLCLCCCCLLLCCLLLCCCCCCLLCZMCCCCLZMLLCLCCZMCCLCCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCZMLCLCLCLCZMLCCCCCCCCCLLCCCCCCCCCCCCLLLCLLLCLLCCCLCCCLLLLZMCCLCCCCCCZ"}
+			[2025-09-17T10:21:05.682708Z ThreadId(6)
+			fontbe::glyphs WARN] eight has inconsistent path
+			elements:
+			{"MCCCLCLCLLLLLLCCLCLCLLLCCCCLCCCLCCCLLCCCLCCCCCCCCCCCCCCLCCCCCCCCCZMCLLCCCLLLCLCCCZ",
+			"MCCLCLCCLCLCLLLLLLCLCLCLLLLCCCCCCCCLCCCLLCLLCCLCCLCLLCCCCCCCCCLCCLLCLCCCCCCCCCCZMCLLCCCLLLCCLCCCZMLLLZ"}
+			[2025-09-17T10:21:05.682818Z ThreadId(5)
+			fontbe::glyphs WARN] dotaccentcomb has inconsistent
+			path elements: {"MCLCLCLLCCCZ", "MCCLLCCCCZ"}
+			[2025-09-17T10:21:05.700619Z ThreadId(1) fontc
+			ERROR] 'R' has interpolation-incompatible paths
 			</div>
 		</div>
 		<div class="h5">
@@ -34157,25 +34155,24 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			cently Fe(Features) [2025-09-16T21:23:01.508529Z
-			ThreadId(1) fontc::workload DEBUG]
-			Fe(ColorPalettes) successful
-			[2025-09-16T21:23:01.508547Z ThreadId(1)
-			fontc::workload DEBUG] Fe(PaintGraph) successful
-			[2025-09-16T21:23:01.508551Z ThreadId(1)
-			fontc::workload DEBUG] Fe(Features) successful
-			[2025-09-16T21:23:01.509029Z ThreadId(1)
-			fontc::workload DEBUG] 4/5013 complete, most
-			recently Be(Colr) [2025-09-16T21:23:01.509035Z
+			T10:22:57.481374Z ThreadId(1) fontc::workload
+			DEBUG] Fe(PaintGraph) successful
+			[2025-09-17T10:22:57.481378Z ThreadId(1)
+			fontc::workload DEBUG] Fe(ColorPalettes) successful
+			[2025-09-17T10:22:57.480143Z ThreadId(4)
+			ufo2fontir::source DEBUG] Features for
+			"/Users/rofls/.fontc_crater_cache/googlefonts/roboto-serif/sources/RobotoSerif-Italic.designspace"
+			[2025-09-17T10:22:57.487324Z ThreadId(1)
+			fontc::workload DEBUG] 3/5013 complete, most
+			recently Be(Cpal) [2025-09-17T10:22:57.487356Z
+			ThreadId(1) fontc::workload DEBUG] 4/5013 complete,
+			most recently Be(Colr) [2025-09-17T10:22:57.487360Z
 			ThreadId(1) fontc::workload DEBUG] 5/5013 complete,
-			most recently Be(Cpal) [2025-09-16T21:23:01.509037Z
-			ThreadId(1) fontc::workload DEBUG] Be(Colr)
-			successful [2025-09-16T21:23:01.509040Z ThreadId(1)
-			fontc::workload DEBUG] Be(Cpal) successful
-			[2025-09-16T21:23:01.511662Z ThreadId(1)
+			most recently Fe(Features)
+			[2025-09-17T10:22:57.487363Z ThreadId(1)
 			fontc::workload DEBUG] 6/5013 complete, most
 			recently Fe(StaticMetadata)
-			[2025-09-16T21:23:01.575655Z ThreadId(1) fontc
+			[2025-09-17T10:22:57.588853Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/googlefonts/roboto-serif/sources/Roboto_Serif_Text-Hairline_Italic.ufo':
 			'failed to load font info data'
@@ -34284,25 +34281,25 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			recently Fe(PaintGraph)
-			[2025-09-16T21:21:53.179106Z ThreadId(1)
-			fontc::workload DEBUG] Fe(Features) successful
-			[2025-09-16T21:21:53.179111Z ThreadId(1)
-			fontc::workload DEBUG] Fe(ColorPalettes) successful
-			[2025-09-16T21:21:53.179113Z ThreadId(1)
+			ccessful [2025-09-17T10:21:38.584160Z ThreadId(1)
 			fontc::workload DEBUG] Fe(PaintGraph) successful
-			[2025-09-16T21:21:53.179268Z ThreadId(1)
-			fontc::workload DEBUG] 4/5097 complete, most
-			recently Be(Colr) [2025-09-16T21:21:53.179281Z
-			ThreadId(1) fontc::workload DEBUG] Be(Colr)
-			successful [2025-09-16T21:21:53.180221Z ThreadId(1)
-			fontc::workload DEBUG] 5/5097 complete, most
-			recently Be(Cpal) [2025-09-16T21:21:53.180227Z
-			ThreadId(1) fontc::workload DEBUG] Be(Cpal)
-			successful [2025-09-16T21:21:53.197025Z ThreadId(1)
+			[2025-09-17T10:21:38.585911Z ThreadId(1)
+			fontc::workload DEBUG] 3/5097 complete, most
+			recently Be(Colr) [2025-09-17T10:21:38.585926Z
+			ThreadId(1) fontc::workload DEBUG] 4/5097 complete,
+			most recently Be(Cpal) [2025-09-17T10:21:38.585930Z
+			ThreadId(1) fontc::workload DEBUG] 5/5097 complete,
+			most recently Fe(Features)
+			[2025-09-17T10:21:38.585935Z ThreadId(1)
+			fontc::workload DEBUG] Be(Colr) successful
+			[2025-09-17T10:21:38.585944Z ThreadId(1)
+			fontc::workload DEBUG] Be(Cpal) successful
+			[2025-09-17T10:21:38.585949Z ThreadId(1)
+			fontc::workload DEBUG] Fe(Features) successful
+			[2025-09-17T10:21:38.607308Z ThreadId(1)
 			fontc::workload DEBUG] 6/5097 complete, most
 			recently Fe(StaticMetadata)
-			[2025-09-16T21:21:53.248066Z ThreadId(1) fontc
+			[2025-09-17T10:21:38.710960Z ThreadId(1) fontc
 			ERROR] Reading source failed for
 			'/Users/rofls/.fontc_crater_cache/googlefonts/roboto-serif/sources/Roboto_Serif_Micro_Cond-Super.ufo':
 			'failed to load font info data'
@@ -34414,28 +34411,29 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ete, most recently Fe(Glyph(asciitilde))
-			[2025-09-16T21:27:45.876623Z ThreadId(1)
-			fontc::workload DEBUG] 236/953 complete, most
-			recently Fe(Glyph(comma))
-			[2025-09-16T21:27:45.876624Z ThreadId(1)
-			fontc::workload DEBUG] 237/953 complete, most
-			recently Fe(Glyph(C)) [2025-09-16T21:27:45.876625Z
-			ThreadId(1) fontc::workload DEBUG] 238/953
-			complete, most recently Fe(Glyph(cent))
-			[2025-09-16T21:27:45.876626Z ThreadId(1)
-			fontc::workload DEBUG] 239/953 complete, most
-			recently Fe(Glyph(quotedblbase))
-			[2025-09-16T21:27:45.876627Z ThreadId(1)
-			fontc::workload DEBUG] 240/953 complete, most
-			recently Fe(Glyph(guilsinglleft))
-			[2025-09-16T21:27:45.876628Z ThreadId(1)
-			fontc::workload DEBUG] 241/953 complete, most
-			recently Fe(Glyph(a)) [2025-09-16T21:27:45.876629Z
-			ThreadId(1) fontc::workload DEBUG] 242/953
-			complete, most recently Fe(Glyph(cedilla))
-			[2025-09-16T21:27:45.877444Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'adieresis': 'bad
+			LLLLLLLLZMLLLLLLZMLLLLZMLLLLLLZ",
+			"MLLLLLLLLLLLLLLLLZMLLLLLLLLZ"}
+			[2025-09-17T10:23:12.738480Z ThreadId(5)
+			fontbe::glyphs WARN] quotedblleft has inconsistent
+			path elements: {"MLLLLZMLLLLZ", "MLLLLZ"}
+			[2025-09-17T10:23:12.738485Z ThreadId(5)
+			fontbe::glyphs WARN] k has inconsistent path
+			elements: {"MLLLLLLLLLLLLLLLLZMLLLLZMLLLLZ",
+			"MLLLLLLLLLLLLLLLLLLLLZ"}
+			[2025-09-17T10:23:12.738542Z ThreadId(5)
+			fontbe::glyphs WARN] greater has inconsistent path
+			elements: {"MLLLLLLLLLLLLZMLLLLZMLLLLZ",
+			"MLLLLLLLLLLLLLLLLLLLLZ"}
+			[2025-09-17T10:23:12.738546Z ThreadId(5)
+			fontbe::glyphs WARN] icircumflex has inconsistent
+			path elements: {"MLLLLZMLLLLLLLLZ",
+			"MLLLLLLLLLLLLZMLLLLZ"}
+			[2025-09-17T10:23:12.738316Z ThreadId(9)
+			fontbe::glyphs WARN] guillemetleft has inconsistent
+			path elements: {"MLLLLLLLLLLLLLLLLLLLLZMLLLLZ",
+			"MLLLLLLLLLLLLZMLLLLLLLLLLLLZ"}
+			[2025-09-17T10:23:12.740216Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'Adieresis': 'bad
 			anchor: 'Invalid anchor 'bottom': 'no value at
 			default location'''
 			</div>
@@ -34522,30 +34520,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			most recently Fe(Glyph(three))
-			[2025-09-16T21:11:52.026295Z ThreadId(1)
-			fontc::workload DEBUG] 237/3105 complete, most
-			recently Fe(Glyph(Adotbelow))
-			[2025-09-16T21:11:52.026297Z ThreadId(1)
-			fontc::workload DEBUG] 238/3105 complete, most
-			recently Fe(Glyph(Nacute))
-			[2025-09-16T21:11:52.026300Z ThreadId(1)
-			fontc::workload DEBUG] 239/3105 complete, most
-			recently Fe(Glyph(threeeighths))
-			[2025-09-16T21:11:52.026303Z ThreadId(1)
-			fontc::workload DEBUG] 240/3105 complete, most
-			recently Fe(Glyph(OE)) [2025-09-16T21:11:52.026306Z
-			ThreadId(1) fontc::workload DEBUG] 241/3105
-			complete, most recently Fe(Glyph(Ebreve))
-			[2025-09-16T21:11:52.026309Z ThreadId(1)
-			fontc::workload DEBUG] 242/3105 complete, most
-			recently Fe(Glyph(quotedblbase))
-			[2025-09-16T21:11:52.026312Z ThreadId(1)
-			fontc::workload DEBUG] 243/3105 complete, most
-			recently Fe(Glyph(Z)) [2025-09-16T21:11:52.033027Z
-			ThreadId(1) fontc ERROR] Invalid source glyph
-			'Ihookabove': 'bad anchor: 'Invalid anchor 'top':
-			'no value at default location'''
+			plete, most recently Fe(Glyph(threeeighths))
+			[2025-09-17T10:21:32.689208Z ThreadId(1)
+			fontc::workload DEBUG] 126/3105 complete, most
+			recently Fe(Glyph(Igrave))
+			[2025-09-17T10:21:32.689211Z ThreadId(1)
+			fontc::workload DEBUG] 127/3105 complete, most
+			recently Fe(Glyph(ohornacute))
+			[2025-09-17T10:21:32.689213Z ThreadId(1)
+			fontc::workload DEBUG] 128/3105 complete, most
+			recently Fe(Glyph(idieresis))
+			[2025-09-17T10:21:32.689216Z ThreadId(1)
+			fontc::workload DEBUG] 129/3105 complete, most
+			recently Fe(Glyph(circumflex))
+			[2025-09-17T10:21:32.689218Z ThreadId(1)
+			fontc::workload ERROR] task 'Fe(Glyph(yhookabove))'
+			failed: 'Invalid source glyph 'yhookabove': 'bad
+			anchor: 'Invalid anchor 'top': 'no value at default
+			location'''' [2025-09-17T10:21:32.689221Z
+			ThreadId(1) fontc::workload DEBUG] 130/3105
+			complete, most recently Fe(Glyph(yhookabove))
+			[2025-09-17T10:21:32.708157Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'ihookabove': 'bad
+			anchor: 'Invalid anchor 'top': 'no value at default
+			location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -34629,31 +34627,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ath elements:
-			{"MCCCLLLCLCCLCCLLLCCLCCLCCLLLCLLLCCCCLCZ",
-			"MCCCLLLCLCCCCLLLCCLCCCCLLLCLLLCCCCLCZ"}
-			[2025-09-16T21:11:37.417737Z ThreadId(8)
-			fontbe::glyphs WARN] tildecomb has inconsistent
-			path elements: {"MLCCCCLLLCCCCLLZ",
-			"MCLLLCCCCLLLCCCZ"} [2025-09-16T21:11:37.418604Z
-			ThreadId(8) fontbe::glyphs WARN] paragraph has
-			inconsistent path elements:
-			{"MLLLLLLLCCLLZMCCLLLZ", "MLLLLLLLCCLZMCCLZ"}
-			[2025-09-16T21:11:37.419129Z ThreadId(8)
-			fontbe::glyphs WARN] three has inconsistent path
-			elements: {"MCLCLLLLLLLLLLLCLCCLLLCZ",
-			"MCLCLLLLLLLLLLLCCCLLLCZ"}
-			[2025-09-16T21:11:37.419572Z ThreadId(8)
-			fontbe::glyphs WARN] registered.case has
-			inconsistent path elements:
-			{"MLCLCLCLCZMCLCLCLCLZMLLLCLLLCLCLCLLZMLLCCLZ",
-			"MLCLCLCLCZMCLCLCLCLZMLLLCLLLCLCCLLZMLLCCLZ"}
-			[2025-09-16T21:11:37.421024Z ThreadId(7)
-			fontbe::glyphs WARN] W has inconsistent path
-			elements: {"MLLLLLLLLLLLLLLLLLLLLLLZ",
-			"MLLLLLLLLLLLLLLLLZ"} [2025-09-16T21:11:37.423421Z
-			ThreadId(1) fontc ERROR] 'uhorn' has
-			interpolation-incompatible paths
+			ragment(minute)) [2025-09-17T10:21:09.051510Z
+			ThreadId(1) fontc::workload DEBUG] 1888/3113
+			complete, most recently
+			Be(GlyfFragment(logicalnot))
+			[2025-09-17T10:21:09.051511Z ThreadId(1)
+			fontc::workload DEBUG] 1889/3113 complete, most
+			recently Be(GlyfFragment(periodcentered))
+			[2025-09-17T10:21:09.051512Z ThreadId(1)
+			fontc::workload DEBUG] 1890/3113 complete, most
+			recently Be(GlyfFragment(parenleftinferior))
+			[2025-09-17T10:21:09.051513Z ThreadId(1)
+			fontc::workload DEBUG] 1891/3113 complete, most
+			recently Be(GlyfFragment(yen.case))
+			[2025-09-17T10:21:09.051514Z ThreadId(1)
+			fontc::workload DEBUG] 1892/3113 complete, most
+			recently Be(GlyfFragment(semicolon))
+			[2025-09-17T10:21:09.051515Z ThreadId(1)
+			fontc::workload DEBUG] 1893/3113 complete, most
+			recently Be(GlyfFragment(dong.case))
+			[2025-09-17T10:21:09.051517Z ThreadId(1)
+			fontc::workload DEBUG] 1894/3113 complete, most
+			recently Be(GlyfFragment(q))
+			[2025-09-17T10:21:09.058320Z ThreadId(1) fontc
+			ERROR] 'oe' has interpolation-incompatible paths
 			</div>
 		</div>
 		<div class="h5">
@@ -34737,31 +34734,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			recently Fe(Glyph(nine))
-			[2025-09-16T21:13:33.745127Z ThreadId(1)
-			fontc::workload DEBUG] 638/2563 complete, most
-			recently Fe(Glyph(backslash))
-			[2025-09-16T21:13:33.745130Z ThreadId(1)
+			Fe(Glyph(emacron)) [2025-09-17T10:23:51.884209Z
+			ThreadId(1) fontc::workload DEBUG] 638/2563
+			complete, most recently Fe(Glyph(tbar))
+			[2025-09-17T10:23:51.884212Z ThreadId(1)
 			fontc::workload DEBUG] 639/2563 complete, most
-			recently Fe(Glyph(cedi))
-			[2025-09-16T21:13:33.745132Z ThreadId(1)
+			recently Fe(Glyph(Ydieresis))
+			[2025-09-17T10:23:51.884214Z ThreadId(1)
 			fontc::workload DEBUG] 640/2563 complete, most
-			recently Fe(Glyph(Ohornhookabove))
-			[2025-09-16T21:13:33.745135Z ThreadId(1)
+			recently Fe(Glyph(adotbelow))
+			[2025-09-17T10:23:51.884217Z ThreadId(1)
 			fontc::workload DEBUG] 641/2563 complete, most
-			recently Fe(Glyph(florin))
-			[2025-09-16T21:13:33.745137Z ThreadId(1)
+			recently Fe(Glyph(tildecomb_macroncomb))
+			[2025-09-17T10:23:51.884219Z ThreadId(1)
 			fontc::workload DEBUG] 642/2563 complete, most
-			recently Fe(Glyph(M)) [2025-09-16T21:13:33.745140Z
-			ThreadId(1) fontc::workload DEBUG] 643/2563
-			complete, most recently Fe(Glyph(omacron))
-			[2025-09-16T21:13:33.745148Z ThreadId(1)
+			recently Fe(Glyph(one))
+			[2025-09-17T10:23:51.884222Z ThreadId(1)
+			fontc::workload DEBUG] 643/2563 complete, most
+			recently Fe(Glyph(ucircumflex))
+			[2025-09-17T10:23:51.884225Z ThreadId(1)
 			fontc::workload DEBUG] 644/2563 complete, most
-			recently Fe(Glyph(wdieresis))
-			[2025-09-16T21:13:33.748197Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'Oslashacute': 'bad
-			anchor: 'Invalid anchor 'ogonek': 'no value at
-			default location'''
+			recently Fe(Glyph(four))
+			[2025-09-17T10:23:51.888645Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'Oslash': 'bad anchor:
+			'Invalid anchor 'center': 'no value at default
+			location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -34846,29 +34843,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			t.end)) [2025-09-16T21:15:08.089879Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(swoop19))' failed: ''swoop19' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:15:08.089881Z ThreadId(1)
-			fontc::workload DEBUG] 1069/3227 complete, most
-			recently Be(GlyfFragment(swoop19))
-			[2025-09-16T21:15:08.089884Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(r.end))' failed: ''r.end' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:15:08.089886Z ThreadId(1)
-			fontc::workload DEBUG] 1070/3227 complete, most
-			recently Be(GlyfFragment(r.end))
-			[2025-09-16T21:15:08.089888Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(florin))' failed: ''florin' has
-			interpolation-incompatible paths'
-			[2025-09-16T21:15:08.089891Z ThreadId(1)
-			fontc::workload DEBUG] 1071/3227 complete, most
-			recently Be(GlyfFragment(florin))
-			[2025-09-16T21:15:08.095916Z ThreadId(1) fontc
-			ERROR] Invalid source glyph 'gravecomb.case': 'bad
+			7) fontbe::glyphs WARN] E has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCZMCCCCCCZ",
+			"MCCCCCCCCCCCLCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCZMCCCCCCZ"}
+			[2025-09-17T10:25:41.976909Z ThreadId(4)
+			fontbe::glyphs WARN] N has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCCCLCCCLCCCCCCCCCCCCCCCCCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCCCCCCLCCCCCLCCCCCCCCCCCCCCCCCCCCCCZ"}
+			[2025-09-17T10:25:41.976929Z ThreadId(4)
+			fontbe::glyphs WARN] oe has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCLCCCCCCCCCCCCCCCCCCZMCCCCCZMCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCCCCCCLCCCCCCCCCCCCCCCCCCCCZMCCCCCZMCCCCCZ"}
+			[2025-09-17T10:25:41.976346Z ThreadId(8)
+			fontbe::glyphs WARN] b.swash has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCZMCCCCCZMCCCCCZ",
+			"MCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCZMCCCCCZMCCCCCZ"}
+			[2025-09-17T10:25:41.984889Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'gravecomb': 'bad
 			anchor: 'Invalid anchor '_topviet': 'no value at
 			default location'''
 			</div>
@@ -34954,29 +34949,29 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			thousand [2025-09-16T21:16:52.116707Z ThreadId(5)
+			thousand [2025-09-17T10:28:41.497939Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour
-			rightlongArrow [2025-09-16T21:16:52.116714Z
-			ThreadId(5) fontir::glyph DEBUG] ConvertToContour
-			leftRightLongArrow [2025-09-16T21:16:52.116722Z
-			ThreadId(5) fontir::glyph DEBUG] ConvertToContour
-			numero [2025-09-16T21:16:52.116733Z ThreadId(5)
+			rightlongArrow [2025-09-17T10:28:41.497946Z
+			ThreadId(6) fontir::glyph DEBUG] ConvertToContour
+			leftRightLongArrow [2025-09-17T10:28:41.497955Z
+			ThreadId(6) fontir::glyph DEBUG] ConvertToContour
+			numero [2025-09-17T10:28:41.497968Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour dblgravecomb
-			[2025-09-16T21:16:52.116741Z ThreadId(5)
+			[2025-09-17T10:28:41.497978Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour
 			circumflexcomb_tildecomb
-			[2025-09-16T21:16:52.116749Z ThreadId(5)
+			[2025-09-17T10:28:41.497989Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour
 			brevecomb_tildecomb.case
-			[2025-09-16T21:16:52.116759Z ThreadId(5)
+			[2025-09-17T10:28:41.498001Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour
 			circumflexcomb_tildecomb.case
-			[2025-09-16T21:16:52.116766Z ThreadId(5)
+			[2025-09-17T10:28:41.498009Z ThreadId(6)
 			fontir::glyph DEBUG] ConvertToContour
-			naira.BRACKET.varAlt01 [2025-09-16T21:16:52.116772Z
-			ThreadId(5) fontir::glyph DEBUG] ConvertToContour
-			won.BRACKET.varAlt01 [2025-09-16T21:16:52.181963Z
-			ThreadId(1) fontc ERROR] 'ddwah-ko' has
+			naira.BRACKET.varAlt01 [2025-09-17T10:28:41.498016Z
+			ThreadId(6) fontir::glyph DEBUG] ConvertToContour
+			won.BRACKET.varAlt01 [2025-09-17T10:28:41.662719Z
+			ThreadId(1) fontc ERROR] 'ddyil-ko' has
 			interpolation-incompatible paths
 			</div>
 		</div>
@@ -34994,13 +34989,13 @@
 			EraseOpenCornersFilter on Hahmlet-Black
 			INFO:ufo2ft.filters:Running interpolatable
 			DecomposeComponentsIFilter
-			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddyib-ko'
-			have different number of segments
 			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddwal-ko'
 			have different number of segments
-			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddwah-ko'
+			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddyib-ko'
 			have different number of segments
 			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddyil-ko'
+			have different number of segments
+			ERROR:fontTools.cu2qu.ufo:Glyphs named 'ddwah-ko'
 			have different number of segments fontmake: Error:
 			In
 			'../../../../../../../../Users/rofls/.fontc_crater_cache/hyper-type/hahmlet/sources/Hahmlet.glyphs'
@@ -35158,28 +35153,28 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2025-09-16T21:23:20.721409Z ThreadId(2)
+			[2025-09-17T10:31:35.811358Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour question
-			[2025-09-16T21:23:20.721413Z ThreadId(2)
+			[2025-09-17T10:31:35.811370Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour note-musical
-			[2025-09-16T21:23:20.721418Z ThreadId(2)
+			[2025-09-17T10:31:35.811386Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour
-			notedbl-musical [2025-09-16T21:23:20.721423Z
-			ThreadId(2) fontir::glyph DEBUG] ConvertToContour
+			notedbl-musical [2025-09-17T10:31:35.811399Z
+			ThreadId(5) fontir::glyph DEBUG] ConvertToContour
 			beamedsixteenthnotes-musical
-			[2025-09-16T21:23:20.721430Z ThreadId(2)
+			[2025-09-17T10:31:35.811414Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour numero
-			[2025-09-16T21:23:20.721435Z ThreadId(2)
+			[2025-09-17T10:31:35.811431Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour cedi
-			[2025-09-16T21:23:20.721440Z ThreadId(2)
+			[2025-09-17T10:31:35.811443Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour colonsign
-			[2025-09-16T21:23:20.721445Z ThreadId(2)
+			[2025-09-17T10:31:35.811453Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour dollar
-			[2025-09-16T21:23:20.721449Z ThreadId(2)
+			[2025-09-17T10:31:35.811468Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour guarani
-			[2025-09-16T21:23:20.721454Z ThreadId(2)
+			[2025-09-17T10:31:35.811479Z ThreadId(5)
 			fontir::glyph DEBUG] ConvertToContour ruble
-			[2025-09-16T21:23:20.741938Z ThreadId(1) fontc
+			[2025-09-17T10:31:35.819430Z ThreadId(1) fontc
 			ERROR] 'f.sups' has interpolation-incompatible
 			paths
 			</div>
@@ -35273,30 +35268,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			readId(1) fontc::workload DEBUG] 783/3452 complete,
-			most recently Fe(Glyph(eight))
-			[2025-09-16T21:28:12.818349Z ThreadId(1)
-			fontc::workload DEBUG] 784/3452 complete, most
-			recently Fe(Glyph(alefqamats-hb))
-			[2025-09-16T21:28:12.818352Z ThreadId(1)
-			fontc::workload DEBUG] 785/3452 complete, most
-			recently Fe(Glyph(Udieresisgrave))
-			[2025-09-16T21:28:12.818354Z ThreadId(1)
-			fontc::workload DEBUG] 786/3452 complete, most
-			recently Fe(Glyph(vavvav-hb))
-			[2025-09-16T21:28:12.818357Z ThreadId(1)
-			fontc::workload DEBUG] 787/3452 complete, most
-			recently Fe(Glyph(gcommaaccent))
-			[2025-09-16T21:28:12.818360Z ThreadId(1)
-			fontc::workload DEBUG] 788/3452 complete, most
-			recently Fe(Glyph(daggerdbl.alt))
-			[2025-09-16T21:28:12.819036Z ThreadId(2)
-			fontbe::glyphs WARN] vav-hb has inconsistent path
-			elements: {"MCCCCCCCCCCCCCCCCZ",
-			"MCCCCCCCCCCCCCCCZ"} [2025-09-16T21:28:12.825715Z
-			ThreadId(1) fontc ERROR] Invalid source glyph
-			'yodyodpatah-hb': 'bad anchor: 'Invalid anchor
-			'_bottom': 'no value at default location'''
+			CCCCCCCCCCCCCCCCCCCCCCCCLCCCCZ",
+			"MLCCCCCCCCCCCCCCCCCCCCCCCCLCCCZ",
+			"MLCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCLCCCCZ"}
+			[2025-09-17T10:25:14.437764Z ThreadId(2)
+			fontbe::glyphs WARN] nun-hb has inconsistent path
+			elements: {"MLCCCCCCCCCCCCCCCCCLCCCCZ",
+			"MLCCCCCCCCCCCCCCCLCCCZ"}
+			[2025-09-17T10:25:14.437867Z ThreadId(5)
+			fontbe::glyphs WARN] resh-hb has inconsistent path
+			elements: {"MCCCCCLCCCCCCLCCCZ",
+			"MCCCCCLCCCCCLCCCZ"} [2025-09-17T10:25:14.437873Z
+			ThreadId(5) fontbe::glyphs WARN] bracketleft has
+			inconsistent path elements:
+			{"MLCCCCLCCCCLCCCCLCCCCCZ",
+			"MLCCCCLCCCCLCCCCLCCCCZ"}
+			[2025-09-17T10:25:14.437893Z ThreadId(2)
+			fontbe::glyphs WARN] euro has inconsistent path
+			elements:
+			{"MCCCCCCCCCCCLCCCCCCLCCCCCCCCCCCCCCCCCCCLCLCLCCLCZ",
+			"MCCCCCCCCCCCLCCCCCCCLCCCCCCCCCCCCCCCCCLCCLCLCLCCLCZ",
+			"MCCCCCCCCCCCLCCCCCCLCCCCCCCCCCCCCLCLCCLCLLCLCCLCZ"}
+			[2025-09-17T10:25:14.446566Z ThreadId(1) fontc
+			ERROR] Invalid source glyph 'yodyodpatah-hb': 'bad
+			anchor: 'Invalid anchor '_bottom': 'no value at
+			default location'''
 			</div>
 		</div>
 		<div class="h5">
@@ -35396,29 +35392,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			:30:35.530125Z ThreadId(7) fontir::glyph DEBUG]
-			ConvertToContour Dcaron
-			[2025-09-16T21:30:35.530144Z ThreadId(7)
-			fontir::glyph DEBUG] ConvertToContour I thread
-			'&lt;unnamed&gt;' panicked at
-			fontir/src/glyph.rs:141:9: 'I' has 2 unique sets of
-			components; must have exactly 1 {[], [i]} note: run
-			with `RUST_BACKTRACE=1` environment variable to
-			display a backtrace [2025-09-16T21:30:35.530654Z
-			ThreadId(2) fontbe::glyphs WARN] i has inconsistent
-			path elements: {"MLLLLZMLLLLZ", "MLLLLLLLLLLLLZ"}
-			[2025-09-16T21:30:35.531181Z ThreadId(2)
-			fontbe::glyphs WARN] acutecomb has inconsistent
-			path elements: {"MLLLLZ", "MLLLLLZ"}
-			[2025-09-16T21:30:35.531505Z ThreadId(2)
-			fontbe::glyphs WARN] dieresiscomb has inconsistent
-			path elements: {"MLLLLZMLLLLZ", "MCCCCZMCCCCZ"}
-			[2025-09-16T21:30:35.531871Z ThreadId(4)
-			fontbe::glyphs WARN] hookabovecomb has inconsistent
-			path elements: {"MLCCCLLLCCCZ", "MLCCLCCLLZ"}
-			[2025-09-16T21:30:35.537263Z ThreadId(1) fontc
-			ERROR] 'dotaccentcomb' has
-			interpolation-incompatible paths
+			aths' [2025-09-17T10:28:32.664029Z ThreadId(1)
+			fontc::workload DEBUG] 1224/2355 complete, most
+			recently Be(GlyfFragment(period))
+			[2025-09-17T10:28:32.664031Z ThreadId(1)
+			fontc::workload DEBUG] 1225/2355 complete, most
+			recently Be(GlyfFragment(at.002))
+			[2025-09-17T10:28:32.664032Z ThreadId(1)
+			fontc::workload DEBUG] 1226/2355 complete, most
+			recently Be(GlyfFragment(c))
+			[2025-09-17T10:28:32.664033Z ThreadId(1)
+			fontc::workload ERROR] task 'Fe(GlyphOrder)'
+			failed: 'A task panicked: ''I' has 2 unique sets of
+			components; must have exactly 1 {[], [i]}''
+			[2025-09-17T10:28:32.664035Z ThreadId(1)
+			fontc::workload DEBUG] 1227/2355 complete, most
+			recently Fe(GlyphOrder)
+			[2025-09-17T10:28:32.664036Z ThreadId(1)
+			fontc::workload DEBUG] 1228/2355 complete, most
+			recently Be(GlyfFragment(w))
+			[2025-09-17T10:28:32.664037Z ThreadId(1)
+			fontc::workload DEBUG] 1229/2355 complete, most
+			recently Be(GlyfFragment(w.big))
+			[2025-09-17T10:28:32.672016Z ThreadId(1) fontc
+			ERROR] 'i' has interpolation-incompatible paths
 			</div>
 		</div>
 		<div class="h5">
@@ -35555,28 +35552,29 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			GlyfFragment(g)) [2025-09-16T21:19:39.662245Z
-			ThreadId(1) fontc::workload DEBUG] 2701/4507
-			complete, most recently Be(GlyfFragment(zhe-cy))
-			[2025-09-16T21:19:39.662246Z ThreadId(1)
-			fontc::workload DEBUG] 2702/4507 complete, most
-			recently Be(GlyfFragment(uMark-kayahli))
-			[2025-09-16T21:19:39.662247Z ThreadId(1)
-			fontc::workload DEBUG] 2703/4507 complete, most
-			recently Be(GlyfFragment(partialdiff))
-			[2025-09-16T21:19:39.662248Z ThreadId(1)
-			fontc::workload DEBUG] 2704/4507 complete, most
-			recently Be(GlyfFragment(E-cy))
-			[2025-09-16T21:19:39.662250Z ThreadId(1)
-			fontc::workload DEBUG] 2705/4507 complete, most
-			recently Be(GlyfFragment(foursuperior))
-			[2025-09-16T21:19:39.662251Z ThreadId(1)
-			fontc::workload DEBUG] 2706/4507 complete, most
-			recently Be(GlyfFragment(ypogegrammeni))
-			[2025-09-16T21:19:39.662252Z ThreadId(1)
-			fontc::workload DEBUG] 2707/4507 complete, most
-			recently Be(GlyfFragment(w))
-			[2025-09-16T21:19:39.669634Z ThreadId(1) fontc
+			vertToContour notequal [2025-09-17T10:19:00.452491Z
+			ThreadId(8) fontir::glyph DEBUG] ConvertToContour
+			plusminus [2025-09-17T10:19:00.452496Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour percent
+			[2025-09-17T10:19:00.452503Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour perthousand
+			[2025-09-17T10:19:00.452508Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour
+			commaaccentcomb [2025-09-17T10:19:00.452512Z
+			ThreadId(8) fontir::glyph DEBUG] ConvertToContour
+			circumflexcomb_acutecomb
+			[2025-09-17T10:19:00.452520Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour
+			circumflexcomb_gravecomb
+			[2025-09-17T10:19:00.452527Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour
+			circumflexcomb_acutecomb.case
+			[2025-09-17T10:19:00.452531Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour
+			circumflexcomb_gravecomb.case
+			[2025-09-17T10:19:00.452534Z ThreadId(8)
+			fontir::glyph DEBUG] ConvertToContour f_f_i
+			[2025-09-17T10:19:00.457102Z ThreadId(1) fontc
 			ERROR] 'sa-kayahli' has interpolation-incompatible
 			paths
 			</div>
@@ -35670,23 +35668,23 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			ignspace" [2025-09-16T21:18:41.232496Z ThreadId(3)
-			ufo2fontir::source DEBUG] Paint graph not
-			implemented for UFO [2025-09-16T21:18:41.232501Z
-			ThreadId(3) ufo2fontir::source DEBUG] Color
-			palettes not implemented for UFO
-			[2025-09-16T21:18:41.232910Z ThreadId(1)
+			mitation. [2025-09-17T10:16:11.145952Z ThreadId(5)
+			ufo2fontir::source DEBUG] Color palettes not
+			implemented for UFO [2025-09-17T10:16:11.145957Z
+			ThreadId(5) ufo2fontir::source DEBUG] Paint graph
+			not implemented for UFO
+			[2025-09-17T10:16:11.146126Z ThreadId(1)
 			fontc::workload DEBUG] 1/5961 complete, most
-			recently Fe(Features) [2025-09-16T21:18:41.232913Z
+			recently Fe(Features) [2025-09-17T10:16:11.146154Z
 			ThreadId(1) fontc::workload DEBUG] 2/5961 complete,
-			most recently Fe(PaintGraph)
-			[2025-09-16T21:18:41.232915Z ThreadId(1)
+			most recently Fe(ColorPalettes)
+			[2025-09-17T10:16:11.146173Z ThreadId(1)
 			fontc::workload DEBUG] 3/5961 complete, most
-			recently Fe(ColorPalettes)
-			[2025-09-16T21:18:41.236548Z ThreadId(2)
+			recently Fe(PaintGraph)
+			[2025-09-17T10:16:11.147677Z ThreadId(4)
 			fontir::ir::static_metadata DEBUG] Reuse existing
 			subfamily name 'Italic' for default instance at
-			User {wght: 400.00} [2025-09-16T21:18:41.247616Z
+			User {wght: 400.00} [2025-09-17T10:16:11.151722Z
 			ThreadId(1) fontc ERROR] feature files are
 			non-identical:
 			/Users/rofls/.fontc_crater_cache/productiontype/Spectral/sources/spectral-xlight-italic.ufo/features.fea,
@@ -35781,23 +35779,24 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			on-identical feature files. This is an unnecessary
-			limitation. [2025-09-16T21:18:06.773380Z
-			ThreadId(2) ufo2fontir::source DEBUG] Static
-			metadata for
-			"/Users/rofls/.fontc_crater_cache/productiontype/Spectral/sources/Spectral.designspace"
-			[2025-09-16T21:18:06.773765Z ThreadId(1)
-			fontc::workload DEBUG] 1/5961 complete, most
-			recently Fe(Features) [2025-09-16T21:18:06.773909Z
-			ThreadId(3) ufo2fontir::source DEBUG] Paint graph
+			readId(9) ufo2fontir::source DEBUG] Color palettes
 			not implemented for UFO
-			[2025-09-16T21:18:06.773909Z ThreadId(4)
-			ufo2fontir::source DEBUG] Color palettes not
-			implemented for UFO [2025-09-16T21:18:06.778635Z
-			ThreadId(2) fontir::ir::static_metadata DEBUG]
+			[2025-09-17T10:15:47.462807Z ThreadId(3)
+			ufo2fontir::source WARN] Bailing out due to
+			non-identical feature files. This is an unnecessary
+			limitation. [2025-09-17T10:15:47.462925Z
+			ThreadId(1) fontc::workload DEBUG] 1/5961 complete,
+			most recently Fe(PaintGraph)
+			[2025-09-17T10:15:47.462933Z ThreadId(1)
+			fontc::workload DEBUG] 2/5961 complete, most
+			recently Fe(ColorPalettes)
+			[2025-09-17T10:15:47.462936Z ThreadId(1)
+			fontc::workload DEBUG] 3/5961 complete, most
+			recently Fe(Features) [2025-09-17T10:15:47.465098Z
+			ThreadId(6) fontir::ir::static_metadata DEBUG]
 			Reuse existing subfamily name 'Regular' for default
 			instance at User {wght: 400.00}
-			[2025-09-16T21:18:06.790043Z ThreadId(1) fontc
+			[2025-09-17T10:15:47.470508Z ThreadId(1) fontc
 			ERROR] feature files are non-identical:
 			/Users/rofls/.fontc_crater_cache/productiontype/Spectral/sources/spectral-xlight.ufo/features.fea,
 			/Users/rofls/.fontc_crater_cache/productiontype/Spectral/sources/spectral-regular.ufo/features.fea
@@ -36128,10 +36127,10 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			lete, most recently Be(GlyfFragment(uniA654))
-			[2025-09-16T21:31:15.114821Z ThreadId(1) fontc
+			lete, most recently Be(GlyfFragment(uni2C46))
+			[2025-09-17T10:28:59.776638Z ThreadId(1) fontc
 			ERROR] FEA compilation failed with 3 errors
-			[2025-09-16T21:31:15.114847Z ThreadId(1) fontc
+			[2025-09-17T10:28:59.776659Z ThreadId(1) fontc
 			WARN] error: Ligature substitution shadows existing
 			rule in
 			/Users/rofls/.fontc_crater_cache/slavonic/shafarik/sources/Shafarik-Regular.ufo/features.fea
@@ -36450,29 +36449,31 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			iveeighths [2025-09-16T21:32:31.150148Z ThreadId(2)
-			fontir::glyph DEBUG] ConvertToContour seveneighths
-			[2025-09-16T21:32:31.150154Z ThreadId(2)
+			tToContour exclam_equal_equal.liga
+			[2025-09-17T10:29:53.354487Z ThreadId(2)
 			fontir::glyph DEBUG] ConvertToContour
-			hyphen_hyphen_greater.liga
-			[2025-09-16T21:32:31.150160Z ThreadId(2)
-			fontir::glyph DEBUG] ConvertToContour
-			hyphen_bar.liga [2025-09-16T21:32:31.150165Z
+			slash_equal.liga [2025-09-17T10:29:53.354506Z
 			ThreadId(2) fontir::glyph DEBUG] ConvertToContour
-			exclam_equal.liga [2025-09-16T21:32:31.150169Z
-			ThreadId(2) fontir::glyph DEBUG] ConvertToContour
-			exclam_equal_equal.liga
-			[2025-09-16T21:32:31.150174Z ThreadId(2)
-			fontir::glyph DEBUG] ConvertToContour
-			slash_equal.liga [2025-09-16T21:32:31.150180Z
-			ThreadId(2) fontir::glyph DEBUG] ConvertToContour
-			backslash thread '&lt;unnamed&gt;' panicked at
+			backslash [2025-09-17T10:29:53.354524Z ThreadId(5)
+			fontbe::glyphs WARN] m has inconsistent path
+			elements: {"MLLCCLLLCCLLLCCLCCLLLLZ",
+			"MLLCCLLLCCLLLLZMLCCLLLCCZ"} thread
+			'&lt;unnamed&gt;' panicked at
 			fontir/src/glyph.rs:141:9: 'backslash' has 2 unique
 			sets of components; must have exactly 1 {[],
 			[slash]} note: run with `RUST_BACKTRACE=1`
 			environment variable to display a backtrace
-			[2025-09-16T21:32:31.155313Z ThreadId(1) fontc
-			ERROR] 'q' has interpolation-incompatible paths
+			[2025-09-17T10:29:53.354759Z ThreadId(8)
+			fontbe::glyphs WARN] IJ has inconsistent path
+			elements: {"MCCLLLCCLLLZMLLLLZ",
+			"MCLLLCCLLCZMLLLLZ"} [2025-09-17T10:29:53.354781Z
+			ThreadId(7) fontbe::glyphs WARN] eight has
+			inconsistent path elements:
+			{"MCCCCLCCCCLZMCCCCZMCCCCZ",
+			"MCCCCCCCCZMCCCCZMCCCCZ"}
+			[2025-09-17T10:29:53.362758Z ThreadId(1) fontc
+			ERROR] 'less_bar_greater.liga' has
+			interpolation-incompatible paths
 			</div>
 		</div>
 		<div class="h5">
