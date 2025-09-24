@@ -109,6 +109,61 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekBangla/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekDevanagari/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekGujarati/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekGurmukhi/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekKannada/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekLatin/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekMalayalam/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekOdia/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekTamil/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Anek",
+      "rev": "34074c6b406f4112e20c7ad10254a6e954d0324b",
+      "config": "sources/AnekTelugu/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EkType/Baloo2-Variable",
+      "rev": "da4090c1dd5798a3e72d7138e379ee1f94d6349c",
+      "config": "builder/BalooBhaijaan2.yaml"
+    },
+    {
       "repo_url": "https://github.com/EkType/Honk",
       "rev": "99094d4f6e3e73745fe3f2a6387d56c19d2a04cd",
       "config": "sources/config.yaml"
@@ -305,6 +360,11 @@
     },
     {
       "repo_url": "https://github.com/MezMerrit/AU-School-Handwriting-Fonts",
+      "rev": "055799b858017157b6138e59833ab5b1a8947bbd",
+      "config": "VIC-WA-NT-School-fonts/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/MezMerrit/AU-School-Handwriting-Fonts",
       "rev": "0dbdee65c92d10e24e5d634719054f4f96b69133",
       "config": "VIC-WA-NT-School-fonts/sources/config.yaml",
       "has_rev_conflict": true
@@ -334,6 +394,155 @@
       "repo_url": "https://github.com/NDISCOVER/Exo-1.0",
       "rev": "3be4f55b626129f17a3b82677703e48c03dc2052",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "0c9d20f75e69991e2f3b075d978d9e23844027b6",
+      "config": "pixels/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "112698043433bee2d652b8fa1943ea2c19854550",
+      "config": "maps/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
+      "config": "gemstones/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
+      "config": "spraypaint/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
+      "config": "vinyl/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "409369746e32796524d9b0b6c9c5aa6445c83bcd",
+      "config": "doodletriangles/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "beastly/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "bubbles/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "glitch/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "microbe/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "moonrocks/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "puddles/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
+      "config": "wetpaint/sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "6555502a8b48b1aa3b8c773d34a871a9fb84a2b8",
+      "config": "lines/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "6a9f34277f6656762de34970de67f70c1c42d9e2",
+      "config": "markerhatch/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "bad54a1074926c9b2b0111db2bed0b65393f4426",
+      "config": "scribble/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "bc320bc8232696b7a88109217eee5ca1194aabbb",
+      "config": "storm/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "c70421b2f209e0aa88a84210d94da557602a5e56",
+      "config": "doodleshadow/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "c89f25696f8c15d3c180b087256591d43d6f46db",
+      "config": "glitchpop/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "df817f272b98fb24d9c3b10323ac08ab74c08227",
+      "config": "brokenfax/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "burned/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "dirt/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "distressed/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "iso/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "maze/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "f68dfcddd341aaabe53aa924d634122bb8bf999d",
+      "config": "80sfade/sources/config.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/OdedEzer/heebo",
@@ -613,6 +822,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/aaronbell/CactusSerif",
+      "rev": "eb5a6eaf6a0f6d3d9ff63b64605c0bdbb9fec82b",
+      "config": "source/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
       "rev": "fe8357007423a983e696d2d3ff545ac9bb1bb89e",
       "config": "sources/project.yaml"
@@ -773,11 +987,6 @@
       "repo_url": "https://github.com/coreyhu/Urbanist",
       "rev": "549716453f76335ccc5a9e537cbe0da03d6fed34",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/cossette/cossette-fonts",
-      "rev": "7a3a7d62f4eac78d1ac722d25def17c67d9bb445",
-      "config": "sources/config-titre.yaml"
     },
     {
       "repo_url": "https://github.com/cyrealtype/Alice",
@@ -1429,6 +1638,11 @@
       "repo_url": "https://github.com/googlefonts/corinthia",
       "rev": "9c81839655dfec773b737abc90cb09ac94b1bea1",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cossette-fonts",
+      "rev": "7a3a7d62f4eac78d1ac722d25def17c67d9bb445",
+      "config": "sources/config-titre.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/cutivemono",
@@ -3669,6 +3883,54 @@
       "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
       "config": "google/fonts/ofl/bigshoulderstextsc/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/Baloo2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/BalooBhai2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/BalooBhaina2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/BalooPaaji2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/BalooTamma2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "da523dfa21aa0e376253d61c21e39146dc55702a",
+      "config": "builder/BalooTammudu2.yaml"
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "ffd6308743a5829fe6980ce86f5629ba0250df98",
+      "config": "builder/BalooChettan2.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "ffd6308743a5829fe6980ce86f5629ba0250df98",
+      "config": "builder/BalooDa2.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/yanone/Baloo2-Variable",
+      "rev": "ffd6308743a5829fe6980ce86f5629ba0250df98",
+      "config": "builder/BalooThambi2.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/yanone/kaffeesatz",
