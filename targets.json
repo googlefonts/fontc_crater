@@ -398,31 +398,31 @@
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "0c9d20f75e69991e2f3b075d978d9e23844027b6",
-      "config": "pixels/sources/config.yaml",
+      "config": "pixels/sources/pixels.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "112698043433bee2d652b8fa1943ea2c19854550",
-      "config": "maps/sources/config.yaml",
+      "config": "glitchpop/sources/config.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
-      "config": "gemstones/sources/config.yaml",
+      "config": "gemstones/sources/gemstones.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
-      "config": "spraypaint/sources/config.yaml",
+      "config": "spraypaint/sources/spraypaint.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925",
-      "config": "vinyl/sources/config.yaml",
+      "rev": "409369746e32796524d9b0b6c9c5aa6445c83bcd",
+      "config": "doodleshadow/sources/config.yaml",
       "has_rev_conflict": true
     },
     {
@@ -433,73 +433,80 @@
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "beastly/sources/config.yaml"
+      "rev": "4d7ed915105cea35a8aba9399480ad020bb74d08",
+      "config": "moonrocks/sources/moonrocks.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "bubbles/sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "glitch/sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "microbe/sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "moonrocks/sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "puddles/sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "50fec619b373f40dfd839408e77c5b3a616e972d",
-      "config": "wetpaint/sources/config.yaml"
+      "rev": "4d7ed915105cea35a8aba9399480ad020bb74d08",
+      "config": "wetpaint/sources/wetpaint.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "6555502a8b48b1aa3b8c773d34a871a9fb84a2b8",
-      "config": "lines/sources/config.yaml",
+      "config": "maps/sources/config.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "6a9f34277f6656762de34970de67f70c1c42d9e2",
-      "config": "markerhatch/sources/config.yaml",
+      "rev": "70c5affdb044fecf4eb4988c320b8bfa8e8005c6",
+      "config": "beastly/sources/beastly.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "bad54a1074926c9b2b0111db2bed0b65393f4426",
-      "config": "scribble/sources/config.yaml",
+      "rev": "70c5affdb044fecf4eb4988c320b8bfa8e8005c6",
+      "config": "bubbles/sources/bubbles.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "70c5affdb044fecf4eb4988c320b8bfa8e8005c6",
+      "config": "glitch/sources/glitch.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "70c5affdb044fecf4eb4988c320b8bfa8e8005c6",
+      "config": "microbe/sources/microbe.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "70c5affdb044fecf4eb4988c320b8bfa8e8005c6",
+      "config": "puddles/sources/puddles.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "8064988f06c4126e1cf1596baab46f9aeb626056",
+      "config": "80sfade/sources/80sfade.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "bc320bc8232696b7a88109217eee5ca1194aabbb",
-      "config": "storm/sources/config.yaml",
+      "config": "storm/sources/storm.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "c70421b2f209e0aa88a84210d94da557602a5e56",
-      "config": "doodleshadow/sources/config.yaml",
+      "config": "lines/sources/config.yaml",
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "c89f25696f8c15d3c180b087256591d43d6f46db",
-      "config": "glitchpop/sources/config.yaml",
+      "rev": "c70421b2f209e0aa88a84210d94da557602a5e56",
+      "config": "scribble/sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
+      "rev": "ce04d776b395e0f8dc68984778a1a467680f4c7e",
+      "config": "vinyl/sources/vinyl.yaml",
       "has_rev_conflict": true
     },
     {
@@ -511,38 +518,32 @@
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "f61d39563df1f583122af0866fc827666c2b385b",
-      "config": "burned/sources/config.yaml",
-      "has_rev_conflict": true
+      "config": "burned/sources/burned.yaml"
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "f61d39563df1f583122af0866fc827666c2b385b",
-      "config": "dirt/sources/config.yaml",
-      "has_rev_conflict": true
+      "config": "dirt/sources/dirt.yaml"
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "f61d39563df1f583122af0866fc827666c2b385b",
-      "config": "distressed/sources/config.yaml",
-      "has_rev_conflict": true
+      "config": "distressed/sources/distressed.yaml"
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "f61d39563df1f583122af0866fc827666c2b385b",
-      "config": "iso/sources/config.yaml",
-      "has_rev_conflict": true
+      "config": "iso/sources/iso.yaml"
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
       "rev": "f61d39563df1f583122af0866fc827666c2b385b",
-      "config": "maze/sources/config.yaml",
-      "has_rev_conflict": true
+      "config": "markerhatch/sources/markerhatch.yaml"
     },
     {
       "repo_url": "https://github.com/NaN-xyz/Rubik-Filtered",
-      "rev": "f68dfcddd341aaabe53aa924d634122bb8bf999d",
-      "config": "80sfade/sources/config.yaml",
-      "has_rev_conflict": true
+      "rev": "f61d39563df1f583122af0866fc827666c2b385b",
+      "config": "maze/sources/maze.yaml"
     },
     {
       "repo_url": "https://github.com/OdedEzer/heebo",
@@ -1641,7 +1642,7 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/cossette-fonts",
-      "rev": "7a3a7d62f4eac78d1ac722d25def17c67d9bb445",
+      "rev": "ee99cea3c23039e31865c3c37bd7d716278e546b",
       "config": "sources/config-titre.yaml"
     },
     {
@@ -2071,7 +2072,7 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/rubik",
-      "rev": "e337a5f69a9bea30e58d05bd40184d79cc099628",
+      "rev": "9167c98fa8699d75ee51769eba20d81beb16bcb5",
       "config": "sources/config.yaml"
     },
     {
