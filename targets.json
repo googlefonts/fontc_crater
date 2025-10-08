@@ -3965,11 +3965,6 @@
       "rev": "0713088a41bc08edec1149cefa90b963715efcf2",
       "auth": true,
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/zalando/sans",
-      "rev": "2fe06d0700b5b9ccd18a52c240e8927f48e92629",
-      "config": "sources/config.yaml"
     }
   ]
 }
