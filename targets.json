@@ -1230,9 +1230,33 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/etunni/Kite-One",
+      "rev": "be1d4f26c91c29993c47fa4b4857337b0d94e2f2",
+      "config": "google/fonts/ofl/kiteone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/etunni/Pathway-Variable-Font",
       "rev": "4fa691f3898690d1f485839743ace01c5e6410da",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/etunni/Strait",
+      "rev": "527c8d122601563758492117058d6727aa58cd32",
+      "config": "google/fonts/ofl/strait/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/average",
+      "rev": "6583341221fb0625ba1b9c3ee2a7490d57df951f",
+      "config": "google/fonts/ofl/average/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/belleza",
+      "rev": "af3974fe84e2cfd236455a14d2c708264b692167",
+      "config": "google/fonts/ofl/belleza/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/etunni/diplomata",
@@ -1245,9 +1269,51 @@
       "config": "sources/diplomatasc.yaml"
     },
     {
+      "repo_url": "https://github.com/etunni/faster",
+      "rev": "c1eb445af08bcc5ce66380f65e56d9d3135cca3c",
+      "config": "google/fonts/ofl/fasterone/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/fauna-one",
+      "rev": "ed89976413a322f9d84aae5d97c17cfe5cf0d95d",
+      "config": "google/fonts/ofl/faunaone/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/gilda-display",
+      "rev": "640bdfd3d2ee3b533d1f88687a9e4541136254e0",
+      "config": "google/fonts/ofl/gildadisplay/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/etunni/graduate",
       "rev": "d6031c4ce60208e8e68f5e4dee771420d22c3815",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/etunni/imprima",
+      "rev": "efec6ee25d2ba461487c391b62ae26817614741a",
+      "config": "google/fonts/ofl/imprima/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/joti",
+      "rev": "7feedf8bad69029e82ae281c7a100fb639d946e1",
+      "config": "google/fonts/ofl/jotione/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/julee",
+      "rev": "9a2efe6783e9ea590cee62c8aec51670a3dec51d",
+      "config": "google/fonts/ofl/julee/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/lemon",
+      "rev": "88027507a29de7878336812a328d25245c106e9b",
+      "config": "google/fonts/ofl/lemon/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/etunni/mate",
@@ -1265,9 +1331,45 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/etunni/offside",
+      "rev": "025804545334bb6270119f43fb8fe7d05b31cd7d",
+      "config": "google/fonts/ofl/offside/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/orienta",
+      "rev": "18d3b4ce823c8a5b374023c559cf6d2b2bd505a2",
+      "config": "google/fonts/ofl/orienta/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/etunni/paprika",
       "rev": "4297101a8717fd9ee5795b693f37f3c80bdd3d68",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/etunni/pathway-gothic",
+      "rev": "cb77ed5f79d4572096191b7c7dfb157b65abf748",
+      "config": "google/fonts/ofl/pathwaygothicone/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/unica",
+      "rev": "e92da87539ff465aab50b7767512080bf71e39f1",
+      "config": "google/fonts/ofl/unicaone/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/unlock",
+      "rev": "cf3defaec0849f2d59a9db60eb810ffa32d07eee",
+      "config": "google/fonts/ofl/unlock/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/warnes",
+      "rev": "ec72daae3a0a1542706f636b9165f70874599cc5",
+      "config": "google/fonts/ofl/warnes/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/evilmartians/mono",
@@ -1452,6 +1554,11 @@
     {
       "repo_url": "https://github.com/googlefonts/Roboto-Flex",
       "rev": "739e06dc46ebb14cddd88b9768a6c1504d4677f6",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/RobotoMono",
+      "rev": "111eb14e367888c9374da4da0b018e72cf8ac46d",
       "config": "sources/config.yaml"
     },
     {
