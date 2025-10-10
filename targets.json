@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "072f204fd0fce2f1cd6551a0c280684ed73b49f9",
+  "fonts_repo_sha": "11ca86e3b176fe1fff5ca8450c7e6f2fbee46fb5",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -378,8 +378,8 @@
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
-      "rev": "0446a76d969f9788b0b339a9923f6541699df903",
-      "config": "sources/project.yaml"
+      "rev": "624ecb8064d34258383bcbb08521f9fa2af00124",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ThenKhung",
@@ -825,13 +825,13 @@
     },
     {
       "repo_url": "https://github.com/aaronbell/CactusSerif",
-      "rev": "eb5a6eaf6a0f6d3d9ff63b64605c0bdbb9fec82b",
+      "rev": "a267f9f32087eb9e6a9203c734cb952a64bc05be",
       "config": "source/config.yaml"
     },
     {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
       "rev": "fe8357007423a983e696d2d3ff545ac9bb1bb89e",
-      "config": "sources/project.yaml"
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/aaronbell/LxgwWenkaiTC",
@@ -1509,8 +1509,9 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/Michroma-font",
-      "rev": "8602c0e9a86c0aa6529cc861926bf727568dcac8",
-      "config": "sources/config.yaml"
+      "rev": "5822b9d1a733db7ae4f1a63a65a8b41b2d5b15cf",
+      "config": "google/fonts/ofl/michroma/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/NoricanFont",
@@ -2961,12 +2962,13 @@
     {
       "repo_url": "https://github.com/notofonts/khojki",
       "rev": "02e25bf94664812076be4fa7dd1d688641e4bf8a",
-      "config": "sources/config-sans-khojki.yaml"
+      "config": "sources/config-serif-khojki.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/khojki",
-      "rev": "02e25bf94664812076be4fa7dd1d688641e4bf8a",
-      "config": "sources/config-serif-khojki.yaml"
+      "rev": "85ad2f40806bff108a62e75ea958e4d77921e86c",
+      "config": "sources/config-sans-khojki.yaml"
     },
     {
       "repo_url": "https://github.com/notofonts/khudawadi",
