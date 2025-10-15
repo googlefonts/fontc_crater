@@ -4072,8 +4072,7 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/googlesans-code",
-      "rev": "0713088a41bc08edec1149cefa90b963715efcf2",
-      "auth": true,
+      "rev": "edcd56e39fb7e98d6f1b697e187c144cef2fd994",
       "config": "sources/config.yaml"
     }
   ]
