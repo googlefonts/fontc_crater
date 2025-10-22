@@ -52,6 +52,12 @@
       "text": "ufo filters can sneak into glyphs userData",
       "link": "https://github.com/googlefonts/glyphsLib/issues/1106"
     }
+  ],
+    "NaN-xyz/Rubik-Filtered_1126980434/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (default)": [
+    {
+      "text": "ordmasculine has +/-1 off-curve point diff, possibly cu2qu?",
+      "link": "https://github.com/googlefonts/fontc/issues/1713"
+    }
   ]
 }
 
