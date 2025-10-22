@@ -58,6 +58,12 @@
       "text": "ordmasculine has +/-1 off-curve point diff, possibly cu2qu?",
       "link": "https://github.com/googlefonts/fontc/issues/1713"
     }
+  ],
+  "notofonts/nandinagari/sources/config-sans-nandinagari.yaml NotoSansNandinagari.glyphs?6fd9a06474 (default)": [
+    {
+      "text": "glyphsLib miscompiles nested smart components",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/1111"
+    }
   ]
 }
 
