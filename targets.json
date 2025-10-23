@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "11ca86e3b176fe1fff5ca8450c7e6f2fbee46fb5",
+  "fonts_repo_sha": "3d5e59d2b7ca6edb5316a928d8f51b9dc2f8cb7d",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -98,6 +98,22 @@
       "repo_url": "https://github.com/DylanYoungKoto/FacultyGlyphic",
       "rev": "0f609bebfae8490a140feebfd3faacf3dfa87d62",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "rev": "4b62a2ddf8c2ff3bb1c31bfe97c8fa3aab26a0cd",
+      "config": "sources/config-headline.yaml"
+    },
+    {
+      "repo_url": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "rev": "4b62a2ddf8c2ff3bb1c31bfe97c8fa3aab26a0cd",
+      "config": "sources/config-text.yaml"
+    },
+    {
+      "repo_url": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "rev": "b9f1dbd88aa25563ed2ea60aa14ec4436e0c8015",
+      "config": "sources/config-notch.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/EbenSorkin/Dekko",
@@ -650,7 +666,7 @@
     },
     {
       "repo_url": "https://github.com/RosaWagner/Borel",
-      "rev": "dd3d42ca23056f23889e31cde0af0081da3d847d",
+      "rev": "68b8266ec6b70c4753b46753c8b103d2ee50b7c8",
       "config": "Borel/sources/config.yaml"
     },
     {
@@ -2380,6 +2396,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/impallari/Libre-Baskerville",
+      "rev": "d20160cfa0ac4c532327f85b3ca4054acf92ed38",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/indestructible-type/Bodoni",
       "rev": "30ce6cdc354ef179a3b72ba0f0e71826e599348c",
       "config": "sources/config.yaml"
@@ -2488,6 +2509,11 @@
     {
       "repo_url": "https://github.com/m4rc1e/mavenproFont",
       "rev": "a694ee80d067e6f8cad700930e78ce395d4949e6",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/mara-aa/elms-sans",
+      "rev": "bc5a52f3499f1a9858e56430da9e955c15366b3e",
       "config": "sources/config.yaml"
     },
     {
@@ -2606,7 +2632,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/arabic",
-      "rev": "136d96955b0581da8718eb4cdb2e700a723aefc6",
+      "rev": "1b2b7e5c6ce3ab4d50681c854892325530084c35",
       "config": "sources/config-naskh-arabic.yaml",
       "has_rev_conflict": true
     },
