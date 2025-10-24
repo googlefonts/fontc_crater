@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "3d5e59d2b7ca6edb5316a928d8f51b9dc2f8cb7d",
+  "fonts_repo_sha": "22b6a779e2f92685697ce4f038ee76a83b72fb75",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -356,6 +356,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/Lacquer-Font/Lacquer",
+      "rev": "efffa0e54fbf2a6cd5e1b3909a9a8082cab61b5a",
+      "config": "google/fonts/ofl/lacquer/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/Lafontype/Gantari",
       "rev": "363a3dd5634bfec7e9f7db11ca3e1f4739a182ab",
       "config": "sources/config.yaml"
@@ -665,6 +671,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/RingoSeeber/Petrona",
+      "rev": "03d4b6dd8af6ecf3a51d3b126bd64e491cb01d18",
+      "config": "google/fonts/ofl/petrona/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/RosaWagner/Borel",
       "rev": "68b8266ec6b70c4753b46753c8b103d2ee50b7c8",
       "config": "Borel/sources/config.yaml"
@@ -778,6 +790,12 @@
       "repo_url": "https://github.com/Tural/Moderustic",
       "rev": "6f0d4e1bbc8725b0e8b936a6ae94103f7104defa",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/TypeNetwork/Alegreya",
+      "rev": "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf",
+      "config": "google/fonts/ofl/alegreya/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
@@ -939,6 +957,18 @@
       "repo_url": "https://github.com/cadsondemak/Anuphan",
       "rev": "a8ee8448324cc13fb69d585c4f6da4994f7652b0",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/Kodchasan",
+      "rev": "d68c1268f993ce0ee23a36ba6f2d1366e0d84453",
+      "config": "google/fonts/ofl/kodchasan/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/Koho",
+      "rev": "066267ad87e1bd2de617bf4129902317ccb6c04c",
+      "config": "google/fonts/ofl/koho/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/calcom/font",
@@ -1192,6 +1222,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/domija/Aboreto",
+      "rev": "6e64ee7e7ff1c53220d96b88a8d4bf2db9f76735",
+      "config": "google/fonts/ofl/aboreto/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/duartp/gloock",
       "rev": "de92978ce821ae0cba86954b4c46abc70486981d",
       "config": "sources/config.yaml"
@@ -1422,6 +1458,12 @@
       "repo_url": "https://github.com/github/mona-sans",
       "rev": "0d07d5a501a2d8d4ea456fab73aad6b9fda2060a",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/go108go/Potta",
+      "rev": "574738ac030a0551d675056dc56166fddbcad53c",
+      "config": "google/fonts/ofl/pottaone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/Advent",
@@ -1853,6 +1895,11 @@
     {
       "repo_url": "https://github.com/googlefonts/gidole",
       "rev": "8568937c577ea42b7c2655d93a5d822222c08321",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/gidugu",
+      "rev": "834c5de1862debc558e536377bc3ebc1c35bf958",
       "config": "sources/config.yaml"
     },
     {
@@ -2381,6 +2428,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/huertatipografica/Alegreya-Sans",
+      "rev": "030b9ac01fd9bcaccac0ebc8010283175f9ced4e",
+      "config": "google/fonts/ofl/alegreyasans/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/huertatipografica/Andada-Pro",
       "rev": "a0b87b947003dee6c615809d3eebc8c1334dc575",
       "config": "sources/build.yaml"
@@ -2608,6 +2661,12 @@
       "repo_url": "https://github.com/noirblancrouge/YoungSerif",
       "rev": "d307c79320df6b8ccc656b5ab83719519ddffc28",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/noponies/Kulim-Park",
+      "rev": "e080ee92d3f56075f641d0c988a480c0590a4426",
+      "config": "google/fonts/ofl/kulimpark/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/adlam",
@@ -3811,6 +3870,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/shibuyafont/3d-rock-font",
+      "rev": "04e20f0b2387a7619f8e9e8b06cb9b5337f6a2fe",
+      "config": "google/fonts/ofl/rock3d/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/simoncozens/Miriam-Libre",
       "rev": "fc1dbbb7ef6f331b10771c22d33b4bf7543efbd8",
       "config": "sources/config.yaml"
@@ -3944,6 +4009,18 @@
       "repo_url": "https://github.com/usted/Albert-Sans",
       "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/vaishnavimurthy/Akaya-Kanadaka",
+      "rev": "24f25461789ee8642e184b43dd6d5d04ea7f49d1",
+      "config": "google/fonts/ofl/akayakanadaka/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/vaishnavimurthy/Akaya-Telivigala",
+      "rev": "93b31e45b69178ecfdb48981a5aa8a8b33bb0340",
+      "config": "google/fonts/ofl/akayatelivigala/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/vercel/geist-font",
