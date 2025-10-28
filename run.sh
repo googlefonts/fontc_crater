@@ -63,7 +63,7 @@ if [ -d venv ]; then
     rm -rf venv
 fi
 
-echo "setting up venv"
+echo "setting up venv for $(python3 --version)"
 python3 -m venv venv
 if [ $? -ne 0 ]; then
     echo could not setup venv, exiting
