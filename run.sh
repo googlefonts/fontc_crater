@@ -19,8 +19,8 @@ GENERATED_HTML="$FONTC_CRATER_RESULTS/index.html"
 LOCKFILE="$FONTC_CRATER_RESULTS/CRATER.lock"
 FONTC_REPO=https://github.com/googlefonts/fontc.git
 FONTC_DIR=./fontc
-FONTC_REQUIREMENTS="$FONTC_DIR/resources/scripts/requirements.txt"
 # relative to FONTC_DIR
+FONTC_REQUIREMENTS="resources/scripts/requirements.txt"
 SCRIPT_PATH=fontc_crater/resources/ci.sh
 GITHUB_TOKEN=$(<"GITHUB_TOKEN")
 
@@ -75,11 +75,11 @@ source venv/bin/activate
 
 echo "fetching fontc"
 if git clone $FONTC_REPO $FONTC_DIR ; then
+    cd $FONTC_DIR
     # install requirements:
     echo "installing requirements"
     pip install -r $FONTC_REQUIREMENTS
 
-    cd $FONTC_DIR
     # run the actual script that starts CI:
     chmod +x $SCRIPT_PATH
     # pass our token through to the crater executable, it will use it to
