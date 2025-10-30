@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "22b6a779e2f92685697ce4f038ee76a83b72fb75",
+  "fonts_repo_sha": "3b1bbfe889daea4292264390f179552a43bbb43b",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -971,6 +971,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/cadsondemak/Krub",
+      "rev": "c568bc61bd5b8af816057893e527aa55d6f08908",
+      "config": "google/fonts/ofl/krub/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/calcom/font",
       "rev": "b833fb1129ba8c62c29b1d9f70861c77204affe2",
       "config": "sources/config.yaml"
@@ -1273,6 +1279,12 @@
       "config": "source/builder.yaml"
     },
     {
+      "repo_url": "https://github.com/erinmclaughlin/Khula",
+      "rev": "1389c0184856d690ea489f86e84c546e4473722d",
+      "config": "google/fonts/ofl/khula/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/etunni/Amita",
       "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
       "config": "sources/config.yaml"
@@ -1360,6 +1372,12 @@
       "repo_url": "https://github.com/etunni/julee",
       "rev": "9a2efe6783e9ea590cee62c8aec51670a3dec51d",
       "config": "google/fonts/ofl/julee/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/kurale",
+      "rev": "ff36a9f75711afc415a9a9f96968861d22d878cf",
+      "config": "google/fonts/ofl/kurale/config.yaml",
       "config_is_external": true
     },
     {
@@ -2540,6 +2558,12 @@
       "config": "sources/Semi-Condensed/sofia-semi-cond.yml"
     },
     {
+      "repo_url": "https://github.com/librefonts/iceberg",
+      "rev": "db1c024077a00f9999b5f6437a70c19ced5c1fc5",
+      "config": "google/fonts/ofl/iceberg/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/localremotetw/TASA-Typeface-Collection",
       "rev": "4c5acaf21a4cd84f9c49c9907d83a25d2350f635",
       "config": "sources/config-TASAExplorer.yaml"
@@ -2646,6 +2670,12 @@
       "repo_url": "https://github.com/namelatype/Marhey",
       "rev": "535eeb5a3f4dee825fdaf13d84075b212d969f8d",
       "config": "source/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/nermink99/Nerko",
+      "rev": "62c2998197eaa09664ca1e0605fa4cfd273ac8bf",
+      "config": "google/fonts/ofl/nerkoone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/nguyentype/vinasans",
@@ -3870,6 +3900,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/sevmeyer/oxanium",
+      "rev": "a8f39e0c71186190027a093e9001459410192d1e",
+      "config": "google/fonts/ofl/oxanium/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/shibuyafont/3d-rock-font",
       "rev": "04e20f0b2387a7619f8e9e8b06cb9b5337f6a2fe",
       "config": "google/fonts/ofl/rock3d/config.yaml",
@@ -3984,6 +4020,18 @@
       "repo_url": "https://github.com/tokotype/PlusJakartaSans",
       "rev": "18d1cd2f7ea10481919d2f05c1f7064b7307fc26",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/typeoff/martel",
+      "rev": "ae74b972c6870d296e1a2693c91006beba8c4801",
+      "config": "google/fonts/ofl/martel/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/typeoff/martel_sans",
+      "rev": "7a536b7ce5f6059665d45bfff7c24bee414c1fd1",
+      "config": "google/fonts/ofl/martelsans/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/typofactur/epundasans",
