@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "3b1bbfe889daea4292264390f179552a43bbb43b",
+  "fonts_repo_sha": "1a4c4b3930ddc479b9a8eff78f8567ca0b3e4ca6",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -219,6 +219,12 @@
       "repo_url": "https://github.com/Etcetera-Type-Co/Grandstander",
       "rev": "0bf9e31d529d7a67b23510b841cb3597db0cb130",
       "config": "Sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/Etcetera-Type-Co/Imbue",
+      "rev": "41b16f3fd61d33cacad0e579c35ef9566817184b",
+      "config": "google/fonts/ofl/imbue/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/Etcetera-Type-Co/Tourney",
@@ -977,6 +983,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/cadsondemak/kanit",
+      "rev": "467dfe842185681d8042cd608b8291199dd37cda",
+      "config": "google/fonts/ofl/kanit/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/calcom/font",
       "rev": "b833fb1129ba8c62c29b1d9f70861c77204affe2",
       "config": "sources/config.yaml"
@@ -1071,6 +1083,12 @@
       "repo_url": "https://github.com/cyrealtype/Brawler",
       "rev": "a8e1fc6a4c43dedc38394c4f4086f526b72e852d",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/cyrealtype/Iceland",
+      "rev": "bb43144b50825221060747ddba7b23bc05e7c960",
+      "config": "google/fonts/ofl/iceland/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cyrealtype/Lora-Cyrillic",
@@ -1349,6 +1367,12 @@
       "repo_url": "https://github.com/etunni/gilda-display",
       "rev": "640bdfd3d2ee3b533d1f88687a9e4541136254e0",
       "config": "google/fonts/ofl/gildadisplay/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/glegoo",
+      "rev": "a6b0a10abfaf1b88feb4a9f9eb731beefbb4bbb8",
+      "config": "google/fonts/ofl/glegoo/config.yaml",
       "config_is_external": true
     },
     {
@@ -1961,6 +1985,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/ibarrareal",
+      "rev": "7ae92a27f13f8e187db49312e7111041d1fa2a17",
+      "config": "google/fonts/ofl/ibarrarealnova/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/imperial-script",
       "rev": "01a1656c6ffebe306262129aafee029fe6a7f3f3",
       "config": "sources/config.yml"
@@ -2431,6 +2461,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/grayscaleltd/farro",
+      "rev": "fa80aadd0c61b6e76d95870579d0650f9d91df76",
+      "config": "google/fonts/ofl/farro/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/hafontia-zz/Fredoka-One",
       "rev": "35c584ff23450c9bcdf8819706e12fcdeefe1712",
       "config": "sources/config.yml"
@@ -2508,6 +2544,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/justfont/Huninn",
+      "rev": "2f278099d0a6fdf77593c30bd6e4a44859800ee2",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/kosbarts/Oi",
       "rev": "bd7ccfa844054ec4a0b2b17e56c33830646668ea",
       "config": "sources/config.yaml"
@@ -2558,6 +2599,12 @@
       "config": "sources/Semi-Condensed/sofia-semi-cond.yml"
     },
     {
+      "repo_url": "https://github.com/librefonts/englebert",
+      "rev": "0b03ab09eab75a39c93f8fb0432459a7dca74176",
+      "config": "google/fonts/ofl/englebert/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/librefonts/iceberg",
       "rev": "db1c024077a00f9999b5f6437a70c19ced5c1fc5",
       "config": "google/fonts/ofl/iceberg/config.yaml",
@@ -2587,6 +2634,12 @@
       "repo_url": "https://github.com/m4rc1e/mavenproFont",
       "rev": "a694ee80d067e6f8cad700930e78ce395d4949e6",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/magictype/goldman",
+      "rev": "3fdf428a931f7a39b3f2f1681c16bfa664ca89dd",
+      "config": "google/fonts/ofl/goldman/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/mara-aa/elms-sans",
@@ -3782,6 +3835,12 @@
       "repo_url": "https://github.com/rosettatype/eczar",
       "rev": "f248ec9c0c5e3a9442d22824cc1cba6c713725d5",
       "config": "sources/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/rosettatype/handjet",
+      "rev": "3918b7798e06c81da6bc558e88dfddd5a6b49807",
+      "config": "google/fonts/ofl/handjet/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/rozgatype/Exile",
