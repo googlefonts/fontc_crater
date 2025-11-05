@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "1a4c4b3930ddc479b9a8eff78f8567ca0b3e4ca6",
+  "fonts_repo_sha": "35fb7937f41b76ebc6cca6448bac9cec0d2c51c8",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -407,7 +407,7 @@
     {
       "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
       "rev": "624ecb8064d34258383bcbb08521f9fa2af00124",
-      "config": "sources/config.yaml"
+      "config": "source/config.yaml"
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ThenKhung",
@@ -733,6 +733,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/SorkinType/Capriola-VF",
+      "rev": "bc902b75ef32988b6c2dc97183b44c6c307d3081",
+      "config": "Capriola-VF/sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/SorkinType/Denk-One",
       "rev": "eadc321b9f89db0d7090550e1d7bf6dcd75b6996",
       "config": "sources/config.yaml"
@@ -811,6 +816,12 @@
     },
     {
       "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
+      "rev": "354fed4e5d1397aa3a092e6baa41b0064c8340b5",
+      "config": "sources/config-LGC.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
       "rev": "7a0794f02170021c04930280b39ab405599f5fb2",
       "config": "sources/config-Deva.yaml",
       "has_rev_conflict": true
@@ -819,12 +830,6 @@
       "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
       "rev": "a4829cda744ea7e9ae73c14468a8a5672809f525",
       "config": "sources/config-Arabic.yaml",
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
-      "rev": "c85bb380b56b2009e7c9bff11f573a3028034161",
-      "config": "sources/config.yml",
       "has_rev_conflict": true
     },
     {
@@ -980,6 +985,12 @@
       "repo_url": "https://github.com/cadsondemak/Krub",
       "rev": "c568bc61bd5b8af816057893e527aa55d6f08908",
       "config": "google/fonts/ofl/krub/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/Niramit",
+      "rev": "1b5fd503662d7fb259b0d09ba714d7dace5cefff",
+      "config": "google/fonts/ofl/niramit/config.yaml",
       "config_is_external": true
     },
     {
