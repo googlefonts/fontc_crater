@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "35fb7937f41b76ebc6cca6448bac9cec0d2c51c8",
+  "fonts_repo_sha": "994ab2abfeed8b790203000187e81e1b6198cb31",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -783,6 +783,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/SorkinType/Varta",
+      "rev": "38d842bff4d906c7f8859d898b1ac946a549c092",
+      "config": "google/fonts/ofl/varta/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/SorkinType/Voltaire",
       "rev": "3587d918a1a19e01a9b8f9dbcb504ffc12d04dbe",
       "config": "sources/config.yaml"
@@ -920,6 +926,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/antonxheight/Lancelot",
+      "rev": "3039d277fadddec95a3dc5aa58182b0aa20659b8",
+      "config": "google/fonts/ofl/lancelot/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/aoifemooney/makingbiorhyme",
       "rev": "b3c0488559ad7c42e11b71e65d255344faff63b9",
       "config": "sources/config.yaml"
@@ -968,6 +980,12 @@
       "repo_url": "https://github.com/cadsondemak/Anuphan",
       "rev": "a8ee8448324cc13fb69d585c4f6da4994f7652b0",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/Charm",
+      "rev": "873c5516023ae978e5a9de9e67b654d9ed92fc30",
+      "config": "google/fonts/ofl/charm/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cadsondemak/Kodchasan",
@@ -2167,6 +2185,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/monofett",
+      "rev": "a1a60166b5db2c6676d0a0a7751fe378fff1af9e",
+      "config": "google/fonts/ofl/monofett/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/monte-carlo",
       "rev": "62962590ae6b6dea67788c485d38217abe196e1b",
       "config": "sources/config.yml"
@@ -2230,6 +2254,12 @@
       "repo_url": "https://github.com/googlefonts/orbitron-vf",
       "rev": "f16482824e0ce4d008dee59b9b632e9ce9663359",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/pangolin",
+      "rev": "8257f00935ee0d1dba28c9e9142c85bcb357aae2",
+      "config": "google/fonts/ofl/pangolin/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/parastoo-font",
@@ -2529,6 +2559,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/itfoundry/kalam",
+      "rev": "03a4d8a33849b1ad9afdee95006bc66d2d4aed94",
+      "config": "google/fonts/ofl/kalam/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/jenskutilek/homecomputer-fonts",
       "rev": "09b2f79d686453d3bc160d04a687488e66962c43",
       "config": "Sixtyfour/sources/config.yaml"
@@ -2724,6 +2760,12 @@
       "repo_url": "https://github.com/mozilla/mozilla-text-type",
       "rev": "5ff275ec4906665df3126ad88c70ffd19d770335",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/nagamaki008/NewTegomin",
+      "rev": "955803d27527edbfb9a416f765b6144215c250df",
+      "config": "google/fonts/ofl/newtegomin/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/naipefoundry/gabarito",
@@ -3869,6 +3911,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/satsuyako/CherryBomb",
+      "rev": "9171b63b087c39b1d769287287f38582a57911eb",
+      "config": "google/fonts/ofl/cherrybombone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/scfried/soft-type-jacquard",
       "rev": "b11565152caccd6eaedce5fe2ca0e377d1a7c597",
       "config": "sources/config-jacquard12.yaml"
@@ -4090,6 +4138,12 @@
       "repo_url": "https://github.com/tokotype/PlusJakartaSans",
       "rev": "18d1cd2f7ea10481919d2f05c1f7064b7307fc26",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/typeland/Langar",
+      "rev": "82c844e60ab055cef1169f7825bc119ea3bd5090",
+      "config": "google/fonts/ofl/langar/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/typeoff/martel",
