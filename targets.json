@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "994ab2abfeed8b790203000187e81e1b6198cb31",
+  "fonts_repo_sha": "b5c0b033d7e5b0837a654d37d17289a3bc8337c8",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -285,6 +285,12 @@
       "repo_url": "https://github.com/Gue3bara/Lemonada",
       "rev": "21a53a1760f6f3c3e585bc50bc3463e97f1fa7e6",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/Gutenberg-Labo/Otomanopee",
+      "rev": "21c3571eebc24b2723f94ef25dbf478c3a996047",
+      "config": "google/fonts/ofl/otomanopeeone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/HYPD/flow-typeface",
@@ -916,6 +922,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/alexeiva/poiretone",
+      "rev": "74eec8d29c9b5179cbd63b1c3d152233aa537123",
+      "config": "google/fonts/ofl/poiretone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
       "rev": "454896185708d68530577800804c032756040370",
       "config": "sources/config.yaml"
@@ -940,6 +952,12 @@
       "repo_url": "https://github.com/appajid/Sirivennela",
       "rev": "1e9e8dbbc7a3fd9e4c352aeb865a7328dae07eed",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/appajid/gurajada",
+      "rev": "47d49279bffcb4cebab2dca10f8d7b20ff5230a2",
+      "config": "google/fonts/ofl/gurajada/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/ateliertriay/bricolage",
@@ -1123,6 +1141,12 @@
       "repo_url": "https://github.com/cyrealtype/Lora-Cyrillic",
       "rev": "c44a1dde19a3fcff5bf549677e08a64510837e9d",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/cyrealtype/Marko-One",
+      "rev": "d5cfae97a173fc09d182a391fb78dd3d8a727cd8",
+      "config": "google/fonts/ofl/markoone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cyrealtype/Marmelad-Cyrillic",
@@ -2035,6 +2059,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/inspiration",
+      "rev": "629ca27262fbcc6cfe745bd95d2e7b72a8e3b047",
+      "config": "google/fonts/ofl/inspiration/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/island-moments",
       "rev": "665d59f297c782358f09699fc2231c0eee293f25",
       "config": "sources/config.yml"
@@ -2534,6 +2564,12 @@
       "config": "sources/build.yaml"
     },
     {
+      "repo_url": "https://github.com/huertatipografica/piazzolla",
+      "rev": "fbd775f98a0a27570de0eaf20206860021c68b6b",
+      "config": "google/fonts/ofl/piazzolla/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/hyper-type/hahmlet",
       "rev": "106541144954a9b7037b8d3837097ba660312655",
       "config": "sources/config.yaml"
@@ -2557,6 +2593,12 @@
       "repo_url": "https://github.com/isaozler/kode-mono",
       "rev": "2d427d3f44649656d2c1932bb671d0c4cd064041",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/itfoundry/Poppins",
+      "rev": "738d9d691b66f1ad917123c58df104d16c74e1a7",
+      "config": "google/fonts/ofl/poppins/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/itfoundry/kalam",
@@ -4030,6 +4072,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/simoncozens/Gulzar",
+      "rev": "42b27958a84d56d8341ad1e2dc26b19dba03b15f",
+      "config": "google/fonts/ofl/gulzar/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/simoncozens/Miriam-Libre",
       "rev": "fc1dbbb7ef6f331b10771c22d33b4bf7543efbd8",
       "config": "sources/config.yaml"
@@ -4088,6 +4136,12 @@
       "repo_url": "https://github.com/suman51284/Alkatra",
       "rev": "0192cbf706f1dc560534c73153fd0e566323b31e",
       "config": "Sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/suman51284/Mina",
+      "rev": "20350840b9a0b08d7855d22e2890c3ed93237edd",
+      "config": "google/fonts/ofl/mina/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/suonmaysophanith7/KonKhmer_SleokChher",
