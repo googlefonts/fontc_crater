@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "b5c0b033d7e5b0837a654d37d17289a3bc8337c8",
+  "fonts_repo_sha": "b538f12501be33f4703e48eb2c422db0138b7231",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -409,6 +409,12 @@
       "rev": "1dd726bde8004743529cbeaab84ce993caf98f78",
       "config": "QLD-School-Fonts/sources/config.yaml",
       "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/MonicaRizzolli/Tomorrow",
+      "rev": "5be77729a028a17876819eb262d22ba5977b5d7c",
+      "config": "google/fonts/ofl/tomorrow/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
@@ -821,6 +827,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/TypeNetwork/Arimo",
+      "rev": "77fdf7e032ef18c5ad72929bdea60ae6ab19adbe",
+      "config": "google/fonts/apache/arimo/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
       "rev": "12483714650a12591e1914cad7d123e2cadc45e9",
       "config": "sources/config-Hebrew.yaml",
@@ -1102,6 +1114,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/crozynski/comicneue",
+      "rev": "c5ee07b5eebc4cc6347badfad56cb0c705a2e41e",
+      "config": "google/fonts/ofl/comicneue/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/cyrealtype/Alice",
       "rev": "13be04734d33464e627bd201d35aa9697feed289",
       "config": "sources/config.yaml"
@@ -1380,6 +1398,12 @@
       "repo_url": "https://github.com/etunni/Strait",
       "rev": "527c8d122601563758492117058d6727aa58cd32",
       "config": "google/fonts/ofl/strait/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/etunni/arapey",
+      "rev": "9c06862616bd689aec606d630cf5ad11ec5ea6f2",
+      "config": "google/fonts/ofl/arapey/config.yaml",
       "config_is_external": true
     },
     {
@@ -1831,6 +1855,12 @@
       "repo_url": "https://github.com/googlefonts/beau-rivage",
       "rev": "a80b72a03f6ea0a5667c58620973efdb72384ffa",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/beiruti",
+      "rev": "bd45772aeff26f3ed83faa1efbb52a30b39608f2",
+      "config": "google/fonts/ofl/beiruti/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/bilbo",
