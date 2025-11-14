@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "b538f12501be33f4703e48eb2c422db0138b7231",
+  "fonts_repo_sha": "5f31230ff3fa9668cb2e0f020334041c5d558d5a",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -242,6 +242,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/Fonthausen/Livvic",
+      "rev": "30f612bf37946b0462c91ba2b4323e955a519463",
+      "config": "google/fonts/ofl/livvic/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/Fonthausen/RokkittFont",
       "rev": "762d1439aaa7cf4a590f604451dfc2e1c6970b9f",
       "config": "sources/config.yaml"
@@ -368,6 +374,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru",
+      "rev": "65a112c7ec9ffe81595406982a670c7f945d7c5b",
+      "config": "google/fonts/ofl/kiwimaru/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/Lacquer-Font/Lacquer",
       "rev": "efffa0e54fbf2a6cd5e1b3909a9a8082cab61b5a",
       "config": "google/fonts/ofl/lacquer/config.yaml",
@@ -382,6 +394,12 @@
       "repo_url": "https://github.com/LivKing/Inclusive-Sans",
       "rev": "38b8ed1dd67bd25ef4180140492810cf050ef501",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/ManiackersDesign/darumadrop",
+      "rev": "ddbe82834bdab1ecc24adad09cc122d6e8678a81",
+      "config": "google/fonts/ofl/darumadropone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/MezMerrit/AU-School-Handwriting-Fonts",
@@ -755,6 +773,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/SorkinType/FjallaOne",
+      "rev": "e5fcc44bb44b8a84debd0cc070bad1360cc91761",
+      "config": "google/fonts/ofl/fjallaone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/SorkinType/Fruktur",
       "rev": "0f8b79b91438420d4c158890cb28bcb1eef407a0",
       "config": "sources/config.yaml"
@@ -940,6 +964,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/alif-type/qahiri",
+      "rev": "2fbfe8ca2e5ed04b0455e15c717774766f174ad1",
+      "config": "google/fonts/ofl/qahiri/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
       "rev": "454896185708d68530577800804c032756040370",
       "config": "sources/config.yaml"
@@ -1015,6 +1045,12 @@
       "repo_url": "https://github.com/cadsondemak/Charm",
       "rev": "873c5516023ae978e5a9de9e67b654d9ed92fc30",
       "config": "google/fonts/ofl/charm/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/Fah-Kwang",
+      "rev": "7b16186dadf959e79ded967a7620bfb05600fcaf",
+      "config": "google/fonts/ofl/fahkwang/config.yaml",
       "config_is_external": true
     },
     {
@@ -1143,6 +1179,12 @@
       "repo_url": "https://github.com/cyrealtype/Aubrey",
       "rev": "1946b0d99c0fec87702a59afc8b5b941a32e0171",
       "config": "sources/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/cyrealtype/Bonbon",
+      "rev": "ffac6513dd512d2a76e620c933e6d9a6f0953348",
+      "config": "google/fonts/ofl/bonbon/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cyrealtype/Brawler",
@@ -1648,6 +1690,12 @@
       "repo_url": "https://github.com/googlefonts/Expletus-Sans",
       "rev": "b64823a38d36cb09ec9ffce05f079585a4811217",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/GruppoFont",
+      "rev": "20e1bc8c76ee1d692c5645b8aaf971cc58ca2e51",
+      "config": "google/fonts/ofl/gruppo/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/HoltwoodFont",
@@ -4352,6 +4400,24 @@
       "repo_url": "https://github.com/xotypeco/big_shoulders",
       "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
       "config": "google/fonts/ofl/bigshoulderstextsc/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/yangheeryu/Dongle",
+      "rev": "f7127c4d2450e1cad20254ec692591347e2fc260",
+      "config": "google/fonts/ofl/dongle/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/yangheeryu/Gowun-Batang",
+      "rev": "4e73f5a9a004927220354f4b68a4c720da538147",
+      "config": "google/fonts/ofl/gowunbatang/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/yangheeryu/Gowun-Dodum",
+      "rev": "6d9ef10fc745cf3b0a4aba02dad1c740f94d029b",
+      "config": "google/fonts/ofl/gowundodum/config.yaml",
       "config_is_external": true
     },
     {
