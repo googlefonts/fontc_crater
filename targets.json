@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "5f31230ff3fa9668cb2e0f020334041c5d558d5a",
+  "fonts_repo_sha": "d5aef7c0b0f6df5f84213582cb7a1e385764b702",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -402,6 +402,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/ManiackersDesign/monomaniac",
+      "rev": "2318283d6dbf3cbe50e8eed3c75a17a425e6bd8c",
+      "config": "google/fonts/ofl/monomaniacone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/MezMerrit/AU-School-Handwriting-Fonts",
       "rev": "055799b858017157b6138e59833ab5b1a8947bbd",
       "config": "SA-School-Fonts/sources/config.yaml"
@@ -448,6 +454,19 @@
       "repo_url": "https://github.com/NDISCOVER/Arima-Font",
       "rev": "c5fd72960f129076fbf3759d6d777cedcbceb468",
       "config": "sources/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/NDISCOVER/Cinzel",
+      "rev": "1c62abfb8d5e27ea0a09169d621b32d24fdb8691",
+      "config": "google/fonts/ofl/cinzeldecorative/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/NDISCOVER/Cinzel",
+      "rev": "8271e162a7c6064ff1e539ba86011b16b6a6184f",
+      "config": "google/fonts/ofl/cinzel/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/NDISCOVER/Exo-1.0",
@@ -1078,9 +1097,21 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/cadsondemak/athiti",
+      "rev": "541c0b5034964f8db50ef52921fede1422194abe",
+      "config": "google/fonts/ofl/athiti/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/cadsondemak/kanit",
       "rev": "467dfe842185681d8042cd608b8291199dd37cda",
       "config": "google/fonts/ofl/kanit/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/maitree",
+      "rev": "e530c1fb68e167a5e990b8125e62231cbedfe4be",
+      "config": "google/fonts/ofl/maitree/config.yaml",
       "config_is_external": true
     },
     {
@@ -1317,6 +1348,12 @@
       "repo_url": "https://github.com/danhhong/Taprom",
       "rev": "9dac96ed769128b07cf9f0b8d03ed6932f640d7e",
       "config": "Source/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/davelab6/cantarell",
+      "rev": "52d3363878871c868eaeb64c75a701c1193750af",
+      "config": "google/fonts/ofl/cantarell/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/displaay/Azeret",
@@ -3914,6 +3951,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/octaviopardo/GUPTER",
+      "rev": "959e1580e02c8213898597aa076c33eafd0d6db6",
+      "config": "google/fonts/ofl/gupter/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/octaviopardo/Protest",
       "rev": "094e74050a0547c8decd760b4f926321a5e72c6e",
       "config": "sources/config-Guerrilla.yaml"
@@ -3958,6 +4001,18 @@
       "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
       "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/polarsys/b612",
+      "rev": "48ac6ba67ecab8123e8e36d6aa05367db0c7b638",
+      "config": "google/fonts/ofl/b612/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/polarsys/b612",
+      "rev": "48ac6ba67ecab8123e8e36d6aa05367db0c7b638",
+      "config": "google/fonts/ofl/b612mono/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/positype/Murecho-Project",
