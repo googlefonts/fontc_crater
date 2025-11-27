@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "2dc7250a0c1dcc8a58fb4503a7d7280066a92fea",
+  "fonts_repo_sha": "1bf48bf79738e1a3bf48c3a3e5afbd185a36cd68",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -119,6 +119,12 @@
       "repo_url": "https://github.com/EbenSorkin/Dekko",
       "rev": "4887c14997f1158a2a122d4351343e8745a8d504",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/EbenSorkin/Kavoon",
+      "rev": "0b985571f93c97f70ce9065bfc1a883a21b9deac",
+      "config": "google/fonts/ofl/kavoon/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/EbenSorkin/Merriweather4",
@@ -1051,6 +1057,18 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/appajid/mallanna",
+      "rev": "52b5b8b53bd89d84ecc8a0da7b809ea241c8eb74",
+      "config": "google/fonts/ofl/mallanna/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/artandtype/Braah",
+      "rev": "2b7ba2ea006af5a55313158531b6f0b71eca5ff8",
+      "config": "google/fonts/ofl/braahone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/ateliertriay/bricolage",
       "rev": "84745e5b96261ae5f8c6c856e262fe78d1d6efdd",
       "config": "sources/config.yaml"
@@ -1142,6 +1160,12 @@
       "repo_url": "https://github.com/cadsondemak/chonburi",
       "rev": "1c6599a6ae44a2d30ff3ee44d015ffab2c0cb014",
       "config": "google/fonts/ofl/chonburi/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/cadsondemak/itim",
+      "rev": "eb5e37a5412ea61cbc048f57dad5a97285d470e1",
+      "config": "google/fonts/ofl/itim/config.yaml",
       "config_is_external": true
     },
     {
@@ -1684,6 +1708,12 @@
       "repo_url": "https://github.com/fontef/frankruhllibre",
       "rev": "2372d1998e51dc011f86554c0d23f1ccf44afddf",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/fontworks-fonts/Klee",
+      "rev": "8b0532731b63ad8a445ca341d8d7d941079b83ab",
+      "config": "google/fonts/ofl/kleeone/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/fontworks-fonts/Reggae",
@@ -2872,6 +2902,12 @@
       "repo_url": "https://github.com/lettersoup/Sofia-Sans",
       "rev": "185877d082cebb40facd65143326147431863688",
       "config": "sources/Semi-Condensed/sofia-semi-cond.yml"
+    },
+    {
+      "repo_url": "https://github.com/liamspradlin/Girassol-Display",
+      "rev": "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa",
+      "config": "google/fonts/ofl/girassol/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/librefonts/codystar",
@@ -4373,6 +4409,12 @@
       "repo_url": "https://github.com/solmatas/BitterPro",
       "rev": "3238d7ae2cb0b564b81225d68b3c893a40b1d3ce",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/solmatas/Kadwa",
+      "rev": "ec58500fc2026ed3125a609b8c617b4b0c4bce20",
+      "config": "google/fonts/ofl/kadwa/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/sovichet/kantumruy-pro",
