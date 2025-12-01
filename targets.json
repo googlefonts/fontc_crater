@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "1bf48bf79738e1a3bf48c3a3e5afbd185a36cd68",
+  "fonts_repo_sha": "3b7a1d720b07e50834573f18e04471717e53769e",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -471,6 +471,11 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/MoonlitOwen/CactusSerif",
+      "rev": "a267f9f32087eb9e6a9203c734cb952a64bc05be",
+      "config": "source/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
       "rev": "624ecb8064d34258383bcbb08521f9fa2af00124",
       "config": "source/config.yaml"
@@ -813,8 +818,8 @@
     },
     {
       "repo_url": "https://github.com/SorkinType/Capriola-VF",
-      "rev": "bc902b75ef32988b6c2dc97183b44c6c307d3081",
-      "config": "Capriola-VF/sources/config.yaml"
+      "rev": "048a515c14cebe8ffe4a821c3c9c075450a80b97",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/SorkinType/Denk-One",
@@ -889,15 +894,58 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "24f67ca20ca4720eb4302592f2e0f6ec21042a5d",
+      "config": "google/fonts/ofl/tirotelugu/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirobangla/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirodevanagarihindi/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirodevanagarimarathi/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirodevanagarisanskrit/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirogurmukhi/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirokannada/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/TiroTypeworks/Indigo",
+      "rev": "98b5d3a01c534b7029af04a59d31e0d7d90be15a",
+      "config": "google/fonts/ofl/tirotamil/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/Tural/Moderustic",
       "rev": "6f0d4e1bbc8725b0e8b936a6ae94103f7104defa",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/TypeNetwork/Alegreya",
-      "rev": "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf",
-      "config": "google/fonts/ofl/alegreya/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/TypeNetwork/Arimo",
@@ -964,11 +1012,6 @@
       "repo_url": "https://github.com/YADAMSS/Matemasie-Font",
       "rev": "a6dbde5f9eb448066e8c751ee4c5b4146a7fbc99",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/aaronbell/CactusSerif",
-      "rev": "a267f9f32087eb9e6a9203c734cb952a64bc05be",
-      "config": "source/config.yaml"
     },
     {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
@@ -2400,6 +2443,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/majormono",
+      "rev": "fae0bb9c728fe082097baedaf23604e290ddac16",
+      "config": "google/fonts/ofl/majormonodisplay/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/manufacturing-consent-font",
       "rev": "80c3d822c2459ac0d76f8cb9d7ca1ca89a068f3b",
       "config": "sources/config.yaml"
@@ -2756,6 +2805,12 @@
       "repo_url": "https://github.com/hans-thiessen/Rethink-Sans",
       "rev": "20d5980cd14ce827e82d7fc58d758f7cc5086c91",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/huertatipografica/Alegreya",
+      "rev": "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf",
+      "config": "google/fonts/ofl/alegreya/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/huertatipografica/Alegreya-Sans",
@@ -4710,6 +4765,12 @@
       "repo_url": "https://github.com/zalando/sans",
       "rev": "2fe06d0700b5b9ccd18a52c240e8927f48e92629",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/zeynepakay/Rakkas",
+      "rev": "3bdb0ba164c9e987a5ab4de7f7cc8842a04d267a",
+      "config": "google/fonts/ofl/rakkas/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://gitlab.com/smc/fonts/manjari",
