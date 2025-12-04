@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "3b7a1d720b07e50834573f18e04471717e53769e",
+  "fonts_repo_sha": "702b7b6b95379eb9bff22a3cf20d2beb0c0baeb3",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -1062,6 +1062,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/aliftype/mada",
+      "rev": "2f7dea3a2bad718583bfcc1dc2030cf15401c789",
+      "config": "google/fonts/ofl/mada/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
       "rev": "454896185708d68530577800804c032756040370",
       "config": "sources/config.yaml"
@@ -1125,6 +1131,12 @@
       "repo_url": "https://github.com/balt-dev/bytesized-gf",
       "rev": "11abbf2db0602d93f35ec9d493a074e384f0cdb3",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/barnard555/odibeesans",
+      "rev": "c72b102fec681b3b74f025e70a673d2ef4ac664e",
+      "config": "google/fonts/ofl/odibeesans/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/batsimadz/Sankofa-Display",
@@ -1759,9 +1771,21 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/fontworks-fonts/Rampart",
+      "rev": "3f5fe9d544c290f6fc7c2176976ee7fe6ce14fbb",
+      "config": "google/fonts/ofl/rampartone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/fontworks-fonts/Reggae",
       "rev": "fe9be09d02ad8ba5e71d5ce24efc5249fe77dcfc",
       "config": "google/fonts/ofl/reggaeone/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/fontworks-fonts/RocknRoll",
+      "rev": "29a2aa8bb7ab10702dee769ee681a9baeeb52ec1",
+      "config": "google/fonts/ofl/rocknrollone/config.yaml",
       "config_is_external": true
     },
     {
@@ -3011,6 +3035,12 @@
       "repo_url": "https://github.com/magictype/goldman",
       "rev": "3fdf428a931f7a39b3f2f1681c16bfa664ca89dd",
       "config": "google/fonts/ofl/goldman/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/magictype/redrose",
+      "rev": "d173625490893538463fa9746477f35c975ab0e9",
+      "config": "google/fonts/ofl/redrose/config.yaml",
       "config_is_external": true
     },
     {
@@ -4538,6 +4568,12 @@
       "repo_url": "https://github.com/theleagueof/league-spartan",
       "rev": "27341b9bf93a2c7faa140538a64ce342486c5fb5",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/theleagueof/raleway",
+      "rev": "7b288c6faaed52cd237ec3a2e82c637d2a941fa7",
+      "config": "google/fonts/ofl/raleway/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/theseunbadejo/Agu-Display",
