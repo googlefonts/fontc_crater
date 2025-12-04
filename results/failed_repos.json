@@ -14,5 +14,6 @@
   "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
   "https://github.com/notofonts/khojki": "could not find commit '02e25bf94664812076be4fa7dd1d688641e4bf8a'",
   "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`",
+  "https://github.com/theleagueof/raleway": "missing source 'source/Raleway-Italic.designspace'",
   "https://github.com/xotypeco/big_shoulders": "missing source '../Big-Shoulders/sources/BigShoulders.glyphs'"
 }
