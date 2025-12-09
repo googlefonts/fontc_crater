@@ -5,46 +5,15 @@
       "link": "https://github.com/googlefonts/fontc/issues/1543"
     }
   ],
-  "solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (default)": [
-    {
-      "text": "flattening drops intermediate layers",
-      "link": "https://github.com/googlefonts/fontc/issues/1592"
-    }
-  ],
-    "reddit/redditsans/sources/mono.yaml RedditMono.glyphs?60e19b50bd (default)": [
-    {
-      "text": "glyphslib skipping unnamed brace layers",
-      "link": "https://github.com/googlefonts/glyphsLib/issues/1097"
-    }
-  ],
   "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)": [
     {
       "text": "rvrn impacts lookup order",
-      "link": "https://github.com/googlefonts/fontc/issues/1610"
-    }
-  ],
-  "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (default)": [
-    {
-      "text": "rvrn impacts lookup order",
-      "link": "https://github.com/googlefonts/fontc/issues/1610"
-    }
-  ],
-  "notofonts/kannada/sources/config-serif-kannada.yaml NotoSerifKannada.glyphs?b0e78acf31 (default)": [
-    {
-      "text": "gsub closure difference",
-      "link": "https://github.com/googlefonts/fontations/pull/1627"
-    }
-  ],
-  "jobosonchisa/ojuju/sources/config.yaml Ojuju.glyphs?61052b2801 (default)": [
-    {
-      "text": "cu2qu difference",
-      "link": "https://github.com/fonttools/fonttools/issues/3928"
-    }
-  ],
-    "googlefonts/geologica/sources/config.yaml master_ufo/Geologica.designspace?685f38d7c9 (gftools)": [
-    {
-      "text": "erase open corners is only run on glyphs sources",
-      "link": "https://github.com/googlefonts/fontc/issues/1627"
+      "link": "https://github.com/googlefonts/fontc/issues/1610",
+      "also": [
+        "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (default)",
+        "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (gftools)",
+        "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)"
+      ]
     }
   ],
     "googlefonts/rubik/sources/config.yaml Rubik.glyphs?e337a5f69a (default)": [
@@ -56,13 +25,15 @@
     "NaN-xyz/Rubik-Filtered_1126980434/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (default)": [
     {
       "text": "ordmasculine has +/-1 off-curve point diff, possibly cu2qu?",
-      "link": "https://github.com/googlefonts/fontc/issues/1713"
-    }
-  ],
-  "notofonts/nandinagari/sources/config-sans-nandinagari.yaml NotoSansNandinagari.glyphs?6fd9a06474 (default)": [
-    {
-      "text": "glyphsLib miscompiles nested smart components",
-      "link": "https://github.com/googlefonts/glyphsLib/issues/1111"
+      "link": "https://github.com/googlefonts/fontc/issues/1713",
+      "also": ["NaN-xyz/Rubik-Filtered_1126980434/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (gftools)",
+        "NaN-xyz/Rubik-Filtered_409369746e/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (default)",
+        "NaN-xyz/Rubik-Filtered_409369746e/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (gftools)",
+        "NaN-xyz/Rubik-Filtered_409369746e/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
+        "NaN-xyz/Rubik-Filtered_409369746e/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (gftools)",
+        "NaN-xyz/Rubik-Filtered_c70421b2f2/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
+        "NaN-xyz/Rubik-Filtered_c70421b2f2/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
+      ]
     }
   ]
 }
