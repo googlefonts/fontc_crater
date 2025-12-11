@@ -1,4 +1,108 @@
 {
+  "skugiz/liter/sources/config.yaml liter.glyphs?3808843f98 (default)": [
+    {
+      "text": "slightly different kern lookup order",
+      "link": "https://github.com/googlefonts/fontc/issues/1807",
+      "also": [
+        "skugiz/liter/sources/config.yaml liter.glyphs?3808843f98 (gftools)"
+      ]
+    }
+  ],
+
+  "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (default)": [
+    {
+      "text": "non-integer smart component off-by-ones",
+      "link": "https://github.com/googlefonts/fontc/issues/1809",
+      "also": [
+        "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (gftools)"
+      ]
+    }
+  ],
+  "nagamaki008/kapakana/$VIRTUAL/google/fonts/ofl/kapakana/config.yaml sources/kapakana.glyphs?0074870cd8 (default)": [
+    {
+      "text": "different handling of ascender value",
+      "link": "https://github.com/googlefonts/fontc/issues/1813",
+      "also": ["nagamaki008/kapakana/$VIRTUAL/google/fonts/ofl/kapakana/config.yaml sources/kapakana.glyphs?0074870cd8 (gftools)"]
+    }
+  ],
+  "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (default)": [
+    {
+      "text": "fontmake includes point axis",
+      "link": "https://github.com/googlefonts/fontc/issues/1814",
+      "also": [
+"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (gftools)",
+"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (default)",
+"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (gftools)",
+"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (default)",
+"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (gftools)",
+"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (default)",
+"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)"
+      ]
+    }
+  ],
+  "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (default)": [
+    {
+      "text": "fontmake doesn't treat as italic",
+      "link": "https://github.com/googlefonts/fontc/issues/1815",
+      "also": [
+        "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (gftools)"
+      ]
+    }
+  ],
+  "ladinoprojects/solitreo/sources/config.yaml Solitreo.glyphs?9b03239708 (default)": [
+    {
+      "text": "originalKerningGroups interactions with kerningRTL",
+      "link": "https://github.com/googlefonts/fontc/issues/1728",
+      "also": [
+        "ladinoprojects/solitreo/sources/config.yaml Solitreo.glyphs?9b03239708 (gftools)"
+      ]
+    }
+  ],
+  "smc/Chilanka/$VIRTUAL/google/fonts/ofl/chilanka/config.yaml sources/Chilanka-Regular.ufo?4688e5c6fc (default)": [
+    {
+      "text": "fonttools compiles ttx files in $SOURCE/data/com.github.fonttools.ttx dir",
+      "link": "https://github.com/googlefonts/fontc/issues/1816",
+      "also": [
+"smc/Chilanka/$VIRTUAL/google/fonts/ofl/chilanka/config.yaml sources/Chilanka-Regular.ufo?4688e5c6fc (gftools)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Thin.ufo?8948773e57 (default)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Thin.ufo?8948773e57 (gftools)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Bold.ufo?8948773e57 (default)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Bold.ufo?8948773e57 (gftools)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Regular.ufo?8948773e57 (default)",
+"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Regular.ufo?8948773e57 (gftools)"
+      ]
+    }
+  ],
+   "notofonts/lao/sources/config-sans-lao.yaml NotoSansLao.glyphs?ab77daf4d8 (default)": [
+    {
+      "text": "inline rules reuse different existing lookups",
+      "link": "https://github.com/googlefonts/fontc/issues/1817"
+    }
+  ],
+  "aliftype/mada/$VIRTUAL/google/fonts/ofl/mada/config.yaml sources/Mada.glyphs?2f7dea3a2b (default)": [
+    {
+      "text": "difference in logic for classifying marks",
+      "link": "https://github.com/googlefonts/fontc/issues/1818",
+      "also": [
+        "aliftype/mada/$VIRTUAL/google/fonts/ofl/mada/config.yaml sources/Mada.glyphs?2f7dea3a2b (gftools)"
+      ]
+    }
+  ],
+  "notofonts/oriya_795268df4e/sources/config-serif-oriya.yaml NotoSerifOriya.glyphs?795268df4e (default)": [
+    {
+      "text": "diff with manually generated and explicit 'dist' feature",
+      "link": "https://github.com/googlefonts/fontc/issues/1820"
+    }
+  ],
+  "xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (default)": [
+    {
+      "text": "different handling of fontinfo metric values",
+      "link": "https://github.com/googlefonts/fontc/issues/1824",
+      "also": [
+        "xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (gftools)"
+      ]
+    }
+  ],
     "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)": [
     {
       "text": "we don't generate cmap format 14",
