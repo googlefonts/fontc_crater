@@ -103,6 +103,56 @@
       ]
     }
   ],
+  "googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (default)": [
+    {
+      "text": "diff in handling of some metric values in glyphs sources",
+      "link": "https://github.com/googlefonts/fontc/issues/1824",
+      "also": [
+"googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)"
+      ]
+    },
+{
+      "text": "difference in kerning of bracket glyphs",
+      "link": "https://github.com/googlefonts/fontc/issues/1826",
+      "also": [
+"googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)"
+      ]
+    },
+{
+      "text": "glyphs number values that reference glyphs",
+      "link": "https://github.com/googlefonts/fontc/issues/1827",
+      "also": [
+"googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)",
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)"
+      ]
+    }
+  ],
+"notofonts/kharoshthi/sources/config-sans-kharoshthi.yaml NotoSansKharoshthi.glyphs?aacffd48d6 (default)": [
+    {
+      "text": "fontmake writes null offsets to MarkGlyphSets table",
+      "link": "https://github.com/fonttools/fonttools/issues/4003"
+    }
+  ],
+  "googlefonts/parastoo-font/sources/config.yaml Parastoo.glyphspackage?80a254f68a (default)": [
+    {
+      "text": "different deltas for glyphs with single missing component",
+      "link": "https://github.com/googlefonts/fontc/issues/1828",
+      "also":[
+        "googlefonts/parastoo-font/sources/config.yaml Parastoo.glyphspackage?80a254f68a (gftools)"
+      ]
+    }
+  ],
+  "notofonts/thai/sources/config-sans-thai.yaml NotoSansThai.designspace?f8f3f02470 (default)": [
+    {
+      "text": "'is identical feature file' check is naive",
+      "link": "https://github.com/googlefonts/fontc/issues/1829"
+    }
+  ],
     "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)": [
     {
       "text": "we don't generate cmap format 14",
