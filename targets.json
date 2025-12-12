@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "702b7b6b95379eb9bff22a3cf20d2beb0c0baeb3",
+  "fonts_repo_sha": "58502310afc838d2fab174ab255f64d49c4ab35e",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -1045,6 +1045,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/alexeiva/cuprum",
+      "rev": "98adc59dc00ca00dbde9eb42a23ace5f924b4f90",
+      "config": "google/fonts/ofl/cuprum/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/alexeiva/philosopher",
       "rev": "9983715d443b6be727d886cd16bce241cf9ad0b7",
       "config": "sources/config.yaml"
@@ -1583,6 +1589,12 @@
       "repo_url": "https://github.com/etunni/Amita",
       "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/etunni/Arya",
+      "rev": "103dc785f25067abe0e63de7b8e839e1863877a9",
+      "config": "google/fonts/ofl/arya/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/etunni/Gabriela",
@@ -2989,6 +3001,12 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/librefonts/carme",
+      "rev": "823391960931cedd0b9cb7caf0fcae71c4bd59ba",
+      "config": "google/fonts/ofl/carme/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/librefonts/codystar",
       "rev": "e32d050fbb01232b6a85423b121da89f21bba8b3",
       "config": "google/fonts/ofl/codystar/config.yaml",
@@ -3052,6 +3070,30 @@
       "repo_url": "https://github.com/marcelommp/Coiny",
       "rev": "0341b95f0c79f0e0b33ab7b5404cf9265be88516",
       "config": "google/fonts/ofl/coiny/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/marcelommp/Londrina-Typeface",
+      "rev": "7f4129ee609e13f4dc9bcdce6f8a08f5d9bc8060",
+      "config": "google/fonts/ofl/londrinaoutline/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/marcelommp/Londrina-Typeface",
+      "rev": "7f4129ee609e13f4dc9bcdce6f8a08f5d9bc8060",
+      "config": "google/fonts/ofl/londrinashadow/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/marcelommp/Londrina-Typeface",
+      "rev": "7f4129ee609e13f4dc9bcdce6f8a08f5d9bc8060",
+      "config": "google/fonts/ofl/londrinasketch/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/marcelommp/Londrina-Typeface",
+      "rev": "7f4129ee609e13f4dc9bcdce6f8a08f5d9bc8060",
+      "config": "google/fonts/ofl/londrinasolid/config.yaml",
       "config_is_external": true
     },
     {
@@ -4439,6 +4481,18 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/silnrsi/font-annapurna",
+      "rev": "5bd915dff1934cf36041d7766784347713c812a3",
+      "config": "google/fonts/ofl/annapurnasil/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-charis",
+      "rev": "258e532625d5e6c5fca8448782e710db78a6ca8a",
+      "config": "google/fonts/ofl/charissil/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/simoncozens/Gulzar",
       "rev": "42b27958a84d56d8341ad1e2dc26b19dba03b15f",
       "config": "google/fonts/ofl/gulzar/config.yaml",
@@ -4526,6 +4580,12 @@
       "repo_url": "https://github.com/suonmaysophanith7/KonKhmer_SleokChher",
       "rev": "1289371ce1f5f4f9223f023f607d83c98fc03625",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/supertype-de/Blinker",
+      "rev": "35cee57f389012c6a213acab504efb82f81c3b8f",
+      "config": "google/fonts/ofl/blinker/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/sursly/league-gothic",
