@@ -189,6 +189,55 @@
         "NaN-xyz/Rubik-Filtered_c70421b2f2/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
       ]
     }
+  ],
+  "googlefonts/robotoslab/sources/config.yaml RobotoSlab.glyphs?67af3ce9c4 (default)": [
+    {
+      "text": "empty axis mapping causes compilation difference",
+      "link": "https://github.com/googlefonts/fontc/issues/1830",
+      "also": [
+        "googlefonts/robotoslab/sources/config.yaml RobotoSlab.glyphs?67af3ce9c4 (gftools)"
+      ]
+    }
+  ],
+  "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (default)": [
+    {
+      "text": "off-by-ones in markpos deltas",
+      "link": "https://github.com/googlefonts/fontc/issues/1834",
+      "also": [
+        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)"
+      ]
+    },
+    {
+      "text": "we promote more lookups to use extensions",
+      "link": "https://github.com/googlefonts/fontc/issues/1835",
+      "also": [
+        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)"
+      ]
+    }
+  ],
+  "kosbarts/Oi/sources/config.yaml Oi.glyphs?bd7ccfa844 (default)": [
+    {
+      "text": "miscompilation(?) of named lookups with script statements",
+      "link": "https://github.com/googlefonts/fontc/issues/1837",
+      "also":[
+        "kosbarts/Oi/sources/config.yaml Oi.glyphs?bd7ccfa844 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/lao/sources/config-sans-lao-looped.yaml NotoSansLaoLooped.glyphs?ab77daf4d8 (default)": [
+    {
+      "text": "'Replace Feature' custom parameter",
+      "link": "https://github.com/googlefonts/fontc/issues/1838"
+    }
+  ],
+  "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (default)": [
+    {
+      "text": "variations differ for aringacute.ss02",
+      "link": "https://github.com/googlefonts/fontc/issues/1840",
+      "also":[
+        "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (gftools)"
+      ]
+    }
   ]
 }
 
