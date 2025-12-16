@@ -119,7 +119,9 @@
       "also": [
 "googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)",
 "googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)",
-"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)"
+"googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (gftools)",
+"theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)",
+"theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (gftools)"
       ]
     },
 {
@@ -237,6 +239,71 @@
       "also":[
         "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (gftools)"
       ]
+    }
+  ],
+  "theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)": [
+    {
+      "text": "rounding difference in ConditionSet table",
+      "link": "https://github.com/googlefonts/fontc/issues/1841",
+      "also": [
+        "theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)"
+      ]
+    }
+  ],
+  "notofonts/music/sources/config-music.yaml NotoMusic.glyphs?2c97b9ea69 (default)": [
+    {
+      "text": "glyphs with explicit mark/nonspacing categories not showing up in GDEF",
+      "link": "https://github.com/googlefonts/fontc/issues/1842"
+    },
+    {
+      "text": "difference in cursive/kern lookup order",
+      "link": "https://github.com/googlefonts/fontc/issues/1843"
+    }
+  ],
+  "notofonts/ottoman-siyaq-numbers/sources/config.yaml NotoSerifOttomanSiyaq.glyphs?b6cca8ffe6 (default)": [
+    {
+      "text": "python generates empty format 4 cmap subtables",
+      "link": "https://github.com/googlefonts/fontc/issues/1844"
+    }
+  ],
+  "notofonts/bhaiksuki/sources/config-sans-bhaiksuki.yaml NotoSansBhaiksuki.designspace?570db5a125 (default)": [
+    {
+      "text": "we include lookups that are not referenced by any feature",
+      "link": "https://github.com/googlefonts/fontc/issues/1845",
+      "also": [
+        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)",
+        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (default)": [
+    {
+      "text": "different handling of corner components",
+      "link": "https://github.com/googlefonts/fontc/issues/1846",
+      "also": [
+        "googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (gftools)"
+      ]
+    }
+  ],
+  "notofonts/vithkuqi/sources/config-serif-vithkuqi.yaml NotoSerifVithkuqi.glyphs?b1538fae37 (default)": [
+    {
+      "text": "we don't always write GDEF glyph class defitions",
+      "link": "https://github.com/googlefonts/fontc/issues/1847",
+      "also":[
+          "notofonts/vithkuqi/sources/config-sans-vithkuqi.yaml NotoSansVithkuqi.glyphs?b1538fae37 (default)"
+      ]
+    }
+  ],
+  "notofonts/chakma/sources/config-sans-chakma.yaml NotoSansChakma.designspace?239fe3aac7 (default)": [
+    {
+      "text": "we export more glyphs than fontmake",
+      "link": "https://github.com/googlefonts/fontc/issues/1848"
+    }
+  ],
+  "notofonts/gujarati/sources/config-sans-gujarati.yaml NotoSansGujarati.glyphs?825b7f9e39 (default)": [
+    {
+      "text": "different GSUB contextual format",
+      "link": "https://github.com/googlefonts/fontc/issues/1849"
     }
   ]
 }
