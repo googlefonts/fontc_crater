@@ -206,7 +206,9 @@
       "text": "off-by-ones in markpos deltas",
       "link": "https://github.com/googlefonts/fontc/issues/1834",
       "also": [
-        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)"
+        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
+        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (default)",
+        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (gftools)"
       ]
     },
     {
@@ -214,7 +216,9 @@
       "link": "https://github.com/googlefonts/fontc/issues/1835",
       "also": [
         "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
-        "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)"
+        "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)",
+        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (default)",
+        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (gftools)"
       ]
     }
   ],
@@ -230,7 +234,11 @@
   "notofonts/lao/sources/config-sans-lao-looped.yaml NotoSansLaoLooped.glyphs?ab77daf4d8 (default)": [
     {
       "text": "'Replace Feature' custom parameter",
-      "link": "https://github.com/googlefonts/fontc/issues/1838"
+      "link": "https://github.com/googlefonts/fontc/issues/1838",
+      "also":[
+        "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)",
+        "notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)"
+      ]
     }
   ],
   "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (default)": [
@@ -309,7 +317,14 @@
   "notofonts/gujarati/sources/config-sans-gujarati.yaml NotoSansGujarati.glyphs?825b7f9e39 (default)": [
     {
       "text": "different GSUB contextual format",
-      "link": "https://github.com/googlefonts/fontc/issues/1849"
+      "link": "https://github.com/googlefonts/fontc/issues/1849",
+      "also": [
+        "googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (default)",
+        "googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (gftools)",
+        "googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (default)",
+        "googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (gftools)",
+        "notofonts/lepcha/sources/config-sans-lepcha.yaml NotoSansLepcha.glyphs?22993dbe4e (default)"
+      ]
     }
   ],
   "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (default)": [
@@ -326,14 +341,20 @@
       "text": "we categorize more glyphs as marks",
       "link": "https://github.com/googlefonts/fontc/issues/1852",
       "also": [
-        "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (gftools)"
+        "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (gftools)",
+        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (default)",
+        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)"
       ]
     }
   ],
   "notofonts/takri/sources/config-sans-takri.yaml NotoSansTakri.designspace?bf175ad0b8 (default)": [
     {
       "text": "we categorize more glyphs as bases",
-      "link": "https://github.com/googlefonts/fontc/issues/1853"
+      "link": "https://github.com/googlefonts/fontc/issues/1853",
+      "also": [
+        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (default)",
+        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)"
+      ]
     }
   ],
   "cadsondemak/itim/$VIRTUAL/google/fonts/ofl/itim/config.yaml source/Itim-Regular.ufo?eb5e37a541 (default)": [
@@ -349,6 +370,71 @@
 "theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (default)",
 "theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (gftools)","theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (default)",
 "theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)": [
+    {
+      "text": "fonttools generates extra contextual sub subtable",
+      "link": "https://github.com/fonttools/fonttools/issues/4016"
+    },
+    {
+      "text": "custom parameter precedence",
+      "link": "https://github.com/googlefonts/fontc/issues/1856"
+    }
+  ],
+  "notofonts/hebrew_d2ce986faa/sources/config-sans-hebrew.yaml NotoSansHebrew.glyphs?d2ce986faa (default)": [
+    {
+      "text": "we don't generate kern feature",
+      "link": "https://github.com/googlefonts/fontc/issues/1857"
+    }
+  ],
+  "googlefonts/RadleyFont/sources/config.yaml Radley-Italic.ufo?7f54a0b10f (default)": [
+    {
+      "text": "we convert composites to simple glyphs if any component is missing",
+      "link": "https://github.com/googlefonts/fontc/issues/1858",
+      "also": [
+        "googlefonts/RadleyFont/sources/config.yaml Radley-Italic.ufo?7f54a0b10f (gftools)"
+      ]
+    }
+  ],
+  "notofonts/kawi/sources/config-sans-kawi.yaml NotoSansKawi.glyphs?7b11823765 (default)": [
+    {
+      "text": "compilation diff for large number of contextual lookups"
+    }
+  ],
+  "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (default)": [
+    {
+      "text": "we don't build vertical metrics tables when metrics are set",
+      "link": "https://github.com/googlefonts/fontc/issues/1859",
+      "also": [
+        "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (gftools)"
+      ]
+    }
+  ],
+  "notofonts/makasar/sources/config.yaml NotoSerifMakasar.designspace?e7902cc5d8 (default)": [
+    {
+      "text": "we create useless variation tables sometimes",
+      "link": "https://github.com/googlefonts/fontc/issues/1860"
+    }
+  ],
+  "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)": [
+    {
+      "text": "glyph order for colr glyphs",
+      "link": "https://github.com/googlefonts/fontc/issues/1861",
+      "also": [
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
+      ]
+    }
+  ],
+  "indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (default)": [
+    {
+      "text": "we generate a bunch more markpos rules",
+      "link": "https://github.com/googlefonts/fontc/issues/1862",
+      "also": [
+        "indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (gftools)",
+        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (default)",
+        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (gftools)"
       ]
     }
   ]
