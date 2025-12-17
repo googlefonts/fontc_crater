@@ -213,7 +213,8 @@
       "text": "we promote more lookups to use extensions",
       "link": "https://github.com/googlefonts/fontc/issues/1835",
       "also": [
-        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)"
+        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
+        "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)"
       ]
     }
   ],
@@ -237,7 +238,9 @@
       "text": "variations differ for aringacute.ss02",
       "link": "https://github.com/googlefonts/fontc/issues/1840",
       "also":[
-        "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (gftools)"
+        "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (gftools)",
+        "reddit/redditsans/sources/sans.yaml RedditSans.glyphs?60e19b50bd (default)",
+        "reddit/redditsans/sources/sans.yaml RedditSans.glyphs?60e19b50bd (gftools)"
       ]
     }
   ],
@@ -290,7 +293,10 @@
       "text": "we don't always write GDEF glyph class defitions",
       "link": "https://github.com/googlefonts/fontc/issues/1847",
       "also":[
-          "notofonts/vithkuqi/sources/config-sans-vithkuqi.yaml NotoSansVithkuqi.glyphs?b1538fae37 (default)"
+          "notofonts/vithkuqi/sources/config-sans-vithkuqi.yaml NotoSansVithkuqi.glyphs?b1538fae37 (default)",
+          "mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (default)",
+          "mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (gftools)",
+          "notofonts/new-tai-lue/sources/config.yaml NotoSansNewTaiLue.glyphs?f591483c53 (default)"
       ]
     }
   ],
@@ -305,7 +311,46 @@
       "text": "different GSUB contextual format",
       "link": "https://github.com/googlefonts/fontc/issues/1849"
     }
+  ],
+  "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (default)": [
+    {
+      "text": "diff in anchor propogation for bracket glyphs?",
+      "link": "https://github.com/googlefonts/fontc/issues/1850",
+      "also": [
+        "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (gftools)"
+      ]
+    }
+  ],
+  "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (default)": [
+    {
+      "text": "we categorize more glyphs as marks",
+      "link": "https://github.com/googlefonts/fontc/issues/1852",
+      "also": [
+        "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/takri/sources/config-sans-takri.yaml NotoSansTakri.designspace?bf175ad0b8 (default)": [
+    {
+      "text": "we categorize more glyphs as bases",
+      "link": "https://github.com/googlefonts/fontc/issues/1853"
+    }
+  ],
+  "cadsondemak/itim/$VIRTUAL/google/fonts/ofl/itim/config.yaml source/Itim-Regular.ufo?eb5e37a541 (default)": [
+    {
+      "text": "exported UFO with different kern group prefixes",
+      "link": "https://github.com/googlefonts/fontc/issues/1854",
+      "also":[
+"cadsondemak/itim/$VIRTUAL/google/fonts/ofl/itim/config.yaml source/Itim-Regular.ufo?eb5e37a541 (gftools)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood.ufo?cbaaed9704 (default)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood.ufo?cbaaed9704 (gftools)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text.ufo?cbaaed9704 (default)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text.ufo?cbaaed9704 (gftools)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (default)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (gftools)","theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (default)",
+"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (gftools)"
+      ]
+    }
   ]
 }
-
 
