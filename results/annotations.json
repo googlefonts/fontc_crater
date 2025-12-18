@@ -158,7 +158,11 @@
     "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)": [
     {
       "text": "we don't generate cmap format 14",
-      "link": "https://github.com/googlefonts/fontc/issues/1543"
+      "link": "https://github.com/googlefonts/fontc/issues/1543",
+      "also": [
+        "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (gftools)",
+        "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)"
+      ]
     }
   ],
   "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)": [
@@ -208,7 +212,9 @@
       "also": [
         "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
         "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (default)",
-        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (gftools)"
+        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (gftools)",
+        "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (default)",
+        "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (gftools)"
       ]
     },
     {
@@ -218,7 +224,9 @@
         "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
         "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)",
         "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (default)",
-        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (gftools)"
+        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (gftools)",
+        "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)",
+        "notofonts/grantha/sources/config-serif-grantha.yaml NotoSerifGrantha.glyphs?6bb911fa06 (default)"
       ]
     }
   ],
@@ -415,7 +423,19 @@
   "notofonts/makasar/sources/config.yaml NotoSerifMakasar.designspace?e7902cc5d8 (default)": [
     {
       "text": "we create useless variation tables sometimes",
-      "link": "https://github.com/googlefonts/fontc/issues/1860"
+      "link": "https://github.com/googlefonts/fontc/issues/1860",
+      "also": [
+        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (default)",
+        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (gftools)",
+        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (default)",
+        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (gftools)",
+        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (default)",
+        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (gftools)",
+        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (default)",
+        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (gftools)",
+        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)",
+        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (gftools)"
+      ]
     }
   ],
   "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)": [
@@ -423,7 +443,15 @@
       "text": "glyph order for colr glyphs",
       "link": "https://github.com/googlefonts/fontc/issues/1861",
       "also": [
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (gftools)",
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)",
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
+        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
+        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)",
+        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)",
+        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)"
       ]
     }
   ],
@@ -435,6 +463,127 @@
         "indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (gftools)",
         "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (default)",
         "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/mongolian/sources/config-sans-mongolian.yaml NotoSansMongolian.designspace?a61ef47935 (default)": [
+    {
+      "text": "we don't try format2 contextual subtables",
+      "link": "https://github.com/googlefonts/fontc/issues/1863",
+      "also": [
+        "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)",
+        "notofonts/dives-akuru/sources/config-serif-dives-akuru.yaml NotoSerifDivesAkuru.glyphspackage?e9e925bc4b (default)",
+        "notofonts/khitan-small-script/sources/config-serif.yaml NotoSerifKhitanSmallScript.glyphspackage?8769c8b092 (default)",
+        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)",
+        "notofonts/kaithi/sources/config-sans-kaithi.yaml NotoSansKaithi.glyphs?897d285a72 (default)",
+        "notofonts/tirhuta/sources/config-sans-tirhuta.yaml NotoSansTirhuta.glyphs?3c941a6f71 (default)"
+      ]
+    }
+  ],
+  "notofonts/elymaic/sources/config-sans-elymaic.yaml NotoSansElymaic.designspace?4a230cd737 (default)": [
+    {
+      "text": "support com.schriftgestaltung.Glyphs.Export glyph lib key",
+      "link": "https://github.com/googlefonts/fontc/issues/1864"
+    }
+  ],
+  "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Roman.designspace?7ae92a27f1 (default)": [
+    {
+      "text": "we categorize fewer glyphs as bases",
+      "link": "https://github.com/googlefonts/fontc/issues/1865",
+      "also": [
+        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Roman.designspace?7ae92a27f1 (gftools)",
+        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Italic.designspace?7ae92a27f1 (default)",
+        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Italic.designspace?7ae92a27f1 (gftools)",
+        "googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (default)",
+        "googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (gftools)",
+        "magictype/redrose/$VIRTUAL/google/fonts/ofl/redrose/config.yaml sources/RedRose.designspace?d173625490 (default)",
+        "magictype/redrose/$VIRTUAL/google/fonts/ofl/redrose/config.yaml sources/RedRose.designspace?d173625490 (gftools)",
+        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum.designspace?98adc59dc0 (default)",
+        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum.designspace?98adc59dc0 (gftools)",
+        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum-Italic.designspace?98adc59dc0 (gftools)",
+        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum-Italic.designspace?98adc59dc0 (default)"
+      ]
+    }
+  ],
+  "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (default)": [
+    {
+      "text": "we produce a different axis mapping",
+      "link": "https://github.com/googlefonts/fontc/issues/1866",
+      "also": [
+        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)": [
+    {
+      "text": "we don't produce MATH table",
+      "link": "https://github.com/googlefonts/fontc/issues/1867"
+    }
+  ],
+  "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (default)": [
+    {
+      "text": "we don't look for com.github.googlei18n.ufo2ft.featureWriters key",
+      "link": "https://github.com/googlefonts/fontc/issues/1868",
+      "also": [
+        "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (gftools)",
+        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (default)",
+        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (gftools)",
+        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (default)",
+        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (gftools)",
+        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (default)",
+        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (gftools)",
+        "docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (default)",
+        "docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (gftools)",
+        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (default)",
+        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)": [
+    {
+      "text": "contextual layout diffs",
+      "link": "https://github.com/googlefonts/fontc/issues/1869",
+      "also": [
+        "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)",
+        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)",
+        "notofonts/grantha/sources/config-serif-grantha.yaml NotoSerifGrantha.glyphs?6bb911fa06 (default)"
+      ]
+    }
+  ],
+  "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)": [
+    {
+      "text": "GDEF entries for generated .color glyphs",
+      "link": "https://github.com/googlefonts/fontc/issues/1870",
+      "also": [
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
+        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
+        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)"
+      ]
+    }
+  ],
+  "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)": [
+    {
+      "text": "different GDEF version",
+      "link": "https://github.com/googlefonts/fontc/issues/1871",
+      "also": [
+        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)"
+      ]
+    }
+  ],
+  "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (default)": [
+    {
+      "text": "variable notdef differences",
+      "link": "https://github.com/googlefonts/fontc/issues/1872",
+      "also": [
+"floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (gftools)"
+      ]
+    }
+  ],
+  "niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (default)": [
+    {
+      "text": "something weird with kern variations??",
+      "also": [
+        "niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (gftools)"
       ]
     }
   ]
