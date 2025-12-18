@@ -88,12 +88,6 @@
       ]
     }
   ],
-  "notofonts/oriya_795268df4e/sources/config-serif-oriya.yaml NotoSerifOriya.glyphs?795268df4e (default)": [
-    {
-      "text": "diff with manually generated and explicit 'dist' feature",
-      "link": "https://github.com/googlefonts/fontc/issues/1820"
-    }
-  ],
   "xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (default)": [
     {
       "text": "different handling of fontinfo metric values",
@@ -172,7 +166,7 @@
       "also": [
         "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (default)",
         "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2.glyphs?f83ea8a02d (gftools)",
-        "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (default)"
+        "googlefonts/Exo-2.0/sources/config.yaml Glyphs/Exo2-Italic.glyphs?f83ea8a02d (gftools)"
       ]
     }
   ],
@@ -584,6 +578,20 @@
       "text": "something weird with kern variations??",
       "also": [
         "niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (gftools)"
+      ]
+    }
+  ],
+  "etunni/unica/$VIRTUAL/google/fonts/ofl/unicaone/config.yaml sources/UnicaOne.glyphs?e92da87539 (gftools)": [
+    {
+      "text": "gftools OS/2 value diffs",
+      "link": "https://github.com/googlefonts/fontc/issues/1874",
+      "also": [
+        "microsoft/ADLaM-Display/Sources/config.yaml ADLaM-Display.glyphs?879176243e (gftools)",
+        "Kiwi-KawagotoKajiru/Kiwi-Maru/$VIRTUAL/google/fonts/ofl/kiwimaru/config.yaml sources/KiwiMaru-Light.glyphs?65a112c7ec (gftools)",
+         "Kiwi-KawagotoKajiru/Kiwi-Maru/$VIRTUAL/google/fonts/ofl/kiwimaru/config.yaml sources/KiwiMaru-Medium.glyphs?65a112c7ec (gftools)",
+         "fontworks-fonts/Klee/$VIRTUAL/google/fonts/ofl/kleeone/config.yaml sources/KleeOne-SemiBold.glyphs?8b0532731b (gftools)",
+         "notofonts/oriya_795268df4e/sources/config-serif-oriya.yaml NotoSerifOriya.glyphs?795268df4e (default)"
+
       ]
     }
   ]
