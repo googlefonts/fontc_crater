@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "58502310afc838d2fab174ab255f64d49c4ab35e",
+  "fonts_repo_sha": "f6c68379a463dc52ade266da64baae3d5d14bbbd",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -20,6 +20,11 @@
     {
       "repo_url": "https://github.com/Afrotype/tac",
       "rev": "85b9001fb4c9f6801808de5ee2f5e257ad062856",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/AlefAlefAlef/gveret-levin",
+      "rev": "b383a9c00863837b1b88b4d0365f43a304007dae",
       "config": "sources/config.yaml"
     },
     {
@@ -62,6 +67,13 @@
       "repo_url": "https://github.com/CatharsisFonts/Cormorant",
       "rev": "6d210fd3550b7358ca62d6ba3e354ec1ec940813",
       "config": "sources/config-infant.yaml"
+    },
+    {
+      "repo_url": "https://github.com/CatharsisFonts/Cormorant",
+      "rev": "b1a0a7781e3a59d3c2a96f953650463469a2e841",
+      "config": "google/fonts/ofl/cormorantupright/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/CatharsisFonts/Cormorant",
@@ -280,6 +292,11 @@
     {
       "repo_url": "https://github.com/Fonthausen/RokkittFont",
       "rev": "762d1439aaa7cf4a590f604451dfc2e1c6970b9f",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/Gissio/font_tiny5",
+      "rev": "1d6e16fe1ffe3f91def8cf512ae45188503f7685",
       "config": "sources/config.yaml"
     },
     {
@@ -807,6 +824,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/SorkinType/Black-Ops",
+      "rev": "c955bed3517ad3d8606a8b0105d27538309fb70d",
+      "config": "google/fonts/ofl/blackopsone/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/SorkinType/Briem-Hand",
       "rev": "7b991840508c9a90632354034ed0a72002836c05",
       "config": "sources/config.yaml"
@@ -886,6 +909,11 @@
     {
       "repo_url": "https://github.com/TaVaTake/madimi",
       "rev": "b0fedf3bfa1ac17a00bdbcbf06e8fe2aecfa009e",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/ThanosPoulakidas/Geom",
+      "rev": "c20a14c68c717e28fdb6e1cc7cc6b453fef5fef7",
       "config": "sources/config.yaml"
     },
     {
@@ -985,6 +1013,12 @@
     {
       "repo_url": "https://github.com/TypeTogether/Playwrite",
       "rev": "02e4e15767f5b6c2109413429fc51879b9507ab4",
+      "config": "sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/TypeTogether/Playwrite",
+      "rev": "fbc8d9790feeba3a5d0c0b4ccdcf246d3c41526e",
       "config": "sources/config.yaml"
     },
     {
@@ -1068,10 +1102,41 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/aliftype/amiri",
+      "rev": "480bb746e99ea700bb0d6b4dbf96302d58192103",
+      "config": "google/fonts/ofl/amiriquran/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/aliftype/amiri.git",
+      "rev": "04d40ee68cc6b8cb6870eca81a8a7451165aa95a",
+      "config": "google/fonts/ofl/amiri/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/aliftype/mada",
       "rev": "2f7dea3a2bad718583bfcc1dc2030cf15401c789",
       "config": "google/fonts/ofl/mada/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/aliftype/reem-kufi",
+      "rev": "359f25e571c7d56d6ef48c844c2f641a7a124a4d",
+      "config": "google/fonts/ofl/reemkufifun/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/aliftype/reem-kufi",
+      "rev": "359f25e571c7d56d6ef48c844c2f641a7a124a4d",
+      "config": "google/fonts/ofl/reemkufiink/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/aliftype/reem-kufi",
+      "rev": "d304c9a381a4b005d9527312c8d51508e57ed0ed",
+      "config": "google/fonts/ofl/reemkufi/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
@@ -1115,6 +1180,18 @@
       "repo_url": "https://github.com/appajid/mallanna",
       "rev": "52b5b8b53bd89d84ecc8a0da7b809ea241c8eb74",
       "config": "google/fonts/ofl/mallanna/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/arrowtype/recursive",
+      "rev": "071fc21f217781110d67e8d0bf5021f31cbdcb85",
+      "config": "google/fonts/ofl/recursive/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/arrowtype/shantell-sans",
+      "rev": "68f5eca1490a58973b2a814d3a7d0f61291fd0c9",
+      "config": "google/fonts/ofl/shantellsans/config.yaml",
       "config_is_external": true
     },
     {
@@ -1492,6 +1569,49 @@
       "repo_url": "https://github.com/displaay/Azeret",
       "rev": "3d45a6c3e094f08bfc70551b525bd2037cac51ba",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "bb29250eb071b59c4e48f44cf146943e2aafae61",
+      "config": "google/fonts/ofl/bungeecolor/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungee/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungeehairline/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungeeinline/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungeeoutline/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungeeshade/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/djrrb/Bungee",
+      "rev": "eb03cf69adab5094f6b84e95357789cdf3bfeb99",
+      "config": "google/fonts/ofl/bungeespice/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/docrepair-fonts/agdasima-fonts",
@@ -2005,6 +2125,24 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/Tilt-Fonts",
+      "rev": "0773dc9f490aabba0c19c15d290b575b62245970",
+      "config": "google/fonts/ofl/tiltneon/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/Tilt-Fonts",
+      "rev": "0773dc9f490aabba0c19c15d290b575b62245970",
+      "config": "google/fonts/ofl/tiltprism/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/Tilt-Fonts",
+      "rev": "0773dc9f490aabba0c19c15d290b575b62245970",
+      "config": "google/fonts/ofl/tiltwarp/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/VocesFont",
       "rev": "48b989992d00a8df49a81c26989876b77c633597",
       "config": "sources/config.yaml"
@@ -2185,6 +2323,11 @@
       "repo_url": "https://github.com/googlefonts/corinthia",
       "rev": "9c81839655dfec773b737abc90cb09ac94b1bea1",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cossette-fonts",
+      "rev": "ee99cea3c23039e31865c3c37bd7d716278e546b",
+      "config": "sources/config-texte.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/cossette-fonts",
@@ -2490,6 +2633,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/mashanzheng",
+      "rev": "6bfdbe288f5935c6e9072cdd6ab1aa102a006aab",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/mea-culpa",
       "rev": "13dd5b66076ddc6706d85a30dfed8d007e2f8350",
       "config": "sources/config.yml"
@@ -2529,6 +2677,31 @@
       "repo_url": "https://github.com/googlefonts/moondance",
       "rev": "ebba2ffb57b1b7c23e9dd382605ab9c92119cc49",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/morisawa-biz-ud-gothic",
+      "rev": "18934af56b9c003ca58c54bffbf226848cb11032",
+      "config": "google/fonts/ofl/bizudpgothic/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/morisawa-biz-ud-gothic",
+      "rev": "38953aa0afd6937b9caa899e18f4550db7298d69",
+      "config": "google/fonts/ofl/bizudgothic/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/morisawa-biz-ud-mincho",
+      "rev": "c30a6221b1f3d09afae9137ffe73c7cbec649947",
+      "config": "google/fonts/ofl/bizudmincho/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/morisawa-biz-ud-mincho",
+      "rev": "c30a6221b1f3d09afae9137ffe73c7cbec649947",
+      "config": "google/fonts/ofl/bizudpmincho/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/ms-madi",
@@ -2571,6 +2744,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/opensans",
+      "rev": "bd7e37632246368c60fdcbd374dbf9bad11969b6",
+      "config": "google/fonts/ofl/opensans/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/orbitron-vf",
       "rev": "f16482824e0ce4d008dee59b9b632e9ce9663359",
       "config": "sources/config.yaml"
@@ -2607,6 +2786,19 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/plex",
+      "rev": "80fcb676509354caa75c6bfc7f9db598545d466f",
+      "config": "google/fonts/ofl/ibmplexsansjp/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/plex",
+      "rev": "9ab3b5b3b96325fb20f365ee0804adca92024cbf",
+      "config": "google/fonts/ofl/ibmplexmono/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/praise-script",
       "rev": "678af73de9e596fa80cbd1ab89ba45a18ad69991",
       "config": "sources/config.yml"
@@ -2640,6 +2832,12 @@
       "repo_url": "https://github.com/googlefonts/road-rage",
       "rev": "e55c939b96e80e4760f27d81d1abca714739e3fe",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/roboto-classic",
+      "rev": "91d5d3e5b81efa04a77925cc609fdcdd7ee663d1",
+      "config": "google/fonts/ofl/roboto/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/roboto-serif",
@@ -2710,6 +2908,12 @@
       "repo_url": "https://github.com/googlefonts/shalimar",
       "rev": "f071bc2cfa26969d846d9848b7b2f53e9fab16f9",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/sigmarone",
+      "rev": "1fb4311d78953da0f943e0e4b806acdd076af81b",
+      "config": "google/fonts/ofl/sigmar/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/silkscreen",
@@ -2807,6 +3011,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/zain",
+      "rev": "7c4a81812cee52243a8b52cc362650042b831d28",
+      "config": "google/fonts/ofl/zain/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/zen-dots",
       "rev": "c9f0bc02e2aad7544f843aefce01845a2d3ba372",
       "config": "sources/config.yml"
@@ -2876,6 +3086,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/ijvanl/Amarna",
+      "rev": "22819bafba78c7f3e4644b6f68683773180a5965",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/impallari/Libre-Baskerville",
       "rev": "d20160cfa0ac4c532327f85b3ca4054acf92ed38",
       "config": "sources/config.yaml"
@@ -2942,6 +3157,11 @@
     {
       "repo_url": "https://github.com/justfont/Huninn",
       "rev": "2f278099d0a6fdf77593c30bd6e4a44859800ee2",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/kevinnseptian/SEKUYA",
+      "rev": "74983eccdc3ee4233b3729132398e78eac409d04",
       "config": "sources/config.yaml"
     },
     {
@@ -3027,7 +3247,13 @@
     {
       "repo_url": "https://github.com/localremotetw/TASA-Typeface-Collection",
       "rev": "4c5acaf21a4cd84f9c49c9907d83a25d2350f635",
-      "config": "sources/config-TASAExplorer.yaml"
+      "config": "sources/config-TASAExplorer.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/localremotetw/TASA-Typeface-Collection",
+      "rev": "659e7c4a05cfa1e22b4317303fcd40d5ff3587a2",
+      "config": "sources/config-TASAOrbiter.yaml"
     },
     {
       "repo_url": "https://github.com/loudifier/Comic-Relief",
@@ -3043,6 +3269,17 @@
       "repo_url": "https://github.com/m4rc1e/Commissioner",
       "rev": "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/m4rc1e/Trocchi",
+      "rev": "543ac4fee3173ed80706c4caf5398b8bb3439ae1",
+      "config": "google/fonts/ofl/trocchi/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/m4rc1e/Varela-Round-Hebrew",
+      "rev": "9bb2c89690095dd41f0f74d4954d3196eeaed68e",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/m4rc1e/mavenproFont",
@@ -3152,7 +3389,14 @@
     {
       "repo_url": "https://github.com/mooniak/yaldevi-font",
       "rev": "187eddeb8dae00acd11f2b96e0c74ea3d70ed302",
-      "config": "sources/builder.yaml"
+      "config": "sources/builder.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/mooniak/yaldevi-font",
+      "rev": "bd4f7c3222d4508c61bdcdc33467f5a865470370",
+      "config": "google/fonts/ofl/yaldevicolombo/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/mozilla/mozilla-headline-type",
@@ -3236,7 +3480,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/arabic",
-      "rev": "1b2b7e5c6ce3ab4d50681c854892325530084c35",
+      "rev": "59f5a3fd985bf24858915c3dddfc51a537640965",
       "config": "sources/config-naskh-arabic.yaml",
       "has_rev_conflict": true
     },
@@ -3289,12 +3533,13 @@
     {
       "repo_url": "https://github.com/notofonts/bengali",
       "rev": "7ab89a047313e4a2c7ca5d670b28ced031c86542",
-      "config": "sources/config-sans-bengali.yaml"
+      "config": "sources/config-serif-bengali.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/bengali",
-      "rev": "7ab89a047313e4a2c7ca5d670b28ced031c86542",
-      "config": "sources/config-serif-bengali.yaml"
+      "rev": "85d80394cbbbb798ca0a41c983902e6cf77be3a3",
+      "config": "sources/config-sans-bengali.yaml"
     },
     {
       "repo_url": "https://github.com/notofonts/bhaiksuki",
@@ -3884,7 +4129,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/oriya",
-      "rev": "97abab82ec512f8a4a98c389352f194a03385ce2",
+      "rev": "8540c2079d99db2db98a0c82e9daae71d4740c44",
       "config": "sources/config-sans-oriya.yaml"
     },
     {
@@ -4252,7 +4497,72 @@
     {
       "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
       "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
-      "config": "sources/config.yaml"
+      "config": "google/fonts/ofl/bitcountgriddoubleink/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
+      "config": "google/fonts/ofl/bitcountgridsingleink/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
+      "config": "google/fonts/ofl/bitcountink/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
+      "config": "google/fonts/ofl/bitcountpropdoubleink/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
+      "config": "sources/config.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "af0818eaeb3b0839806ea19134fc18f317cdcf5a",
+      "config": "google/fonts/ofl/bitcountgriddouble/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "af0818eaeb3b0839806ea19134fc18f317cdcf5a",
+      "config": "google/fonts/ofl/bitcountgridsingle/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "af0818eaeb3b0839806ea19134fc18f317cdcf5a",
+      "config": "google/fonts/ofl/bitcountpropdouble/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "af0818eaeb3b0839806ea19134fc18f317cdcf5a",
+      "config": "google/fonts/ofl/bitcountpropsingle/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "rev": "af0818eaeb3b0839806ea19134fc18f317cdcf5a",
+      "config": "google/fonts/ofl/bitcountsingle/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/philatype/Sen",
+      "rev": "8a0a0d7648fb466ebbab3a00b0e07046b0814727",
+      "config": "google/fonts/ofl/sen/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/polarsys/b612",
@@ -4286,6 +4596,12 @@
       "repo_url": "https://github.com/productiontype/Spectral",
       "rev": "dbc06862d7030eedb1b01b60cdad8f6102f4ddfa",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/rastikerdar/vazirmatn",
+      "rev": "14f8686945b97ac535bdb144a7c3794431d894d2",
+      "config": "google/fonts/ofl/vazirmatn/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/reddit/redditsans",
@@ -4338,6 +4654,12 @@
       "repo_url": "https://github.com/rozgatype/Exile",
       "rev": "b5c737683dcc95f1e749e2189fc242c4a2b31e97",
       "config": "Source/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/rsms/inter",
+      "rev": "66647c0bbbe41a850d79d9c76fb13add3378940f",
+      "config": "google/fonts/ofl/inter/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/rsms/inter-gf-tight",
@@ -4475,6 +4797,25 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/silnrsi/font-abyssinica",
+      "rev": "1f7e65b0e7367681198c980647b3049559ebefa0",
+      "config": "google/fonts/ofl/abyssinicasil/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-akatab",
+      "rev": "54e989b80bf4c99a2b16dc40710083b2b80ebaef",
+      "config": "google/fonts/ofl/akatab/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-akatab",
+      "rev": "faaa0ba74f0709b88969d83888508271d0a2f627",
+      "config": "google/fonts/ofl/tirra/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/silnrsi/font-andika",
       "rev": "ca568520c61193de89a795ca676b6978fb435759",
       "config": "google/fonts/ofl/andika/config.yaml",
@@ -4490,6 +4831,24 @@
       "repo_url": "https://github.com/silnrsi/font-charis",
       "rev": "258e532625d5e6c5fca8448782e710db78a6ca8a",
       "config": "google/fonts/ofl/charissil/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-harmattan",
+      "rev": "b8d089bdb2cf97351cff63beaa9d68a6273dcc42",
+      "config": "google/fonts/ofl/harmattan/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-lateef",
+      "rev": "d682ea7cc0305b592058255167c83d059aa640fa",
+      "config": "google/fonts/ofl/lateef/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/silnrsi/font-scheherazade",
+      "rev": "e630202ccd00ca8f147641658b4518f7b847a511",
+      "config": "google/fonts/ofl/scheherazadenew/config.yaml",
       "config_is_external": true
     },
     {
@@ -4582,6 +4941,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/supernotes/sn-pro",
+      "rev": "e025ac4755352167a4b160bfb77c72068b04b55c",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/supertype-de/Blinker",
       "rev": "35cee57f389012c6a213acab504efb82f81c3b8f",
       "config": "google/fonts/ofl/blinker/config.yaml",
@@ -4651,6 +5015,21 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/typeassociates/MomoSignature",
+      "rev": "c3ba208abfc2d6e661da920121653f0557bae611",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/typeassociates/MomoTrustDisplay",
+      "rev": "33a85fe93dfe2ee4ee1cc0fe853f08b6a12d1815",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/typeassociates/MomoTrustSans",
+      "rev": "35a9521152ca14fd2a4300902519a3c00706dd5b",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/typeland/Langar",
       "rev": "82c844e60ab055cef1169f7825bc119ea3bd5090",
       "config": "google/fonts/ofl/langar/config.yaml",
@@ -4692,6 +5071,12 @@
       "repo_url": "https://github.com/usted/Albert-Sans",
       "rev": "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/uswds/public-sans",
+      "rev": "c7923167a592d941646f99fb7b5fba17aa7d69e1",
+      "config": "google/fonts/ofl/publicsans/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/vaishnavimurthy/Akaya-Kanadaka",
@@ -4780,6 +5165,24 @@
       "rev": "0b3d09a86862b19efae28eae0cd868f17c476b20",
       "config": "google/fonts/ofl/bigshoulderstextsc/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "8ba99c9e347396d828b263b8b818269cb99eb27c",
+      "config": "Big-Shoulders/sources/config.yml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "8ba99c9e347396d828b263b8b818269cb99eb27c",
+      "config": "Big-Shoulders-Inline/sources/config.yml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/xotypeco/big_shoulders",
+      "rev": "8ba99c9e347396d828b263b8b818269cb99eb27c",
+      "config": "Big-Shoulders-Stencil/sources/config.yml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/yangheeryu/Dongle",
