@@ -23,6 +23,7 @@ FONTC_DIR=./fontc
 FONTC_REQUIREMENTS="resources/scripts/requirements.txt"
 SCRIPT_PATH=fontc_crater/resources/ci.sh
 GITHUB_TOKEN=$(<"GITHUB_TOKEN")
+PYTHON_EXEC=python3.13
 
 cleanup() {
     echo "cleaning up"
@@ -63,8 +64,8 @@ if [ -d venv ]; then
     rm -rf venv
 fi
 
-echo "setting up venv for $(python3 --version)"
-python3 -m venv venv
+echo "setting up venv for $( $PYTHON_EXEC --version)"
+$PYTHON_EXEC -m venv venv
 if [ $? -ne 0 ]; then
     echo could not setup venv, exiting
     cleanup
