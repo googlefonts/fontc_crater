@@ -18,7 +18,9 @@
   "https://github.com/mishamyrt/Lilex": "no config file was found",
   "https://github.com/mooniak/abhaya-libre-font": "missing source 'sources/glyphs/Abhaya-Masters.glyphs'",
   "https://github.com/notofonts/duployan": "missing source 'NotoSansDuployan.glyphs'",
+  "https://github.com/notofonts/khitan-small-script": "no config file was found",
   "https://github.com/notofonts/khojki": "could not find commit '02e25bf94664812076be4fa7dd1d688641e4bf8a'",
+  "https://github.com/notofonts/latin-greek-cyrillic": "could not find commit 'c4a321e123e4d4ff315f57f4e0adf294fe3a95be'",
   "https://github.com/petrvanblokland/TYPETR-Bitcount": "missing field `sources`",
   "https://github.com/weiweihuanghuang/fragment-mono": "missing source 'Fragment-Mono.glyphs'",
   "https://github.com/xotypeco/big_shoulders": "missing source '../Big-Shoulders/sources/BigShoulders.glyphs'"
