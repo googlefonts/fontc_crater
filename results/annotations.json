@@ -581,6 +581,21 @@
       ]
     }
   ],
+  "etunni/arapey/$VIRTUAL/google/fonts/ofl/arapey/config.yaml Arapey-Regular.otf.ufo?9c06862616 (default)": [
+    {
+      "text": "norad rejects smooth=\"yes\" on off-curve points",
+      "link": "https://github.com/linebender/norad/issues/391",
+      "also": [
+        "etunni/arapey/$VIRTUAL/google/fonts/ofl/arapey/config.yaml Arapey-Regular.otf.ufo?9c06862616 (gftools)",
+        "etunni/arapey/$VIRTUAL/google/fonts/ofl/arapey/config.yaml Arapey-Italic.otf.ufo?9c06862616 (default)",
+        "etunni/arapey/$VIRTUAL/google/fonts/ofl/arapey/config.yaml Arapey-Italic.otf.ufo?9c06862616 (gftools)",
+        "etunni/changa-one/$VIRTUAL/google/fonts/ofl/changaone/config.yaml ChangaOne-Regular.otf.ufo?e8d7a3159a (default)",
+        "etunni/changa-one/$VIRTUAL/google/fonts/ofl/changaone/config.yaml ChangaOne-Regular.otf.ufo?e8d7a3159a (gftools)",
+        "etunni/changa-one/$VIRTUAL/google/fonts/ofl/changaone/config.yaml ChangaOne_Italic.otf.ufo?e8d7a3159a (default)",
+        "etunni/changa-one/$VIRTUAL/google/fonts/ofl/changaone/config.yaml ChangaOne_Italic.otf.ufo?e8d7a3159a (gftools)"
+      ]
+    }
+  ],
   "etunni/unica/$VIRTUAL/google/fonts/ofl/unicaone/config.yaml sources/UnicaOne.glyphs?e92da87539 (gftools)": [
     {
       "text": "gftools OS/2 value diffs",
