@@ -594,6 +594,15 @@
 
       ]
     }
+  ],
+   "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (default)": [
+    {
+      "text": "custom (XXXX) point axis",
+      "link": "https://github.com/googlefonts/fontc/issues/1958",
+      "also": [
+        "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)"
+      ]
+    }
   ]
 }
 
