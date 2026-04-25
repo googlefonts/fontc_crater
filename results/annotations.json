@@ -607,7 +607,7 @@
   "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (default)": [
     {
       "text": "f2dot14 rounding error",
-      "link": "https://github.com/fontdasu/ShipporiAntique?5653d23ee9#sources/ShipporiAntique.glyphs",
+      "link": "https://github.com/googlefonts/fontc/issues/1979",
       "also": [
         "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)"
       ]
@@ -625,6 +625,21 @@
         "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
         "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
         "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
+      ]
+    }
+  ],
+  "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Bold.glyphspackage?ea7a320d85 (default)": [
+    {
+      "text": "fea-rs doesn't honor 'useExtension' keyword",
+      "link": "https://github.com/googlefonts/fontc/issues/1962",
+      "also": [
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Bold.glyphspackage?ea7a320d85 (gftools)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-ExtraBold.glyphspackage?ea7a320d85 (default)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-ExtraBold.glyphspackage?ea7a320d85 (gftools)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (default)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (gftools)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (default)",
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (gftools)"
       ]
     }
   ]
