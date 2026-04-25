@@ -612,6 +612,20 @@
         "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)"
       ]
     }
+  ],
+  "NaN-xyz/Rubik-Filtered/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (default)": [
+    {
+      "text": "cu2qu difference in degenerate cases",
+      "link": "https://github.com/googlefonts/fontc/issues/1981",
+      "also": [
+        "NaN-xyz/Rubik-Filtered/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (gftools)",
+        "NaN-xyz/Rubik-Filtered/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (default)",
+        "NaN-xyz/Rubik-Filtered/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (gftools)",
+        "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (gftools)",
+        "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
+        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
+        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
+      ]
+    }
   ]
 }
-
