@@ -603,6 +603,15 @@
         "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)"
       ]
     }
+  ],
+  "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (default)": [
+    {
+      "text": "f2dot14 rounding error",
+      "link": "https://github.com/fontdasu/ShipporiAntique?5653d23ee9#sources/ShipporiAntique.glyphs",
+      "also": [
+        "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)"
+      ]
+    }
   ]
 }
 
