@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "2da41909d08a7bfeab32cfc163edb7be0c34395d",
+  "fonts_repo_sha": "755538365478cc6de0dba26a829294716612cca7",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -895,6 +895,11 @@
       "config": "Saira/sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/Omnibus-Type/Saira_Stencil",
+      "rev": "426fb33c0deade38404978462b01c09829003a17",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/Omnibus-Type/Sansita-Swashed",
       "rev": "4b18bac65511ce185c1dc687472a8c77bdc6cc4d",
       "config": "google/fonts/ofl/sansitaswashed/config.yaml",
@@ -1454,6 +1459,11 @@
     {
       "repo_url": "https://github.com/alphArtype/Delicious-Handrawn",
       "rev": "454896185708d68530577800804c032756040370",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/aminabedi68/Estedad",
+      "rev": "69e879f78a4a1c7c4594baf7da13ba1c9f65ffd3",
       "config": "sources/config.yaml"
     },
     {
@@ -3043,6 +3053,11 @@
       "rev": "7f897dbd87fbd14d2f8ec0306d5c1ed2317dfe47",
       "config": "google/fonts/apache/cousine/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/coustardFont",
+      "rev": "84d4ef2fbb8e87ba843d49308b98eeb4a874be91",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/cutivemono",
@@ -5162,7 +5177,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/kannada",
-      "rev": "6387faa16123c9becca4f0f3ca095189de5c61da",
+      "rev": "7eeac8993f890e3d8568ba909ae67f554113ea92",
       "config": "sources/config-sans-kannada.yaml",
       "has_rev_conflict": true
     },
@@ -6478,6 +6493,11 @@
       "rev": "c4afdf3fa5390159ef24aca1db5e957487c23897",
       "config": "google/fonts/ofl/stixtwotext/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
+      "rev": "9a24fe35f229db9d86724550255429a86a9bb308",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/suman51284/Alkatra",
