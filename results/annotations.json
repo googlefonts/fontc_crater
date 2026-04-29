@@ -631,7 +631,23 @@
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (default)",
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (gftools)",
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (default)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (gftools)"
+        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Black.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Black.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Bold.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Bold.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraBold.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraBold.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraLight.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraLight.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Light.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Light.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Medium.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Medium.ufo?2085b8942f (gftools)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Regular.ufo?2085b8942f (default)",
+        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Regular.ufo?2085b8942f (gftools)",
+        "googlefonts/science-gothic/sources/build-config.yaml ./UFO/ScienceGothic[CTRS,slnt,wdth,wght].designspace?9eae80c1fe (default)",
+        "googlefonts/science-gothic/sources/build-config.yaml ./UFO/ScienceGothic[CTRS,slnt,wdth,wght].designspace?9eae80c1fe (gftools)"
       ]
     }
   ],
