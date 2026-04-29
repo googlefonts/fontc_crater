@@ -506,6 +506,13 @@
       "also": [
         "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)"
       ]
+    },
+    {
+      "text": "fontmake GPOS kern VarStore regions use wrong normalization path",
+      "link": "https://github.com/googlefonts/ufo2ft/issues/978",
+      "also": [
+        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)"
+      ]
     }
   ],
   "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)": [
