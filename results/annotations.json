@@ -25,21 +25,6 @@
       "also": ["nagamaki008/kapakana/$VIRTUAL/google/fonts/ofl/kapakana/config.yaml sources/kapakana.glyphs?0074870cd8 (gftools)"]
     }
   ],
-  "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (default)": [
-    {
-      "text": "fontmake includes point axis",
-      "link": "https://github.com/googlefonts/fontc/issues/1814",
-      "also": [
-"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (gftools)",
-"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (default)",
-"huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (gftools)",
-"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (default)",
-"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (gftools)",
-"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (default)",
-"noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)"
-      ]
-    }
-  ],
   "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (default)": [
     {
       "text": "fontmake doesn't treat as italic",
@@ -647,6 +632,25 @@
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (gftools)",
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (default)",
         "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (gftools)"
+      ]
+    }
+  ],
+  "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (default)": [
+    {
+      "text": "fontc drops point axis with non-identity user-to-design mapping",
+      "link": "https://github.com/googlefonts/fontc/issues/1990",
+      "also": [
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)",
+        "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (default)",
+        "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (gftools)",
+        "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (default)",
+        "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (gftools)",
+        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (default)",
+        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (gftools)",
+        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (default)",
+        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)"
       ]
     }
   ]
