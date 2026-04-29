@@ -666,7 +666,21 @@
         "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (default)",
         "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (gftools)",
         "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (default)",
-        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)"
+        "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)",
+        "silnrsi/font-lisu-bosa/$VIRTUAL/google/fonts/ofl/lisubosa/config.yaml source/LisuBosaItalic.designspace?95b4da9504 (default)",
+        "silnrsi/font-lisu-bosa/$VIRTUAL/google/fonts/ofl/lisubosa/config.yaml source/LisuBosaItalic.designspace?95b4da9504 (gftools)",
+        "silnrsi/font-lisu-bosa/$VIRTUAL/google/fonts/ofl/lisubosa/config.yaml source/LisuBosaUpright.designspace?95b4da9504 (default)",
+        "silnrsi/font-lisu-bosa/$VIRTUAL/google/fonts/ofl/lisubosa/config.yaml source/LisuBosaUpright.designspace?95b4da9504 (gftools)",
+        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (default)",
+        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (gftools)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (default)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (gftools)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-MASTER.glyphs?57fadabfb2 (default)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-MASTER.glyphs?57fadabfb2 (gftools)",
+        "silnrsi/font-mingzat/$VIRTUAL/google/fonts/ofl/mingzat/config.yaml source/Mingzat.designspace?613ac08e03 (default)",
+        "silnrsi/font-mingzat/$VIRTUAL/google/fonts/ofl/mingzat/config.yaml source/Mingzat.designspace?613ac08e03 (gftools)",
+        "silnrsi/font-nuosu/$VIRTUAL/google/fonts/ofl/nuosusil/config.yaml source/NuosuSIL.designspace?1e9b50a3cb (default)",
+        "silnrsi/font-nuosu/$VIRTUAL/google/fonts/ofl/nuosusil/config.yaml source/NuosuSIL.designspace?1e9b50a3cb (gftools)"
       ]
     }
   ]
