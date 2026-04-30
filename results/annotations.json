@@ -651,6 +651,27 @@
       ]
     }
   ],
+  "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (default)": [
+    {
+      "text": "crash on Width toggle axis used as italic switch",
+      "link": "https://github.com/googlefonts/fontc/issues/1994",
+      "also": [
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (default)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools)",
+        "cadsondemak/Fah-Kwang/$VIRTUAL/google/fonts/ofl/fahkwang/config.yaml source/Fahkwang.glyphs?7b16186dad (default)",
+        "cadsondemak/Fah-Kwang/$VIRTUAL/google/fonts/ofl/fahkwang/config.yaml source/Fahkwang.glyphs?7b16186dad (gftools)",
+        "cadsondemak/K2D/$VIRTUAL/google/fonts/ofl/k2d/config.yaml source/K2D.glyphs?5df785dc3b (default)",
+        "cadsondemak/K2D/$VIRTUAL/google/fonts/ofl/k2d/config.yaml source/K2D.glyphs?5df785dc3b (gftools)",
+        "cadsondemak/Kodchasan/$VIRTUAL/google/fonts/ofl/kodchasan/config.yaml source/Kodchasan-Master.glyphs?d68c1268f9 (default)",
+        "cadsondemak/Kodchasan/$VIRTUAL/google/fonts/ofl/kodchasan/config.yaml source/Kodchasan-Master.glyphs?d68c1268f9 (gftools)",
+        "cadsondemak/Koho/$VIRTUAL/google/fonts/ofl/koho/config.yaml source/KoHo-Master.glyphs?066267ad87 (default)",
+        "cadsondemak/Koho/$VIRTUAL/google/fonts/ofl/koho/config.yaml source/KoHo-Master.glyphs?066267ad87 (gftools)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (default)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools)"
+      ]
+    }
+  ],
   "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (default)": [
     {
       "text": "fontc drops point axis with non-identity user-to-design mapping",
