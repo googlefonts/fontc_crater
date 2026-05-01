@@ -815,5 +815,18 @@
         "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml source/ScheherazadeNew.designspace?e630202ccd (gftools)"
       ]
     }
+  ],
+  "Omnibus-Type/Barrio/$VIRTUAL/google/fonts/ofl/barriecito/config.yaml Barriecito/sources/Barriecito.glyphs?8f33bf10cb (default)": [
+    {
+      "text": "crash on super bezier segments (3+ consecutive off-curve points)",
+      "link": "https://github.com/googlefonts/fontc/issues/1997",
+      "also": [
+        "Omnibus-Type/Barrio/$VIRTUAL/google/fonts/ofl/barriecito/config.yaml Barriecito/sources/Barriecito.glyphs?8f33bf10cb (gftools)",
+        "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml Bahianita/sources/Bahianita.glyphs?0efedac55f (default)",
+        "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml Bahianita/sources/Bahianita.glyphs?0efedac55f (gftools)",
+        "mooniak/maname-font/sources/config.yaml Maname.glyphspackage?626ceee131 (default)",
+        "mooniak/maname-font/sources/config.yaml Maname.glyphspackage?626ceee131 (gftools)"
+      ]
+    }
   ]
 }
