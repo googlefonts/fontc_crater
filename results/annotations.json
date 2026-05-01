@@ -616,7 +616,9 @@
         "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (gftools)",
         "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
         "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
-        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
+        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)",
+        "googlefonts/josefinsans/$VIRTUAL/google/fonts/ofl/josefinsans/config.yaml sources/JosefinSans-Italic.designspace?bf6907e3a3 (default)",
+        "googlefonts/josefinsans/$VIRTUAL/google/fonts/ofl/josefinsans/config.yaml sources/JosefinSans-Italic.designspace?bf6907e3a3 (gftools)"
       ]
     }
   ],
