@@ -853,5 +853,24 @@
         "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (gftools)"
       ]
     }
+  ],
+  "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Black/Yantramanav-Black.ufo?e40db8e442 (default)": [
+    {
+      "text": "FEA include splits feature block across files",
+      "link": "https://github.com/googlefonts/fontc/issues/2002",
+      "also": [
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Black/Yantramanav-Black.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Bold/Yantramanav-Bold.ufo?e40db8e442 (default)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Bold/Yantramanav-Bold.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Light/Yantramanav-Light.ufo?e40db8e442 (default)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Light/Yantramanav-Light.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Medium/Yantramanav-Medium.ufo?e40db8e442 (default)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Medium/Yantramanav-Medium.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Regular/Yantramanav-Regular.ufo?e40db8e442 (default)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Regular/Yantramanav-Regular.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Thin/Yantramanav-Thin.ufo?e40db8e442 (default)",
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Thin/Yantramanav-Thin.ufo?e40db8e442 (gftools)"
+      ]
+    }
   ]
 }
