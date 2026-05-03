@@ -828,5 +828,30 @@
         "mooniak/maname-font/sources/config.yaml Maname.glyphspackage?626ceee131 (gftools)"
       ]
     }
+  ],
+  "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (default)": [
+    {
+      "text": "fea-rs does not expand Glyphs predicate tokens ($[...])",
+      "link": "https://github.com/googlefonts/fontc/issues/92",
+      "also": [
+        "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (gftools)",
+        "googlefonts/dynapuff/sources/config.yaml DynaPuff.glyphs?d1b4a98067 (default)",
+        "googlefonts/dynapuff/sources/config.yaml DynaPuff.glyphs?d1b4a98067 (gftools)",
+        "notofonts/nastaliq/sources/config-nastaliq-urdu.yaml NotoNastaliqUrdu.glyphspackage?3508acd351 (default)",
+        "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (default)",
+        "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (gftools)"
+      ]
+    }
+  ],
+  "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (default)": [
+    {
+      "text": "norad doesn't support zipped UFO sources",
+      "link": "https://github.com/linebender/norad/issues/262",
+      "also": [
+        "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (gftools)",
+        "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (default)",
+        "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (gftools)"
+      ]
+    }
   ]
 }
