@@ -872,5 +872,22 @@
         "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Thin/Yantramanav-Thin.ufo?e40db8e442 (gftools)"
       ]
     }
+  ],
+  "TypeTogether/Playpen-Sans/sources/config-Hebrew.yaml PlaypenSans.glyphspackage?1248371465 (default)": [
+    {
+      "text": "FEA missing trailing ;",
+      "link": "https://github.com/TypeTogether/Playpen-Sans/pull/47",
+      "also": [
+        "TypeTogether/Playpen-Sans/sources/config-Hebrew.yaml PlaypenSans.glyphspackage?1248371465 (gftools)",
+        "TypeTogether/Playpen-Sans/sources/config-LGC.yaml PlaypenSans.glyphspackage?354fed4e5d (default)",
+        "TypeTogether/Playpen-Sans/sources/config-LGC.yaml PlaypenSans.glyphspackage?354fed4e5d (gftools)",
+        "TypeTogether/Playpen-Sans/sources/config-Deva.yaml PlaypenSans.glyphspackage?7a0794f021 (default)",
+        "TypeTogether/Playpen-Sans/sources/config-Deva.yaml PlaypenSans.glyphspackage?7a0794f021 (gftools)",
+        "TypeTogether/Playpen-Sans/sources/config-Arabic.yaml PlaypenSans.glyphspackage?a4829cda74 (default)",
+        "TypeTogether/Playpen-Sans/sources/config-Arabic.yaml PlaypenSans.glyphspackage?a4829cda74 (gftools)",
+        "TypeTogether/Playpen-Sans/sources/config-Thai.yaml PlaypenSans.glyphspackage?edaffec145 (default)",
+        "TypeTogether/Playpen-Sans/sources/config-Thai.yaml PlaypenSans.glyphspackage?edaffec145 (gftools)"
+      ]
+    }
   ]
 }
