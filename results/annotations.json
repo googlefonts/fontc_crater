@@ -889,5 +889,14 @@
         "TypeTogether/Playpen-Sans/sources/config-Thai.yaml PlaypenSans.glyphspackage?edaffec145 (gftools)"
       ]
     }
+  ],
+  "googlefonts/josefinslab/sources/config.yaml JosefinSlab-Italic.designspace?61773366f7 (default)": [
+    {
+      "text": "vendorID has leading whitespace, creating invalid 5-char tag",
+      "link": "https://github.com/googlefonts/josefinslab/pull/48",
+      "also": [
+        "googlefonts/josefinslab/sources/config.yaml JosefinSlab-Italic.designspace?61773366f7 (gftools)"
+      ]
+    }
   ]
 }
