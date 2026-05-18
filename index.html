@@ -243,7 +243,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			604 results</a>
+			605 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -20826,7 +20826,7 @@
 			69.733 <span class="better">+0.001</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2026-04-27 2303 <span class=
 			"deemphasized">(1h30m32.10s)</span>
@@ -21371,6 +21371,41 @@
 			64.2%
 		</td>
 		<td class="fontc_err">
+			108
+		</td>
+		<td class="fontmake_err">
+			251
+		</td>
+		<td class="both_err">
+			543
+		</td>
+		<td class="other_err">
+			9
+		</td>
+		<td class="diff_perc">
+			70.028 <span class="better">+0.032</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2026-05-18 1903 <span class=
+			"deemphasized">(1h31m14.10s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/d009c4b7...9f9843dc/">
+			9f9843dc</a>
+		</td>
+		<td class="identical">
+			1969
+		</td>
+		<td class="total">
+			3066
+		</td>
+		<td class="identical_perc">
+			64.2%
+		</td>
+		<td class="fontc_err">
 			<a href="#fontc-failures">108</a>
 		</td>
 		<td class="fontmake_err">
@@ -21383,7 +21418,7 @@
 			<a href="#other-failures">9</a>
 		</td>
 		<td class="diff_perc">
-			70.028 <span class="better">+0.032</span>
+			70.028
 		</td>
 		</tr>
 	</tbody>
@@ -21523,588 +21558,8 @@
 		Diffs
 	</h3>
 	<div class="matching_families">
-		736 <span class="better">+3</span> of 1218 total families are
-		identical.
+		736 of 1218 total families are identical.
 	</div>
-	<details>
-		<summary>
-		<span class=
-		"font_path">Familjen-Grotesk/FamiljenGrotesk-Italic.glyphs
-		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+0.002</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				fvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+3.125</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.002</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/Familjen-Sthlm/Familjen-Grotesk">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/Familjen-Sthlm/Familjen-Grotesk?de7dfe09f6#sources/FamiljenGrotesk-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;Familjen-Sthlm/Familjen-Grotesk/sources/config.yaml FamiljenGrotesk-Italic.glyphs?de7dfe09f6 (default)&quot;);">
-		new annotation</a>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(default)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+6.653</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+12.089</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				fvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+1.754</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+6.653</span>
-			</td>
-			</tr>
-		</table><a href="https://github.com/SUSE/suse-font">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE-Italic.glyphs'&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>we produce a different axis mapping:
-				<a href="https://github.com/googlefonts/fontc/issues/1866">
-				https://github.com/googlefonts/fontc/issues/1866</a>
-			</li>
-			<li>fontmake GPOS kern VarStore regions use wrong
-			normalization path: <a href=
-			"https://github.com/googlefonts/ufo2ft/issues/978">
-				https://github.com/googlefonts/ufo2ft/issues/978</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+6.546</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+12.089</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+6.546</span>
-			</td>
-			</tr>
-		</table><a href="https://github.com/SUSE/suse-font">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/SUSE/suse-font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>we produce a different axis mapping:
-				<a href="https://github.com/googlefonts/fontc/issues/1866">
-				https://github.com/googlefonts/fontc/issues/1866</a>
-			</li>
-			<li>fontmake GPOS kern VarStore regions use wrong
-			normalization path: <a href=
-			"https://github.com/googlefonts/ufo2ft/issues/978">
-				https://github.com/googlefonts/ufo2ft/issues/978</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">suse-font/SUSE.glyphs
-		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+0.001</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				fvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+1.754</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.001</span>
-			</td>
-			</tr>
-		</table><a href="https://github.com/SUSE/suse-font">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE.glyphs?7159afb255 (default)&quot;);">
-		new annotation</a>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class=
-		"font_path">josefinsans/JosefinSans-Italic.designspace
-		<em>(default)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+0.027</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				glyf
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.081</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				gvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.043</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.027</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/josefinsans">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/josefinsans?bf6907e3a3#sources/JosefinSans-Italic.designspace'&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>cu2qu difference in degenerate cases:
-				<a href="https://github.com/googlefonts/fontc/issues/1981">
-				https://github.com/googlefonts/fontc/issues/1981</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class=
-		"font_path">josefinsans/JosefinSans-Italic.designspace
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+0.027</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				glyf
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.080</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				gvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.042</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.027</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/josefinsans">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/josefinsans?bf6907e3a3#sources/JosefinSans-Italic.designspace' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/josefinsans/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>cu2qu difference in degenerate cases:
-				<a href="https://github.com/googlefonts/fontc/issues/1981">
-				https://github.com/googlefonts/fontc/issues/1981</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">Georama/Georama.designspace
-		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+43.162</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+98.819</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GDEF
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+54.268</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GSUB
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+51.508</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GlyphOrder
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+62.157</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				HVAR
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+37.862</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				cmap
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+58.770</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				glyf
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+7.904</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				gvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.678</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				hmtx
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+62.214</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				post
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+56.241</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+43.162</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/productiontype/Georama">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/productiontype/Georama?1b063b6256#sources/Georama.designspace'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;productiontype/Georama/sources/builder.yaml Georama.designspace?1b063b6256 (default)&quot;);">
-		new annotation</a>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">Georama/Georama.designspace
-		<em>(gftools, sources/builder.yaml)</em></span><span class=
-		"diff_result">100.000% <span class=
-		"better">+42.956</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+98.819</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GDEF
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+54.268</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GSUB
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+51.508</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GlyphOrder
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+62.157</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				HVAR
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+38.053</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				cmap
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+58.770</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				glyf
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+7.703</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				gvar
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.674</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				hmtx
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+62.214</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				post
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+56.241</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+42.956</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/productiontype/Georama">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/productiontype/Georama?1b063b6256#sources/Georama.designspace' --compare gftools --config ~/.fontc_crater_cache/productiontype/Georama/sources/builder.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;productiontype/Georama/sources/builder.yaml Georama.designspace?1b063b6256 (gftools)&quot;);">
-		new annotation</a>
-		</div>
-	</details>
 	<details>
 		<summary>
 		<span class="font_path">iansui/Iansui-build.glyphspackage
@@ -25218,8 +24673,7 @@
 		<span class=
 		"font_path">Rubik-Filtered/RubikDoodleShadow.glyphs
 		<em>(default)</em> ✎</span><span class=
-		"diff_result">99.990% <span class=
-		"better">+0.000</span></span><span class=
+		"diff_result">99.990%</span> <span class=
 		"changed_tag_list">(glyf)</span>
 		</summary>
 		<div class="diff_info">
@@ -25239,7 +24693,7 @@
 				glyf
 			</td>
 			<td class="table_diff_value">
-				99.989% <span class="better">+0.000</span>
+				99.989%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -25247,7 +24701,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.990% <span class="better">+0.000</span>
+				99.990%
 			</td>
 			</tr>
 		</table><a href=
@@ -25277,8 +24731,7 @@
 		<span class=
 		"font_path">Rubik-Filtered/RubikDoodleShadow.glyphs
 		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">99.990% <span class=
-		"better">+0.000</span></span><span class=
+		"diff_result">99.990%</span> <span class=
 		"changed_tag_list">(glyf)</span>
 		</summary>
 		<div class="diff_info">
@@ -25298,7 +24751,7 @@
 				glyf
 			</td>
 			<td class="table_diff_value">
-				99.989% <span class="better">+0.000</span>
+				99.989%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -25306,7 +24759,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.990% <span class="better">+0.000</span>
+				99.990%
 			</td>
 			</tr>
 		</table><a href=
@@ -29999,8 +29452,8 @@
 		<summary>
 		<span class=
 		"font_path">opensans/OpenSans-Italic.designspace
-		<em>(gftools)</em></span><span class="diff_result">99.625%
-		<span class="worse">-0.000</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.625%</span> <span class=
 		"changed_tag_list">((mark/kern), GPOS, glyf, gvar,
 		ligcaret)</span>
 		</summary>
@@ -30061,7 +29514,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.625% <span class="worse">-0.000</span>
+				99.625%
 			</td>
 			</tr>
 		</table><a href=
@@ -32052,8 +31505,8 @@
 	<details>
 		<summary>
 		<span class="font_path">opensans/OpenSans-Roman.designspace
-		<em>(default)</em></span><span class="diff_result">96.690%
-		<span class="better">+0.000</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">96.690%</span> <span class=
 		"changed_tag_list">((mark/kern), GPOS, glyf, gvar, hmtx,
 		ligcaret, maxp)</span>
 		</summary>
@@ -32130,7 +31583,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				96.690% <span class="better">+0.000</span>
+				96.690%
 			</td>
 			</tr>
 		</table><a href=
@@ -32146,8 +31599,8 @@
 		<summary>
 		<span class=
 		"font_path">Vollkorn-Typeface/Vollkorn-Italic.designspace
-		<em>(gftools)</em></span><span class="diff_result">95.615%
-		<span class="worse">-0.000</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">95.615%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS)</span>
 		</summary>
 		<div class="diff_info">
@@ -32191,7 +31644,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				95.615% <span class="worse">-0.000</span>
+				95.615%
 			</td>
 			</tr>
 		</table><a href=
@@ -32207,8 +31660,8 @@
 		<summary>
 		<span class=
 		"font_path">Vollkorn-Typeface/Vollkorn-Italic.designspace
-		<em>(default)</em></span><span class="diff_result">95.613%
-		<span class="worse">-0.000</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">95.613%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GPOS)</span>
 		</summary>
 		<div class="diff_info">
@@ -32252,7 +31705,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				95.614% <span class="worse">-0.000</span>
+				95.614%
 			</td>
 			</tr>
 		</table><a href=
@@ -32929,8 +32382,7 @@
 		<summary>
 		<span class="font_path">NotoSansMath.glyphspackage
 		<em>(default)</em> ✎</span><span class=
-		"diff_result">92.437% <span class=
-		"worse">-0.000</span></span><span class=
+		"diff_result">92.437%</span> <span class=
 		"changed_tag_list">((mark/kern), GDEF, GlyphOrder, MATH,
 		cmap, glyf, hmtx, post)</span>
 		</summary>
@@ -33015,7 +32467,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				92.437% <span class="worse">-0.000</span>
+				92.437%
 			</td>
 			</tr>
 		</table><a href="https://github.com/notofonts/math">view
