@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "755538365478cc6de0dba26a829294716612cca7",
+  "fonts_repo_sha": "ae5c272a4e86d61d7a336d3684078f6477cbe2f3",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -74,7 +74,7 @@
     },
     {
       "repo_url": "https://github.com/BornaIz/Lalezar",
-      "rev": "c3e0eae24240424069cd8c1b4350a6101346fb7b",
+      "rev": "238701c4241f207e92515f845a199be9131c1109",
       "config": "google/fonts/ofl/lalezar/config.yaml",
       "config_is_external": true
     },
@@ -821,15 +821,15 @@
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Barrio",
-      "rev": "8f33bf10cb73ecf914110fd7182e543a59a70382",
-      "config": "google/fonts/ofl/barriecito/config.yaml",
+      "rev": "4cb00e50284f63512cce98d382b495955bde4e72",
+      "config": "google/fonts/ofl/barrio/config.yaml",
       "config_is_external": true,
       "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Barrio",
-      "rev": "ced3c1e20646c75272147a8b472fa0c4e359d45a",
-      "config": "google/fonts/ofl/barrio/config.yaml",
+      "rev": "8f33bf10cb73ecf914110fd7182e543a59a70382",
+      "config": "google/fonts/ofl/barriecito/config.yaml",
       "config_is_external": true
     },
     {
@@ -1089,7 +1089,8 @@
     {
       "repo_url": "https://github.com/SorkinType/Trykker",
       "rev": "5226cb075048ff1d3bd16fd0a0c42ece45629afb",
-      "config": "sources/config.yaml"
+      "config": "google/fonts/ofl/trykker/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/SorkinType/VICWANTSchoolhandAustralia",
@@ -1227,12 +1228,6 @@
       "repo_url": "https://github.com/Tural/Moderustic",
       "rev": "6f0d4e1bbc8725b0e8b936a6ae94103f7104defa",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/TypeNetwork/Arimo",
-      "rev": "77fdf7e032ef18c5ad72929bdea60ae6ab19adbe",
-      "config": "google/fonts/apache/arimo/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/TypeNetwork/Assistant",
@@ -1476,12 +1471,6 @@
       "repo_url": "https://github.com/anexasajoop/farsan",
       "rev": "c9b4cee129f5844cfedc850d3d68cf2b518f3a6d",
       "config": "google/fonts/ofl/farsan/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/anoxic/neuton",
-      "rev": "b376055d272ab8a54d490bfad487e96c1d047c97",
-      "config": "google/fonts/ofl/neuton/config.yaml",
       "config_is_external": true
     },
     {
@@ -2911,6 +2900,12 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/arimo",
+      "rev": "4a6255f269916ae7ad3fc2706b0935e7621396b8",
+      "config": "google/fonts/ofl/arimo/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/googlefonts/arizonia",
       "rev": "e135e3351c17de6f0f12066e98d7af9abe1cd76e",
       "config": "sources/config.yml"
@@ -3049,12 +3044,6 @@
       "config": "sources/config-titre.yaml"
     },
     {
-      "repo_url": "https://github.com/googlefonts/cousine",
-      "rev": "7f897dbd87fbd14d2f8ec0306d5c1ed2317dfe47",
-      "config": "google/fonts/apache/cousine/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/googlefonts/coustardFont",
       "rev": "84d4ef2fbb8e87ba843d49308b98eeb4a874be91",
       "config": "sources/config.yaml"
@@ -3078,7 +3067,8 @@
     {
       "repo_url": "https://github.com/googlefonts/dm-fonts",
       "rev": "d0520ba03bd780f5dccb3024854463d44f699b78",
-      "config": "Sans/Source/config.yaml"
+      "config": "google/fonts/ofl/dmsans/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/dm-mono",
@@ -3940,12 +3930,6 @@
       "config": "sources/config.yml"
     },
     {
-      "repo_url": "https://github.com/googlefonts/tinos",
-      "rev": "aaf68d53c2d49dbd443631c333c804bf4c664e60",
-      "config": "google/fonts/apache/tinos/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/googlefonts/twinkle-star",
       "rev": "b91b9bb130e238e2ab91d1dfd855cfcbb74c5677",
       "config": "sources/config.yml"
@@ -4519,11 +4503,6 @@
       "config": "sources/config-TASAOrbiter.yaml"
     },
     {
-      "repo_url": "https://github.com/loudifier/Comic-Relief",
-      "rev": "856315f5a45dfdad75090e4454f1ebfd019296b9",
-      "config": "sources/config.yaml"
-    },
-    {
       "repo_url": "https://github.com/lroulh/story-script",
       "rev": "464caab609d0c56a028a6db52e411b7e4f86a1cf",
       "config": "sources/config.yaml"
@@ -4700,7 +4679,7 @@
     },
     {
       "repo_url": "https://github.com/mooniak/abhaya-libre-font",
-      "rev": "f53da70786fe1dba6193bdbd45a2c4159e511079",
+      "rev": "ade314aa678ceb44f892ed58169c6b270c775d02",
       "config": "google/fonts/ofl/abhayalibre/config.yaml",
       "config_is_external": true
     },
@@ -5022,11 +5001,6 @@
       "repo_url": "https://github.com/notofonts/dogra",
       "rev": "ca3e78b572e9f0a62e7b843905255e7cbd2db380",
       "config": "sources/config-serif-dogra.yaml"
-    },
-    {
-      "repo_url": "https://github.com/notofonts/duployan",
-      "rev": "9626869cc851873c96eafd019fab55d984bbebc0",
-      "config": "sources/config-sans-duployan.yaml"
     },
     {
       "repo_url": "https://github.com/notofonts/egyptian-hieroglyphs",
@@ -5904,12 +5878,6 @@
     },
     {
       "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
-      "rev": "653fc48a72cf3b6a293f6fc207a770f537921889",
-      "config": "sources/config.yaml",
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
       "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
       "config": "google/fonts/ofl/bitcountgriddoubleink/config.yaml",
       "config_is_external": true,
@@ -5934,12 +5902,6 @@
       "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
       "config": "google/fonts/ofl/bitcountpropdoubleink/config.yaml",
       "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/petrvanblokland/TYPETR-Bitcount",
-      "rev": "89e7994f73b7f5ced80e7cf493d40be9e66ff82f",
-      "config": "sources/config.yaml",
       "has_rev_conflict": true
     },
     {
@@ -6315,7 +6277,7 @@
     },
     {
       "repo_url": "https://github.com/silnrsi/font-idiqlat",
-      "rev": "37a6c68fa053f4b4b4c9f6d67c569f66621b6daa",
+      "rev": "ed19e4c20659463b489e3d02b4dde493d438e18f",
       "config": "google/fonts/ofl/idiqlat/config.yaml",
       "config_is_external": true
     },
@@ -6381,7 +6343,7 @@
     },
     {
       "repo_url": "https://github.com/silnrsi/font-ramsina",
-      "rev": "263c8d552bff566fad9e8c9b266ae32e6ab341b4",
+      "rev": "29f057928dcd41f20e1c97005403f5168b2354c8",
       "config": "google/fonts/ofl/ramsina/config.yaml",
       "config_is_external": true
     },
@@ -6393,7 +6355,7 @@
     },
     {
       "repo_url": "https://github.com/silnrsi/font-scheherazade",
-      "rev": "e630202ccd00ca8f147641658b4518f7b847a511",
+      "rev": "60e64560db425905f52149398403298747f5f684",
       "config": "google/fonts/ofl/scheherazadenew/config.yaml",
       "config_is_external": true
     },
@@ -6751,13 +6713,14 @@
     },
     {
       "repo_url": "https://github.com/vercel/geist-font",
-      "rev": "a6d260e6cbc07eafdfad438f33601fe3c38b1e6f",
-      "config": "sources/config-Geist.yaml"
+      "rev": "77f0563c03009d6c15c6342183fa53b352255b22",
+      "config": "sources/config-GeistMono.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/vercel/geist-font",
       "rev": "a6d260e6cbc07eafdfad438f33601fe3c38b1e6f",
-      "config": "sources/config-GeistMono.yaml"
+      "config": "sources/config-Geist.yaml"
     },
     {
       "repo_url": "https://github.com/vernnobile/CodaFont",
@@ -6769,12 +6732,6 @@
       "repo_url": "https://github.com/vernnobile/DhyanaFont",
       "rev": "600f15faf4489ecca60dbcecad6f163e095f2af3",
       "config": "google/fonts/ofl/dhyana/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/vernnobile/oxygenFont",
-      "rev": "62db0ebe3488c936406685485071a54e3d18473b",
-      "config": "google/fonts/ofl/oxygen/config.yaml",
       "config_is_external": true
     },
     {
@@ -6796,7 +6753,8 @@
     {
       "repo_url": "https://github.com/weiweihuanghuang/fragment-mono",
       "rev": "3ff027831f9a8b5820b35e251e5914d5a3f5fac4",
-      "config": "sources/config.yaml",
+      "config": "google/fonts/ofl/fragmentmono/config.yaml",
+      "config_is_external": true,
       "has_rev_conflict": true
     },
     {
