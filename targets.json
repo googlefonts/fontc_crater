@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "ae5c272a4e86d61d7a336d3684078f6477cbe2f3",
+  "fonts_repo_sha": "092d3165e8b26ce19f3597769291aa61d50a95e7",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -1416,14 +1416,15 @@
     },
     {
       "repo_url": "https://github.com/aliftype/amiri",
-      "rev": "480bb746e99ea700bb0d6b4dbf96302d58192103",
-      "config": "google/fonts/ofl/amiriquran/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/aliftype/amiri.git",
       "rev": "04d40ee68cc6b8cb6870eca81a8a7451165aa95a",
       "config": "google/fonts/ofl/amiri/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/aliftype/amiri",
+      "rev": "480bb746e99ea700bb0d6b4dbf96302d58192103",
+      "config": "google/fonts/ofl/amiriquran/config.yaml",
       "config_is_external": true
     },
     {
