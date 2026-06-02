@@ -1,16 +1,6 @@
 {
   "https://github.com/Gue3bara/Cairo": "missing source 'CairoPlay.glyphs'",
-  "https://github.com/MoonlitOwen/CactusSerif": "missing source 'temp/CactusClassicalSerif-Regular.ufo'",
-  "https://github.com/MoonlitOwen/ChocolateSans": "missing source 'temp/ChocolateClassicalSans-Regular.ufo'",
-  "https://github.com/MoonlitOwen/ThenKhung": "missing source 'temp/UoqMunThenKhung-Regular.ufo'",
-  "https://github.com/aaronbell/LxgwMarkerGothic": "missing source 'temp/LXGWMarkerGothic-Regular.ufo'",
   "https://github.com/cyrealtype/Amethysta": "missing source 'sources/Amethysta-Regular.glyphs'",
-  "https://github.com/cyrealtype/Jacques-Francois": "missing source 'sources/JacquesFrancois.glyphs'",
-  "https://github.com/cyrealtype/Jacques-Francois-Shadow": "missing source 'sources/JacquesFrancoisShadow.glyphs'",
-  "https://github.com/googlefonts/dm-fonts": "no config file was found",
-  "https://github.com/googlefonts/noto-fonts": "missing source 'sources/NotoSansGurmukhi.glyphs'",
   "https://github.com/googlefonts/sawarabi-mincho": "missing source 'SawarabiMincho.glyphs'",
-  "https://github.com/intel/intel-one-mono": "missing source 'sources/masters/IntelOneMono-Roman.designspace'",
-  "https://github.com/theleagueof/raleway": "missing source 'sources/Raleway-Italic.designspace'",
   "https://gitlab.com/smc/fonts/manjari": "missing source 'sources/Manjari-Bold.ufo'"
 }
