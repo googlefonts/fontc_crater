@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "092d3165e8b26ce19f3597769291aa61d50a95e7",
+  "fonts_repo_sha": "647e52b1cbc941916c322994994bbe2e3a08ca6e",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -519,6 +519,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/MagicformDesign/montenegrin-gothic-one",
+      "rev": "7a9c8500be19a4b3c6050dd4ea6fcf184ca59173",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/ManiackersDesign/darumadrop",
       "rev": "ddbe82834bdab1ecc24adad09cc122d6e8678a81",
       "config": "google/fonts/ofl/darumadropone/config.yaml",
@@ -583,17 +588,20 @@
     {
       "repo_url": "https://github.com/MoonlitOwen/CactusSerif",
       "rev": "a267f9f32087eb9e6a9203c734cb952a64bc05be",
-      "config": "source/config.yaml"
+      "config": "google/fonts/ofl/cactusclassicalserif/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ChocolateSans",
       "rev": "624ecb8064d34258383bcbb08521f9fa2af00124",
-      "config": "source/config.yaml"
+      "config": "google/fonts/ofl/chocolateclassicalsans/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/MoonlitOwen/ThenKhung",
       "rev": "cdf0805fd0db0aba5c7789f60033060e1566d4cc",
-      "config": "source/config.yaml"
+      "config": "google/fonts/ofl/uoqmunthenkhung/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/NDISCOVER/Arima-Font",
@@ -1142,6 +1150,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/TheJonassss/Pliant",
+      "rev": "dc119b45f0b60597305af387b97b2f5a94b2e1e4",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/ThomasJockin/QuicksandFamily",
       "rev": "02ead1c009102a433b9cd155f611df1e5f49bd9c",
       "config": "google/fonts/ofl/quicksand/config.yaml",
@@ -1316,7 +1329,8 @@
     {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
       "rev": "fe8357007423a983e696d2d3ff545ac9bb1bb89e",
-      "config": "sources/config.yaml"
+      "config": "google/fonts/ofl/lxgwmarkergothic/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/aaronbell/LxgwWenkaiTC",
@@ -1985,13 +1999,13 @@
     },
     {
       "repo_url": "https://github.com/cyrealtype/Jacques-Francois",
-      "rev": "bc37f476a7e982327ae359c67068356597cd45aa",
+      "rev": "d34156392b110af3e182d07cdfe9649a6f294dab",
       "config": "google/fonts/ofl/jacquesfrancois/config.yaml",
       "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cyrealtype/Jacques-Francois-Shadow",
-      "rev": "90c9f94cc747ac7c356d882d7553c07d344992f8",
+      "rev": "073491c6b1582ad2a1affc515f3fee1163c093fe",
       "config": "google/fonts/ofl/jacquesfrancoisshadow/config.yaml",
       "config_is_external": true
     },
@@ -3062,14 +3076,21 @@
     {
       "repo_url": "https://github.com/googlefonts/dm-fonts",
       "rev": "027cea4e4f45827128860a4dec7b9a0852a295d7",
-      "config": "Sans/Source/config.yaml",
-      "has_rev_conflict": true
+      "config": "google/fonts/ofl/dmserifdisplay/config.yaml",
+      "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/dm-fonts",
+      "rev": "027cea4e4f45827128860a4dec7b9a0852a295d7",
+      "config": "google/fonts/ofl/dmseriftext/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/dm-fonts",
       "rev": "d0520ba03bd780f5dccb3024854463d44f699b78",
       "config": "google/fonts/ofl/dmsans/config.yaml",
-      "config_is_external": true
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/googlefonts/dm-mono",
@@ -3490,131 +3511,6 @@
       "repo_url": "https://github.com/googlefonts/notable",
       "rev": "e3426360fa15b1824f4694663271956e50514498",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "090cc7e2cfaae5c21c055a2355001d8c586382ae",
-      "config": "google/fonts/ofl/notosansmalayalamui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "09b94bdab646a466def1aac31f3f1b4666018e8e",
-      "config": "google/fonts/ofl/notosanskannadaui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "0b7e7b85049f6b5ddb1a2bf25b6c83510b288daf",
-      "config": "google/fonts/ofl/notosansdevanagariui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "1b5d974daaa002333b2a5a068d0a7f2d1121b3b7",
-      "config": "google/fonts/ofl/notosansteluguui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "20bc5918912503bc1537a407a694738c33c048aa",
-      "config": "google/fonts/ofl/notosansnko_todelist/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "217e0ab67385bc728b088f565c2c9b76633c01c5",
-      "config": "google/fonts/ofl/notosansdisplay/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "3b258db81a8ece82231fdf267e547383b0564200",
-      "config": "google/fonts/ofl/notoserifmyanmar/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "4386f6f75598ac1a62e068b3f169cf19d6566363",
-      "config": "google/fonts/ofl/notosanskhmerui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "442e7d208ce532bbe6ef41e1d89f35c21f415142",
-      "config": "google/fonts/ofl/notosansmyanmarui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "56fa5f2db909dc006aaaf2fd5cf7e063dcf18ad7",
-      "config": "google/fonts/ofl/notosanstamilui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "7dca4ca5ec66a517c081b6ab5ae6235644aa2cb3",
-      "config": "google/fonts/ofl/notoserifdisplay/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "8d438811b7d6d70fb5cc1b89c47d1388cb1939d7",
-      "config": "google/fonts/ofl/notosansbengaliui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "bc27c394087c8f52ef27d7a3742dd441dd0c22a5",
-      "config": "google/fonts/ofl/notosansoriyaui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "bda66ae5b76668ef2d3fad2c8d3607d1aa330431",
-      "config": "google/fonts/ofl/notosansgujaratiui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "c864aa49f4af6a4130bb58ea083334554f0b7a56",
-      "config": "google/fonts/ofl/notosanslaoui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "da23fbffb845dc5e9bd6da24b3dbbbc7effe7dbc",
-      "config": "google/fonts/ofl/notosanssinhalaui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "e30ce1b55b8f57a238edcf4bf906e6f3faeceef1",
-      "config": "google/fonts/ofl/notosansarabicui/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/googlefonts/noto-fonts",
-      "rev": "f565665f15c72f0350773727b22b9f99742c5be2",
-      "config": "google/fonts/ofl/notosansgurmukhiui/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/nunito",
@@ -4164,7 +4060,7 @@
     },
     {
       "repo_url": "https://github.com/intel/intel-one-mono",
-      "rev": "cec102c3890991d35e3766424923fa4afc099a1d",
+      "rev": "99e2d6ca170744c62bfb5f52547435f23720abe1",
       "config": "google/fonts/ofl/intelonemono/config.yaml",
       "config_is_external": true
     },
@@ -4849,7 +4745,14 @@
     {
       "repo_url": "https://github.com/notofonts/arabic",
       "rev": "6c8320740db19efbb3127c3697b0ee5d0fa62319",
-      "config": "sources/config-sans-arabic.yaml"
+      "config": "sources/config-sans-arabic.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/arabic",
+      "rev": "78340846460d29a6d673bb2ae355e394a0d81a9d",
+      "config": "google/fonts/ofl/notosansarabicui/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/armenian",
@@ -4897,6 +4800,12 @@
       "rev": "7ab89a047313e4a2c7ca5d670b28ced031c86542",
       "config": "sources/config-serif-bengali.yaml",
       "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/bengali",
+      "rev": "85d80394cbbbb798ca0a41c983902e6cf77be3a3",
+      "config": "google/fonts/ofl/notosansbengaliui/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/bengali",
@@ -4985,6 +4894,13 @@
     },
     {
       "repo_url": "https://github.com/notofonts/devanagari",
+      "rev": "9b735f271f5e1abd6be8afbf662e241d5f0ec43c",
+      "config": "google/fonts/ofl/notosansdevanagariui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/devanagari",
       "rev": "bb8d2566a1708ef2dcc6396ee2eb261a18967f76",
       "config": "sources/config-sans-devanagari.yaml"
     },
@@ -5061,6 +4977,13 @@
     },
     {
       "repo_url": "https://github.com/notofonts/gujarati",
+      "rev": "442d6c6956f31b4a858c58eb685e2bf9601cb5a9",
+      "config": "google/fonts/ofl/notosansgujaratiui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/gujarati",
       "rev": "825b7f9e39b0eea6f02a4646ffa4ce18d482250a",
       "config": "sources/config-sans-gujarati.yaml"
     },
@@ -5073,6 +4996,12 @@
       "repo_url": "https://github.com/notofonts/gunjala-gondi",
       "rev": "ab82937f84db18fad4493b1c689c8f8852ad13ed",
       "config": "sources/config-sans-gunjala-gondi.yaml"
+    },
+    {
+      "repo_url": "https://github.com/notofonts/gurmukhi",
+      "rev": "231c5c6e9c622c4ef3792ead7a91045af0ee610a",
+      "config": "google/fonts/ofl/notosansgurmukhiui/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/gurmukhi",
@@ -5159,7 +5088,14 @@
     {
       "repo_url": "https://github.com/notofonts/kannada",
       "rev": "b0e78acf3176fb4d30c95ece3825ef8561dbd7aa",
-      "config": "sources/config-serif-kannada.yaml"
+      "config": "sources/config-serif-kannada.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/kannada",
+      "rev": "d56201c60822b83c3928072dc58d8f62c7016a45",
+      "config": "google/fonts/ofl/notosanskannadaui/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/kawi",
@@ -5192,6 +5128,13 @@
       "config": "sources/config-serif-khmer.yaml"
     },
     {
+      "repo_url": "https://github.com/notofonts/khmer",
+      "rev": "63b7c368a24767787e5b2665f43b726f01b81430",
+      "config": "google/fonts/ofl/notosanskhmerui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
       "repo_url": "https://github.com/notofonts/khojki",
       "rev": "02e25bf94664812076be4fa7dd1d688641e4bf8a",
       "config": "sources/config-serif-khojki.yaml",
@@ -5221,6 +5164,27 @@
       "repo_url": "https://github.com/notofonts/lao",
       "rev": "ab77daf4d8d6d9564da2dae84ae31bd9c971090f",
       "config": "sources/config-serif-lao.yaml"
+    },
+    {
+      "repo_url": "https://github.com/notofonts/lao",
+      "rev": "d60e676a54d9fa09baab98e9930ef2933f497536",
+      "config": "google/fonts/ofl/notosanslaoui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/latin-greek-cyrillic",
+      "rev": "41644bc7a679a27da9b44d1875e6a5f651c80674",
+      "config": "google/fonts/ofl/notosansdisplay/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/latin-greek-cyrillic",
+      "rev": "41644bc7a679a27da9b44d1875e6a5f651c80674",
+      "config": "google/fonts/ofl/notoserifdisplay/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/latin-greek-cyrillic",
@@ -5276,6 +5240,13 @@
       "repo_url": "https://github.com/notofonts/makasar",
       "rev": "e7902cc5d89ed7d091c247c855f516fe49f8b6ac",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/notofonts/malayalam",
+      "rev": "0fd65e553a6af3dc1c09ed39dfe8933e01c17b32",
+      "config": "google/fonts/ofl/notosansmalayalamui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/malayalam",
@@ -5369,8 +5340,22 @@
     },
     {
       "repo_url": "https://github.com/notofonts/myanmar",
+      "rev": "57be35a771cf5da0271db8521c48a1cfdc4d2126",
+      "config": "google/fonts/ofl/notoserifmyanmar/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/myanmar",
       "rev": "bd348056676051ac9076de5737436f0308b0de29",
-      "config": "sources/config-sans-myanmar.yaml"
+      "config": "sources/config-sans-myanmar.yaml",
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/myanmar",
+      "rev": "ed95e81c048ccf83bcbba0d409a78153bfa233d7",
+      "config": "google/fonts/ofl/notosansmyanmarui/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/notofonts/nabataean",
@@ -5493,6 +5478,13 @@
     },
     {
       "repo_url": "https://github.com/notofonts/oriya",
+      "rev": "1f6ceddd27226ad9b6bb878b4c9d6c53ee9262b4",
+      "config": "google/fonts/ofl/notosansoriyaui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
+      "repo_url": "https://github.com/notofonts/oriya",
       "rev": "795268df4e01d7869805c7af179e5038568212e9",
       "config": "sources/config-serif-oriya.yaml",
       "has_rev_conflict": true
@@ -5586,6 +5578,13 @@
       "repo_url": "https://github.com/notofonts/sign-writing",
       "rev": "a0a0e9a8691ea81cfd32f7afb971c1ed4bf58f9a",
       "config": "sources/config-sans-sign-writing.yaml"
+    },
+    {
+      "repo_url": "https://github.com/notofonts/sinhala",
+      "rev": "032355e96de5bac83fd996535af3d13b1fbfeccf",
+      "config": "google/fonts/ofl/notosanssinhalaui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/sinhala",
@@ -5697,6 +5696,13 @@
       "config": "sources/config-serif-tamil.yaml"
     },
     {
+      "repo_url": "https://github.com/notofonts/tamil",
+      "rev": "bc7886b117af378d8dbd5c91f5ea2bf8cdaffd16",
+      "config": "google/fonts/ofl/notosanstamilui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
+    },
+    {
       "repo_url": "https://github.com/notofonts/tangsa",
       "rev": "8d40c34e78702e6ec2ef9a8e2cbd6a38cd7f6d4a",
       "config": "sources/config-sans-tangsa.yaml"
@@ -5705,6 +5711,13 @@
       "repo_url": "https://github.com/notofonts/tangut",
       "rev": "bc79cdc478cd198b4ea77827c42a50dbb3613187",
       "config": "sources/config-serif-tangut.yaml"
+    },
+    {
+      "repo_url": "https://github.com/notofonts/telugu",
+      "rev": "0d8cb2a9550d76f4349915664f1115ea4c42f4ed",
+      "config": "google/fonts/ofl/notosansteluguui/config.yaml",
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/notofonts/telugu",
@@ -6569,7 +6582,7 @@
     },
     {
       "repo_url": "https://github.com/theleagueof/raleway",
-      "rev": "7b288c6faaed52cd237ec3a2e82c637d2a941fa7",
+      "rev": "938ac770222935d0d9d7b7b60e9373afd0cc5543",
       "config": "google/fonts/ofl/raleway/config.yaml",
       "config_is_external": true
     },
