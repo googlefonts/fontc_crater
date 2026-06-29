@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "647e52b1cbc941916c322994994bbe2e3a08ca6e",
+  "fonts_repo_sha": "639018367a1368374e833e10a1c0bba66ac20df1",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -2664,6 +2664,11 @@
     {
       "repo_url": "https://github.com/googlefonts/BevanFont",
       "rev": "ab1035d7823b4c53400a6007ee077ecc9324c3e5",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/Bhavuka",
+      "rev": "9a79127fc31dda5447e875d77c8bdb0aab77cc98",
       "config": "sources/config.yaml"
     },
     {
@@ -5473,7 +5478,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/old-uyghur",
-      "rev": "44b6cbf951161b70309c5e4ddff7738e76aec195",
+      "rev": "2660a2e53f4c2f59a8540b4e74634341266584e3",
       "config": "sources/config-serif-old-uyghur.yaml"
     },
     {
@@ -6724,6 +6729,12 @@
       "rev": "93b31e45b69178ecfdb48981a5aa8a8b33bb0340",
       "config": "google/fonts/ofl/akayatelivigala/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/vercel/geist-font",
+      "rev": "10dc7658f13c38a474cde201bb09a4617267545b",
+      "config": "sources/config-GeistPixel.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/vercel/geist-font",
