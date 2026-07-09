@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "647e52b1cbc941916c322994994bbe2e3a08ca6e",
+  "fonts_repo_sha": "58c765efa75a22363a2e0a44bbeb1304eb67216f",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -1366,7 +1366,7 @@
     },
     {
       "repo_url": "https://github.com/alan-eu/Alan-Sans",
-      "rev": "425d3a0674a49f0ad6bc6ceef5ca0c557b520838",
+      "rev": "281c0703f74926de5a211b980e55e739986ace6f",
       "config": "sources/config.yaml"
     },
     {
@@ -2172,12 +2172,6 @@
       "config": "Source/builder.yaml"
     },
     {
-      "repo_url": "https://github.com/davelab6/cantarell",
-      "rev": "52d3363878871c868eaeb64c75a701c1193750af",
-      "config": "google/fonts/ofl/cantarell/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/dharmatype/Bebas-Neue",
       "rev": "686d14af640c17af3691c597778f121d840d9051",
       "config": "google/fonts/ofl/bebasneue/config.yaml",
@@ -2432,12 +2426,6 @@
       "config_is_external": true
     },
     {
-      "repo_url": "https://github.com/etunni/glegoo",
-      "rev": "a6b0a10abfaf1b88feb4a9f9eb731beefbb4bbb8",
-      "config": "google/fonts/ofl/glegoo/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/etunni/graduate",
       "rev": "d6031c4ce60208e8e68f5e4dee771420d22c3815",
       "config": "sources/config.yaml"
@@ -2667,6 +2655,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/Bhavuka",
+      "rev": "5a9c2de51b99f4a5735c1dba6a883a2d9be4caab",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/Bruno-ace",
       "rev": "58dc219db32ffd9eaf573f2dc3be2e342410e15a",
       "config": "sources/brunoace-regular.yaml"
@@ -2675,6 +2668,11 @@
       "repo_url": "https://github.com/googlefonts/Bruno-ace",
       "rev": "58dc219db32ffd9eaf573f2dc3be2e342410e15a",
       "config": "sources/brunoacesc-regular.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/Chathura",
+      "rev": "e480434f75f149a18073913a0c5f041b0c2829c3",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/Crimson",
@@ -2794,6 +2792,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/Ranga",
+      "rev": "47116eb916be5a95fbf6ba6f3795badbc15a2265",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/Roboto-Flex",
       "rev": "739e06dc46ebb14cddd88b9768a6c1504d4677f6",
       "config": "sources/config.yaml"
@@ -2859,6 +2862,11 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/allan",
+      "rev": "1d8c9a6e724cb21b6ff85293761a89ed0d59d20c",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/allison",
       "rev": "fe224232fbcf0a6db60877e835df7219a99784f3",
       "config": "sources/config.yml"
@@ -2902,6 +2910,11 @@
     {
       "repo_url": "https://github.com/googlefonts/anaheimFont",
       "rev": "2b346ea7993c2e4eee6224d4bd2c143cc65b54d9",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/antic",
+      "rev": "3ec1e049557adb294e645099745789a63feba703",
       "config": "sources/config.yaml"
     },
     {
@@ -2967,6 +2980,11 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/bentham",
+      "rev": "e5fe7fcc66269491f3ccd6cf5ee69d7dfd3b8316",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/bilbo",
       "rev": "1ffb16299d6f1ae0304a0ed6a36a95acbb1148e3",
       "config": "sources/config.yml"
@@ -2992,6 +3010,11 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/buda",
+      "rev": "c53669f67b2d293b48e43a1b394ef39ff08200de",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/buenard",
       "rev": "cf400a29bbb4c8d850c221aa5b9835e8783648fb",
       "config": "sources/config.yaml"
@@ -3003,6 +3026,11 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/cantarell",
+      "rev": "1684004f92b47dbaa3ee7db870091d4d66c5dd8a",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/caramel",
       "rev": "87aff25878217835c9d22342d60678d4dcf8be75",
       "config": "sources/config.yml"
@@ -3011,6 +3039,16 @@
       "repo_url": "https://github.com/googlefonts/carattere",
       "rev": "18fbebe0c73ec82068be167eb3e63a795bd814ac",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/carme",
+      "rev": "bddcc27d905baa14d9736bb0483ab20b5acf5434",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/caudex",
+      "rev": "2cd095f7ea63c324e8a5f0135acb6a330f2842f8",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/caveat",
@@ -3064,6 +3102,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/creepster",
+      "rev": "1c79da6f4d0cc0835ba16d20aba5c113e6245e7e",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/cutivemono",
       "rev": "4422d783b81be0fcec82ef3610eac94784d989c1",
       "config": "sources/config.yaml"
@@ -3099,6 +3142,11 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/dorsa",
+      "rev": "3d21216a5f3d62b466464dd6c7fbcb945ab67144",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/dosis-vf",
       "rev": "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b",
       "config": "sources/config.yaml"
@@ -3106,6 +3154,11 @@
     {
       "repo_url": "https://github.com/googlefonts/dynapuff",
       "rev": "d1b4a98067a23e7ffbcf5b3665a887241983857b",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/eater",
+      "rev": "6c5ace2f3226138bc19b92312a0a82ff6cf6861f",
       "config": "sources/config.yaml"
     },
     {
@@ -3154,6 +3207,11 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/geo",
+      "rev": "95c7f776abbeab9ccbb97d91ee68b1dfb72885f5",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/geologica",
       "rev": "685f38d7c9e86b0c8530204c97ddcaf6558dd17b",
       "config": "sources/config.yaml"
@@ -3171,6 +3229,11 @@
     {
       "repo_url": "https://github.com/googlefonts/gidugu",
       "rev": "834c5de1862debc558e536377bc3ebc1c35bf958",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/glegoo",
+      "rev": "f33250e4771fc7535fbbe847c4d9787396dff0a9",
       "config": "sources/config.yaml"
     },
     {
@@ -3230,6 +3293,11 @@
       "repo_url": "https://github.com/googlefonts/gwendolyn",
       "rev": "8ab228a0fd9cc201781ce4596cb039330b504e57",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/headlandone",
+      "rev": "fe8d141e82ed1697ae76dcea8c524acb2eef0490",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/hurricane",
@@ -4354,12 +4422,6 @@
       "config_is_external": true
     },
     {
-      "repo_url": "https://github.com/librefonts/carme",
-      "rev": "823391960931cedd0b9cb7caf0fcae71c4bd59ba",
-      "config": "google/fonts/ofl/carme/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/librefonts/codystar",
       "rev": "e32d050fbb01232b6a85423b121da89f21bba8b3",
       "config": "google/fonts/ofl/codystar/config.yaml",
@@ -4792,7 +4854,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/batak",
-      "rev": "fc86bc4c723d242557799aef77634ef49033b28e",
+      "rev": "139c2a6c256d72c560f894569c799d6bf090ba72",
       "config": "sources/config-sans-batak.yaml"
     },
     {
@@ -5473,7 +5535,7 @@
     },
     {
       "repo_url": "https://github.com/notofonts/old-uyghur",
-      "rev": "44b6cbf951161b70309c5e4ddff7738e76aec195",
+      "rev": "2660a2e53f4c2f59a8540b4e74634341266584e3",
       "config": "sources/config-serif-old-uyghur.yaml"
     },
     {
@@ -6724,6 +6786,12 @@
       "rev": "93b31e45b69178ecfdb48981a5aa8a8b33bb0340",
       "config": "google/fonts/ofl/akayatelivigala/config.yaml",
       "config_is_external": true
+    },
+    {
+      "repo_url": "https://github.com/vercel/geist-font",
+      "rev": "10dc7658f13c38a474cde201bb09a4617267545b",
+      "config": "sources/config-GeistPixel.yaml",
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/vercel/geist-font",
