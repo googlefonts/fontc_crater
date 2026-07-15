@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "58c765efa75a22363a2e0a44bbeb1304eb67216f",
+  "fonts_repo_sha": "7fb1393a205555a7ef79239566f4218bc768ee77",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -2857,6 +2857,26 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/abel",
+      "rev": "a68e5cfb801dfe266cdd8f5651e977f330757df2",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/acme",
+      "rev": "d78cd61343e6d3bb3d00d8836d727fa1b7ac02fa",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/aguafinascript",
+      "rev": "0cd0eecf14f34e946400cb472a9241616e4833ac",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/aladin",
+      "rev": "b9b4da7c18ceab08e86942dd5a0a181a6f2d1be3",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/alex-brush",
       "rev": "1a50bd10383f6c5416f5b4806a9368fd2009ea8c",
       "config": "sources/config.yml"
@@ -2864,6 +2884,11 @@
     {
       "repo_url": "https://github.com/googlefonts/allan",
       "rev": "1d8c9a6e724cb21b6ff85293761a89ed0d59d20c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/allerta",
+      "rev": "2efd2499258022f0a5b1887da95ecfc62a5793cd",
       "config": "sources/config.yaml"
     },
     {
@@ -2880,6 +2905,21 @@
       "repo_url": "https://github.com/googlefonts/allura",
       "rev": "38a78b41510a10b1129c50fa5177b642bd2b4a19",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/almendra",
+      "rev": "988cfa73bbc740e8a263da7a9c94c405d1436530",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/almendradisplay",
+      "rev": "d0f84bf66891b9e398cec31f5f7314897f897ee2",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/almendrasc",
+      "rev": "e4303f5636ecd733268fc4ae29dd16d2c894cc3d",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/alumni",
@@ -2902,6 +2942,11 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/amarante",
+      "rev": "46979134e6b96a867f1441e91d06bbecc3eba8d2",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/amaranth",
       "rev": "f4f60a57f54a04186030913a86e3e56105bbe848",
       "config": "google/fonts/ofl/amaranth/config.yaml",
@@ -2918,9 +2963,34 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/anticdidone",
+      "rev": "a69ba5c398a94f60b93bf779c1d9c2dc27975258",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/anticslab",
+      "rev": "94821708c44ba2ac3c9bcd011141dbb888b0b26d",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/antonioFont",
       "rev": "08562998b10c6c21a3505f47236b42f5d58c9909",
       "config": "Sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/arbutus",
+      "rev": "1da75e32e2a7adc3225e7e88f7963ed2e84f48cb",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/arbutusslab",
+      "rev": "9188ac0bb9ae152e9c4e6ee8c726f4636babb86f",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/architectsdaughter",
+      "rev": "0912d302495d684898c33d02a4a0f24f32ec3da3",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/are-you-serious",
@@ -2939,6 +3009,21 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/armata",
+      "rev": "acd66b422a3b61baae8fee57c197e9f782b87f57",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/astloch",
+      "rev": "48ba7212e16d35d8f5991fac7f46c8c134106d30",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/asul",
+      "rev": "d3179dc9cff2434b299a698af0183d191e31e925",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/atkinson-hyperlegible",
       "rev": "1cb311624b2ddf88e9e37873999d165a8cd28b46",
       "config": "sources/config.yml"
@@ -2954,6 +3039,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/autourone",
+      "rev": "11d97fbce17c2eb0a2eb88eb560c4ecf8e7645ac",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/averagesans",
+      "rev": "25392b948053363b34308e1f95e29c5401997b00",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/babylonica",
       "rev": "7b1c733f74a11604a711e87f840010e0746cfcd1",
       "config": "sources/config.yml"
@@ -2962,6 +3057,11 @@
       "repo_url": "https://github.com/googlefonts/bakbak",
       "rev": "b53b9c31c16f0021b7c206a57a8f04a4d382bc67",
       "config": "sources/builder.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/balthazar",
+      "rev": "40ec71e48349bc565c42eb3c750b50a5d8d19087",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/bangers",
@@ -2980,14 +3080,34 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/belgrano",
+      "rev": "e79e00337ef13f738009b16d2909cc2dd17af344",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/benchnine",
+      "rev": "dd9d771443fa68ea48ef0819d28fc64e0fded42f",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/bentham",
       "rev": "e5fe7fcc66269491f3ccd6cf5ee69d7dfd3b8316",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bigshotone",
+      "rev": "354d1d8880d46e04cf3b57980e6d56d1a5e1400d",
       "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/bilbo",
       "rev": "1ffb16299d6f1ae0304a0ed6a36a95acbb1148e3",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bilboswashcaps",
+      "rev": "ee601350e786d859e659a17d05934e1a62cb4785",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/birthstone",
@@ -3008,6 +3128,11 @@
       "repo_url": "https://github.com/googlefonts/bonheur-royale",
       "rev": "90087bb825c798641a29d2a1114ce7acd4048b0b",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/boogaloo",
+      "rev": "254753cf202453c11d1aa39066b9ca5294d2dc5f",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/buda",
@@ -4401,18 +4526,6 @@
       "repo_url": "https://github.com/liamspradlin/Girassol-Display",
       "rev": "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa",
       "config": "google/fonts/ofl/girassol/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/benchnine",
-      "rev": "0b2979e19186f9b477fd3bde7ae77932933707eb",
-      "config": "google/fonts/ofl/benchnine/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/bigshotone",
-      "rev": "b8d1fa459ee9a43fbe1d7fd07b570878206bd6d5",
-      "config": "google/fonts/ofl/bigshotone/config.yaml",
       "config_is_external": true
     },
     {
