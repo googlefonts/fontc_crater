@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "7fb1393a205555a7ef79239566f4218bc768ee77",
+  "fonts_repo_sha": "389b770410cc0b7c21c85673bfa2077420fe7f65",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -3135,6 +3135,31 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/bowlbyone",
+      "rev": "d469e83e10f7c1e7294e5586da5da1d9725f417c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bowlbyonesc",
+      "rev": "7fc977deba6f6a55ede3fd17ebfc9d299afdfd83",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/breeserif",
+      "rev": "80b004f6325a65a90f50de70facec1c98d36ff9d",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bubblegumsans",
+      "rev": "ad8f70f6b46d0c3e66f2e38f943435eb2b6bb625",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bubblerone",
+      "rev": "110b02cb1d151f5c8288d01c98121bab0094da19",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/buda",
       "rev": "c53669f67b2d293b48e43a1b394ef39ff08200de",
       "config": "sources/config.yaml"
@@ -3145,14 +3170,39 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/butcherman",
+      "rev": "f4f7f3e2cd993e09bb72e154c5fd34f3dc99d3c0",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cagliostro",
+      "rev": "871f5caf05c9d0a09e8eb11f9c43e27bb8679673",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/caladea",
       "rev": "336a529cfad3d103d6527752686f8331d13e820a",
       "config": "google/fonts/ofl/caladea/config.yaml",
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/cambo",
+      "rev": "a2c35dbad5014c97b1ca438b895d95c7411e0e04",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/candal",
+      "rev": "ed7ac22d003047196e34bcf6465f2ad5871493e8",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/cantarell",
       "rev": "1684004f92b47dbaa3ee7db870091d4d66c5dd8a",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cantataone",
+      "rev": "12fb64c8cad39f95d18ea97713683cdebe08693a",
       "config": "sources/config.yaml"
     },
     {
@@ -3171,6 +3221,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/carterone",
+      "rev": "dfb0d97f8eb2fa66680b6098cdde15277b069b2b",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/caudex",
       "rev": "2cd095f7ea63c324e8a5f0135acb6a330f2842f8",
       "config": "sources/config.yaml"
@@ -3182,14 +3237,44 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/cevicheone",
+      "rev": "1af833a0fd47b174386916453a54e6bf1f6d5a34",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/changa-vf",
       "rev": "fb3207d4fe7234f610d0d4ef77dce01cfda57027",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/chango",
+      "rev": "fed28f46958e46610efc52780476adcfc91745e6",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/chauphilomeneone",
+      "rev": "d7246600bbdfd898596bb8ebab13c484e5b21a55",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/chelaone",
+      "rev": "cb7da0a381984ec348a9c88e2095f9592149c838",
       "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/cherish",
       "rev": "fd3a5b6b7fa7865540892380eb94290c2d49227b",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cherryswash",
+      "rev": "f1c0f2dbc3f64ef4f85e54544626e6d629599e4c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/chicle",
+      "rev": "f68c0fa9e45e089b7cb3fb7bbef873b9e7bf8123",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/comforter",
@@ -3204,6 +3289,36 @@
     {
       "repo_url": "https://github.com/googlefonts/comme",
       "rev": "45a6e22afc31eb55a46c9b4da4a25ed374886ebf",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/concertone",
+      "rev": "b002b9370c7365b13d6a79e4718eb6aa8e3d0dc6",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/condiment",
+      "rev": "a89340dd6409f34edd3d00dba5326e870b910f2a",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/contrailone",
+      "rev": "755f2a5959072b2ce7e09b555cc55917bf3c7ce0",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/convergence",
+      "rev": "0f57768c9ddc32b357bf4d32897b8ea4e846d71e",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/cookie",
+      "rev": "a86099c7b0fb4176bea1657e2b9e66ac3ab85513",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/copse",
+      "rev": "3022d037cd17945ad478f853ce401fc51185f8d0",
       "config": "sources/config.yaml"
     },
     {
@@ -3222,13 +3337,33 @@
       "config": "sources/config-titre.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/courgette",
+      "rev": "dcdd6f44e43530c55ae4d154b23b8f2fbb0e137f",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/coustardFont",
       "rev": "84d4ef2fbb8e87ba843d49308b98eeb4a874be91",
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/coveredbyyourgrace",
+      "rev": "705a49490c07c9e76f1ba8dc2d4f56d1b7bbf42c",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/creepster",
       "rev": "1c79da6f4d0cc0835ba16d20aba5c113e6245e7e",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/creteround",
+      "rev": "65f7a13699e262832f4fa0cd2a61908da6da811d",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/croissantone",
+      "rev": "0747cf401c74b546f997a820cb036a39513ba09c",
       "config": "sources/config.yaml"
     },
     {
@@ -4526,12 +4661,6 @@
       "repo_url": "https://github.com/liamspradlin/Girassol-Display",
       "rev": "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa",
       "config": "google/fonts/ofl/girassol/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/bowlbyonesc",
-      "rev": "9566646d9feaafcdc1c23174931ac4599803442b",
-      "config": "google/fonts/ofl/bowlbyonesc/config.yaml",
       "config_is_external": true
     },
     {
