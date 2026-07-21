@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "389b770410cc0b7c21c85673bfa2077420fe7f65",
+  "fonts_repo_sha": "2f6daa88e1e71320a6fe71cc91ecbfc018928737",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -3377,6 +3377,36 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/dawningofanewday",
+      "rev": "a0c504721994bbcde597e453115c481419e7c43f",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/daysone",
+      "rev": "5a4d7f229c497dd3f4cf1b8c23da954c3e45e2cf",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/delius",
+      "rev": "99e93e1a8034bf205d3978eaa98b8254a8faff3e",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/deliusswashcaps",
+      "rev": "2bcc0f94b70fdc0c94bc30d803f8c646224c1eab",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/deliusunicase",
+      "rev": "2440c19ebfa6d4a898d9b8d439e9888e7d2fd71f",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/devonshire",
+      "rev": "7a5ccf2a745c1b08c55181ce87fb522dedcbe631",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/dm-fonts",
       "rev": "027cea4e4f45827128860a4dec7b9a0852a295d7",
       "config": "google/fonts/ofl/dmserifdisplay/config.yaml",
@@ -3402,6 +3432,16 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/donegalone",
+      "rev": "3fccfd33ed0b9eefdb158aef321fc2e604127a2c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/doppioone",
+      "rev": "34f9329a27b33de4a879733d65daaee5e7eb61d5",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/dorsa",
       "rev": "3d21216a5f3d62b466464dd6c7fbcb945ab67144",
       "config": "sources/config.yaml"
@@ -3409,6 +3449,16 @@
     {
       "repo_url": "https://github.com/googlefonts/dosis-vf",
       "rev": "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/drsugiyama",
+      "rev": "67e9b2e25cd7b9bde6ea5d5001fce5da54a9e877",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/durusans",
+      "rev": "d1fe3f7222addb4f12bf8fd244a26e9304a7a376",
       "config": "sources/config.yaml"
     },
     {
@@ -3422,9 +3472,39 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/economica",
+      "rev": "03c3c4473a043aa560421b3d54d67f66d4a98a31",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/elsie",
+      "rev": "32783244780b4fdd904d5a1aa3f45a25c76ed15f",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/elsieswashcaps",
+      "rev": "411b5d70587edced2c2c23f9d4c1393be55bf5d4",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/emblemaone",
+      "rev": "79205499f351bf5c95c8dcf6121180c18789f62f",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/ephesis",
       "rev": "8b303b53193b302c8894fb4635bbd49d4420d433",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/ericaone",
+      "rev": "34ddbe60f433f69a959c8200e97b8b9be4499900",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/esteban",
+      "rev": "6e017f92549326738359a4c43c5ac7302ca773f7",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/estonia",
