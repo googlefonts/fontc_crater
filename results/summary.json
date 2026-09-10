@@ -16,7 +16,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 68.696434,
       "diff_perc_excluding_failures": 85.67007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-07-24T00:00:00.761184Z",
@@ -35,7 +36,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 71.35411,
       "diff_perc_excluding_failures": 85.332054
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-01T00:00:00.788526Z",
@@ -54,7 +56,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 71.97932,
       "diff_perc_excluding_failures": 85.28417
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-08T00:00:00.771470Z",
@@ -73,7 +76,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 73.85829,
       "diff_perc_excluding_failures": 85.149574
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-14T22:25:20.099105Z",
@@ -92,7 +96,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 74.24816,
       "diff_perc_excluding_failures": 86.87446
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-16T19:40:10.694689Z",
@@ -111,7 +116,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 74.3115,
       "diff_perc_excluding_failures": 87.1096
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-22T21:06:37.484252Z",
@@ -130,7 +136,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 75.01422,
       "diff_perc_excluding_failures": 87.12661
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-23T18:03:25.881222Z",
@@ -149,7 +156,8 @@
       "other_failure": 8,
       "diff_perc_including_failures": 74.30917,
       "diff_perc_excluding_failures": 87.106865
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-08-24T01:06:31.316166Z",
@@ -168,7 +176,8 @@
       "other_failure": 6,
       "diff_perc_including_failures": 74.975296,
       "diff_perc_excluding_failures": 87.5634
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-03T17:08:57.405139Z",
@@ -187,7 +196,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 75.589485,
       "diff_perc_excluding_failures": 87.633965
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-04T02:57:10.230284Z",
@@ -206,7 +216,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 76.78913,
       "diff_perc_excluding_failures": 89.35206
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-04T21:32:20.634293Z",
@@ -225,7 +236,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 77.08404,
       "diff_perc_excluding_failures": 89.36666
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-06T15:09:29.888044Z",
@@ -244,7 +256,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 77.21559,
       "diff_perc_excluding_failures": 89.35552
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-07T05:01:28.456379Z",
@@ -263,7 +276,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 77.07435,
       "diff_perc_excluding_failures": 89.35542
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-08T05:01:28.127783Z",
@@ -282,7 +296,8 @@
       "other_failure": 7,
       "diff_perc_including_failures": 76.45369,
       "diff_perc_excluding_failures": 89.29001
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-11T19:30:49.401337Z",
@@ -301,7 +316,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 77.265045,
       "diff_perc_excluding_failures": 89.41276
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-12T05:01:27.139529Z",
@@ -320,7 +336,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 77.12335,
       "diff_perc_excluding_failures": 89.41224
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-17T05:01:22.902984Z",
@@ -339,7 +356,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 77.11611,
       "diff_perc_excluding_failures": 89.40385
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-17T22:03:17.141951Z",
@@ -358,7 +376,8 @@
       "other_failure": 5,
       "diff_perc_including_failures": 79.82218,
       "diff_perc_excluding_failures": 93.052376
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-09-20T05:01:29.706779Z",
@@ -377,7 +396,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 79.27738,
       "diff_perc_excluding_failures": 92.58778
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-02T05:01:29.518443Z",
@@ -396,7 +416,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 79.27948,
       "diff_perc_excluding_failures": 92.59025
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-03T05:01:46.409349Z",
@@ -415,7 +436,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 81.15715,
       "diff_perc_excluding_failures": 94.60862
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-03T13:55:12.858936Z",
@@ -434,7 +456,8 @@
       "other_failure": 8,
       "diff_perc_including_failures": 81.68101,
       "diff_perc_excluding_failures": 95.925934
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-04T05:01:40.069259Z",
@@ -453,7 +476,8 @@
       "other_failure": 6,
       "diff_perc_including_failures": 83.05261,
       "diff_perc_excluding_failures": 95.76012
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-05T05:01:35.490674Z",
@@ -472,7 +496,8 @@
       "other_failure": 5,
       "diff_perc_including_failures": 84.138855,
       "diff_perc_excluding_failures": 95.791176
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-07T17:56:40.146306Z",
@@ -491,7 +516,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 82.017494,
       "diff_perc_excluding_failures": 93.20838
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-07T23:01:33.911433Z",
@@ -510,7 +536,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 82.0094,
       "diff_perc_excluding_failures": 93.199196
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-08T17:01:33.946294Z",
@@ -529,7 +556,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 82.0424,
       "diff_perc_excluding_failures": 93.236694
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-08T23:01:32.748087Z",
@@ -548,7 +576,8 @@
       "other_failure": 5,
       "diff_perc_including_failures": 85.50629,
       "diff_perc_excluding_failures": 97.347984
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-09T17:01:40.186868Z",
@@ -567,7 +596,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 85.81975,
       "diff_perc_excluding_failures": 97.35466
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-09T23:01:42.504758Z",
@@ -586,7 +616,8 @@
       "other_failure": 7,
       "diff_perc_including_failures": 84.89678,
       "diff_perc_excluding_failures": 97.35447
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-10T23:01:40.095102Z",
@@ -605,7 +636,8 @@
       "other_failure": 5,
       "diff_perc_including_failures": 85.51112,
       "diff_perc_excluding_failures": 97.353485
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-12T11:01:41.001829Z",
@@ -624,7 +656,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 85.82398,
       "diff_perc_excluding_failures": 97.35947
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-14T11:01:35.263733Z",
@@ -643,7 +676,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 85.841545,
       "diff_perc_excluding_failures": 97.37938
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-14T17:01:51.640492Z",
@@ -662,7 +696,8 @@
       "other_failure": 6,
       "diff_perc_including_failures": 85.21117,
       "diff_perc_excluding_failures": 97.36221
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-14T23:01:36.497558Z",
@@ -681,7 +716,8 @@
       "other_failure": 7,
       "diff_perc_including_failures": 85.0536,
       "diff_perc_excluding_failures": 97.35792
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-15T05:01:39.148082Z",
@@ -700,7 +736,8 @@
       "other_failure": 7,
       "diff_perc_including_failures": 85.1178,
       "diff_perc_excluding_failures": 97.431404
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-15T17:01:38.774385Z",
@@ -719,7 +756,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 85.68869,
       "diff_perc_excluding_failures": 97.38051
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-16T16:01:41.779867Z",
@@ -738,7 +776,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 85.71997,
       "diff_perc_excluding_failures": 97.59126
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-16T18:01:42.849090Z",
@@ -757,7 +796,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-16T21:01:38.737249Z",
@@ -776,7 +816,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-16T22:01:40.417258Z",
@@ -795,7 +836,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-17T08:01:32.078201Z",
@@ -814,7 +856,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-17T21:01:34.698760Z",
@@ -833,7 +876,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-18T08:01:45.488119Z",
@@ -852,7 +896,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-18T15:01:40.444766Z",
@@ -871,7 +916,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-18T16:01:36.097824Z",
@@ -890,7 +936,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 85.64191,
       "diff_perc_excluding_failures": 97.50239
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-22T16:01:37.297971Z",
@@ -909,7 +956,8 @@
       "other_failure": 3,
       "diff_perc_including_failures": 86.06148,
       "diff_perc_excluding_failures": 97.45423
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-23T00:01:40.352055Z",
@@ -928,7 +976,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 86.21484,
       "diff_perc_excluding_failures": 97.45357
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-24T22:13:55.986168Z",
@@ -947,7 +996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 86.53694,
       "diff_perc_excluding_failures": 97.53992
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-25T16:02:09.423433Z",
@@ -966,7 +1016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 85.87022,
       "diff_perc_excluding_failures": 97.501465
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-28T22:01:38.143655Z",
@@ -985,7 +1036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 85.87024,
       "diff_perc_excluding_failures": 97.501495
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-29T01:02:00.887432Z",
@@ -1004,7 +1056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.59815,
       "diff_perc_excluding_failures": 92.14119
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-29T10:01:53.241962Z",
@@ -1023,7 +1076,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 74.530914,
       "diff_perc_excluding_failures": 92.15756
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-29T13:01:53.993567Z",
@@ -1042,7 +1096,8 @@
       "other_failure": 4,
       "diff_perc_including_failures": 74.35643,
       "diff_perc_excluding_failures": 92.14081
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-29T19:01:51.366048Z",
@@ -1061,7 +1116,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 74.37116,
       "diff_perc_excluding_failures": 92.159065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-30T15:01:47.475060Z",
@@ -1080,7 +1136,8 @@
       "other_failure": 5,
       "diff_perc_including_failures": 74.508965,
       "diff_perc_excluding_failures": 92.23002
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-30T19:02:48.792766Z",
@@ -1099,7 +1156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.5466,
       "diff_perc_excluding_failures": 92.17695
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-30T20:02:59.579632Z",
@@ -1118,7 +1176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.63061,
       "diff_perc_excluding_failures": 92.181274
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-30T21:03:00.289661Z",
@@ -1137,7 +1196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.70221,
       "diff_perc_excluding_failures": 92.17029
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-31T16:03:00.628569Z",
@@ -1156,7 +1216,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 70.70968,
       "diff_perc_excluding_failures": 88.0028
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-31T18:03:01.257902Z",
@@ -1175,7 +1236,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 70.70968,
       "diff_perc_excluding_failures": 88.0028
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-31T19:03:01.502972Z",
@@ -1194,7 +1256,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 70.703735,
       "diff_perc_excluding_failures": 87.995415
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-10-31T20:02:58.595883Z",
@@ -1213,7 +1276,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 78.184875,
       "diff_perc_excluding_failures": 97.20052
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-01T11:02:56.937507Z",
@@ -1232,7 +1296,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 78.10335,
       "diff_perc_excluding_failures": 97.20471
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-01T16:03:01.181072Z",
@@ -1251,7 +1316,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 78.18411,
       "diff_perc_excluding_failures": 97.19958
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-06T23:03:12.097617Z",
@@ -1270,7 +1336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.952866,
       "diff_perc_excluding_failures": 96.80697
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-07T16:03:25.497474Z",
@@ -1289,7 +1356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26557,
       "diff_perc_excluding_failures": 97.19531
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-07T22:03:08.522323Z",
@@ -1308,7 +1376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26578,
       "diff_perc_excluding_failures": 97.195564
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-13T17:03:12.932098Z",
@@ -1327,7 +1396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26811,
       "diff_perc_excluding_failures": 97.19847
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-13T22:02:57.680842Z",
@@ -1346,7 +1416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26178,
       "diff_perc_excluding_failures": 97.190605
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-13T23:02:59.086119Z",
@@ -1365,7 +1436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26338,
       "diff_perc_excluding_failures": 97.1926
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-14T01:03:03.484968Z",
@@ -1384,7 +1456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26486,
       "diff_perc_excluding_failures": 97.194435
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-14T20:02:54.411541Z",
@@ -1403,7 +1476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.264145,
       "diff_perc_excluding_failures": 97.19354
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-14T22:03:09.141941Z",
@@ -1422,7 +1496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.265495,
       "diff_perc_excluding_failures": 97.19521
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-15T17:02:57.099797Z",
@@ -1441,7 +1516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26641,
       "diff_perc_excluding_failures": 97.19635
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-15T21:03:00.067030Z",
@@ -1460,7 +1536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.26656,
       "diff_perc_excluding_failures": 97.19654
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-19T23:02:56.395280Z",
@@ -1479,7 +1556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.437164,
       "diff_perc_excluding_failures": 97.19757
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-20T19:03:06.478397Z",
@@ -1498,7 +1576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.264084,
       "diff_perc_excluding_failures": 97.19347
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-21T00:02:58.053949Z",
@@ -1517,7 +1596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.35346,
       "diff_perc_excluding_failures": 97.19904
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-22T17:02:56.849305Z",
@@ -1536,7 +1616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.43989,
       "diff_perc_excluding_failures": 97.20094
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-22T20:02:57.058159Z",
@@ -1555,7 +1636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.3532,
       "diff_perc_excluding_failures": 97.198715
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-11-29T01:02:54.642779Z",
@@ -1574,7 +1656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.43365,
       "diff_perc_excluding_failures": 97.298515
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-01T05:02:57.756887Z",
@@ -1593,7 +1676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.43339,
       "diff_perc_excluding_failures": 97.298195
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-03T00:02:53.510274Z",
@@ -1612,7 +1696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.34698,
       "diff_perc_excluding_failures": 97.2964
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-03T01:02:58.139686Z",
@@ -1631,7 +1716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.532425,
       "diff_perc_excluding_failures": 97.31561
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-03T12:02:53.012683Z",
@@ -1650,7 +1736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.533875,
       "diff_perc_excluding_failures": 97.31741
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-03T16:02:54.402053Z",
@@ -1669,7 +1756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53406,
       "diff_perc_excluding_failures": 97.31764
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-03T21:03:50.866139Z",
@@ -1688,7 +1776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53768,
       "diff_perc_excluding_failures": 97.32213
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-04T04:02:54.575778Z",
@@ -1707,7 +1796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53845,
       "diff_perc_excluding_failures": 97.32308
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-04T22:02:54.229743Z",
@@ -1726,7 +1816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53901,
       "diff_perc_excluding_failures": 97.32378
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-05T03:03:02.038651Z",
@@ -1745,7 +1836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53929,
       "diff_perc_excluding_failures": 97.32412
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-06T19:02:56.687274Z",
@@ -1764,7 +1856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53931,
       "diff_perc_excluding_failures": 97.32414
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-09T01:02:55.688711Z",
@@ -1783,7 +1876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53933,
       "diff_perc_excluding_failures": 97.324165
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-10T23:02:55.387666Z",
@@ -1802,7 +1896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.547134,
       "diff_perc_excluding_failures": 97.33384
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-16T16:02:56.772242Z",
@@ -1821,7 +1916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.45981,
       "diff_perc_excluding_failures": 97.33097
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2024-12-19T17:02:56.003283Z",
@@ -1840,7 +1936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.547134,
       "diff_perc_excluding_failures": 97.33384
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-04T06:02:59.273708Z",
@@ -1859,7 +1956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.37248,
       "diff_perc_excluding_failures": 97.32808
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-07T19:02:50.640661Z",
@@ -1878,7 +1976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.547165,
       "diff_perc_excluding_failures": 97.33388
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-08T20:02:51.278835Z",
@@ -1897,7 +1996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.54726,
       "diff_perc_excluding_failures": 97.33399
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-08T21:02:51.452081Z",
@@ -1916,7 +2016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.547264,
       "diff_perc_excluding_failures": 97.334
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-08T23:02:51.856317Z",
@@ -1935,7 +2036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.54737,
       "diff_perc_excluding_failures": 97.33413
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-09T18:02:53.293818Z",
@@ -1954,7 +2056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.547585,
       "diff_perc_excluding_failures": 97.334404
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-10T18:02:55.853522Z",
@@ -1973,7 +2076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.553925,
       "diff_perc_excluding_failures": 97.34225
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-16T17:02:54.577699Z",
@@ -1992,7 +2096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.55403,
       "diff_perc_excluding_failures": 97.34239
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-17T23:04:07.897769Z",
@@ -2011,7 +2116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.51669,
       "diff_perc_excluding_failures": 97.320045
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-20T19:02:56.926740Z",
@@ -2030,7 +2136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.516685,
       "diff_perc_excluding_failures": 97.32004
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-21T17:02:58.029260Z",
@@ -2049,7 +2156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.531654,
       "diff_perc_excluding_failures": 97.338585
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-23T00:02:51.148738Z",
@@ -2068,7 +2176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53166,
       "diff_perc_excluding_failures": 97.33859
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-23T11:02:49.399792Z",
@@ -2087,7 +2196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53095,
       "diff_perc_excluding_failures": 97.33772
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-23T16:03:04.404971Z",
@@ -2106,7 +2216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.444084,
       "diff_perc_excluding_failures": 97.33505
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-23T19:03:19.454743Z",
@@ -2125,7 +2236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53674,
       "diff_perc_excluding_failures": 97.344894
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-27T12:03:06.974913Z",
@@ -2144,7 +2256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53679,
       "diff_perc_excluding_failures": 97.344955
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-28T17:02:53.964123Z",
@@ -2163,7 +2276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.53981,
       "diff_perc_excluding_failures": 97.348694
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-28T18:02:52.867628Z",
@@ -2182,7 +2296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.45312,
       "diff_perc_excluding_failures": 97.34626
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-29T20:02:59.611180Z",
@@ -2201,7 +2316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.6274,
       "diff_perc_excluding_failures": 97.45727
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-30T15:02:56.740957Z",
@@ -2220,7 +2336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.566536,
       "diff_perc_excluding_failures": 97.46477
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-30T19:02:55.234813Z",
@@ -2239,7 +2356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.57253,
       "diff_perc_excluding_failures": 97.47211
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-31T01:02:51.844387Z",
@@ -2258,7 +2376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.69185,
       "diff_perc_excluding_failures": 97.61827
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-31T17:03:04.107330Z",
@@ -2277,7 +2396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.62581,
       "diff_perc_excluding_failures": 97.641464
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-31T20:02:53.025468Z",
@@ -2296,7 +2416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.70985,
       "diff_perc_excluding_failures": 97.64031
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-01-31T21:02:53.458238Z",
@@ -2315,7 +2436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-01T00:02:54.766911Z",
@@ -2334,7 +2456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.78152,
       "diff_perc_excluding_failures": 97.62403
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-03T00:03:00.179620Z",
@@ -2353,7 +2476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-04T03:02:55.796107Z",
@@ -2372,7 +2496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.71486,
       "diff_perc_excluding_failures": 97.646454
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-04T20:03:08.641982Z",
@@ -2391,7 +2516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-05T00:03:06.648407Z",
@@ -2410,7 +2536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86496,
       "diff_perc_excluding_failures": 97.62217
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-05T17:02:51.149441Z",
@@ -2429,7 +2556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.77917,
       "diff_perc_excluding_failures": 97.62115
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-06T20:03:12.528943Z",
@@ -2448,7 +2576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86496,
       "diff_perc_excluding_failures": 97.62217
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-07T01:02:53.966191Z",
@@ -2467,7 +2596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.79892,
       "diff_perc_excluding_failures": 97.645325
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-07T15:02:59.905509Z",
@@ -2486,7 +2616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.77917,
       "diff_perc_excluding_failures": 97.62115
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-07T18:03:11.370236Z",
@@ -2505,7 +2636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.87372,
       "diff_perc_excluding_failures": 97.63287
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-07T19:02:59.153539Z",
@@ -2524,7 +2656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.90073,
       "diff_perc_excluding_failures": 97.66589
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-10T22:03:09.671543Z",
@@ -2543,7 +2676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.922066,
       "diff_perc_excluding_failures": 97.69198
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-11T01:03:09.627969Z",
@@ -2562,7 +2696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.02818,
       "diff_perc_excluding_failures": 97.821686
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-13T12:02:58.721628Z",
@@ -2581,7 +2716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.02833,
       "diff_perc_excluding_failures": 97.82186
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-13T16:03:01.503746Z",
@@ -2600,7 +2736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.0341,
       "diff_perc_excluding_failures": 97.828926
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-13T17:02:52.875983Z",
@@ -2619,7 +2756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.03416,
       "diff_perc_excluding_failures": 97.82899
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-13T18:02:58.814041Z",
@@ -2638,7 +2776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.035515,
       "diff_perc_excluding_failures": 97.83064
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-13T20:02:58.419770Z",
@@ -2657,7 +2796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.03658,
       "diff_perc_excluding_failures": 97.831955
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-14T00:02:54.063047Z",
@@ -2676,7 +2816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.03666,
       "diff_perc_excluding_failures": 97.83204
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-14T12:02:58.109818Z",
@@ -2695,7 +2836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.03963,
       "diff_perc_excluding_failures": 97.83566
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-14T15:03:25.789104Z",
@@ -2714,7 +2856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.03972,
       "diff_perc_excluding_failures": 97.83578
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-14T20:03:06.998367Z",
@@ -2733,7 +2876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.0397,
       "diff_perc_excluding_failures": 97.83577
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-17T11:03:01.086328Z",
@@ -2752,7 +2896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.108955,
       "diff_perc_excluding_failures": 97.84493
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-20T16:02:58.865550Z",
@@ -2771,7 +2916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.14705,
       "diff_perc_excluding_failures": 97.89147
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-21T19:45:52.444254Z",
@@ -2790,7 +2936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.31393,
       "diff_perc_excluding_failures": 97.35245
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-21T21:03:06.329383Z",
@@ -2809,7 +2956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.47656,
       "diff_perc_excluding_failures": 97.35574
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-24T23:02:51.389049Z",
@@ -2828,7 +2976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.29819,
       "diff_perc_excluding_failures": 97.38234
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-25T15:02:54.804090Z",
@@ -2847,7 +2996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.16002,
       "diff_perc_excluding_failures": 97.31086
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-26T13:02:51.846070Z",
@@ -2866,7 +3016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.44879,
       "diff_perc_excluding_failures": 97.27281
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-26T15:02:53.063893Z",
@@ -2885,7 +3036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.45732,
       "diff_perc_excluding_failures": 97.283264
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-26T20:02:51.049764Z",
@@ -2904,7 +3056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.3788,
       "diff_perc_excluding_failures": 97.28499
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-26T21:02:51.315202Z",
@@ -2923,7 +3076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.457344,
       "diff_perc_excluding_failures": 97.28329
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-28T16:02:49.077074Z",
@@ -2942,7 +3096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.45863,
       "diff_perc_excluding_failures": 97.28487
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-28T21:02:49.387383Z",
@@ -2961,7 +3116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.56581,
       "diff_perc_excluding_failures": 97.41609
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-02-28T23:02:50.843810Z",
@@ -2980,7 +3136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.59672,
       "diff_perc_excluding_failures": 97.41806
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-01T00:02:42.653819Z",
@@ -2999,7 +3156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.56637,
       "diff_perc_excluding_failures": 97.4788
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-01T22:20:11.460378Z",
@@ -3018,7 +3176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86975,
       "diff_perc_excluding_failures": 97.514496
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-03T18:02:54.070748Z",
@@ -3037,7 +3196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.789696,
       "diff_perc_excluding_failures": 97.51207
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-03T19:02:52.305396Z",
@@ -3056,7 +3216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.89937,
       "diff_perc_excluding_failures": 97.45539
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-03T23:02:50.742939Z",
@@ -3075,7 +3236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.8994,
       "diff_perc_excluding_failures": 97.45542
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-04T22:16:45.105478Z",
@@ -3094,7 +3256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.02144,
       "diff_perc_excluding_failures": 97.46501
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-05T02:58:02.888894Z",
@@ -3113,7 +3276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.85996,
       "diff_perc_excluding_failures": 97.495384
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-05T22:06:17.767885Z",
@@ -3132,7 +3296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86737,
       "diff_perc_excluding_failures": 97.504425
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-06T00:02:57.945716Z",
@@ -3151,7 +3316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86741,
       "diff_perc_excluding_failures": 97.50447
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-06T16:02:59.208359Z",
@@ -3170,7 +3336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.86752,
       "diff_perc_excluding_failures": 97.504616
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-06T20:03:00.734987Z",
@@ -3189,7 +3356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.867516,
       "diff_perc_excluding_failures": 97.50461
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-06T22:02:55.743368Z",
@@ -3208,7 +3376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.604485,
       "diff_perc_excluding_failures": 97.18349
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-07T16:02:57.036631Z",
@@ -3227,7 +3396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.8673,
       "diff_perc_excluding_failures": 97.50435
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-07T17:02:53.296721Z",
@@ -3246,7 +3416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.882225,
       "diff_perc_excluding_failures": 97.52256
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-07T20:02:52.308957Z",
@@ -3265,7 +3436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.19817,
       "diff_perc_excluding_failures": 97.532074
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-09T04:02:57.361145Z",
@@ -3284,7 +3456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.19818,
       "diff_perc_excluding_failures": 97.53208
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-09T14:02:54.501393Z",
@@ -3303,7 +3476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.19817,
       "diff_perc_excluding_failures": 97.532074
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-10T16:02:53.565451Z",
@@ -3322,7 +3496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.198364,
       "diff_perc_excluding_failures": 97.53231
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-11T00:02:55.368207Z",
@@ -3341,7 +3516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.19947,
       "diff_perc_excluding_failures": 97.533646
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-12T00:02:53.712605Z",
@@ -3360,7 +3536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.1995,
       "diff_perc_excluding_failures": 97.53368
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-12T19:03:05.730361Z",
@@ -3379,7 +3556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.2397,
       "diff_perc_excluding_failures": 97.58257
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-12T22:03:02.571150Z",
@@ -3398,7 +3576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.250046,
       "diff_perc_excluding_failures": 97.59515
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-12T23:02:54.878738Z",
@@ -3417,7 +3596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.24727,
       "diff_perc_excluding_failures": 97.591774
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-13T15:02:53.920064Z",
@@ -3436,7 +3616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-13T16:02:55.018631Z",
@@ -3455,7 +3636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-13T20:02:48.917125Z",
@@ -3474,7 +3656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.54297,
       "diff_perc_excluding_failures": 97.58135
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-13T22:02:49.820623Z",
@@ -3493,7 +3676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.464905,
       "diff_perc_excluding_failures": 97.580124
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-14T01:02:47.185629Z",
@@ -3512,7 +3696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-14T23:02:45.407777Z",
@@ -3531,7 +3716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-18T02:02:53.435700Z",
@@ -3550,7 +3736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-19T20:02:52.346874Z",
@@ -3569,7 +3756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-20T15:02:47.751690Z",
@@ -3588,7 +3776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.595184
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-24T23:02:49.833053Z",
@@ -3607,7 +3796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-25T15:02:50.016692Z",
@@ -3626,7 +3816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-25T17:02:48.765726Z",
@@ -3645,7 +3836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.911026,
       "diff_perc_excluding_failures": 97.57702
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-25T23:02:52.411419Z",
@@ -3664,7 +3856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.911026,
       "diff_perc_excluding_failures": 97.57702
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-26T00:02:48.424043Z",
@@ -3683,7 +3876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.250084,
       "diff_perc_excluding_failures": 97.5952
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-28T22:03:00.444828Z",
@@ -3702,7 +3896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25018,
       "diff_perc_excluding_failures": 97.59532
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-31T20:02:52.013337Z",
@@ -3721,7 +3916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.25018,
       "diff_perc_excluding_failures": 97.59532
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-03-31T21:02:57.827156Z",
@@ -3740,7 +3936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.32868,
       "diff_perc_excluding_failures": 97.597046
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-01T20:02:56.513583Z",
@@ -3759,7 +3956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.34265,
       "diff_perc_excluding_failures": 97.614006
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-02T03:02:55.666355Z",
@@ -3778,7 +3976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53206,
       "diff_perc_excluding_failures": 97.84414
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-02T15:02:53.399707Z",
@@ -3797,7 +3996,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-02T17:02:58.883538Z",
@@ -3816,7 +4016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53207,
       "diff_perc_excluding_failures": 97.84415
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-02T22:02:52.217733Z",
@@ -3835,7 +4036,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-03T15:02:54.003408Z",
@@ -3854,7 +4056,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-03T17:02:53.986051Z",
@@ -3873,7 +4076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53209,
       "diff_perc_excluding_failures": 97.84417
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-03T19:02:54.359807Z",
@@ -3892,7 +4096,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-03T20:02:54.346477Z",
@@ -3911,7 +4116,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.915955
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-04T16:02:52.726622Z",
@@ -3930,7 +4136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53211,
       "diff_perc_excluding_failures": 97.84421
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-04T21:02:50.195273Z",
@@ -3949,7 +4156,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.915955
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-07T17:02:54.143072Z",
@@ -3968,7 +4176,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.91596
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-07T21:02:53.339977Z",
@@ -3987,7 +4196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53214,
       "diff_perc_excluding_failures": 97.84423
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-08T16:02:49.753536Z",
@@ -4006,7 +4216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.535545,
       "diff_perc_excluding_failures": 97.84837
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-08T22:02:53.132955Z",
@@ -4025,7 +4236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53556,
       "diff_perc_excluding_failures": 97.84839
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-09T15:02:53.619287Z",
@@ -4044,7 +4256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-09T19:02:50.493518Z",
@@ -4063,7 +4276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-11T23:03:08.912886Z",
@@ -4082,7 +4296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-19T19:02:54.328587Z",
@@ -4101,7 +4316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.84841
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-20T16:02:54.326652Z",
@@ -4120,7 +4336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53556,
       "diff_perc_excluding_failures": 97.84839
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-23T19:02:53.776338Z",
@@ -4139,7 +4356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-23T20:02:55.547931Z",
@@ -4158,7 +4376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-23T23:02:51.992979Z",
@@ -4177,7 +4396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-24T12:02:53.456455Z",
@@ -4196,7 +4416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-24T17:02:51.845493Z",
@@ -4215,7 +4436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-25T22:02:52.349307Z",
@@ -4234,7 +4456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-27T18:03:13.592414Z",
@@ -4253,7 +4476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-30T02:02:55.668834Z",
@@ -4272,7 +4496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-04-30T18:02:53.848719Z",
@@ -4291,7 +4516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-01T17:02:48.717889Z",
@@ -4310,7 +4536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-01T18:02:51.766842Z",
@@ -4329,7 +4556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-01T19:02:53.106991Z",
@@ -4348,7 +4576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-01T22:02:54.624872Z",
@@ -4367,7 +4596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-02T00:02:53.123172Z",
@@ -4386,7 +4616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-02T20:02:59.154632Z",
@@ -4405,7 +4636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-02T21:03:04.149216Z",
@@ -4424,7 +4656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-03T03:03:10.557093Z",
@@ -4443,7 +4676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-03T10:02:54.664526Z",
@@ -4462,7 +4696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53738,
       "diff_perc_excluding_failures": 97.85059
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-04T16:02:55.423203Z",
@@ -4481,7 +4716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-04T19:03:00.167690Z",
@@ -4500,7 +4736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53738,
       "diff_perc_excluding_failures": 97.85059
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-05T19:02:55.141147Z",
@@ -4519,7 +4756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-06T17:02:53.672234Z",
@@ -4538,7 +4776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-06T18:02:54.848499Z",
@@ -4557,7 +4796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-06T23:02:51.887275Z",
@@ -4576,7 +4816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T03:02:55.781038Z",
@@ -4595,7 +4836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T13:02:53.650383Z",
@@ -4614,7 +4856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T15:02:55.573711Z",
@@ -4633,7 +4876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T17:02:53.947539Z",
@@ -4652,7 +4896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T18:02:57.131879Z",
@@ -4671,7 +4916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-07T23:03:09.405960Z",
@@ -4690,7 +4936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.458405,
       "diff_perc_excluding_failures": 97.84855
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-09T18:02:52.290843Z",
@@ -4709,7 +4956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53729,
       "diff_perc_excluding_failures": 97.850494
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-09T21:02:59.154201Z",
@@ -4728,7 +4976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.53731,
       "diff_perc_excluding_failures": 97.85051
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-12T20:03:15.566234Z",
@@ -4747,7 +4996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.71414,
       "diff_perc_excluding_failures": 97.877495
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-13T14:02:55.971653Z",
@@ -4766,7 +5016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.714134,
       "diff_perc_excluding_failures": 97.87749
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T12:02:58.455452Z",
@@ -4785,7 +5036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.454895
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T13:02:56.844797Z",
@@ -4804,7 +5056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.454895
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T14:02:52.776320Z",
@@ -4823,7 +5076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.4549
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T17:02:57.284748Z",
@@ -4842,7 +5096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T20:02:57.636201Z",
@@ -4861,7 +5116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T21:03:03.767439Z",
@@ -4880,7 +5136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72224,
       "diff_perc_excluding_failures": 98.56284
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-14T22:02:58.099125Z",
@@ -4899,7 +5156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72223,
       "diff_perc_excluding_failures": 98.562836
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-15T03:03:04.711980Z",
@@ -4918,7 +5176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-15T15:02:54.463270Z",
@@ -4937,7 +5196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72228,
       "diff_perc_excluding_failures": 98.562904
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-15T16:02:53.453649Z",
@@ -4956,7 +5216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-16T11:02:53.845376Z",
@@ -4975,7 +5236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-16T12:02:55.569561Z",
@@ -4994,7 +5256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-16T14:02:58.528018Z",
@@ -5013,7 +5276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72665,
       "diff_perc_excluding_failures": 98.5683
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-16T16:02:57.370747Z",
@@ -5032,7 +5296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72694,
       "diff_perc_excluding_failures": 98.56866
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-16T23:02:51.030364Z",
@@ -5051,7 +5316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.751045,
       "diff_perc_excluding_failures": 98.598465
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-17T14:03:10.965253Z",
@@ -5070,7 +5336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.72694,
       "diff_perc_excluding_failures": 98.56866
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-20T15:02:56.239564Z",
@@ -5089,7 +5356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.726944,
       "diff_perc_excluding_failures": 98.568665
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-20T17:02:55.149234Z",
@@ -5108,7 +5376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.726944,
       "diff_perc_excluding_failures": 98.568665
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-20T18:03:00.392198Z",
@@ -5127,7 +5396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.76969,
       "diff_perc_excluding_failures": 98.62152
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-20T22:02:56.051814Z",
@@ -5146,7 +5416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.836494,
       "diff_perc_excluding_failures": 98.7041
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-21T10:02:55.311470Z",
@@ -5165,7 +5436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.74551,
       "diff_perc_excluding_failures": 97.91553
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-21T15:03:01.347180Z",
@@ -5184,7 +5456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.74953,
       "diff_perc_excluding_failures": 97.920395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-21T19:03:14.620249Z",
@@ -5203,7 +5476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.434296,
       "diff_perc_excluding_failures": 97.91329
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T12:03:06.638659Z",
@@ -5222,7 +5496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.43503,
       "diff_perc_excluding_failures": 97.914185
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T13:03:03.401868Z",
@@ -5241,7 +5516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.43503,
       "diff_perc_excluding_failures": 97.914185
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T16:02:57.191431Z",
@@ -5260,7 +5536,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.3713,
       "diff_perc_excluding_failures": 97.930756
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T18:03:00.840819Z",
@@ -5279,7 +5556,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.292496,
       "diff_perc_excluding_failures": 97.929
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T19:02:58.919486Z",
@@ -5298,7 +5576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.450066,
       "diff_perc_excluding_failures": 97.93248
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T21:02:55.216278Z",
@@ -5317,7 +5596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45195,
       "diff_perc_excluding_failures": 97.934784
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-22T22:02:55.363210Z",
@@ -5336,7 +5616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45253,
       "diff_perc_excluding_failures": 97.935486
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-23T16:03:00.477423Z",
@@ -5355,7 +5636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-23T17:02:55.841233Z",
@@ -5374,7 +5656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-23T18:02:55.117616Z",
@@ -5393,7 +5676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-23T22:02:53.477411Z",
@@ -5412,7 +5696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.452545,
       "diff_perc_excluding_failures": 97.9355
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-23T23:02:54.588327Z",
@@ -5431,7 +5716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93552
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-27T00:03:15.986126Z",
@@ -5450,7 +5736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93552
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-27T01:03:22.107257Z",
@@ -5469,7 +5756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.452545,
       "diff_perc_excluding_failures": 97.9355
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-27T18:02:58.044273Z",
@@ -5488,7 +5776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45257,
       "diff_perc_excluding_failures": 97.935524
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-27T19:02:58.845256Z",
@@ -5507,7 +5796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45257,
       "diff_perc_excluding_failures": 97.935524
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-28T17:02:57.142603Z",
@@ -5526,7 +5816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.45259,
       "diff_perc_excluding_failures": 97.935555
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-28T18:02:59.637530Z",
@@ -5545,7 +5836,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 80.37375,
       "diff_perc_excluding_failures": 97.933754
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-29T08:02:59.030661Z",
@@ -5564,7 +5856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.453316,
       "diff_perc_excluding_failures": 97.93644
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-05-29T20:02:57.868071Z",
@@ -5583,7 +5876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.453316,
       "diff_perc_excluding_failures": 97.93644
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-02T11:02:56.143479Z",
@@ -5602,7 +5896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.46247,
       "diff_perc_excluding_failures": 97.94758
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-02T16:02:58.428763Z",
@@ -5621,7 +5916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.46336,
       "diff_perc_excluding_failures": 97.94866
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-03T16:02:57.920558Z",
@@ -5640,7 +5936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.474976,
       "diff_perc_excluding_failures": 97.9628
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-03T18:02:55.962119Z",
@@ -5659,7 +5956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.47621,
       "diff_perc_excluding_failures": 97.96431
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-04T17:03:00.875088Z",
@@ -5678,7 +5976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.84146,
       "diff_perc_excluding_failures": 98.92542
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-04T18:03:00.430377Z",
@@ -5697,7 +5996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.47739,
       "diff_perc_excluding_failures": 97.965744
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-05T12:03:15.895337Z",
@@ -5716,7 +6016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.4774,
       "diff_perc_excluding_failures": 97.96576
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-06T09:02:53.604163Z",
@@ -5735,7 +6036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.32374,
       "diff_perc_excluding_failures": 97.9671
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-06T13:02:59.854918Z",
@@ -5754,7 +6056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.4774,
       "diff_perc_excluding_failures": 97.96576
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-06T14:03:01.382896Z",
@@ -5773,7 +6076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.56411,
       "diff_perc_excluding_failures": 98.07131
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-06T17:02:58.402491Z",
@@ -5792,7 +6096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.56417,
       "diff_perc_excluding_failures": 98.07138
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-09T16:03:03.975980Z",
@@ -5811,7 +6116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.499275,
       "diff_perc_excluding_failures": 99.11439
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-10T19:03:15.068147Z",
@@ -5830,7 +6136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.55773,
       "diff_perc_excluding_failures": 99.11801
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-10T20:17:29.977645Z",
@@ -5849,7 +6156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.71415,
       "diff_perc_excluding_failures": 99.065056
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-11T14:02:56.649042Z",
@@ -5868,7 +6176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.71416,
       "diff_perc_excluding_failures": 99.06506
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-11T18:02:57.218086Z",
@@ -5887,7 +6196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.705215,
       "diff_perc_excluding_failures": 99.05409
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-11T20:02:53.898415Z",
@@ -5906,7 +6216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.70518,
       "diff_perc_excluding_failures": 99.05405
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-11T21:02:54.349042Z",
@@ -5925,7 +6236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.70553,
       "diff_perc_excluding_failures": 99.054474
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-12T15:05:41.598585Z",
@@ -5944,7 +6256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.706215,
       "diff_perc_excluding_failures": 99.05532
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-12T21:02:55.294492Z",
@@ -5963,7 +6276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.706215,
       "diff_perc_excluding_failures": 99.05532
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-13T00:07:58.973068Z",
@@ -5982,7 +6296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.7062,
       "diff_perc_excluding_failures": 99.0553
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-13T02:02:57.066358Z",
@@ -6001,7 +6316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.7062,
       "diff_perc_excluding_failures": 99.0553
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-13T15:02:55.185444Z",
@@ -6020,7 +6336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.70618,
       "diff_perc_excluding_failures": 99.055275
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-13T18:09:57.904519Z",
@@ -6039,7 +6356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.86775,
       "diff_perc_excluding_failures": 99.07045
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-17T17:02:53.095849Z",
@@ -6058,7 +6376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.86775,
       "diff_perc_excluding_failures": 99.07045
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-17T18:02:55.765992Z",
@@ -6077,7 +6396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90154,
       "diff_perc_excluding_failures": 99.11186
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-18T17:02:55.718844Z",
@@ -6096,7 +6416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.903625,
       "diff_perc_excluding_failures": 99.1144
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-18T21:02:55.177411Z",
@@ -6115,7 +6436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90367,
       "diff_perc_excluding_failures": 99.114456
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-20T02:03:16.077994Z",
@@ -6134,7 +6456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.903694,
       "diff_perc_excluding_failures": 99.114494
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-20T03:03:15.533386Z",
@@ -6153,7 +6476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.903885,
       "diff_perc_excluding_failures": 99.11472
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-06-25T11:02:58.622332Z",
@@ -6172,7 +6496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.903885,
       "diff_perc_excluding_failures": 99.11472
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-01T18:03:15.302153Z",
@@ -6191,7 +6516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.903915,
       "diff_perc_excluding_failures": 99.11476
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-01T21:03:12.506582Z",
@@ -6210,7 +6536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90394,
       "diff_perc_excluding_failures": 99.114784
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-02T18:02:54.611140Z",
@@ -6229,7 +6556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90399,
       "diff_perc_excluding_failures": 99.11485
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-03T21:02:55.061131Z",
@@ -6248,7 +6576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-09T18:02:57.984619Z",
@@ -6267,7 +6596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-14T09:02:56.319520Z",
@@ -6286,7 +6616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-14T18:05:08.354838Z",
@@ -6305,7 +6636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-15T08:02:52.180782Z",
@@ -6324,7 +6656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-16T16:02:57.881741Z",
@@ -6343,7 +6676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-16T17:02:57.765712Z",
@@ -6362,7 +6696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-17T01:02:55.710894Z",
@@ -6381,7 +6716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90447,
       "diff_perc_excluding_failures": 99.11544
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-18T14:02:53.790419Z",
@@ -6400,7 +6736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90447,
       "diff_perc_excluding_failures": 99.11544
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-18T15:02:57.827850Z",
@@ -6419,7 +6756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.892365,
       "diff_perc_excluding_failures": 99.10061
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-21T15:02:56.317020Z",
@@ -6438,7 +6776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.89235,
       "diff_perc_excluding_failures": 99.100586
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-22T14:02:58.986057Z",
@@ -6457,7 +6796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.904594,
       "diff_perc_excluding_failures": 99.115585
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-22T19:02:53.862733Z",
@@ -6476,7 +6816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.913475,
       "diff_perc_excluding_failures": 99.12647
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-23T09:02:58.716805Z",
@@ -6495,7 +6836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.91349,
       "diff_perc_excluding_failures": 99.12649
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-23T15:16:06.815371Z",
@@ -6514,7 +6856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.97083,
       "diff_perc_excluding_failures": 99.12973
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-23T17:02:55.197521Z",
@@ -6533,7 +6876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.970825,
       "diff_perc_excluding_failures": 99.12972
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-23T18:02:55.593348Z",
@@ -6552,7 +6896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.97097,
       "diff_perc_excluding_failures": 99.129906
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-25T17:03:14.158071Z",
@@ -6571,7 +6916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.97487,
       "diff_perc_excluding_failures": 99.134674
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-28T12:02:59.898661Z",
@@ -6590,7 +6936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.97434,
       "diff_perc_excluding_failures": 99.134026
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-28T18:02:58.305110Z",
@@ -6609,7 +6956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.97488,
       "diff_perc_excluding_failures": 99.13468
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-07-31T16:02:59.865096Z",
@@ -6628,7 +6976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05181,
       "diff_perc_excluding_failures": 99.13776
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-04T21:03:18.670216Z",
@@ -6647,7 +6996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05244,
       "diff_perc_excluding_failures": 99.13851
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-05T22:02:57.182868Z",
@@ -6666,7 +7016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.0498,
       "diff_perc_excluding_failures": 99.135284
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-06T11:03:04.398779Z",
@@ -6685,7 +7036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-06T18:02:58.731476Z",
@@ -6704,7 +7056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-06T19:03:00.096362Z",
@@ -6723,7 +7076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-07T00:03:23.398506Z",
@@ -6742,7 +7096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.052536,
       "diff_perc_excluding_failures": 99.13863
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-07T14:03:04.264041Z",
@@ -6761,7 +7116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.052574,
       "diff_perc_excluding_failures": 99.13868
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-08T18:03:02.676547Z",
@@ -6780,7 +7136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.052574,
       "diff_perc_excluding_failures": 99.13868
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-08T19:03:02.819675Z",
@@ -6799,7 +7156,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-11T20:04:16.603597Z",
@@ -6818,7 +7176,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-13T18:03:02.753485Z",
@@ -6837,7 +7196,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-13T19:03:19.393919Z",
@@ -6856,7 +7216,8 @@
       "other_failure": 2,
       "diff_perc_including_failures": 80.90413,
       "diff_perc_excluding_failures": 99.13918
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-14T11:03:25.759123Z",
@@ -6875,7 +7236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.05283,
       "diff_perc_excluding_failures": 99.13901
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-14T17:16:49.859368Z",
@@ -6894,7 +7256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90974,
       "diff_perc_excluding_failures": 99.14606
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-18T22:03:03.178413Z",
@@ -6913,7 +7276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90955,
       "diff_perc_excluding_failures": 99.145836
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-19T15:03:31.601833Z",
@@ -6932,7 +7296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-19T17:03:24.574888Z",
@@ -6951,7 +7316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-19T18:03:26.306032Z",
@@ -6970,7 +7336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-19T19:03:25.793714Z",
@@ -6989,7 +7356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-20T15:03:04.729970Z",
@@ -7008,7 +7376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-21T17:03:00.392374Z",
@@ -7027,7 +7396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-21T19:17:08.980374Z",
@@ -7046,7 +7416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-22T13:03:00.193267Z",
@@ -7065,7 +7436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-22T15:03:05.713928Z",
@@ -7084,7 +7456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-22T18:02:58.186932Z",
@@ -7103,7 +7476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-27T18:03:06.210956Z",
@@ -7122,7 +7496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-08-28T16:03:25.589088Z",
@@ -7141,7 +7516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.10212,
       "diff_perc_excluding_failures": 99.01744
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-05T16:03:24.128889Z",
@@ -7160,7 +7536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.14109,
       "diff_perc_excluding_failures": 99.06502
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-05T17:02:58.458660Z",
@@ -7179,7 +7556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.14109,
       "diff_perc_excluding_failures": 99.06502
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-08T16:03:05.323174Z",
@@ -7198,7 +7576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.064285,
       "diff_perc_excluding_failures": 98.98841
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-08T22:03:12.365155Z",
@@ -7217,7 +7596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.11226,
       "diff_perc_excluding_failures": 98.9993
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-09T10:03:01.919926Z",
@@ -7236,7 +7616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.11263,
       "diff_perc_excluding_failures": 98.99976
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-10T19:03:17.289695Z",
@@ -7255,7 +7636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.11263,
       "diff_perc_excluding_failures": 98.99976
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-12T14:03:05.064092Z",
@@ -7274,7 +7656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.11274,
       "diff_perc_excluding_failures": 98.99989
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-12T16:02:59.118110Z",
@@ -7293,7 +7676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.26023,
       "diff_perc_excluding_failures": 99.001686
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-12T23:31:32.844122Z",
@@ -7312,7 +7696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.19581,
       "diff_perc_excluding_failures": 98.821945
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-13T01:02:59.249970Z",
@@ -7331,7 +7716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-15T15:02:55.175694Z",
@@ -7350,7 +7736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-16T17:03:01.917123Z",
@@ -7369,7 +7756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-16T21:02:58.096953Z",
@@ -7388,7 +7776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.56083,
       "diff_perc_excluding_failures": 98.826584
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-17T10:02:58.799402Z",
@@ -7407,7 +7796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.70703,
       "diff_perc_excluding_failures": 98.82867
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-17T14:03:03.249920Z",
@@ -7426,7 +7816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.85131,
       "diff_perc_excluding_failures": 99.00318
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-17T17:03:02.030407Z",
@@ -7445,7 +7836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.143715,
       "diff_perc_excluding_failures": 99.00669
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-18T16:03:03.271027Z",
@@ -7464,7 +7856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.143715,
       "diff_perc_excluding_failures": 99.0067
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-18T18:02:59.573844Z",
@@ -7483,7 +7876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.14413,
       "diff_perc_excluding_failures": 99.007195
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-18T19:03:20.443669Z",
@@ -7502,7 +7896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.21723,
       "diff_perc_excluding_failures": 99.00807
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-19T15:03:20.250278Z",
@@ -7521,7 +7916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.217224,
       "diff_perc_excluding_failures": 99.00806
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-23T15:06:18.070770Z",
@@ -7540,7 +7936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.525536,
       "diff_perc_excluding_failures": 98.9953
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-23T20:03:33.303044Z",
@@ -7559,7 +7956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.859024,
       "diff_perc_excluding_failures": 98.99386
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-24T09:05:30.530455Z",
@@ -7578,7 +7976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.857285,
       "diff_perc_excluding_failures": 98.99177
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-24T16:04:29.238858Z",
@@ -7597,7 +7996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.6473,
       "diff_perc_excluding_failures": 99.019066
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-25T12:03:19.102700Z",
@@ -7616,7 +8016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.6473,
       "diff_perc_excluding_failures": 99.019066
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-25T16:03:19.616186Z",
@@ -7635,7 +8036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.64756,
       "diff_perc_excluding_failures": 99.019394
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-25T18:03:12.922161Z",
@@ -7654,7 +8056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.29525,
       "diff_perc_excluding_failures": 99.02454
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-26T18:03:03.655274Z",
@@ -7673,7 +8076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.29072,
       "diff_perc_excluding_failures": 99.01909
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-26T19:02:58.972994Z",
@@ -7692,7 +8096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.84383,
       "diff_perc_excluding_failures": 99.0233
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-29T15:03:01.556693Z",
@@ -7711,7 +8116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.85014,
       "diff_perc_excluding_failures": 99.03095
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-29T16:07:29.975743Z",
@@ -7730,7 +8136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.30352,
       "diff_perc_excluding_failures": 99.034485
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-29T17:03:05.875989Z",
@@ -7749,7 +8156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.30362,
       "diff_perc_excluding_failures": 99.034615
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-30T10:03:05.512976Z",
@@ -7768,7 +8176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.303566,
       "diff_perc_excluding_failures": 99.034546
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-30T16:03:19.314079Z",
@@ -7787,7 +8196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.322365,
       "diff_perc_excluding_failures": 99.05717
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-30T17:05:36.542200Z",
@@ -7806,7 +8216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.32421,
       "diff_perc_excluding_failures": 99.05939
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-09-30T23:03:24.973989Z",
@@ -7825,7 +8236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.32425,
       "diff_perc_excluding_failures": 99.05944
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-01T20:03:08.119767Z",
@@ -7844,7 +8256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.324295,
       "diff_perc_excluding_failures": 99.0595
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-02T18:02:59.966729Z",
@@ -7863,7 +8276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.32431,
       "diff_perc_excluding_failures": 99.05952
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-03T03:39:36.398140Z",
@@ -7882,7 +8296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.71265,
       "diff_perc_excluding_failures": 99.04166
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-03T19:03:41.527621Z",
@@ -7901,7 +8316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.712555,
       "diff_perc_excluding_failures": 99.04153
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-03T21:03:05.025691Z",
@@ -7920,7 +8336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.71257,
       "diff_perc_excluding_failures": 99.04155
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-04T18:03:15.511600Z",
@@ -7939,7 +8356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.712845,
       "diff_perc_excluding_failures": 99.041885
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-05T00:03:12.654135Z",
@@ -7958,7 +8376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.74958,
       "diff_perc_excluding_failures": 99.08588
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-06T10:03:00.944809Z",
@@ -7977,7 +8396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.74958,
       "diff_perc_excluding_failures": 99.08588
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-06T19:03:23.183905Z",
@@ -7996,7 +8416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.749565,
       "diff_perc_excluding_failures": 99.085846
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-07T18:03:04.971320Z",
@@ -8015,7 +8436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.74955,
       "diff_perc_excluding_failures": 99.08584
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-08T03:03:03.214542Z",
@@ -8034,7 +8456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.729935,
       "diff_perc_excluding_failures": 99.087906
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-08T11:03:00.942090Z",
@@ -8053,7 +8476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.72997,
       "diff_perc_excluding_failures": 99.087944
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-08T19:03:01.248881Z",
@@ -8072,7 +8496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 82.729935,
       "diff_perc_excluding_failures": 99.087906
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-09T15:11:38.107247Z",
@@ -8091,7 +8516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.73725,
       "diff_perc_excluding_failures": 99.09953
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-09T17:03:20.790785Z",
@@ -8110,7 +8536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.73722,
       "diff_perc_excluding_failures": 99.0995
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-10T06:03:19.736487Z",
@@ -8129,7 +8556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.66433,
       "diff_perc_excluding_failures": 99.09829
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-10T21:03:17.358675Z",
@@ -8148,7 +8576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.6643,
       "diff_perc_excluding_failures": 99.09825
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-14T21:03:50.178561Z",
@@ -8167,7 +8596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.66983,
       "diff_perc_excluding_failures": 99.104965
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-15T15:03:06.492534Z",
@@ -8186,7 +8616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.00211,
       "diff_perc_excluding_failures": 99.11135
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-15T18:03:28.125657Z",
@@ -8205,7 +8636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85247,
       "diff_perc_excluding_failures": 99.0595
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-16T21:03:05.855456Z",
@@ -8224,7 +8656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85247,
       "diff_perc_excluding_failures": 99.0595
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-16T23:02:59.621050Z",
@@ -8243,7 +8676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85267,
       "diff_perc_excluding_failures": 99.05979
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-17T16:03:02.598067Z",
@@ -8262,7 +8696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85268,
       "diff_perc_excluding_failures": 99.0598
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-17T18:04:25.471536Z",
@@ -8281,7 +8716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85268,
       "diff_perc_excluding_failures": 99.0598
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-17T20:11:15.858264Z",
@@ -8300,7 +8736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.85487,
       "diff_perc_excluding_failures": 99.06296
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-20T15:05:53.132544Z",
@@ -8319,7 +8756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.01039,
       "diff_perc_excluding_failures": 99.12147
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-21T15:03:33.499067Z",
@@ -8338,7 +8776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 81.01081,
       "diff_perc_excluding_failures": 99.12199
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-21T17:03:48.283335Z",
@@ -8357,7 +8796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.94906,
       "diff_perc_excluding_failures": 99.1213
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-21T19:03:29.065957Z",
@@ -8376,7 +8816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.88743,
       "diff_perc_excluding_failures": 99.12075
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-22T18:03:14.985839Z",
@@ -8395,7 +8836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.88852,
       "diff_perc_excluding_failures": 99.122086
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-23T04:03:03.356363Z",
@@ -8414,7 +8856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.9678,
       "diff_perc_excluding_failures": 99.129364
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-24T14:03:37.549568Z",
@@ -8433,7 +8876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.14397,
       "diff_perc_excluding_failures": 99.13486
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-28T14:28:51.223931Z",
@@ -8452,7 +8896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 80.14403,
       "diff_perc_excluding_failures": 99.13494
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-30T07:03:09.629094Z",
@@ -8471,7 +8916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.34371,
       "diff_perc_excluding_failures": 99.13533
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-30T09:03:20.738610Z",
@@ -8490,7 +8936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.3527,
       "diff_perc_excluding_failures": 99.13067
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-10-30T11:03:07.260638Z",
@@ -8509,7 +8956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.90104,
       "diff_perc_excluding_failures": 99.10746
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-04T00:03:10.465112Z",
@@ -8528,7 +8976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.90135,
       "diff_perc_excluding_failures": 99.10785
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-04T15:03:11.623361Z",
@@ -8547,7 +8996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.90135,
       "diff_perc_excluding_failures": 99.10785
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-04T17:03:12.395746Z",
@@ -8566,7 +9016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.901306,
       "diff_perc_excluding_failures": 99.107796
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-04T19:03:43.343438Z",
@@ -8585,7 +9036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.90133,
       "diff_perc_excluding_failures": 99.10781
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-05T13:04:01.912536Z",
@@ -8604,7 +9056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.77307,
       "diff_perc_excluding_failures": 99.10849
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-05T22:03:10.082329Z",
@@ -8623,7 +9076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.773094,
       "diff_perc_excluding_failures": 99.10852
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-06T17:03:10.708150Z",
@@ -8642,7 +9096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.773125,
       "diff_perc_excluding_failures": 99.10855
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-06T21:03:19.402957Z",
@@ -8661,7 +9116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.42926,
       "diff_perc_excluding_failures": 99.1149
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-07T10:03:51.372144Z",
@@ -8680,7 +9136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 79.182526,
       "diff_perc_excluding_failures": 99.10514
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-07T13:03:10.792359Z",
@@ -8699,7 +9156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.09764,
       "diff_perc_excluding_failures": 99.11759
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-07T17:03:04.446966Z",
@@ -8718,7 +9176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.097984,
       "diff_perc_excluding_failures": 99.11803
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-10T21:03:12.223178Z",
@@ -8737,7 +9196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.09805,
       "diff_perc_excluding_failures": 99.11812
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-11T00:03:13.886459Z",
@@ -8756,7 +9216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.098045,
       "diff_perc_excluding_failures": 99.11811
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-11T02:03:08.091401Z",
@@ -8775,7 +9236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.09613,
       "diff_perc_excluding_failures": 99.115685
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-11T17:03:09.459870Z",
@@ -8794,7 +9256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.09803,
       "diff_perc_excluding_failures": 99.11809
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-11T19:03:05.410034Z",
@@ -8813,7 +9276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.09801,
       "diff_perc_excluding_failures": 99.11806
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-12T00:03:04.875349Z",
@@ -8832,7 +9296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.04433,
       "diff_perc_excluding_failures": 99.18934
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-12T02:03:05.039339Z",
@@ -8851,7 +9316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.04436,
       "diff_perc_excluding_failures": 99.18938
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-12T19:03:06.768299Z",
@@ -8870,7 +9336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.04445,
       "diff_perc_excluding_failures": 99.1895
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-13T17:03:25.368844Z",
@@ -8889,7 +9356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.022995,
       "diff_perc_excluding_failures": 99.23206
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-13T19:03:32.684920Z",
@@ -8908,7 +9376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.02297,
       "diff_perc_excluding_failures": 99.23203
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-13T21:03:08.469305Z",
@@ -8927,7 +9396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.02304,
       "diff_perc_excluding_failures": 99.23212
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-13T23:03:07.369266Z",
@@ -8946,7 +9416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.02324,
       "diff_perc_excluding_failures": 99.232376
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-14T01:03:03.635096Z",
@@ -8965,7 +9436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 78.023224,
       "diff_perc_excluding_failures": 99.23236
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-14T19:03:42.279754Z",
@@ -8984,7 +9456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.48093,
       "diff_perc_excluding_failures": 99.24037
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-14T21:03:29.846231Z",
@@ -9003,7 +9476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.480896,
       "diff_perc_excluding_failures": 99.24034
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-14T23:03:31.578300Z",
@@ -9022,7 +9496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.48093,
       "diff_perc_excluding_failures": 99.24037
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-17T15:03:11.931134Z",
@@ -9041,7 +9516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.48083,
       "diff_perc_excluding_failures": 99.24026
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-18T18:03:07.275880Z",
@@ -9060,7 +9536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.48086,
       "diff_perc_excluding_failures": 99.24029
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-18T22:03:25.608622Z",
@@ -9079,7 +9556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.399864,
       "diff_perc_excluding_failures": 99.27492
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-19T00:03:09.296336Z",
@@ -9098,7 +9576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 77.505226,
       "diff_perc_excluding_failures": 99.2715
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-19T16:03:15.863823Z",
@@ -9117,7 +9596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 75.950775,
       "diff_perc_excluding_failures": 99.28001
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-19T19:03:06.627912Z",
@@ -9136,7 +9616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.0628,
       "diff_perc_excluding_failures": 99.221436
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-19T21:03:07.524298Z",
@@ -9155,7 +9636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06279,
       "diff_perc_excluding_failures": 99.22143
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-20T15:03:05.522899Z",
@@ -9174,7 +9656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06541,
       "diff_perc_excluding_failures": 99.22483
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-20T17:03:08.873490Z",
@@ -9193,7 +9676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06544,
       "diff_perc_excluding_failures": 99.224884
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-20T20:03:12.637987Z",
@@ -9212,7 +9696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06543,
       "diff_perc_excluding_failures": 99.22488
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-21T11:03:08.578546Z",
@@ -9231,7 +9716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06541,
       "diff_perc_excluding_failures": 99.22483
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-21T19:03:21.289673Z",
@@ -9250,7 +9736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06542,
       "diff_perc_excluding_failures": 99.22486
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-21T21:03:28.589731Z",
@@ -9269,7 +9756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 76.06542,
       "diff_perc_excluding_failures": 99.22486
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-22T02:03:49.378446Z",
@@ -9288,7 +9776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.47998,
       "diff_perc_excluding_failures": 99.1728
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-25T11:03:09.540922Z",
@@ -9307,7 +9796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.51609,
       "diff_perc_excluding_failures": 99.154076
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-26T10:03:07.298801Z",
@@ -9326,7 +9816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.4671,
       "diff_perc_excluding_failures": 99.155655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-26T17:03:06.569021Z",
@@ -9345,7 +9836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.51882,
       "diff_perc_excluding_failures": 99.15771
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-27T11:03:49.474409Z",
@@ -9364,7 +9856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.14705,
       "diff_perc_excluding_failures": 99.16111
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-27T16:03:09.617521Z",
@@ -9383,7 +9876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.648224,
       "diff_perc_excluding_failures": 99.16626
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-27T18:03:07.740764Z",
@@ -9402,7 +9896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.701485,
       "diff_perc_excluding_failures": 99.23702
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-11-27T20:03:06.287786Z",
@@ -9421,7 +9916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.70578,
       "diff_perc_excluding_failures": 99.24272
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-01T10:03:35.651967Z",
@@ -9440,7 +9936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.70583,
       "diff_perc_excluding_failures": 99.24279
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-01T17:03:51.176277Z",
@@ -9459,7 +9956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.705795,
       "diff_perc_excluding_failures": 99.24274
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-02T12:03:17.962042Z",
@@ -9478,7 +9976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.70581,
       "diff_perc_excluding_failures": 99.24276
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-02T16:04:25.572027Z",
@@ -9497,7 +9996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85935,
       "diff_perc_excluding_failures": 99.26048
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-02T19:15:41.008479Z",
@@ -9516,7 +10016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85934,
       "diff_perc_excluding_failures": 99.26046
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-03T11:03:09.208302Z",
@@ -9535,7 +10036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85936,
       "diff_perc_excluding_failures": 99.26049
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-03T16:03:11.385586Z",
@@ -9554,7 +10056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85932,
       "diff_perc_excluding_failures": 99.26044
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-03T19:03:13.991696Z",
@@ -9573,7 +10076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85936,
       "diff_perc_excluding_failures": 99.26048
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-04T16:03:10.174818Z",
@@ -9592,7 +10096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.85953,
       "diff_perc_excluding_failures": 99.26072
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-04T18:03:13.810653Z",
@@ -9611,7 +10116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 30.010393,
       "diff_perc_excluding_failures": 99.287636
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-04T19:22:42.887145Z",
@@ -9630,7 +10136,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 30.00263,
       "diff_perc_excluding_failures": 99.26557
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-04T23:03:19.323692Z",
@@ -9649,7 +10156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-05T11:03:12.370167Z",
@@ -9668,7 +10176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-09T10:03:11.399084Z",
@@ -9687,7 +10196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.771484,
       "diff_perc_excluding_failures": 99.24304
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-09T19:03:10.549726Z",
@@ -9706,7 +10216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.77149,
       "diff_perc_excluding_failures": 99.24304
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-09T22:03:16.211422Z",
@@ -9725,7 +10236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.77151,
       "diff_perc_excluding_failures": 99.243065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-10T14:03:10.444712Z",
@@ -9744,7 +10256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.77151,
       "diff_perc_excluding_failures": 99.243065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-11T17:03:15.546451Z",
@@ -9763,7 +10276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-12T16:03:12.156775Z",
@@ -9782,7 +10296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.771484,
       "diff_perc_excluding_failures": 99.24304
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-12T18:03:27.134530Z",
@@ -9801,7 +10316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.5037,
       "diff_perc_excluding_failures": 99.211075
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-12T21:03:31.214955Z",
@@ -9820,7 +10336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.504,
       "diff_perc_excluding_failures": 99.21147
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-15T19:03:21.932111Z",
@@ -9839,7 +10356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.504005,
       "diff_perc_excluding_failures": 99.21149
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-16T00:03:19.203526Z",
@@ -9858,7 +10376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.504005,
       "diff_perc_excluding_failures": 99.21149
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2025-12-17T15:03:11.925098Z",
@@ -9877,7 +10396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.50411,
       "diff_perc_excluding_failures": 99.211624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-01-13T16:24:05.581327Z",
@@ -9896,7 +10416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-01-14T16:03:08.023636Z",
@@ -9915,7 +10436,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55694,
       "diff_perc_excluding_failures": 99.28197
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-01-21T19:05:18.653036Z",
@@ -9934,7 +10456,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-01-25T23:03:22.949488Z",
@@ -9953,7 +10476,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-01-28T16:03:17.873182Z",
@@ -9972,7 +10496,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55694,
       "diff_perc_excluding_failures": 99.28197
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-06T22:03:14.785876Z",
@@ -9991,7 +10516,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55693,
       "diff_perc_excluding_failures": 99.28195
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-08T09:03:10.785123Z",
@@ -10010,7 +10536,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.556915,
       "diff_perc_excluding_failures": 99.28194
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-08T16:03:13.339858Z",
@@ -10029,7 +10556,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.55698,
       "diff_perc_excluding_failures": 99.28202
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-12T16:03:10.595079Z",
@@ -10048,7 +10576,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.4142,
       "diff_perc_excluding_failures": 99.3463
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-12T20:03:10.717654Z",
@@ -10067,7 +10596,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.41587,
       "diff_perc_excluding_failures": 99.348526
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-13T18:03:09.447803Z",
@@ -10086,7 +10616,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.607346,
       "diff_perc_excluding_failures": 99.34909
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-13T20:03:04.486247Z",
@@ -10105,7 +10636,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.607285,
       "diff_perc_excluding_failures": 99.34901
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-16T20:06:28.884448Z",
@@ -10124,7 +10656,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.60734,
       "diff_perc_excluding_failures": 99.34908
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-17T17:03:15.082252Z",
@@ -10143,7 +10676,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.414375,
       "diff_perc_excluding_failures": 99.34653
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-19T17:03:09.718404Z",
@@ -10162,7 +10696,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 74.414375,
       "diff_perc_excluding_failures": 99.34654
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-02-20T17:12:22.704086Z",
@@ -10181,7 +10716,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 72.07785,
       "diff_perc_excluding_failures": 99.34812
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-04T00:38:10.286871Z",
@@ -10200,7 +10736,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.81102,
       "diff_perc_excluding_failures": 99.280396
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-05T18:03:56.555325Z",
@@ -10219,7 +10756,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.97434,
       "diff_perc_excluding_failures": 99.221954
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-05T20:03:02.810614Z",
@@ -10238,7 +10776,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.97431,
       "diff_perc_excluding_failures": 99.22191
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-06T11:03:22.958363Z",
@@ -10257,7 +10796,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.97433,
       "diff_perc_excluding_failures": 99.22193
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-06T19:03:40.812864Z",
@@ -10276,7 +10816,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.9111,
       "diff_perc_excluding_failures": 99.22055
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-07T00:03:29.194160Z",
@@ -10295,7 +10836,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.9111,
       "diff_perc_excluding_failures": 99.22054
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-07T21:23:24.878687Z",
@@ -10314,7 +10856,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.91107,
       "diff_perc_excluding_failures": 99.220505
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-09T13:03:14.336572Z",
@@ -10333,7 +10876,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.97203,
       "diff_perc_excluding_failures": 99.30827
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-09T16:03:28.961574Z",
@@ -10352,7 +10896,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 68.972015,
       "diff_perc_excluding_failures": 99.30826
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-10T16:03:32.347422Z",
@@ -10371,7 +10916,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 69.38372,
       "diff_perc_excluding_failures": 99.37091
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-10T20:03:39.055831Z",
@@ -10390,7 +10936,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 69.383736,
       "diff_perc_excluding_failures": 99.370926
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-10T22:03:09.174384Z",
@@ -10409,7 +10956,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 69.86476,
       "diff_perc_excluding_failures": 99.35686
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-11T10:03:08.203974Z",
@@ -10428,7 +10976,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 69.8648,
       "diff_perc_excluding_failures": 99.3569
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-11T15:03:11.164848Z",
@@ -10447,7 +10996,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 69.86481,
       "diff_perc_excluding_failures": 99.35691
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-11T17:07:20.973730Z",
@@ -10466,7 +11016,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 64.369644,
       "diff_perc_excluding_failures": 99.44311
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-11T19:03:02.404514Z",
@@ -10485,7 +11036,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 64.36965,
       "diff_perc_excluding_failures": 99.44312
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-12T19:03:02.855624Z",
@@ -10504,7 +11056,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 64.946465,
       "diff_perc_excluding_failures": 99.448
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-12T23:03:10.972760Z",
@@ -10523,7 +11076,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 70.41668,
       "diff_perc_excluding_failures": 99.361206
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-13T14:03:34.659861Z",
@@ -10542,7 +11096,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 70.269485,
       "diff_perc_excluding_failures": 99.32474
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-13T18:03:17.176667Z",
@@ -10561,7 +11116,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 70.27124,
       "diff_perc_excluding_failures": 99.32721
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-13T21:03:05.408746Z",
@@ -10580,7 +11136,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.163925,
       "diff_perc_excluding_failures": 99.30585
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-16T15:04:52.362942Z",
@@ -10599,7 +11156,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.521164,
       "diff_perc_excluding_failures": 99.30864
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-03-27T17:03:14.683196Z",
@@ -10618,7 +11176,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52117,
       "diff_perc_excluding_failures": 99.308655
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-05T22:03:02.869383Z",
@@ -10637,7 +11196,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52116,
       "diff_perc_excluding_failures": 99.308624
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-08T16:03:01.380904Z",
@@ -10656,7 +11216,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52117,
       "diff_perc_excluding_failures": 99.30865
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-08T21:03:06.291826Z",
@@ -10675,7 +11236,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.521286,
       "diff_perc_excluding_failures": 99.30881
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-09T09:03:08.818155Z",
@@ -10694,7 +11256,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.308846
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-13T14:26:00.129969Z",
@@ -10713,7 +11276,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.30884
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-13T16:43:09.599074Z",
@@ -10732,7 +11296,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52129,
       "diff_perc_excluding_failures": 99.308815
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-13T19:09:57.134816Z",
@@ -10751,7 +11316,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.30884
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-13T21:03:24.964187Z",
@@ -10770,7 +11336,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.52984,
       "diff_perc_excluding_failures": 99.32068
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-13T23:03:25.085429Z",
@@ -10789,7 +11356,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.533325,
       "diff_perc_excluding_failures": 99.32552
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-14T15:03:34.167808Z",
@@ -10808,7 +11376,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.53335,
       "diff_perc_excluding_failures": 99.325554
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-14T17:03:29.748434Z",
@@ -10827,7 +11396,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.53337,
       "diff_perc_excluding_failures": 99.32558
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-14T19:03:20.840820Z",
@@ -10846,7 +11416,8 @@
       "other_failure": 0,
       "diff_perc_including_failures": 71.53337,
       "diff_perc_excluding_failures": 99.32558
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-14T22:38:30.390189Z",
@@ -10865,7 +11436,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.49351,
       "diff_perc_excluding_failures": 99.33957
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-15T01:03:28.569485Z",
@@ -10884,7 +11456,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33969
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-15T15:03:22.312150Z",
@@ -10903,7 +11476,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33969
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-15T17:03:23.817955Z",
@@ -10922,7 +11496,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33971
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-16T14:03:24.749228Z",
@@ -10941,7 +11516,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.576584,
       "diff_perc_excluding_failures": 99.455
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-16T18:03:20.665143Z",
@@ -10960,7 +11536,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.576584,
       "diff_perc_excluding_failures": 99.455
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-23T01:41:49.235271Z",
@@ -10979,7 +11556,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.576614,
       "diff_perc_excluding_failures": 99.45504
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-23T15:03:00.875710Z",
@@ -10998,7 +11576,8 @@
       "other_failure": 1,
       "diff_perc_including_failures": 71.57669,
       "diff_perc_excluding_failures": 99.455154
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-24T13:03:52.677846Z",
@@ -11017,7 +11596,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 67.87808,
       "diff_perc_excluding_failures": 98.485985
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-24T15:02:57.873618Z",
@@ -11036,7 +11616,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 67.87821,
       "diff_perc_excluding_failures": 98.48617
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-24T19:02:57.612740Z",
@@ -11055,7 +11636,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 67.878235,
       "diff_perc_excluding_failures": 98.486206
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-24T23:02:58.928208Z",
@@ -11074,7 +11656,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 67.878235,
       "diff_perc_excluding_failures": 98.486206
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-25T10:02:52.662448Z",
@@ -11093,7 +11676,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 68.58837,
       "diff_perc_excluding_failures": 99.516556
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-25T15:28:08.185184Z",
@@ -11112,7 +11696,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 51.187767,
       "diff_perc_excluding_failures": 99.5137
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-27T14:13:49.268965Z",
@@ -11131,7 +11716,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.73216,
       "diff_perc_excluding_failures": 99.52445
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-27T17:03:04.226614Z",
@@ -11150,7 +11736,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.732155,
       "diff_perc_excluding_failures": 99.52444
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-27T21:03:08.278213Z",
@@ -11169,7 +11756,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.73303,
       "diff_perc_excluding_failures": 99.525986
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-27T23:03:01.098724Z",
@@ -11188,7 +11776,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.73685,
       "diff_perc_excluding_failures": 99.53143
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-28T23:03:01.224177Z",
@@ -11207,7 +11796,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.73687,
       "diff_perc_excluding_failures": 99.53146
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-29T01:03:21.096241Z",
@@ -11226,7 +11816,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.69738,
       "diff_perc_excluding_failures": 99.53059
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-29T14:37:30.708869Z",
@@ -11245,7 +11836,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.697395,
       "diff_perc_excluding_failures": 99.53061
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-29T18:03:30.038627Z",
@@ -11264,7 +11856,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.697426,
       "diff_perc_excluding_failures": 99.53065
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-04-29T22:03:21.052052Z",
@@ -11283,7 +11876,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.69755,
       "diff_perc_excluding_failures": 99.53082
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-01T17:02:55.326190Z",
@@ -11302,7 +11896,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.69753,
       "diff_perc_excluding_failures": 99.53081
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-03T22:03:07.013523Z",
@@ -11321,7 +11916,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.730156,
       "diff_perc_excluding_failures": 99.53103
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-04T14:25:05.057386Z",
@@ -11340,7 +11936,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.79459,
       "diff_perc_excluding_failures": 99.53034
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-04T19:02:59.265529Z",
@@ -11359,7 +11956,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.89244,
       "diff_perc_excluding_failures": 99.531
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-05T03:03:07.314094Z",
@@ -11378,7 +11976,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.90203,
       "diff_perc_excluding_failures": 99.54465
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-05T17:03:08.121311Z",
@@ -11397,7 +11996,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.950935,
       "diff_perc_excluding_failures": 99.52184
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-15T07:03:35.257883Z",
@@ -11416,7 +12016,8 @@
       "other_failure": 11,
       "diff_perc_including_failures": 69.89765,
       "diff_perc_excluding_failures": 99.53841
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-15T15:03:31.284285Z",
@@ -11435,7 +12036,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.9633,
       "diff_perc_excluding_failures": 99.53943
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-18T14:03:04.299347Z",
@@ -11454,7 +12056,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.995804,
       "diff_perc_excluding_failures": 99.58568
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-18T16:03:11.031931Z",
@@ -11473,7 +12076,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 70.02821,
       "diff_perc_excluding_failures": 99.63179
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-18T19:03:00.288925Z",
@@ -11492,7 +12096,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 70.02821,
       "diff_perc_excluding_failures": 99.63179
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-19T16:03:01.471354Z",
@@ -11511,7 +12116,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 70.044586,
       "diff_perc_excluding_failures": 99.65508
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-21T23:25:26.022946Z",
@@ -11530,7 +12136,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-28T15:03:37.735765Z",
@@ -11549,7 +12156,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-28T16:54:27.926570Z",
@@ -11568,7 +12176,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-29T13:03:34.634242Z",
@@ -11587,7 +12196,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 68.130325,
       "diff_perc_excluding_failures": 99.66438
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-05-29T16:03:24.669469Z",
@@ -11606,7 +12216,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 67.816475,
       "diff_perc_excluding_failures": 99.66628
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-02T10:03:11.711821Z",
@@ -11625,7 +12236,8 @@
       "other_failure": 9,
       "diff_perc_including_failures": 69.51356,
       "diff_perc_excluding_failures": 99.6744
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-02T19:03:11.457397Z",
@@ -11644,7 +12256,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.37211,
       "diff_perc_excluding_failures": 99.65956
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-10T17:03:06.290545Z",
@@ -11663,7 +12276,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-11T15:03:29.137980Z",
@@ -11682,7 +12296,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-11T17:03:07.349257Z",
@@ -11701,7 +12316,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-12T15:03:11.671706Z",
@@ -11720,7 +12336,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-12T17:03:24.310017Z",
@@ -11739,7 +12356,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-15T18:03:09.662366Z",
@@ -11758,7 +12376,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-22T19:03:05.389334Z",
@@ -11777,7 +12396,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-23T18:03:00.341292Z",
@@ -11796,7 +12416,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372345,
       "diff_perc_excluding_failures": 99.659904
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-06-30T14:03:01.139697Z",
@@ -11815,7 +12436,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.372345,
       "diff_perc_excluding_failures": 99.659904
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-09T16:18:05.529595Z",
@@ -11834,7 +12456,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 69.37285,
       "diff_perc_excluding_failures": 99.66064
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-09T19:45:54.512206Z",
@@ -11853,7 +12476,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 70.09593,
       "diff_perc_excluding_failures": 99.650734
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-14T17:03:28.150050Z",
@@ -11872,7 +12496,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 70.09593,
       "diff_perc_excluding_failures": 99.650734
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-15T10:03:28.793264Z",
@@ -11891,7 +12516,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 70.79016,
       "diff_perc_excluding_failures": 99.65989
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-15T16:03:22.804860Z",
@@ -11910,7 +12536,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 70.7702,
       "diff_perc_excluding_failures": 99.6318
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-16T19:03:03.804232Z",
@@ -11929,7 +12556,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 71.33863,
       "diff_perc_excluding_failures": 99.64097
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-21T12:03:05.440029Z",
@@ -11948,7 +12576,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 71.71179,
       "diff_perc_excluding_failures": 99.64723
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-27T16:03:00.263754Z",
@@ -11967,7 +12596,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 71.76388,
       "diff_perc_excluding_failures": 99.71961
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-07-27T19:03:07.372013Z",
@@ -11986,7 +12616,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-04T20:03:09.415644Z",
@@ -12005,7 +12636,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-05T08:03:17.738344Z",
@@ -12024,7 +12656,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36891,
       "diff_perc_excluding_failures": 99.72754
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-05T10:03:22.495613Z",
@@ -12043,7 +12676,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-06T17:03:01.145527Z",
@@ -12062,7 +12696,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-07T00:02:37.083157Z",
@@ -12081,7 +12716,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-08T19:02:37.528410Z",
@@ -12100,7 +12736,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-11T16:02:47.653590Z",
@@ -12119,7 +12756,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-11T20:02:37.946412Z",
@@ -12138,7 +12776,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-19T08:02:40.054209Z",
@@ -12157,7 +12796,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-20T11:02:55.610578Z",
@@ -12176,7 +12816,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-24T15:02:42.724413Z",
@@ -12195,7 +12836,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.46659,
       "diff_perc_excluding_failures": 99.7427
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-25T11:02:32.336066Z",
@@ -12214,7 +12856,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-25T21:02:32.634740Z",
@@ -12233,7 +12876,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-26T13:02:28.977601Z",
@@ -12252,7 +12896,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-26T15:02:32.235841Z",
@@ -12271,7 +12916,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435814,
       "diff_perc_excluding_failures": 99.7401
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-27T15:02:46.467492Z",
@@ -12290,7 +12936,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-27T20:02:49.443746Z",
@@ -12309,7 +12956,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-27T22:03:00.034910Z",
@@ -12328,7 +12976,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-28T10:02:48.155460Z",
@@ -12347,7 +12996,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-28T14:02:54.379951Z",
@@ -12366,7 +13016,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-08-28T16:02:53.376168Z",
@@ -12385,7 +13036,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-01T12:02:31.824597Z",
@@ -12404,7 +13056,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-01T15:02:40.076790Z",
@@ -12423,7 +13076,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74013
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-01T18:02:29.954790Z",
@@ -12442,7 +13096,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-02T01:02:54.713373Z",
@@ -12461,7 +13116,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-02T04:02:35.971933Z",
@@ -12480,7 +13136,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-02T16:02:29.145364Z",
@@ -12499,7 +13156,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-02T18:02:28.186508Z",
@@ -12518,7 +13176,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-03T09:02:34.951947Z",
@@ -12537,7 +13196,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-03T14:02:39.410926Z",
@@ -12556,7 +13216,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-03T16:03:20.633371Z",
@@ -12575,7 +13236,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-04T11:02:34.017017Z",
@@ -12594,7 +13256,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-08T17:02:41.284141Z",
@@ -12613,7 +13276,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-08T20:02:49.219315Z",
@@ -12632,7 +13296,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-09T17:02:43.797599Z",
@@ -12651,7 +13316,8 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
-    }
+    },
+    "reused_cached_results": 0
   },
   {
     "began": "2026-09-09T19:02:57.446293Z",
@@ -12670,6 +13336,27 @@
       "other_failure": 13,
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
-    }
+    },
+    "reused_cached_results": 0
+  },
+  {
+    "began": "2026-09-10T07:02:40.947463Z",
+    "finished": "2026-09-10T08:42:57.632246Z",
+    "fontc_rev": "82e93016",
+    "pip_freeze_sha": "7ec94c688d99f19587b8764ccaa14e204fd36f5b  -",
+    "results_file": "2026-09-10-070156.json",
+    "input_file_sha": "88916042faf06759c76ae6a1684470671275e465  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
+    "stats": {
+      "total_targets": 3452,
+      "identical": 2218,
+      "produced_diff": 286,
+      "fontc_failed": 103,
+      "fontmake_failed": 254,
+      "both_failed": 575,
+      "other_failure": 16,
+      "diff_perc_including_failures": 72.34894,
+      "diff_perc_excluding_failures": 99.73983
+    },
+    "reused_cached_results": 3
   }
 ]
