@@ -8,7 +8,6 @@
       ]
     }
   ],
-
   "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (default)": [
     {
       "text": "non-integer smart component off-by-ones",
@@ -16,13 +15,6 @@
       "also": [
         "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (gftools)"
       ]
-    }
-  ],
-  "nagamaki008/kapakana/$VIRTUAL/google/fonts/ofl/kapakana/config.yaml sources/kapakana.glyphs?0074870cd8 (default)": [
-    {
-      "text": "different handling of ascender value",
-      "link": "https://github.com/googlefonts/fontc/issues/1813",
-      "also": ["nagamaki008/kapakana/$VIRTUAL/google/fonts/ofl/kapakana/config.yaml sources/kapakana.glyphs?0074870cd8 (gftools)"]
     }
   ],
   "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (default)": [
@@ -48,13 +40,7 @@
       "text": "fonttools compiles ttx files in $SOURCE/data/com.github.fonttools.ttx dir",
       "link": "https://github.com/googlefonts/fontc/issues/1816",
       "also": [
-"smc/Chilanka/$VIRTUAL/google/fonts/ofl/chilanka/config.yaml sources/Chilanka-Regular.ufo?4688e5c6fc (gftools)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Thin.ufo?8948773e57 (default)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Thin.ufo?8948773e57 (gftools)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Bold.ufo?8948773e57 (default)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Bold.ufo?8948773e57 (gftools)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Regular.ufo?8948773e57 (default)",
-"fonts/manjari/$VIRTUAL/google/fonts/ofl/manjari/config.yaml sources/Manjari-Regular.ufo?8948773e57 (gftools)"
+        "smc/Chilanka/$VIRTUAL/google/fonts/ofl/chilanka/config.yaml sources/Chilanka-Regular.ufo?4688e5c6fc (gftools)"
       ]
     }
   ],
@@ -62,24 +48,6 @@
     {
       "text": "inline rules reuse different existing lookups",
       "link": "https://github.com/googlefonts/fontc/issues/1817"
-    }
-  ],
-  "aliftype/mada/$VIRTUAL/google/fonts/ofl/mada/config.yaml sources/Mada.glyphs?2f7dea3a2b (default)": [
-    {
-      "text": "difference in logic for classifying marks",
-      "link": "https://github.com/googlefonts/fontc/issues/1818",
-      "also": [
-        "aliftype/mada/$VIRTUAL/google/fonts/ofl/mada/config.yaml sources/Mada.glyphs?2f7dea3a2b (gftools)"
-      ]
-    }
-  ],
-  "xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (default)": [
-    {
-      "text": "different handling of fontinfo metric values",
-      "link": "https://github.com/googlefonts/fontc/issues/1824",
-      "also": [
-        "xconsau/GajrajOne/sources/config.yaml GajrajOne-Regular.ufo?5768aa3d45 (gftools)"
-      ]
     }
   ],
   "googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (default)": [
@@ -113,34 +81,12 @@
       ]
     }
   ],
-"notofonts/kharoshthi/sources/config-sans-kharoshthi.yaml NotoSansKharoshthi.glyphs?aacffd48d6 (default)": [
-    {
-      "text": "fontmake writes null offsets to MarkGlyphSets table",
-      "link": "https://github.com/fonttools/fonttools/issues/4003"
-    }
-  ],
   "googlefonts/parastoo-font/sources/config.yaml Parastoo.glyphspackage?80a254f68a (default)": [
     {
       "text": "different deltas for glyphs with single missing component",
       "link": "https://github.com/googlefonts/fontc/issues/1828",
       "also":[
         "googlefonts/parastoo-font/sources/config.yaml Parastoo.glyphspackage?80a254f68a (gftools)"
-      ]
-    }
-  ],
-  "notofonts/thai/sources/config-sans-thai.yaml NotoSansThai.designspace?f8f3f02470 (default)": [
-    {
-      "text": "'is identical feature file' check is naive",
-      "link": "https://github.com/googlefonts/fontc/issues/1829"
-    }
-  ],
-    "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (default)": [
-    {
-      "text": "we don't generate cmap format 14",
-      "link": "https://github.com/googlefonts/fontc/issues/1543",
-      "also": [
-        "aaronbell/ChocolateSans/sources/project.yaml ChocolateClassicalSans-Regular.ufo?91c9c5179a (gftools)",
-        "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)"
       ]
     }
   ],
@@ -155,57 +101,14 @@
       ]
     }
   ],
-    "googlefonts/rubik/sources/config.yaml Rubik.glyphs?e337a5f69a (default)": [
-    {
-      "text": "ufo filters can sneak into glyphs userData",
-      "link": "https://github.com/googlefonts/glyphsLib/issues/1106"
-    }
-  ],
-    "NaN-xyz/Rubik-Filtered_1126980434/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (default)": [
-    {
-      "text": "ordmasculine has +/-1 off-curve point diff, possibly cu2qu?",
-      "link": "https://github.com/googlefonts/fontc/issues/1713",
-      "also": ["NaN-xyz/Rubik-Filtered_1126980434/glitchpop/sources/config.yaml RubikGlitchPop.glyphs?1126980434 (gftools)",
-        "NaN-xyz/Rubik-Filtered_409369746e/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (default)",
-        "NaN-xyz/Rubik-Filtered_409369746e/doodletriangles/sources/config.yaml RubikDoodleTriangles.glyphs?409369746e (gftools)",
-        "NaN-xyz/Rubik-Filtered_409369746e/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
-        "NaN-xyz/Rubik-Filtered_409369746e/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (gftools)",
-        "NaN-xyz/Rubik-Filtered_c70421b2f2/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
-        "NaN-xyz/Rubik-Filtered_c70421b2f2/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
-      ]
-    }
-  ],
-  "googlefonts/robotoslab/sources/config.yaml RobotoSlab.glyphs?67af3ce9c4 (default)": [
-    {
-      "text": "empty axis mapping causes compilation difference",
-      "link": "https://github.com/googlefonts/fontc/issues/1830",
-      "also": [
-        "googlefonts/robotoslab/sources/config.yaml RobotoSlab.glyphs?67af3ce9c4 (gftools)"
-      ]
-    }
-  ],
   "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (default)": [
-    {
-      "text": "off-by-ones in markpos deltas",
-      "link": "https://github.com/googlefonts/fontc/issues/1834",
-      "also": [
-        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
-        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (default)",
-        "googlefonts/golos-text/sources/config.yaml GolosText.glyphs?cf2e272229 (gftools)",
-        "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (default)",
-        "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (gftools)"
-      ]
-    },
     {
       "text": "we promote more lookups to use extensions",
       "link": "https://github.com/googlefonts/fontc/issues/1835",
       "also": [
         "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
         "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)",
-        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (default)",
-        "yanone/Baloo2-Variable/builder/BalooBhai2.yaml ../sources/BalooBhai2.glyphs?da523dfa21 (gftools)",
-        "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)",
-        "notofonts/grantha/sources/config-serif-grantha.yaml NotoSerifGrantha.glyphs?6bb911fa06 (default)"
+        "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)"
       ]
     }
   ],
@@ -222,20 +125,8 @@
     {
       "text": "'Replace Feature' custom parameter",
       "link": "https://github.com/googlefonts/fontc/issues/1838",
-      "also":[
-        "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)",
+      "also": [
         "notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)"
-      ]
-    }
-  ],
-  "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (default)": [
-    {
-      "text": "variations differ for aringacute.ss02",
-      "link": "https://github.com/googlefonts/fontc/issues/1840",
-      "also":[
-        "reddit/redditsans/sources/sanscondensed.yaml RedditSansCondensed.glyphs?60e19b50bd (gftools)",
-        "reddit/redditsans/sources/sans.yaml RedditSans.glyphs?60e19b50bd (default)",
-        "reddit/redditsans/sources/sans.yaml RedditSans.glyphs?60e19b50bd (gftools)"
       ]
     }
   ],
@@ -248,29 +139,12 @@
       ]
     }
   ],
-  "notofonts/music/sources/config-music.yaml NotoMusic.glyphs?2c97b9ea69 (default)": [
-    {
-      "text": "glyphs with explicit mark/nonspacing categories not showing up in GDEF",
-      "link": "https://github.com/googlefonts/fontc/issues/1842"
-    },
-    {
-      "text": "difference in cursive/kern lookup order",
-      "link": "https://github.com/googlefonts/fontc/issues/1843"
-    }
-  ],
-  "notofonts/ottoman-siyaq-numbers/sources/config.yaml NotoSerifOttomanSiyaq.glyphs?b6cca8ffe6 (default)": [
-    {
-      "text": "python generates empty format 4 cmap subtables",
-      "link": "https://github.com/googlefonts/fontc/issues/1844"
-    }
-  ],
   "notofonts/bhaiksuki/sources/config-sans-bhaiksuki.yaml NotoSansBhaiksuki.designspace?570db5a125 (default)": [
     {
       "text": "we include lookups that are not referenced by any feature",
       "link": "https://github.com/googlefonts/fontc/issues/1845",
       "also": [
-        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)",
-        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (gftools)"
+        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)"
       ]
     }
   ],
@@ -283,35 +157,10 @@
       ]
     }
   ],
-  "notofonts/vithkuqi/sources/config-serif-vithkuqi.yaml NotoSerifVithkuqi.glyphs?b1538fae37 (default)": [
-    {
-      "text": "we don't always write GDEF glyph class defitions",
-      "link": "https://github.com/googlefonts/fontc/issues/1847",
-      "also":[
-          "notofonts/vithkuqi/sources/config-sans-vithkuqi.yaml NotoSansVithkuqi.glyphs?b1538fae37 (default)",
-          "mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (default)",
-          "mooniak/yaldevi-font/sources/builder.yaml Yaldevi.glyphs?187eddeb8d (gftools)",
-          "notofonts/new-tai-lue/sources/config.yaml NotoSansNewTaiLue.glyphs?f591483c53 (default)"
-      ]
-    }
-  ],
   "notofonts/chakma/sources/config-sans-chakma.yaml NotoSansChakma.designspace?239fe3aac7 (default)": [
     {
       "text": "we export more glyphs than fontmake",
       "link": "https://github.com/googlefonts/fontc/issues/1848"
-    }
-  ],
-  "notofonts/gujarati/sources/config-sans-gujarati.yaml NotoSansGujarati.glyphs?825b7f9e39 (default)": [
-    {
-      "text": "different GSUB contextual format",
-      "link": "https://github.com/googlefonts/fontc/issues/1849",
-      "also": [
-        "googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (default)",
-        "googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (gftools)",
-        "googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (default)",
-        "googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (gftools)",
-        "notofonts/lepcha/sources/config-sans-lepcha.yaml NotoSansLepcha.glyphs?22993dbe4e (default)"
-      ]
     }
   ],
   "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (default)": [
@@ -323,98 +172,15 @@
       ]
     }
   ],
-  "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (default)": [
-    {
-      "text": "we categorize more glyphs as marks",
-      "link": "https://github.com/googlefonts/fontc/issues/1852",
-      "also": [
-        "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (gftools)",
-        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (default)",
-        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)"
-      ]
-    }
-  ],
-  "notofonts/takri/sources/config-sans-takri.yaml NotoSansTakri.designspace?bf175ad0b8 (default)": [
-    {
-      "text": "we categorize more glyphs as bases",
-      "link": "https://github.com/googlefonts/fontc/issues/1853",
-      "also": [
-        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (default)",
-        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)"
-      ]
-    }
-  ],
-  "cadsondemak/itim/$VIRTUAL/google/fonts/ofl/itim/config.yaml source/Itim-Regular.ufo?eb5e37a541 (default)": [
-    {
-      "text": "exported UFO with different kern group prefixes",
-      "link": "https://github.com/googlefonts/fontc/issues/1854",
-      "also":[
-"cadsondemak/itim/$VIRTUAL/google/fonts/ofl/itim/config.yaml source/Itim-Regular.ufo?eb5e37a541 (gftools)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood.ufo?cbaaed9704 (default)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood.ufo?cbaaed9704 (gftools)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text.ufo?cbaaed9704 (default)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text.ufo?cbaaed9704 (gftools)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (default)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Text Italic.ufo?cbaaed9704 (gftools)","theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (default)",
-"theleagueof/fanwood/$VIRTUAL/google/fonts/ofl/fanwoodtext/config.yaml source/Fanwood Italic.ufo?cbaaed9704 (gftools)"
-      ]
-    }
-  ],
   "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)": [
-    {
-      "text": "fonttools generates extra contextual sub subtable",
-      "link": "https://github.com/fonttools/fonttools/issues/4016"
-    },
     {
       "text": "custom parameter precedence",
       "link": "https://github.com/googlefonts/fontc/issues/1856"
     }
   ],
-  "notofonts/hebrew_d2ce986faa/sources/config-sans-hebrew.yaml NotoSansHebrew.glyphs?d2ce986faa (default)": [
-    {
-      "text": "we don't generate kern feature",
-      "link": "https://github.com/googlefonts/fontc/issues/1857"
-    }
-  ],
-  "googlefonts/RadleyFont/sources/config.yaml Radley-Italic.ufo?7f54a0b10f (default)": [
-    {
-      "text": "we convert composites to simple glyphs if any component is missing",
-      "link": "https://github.com/googlefonts/fontc/issues/1858",
-      "also": [
-        "googlefonts/RadleyFont/sources/config.yaml Radley-Italic.ufo?7f54a0b10f (gftools)"
-      ]
-    }
-  ],
   "notofonts/kawi/sources/config-sans-kawi.yaml NotoSansKawi.glyphs?7b11823765 (default)": [
     {
       "text": "compilation diff for large number of contextual lookups"
-    }
-  ],
-  "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (default)": [
-    {
-      "text": "we don't build vertical metrics tables when metrics are set",
-      "link": "https://github.com/googlefonts/fontc/issues/1859",
-      "also": [
-        "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (gftools)"
-      ]
-    }
-  ],
-  "notofonts/makasar/sources/config.yaml NotoSerifMakasar.designspace?e7902cc5d8 (default)": [
-    {
-      "text": "we create useless variation tables sometimes",
-      "link": "https://github.com/googlefonts/fontc/issues/1860",
-      "also": [
-        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (default)",
-        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (gftools)",
-        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (default)",
-        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (gftools)",
-        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (default)",
-        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (gftools)",
-        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (default)",
-        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (gftools)",
-        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)",
-        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (gftools)"
-      ]
     }
   ],
   "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)": [
@@ -423,8 +189,8 @@
       "link": "https://github.com/googlefonts/fontc/issues/1861",
       "also": [
         "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)",
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (default)",
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?99094d4f6e (gftools)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
         "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)",
         "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
         "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
@@ -434,95 +200,20 @@
       ]
     }
   ],
-  "indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (default)": [
-    {
-      "text": "we generate a bunch more markpos rules",
-      "link": "https://github.com/googlefonts/fontc/issues/1862",
-      "also": [
-        "indestructible-type/Bodoni/sources/config.yaml BodoniModa.glyphs?30ce6cdc35 (gftools)",
-        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (default)",
-        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (gftools)"
-      ]
-    }
-  ],
-  "notofonts/mongolian/sources/config-sans-mongolian.yaml NotoSansMongolian.designspace?a61ef47935 (default)": [
-    {
-      "text": "we don't try format2 contextual subtables",
-      "link": "https://github.com/googlefonts/fontc/issues/1863",
-      "also": [
-        "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)",
-        "notofonts/dives-akuru/sources/config-serif-dives-akuru.yaml NotoSerifDivesAkuru.glyphspackage?e9e925bc4b (default)",
-        "notofonts/khitan-small-script/sources/config-serif.yaml NotoSerifKhitanSmallScript.glyphspackage?8769c8b092 (default)",
-        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)",
-        "notofonts/kaithi/sources/config-sans-kaithi.yaml NotoSansKaithi.glyphs?897d285a72 (default)",
-        "notofonts/tirhuta/sources/config-sans-tirhuta.yaml NotoSansTirhuta.glyphs?3c941a6f71 (default)"
-      ]
-    }
-  ],
   "notofonts/elymaic/sources/config-sans-elymaic.yaml NotoSansElymaic.designspace?4a230cd737 (default)": [
     {
       "text": "support com.schriftgestaltung.Glyphs.Export glyph lib key",
       "link": "https://github.com/googlefonts/fontc/issues/1864"
     }
   ],
-  "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Roman.designspace?7ae92a27f1 (default)": [
-    {
-      "text": "we categorize fewer glyphs as bases",
-      "link": "https://github.com/googlefonts/fontc/issues/1865",
-      "also": [
-        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Roman.designspace?7ae92a27f1 (gftools)",
-        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Italic.designspace?7ae92a27f1 (default)",
-        "googlefonts/ibarrareal/$VIRTUAL/google/fonts/ofl/ibarrarealnova/config.yaml sources/IbarraRealNova-Italic.designspace?7ae92a27f1 (gftools)",
-        "googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (default)",
-        "googlefonts/Domine/sources/config.yaml Domine.designspace?2974ac627a (gftools)",
-        "magictype/redrose/$VIRTUAL/google/fonts/ofl/redrose/config.yaml sources/RedRose.designspace?d173625490 (default)",
-        "magictype/redrose/$VIRTUAL/google/fonts/ofl/redrose/config.yaml sources/RedRose.designspace?d173625490 (gftools)",
-        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum.designspace?98adc59dc0 (default)",
-        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum.designspace?98adc59dc0 (gftools)",
-        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum-Italic.designspace?98adc59dc0 (gftools)",
-        "alexeiva/cuprum/$VIRTUAL/google/fonts/ofl/cuprum/config.yaml sources/Cuprum-Italic.designspace?98adc59dc0 (default)"
-      ]
-    }
-  ],
-  "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (default)": [
-    {
-      "text": "we produce a different axis mapping",
-      "link": "https://github.com/googlefonts/fontc/issues/1866",
-      "also": [
-        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)"
-      ]
-    },
-    {
-      "text": "fontmake GPOS kern VarStore regions use wrong normalization path",
-      "link": "https://github.com/googlefonts/ufo2ft/issues/978",
-      "also": [
-        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)"
-      ]
-    }
-  ],
   "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)": [
     {
       "text": "we don't produce MATH table",
       "link": "https://github.com/googlefonts/fontc/issues/1867"
-    }
-  ],
-  "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (default)": [
+    },
     {
-      "text": "we don't look for com.github.googlei18n.ufo2ft.featureWriters key",
-      "link": "https://github.com/googlefonts/fontc/issues/1868",
-      "also": [
-        "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (gftools)",
-        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (default)",
-        "docrepair-fonts/lugrasimo-fonts/sources/config.yaml Lugrasimo-Regular.designspace?1810308496 (gftools)",
-        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (default)",
-        "docrepair-fonts/caprasimo-fonts/sources/config.yaml Caprasimo-Regular.designspace?9f11e8fd4e (gftools)",
-        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (default)",
-        "docrepair-fonts/lumanosimo-fonts/sources/config.yaml Lumanosimo-Regular.designspace?a7395fda4d (gftools)",
-        "docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (default)",
-        "docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (gftools)",
-        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (default)",
-        "docrepair-fonts/bacasime-antique-fonts/sources/config.yaml Bacasime-Antique-Regular.designspace?673db74ee2 (gftools)"
-      ]
+      "text": "we don't generate cmap format 14",
+      "link": "https://github.com/googlefonts/fontc/issues/1543"
     }
   ],
   "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)": [
@@ -531,8 +222,7 @@
       "link": "https://github.com/googlefonts/fontc/issues/1869",
       "also": [
         "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)",
-        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)",
-        "notofonts/grantha/sources/config-serif-grantha.yaml NotoSerifGrantha.glyphs?6bb911fa06 (default)"
+        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)"
       ]
     }
   ],
@@ -544,15 +234,6 @@
         "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
         "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
         "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)"
-      ]
-    }
-  ],
-  "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)": [
-    {
-      "text": "different GDEF version",
-      "link": "https://github.com/googlefonts/fontc/issues/1871",
-      "also": [
-        "Afrotype/danfo/sources/config.yaml Danfo.glyphs?a66fc9ded8 (default)"
       ]
     }
   ],
@@ -580,10 +261,8 @@
       "also": [
         "microsoft/ADLaM-Display/Sources/config.yaml ADLaM-Display.glyphs?879176243e (gftools)",
         "Kiwi-KawagotoKajiru/Kiwi-Maru/$VIRTUAL/google/fonts/ofl/kiwimaru/config.yaml sources/KiwiMaru-Light.glyphs?65a112c7ec (gftools)",
-         "Kiwi-KawagotoKajiru/Kiwi-Maru/$VIRTUAL/google/fonts/ofl/kiwimaru/config.yaml sources/KiwiMaru-Medium.glyphs?65a112c7ec (gftools)",
-         "fontworks-fonts/Klee/$VIRTUAL/google/fonts/ofl/kleeone/config.yaml sources/KleeOne-SemiBold.glyphs?8b0532731b (gftools)",
-         "notofonts/oriya_795268df4e/sources/config-serif-oriya.yaml NotoSerifOriya.glyphs?795268df4e (default)"
-
+        "Kiwi-KawagotoKajiru/Kiwi-Maru/$VIRTUAL/google/fonts/ofl/kiwimaru/config.yaml sources/KiwiMaru-Medium.glyphs?65a112c7ec (gftools)",
+        "fontworks-fonts/Klee/$VIRTUAL/google/fonts/ofl/kleeone/config.yaml sources/KleeOne-SemiBold.glyphs?8b0532731b (gftools)"
       ]
     }
   ],
@@ -593,15 +272,6 @@
       "link": "https://github.com/googlefonts/fontc/issues/1958",
       "also": [
         "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)"
-      ]
-    }
-  ],
-  "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (default)": [
-    {
-      "text": "f2dot14 rounding error",
-      "link": "https://github.com/googlefonts/fontc/issues/1979",
-      "also": [
-        "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)"
       ]
     }
   ],
@@ -616,40 +286,7 @@
         "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (gftools)",
         "NaN-xyz/Rubik-Filtered/doodleshadow/sources/config.yaml RubikDoodleShadow.glyphs?409369746e (default)",
         "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (default)",
-        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)",
-        "googlefonts/josefinsans/$VIRTUAL/google/fonts/ofl/josefinsans/config.yaml sources/JosefinSans-Italic.designspace?bf6907e3a3 (default)",
-        "googlefonts/josefinsans/$VIRTUAL/google/fonts/ofl/josefinsans/config.yaml sources/JosefinSans-Italic.designspace?bf6907e3a3 (gftools)"
-      ]
-    }
-  ],
-  "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Bold.glyphspackage?ea7a320d85 (default)": [
-    {
-      "text": "fea-rs doesn't honor 'useExtension' keyword",
-      "link": "https://github.com/googlefonts/fontc/issues/1962",
-      "also": [
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Bold.glyphspackage?ea7a320d85 (gftools)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-ExtraBold.glyphspackage?ea7a320d85 (default)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-ExtraBold.glyphspackage?ea7a320d85 (gftools)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (default)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Regular.glyphspackage?ea7a320d85 (gftools)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (default)",
-        "line/seed/LINESeedJP/sources/config.yaml LINESeedJP-Thin.glyphspackage?ea7a320d85 (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Black.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Black.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Bold.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Bold.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraBold.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraBold.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraLight.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-ExtraLight.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Light.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Light.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Medium.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Medium.ufo?2085b8942f (gftools)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Regular.ufo?2085b8942f (default)",
-        "googlefonts/tajawal/$VIRTUAL/google/fonts/ofl/tajawal/config.yaml source/1-drawings/Tajawal-Regular.ufo?2085b8942f (gftools)",
-        "googlefonts/science-gothic/sources/build-config.yaml ./UFO/ScienceGothic[CTRS,slnt,wdth,wght].designspace?9eae80c1fe (default)",
-        "googlefonts/science-gothic/sources/build-config.yaml ./UFO/ScienceGothic[CTRS,slnt,wdth,wght].designspace?9eae80c1fe (gftools)"
+        "NaN-xyz/Rubik-Filtered/scribble/sources/config.yaml RubikScribble.glyphs?c70421b2f2 (gftools)"
       ]
     }
   ],
@@ -723,10 +360,6 @@
         "EkType/Anek/sources/AnekOdia/builder.yaml Masters/AnekOdia.designspace?34074c6b40 (gftools)",
         "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (default)",
         "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (gftools)",
-        "TypeNetwork/Arimo/$VIRTUAL/google/fonts/apache/arimo/config.yaml sources/Arimo-Italic.designspace?77fdf7e032 (default)",
-        "TypeNetwork/Arimo/$VIRTUAL/google/fonts/apache/arimo/config.yaml sources/Arimo-Italic.designspace?77fdf7e032 (gftools)",
-        "TypeNetwork/Arimo/$VIRTUAL/google/fonts/apache/arimo/config.yaml sources/Arimo.designspace?77fdf7e032 (default)",
-        "TypeNetwork/Arimo/$VIRTUAL/google/fonts/apache/arimo/config.yaml sources/Arimo.designspace?77fdf7e032 (gftools)",
         "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Italic/SourceSans3VF-Italic.designspace?272b22b02e (default)",
         "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Italic/SourceSans3VF-Italic.designspace?272b22b02e (gftools)",
         "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Upright/SourceSans3VF-Upright.designspace?272b22b02e (default)",
@@ -737,7 +370,6 @@
         "adobe-fonts/source-serif/$VIRTUAL/google/fonts/ofl/sourceserif4/config.yaml Roman/SourceSerif4Variable-Roman.designspace?b3980ade53 (gftools)",
         "dy/linefont/sources/config.yaml Linefont.designspace?347effeda6 (default)",
         "dy/linefont/sources/config.yaml Linefont.designspace?347effeda6 (gftools)",
-        "googlefonts/Roboto-Flex/sources/config.yaml RobotoFlex.designspace?739e06dc46 (default)",
         "googlefonts/Roboto-Flex/sources/config.yaml RobotoFlex.designspace?739e06dc46 (gftools)",
         "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (default)",
         "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools)",
@@ -766,11 +398,7 @@
         "indestructible-type/Jost/$VIRTUAL/google/fonts/ofl/jost/config.yaml sources/designspace/jostGF-Italic.designspace?35f141c970 (gftools)",
         "indestructible-type/Jost/$VIRTUAL/google/fonts/ofl/jost/config.yaml sources/designspace/jostGF.designspace?35f141c970 (default)",
         "indestructible-type/Jost/$VIRTUAL/google/fonts/ofl/jost/config.yaml sources/designspace/jostGF.designspace?35f141c970 (gftools)",
-        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?cec102c389 (default)",
-        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?cec102c389 (gftools)",
         "notofonts/hanifi-rohingya/sources/config-sans-hanifi-rohingya.yaml NotoSansHanifiRohingya.designspace?48ba61fd61 (default)",
-        "productiontype/Georama/sources/builder.yaml Georama-Italic.designspace?1b063b6256 (default)",
-        "productiontype/Georama/sources/builder.yaml Georama-Italic.designspace?1b063b6256 (gftools)",
         "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (default)",
         "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools)",
         "productiontype/Spectral/sources/config.yaml Spectral.designspace?dbc06862d7 (default)",
@@ -797,8 +425,8 @@
         "silnrsi/font-gentium/$VIRTUAL/google/fonts/ofl/gentiumplus/config.yaml source/GentiumPlusRoman.designspace?7ac5e5ca61 (gftools)",
         "silnrsi/font-harmattan/$VIRTUAL/google/fonts/ofl/harmattan/config.yaml source/Harmattan.designspace?b8d089bdb2 (default)",
         "silnrsi/font-harmattan/$VIRTUAL/google/fonts/ofl/harmattan/config.yaml source/Harmattan.designspace?b8d089bdb2 (gftools)",
-        "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace?37a6c68fa0 (default)",
-        "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace?37a6c68fa0 (gftools)",
+        "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace?ed19e4c206 (default)",
+        "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace?ed19e4c206 (gftools)",
         "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml source/Kanchenjunga.designspace?19a3efac0c (default)",
         "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml source/Kanchenjunga.designspace?19a3efac0c (gftools)",
         "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace?4973b2e025 (default)",
@@ -811,8 +439,8 @@
         "silnrsi/font-padauk/$VIRTUAL/google/fonts/ofl/padauk/config.yaml source/Padauk.designspace?278b8efb03 (gftools)",
         "silnrsi/font-ruwudu/$VIRTUAL/google/fonts/ofl/ruwudu/config.yaml source/Ruwudu.designspace?b5aa4e6438 (default)",
         "silnrsi/font-ruwudu/$VIRTUAL/google/fonts/ofl/ruwudu/config.yaml source/Ruwudu.designspace?b5aa4e6438 (gftools)",
-        "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml source/ScheherazadeNew.designspace?e630202ccd (default)",
-        "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml source/ScheherazadeNew.designspace?e630202ccd (gftools)"
+        "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml source/ScheherazadeNew.designspace?60e64560db (default)",
+        "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml source/ScheherazadeNew.designspace?60e64560db (gftools)"
       ]
     }
   ],
@@ -896,6 +524,32 @@
       "link": "https://github.com/googlefonts/josefinslab/pull/48",
       "also": [
         "googlefonts/josefinslab/sources/config.yaml JosefinSlab-Italic.designspace?61773366f7 (gftools)"
+      ]
+    }
+  ],
+  "vaishnavimurthy/Akaya-Kanadaka/$VIRTUAL/google/fonts/ofl/akayakanadaka/config.yaml Source/AkayaKanadaka.glyphs?24f2546178 (gftools)": [
+    {
+      "text": "we categorize more glyphs as marks",
+      "link": "https://github.com/googlefonts/fontc/issues/1852",
+      "also": [
+        "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)"
+      ]
+    }
+  ],
+  "simoncozens/Gulzar/$VIRTUAL/google/fonts/ofl/gulzar/config.yaml sources/Gulzar.glyphs?42b27958a8 (gftools)": [
+    {
+      "text": "we categorize more glyphs as bases",
+      "link": "https://github.com/googlefonts/fontc/issues/1853"
+    }
+  ],
+  "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (default)": [
+    {
+      "text": "fea-rs only supports 'name' in Glyphs predicate tokens; other attributes and unquoted values fail",
+      "link": "https://github.com/googlefonts/fontc/issues/2052",
+      "also": [
+        "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (gftools)",
+        "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (default)",
+        "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (gftools)"
       ]
     }
   ]
