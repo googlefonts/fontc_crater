@@ -27639,7 +27639,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>custom parameter precedence: <a href=
+			<li>intentional: fontc ignores master-level copies
+			of font-wide custom parameters (source conflict;
+			warned since #2024): <a href=
 			"https://github.com/googlefonts/fontc/issues/1856">
 				https://github.com/googlefonts/fontc/issues/1856</a>
 			</li>
@@ -27696,10 +27698,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we promote more lookups to use extensions:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1835">
-				https://github.com/googlefonts/fontc/issues/1835</a>
+			<li>harness: write-fonts pre-splits LigatureSubst
+			subtables by estimated size; the ligatures
+			themselves are identical
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -28128,7 +28129,7 @@
 	<details>
 		<summary>
 		<span class="font_path">NotoSansDevanagari.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.997%</span> <span class=
 		"changed_tag_list">((mark/kern), GPOS)</span>
 		</summary>
@@ -28172,9 +28173,21 @@
 		"https://github.com/notofonts/devanagari">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/notofonts/devanagari?e123d230c1#sources/NotoSansDevanagari.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?e123d230c1 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>nukta* anchors (e.g. nukta.sat) should attach
+			below (blwm) as in ufo2ft; fontc puts them in abvm
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -28241,11 +28254,6 @@
 			<li>gftools OS/2 value diffs: <a href=
 			"https://github.com/googlefonts/fontc/issues/1874">
 				https://github.com/googlefonts/fontc/issues/1874</a>
-			</li>
-			<li>OS/2 sub/superscript X offsets derived from
-			unrounded Y offsets: <a href=
-			"https://github.com/googlefonts/fontc/pull/2152">
-				https://github.com/googlefonts/fontc/pull/2152</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -28661,9 +28669,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>contextual layout diffs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1869">
-				https://github.com/googlefonts/fontc/issues/1869</a>
+			<li>nukta* anchors (e.g. nukta.sat) should attach
+			below (blwm) as in ufo2ft; fontc puts them in abvm
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -28799,10 +28806,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we promote more lookups to use extensions:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1835">
-				https://github.com/googlefonts/fontc/issues/1835</a>
+			<li>fea-rs aalt ignores alternates from
+			useExtension lookups
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -28876,11 +28881,6 @@
 			<li>gftools OS/2 value diffs: <a href=
 			"https://github.com/googlefonts/fontc/issues/1874">
 				https://github.com/googlefonts/fontc/issues/1874</a>
-			</li>
-			<li>OS/2 sub/superscript X offsets derived from
-			unrounded Y offsets: <a href=
-			"https://github.com/googlefonts/fontc/pull/2152">
-				https://github.com/googlefonts/fontc/pull/2152</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -29160,14 +29160,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>contextual layout diffs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1869">
-				https://github.com/googlefonts/fontc/issues/1869</a>
-			</li>
-			<li>we promote more lookups to use extensions:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1835">
-				https://github.com/googlefonts/fontc/issues/1835</a>
+			<li>harness: write-fonts pre-splits LigatureSubst
+			subtables by estimated size; the ligatures
+			themselves are identical
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -30229,8 +30224,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -30929,8 +30924,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -31019,8 +31014,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -31363,8 +31358,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>inline rules reuse different existing lookups:
-			<a href=
+			<li>inline ligature rule split across anonymous
+			lookups; the rule references the wrong one
+			(miscompile): <a href=
 			"https://github.com/googlefonts/fontc/issues/1817">
 				https://github.com/googlefonts/fontc/issues/1817</a>
 			</li>
@@ -31453,8 +31449,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -32161,8 +32157,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>custom (XXXX) point axis: <a href=
-			"https://github.com/googlefonts/fontc/issues/1958">
+			<li>unmapped Glyphs 2 point axis (custom XXXX, or
+			wdth=5): fontmake keeps it, fontc drops it:
+				<a href="https://github.com/googlefonts/fontc/issues/1958">
 				https://github.com/googlefonts/fontc/issues/1958</a>
 			</li>
 			<li>
@@ -32363,10 +32360,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in handling of some metric values in
-			glyphs sources: <a href=
-			"https://github.com/googlefonts/fontc/issues/1824">
-				https://github.com/googlefonts/fontc/issues/1824</a>
+			<li>glyphs-reader ignores long-form metric custom
+			parameters (e.g. postscriptUnderlineThickness)
 			</li>
 			<li>difference in kerning of bracket glyphs:
 			<a href=
@@ -32530,10 +32525,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in handling of some metric values in
-			glyphs sources: <a href=
-			"https://github.com/googlefonts/fontc/issues/1824">
-				https://github.com/googlefonts/fontc/issues/1824</a>
+			<li>glyphs-reader ignores long-form metric custom
+			parameters (e.g. postscriptUnderlineThickness)
 			</li>
 			<li>difference in kerning of bracket glyphs:
 			<a href=
@@ -32639,10 +32632,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in handling of some metric values in
-			glyphs sources: <a href=
-			"https://github.com/googlefonts/fontc/issues/1824">
-				https://github.com/googlefonts/fontc/issues/1824</a>
+			<li>glyphs-reader ignores long-form metric custom
+			parameters (e.g. postscriptUnderlineThickness)
 			</li>
 			<li>difference in kerning of bracket glyphs:
 			<a href=
@@ -32749,10 +32740,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in handling of some metric values in
-			glyphs sources: <a href=
-			"https://github.com/googlefonts/fontc/issues/1824">
-				https://github.com/googlefonts/fontc/issues/1824</a>
+			<li>glyphs-reader ignores long-form metric custom
+			parameters (e.g. postscriptUnderlineThickness)
 			</li>
 			<li>difference in kerning of bracket glyphs:
 			<a href=
@@ -32893,8 +32882,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>custom (XXXX) point axis: <a href=
-			"https://github.com/googlefonts/fontc/issues/1958">
+			<li>unmapped Glyphs 2 point axis (custom XXXX, or
+			wdth=5): fontmake keeps it, fontc drops it:
+				<a href="https://github.com/googlefonts/fontc/issues/1958">
 				https://github.com/googlefonts/fontc/issues/1958</a>
 			</li>
 			<li>
@@ -33123,6 +33113,12 @@
 			"https://github.com/googlefonts/fontc/issues/1826">
 				https://github.com/googlefonts/fontc/issues/1826</a>
 			</li>
+			<li>bracket axis-rule min/max truncated to integers
+			(39.6 -&gt; 39), moving FeatureVariations
+			boundaries: <a href=
+			"https://github.com/googlefonts/fontc/issues/1841">
+				https://github.com/googlefonts/fontc/issues/1841</a>
+			</li>
 			<li>
 				<em>(to add or change, manually edit
 				annotations.json)</em>
@@ -33292,8 +33288,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>rounding difference in ConditionSet table:
-			<a href=
+			<li>bracket axis-rule min/max truncated to integers
+			(39.6 -&gt; 39), moving FeatureVariations
+			boundaries: <a href=
 			"https://github.com/googlefonts/fontc/issues/1841">
 				https://github.com/googlefonts/fontc/issues/1841</a>
 			</li>
@@ -33301,11 +33298,6 @@
 			<a href=
 			"https://github.com/googlefonts/fontc/issues/1826">
 				https://github.com/googlefonts/fontc/issues/1826</a>
-			</li>
-			<li>rounding difference in ConditionSet table:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1841">
-				https://github.com/googlefonts/fontc/issues/1841</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -33318,7 +33310,7 @@
 	<details>
 		<summary>
 		<span class="font_path">creteround/CreteRound-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.978%</span> <span class=
 		"changed_tag_list">(OS_2, head, name)</span>
 		</summary>
@@ -33370,9 +33362,22 @@
 		"https://github.com/googlefonts/creteround">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/creteround?64e1c753a1#sources/CreteRound-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/creteround/sources/config.yaml CreteRound-Italic.glyphs?64e1c753a1 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake doesn't treat as italic: <a href=
+			"https://github.com/googlefonts/fontc/issues/1815">
+				https://github.com/googlefonts/fontc/issues/1815</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -34236,8 +34241,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -34511,11 +34516,12 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyphsLib drops Glyphs 3 component 'slant';
-			fixed in glyphsLib 6.14, but crater pins &lt;6.14
-			until fontc#2078: <a href=
-			"https://github.com/googlefonts/glyphsLib/pull/1160">
-				https://github.com/googlefonts/glyphsLib/pull/1160</a>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -35016,7 +35022,7 @@
 		<summary>
 		<span class=
 		"font_path">chauphilomeneone/ChauPhilomeneOne-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.967%</span> <span class=
 		"changed_tag_list">(OS_2, head, name)</span>
 		</summary>
@@ -35068,9 +35074,22 @@
 		"https://github.com/googlefonts/chauphilomeneone">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/chauphilomeneone?a1f00e1a92#sources/ChauPhilomeneOne-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/chauphilomeneone/sources/config.yaml ChauPhilomeneOne-Italic.glyphs?a1f00e1a92 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake doesn't treat as italic: <a href=
+			"https://github.com/googlefonts/fontc/issues/1815">
+				https://github.com/googlefonts/fontc/issues/1815</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -35241,11 +35260,12 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyphsLib drops Glyphs 3 component 'slant';
-			fixed in glyphsLib 6.14, but crater pins &lt;6.14
-			until fontc#2078: <a href=
-			"https://github.com/googlefonts/glyphsLib/pull/1160">
-				https://github.com/googlefonts/glyphsLib/pull/1160</a>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -35413,7 +35433,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>variable notdef differences: <a href=
+			<li>ufo2ft synthesizes a .notdef in each sparse
+			brace-layer source (ufo2ft bug): <a href=
 			"https://github.com/googlefonts/fontc/issues/1872">
 				https://github.com/googlefonts/fontc/issues/1872</a>
 			</li>
@@ -35478,7 +35499,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>variable notdef differences: <a href=
+			<li>ufo2ft synthesizes a .notdef in each sparse
+			brace-layer source (ufo2ft bug): <a href=
 			"https://github.com/googlefonts/fontc/issues/1872">
 				https://github.com/googlefonts/fontc/issues/1872</a>
 			</li>
@@ -35932,10 +35954,24 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
+			</li>
+			<li>glyphsLib widens the axis range to extrapolated
+			instances (fontmake's VF renders Light at wght
+			800); fontc keeps the master range: <a href=
+			"https://github.com/googlefonts/fontc/issues/1991">
+				https://github.com/googlefonts/fontc/issues/1991</a>
+			</li>
+			<li>fontmake drops in-range instances whose Glyphs
+			2 width is unset, and wdth=5 gives usWidthClass 1
+			(glyphsLib/designspaceLib bug)
+			</li>
+			<li>fontc writes named instances outside the fvar
+			axis range and a malformed avar for extrapolated
+			Glyphs instances
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -36029,10 +36065,24 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
+			</li>
+			<li>glyphsLib widens the axis range to extrapolated
+			instances (fontmake's VF renders Light at wght
+			800); fontc keeps the master range: <a href=
+			"https://github.com/googlefonts/fontc/issues/1991">
+				https://github.com/googlefonts/fontc/issues/1991</a>
+			</li>
+			<li>fontmake drops in-range instances whose Glyphs
+			2 width is unset, and wdth=5 gives usWidthClass 1
+			(glyphsLib/designspaceLib bug)
+			</li>
+			<li>fontc writes named instances outside the fvar
+			axis range and a malformed avar for extrapolated
+			Glyphs instances
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -36258,8 +36308,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -36448,7 +36498,7 @@
 	<details>
 		<summary>
 		<span class="font_path">economica/Economica-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.947%</span> <span class=
 		"changed_tag_list">(OS_2, head, name)</span>
 		</summary>
@@ -36500,15 +36550,28 @@
 		"https://github.com/googlefonts/economica">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/economica?97d9d77522#sources/Economica-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/economica/sources/config.yaml Economica-Italic.glyphs?97d9d77522 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake doesn't treat as italic: <a href=
+			"https://github.com/googlefonts/fontc/issues/1815">
+				https://github.com/googlefonts/fontc/issues/1815</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">gudea/Gudea-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.946%</span> <span class=
 		"changed_tag_list">(OS_2, head, name)</span>
 		</summary>
@@ -36559,9 +36622,22 @@
 		</table><a href="https://github.com/googlefonts/gudea">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/gudea?84926eb574#sources/Gudea-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/gudea/sources/config.yaml Gudea-Italic.glyphs?84926eb574 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake doesn't treat as italic: <a href=
+			"https://github.com/googlefonts/fontc/issues/1815">
+				https://github.com/googlefonts/fontc/issues/1815</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -36618,11 +36694,12 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyphsLib drops Glyphs 3 component 'slant';
-			fixed in glyphsLib 6.14, but crater pins &lt;6.14
-			until fontc#2078: <a href=
-			"https://github.com/googlefonts/glyphsLib/pull/1160">
-				https://github.com/googlefonts/glyphsLib/pull/1160</a>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -36636,7 +36713,7 @@
 		<summary>
 		<span class=
 		"font_path">economica/Economica-BoldItalic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.946%</span> <span class=
 		"changed_tag_list">(OS_2, head, name)</span>
 		</summary>
@@ -36688,9 +36765,22 @@
 		"https://github.com/googlefonts/economica">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/economica?97d9d77522#sources/Economica-BoldItalic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/economica/sources/config.yaml Economica-BoldItalic.glyphs?97d9d77522 (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake doesn't treat as italic: <a href=
+			"https://github.com/googlefonts/fontc/issues/1815">
+				https://github.com/googlefonts/fontc/issues/1815</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -36738,10 +36828,10 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we include lookups that are not referenced by
-			any feature: <a href=
-			"https://github.com/googlefonts/fontc/issues/1845">
-				https://github.com/googlefonts/fontc/issues/1845</a>
+			<li>harness: fontmake's post-compile subsetter
+			(triggered by Export=false glyphs) prunes 2
+			unreferenced lookups that feaLib and fea-rs both
+			keep
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -37212,8 +37302,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -37511,11 +37601,12 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyphsLib drops Glyphs 3 component 'slant';
-			fixed in glyphsLib 6.14, but crater pins &lt;6.14
-			until fontc#2078: <a href=
-			"https://github.com/googlefonts/glyphsLib/pull/1160">
-				https://github.com/googlefonts/glyphsLib/pull/1160</a>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -37602,8 +37693,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -37692,8 +37783,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -37782,8 +37873,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -38083,8 +38174,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -38174,8 +38265,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -38247,10 +38338,15 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we include lookups that are not referenced by
-			any feature: <a href=
-			"https://github.com/googlefonts/fontc/issues/1845">
-				https://github.com/googlefonts/fontc/issues/1845</a>
+			<li>fea-rs emits a duplicate anonymous SingleSubst
+			when a class lists the same glyph twice
+			</li>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -38437,10 +38533,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we promote more lookups to use extensions:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1835">
-				https://github.com/googlefonts/fontc/issues/1835</a>
+			<li>fea-rs aalt ignores alternates from
+			useExtension lookups
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -38598,7 +38692,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in anchor propogation for bracket glyphs?:
+			<li>anchor propagation for bracket glyphs:
+			glyphsLib treats a master layer with an empty
+			axisRules as a bracket layer (glyphsLib bug):
 			<a href=
 			"https://github.com/googlefonts/fontc/issues/1850">
 				https://github.com/googlefonts/fontc/issues/1850</a>
@@ -38657,7 +38753,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>diff in anchor propogation for bracket glyphs?:
+			<li>anchor propagation for bracket glyphs:
+			glyphsLib treats a master layer with an empty
+			axisRules as a bracket layer (glyphsLib bug):
 			<a href=
 			"https://github.com/googlefonts/fontc/issues/1850">
 				https://github.com/googlefonts/fontc/issues/1850</a>
@@ -38748,8 +38846,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -38895,8 +38993,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -39061,9 +39159,10 @@
 			annotations
 			</h5>
 			<ul>
-			<li>we export more glyphs than fontmake:
-				<a href="https://github.com/googlefonts/fontc/issues/1848">
-				https://github.com/googlefonts/fontc/issues/1848</a>
+			<li>support com.schriftgestaltung.Glyphs.Export
+			glyph lib key: <a href=
+			"https://github.com/googlefonts/fontc/issues/1864">
+				https://github.com/googlefonts/fontc/issues/1864</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -39222,8 +39321,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -39694,10 +39793,24 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
-			"https://github.com/googlefonts/fontc/issues/1990">
-				https://github.com/googlefonts/fontc/issues/1990</a>
+			<li>glyphsLib widens the axis range to extrapolated
+			instances (fontmake's VF renders Light at wght
+			800); fontc keeps the master range: <a href=
+			"https://github.com/googlefonts/fontc/issues/1991">
+				https://github.com/googlefonts/fontc/issues/1991</a>
+			</li>
+			<li>fontmake drops in-range instances whose Glyphs
+			2 width is unset, and wdth=5 gives usWidthClass 1
+			(glyphsLib/designspaceLib bug)
+			</li>
+			<li>fontc writes named instances outside the fvar
+			axis range and a malformed avar for extrapolated
+			Glyphs instances
+			</li>
+			<li>unmapped Glyphs 2 point axis (custom XXXX, or
+			wdth=5): fontmake keeps it, fontc drops it:
+				<a href="https://github.com/googlefonts/fontc/issues/1958">
+				https://github.com/googlefonts/fontc/issues/1958</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -39793,10 +39906,24 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
-			"https://github.com/googlefonts/fontc/issues/1990">
-				https://github.com/googlefonts/fontc/issues/1990</a>
+			<li>glyphsLib widens the axis range to extrapolated
+			instances (fontmake's VF renders Light at wght
+			800); fontc keeps the master range: <a href=
+			"https://github.com/googlefonts/fontc/issues/1991">
+				https://github.com/googlefonts/fontc/issues/1991</a>
+			</li>
+			<li>fontmake drops in-range instances whose Glyphs
+			2 width is unset, and wdth=5 gives usWidthClass 1
+			(glyphsLib/designspaceLib bug)
+			</li>
+			<li>fontc writes named instances outside the fvar
+			axis range and a malformed avar for extrapolated
+			Glyphs instances
+			</li>
+			<li>unmapped Glyphs 2 point axis (custom XXXX, or
+			wdth=5): fontmake keeps it, fontc drops it:
+				<a href="https://github.com/googlefonts/fontc/issues/1958">
+				https://github.com/googlefonts/fontc/issues/1958</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -39883,8 +40010,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -40244,8 +40371,9 @@
 			annotations
 			</h5>
 			<ul>
-			<li>compilation diff for large number of contextual
-			lookups
+			<li>SinglePos subtable layout only (fontmake
+			compiles per master and varLib rebuilds); values
+			are identical
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -40342,8 +40470,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -40501,9 +40629,13 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>empty COLRv0 palette layers are dropped, so the
+			.colorN glyph set and numbering differ from
+			glyphsLib
+			</li>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -40607,9 +40739,13 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>empty COLRv0 palette layers are dropped, so the
+			.colorN glyph set and numbering differ from
+			glyphsLib
+			</li>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -40812,8 +40948,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -41163,8 +41299,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>fontc drops point axis with non-identity
-			user-to-design mapping: <a href=
+			<li>fontc drops point axes that fontmake keeps:
+			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 			</li>
@@ -41690,18 +41826,19 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
 			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -41788,18 +41925,19 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
 			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -41886,18 +42024,19 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
 			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -41984,18 +42123,19 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
 			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -42099,18 +42239,29 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
 			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
+			</li>
+			<li>the variable instance's 'Name Table Entry'
+			custom parameter isn't applied (name ID 4)
+			</li>
+			<li>fontTools splitInterpolable(makeNames=True)
+			replaces explicit instance names and adds
+			PostScript names derived from glyphsLib 6.15's STAT
+			labels; fontc is right: <a href=
+			"https://github.com/fonttools/fonttools/issues/3131">
+				https://github.com/fonttools/fonttools/issues/3131</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -42185,11 +42336,6 @@
 			implemented: <a href=
 			"https://github.com/googlefonts/fontc/issues/551">
 				https://github.com/googlefonts/fontc/issues/551</a>
-			</li>
-			<li>anonymous SingleSubst reused after checking
-			only the first class glyph: <a href=
-			"https://github.com/googlefonts/fontc/pull/2153">
-				https://github.com/googlefonts/fontc/pull/2153</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -42304,9 +42450,14 @@
 			"https://github.com/googlefonts/fontc/issues/1867">
 				https://github.com/googlefonts/fontc/issues/1867</a>
 			</li>
-			<li>we don't generate cmap format 14: <a href=
-			"https://github.com/googlefonts/fontc/issues/1543">
-				https://github.com/googlefonts/fontc/issues/1543</a>
+			<li>GlyphData codepoint fallback tries the lowest
+			codepoint instead of source order, so production
+			names differ
+			</li>
+			<li>non-integer smart component off-by-ones:
+			<a href=
+			"https://github.com/googlefonts/fontc/issues/1809">
+				https://github.com/googlefonts/fontc/issues/1809</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -42458,14 +42609,21 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			<li>anchors are propagated/cloned onto color
+			glyphs, adding ligature carets glyphsLib doesn't
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>static COLR ClipList in a variable COLRv1 font
+			clips glyphs away from the default master
+			</li>
+			<li>COLRv1 run splitting ignores the shape
+			identifier, so one gradient spans shapes glyphsLib
+			keeps separate
+			</li>
+			<li>COLRv1 paints are static; fontmake emits
+			variable PaintVar* paints
+			</li>
+			<li>glyphsLib gives split COLRv1 layer glyphs width
+			600 and drops their anchors (glyphsLib bug)
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43106,9 +43264,23 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>empty COLRv0 palette layers are dropped, so the
+			.colorN glyph set and numbering differ from
+			glyphsLib
+			</li>
+			<li>normalization precision: fontc interpolates
+			where fontTools uses normalizeValue, flipping exact
+			.5 delta ties
+			</li>
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
+			<a href=
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
+			</li>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43235,9 +43407,23 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>empty COLRv0 palette layers are dropped, so the
+			.colorN glyph set and numbering differ from
+			glyphsLib
+			</li>
+			<li>normalization precision: fontc interpolates
+			where fontTools uses normalizeValue, flipping exact
+			.5 delta ties
+			</li>
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
+			<a href=
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
+			</li>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43443,14 +43629,22 @@
 			annotations
 			</h5>
 			<ul>
-			<li>GDEF entries for generated .color glyphs:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
+			<li>anchors are propagated/cloned onto color
+			glyphs, adding ligature carets glyphsLib doesn't
 			</li>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>COLRv0 .colorN layer glyphs don't vary: fontc
+			only reads palette layers on the default master:
+			<a href=
+			"https://github.com/googlefonts/fontc/issues/2105">
+				https://github.com/googlefonts/fontc/issues/2105</a>
+			</li>
+			<li>components in COLRv0 palette layers aren't
+			remapped to the component's .colorN glyph, so the
+			whole base glyph is painted
+			</li>
+			<li>.colorN glyphs don't get glyphsLib's
+			GlyphData-derived category, width and production
+			name
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43732,9 +43926,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>COLRv1 artwork on non-master 'color = 1' layers
+			is ignored, so no COLR table is emitted
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43845,9 +44038,8 @@
 			annotations
 			</h5>
 			<ul>
-			<li>glyph order for colr glyphs: <a href=
-			"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
+			<li>COLRv1 artwork on non-master 'color = 1' layers
+			is ignored, so no COLR table is emitted
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -44373,7 +44565,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44425,7 +44620,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44476,7 +44674,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44527,7 +44728,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44578,7 +44782,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44630,7 +44837,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44682,7 +44892,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44734,7 +44947,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44785,7 +45001,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -44836,7 +45055,10 @@
 				annotations
 			</h5>
 			<ul>
-				<li>FEA missing trailing ;: <a href=
+				<li>fea-rs rejects a missing ';' at the end of
+				an included FEA file (fontTools accepts it);
+				fixed upstream, but google/fonts pins a pre-fix
+				commit: <a href=
 				"https://github.com/TypeTogether/Playpen-Sans/pull/47">
 				https://github.com/TypeTogether/Playpen-Sans/pull/47</a>
 				</li>
@@ -45050,8 +45272,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>norad doesn't support zipped UFO sources:
-				<a href=
+				<li>zipped UFO: needs a norad release with ufoz
+				support plus fontc's ufoz branch: <a href=
 				"https://github.com/linebender/norad/issues/262">
 				https://github.com/linebender/norad/issues/262</a>
 				</li>
@@ -45090,8 +45312,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>norad doesn't support zipped UFO sources:
-				<a href=
+				<li>zipped UFO: needs a norad release with ufoz
+				support plus fontc's ufoz branch: <a href=
 				"https://github.com/linebender/norad/issues/262">
 				https://github.com/linebender/norad/issues/262</a>
 				</li>
@@ -46042,8 +46264,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>norad doesn't support zipped UFO sources:
-				<a href=
+				<li>zipped UFO: needs a norad release with ufoz
+				support plus fontc's ufoz branch: <a href=
 				"https://github.com/linebender/norad/issues/262">
 				https://github.com/linebender/norad/issues/262</a>
 				</li>
@@ -46083,8 +46305,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>norad doesn't support zipped UFO sources:
-				<a href=
+				<li>zipped UFO: needs a norad release with ufoz
+				support plus fontc's ufoz branch: <a href=
 				"https://github.com/linebender/norad/issues/262">
 				https://github.com/linebender/norad/issues/262</a>
 				</li>
@@ -46227,8 +46449,9 @@
 			</h5>
 			<ul>
 				<li>vendorID has leading whitespace, creating
-				invalid 5-char tag: <a href=
-				"https://github.com/googlefonts/josefinslab/pull/48">
+				invalid 5-char tag; fixed upstream, but
+				google/fonts pins 61773366 (pre-fix):
+				<a href="https://github.com/googlefonts/josefinslab/pull/48">
 				https://github.com/googlefonts/josefinslab/pull/48</a>
 				</li>
 				<li>
@@ -46283,8 +46506,9 @@
 			</h5>
 			<ul>
 				<li>vendorID has leading whitespace, creating
-				invalid 5-char tag: <a href=
-				"https://github.com/googlefonts/josefinslab/pull/48">
+				invalid 5-char tag; fixed upstream, but
+				google/fonts pins 61773366 (pre-fix):
+				<a href="https://github.com/googlefonts/josefinslab/pull/48">
 				https://github.com/googlefonts/josefinslab/pull/48</a>
 				</li>
 				<li>
@@ -48550,33 +48774,14 @@
 		<summary>
 			SophiaDesign/Foldit/sources/config.yaml
 			./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)
-			✎
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/SophiaDesign/Foldit">view
 			source repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SophiaDesign/Foldit?934034370b#sources/./glyphs-decomposed/Foldit.glyphs' --compare gftools --config ~/.fontc_crater_cache/SophiaDesign/Foldit/sources/config.yaml&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>GDEF entries for generated .color glyphs:
-				<a href=
-				"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
-				</li>
-				<li>glyph order for colr glyphs: <a href=
-				"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
+			copy reproduction command</a> <a href="#" onclick=
+			"event.preventDefault(); openModal(&quot;SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)&quot;);">
+			new annotation</a>
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
@@ -71329,34 +71534,16 @@
 		<details class="report_group_item">
 		<summary>
 			fridamedrano/Kalnia-Glaze/sources/config.yaml
-			KalniaGlaze.glyphs?3338853e09 (gftools) ✎
+			KalniaGlaze.glyphs?3338853e09 (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href=
 			"https://github.com/fridamedrano/Kalnia-Glaze">view
 			source repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/fridamedrano/Kalnia-Glaze?3338853e09#sources/KalniaGlaze.glyphs' --compare gftools --config ~/.fontc_crater_cache/fridamedrano/Kalnia-Glaze/sources/config.yaml&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>GDEF entries for generated .color glyphs:
-				<a href=
-				"https://github.com/googlefonts/fontc/issues/1870">
-				https://github.com/googlefonts/fontc/issues/1870</a>
-				</li>
-				<li>glyph order for colr glyphs: <a href=
-				"https://github.com/googlefonts/fontc/issues/1861">
-				https://github.com/googlefonts/fontc/issues/1861</a>
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
+			copy reproduction command</a> <a href="#" onclick=
+			"event.preventDefault(); openModal(&quot;fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)&quot;);">
+			new annotation</a>
 		</div>
 		<div class="h5">
 			fontc
@@ -85221,8 +85408,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>fontc drops point axis with non-identity
-				user-to-design mapping: <a href=
+				<li>fontc drops point axes that fontmake keeps:
+				<a href=
 				"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 				</li>
@@ -85275,8 +85462,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>fontc drops point axis with non-identity
-				user-to-design mapping: <a href=
+				<li>fontc drops point axes that fontmake keeps:
+				<a href=
 				"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 				</li>
@@ -89979,8 +90166,8 @@
 				annotations
 			</h5>
 			<ul>
-				<li>fontc drops point axis with non-identity
-				user-to-design mapping: <a href=
+				<li>fontc drops point axes that fontmake keeps:
+				<a href=
 				"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
 				</li>
