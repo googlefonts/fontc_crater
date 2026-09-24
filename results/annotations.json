@@ -13,7 +13,8 @@
       "text": "non-integer smart component off-by-ones",
       "link": "https://github.com/googlefonts/fontc/issues/1809",
       "also": [
-        "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (gftools)"
+        "ButTaiwan/iansui/sources/config.yaml Iansui-build.glyphspackage?a66e7fe5bc (gftools)",
+        "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)"
       ]
     }
   ],
@@ -23,16 +24,11 @@
       "link": "https://github.com/googlefonts/fontc/issues/1815",
       "also": [
         "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (gftools)",
-        "googlefonts/chauphilomeneone/sources/config.yaml ChauPhilomeneOne-Italic.glyphs?d7246600bb (default)",
-        "googlefonts/chauphilomeneone/sources/config.yaml ChauPhilomeneOne-Italic.glyphs?d7246600bb (gftools)",
-        "googlefonts/creteround/sources/config.yaml CreteRound-Italic.glyphs?65f7a13699 (default)",
-        "googlefonts/creteround/sources/config.yaml CreteRound-Italic.glyphs?65f7a13699 (gftools)",
-        "googlefonts/economica/sources/config.yaml Economica-BoldItalic.glyphs?03c3c4473a (default)",
-        "googlefonts/economica/sources/config.yaml Economica-BoldItalic.glyphs?03c3c4473a (gftools)",
-        "googlefonts/economica/sources/config.yaml Economica-Italic.glyphs?03c3c4473a (default)",
-        "googlefonts/economica/sources/config.yaml Economica-Italic.glyphs?03c3c4473a (gftools)",
-        "googlefonts/gudea/sources/config.yaml Gudea-Italic.glyphs?7651bdceea (default)",
-        "googlefonts/gudea/sources/config.yaml Gudea-Italic.glyphs?7651bdceea (gftools)"
+        "googlefonts/chauphilomeneone/sources/config.yaml ChauPhilomeneOne-Italic.glyphs?a1f00e1a92 (default)",
+        "googlefonts/creteround/sources/config.yaml CreteRound-Italic.glyphs?64e1c753a1 (default)",
+        "googlefonts/economica/sources/config.yaml Economica-BoldItalic.glyphs?97d9d77522 (default)",
+        "googlefonts/economica/sources/config.yaml Economica-Italic.glyphs?97d9d77522 (default)",
+        "googlefonts/gudea/sources/config.yaml Gudea-Italic.glyphs?84926eb574 (default)"
       ]
     }
   ],
@@ -56,14 +52,13 @@
   ],
   "notofonts/lao/sources/config-sans-lao.yaml NotoSansLao.glyphs?ab77daf4d8 (default)": [
     {
-      "text": "inline rules reuse different existing lookups",
+      "text": "inline ligature rule split across anonymous lookups; the rule references the wrong one (miscompile)",
       "link": "https://github.com/googlefonts/fontc/issues/1817"
     }
   ],
   "googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (default)": [
     {
-      "text": "diff in handling of some metric values in glyphs sources",
-      "link": "https://github.com/googlefonts/fontc/issues/1824",
+      "text": "glyphs-reader ignores long-form metric custom parameters (e.g. postscriptUnderlineThickness)",
       "also": [
         "googlefonts/Playfair/sources/config.yaml Playfair.glyphspackage?a49f9f9dc9 (gftools)",
         "googlefonts/Playfair/sources/config.yaml Playfair-Italic.glyphspackage?a49f9f9dc9 (default)",
@@ -111,17 +106,6 @@
       ]
     }
   ],
-  "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (default)": [
-    {
-      "text": "we promote more lookups to use extensions",
-      "link": "https://github.com/googlefonts/fontc/issues/1835",
-      "also": [
-        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)",
-        "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)",
-        "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)"
-      ]
-    }
-  ],
   "kosbarts/Oi/sources/config.yaml Oi.glyphs?bd7ccfa844 (default)": [
     {
       "text": "miscompilation(?) of named lookups with script statements",
@@ -143,40 +127,16 @@
   ],
   "theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)": [
     {
-      "text": "rounding difference in ConditionSet table",
+      "text": "bracket axis-rule min/max truncated to integers (39.6 -> 39), moving FeatureVariations boundaries",
       "link": "https://github.com/googlefonts/fontc/issues/1841",
       "also": [
-        "theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (default)"
+        "theseunbadejo/Agu-Display/sources/config.yaml AguDisplay.glyphs?d520ebead8 (gftools)"
       ]
-    }
-  ],
-  "notofonts/bhaiksuki/sources/config-sans-bhaiksuki.yaml NotoSansBhaiksuki.designspace?570db5a125 (default)": [
-    {
-      "text": "we include lookups that are not referenced by any feature",
-      "link": "https://github.com/googlefonts/fontc/issues/1845",
-      "also": [
-        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)"
-      ]
-    }
-  ],
-  "googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (default)": [
-    {
-      "text": "different handling of corner components",
-      "link": "https://github.com/googlefonts/fontc/issues/1846",
-      "also": [
-        "googlefonts/Libre-Franklin/sources/config.yaml LibreFranklin-Italic.glyphs?310b7eef1f (gftools)"
-      ]
-    }
-  ],
-  "notofonts/chakma/sources/config-sans-chakma.yaml NotoSansChakma.designspace?239fe3aac7 (default)": [
-    {
-      "text": "we export more glyphs than fontmake",
-      "link": "https://github.com/googlefonts/fontc/issues/1848"
     }
   ],
   "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (default)": [
     {
-      "text": "diff in anchor propogation for bracket glyphs?",
+      "text": "anchor propagation for bracket glyphs: glyphsLib treats a master layer with an empty axisRules as a bracket layer (glyphsLib bug)",
       "link": "https://github.com/googlefonts/fontc/issues/1850",
       "also": [
         "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (gftools)"
@@ -185,41 +145,22 @@
   ],
   "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)": [
     {
-      "text": "custom parameter precedence",
+      "text": "intentional: fontc ignores master-level copies of font-wide custom parameters (source conflict; warned since #2024)",
       "link": "https://github.com/googlefonts/fontc/issues/1856"
     }
   ],
   "notofonts/kawi/sources/config-sans-kawi.yaml NotoSansKawi.glyphs?7b11823765 (default)": [
     {
-      "text": "compilation diff for large number of contextual lookups"
-    }
-  ],
-  "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)": [
-    {
-      "text": "glyph order for colr glyphs",
-      "link": "https://github.com/googlefonts/fontc/issues/1861",
-      "also": [
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)",
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)",
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
-        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)",
-        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
-        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
-        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)",
-        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)",
-        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)"
-      ]
+      "text": "SinglePos subtable layout only (fontmake compiles per master and varLib rebuilds); values are identical"
     }
   ],
   "notofonts/elymaic/sources/config-sans-elymaic.yaml NotoSansElymaic.designspace?4a230cd737 (default)": [
     {
       "text": "support com.schriftgestaltung.Glyphs.Export glyph lib key",
-      "link": "https://github.com/googlefonts/fontc/issues/1864"
+      "link": "https://github.com/googlefonts/fontc/issues/1864",
+      "also": [
+        "notofonts/chakma/sources/config-sans-chakma.yaml NotoSansChakma.designspace?239fe3aac7 (default)"
+      ]
     }
   ],
   "notofonts/math/sources/config-sans-math.yaml NotoSansMath.glyphspackage?4b78263eac (default)": [
@@ -228,57 +169,15 @@
       "link": "https://github.com/googlefonts/fontc/issues/1867"
     },
     {
-      "text": "we don't generate cmap format 14",
-      "link": "https://github.com/googlefonts/fontc/issues/1543",
-      "also": [
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)"
-      ]
-    }
-  ],
-  "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)": [
-    {
-      "text": "contextual layout diffs",
-      "link": "https://github.com/googlefonts/fontc/issues/1869",
-      "also": [
-        "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)",
-        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?bb8d2566a1 (default)"
-      ]
-    }
-  ],
-  "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)": [
-    {
-      "text": "GDEF entries for generated .color glyphs",
-      "link": "https://github.com/googlefonts/fontc/issues/1870",
-      "also": [
-        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)",
-        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)",
-        "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)"
-      ]
+      "text": "GlyphData codepoint fallback tries the lowest codepoint instead of source order, so production names differ"
     }
   ],
   "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (default)": [
     {
-      "text": "variable notdef differences",
+      "text": "ufo2ft synthesizes a .notdef in each sparse brace-layer source (ufo2ft bug)",
       "link": "https://github.com/googlefonts/fontc/issues/1872",
       "also": [
         "floriankarsten/montagu-slab/sources/glyphs-decomposed/config.yml MontaguSlab.glyphs?317bc2344f (gftools)"
-      ]
-    }
-  ],
-  "niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (default)": [
-    {
-      "text": "something weird with kern variations??",
-      "also": [
-        "niteeshy/ar-one-sans/sources/config.yaml AROneSans.glyphs?6dc5e6850f (gftools)"
       ]
     }
   ],
@@ -356,10 +255,12 @@
   ],
   "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (default)": [
     {
-      "text": "custom (XXXX) point axis",
+      "text": "unmapped Glyphs 2 point axis (custom XXXX, or wdth=5): fontmake keeps it, fontc drops it",
       "link": "https://github.com/googlefonts/fontc/issues/1958",
       "also": [
-        "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)"
+        "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
       ]
     }
   ],
@@ -401,12 +302,10 @@
   ],
   "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (default)": [
     {
-      "text": "fontc drops point axis with non-identity user-to-design mapping",
+      "text": "fontc drops point axes that fontmake keeps",
       "link": "https://github.com/googlefonts/fontc/issues/1990",
       "also": [
         "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (default)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (gftools)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (default)",
@@ -429,6 +328,31 @@
         "silnrsi/font-mingzat/$VIRTUAL/google/fonts/ofl/mingzat/config.yaml source/Mingzat.designspace?613ac08e03 (gftools)",
         "silnrsi/font-nuosu/$VIRTUAL/google/fonts/ofl/nuosusil/config.yaml source/NuosuSIL.designspace?1e9b50a3cb (default)",
         "silnrsi/font-nuosu/$VIRTUAL/google/fonts/ofl/nuosusil/config.yaml source/NuosuSIL.designspace?1e9b50a3cb (gftools)"
+      ]
+    },
+    {
+      "text": "glyphsLib widens the axis range to extrapolated instances (fontmake's VF renders Light at wght 800); fontc keeps the master range",
+      "link": "https://github.com/googlefonts/fontc/issues/1991",
+      "also": [
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
+      ]
+    },
+    {
+      "text": "fontmake drops in-range instances whose Glyphs 2 width is unset, and wdth=5 gives usWidthClass 1 (glyphsLib/designspaceLib bug)",
+      "also": [
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
+      ]
+    },
+    {
+      "text": "fontc writes named instances outside the fvar axis range and a malformed avar for extrapolated Glyphs instances",
+      "also": [
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
+        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
       ]
     }
   ],
@@ -458,24 +382,13 @@
       "also": [
         "Omnibus-Type/Barrio/$VIRTUAL/google/fonts/ofl/barriecito/config.yaml Barriecito/sources/Barriecito.glyphs?8f33bf10cb (gftools)",
         "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml Bahianita/sources/Bahianita.glyphs?0efedac55f (default)",
-        "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml Bahianita/sources/Bahianita.glyphs?0efedac55f (gftools)",
-        "mooniak/maname-font/sources/config.yaml Maname.glyphspackage?626ceee131 (default)",
-        "mooniak/maname-font/sources/config.yaml Maname.glyphspackage?626ceee131 (gftools)"
-      ]
-    }
-  ],
-  "googlefonts/dynapuff/sources/config.yaml DynaPuff.glyphs?d1b4a98067 (default)": [
-    {
-      "text": "fea-rs does not expand Glyphs predicate tokens ($[...])",
-      "link": "https://github.com/googlefonts/fontc/issues/92",
-      "also": [
-        "googlefonts/dynapuff/sources/config.yaml DynaPuff.glyphs?d1b4a98067 (gftools)"
+        "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml Bahianita/sources/Bahianita.glyphs?0efedac55f (gftools)"
       ]
     }
   ],
   "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (default)": [
     {
-      "text": "norad doesn't support zipped UFO sources",
+      "text": "zipped UFO: needs a norad release with ufoz support plus fontc's ufoz branch",
       "link": "https://github.com/linebender/norad/issues/262",
       "also": [
         "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (gftools)",
@@ -505,7 +418,7 @@
   ],
   "TypeTogether/Playpen-Sans/sources/config-Hebrew.yaml PlaypenSans.glyphspackage?1248371465 (default)": [
     {
-      "text": "FEA missing trailing ;",
+      "text": "fea-rs rejects a missing ';' at the end of an included FEA file (fontTools accepts it); fixed upstream, but google/fonts pins a pre-fix commit",
       "link": "https://github.com/TypeTogether/Playpen-Sans/pull/47",
       "also": [
         "TypeTogether/Playpen-Sans/sources/config-Hebrew.yaml PlaypenSans.glyphspackage?1248371465 (gftools)",
@@ -522,7 +435,7 @@
   ],
   "googlefonts/josefinslab/sources/config.yaml JosefinSlab-Italic.designspace?61773366f7 (default)": [
     {
-      "text": "vendorID has leading whitespace, creating invalid 5-char tag",
+      "text": "vendorID has leading whitespace, creating invalid 5-char tag; fixed upstream, but google/fonts pins 61773366 (pre-fix)",
       "link": "https://github.com/googlefonts/josefinslab/pull/48",
       "also": [
         "googlefonts/josefinslab/sources/config.yaml JosefinSlab-Italic.designspace?61773366f7 (gftools)"
@@ -567,95 +480,6 @@
     {
       "text": "Glyphs contextual anchors (GPOS_Context) not implemented",
       "link": "https://github.com/googlefonts/fontc/issues/551"
-    },
-    {
-      "text": "anonymous SingleSubst reused after checking only the first class glyph",
-      "link": "https://github.com/googlefonts/fontc/pull/2153"
-    }
-  ],
-  "googlefonts/caudex/sources/config.yaml Caudex-BoldItalic.glyphs?2cd095f7ea (default)": [
-    {
-      "text": "OS/2 sub/superscript X offsets derived from unrounded Y offsets",
-      "link": "https://github.com/googlefonts/fontc/pull/2152",
-      "also": [
-        "googlefonts/caudex/sources/config.yaml Caudex-BoldItalic.glyphs?2cd095f7ea (gftools)",
-        "googlefonts/caudex/sources/config.yaml Caudex-Italic.glyphs?2cd095f7ea (default)",
-        "googlefonts/caudex/sources/config.yaml Caudex-Italic.glyphs?2cd095f7ea (gftools)"
-      ]
-    }
-  ],
-  "SorkinType/Molle2/sources/config.yaml Molle.glyphspackage?3924159e01 (default)": [
-    {
-      "text": "'Regular' stripped from styleMapFamilyName of italic fonts",
-      "link": "https://github.com/googlefonts/fontc/pull/2146",
-      "also": [
-        "notofonts/latin-greek-cyrillic/$VIRTUAL/google/fonts/ofl/notoserifdisplay/config.yaml sources/NotoSerif-Italic.glyphspackage?41644bc7a6 (default)"
-      ]
-    }
-  ],
-  "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinedisplay/config.yaml Big-Shoulders-Inline/sources/Big_Shoulders_Inline.glyphs?41153e6fe0 (default)": [
-    {
-      "text": "Glyphs 2 'Axes' custom parameter 'Hidden' key not read",
-      "link": "https://github.com/googlefonts/fontc/pull/2145",
-      "also": [
-        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstencildisplay/config.yaml Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs?41153e6fe0 (default)"
-      ]
-    }
-  ],
-  "dancoull/ClimateCrisis/sources/config.yaml ClimateCrisis.glyphs?8e3882135d (default)": [
-    {
-      "text": "duplicate contextual rule merged into a non-singleton class, forcing format 3",
-      "link": "https://github.com/googlefonts/fontc/pull/2149"
-    }
-  ],
-  "Element-Type/HostGrotesk/sources/config.yaml HostGrotesk-Italic.glyphs?ab2ba67691 (default)": [
-    {
-      "text": "glyphsLib drops Glyphs 3 component 'slant'; fixed in glyphsLib 6.14, but crater pins <6.14 until fontc#2078",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1160",
-      "also": [
-        "Element-Type/HostGrotesk/sources/config.yaml HostGrotesk-Italic.glyphs?ab2ba67691 (gftools)",
-        "Instrument/instrument-sans/sources/config.yaml InstrumentSans-Italic.glyphs?7fa22308a3 (default)",
-        "Instrument/instrument-sans/sources/config.yaml InstrumentSans-Italic.glyphs?7fa22308a3 (gftools)",
-        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (default)",
-        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (gftools)",
-        "ThanosPoulakidas/Geom/sources/config.yaml Geom-Italic.glyphs?c20a14c68c (default)",
-        "ThanosPoulakidas/Geom/sources/config.yaml Geom-Italic.glyphs?c20a14c68c (gftools)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-sans.yaml AncizarSans-Italic.glyphs?54a5aa2153 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-sans.yaml AncizarSans-Italic.glyphs?54a5aa2153 (gftools)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-serif.yaml AncizarSerif-Italic.glyphs?063bdd3121 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-serif.yaml AncizarSerif-Italic.glyphs?063bdd3121 (gftools)",
-        "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (default)",
-        "agyeiarcher/Jaro/sources/config.yaml Jaro.glyphs?51096c4f8e (gftools)",
-        "chankfonts/Teachers-fonts/sources/config.yaml Teachers-Italic.glyphs?71a4377cf2 (default)",
-        "chankfonts/Teachers-fonts/sources/config.yaml Teachers-Italic.glyphs?71a4377cf2 (gftools)",
-        "chankfonts/Teachers-fonts/sources/config.yaml Teachers.glyphs?71a4377cf2 (default)",
-        "chankfonts/Teachers-fonts/sources/config.yaml Teachers.glyphs?71a4377cf2 (gftools)",
-        "eifetx/Sour-Gummy-Fonts/sources/config.yaml SourGummy-Italic.glyphs?36ed784f76 (default)",
-        "eifetx/Sour-Gummy-Fonts/sources/config.yaml SourGummy-Italic.glyphs?36ed784f76 (gftools)",
-        "erikdkennedy/figtree/sources/config.yaml Figtree-Italic.glyphs?032dfa7fe2 (default)",
-        "erikdkennedy/figtree/sources/config.yaml Figtree-Italic.glyphs?032dfa7fe2 (gftools)",
-        "googlefonts/literata/sources/config.yaml Literata-Italic.glyphs?0c2761b727 (default)",
-        "googlefonts/literata/sources/config.yaml Literata-Italic.glyphs?0c2761b727 (gftools)",
-        "ijvanl/Amarna/sources/config.yaml Amarna.glyphspackage?22819bafba (default)",
-        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (default)",
-        "indestructible-type/Bodoni/sources/config.yaml BodoniModa-Italic.glyphs?30ce6cdc35 (gftools)",
-        "jrgdrs/Wittgenstein/sources/config.yaml Wittgenstein-Italic.glyphs?56c1cf1b4a (default)",
-        "jrgdrs/Wittgenstein/sources/config.yaml Wittgenstein-Italic.glyphs?56c1cf1b4a (gftools)",
-        "mara-aa/elms-sans/sources/config.yaml ElmsSans.glyphs?bc5a52f349 (default)",
-        "maxthunberg/miranda-sans/sources/config.yaml MirandaSans-Italic.glyphs?7cafa37b9b (default)",
-        "maxthunberg/miranda-sans/sources/config.yaml MirandaSans-Italic.glyphs?7cafa37b9b (gftools)",
-        "noirblancrouge/YoungSerif/sources/config.yaml Young-Serif.glyphs?d307c79320 (default)",
-        "noirblancrouge/YoungSerif/sources/config.yaml Young-Serif.glyphs?d307c79320 (gftools)",
-        "ronykoch/Karantina/Sources/config.yaml karantina.glyphs?efb7e920f0 (default)",
-        "typofactur/winkyrough/sources/config.yaml WinkyRough-Italic.glyphspackage?505f77bdee (default)",
-        "typofactur/winkyrough/sources/config.yaml WinkyRough-Italic.glyphspackage?505f77bdee (gftools)",
-        "typofactur/winkysans/sources/config.yaml WinkySans-Italic.glyphspackage?0c6c255d03 (default)",
-        "typofactur/winkysans/sources/config.yaml WinkySans-Italic.glyphspackage?0c6c255d03 (gftools)",
-        "vercel/geist-font/sources/config-Geist.yaml Geist-Italic.glyphspackage?a6d260e6cb (default)",
-        "vercel/geist-font/sources/config-Geist.yaml Geist-Italic.glyphspackage?a6d260e6cb (gftools)",
-        "vercel/geist-font/sources/config-GeistMono.yaml GeistMono-Italic.glyphspackage?77f0563c03 (default)",
-        "vercel/geist-font/sources/config-GeistMono.yaml GeistMono-Italic.glyphspackage?77f0563c03 (gftools)"
-      ]
     }
   ],
   "notofonts/latin-greek-cyrillic/$VIRTUAL/google/fonts/ofl/notosansdisplay/config.yaml sources/NotoSans-Italic.glyphspackage?41644bc7a6 (default)": [
@@ -665,6 +489,139 @@
       "also": [
         "notofonts/latin-greek-cyrillic/$VIRTUAL/google/fonts/ofl/notosansdisplay/config.yaml sources/NotoSans.glyphspackage?41644bc7a6 (default)",
         "notofonts/latin-greek-cyrillic/$VIRTUAL/google/fonts/ofl/notoserifdisplay/config.yaml sources/NotoSerif.glyphspackage?41644bc7a6 (default)"
+      ]
+    }
+  ],
+  "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (default)": [
+    {
+      "text": "fea-rs aalt ignores alternates from useExtension lookups",
+      "also": [
+        "Vectro-Type-Foundry/kablammo/sources/config.yml Kablammo.glyphs?cccc120d23 (gftools)"
+      ]
+    }
+  ],
+  "notofonts/grantha/sources/config-sans-grantha.yaml NotoSansGrantha.glyphs?6bb911fa06 (default)": [
+    {
+      "text": "harness: write-fonts pre-splits LigatureSubst subtables by estimated size; the ligatures themselves are identical",
+      "also": [
+        "notofonts/sign-writing/sources/config-sans-sign-writing.yaml NotoSansSignWriting.glyphspackage?a0a0e9a869 (default)"
+      ]
+    }
+  ],
+  "notofonts/devanagari/sources/config-serif-devanagari.yaml NotoSerifDevanagari.glyphspackage?bb8d2566a1 (default)": [
+    {
+      "text": "nukta* anchors (e.g. nukta.sat) should attach below (blwm) as in ufo2ft; fontc puts them in abvm",
+      "also": [
+        "notofonts/devanagari/sources/config-sans-devanagari.yaml NotoSansDevanagari.glyphspackage?e123d230c1 (default)"
+      ]
+    }
+  ],
+  "notofonts/bhaiksuki/sources/config-sans-bhaiksuki.yaml NotoSansBhaiksuki.designspace?570db5a125 (default)": [
+    {
+      "text": "harness: fontmake's post-compile subsetter (triggered by Export=false glyphs) prunes 2 unreferenced lookups that feaLib and fea-rs both keep"
+    }
+  ],
+  "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)": [
+    {
+      "text": "fea-rs emits a duplicate anonymous SingleSubst when a class lists the same glyph twice"
+    }
+  ],
+  "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (default)": [
+    {
+      "text": "COLRv0 .colorN layer glyphs don't vary: fontc only reads palette layers on the default master",
+      "link": "https://github.com/googlefonts/fontc/issues/2105",
+      "also": [
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)"
+      ]
+    },
+    {
+      "text": "components in COLRv0 palette layers aren't remapped to the component's .colorN glyph, so the whole base glyph is painted",
+      "also": [
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)"
+      ]
+    },
+    {
+      "text": ".colorN glyphs don't get glyphsLib's GlyphData-derived category, width and production name",
+      "also": [
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)",
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)",
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
+      ]
+    },
+    {
+      "text": "the variable instance's 'Name Table Entry' custom parameter isn't applied (name ID 4)"
+    }
+  ],
+  "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)": [
+    {
+      "text": "empty COLRv0 palette layers are dropped, so the .colorN glyph set and numbering differ from glyphsLib",
+      "also": [
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)",
+        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
+      ]
+    },
+    {
+      "text": "normalization precision: fontc interpolates where fontTools uses normalizeValue, flipping exact .5 delta ties",
+      "also": [
+        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)"
+      ]
+    }
+  ],
+  "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (default)": [
+    {
+      "text": "anchors are propagated/cloned onto color glyphs, adding ligature carets glyphsLib doesn't",
+      "also": [
+        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)"
+      ]
+    },
+    {
+      "text": "static COLR ClipList in a variable COLRv1 font clips glyphs away from the default master"
+    },
+    {
+      "text": "COLRv1 run splitting ignores the shape identifier, so one gradient spans shapes glyphsLib keeps separate"
+    },
+    {
+      "text": "COLRv1 paints are static; fontmake emits variable PaintVar* paints"
+    },
+    {
+      "text": "glyphsLib gives split COLRv1 layer glyphs width 600 and drops their anchors (glyphsLib bug)"
+    }
+  ],
+  "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)": [
+    {
+      "text": "COLRv1 artwork on non-master 'color = 1' layers is ignored, so no COLR table is emitted",
+      "also": [
+        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)"
+      ]
+    }
+  ],
+  "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (default)": [
+    {
+      "text": "fontTools splitInterpolable(makeNames=True) replaces explicit instance names and adds PostScript names derived from glyphsLib 6.15's STAT labels; fontc is right",
+      "link": "https://github.com/fonttools/fonttools/issues/3131",
+      "also": [
+        "UNAL-OMD/UNAL-Ancizar/sources/config-sans.yaml AncizarSans-Italic.glyphs?54a5aa2153 (default)",
+        "UNAL-OMD/UNAL-Ancizar/sources/config-serif.yaml AncizarSerif-Italic.glyphs?063bdd3121 (default)",
+        "vercel/geist-font/sources/config-Geist.yaml Geist-Italic.glyphspackage?a6d260e6cb (default)",
+        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)",
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (default)"
       ]
     }
   ]
