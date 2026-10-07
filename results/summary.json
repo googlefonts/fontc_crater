@@ -14950,5 +14950,26 @@
     },
     "reused_cached_results": 2812,
     "reused_fontmake_failures": 824
+  },
+  {
+    "began": "2026-10-07T15:02:47.110417Z",
+    "finished": "2026-10-07T17:51:19.990925Z",
+    "fontc_rev": "f7d2bd9f",
+    "pip_freeze_sha": "95be79e3f4a8f06128abd6bcbeeb8b82e7e94264  -",
+    "results_file": "2026-10-07-150152.json",
+    "input_file_sha": "8208fe63dd0f2439bfbf1e4d8badfabe08f79d78  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
+    "stats": {
+      "total_targets": 3450,
+      "identical": 2337,
+      "produced_diff": 222,
+      "fontc_failed": 57,
+      "fontmake_failed": 255,
+      "both_failed": 570,
+      "other_failure": 9,
+      "diff_perc_including_failures": 74.08107,
+      "diff_perc_excluding_failures": 99.87483
+    },
+    "reused_cached_results": 5,
+    "reused_fontmake_failures": 19
   }
 ]
