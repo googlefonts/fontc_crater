@@ -69,12 +69,34 @@
   ],
   "notofonts/lao/sources/config-sans-lao-looped.yaml NotoSansLaoLooped.glyphs?ab77daf4d8 (default)": [
     {
-      "text": "'Replace Feature' custom parameter",
+      "text": "master-level 'Replace Feature'/'Replace Prefix' is a glyphsLib-only oddity (Glyphs.app ignores it); we'd prefer to fix the sources to use number values",
       "link": "https://github.com/googlefonts/fontc/issues/1838",
       "also": [
         "notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)",
         "notofonts/devanagari/$VIRTUAL/google/fonts/ofl/notosansdevanagariui/config.yaml sources/NotoSansDevanagariUI.glyphspackage?9b735f271f (default)"
       ]
+    },
+    {
+      "text": "upstream PR migrates master-level 'Replace Feature' to number values",
+      "link": "https://github.com/notofonts/lao/pull/20"
+    }
+  ],
+  "notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)": [
+    {
+      "text": "upstream PR migrates master-level 'Replace Prefix' to number values",
+      "link": "https://github.com/notofonts/cham/pull/12"
+    }
+  ],
+  "notofonts/devanagari/$VIRTUAL/google/fonts/ofl/notosansdevanagariui/config.yaml sources/NotoSansDevanagariUI.glyphspackage?9b735f271f (default)": [
+    {
+      "text": "upstream PR migrates master-level 'Replace Prefix' to number values",
+      "link": "https://github.com/notofonts/devanagari/pull/72"
+    }
+  ],
+  "notofonts/bengali/$VIRTUAL/google/fonts/ofl/notosansbengaliui/config.yaml sources/NotoSansBengali.glyphspackage?85d80394cb (default)": [
+    {
+      "text": "upstream PR migrates master-level 'Replace Feature' to number values",
+      "link": "https://github.com/notofonts/bengali/pull/40"
     }
   ],
   "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)": [
