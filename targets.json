@@ -7557,13 +7557,11 @@
     {
       "repo_url": "https://github.com/googlefonts/googlesans",
       "rev": "fce0e0668e22a324a021f1afb407b0ca155034ce",
-      "auth": true,
       "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/googlesans-flex",
       "rev": "fc079d89fbe7f49c3ecb624eb729552e14842a4f",
-      "auth": true,
       "config": "sources/config.yaml"
     }
   ]
