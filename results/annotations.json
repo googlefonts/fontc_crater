@@ -73,7 +73,8 @@
       "link": "https://github.com/googlefonts/fontc/issues/1838",
       "also": [
         "notofonts/cham/sources/config-sans-cham.yaml NotoSansCham.glyphs?ab48c582e3 (default)",
-        "notofonts/devanagari/$VIRTUAL/google/fonts/ofl/notosansdevanagariui/config.yaml sources/NotoSansDevanagariUI.glyphspackage?9b735f271f (default)"
+        "notofonts/devanagari/$VIRTUAL/google/fonts/ofl/notosansdevanagariui/config.yaml sources/NotoSansDevanagariUI.glyphspackage?9b735f271f (default)",
+        "notofonts/bengali/$VIRTUAL/google/fonts/ofl/notosansbengaliui/config.yaml sources/NotoSansBengali.glyphspackage?85d80394cb (default)"
       ]
     },
     {
@@ -97,6 +98,9 @@
     {
       "text": "upstream PR migrates master-level 'Replace Feature' to number values",
       "link": "https://github.com/notofonts/bengali/pull/40"
+    },
+    {
+      "text": "fea-rs keeps only the last glyph's lookup for a contextual multiple substitution on a class (sub b [f g h]' by [f g h] i;), mis-shaping গ্ব/ণ্ব/শ্ব (fix on branch fea-rs-contextual-multi-sub-class)"
     }
   ],
   "notofonts/bengali/sources/config-serif-bengali.yaml NotoSerifBengali.glyphspackage?7ab89a0473 (default)": [
@@ -194,7 +198,91 @@
         "skugiz/liter/sources/config.yaml liter.glyphs?3808843f98 (gftools)",
         "suonmaysophanith7/KonKhmer_SleokChher/sources/config.yaml Konkhmer Sleokchher.glyphs?1289371ce1 (gftools)",
         "yellow-type-foundry/xanhmono/$VIRTUAL/google/fonts/ofl/xanhmono/config.yaml source/XanhMono-Italic.glyphs?5c0ceb816f (gftools)",
-        "yellow-type-foundry/xanhmono/$VIRTUAL/google/fonts/ofl/xanhmono/config.yaml source/XanhMono.glyphs?5c0ceb816f (gftools)"
+        "yellow-type-foundry/xanhmono/$VIRTUAL/google/fonts/ofl/xanhmono/config.yaml source/XanhMono.glyphs?5c0ceb816f (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-Black.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-BlackItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-Bold.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-BoldItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-ExtraLight.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-ExtraLightItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-Light.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-LightItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-Medium.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-MediumItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-SemiBold.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-SemiBoldItalic.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-Thin.glyphs?5be77729a0 (gftools)",
+        "MonicaRizzolli/Tomorrow/$VIRTUAL/google/fonts/ofl/tomorrow/config.yaml src/Tomorrow-ThinItalic.glyphs?5be77729a0 (gftools)",
+        "cadsondemak/athiti/$VIRTUAL/google/fonts/ofl/athiti/config.yaml source/Athiti-200.glyphs?541c0b5034 (gftools)",
+        "cadsondemak/athiti/$VIRTUAL/google/fonts/ofl/athiti/config.yaml source/Athiti-300.glyphs?541c0b5034 (gftools)",
+        "cadsondemak/athiti/$VIRTUAL/google/fonts/ofl/athiti/config.yaml source/Athiti-500.glyphs?541c0b5034 (gftools)",
+        "cadsondemak/athiti/$VIRTUAL/google/fonts/ofl/athiti/config.yaml source/Athiti-600.glyphs?541c0b5034 (gftools)",
+        "cadsondemak/athiti/$VIRTUAL/google/fonts/ofl/athiti/config.yaml source/Athiti-700.glyphs?541c0b5034 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-200.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-300.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-400.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-500.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-600.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/maitree/$VIRTUAL/google/fonts/ofl/maitree/config.yaml source/Maitree-700.glyphs?e530c1fb68 (gftools)",
+        "cadsondemak/mitr/$VIRTUAL/google/fonts/ofl/mitr/config.yaml source/Mitr-200.glyphs?41950431d3 (gftools)",
+        "cadsondemak/mitr/$VIRTUAL/google/fonts/ofl/mitr/config.yaml source/Mitr-300.glyphs?41950431d3 (gftools)",
+        "cadsondemak/mitr/$VIRTUAL/google/fonts/ofl/mitr/config.yaml source/Mitr-500.glyphs?41950431d3 (gftools)",
+        "cadsondemak/mitr/$VIRTUAL/google/fonts/ofl/mitr/config.yaml source/Mitr-600.glyphs?41950431d3 (gftools)",
+        "cadsondemak/mitr/$VIRTUAL/google/fonts/ofl/mitr/config.yaml source/Mitr-700.glyphs?41950431d3 (gftools)",
+        "cadsondemak/pridi/$VIRTUAL/google/fonts/ofl/pridi/config.yaml source/Pridi-200.glyphs?fe54fb6812 (gftools)",
+        "cadsondemak/pridi/$VIRTUAL/google/fonts/ofl/pridi/config.yaml source/Pridi-300.glyphs?fe54fb6812 (gftools)",
+        "cadsondemak/pridi/$VIRTUAL/google/fonts/ofl/pridi/config.yaml source/Pridi-500.glyphs?fe54fb6812 (gftools)",
+        "cadsondemak/pridi/$VIRTUAL/google/fonts/ofl/pridi/config.yaml source/Pridi-600.glyphs?fe54fb6812 (gftools)",
+        "cadsondemak/pridi/$VIRTUAL/google/fonts/ofl/pridi/config.yaml source/Pridi-700.glyphs?fe54fb6812 (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_100_Thin.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_100_Thin_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_200_ExtraLight.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_200_ExtraLight_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_300_Light.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_300_Light_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_500_Medium.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_500_Medium_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_600_SemiBold.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_600_SemiBold_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_700_Bold.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_700_Bold_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_800_ExtraBold.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_800_ExtraBold_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_900_Black.glyphs?18f813a4de (gftools)",
+        "cadsondemak/prompt/$VIRTUAL/google/fonts/ofl/prompt/config.yaml Source/Prompt_900_Black_Ita.glyphs?18f813a4de (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-100_Thin.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-100_Thin_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-200_ExtraLight.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-200_ExtraLight_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-300_Light.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-300_Light_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-500_Medium.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-500_Medium_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-600_DemiBold.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-600_DemiBold_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-700_Bold.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-700_Bold_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-800_ExtraBold.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-800_ExtraBold_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-900_Black.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-900_Black_Ita.glyphs?8bd077c195 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-100_Thin.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-100_Thin_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-200_ExtraLight.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-200_ExtraLight_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-300_Light.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-300_Light_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-500_Medium.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-500_Medium_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-600_DemiBold.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-600_DemiBold_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-700_Bold.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-700_Bold_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-800_ExtraBold.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-800_ExtraBold_Ita.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-900_Black.glyphs?0c1ce550d1 (gftools)",
+        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-900_Black_Ita.glyphs?0c1ce550d1 (gftools)",
+        "googlefonts/googlefontdirectory-hg/$VIRTUAL/google/fonts/ofl/lilyscriptone/config.yaml ofl/lilyscriptone/src/LilyScriptOne-Regular.glyphs?52f780bc9d (gftools)"
       ]
     }
   ],
@@ -288,16 +376,10 @@
         "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (default)",
         "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master.glyphs?e080ee92d3 (gftools)",
         "noponies/Kulim-Park/$VIRTUAL/google/fonts/ofl/kulimpark/config.yaml sources/kulim-park-master-italic.glyphs?e080ee92d3 (gftools)",
-        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (gftools)"
-      ]
-    },
-    {
-      "text": "glyphsLib widens the axis range to extrapolated instances (fontmake's VF renders Light at wght 800); fontc keeps the master range",
-      "link": "https://github.com/googlefonts/fontc/issues/1991",
-      "also": [
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
+        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (gftools)",
+        "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml sources/glyphs/final/AyannaNarrow-all.glyphs?bd4f7c3222 (default)",
+        "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml sources/glyphs/final/AyannaNarrow-all.glyphs?bd4f7c3222 (gftools)",
+        "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (default)"
       ]
     },
     {
@@ -306,15 +388,8 @@
         "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
         "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
         "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)",
-        "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (default)"
-      ]
-    },
-    {
-      "text": "fontc writes named instances outside the fvar axis range and a malformed avar for extrapolated Glyphs instances",
-      "also": [
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
+        "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (default)",
+        "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (default)"
       ]
     }
   ],
@@ -348,13 +423,11 @@
       ]
     }
   ],
-  "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (default)": [
+  "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (default)": [
     {
       "text": "zipped UFO: needs a norad release with ufoz support plus fontc's ufoz branch",
       "link": "https://github.com/linebender/norad/issues/262",
       "also": [
-        "balt-dev/bytesized-gf/sources/config.yaml Bytesized-Regular.ufo?11abbf2db0 (gftools)",
-        "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (default)",
         "googlefonts/beiruti/$VIRTUAL/google/fonts/ofl/beiruti/config.yaml Source/2-Production/BeirutiVF.designspace?bd45772aef (gftools)"
       ]
     }
@@ -477,11 +550,7 @@
       "text": "components in COLRv0 palette layers aren't remapped to the component's .colorN glyph, so the whole base glyph is painted",
       "link": "https://github.com/googlefonts/fontc/pull/2207",
       "also": [
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (default)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufifun/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufiink/config.yaml sources/ReemKufi.glyphspackage?359f25e571 (gftools)",
-        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)",
-        "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (default)"
+        "aliftype/reem-kufi/$VIRTUAL/google/fonts/ofl/reemkufi/config.yaml sources/ReemKufi.glyphspackage?d304c9a381 (gftools)"
       ]
     },
     {
@@ -492,24 +561,6 @@
     }
   ],
   "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (default)": [
-    {
-      "text": ".colorN production names: fontc uses the parent's production name + suffix like Glyphs.app; glyphsLib 6.15 doesn't (fixed in glyphsLib#1188, unreleased)",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1188",
-      "also": [
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)",
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
-      ]
-    },
-    {
-      "text": "empty COLRv0 palette layers: fontc drops them like Glyphs.app 3.4+; glyphsLib 6.15 keeps them, shifting the .colorN glyph set and numbering (glyphsLib bug)",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1195",
-      "also": [
-        "EkType/Honk/sources/config.yaml HonkExportFile.glyphs?964739fca4 (gftools)",
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (default)",
-        "tanukifont/Coral-Pixels/sources/config.yaml CoralPixels.glyphs?2817da74e3 (gftools)"
-      ]
-    },
     {
       "text": "normalization precision: fontc interpolates where fontTools uses normalizeValue, flipping exact .5 delta ties",
       "also": [
@@ -528,14 +579,6 @@
     },
     {
       "text": "COLRv1 paints are static; fontmake emits variable PaintVar* paints"
-    },
-    {
-      "text": "glyphsLib 6.15 gives split COLRv1 layer glyphs width 600 (glyphsLib bug; fixed in glyphsLib#1181, unreleased)",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1181",
-      "also": [
-        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)",
-        "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)"
-      ]
     }
   ],
   "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (default)": [
@@ -543,79 +586,6 @@
       "text": "COLRv1 artwork on non-master 'color = 1' layers is ignored, so no COLR table is emitted",
       "also": [
         "Gue3bara/Blaka/sources/blakaink.yaml Blaka-Ink.glyphs?7f264eee86 (gftools)"
-      ]
-    }
-  ],
-  "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (default)": [
-    {
-      "text": "glyphsLib 6.15 sets the italic bits only from italicAngle, so an 'Italic' master with angle 0 isn't italic; fontc already matches glyphsLib#1178 (merged, unreleased)",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1178",
-      "also": [
-        "Dicotype/Afacad/sources/config.yaml Afacad-Italic.glyphs?b294b1f861 (gftools)",
-        "googlefonts/chauphilomeneone/sources/config.yaml ChauPhilomeneOne-Italic.glyphs?a1f00e1a92 (default)",
-        "googlefonts/creteround/sources/config.yaml CreteRound-Italic.glyphs?64e1c753a1 (default)",
-        "googlefonts/economica/sources/config.yaml Economica-BoldItalic.glyphs?97d9d77522 (default)",
-        "googlefonts/economica/sources/config.yaml Economica-Italic.glyphs?97d9d77522 (default)",
-        "googlefonts/gudea/sources/config.yaml Gudea-Italic.glyphs?84926eb574 (default)"
-      ]
-    }
-  ],
-  "CatharsisFonts/Cormorant/sources/config-garamond.yaml generated/CormorantGaramond-Italic.glyphs?6d210fd355 (default)": [
-    {
-      "text": "STAT/name: fontc#2188 already ports glyphsLib#1179 (Glyphs-style italic-family STAT labels), which isn't in the pinned glyphsLib 6.15.0; clears with the next glyphsLib release",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1179",
-      "also": [
-        "CatharsisFonts/Cormorant/sources/config-garamond.yaml generated/CormorantGaramond-Italic.glyphs?6d210fd355 (gftools)",
-        "CatharsisFonts/Cormorant/sources/config-garamond.yaml generated/CormorantGaramond.glyphs?6d210fd355 (default)",
-        "CatharsisFonts/Cormorant/sources/config-infant.yaml generated/CormorantInfant-Italic.glyphs?6d210fd355 (default)",
-        "CatharsisFonts/Cormorant/sources/config-infant.yaml generated/CormorantInfant-Italic.glyphs?6d210fd355 (gftools)",
-        "CatharsisFonts/Cormorant/sources/config-infant.yaml generated/CormorantInfant.glyphs?6d210fd355 (default)",
-        "Element-Type/HostGrotesk/sources/config.yaml HostGrotesk.glyphs?ab2ba67691 (default)",
-        "NDISCOVER/Arima-Font/sources/builder.yaml Arima.glyphs?c5fd72960f (default)",
-        "SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs?7159afb255 (default)",
-        "SUSE/suse-font/sources/config.yaml SUSE.glyphs?7159afb255 (default)",
-        "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-serif.yaml AncizarSerif-Italic.glyphs?063bdd3121 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-serif.yaml AncizarSerif.glyphs?063bdd3121 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-sans.yaml AncizarSans-Italic.glyphs?54a5aa2153 (default)",
-        "UNAL-OMD/UNAL-Ancizar/sources/config-sans.yaml AncizarSans.glyphs?54a5aa2153 (default)",
-        "googlefonts/googlesans-code/sources/config.yaml GoogleSansCode-Italic.glyphspackage?edcd56e39f (default)",
-        "googlefonts/rubik/sources/config.yaml Rubik-Italic.glyphs?9167c98fa8 (default)",
-        "googlefonts/rubik/sources/config.yaml Rubik.glyphs?9167c98fa8 (default)",
-        "mozilla/mozilla-headline-type/sources/config.yaml MozillaHeadline.glyphs?a6ff8ec6ce (default)",
-        "mozilla/mozilla-text-type/sources/config.yaml MozillaText.glyphs?5ff275ec49 (default)",
-        "octaviopardo/REM/sources/config.yaml REM-Italic.glyphs?b26d584ebd (default)",
-        "octaviopardo/REM/sources/config.yaml REM-Italic.glyphs?b26d584ebd (gftools)",
-        "octaviopardo/REM/sources/config.yaml REM.glyphs?b26d584ebd (default)",
-        "solmatas/BitterPro/sources/config.yaml Bitter-Italic.glyphs?3238d7ae2c (default)",
-        "solmatas/BitterPro/sources/config.yaml Bitter-Italic.glyphs?3238d7ae2c (gftools)",
-        "solmatas/BitterPro/sources/config.yaml Bitter.glyphs?3238d7ae2c (default)",
-        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersdisplaysc/config.yaml Big-Shoulders/sources/BigShoulders.glyphs?0b3d09a868 (default)",
-        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinedisplaysc/config.yaml Big-Shoulders-Inline/sources/BigShouldersInline.glyphs?0b3d09a868 (default)",
-        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstencildisplaysc/config.yaml Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs?0b3d09a868 (default)",
-        "xotypeco/big_shoulders/Big-Shoulders/sources/config.yml BigShoulders.glyphs?8ba99c9e34 (default)",
-        "xotypeco/big_shoulders/Big-Shoulders-Inline/sources/config.yml BigShouldersInline.glyphs?8ba99c9e34 (default)",
-        "xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml BigShouldersStencil.glyphs?8ba99c9e34 (default)"
-      ]
-    }
-  ],
-  "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (default)": [
-    {
-      "text": "fontc#2197 builds reverse/blank-axisRules bracket layers like glyphsLib#1190, which isn't in the pinned glyphsLib 6.15.0 (it substitutes the alternates unconditionally); clears with the next glyphsLib release",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1190",
-      "also": [
-        "typofactur/epundaslab/sources/config.yaml EpundaSlab-Italic.glyphspackage?b7f3ef7ccf (gftools)",
-        "typofactur/epundaslab/sources/config.yaml EpundaSlab.glyphspackage?b7f3ef7ccf (default)",
-        "typofactur/epundaslab/sources/config.yaml EpundaSlab.glyphspackage?b7f3ef7ccf (gftools)"
-      ]
-    }
-  ],
-  "googlefonts/rubik/sources/config.yaml Rubik-Italic.glyphs?9167c98fa8 (default)": [
-    {
-      "text": "glyphsLib propagates anchors and then ufo2ft's propagateAnchors filter (listed in the masters' lib) runs again, cancelling anchors on mark-first composites (fontmake-side; fixed in glyphsLib#1192, unreleased)",
-      "link": "https://github.com/googlefonts/glyphsLib/pull/1192",
-      "also": [
-        "googlefonts/rubik/sources/config.yaml Rubik-Italic.glyphs?9167c98fa8 (gftools)"
       ]
     }
   ],
@@ -682,14 +652,6 @@
       ]
     }
   ],
-  "cadsondemak/taviraj/$VIRTUAL/google/fonts/ofl/taviraj/config.yaml source/Taviraj-300_Light_Ita.glyphs?8bd077c195 (default)": [
-    {
-      "text": "glyphsLib asserts on a placeholder fsType = \"New Parameter\" (glyphsLib bug); ttx_diff's source_is_variable preflight crashes on it before either compiler runs (fontc builds it)",
-      "also": [
-        "cadsondemak/trirong/$VIRTUAL/google/fonts/ofl/trirong/config.yaml source/Trirong-400_Regular_Ita.glyphs?0c1ce550d1 (default)"
-      ]
-    }
-  ],
   "cyrealtype/Rationale/$VIRTUAL/google/fonts/ofl/rationale/config.yaml sources/Rationale.glyphs?b12941da53 (default)": [
     {
       "text": "malformed .glyphs plist that neither glyphsLib nor fontc can read; ttx_diff's source_is_variable preflight crashes before either compiler runs",
@@ -705,7 +667,10 @@
   ],
   "rosettatype/handjet/$VIRTUAL/google/fonts/ofl/handjet/config.yaml sources/Handjet.glyphs?3918b7798e (default)": [
     {
-      "text": "brace layers outside a point axis's range collapse onto one normalized location; fontc errors, fontmake ignores the out-of-range layers (fix on branch drop-out-of-range-brace-layers)"
+      "text": "brace layers outside a point axis's range collapse onto one normalized location; fontc errors, fontmake ignores the out-of-range layers (fix on branch drop-out-of-range-brace-layers)",
+      "also": [
+        "rosettatype/handjet/$VIRTUAL/google/fonts/ofl/handjet/config.yaml sources/Handjet.glyphs?3918b7798e (gftools)"
+      ]
     }
   ],
   "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Italic.glyphs?f4f60a57f5 (default)": [
@@ -799,23 +764,14 @@
       ]
     }
   ],
-  "googlefonts/astloch/sources/config.yaml Astloch-Bold.glyphs?e6ac0a83f4 (gftools)": [
-    {
-      "text": "source vendorID is four spaces: fontc writes achVendID NONE (ttx_diff equates it with '    ' in OS/2), and gftools fix_nametable rebuilds nameID 3 from it (1.002;NONE;… vs 1.002;;…)",
-      "also": [
-        "googlefonts/astloch/sources/config.yaml Astloch-Regular.glyphs?e6ac0a83f4 (gftools)",
-        "googlefonts/bigshotone/sources/config.yaml BigshotOne-Regular.glyphs?f29b15c2cb (gftools)",
-        "googlefonts/copse/sources/config.yaml Copse-Regular.glyphs?53eac2d389 (gftools)",
-        "googlefonts/coveredbyyourgrace/sources/config.yaml CoveredByYourGrace.glyphs?ec5beabb11 (gftools)"
-      ]
-    }
-  ],
   "DunwichType/Padyakke_Libre/source/builder.yaml Padyakke.glyphs?6b18f96959 (gftools)": [
     {
       "text": "fontmake runs ttfautohint implicitly (instance 'TTFAutohint options'); gftools' crater mode sets autohintTTF=False but never passes --no-autohint",
       "also": [
         "Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahiana/config.yaml sources/Bahiana.glyphs?4350550114 (gftools)",
-        "Omnibus-Type/Barrio/$VIRTUAL/google/fonts/ofl/barrio/config.yaml sources/Barrio.glyphs?4cb00e5028 (gftools)"
+        "Omnibus-Type/Barrio/$VIRTUAL/google/fonts/ofl/barrio/config.yaml sources/Barrio.glyphs?4cb00e5028 (gftools)",
+        "Omnibus-Type/ArchivoBlack/$VIRTUAL/google/fonts/ofl/archivoblack/config.yaml SRC/Archivo-Black.glyphs?95df3c54d8 (gftools)",
+        "googlefonts/staatliches/$VIRTUAL/google/fonts/ofl/staatliches/config.yaml sources/Staatliches-Regular.glyphs?0d69eea1ad (gftools)"
       ]
     }
   ],
@@ -854,12 +810,45 @@
       "link": "https://github.com/googlefonts/fontc/issues/1288"
     }
   ],
-  "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (default)": [
+  "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml sources/glyphs/final/AyannaNarrow-all.glyphs?bd4f7c3222 (default)": [
     {
-      "text": "a master lies outside the axis map derived from the instances: fontmake silently drops it, fontc errors",
+      "text": "every instance is SemiCondensed, so fontmake's point wdth axis sits at 87.5 and gives usWidthClass 4; fontc drops the axis and falls back to 5",
       "also": [
-        "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (gftools)"
+        "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml sources/glyphs/final/AyannaNarrow-all.glyphs?bd4f7c3222 (gftools)"
       ]
+    }
+  ],
+  "etunni/Pathway-Variable-Font/sources/config.yaml PathwayExtreme-Italic.glyphs?4fa691f389 (default)": [
+    {
+      "text": "a smart component kept as a plain component (no pole layers, or a single smart layer) is moved to the end of the shape list, reordering components, gvar and propagated anchors (fix on branch smart-component-keep-order)",
+      "also": [
+        "etunni/Pathway-Variable-Font/sources/config.yaml PathwayExtreme-Italic.glyphs?4fa691f389 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/alumni-sans-inline/sources/config.yml AlumniSansInline.glyphs?81ea544e0c (gftools)": [
+    {
+      "text": "harness: gftools' FlattenComponents composes nested component transforms before rounding, so an exact .5 (apostrophemod -> quoteright -> quoteleft) lands on 629.4999 and rounds down"
+    }
+  ],
+  "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml Serif/Source/DeepMindDisplay-Italic.glyphs?027cea4e4f (default)": [
+    {
+      "text": "the 'Virtual Master' at wght 150 widens the axis, but the axis mapping from the instances (400 -> 723/683) has no entry for it: 'Missing mapping on Weight for min'. glyphsLib makes wght a point axis",
+      "also": [
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml Serif/Source/DeepMindDisplay-Italic.glyphs?027cea4e4f (gftools)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml Serif/Source/DeepMindDisplay-Roman.glyphs?027cea4e4f (default)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml Serif/Source/DeepMindDisplay-Roman.glyphs?027cea4e4f (gftools)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml Serif/Source/DeepMindSerif-Italic.glyphs?027cea4e4f (default)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml Serif/Source/DeepMindSerif-Italic.glyphs?027cea4e4f (gftools)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml Serif/Source/DeepMindSerif-Roman.glyphs?027cea4e4f (default)",
+        "googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml Serif/Source/DeepMindSerif-Roman.glyphs?027cea4e4f (gftools)"
+      ]
+    }
+  ],
+  "itfoundry/kalam/$VIRTUAL/google/fonts/ofl/kalam/config.yaml masters/Kalam.glyphs?03a4d8a338 (gftools)": [
+    {
+      "text": "gftools builds the static instance with fontmake but has fontc compile the whole two-master source; anchors only in the Bold master (e.g. Oslash 'top') have no value at the default Light master",
+      "link": "https://github.com/googlefonts/fontc/issues/1874"
     }
   ]
 }
