@@ -1,0 +1,142 @@
+[
+  {
+    "targets": [
+      "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (default)",
+      "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (default)",
+      "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (gftools)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb?ffac6513dd (default)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb?ffac6513dd (gftools)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb?ffac6513dd (default)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb?ffac6513dd (gftools)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb?ffac6513dd (default)",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb?ffac6513dd (gftools)",
+      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb?79d2ed54e7 (default)",
+      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb?79d2ed54e7 (gftools)",
+      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb?79d2ed54e7 (default)",
+      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb?79d2ed54e7 (gftools)",
+      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb?bb43144b50 (default)",
+      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb?bb43144b50 (gftools)",
+      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb?bb43144b50 (default)",
+      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb?bb43144b50 (gftools)",
+      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb?e32d050fbb (default)",
+      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb?e32d050fbb (gftools)",
+      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb?e32d050fbb (default)",
+      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb?e32d050fbb (gftools)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb?0b03ab09ea (default)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb?0b03ab09ea (gftools)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb?0b03ab09ea (default)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb?0b03ab09ea (gftools)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb?0b03ab09ea (default)",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb?0b03ab09ea (gftools)",
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb?db1c024077 (default)",
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb?db1c024077 (gftools)",
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb?db1c024077 (default)",
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb?db1c024077 (gftools)",
+      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip?f7127c4d24 (default)",
+      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip?f7127c4d24 (gftools)",
+      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip?4e73f5a9a0 (default)",
+      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip?4e73f5a9a0 (gftools)"
+    ],
+    "fails": "both",
+    "reason": "source is a FontLab/FontForge/Superpolator file (.vfb/.sfd/.sp3) or a .zip archive that neither compiler reads; crater shouldn't make a target for it"
+  },
+  {
+    "targets": [
+      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (default)",
+      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (gftools)"
+    ],
+    "fails": "both",
+    "reason": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds matching the five per-weight UFO/*/Khula-*.ufo, which fontmake builds but fontc rejects because a feature block is split across FEA include files"
+  },
+  {
+    "targets": [
+      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (default)",
+      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (gftools)"
+    ],
+    "fails": "both",
+    "reason": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; the repo's src/NerkoOne-Regular.ufo is what upstream's build.sh compiles and both compilers build it, so the config should list the UFO"
+  },
+  {
+    "targets": [
+      "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (gftools)"
+    ],
+    "fails": "both",
+    "reason": "gftools 0.10.3's crater path asks File.is_variable about the .sfd source and raises 'unsure how to determine if tiny5-Medium.sfd is variable'; behind that, the upstream recipe needs babelfont (SFD reader crashes) and writes ../fonts/ttf, not the output dir"
+  },
+  {
+    "targets": [
+      "42dot/42dot-Sans/sources/config_variable.yaml 42dotSans.designspace?d23e87fe44 (default)",
+      "42dot/42dot-Sans/sources/config_variable.yaml 42dotSans.designspace?d23e87fe44 (gftools)",
+      "42dot/Asta-Sans/sources/config_variable.yaml AstaSans.designspace?62b8301ac4 (default)",
+      "42dot/Asta-Sans/sources/config_variable.yaml AstaSans.designspace?62b8301ac4 (gftools)",
+      "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace?34074c6b40 (default)",
+      "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace?34074c6b40 (gftools)",
+      "RedHatOfficial/Overpass/sources/config.yaml Overpass-Italic.designspace?c580d28bfa (default)",
+      "RedHatOfficial/Overpass/sources/config.yaml Overpass-Italic.designspace?c580d28bfa (gftools)",
+      "RedHatOfficial/Overpass/sources/config.yaml Overpass.designspace?c580d28bfa (default)",
+      "RedHatOfficial/Overpass/sources/config.yaml Overpass.designspace?c580d28bfa (gftools)",
+      "TikTok/TikTokSans/sources/config.yaml TikTokSans.designspace?baa2f381f9 (default)",
+      "TikTok/TikTokSans/sources/config.yaml TikTokSans.designspace?baa2f381f9 (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Bold.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Bold.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Light.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Light.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Regular.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiMonoTC-Regular.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Bold.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Bold.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Light.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Light.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Regular.designspace?a5cf76f5bd (default)",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml build/LXGWWenKaiTC-Regular.designspace?a5cf76f5bd (gftools)",
+      "aaronbell/signika/sources/config.yaml Signika.designspace?bd066259b5 (default)",
+      "aaronbell/signika/sources/config.yaml Signika.designspace?bd066259b5 (gftools)",
+      "arrowtype/shantell-sans/$VIRTUAL/google/fonts/ofl/shantellsans/config.yaml sources/shantell_sans-ital_wght_BNCE_INFM_SPAC-simplified.designspace?68f5eca149 (default)",
+      "arrowtype/shantell-sans/$VIRTUAL/google/fonts/ofl/shantellsans/config.yaml sources/shantell_sans-ital_wght_BNCE_INFM_SPAC-simplified.designspace?68f5eca149 (gftools)",
+      "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinItalic.designspace?70efa8c317 (default)",
+      "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinItalic.designspace?70efa8c317 (gftools)",
+      "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace?70efa8c317 (default)",
+      "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace?70efa8c317 (gftools)",
+      "justvanrossum/nabla/$VIRTUAL/google/fonts/ofl/nabla/config.yaml sources/Nabla.glyphs?2a06e9f735 (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (default)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (default)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace?14f8686945 (default)",
+      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace?14f8686945 (gftools)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace?c4afdf3fa5 (default)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace?c4afdf3fa5 (gftools)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace?c4afdf3fa5 (default)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace?c4afdf3fa5 (gftools)"
+    ],
+    "fails": "both",
+    "reason": "sources are generated by the repo's own build script (Makefile, shell or Python) and aren't committed; crater doesn't run it, so neither compiler can find them"
+  },
+  {
+    "targets": [
+      "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace?071fc21f21 (default)",
+      "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace?071fc21f21 (gftools)"
+    ],
+    "fails": "both",
+    "reason": "the UFOs' features.fea includes ./features/*.fea, which the repo's mastering/build_files.py copies next to the UFOs before building; crater doesn't run it, so both compilers fail on the missing includes"
+  },
+  {
+    "targets": [
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (default)",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (gftools)",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (default)",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (gftools)",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (gftools)",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (gftools)"
+    ],
+    "fails": "both",
+    "reason": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea; crater doesn't run it, so both compilers get the stale committed features.fea (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)"
+  }
+]
