@@ -884,6 +884,7 @@
   "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (default)": [
     {
       "text": "masters' features.fea differ only in LigatureCaretByPos, so ufo2ft compiles kern per master; 10 Telugu marks are non-zero-width in only 2 of 9 masters, so the per-master kern mark filtering sets differ and varLib's GDEF merge fails; fontc builds but counts those marks as spacing",
+      "link": "https://github.com/googlefonts/fontmake/issues/1036",
       "also": [
         "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (gftools)"
       ]
@@ -897,7 +898,8 @@
   ],
   "aaronbell/LxgwMarkerGothic/$VIRTUAL/google/fonts/ofl/lxgwmarkergothic/config.yaml sources/LXGWMarkerGothic-Regular.ufoz?fe83570074 (default)": [
     {
-      "text": "harness: ttx_diff's source_is_variable doesn't recognise .ufoz and falls back to 'variable', so fontmake is run with -o variable on a single zipped UFO and refuses it ('Glyphs or designspace source required'); fontmake -o ttf builds it"
+      "text": "harness: ttx_diff's source_is_variable doesn't recognise .ufoz and falls back to 'variable', so fontmake is run with -o variable on a single zipped UFO and refuses it ('Glyphs or designspace source required'); fontmake -o ttf builds it",
+      "link": "https://github.com/googlefonts/fontc/pull/2028"
     }
   ],
   "phoikoi/VT323/$VIRTUAL/google/fonts/ofl/vt323/config.yaml sources/VT323.glyphs?9bd4b3f698 (default)": [
@@ -1189,6 +1191,7 @@
   "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (default)": [
     {
       "text": "the pinned m4rc1e/Ruda-new revision is a 2018 version 1.0 source whose Regular and Black masters differ in ~140 glyphs; it isn't the source of the shipped Ruda[wght] v2.001, so both compilers fail",
+      "link": "https://github.com/google/fonts/issues/9393",
       "also": [
         "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (gftools)"
       ]
@@ -1289,6 +1292,7 @@
   "rsms/inter-gf-tight/sources/config.yaml InterTight-Italic.glyphs?c194f94c60 (default)": [
     {
       "text": "the .glyphs feature code includes ../features/*.fea, which only resolved from the old glyphs2ufo master_ufo/ directory; fontmake and fontc resolve includes relative to the .glyphs file (sources/), where ../features doesn't exist",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/797",
       "also": [
         "rsms/inter-gf-tight/sources/config.yaml InterTight-Italic.glyphs?c194f94c60 (gftools)",
         "rsms/inter-gf-tight/sources/config.yaml InterTight.glyphs?c194f94c60 (default)",
@@ -1407,6 +1411,7 @@
   "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (default)": [
     {
       "text": "126 brace layers are named like 'Rg {400, 100off}' (switched off with an 'off' suffix), and glyphsLib's brace-coordinate parser crashes on them (float(' 100off')); fontc skips them",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/826",
       "also": [
         "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools)"
       ]
@@ -1414,12 +1419,14 @@
   ],
   "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumarone/config.yaml masters/Kumar One.glyphs?3192a79a79 (default)": [
     {
-      "text": "Kumar One.glyphs holds two co-located masters (Filled, Outlined) that the repo's hindkit build.py builds as two separate families; ttx_diff sees no axis range and runs fontmake -o ttf, which rejects two UFOs ('output_path requires a single input'), and fontc fails interpolating them"
+      "text": "Kumar One.glyphs holds two co-located masters (Filled, Outlined) that the repo's hindkit build.py builds as two separate families; ttx_diff sees no axis range and runs fontmake -o ttf, which rejects two UFOs ('output_path requires a single input'), and fontc fails interpolating them",
+      "link": "https://github.com/googlefonts/fontc/issues/1288"
     }
   ],
   "cyrealtype/Rationale/$VIRTUAL/google/fonts/ofl/rationale/config.yaml sources/Rationale.glyphs?b12941da53 (gftools)": [
     {
       "text": "malformed .glyphs plist (a Glyphs 1 XML plist, or a syntax error) that neither glyphsLib nor fontc can read; gftools fails parsing it before either compiler runs",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/275",
       "also": [
         "googlefonts/TangerineFont/$VIRTUAL/google/fonts/ofl/tangerine/config.yaml sources/Tangerine_Bold.glyphs?9b57a9f9be (gftools)",
         "itfoundry/hind-jalandhar/$VIRTUAL/google/fonts/ofl/hindjalandhar/config.yaml masters/HindJalandhar.glyphs?6d0af0d80b (gftools)",
@@ -1458,6 +1465,7 @@
   "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)": [
     {
       "text": "the config's recipe runs paintcompiler, which fails for both compilers: since fontTools 4.62 VariableScalar no longer fills in partial locations, so paints.py's partial locations collide with the default ('Locations must be unique')",
+      "link": "https://github.com/jenskutilek/homecomputer-fonts/issues/93",
       "also": [
         "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?09b2f79d68 (gftools)",
         "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?3e0b1194c1 (gftools)"
@@ -1501,7 +1509,8 @@
   ],
   "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (gftools)": [
     {
-      "text": "the Light instance is at weight 0, outside the masters (100-900); glyphsLib 6.16 bounds the axis at the masters, so fontmake -i writes no Light UFO and gftools' build step fails on the missing file for both compilers; the shipped Light static is extrapolated"
+      "text": "the Light instance is at weight 0, outside the masters (100-900); glyphsLib 6.16 bounds the axis at the masters, so fontmake -i writes no Light UFO and gftools' build step fails on the missing file for both compilers; the shipped Light static is extrapolated",
+      "link": "https://github.com/googlefonts/glyphsLib/pull/1197"
     }
   ],
   "vernnobile/CodaFont/$VIRTUAL/google/fonts/ofl/coda/config.yaml coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo?41ce6c5246 (gftools)": [
@@ -1567,6 +1576,7 @@
   "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (default)": [
     {
       "text": "gcircumflex and gmacron use different components in the 144pt Black masters (swapped order, spacing circumflex/macron instead of the combining marks), so the masters aren't interpolation-compatible; the shipped 2020 VF silently has no gvar for them",
+      "link": "https://github.com/undercasetype/Fraunces/pull/275",
       "also": [
         "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (gftools)"
       ]
@@ -1662,6 +1672,7 @@
   "phoikoi/VT323/$VIRTUAL/google/fonts/ofl/vt323/config.yaml sources/VT323.glyphs?9bd4b3f698 (gftools)": [
     {
       "text": "smart component references an axis the smart glyph doesn't map (VT323: components say 'Pixel width' where one part defines 'Pixelwidth'; Hina Mincho: a master layer of _part.kanji.nabebuta has no 'yoko' pole), so glyphsLib raises KeyError while gftools lists the static instances",
+      "link": "https://github.com/google/fonts/issues/9663",
       "also": [
         "satsuyako/Hina-Mincho/$VIRTUAL/google/fonts/ofl/hinamincho/config.yaml sources/Hina-Mincho.glyphs?7642eb499c (gftools)"
       ]
@@ -1680,6 +1691,7 @@
   "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml source/CactusClassicalSerif-Regular.ufoz?a267f9f320 (gftools)": [
     {
       "text": "google/fonts override builds the raw committed .ufoz and skips the repo's fcp_ufo_process.py repair step, so fontmake fails on FontCreator export defects: meta dlng as a comma-separated string (Cactus) and '@\\BASE' class names in features.fea (Then Khung)",
+      "link": "https://github.com/google/fonts/pull/10579",
       "also": [
         "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (gftools)"
       ]
@@ -1831,6 +1843,7 @@
   "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml source/CactusClassicalSerif-Regular.ufoz?a267f9f320 (default)": [
     {
       "text": "single zipped UFO: ttx_diff's source_is_variable() has no .ufoz case and falls back to variable, so default mode runs fontmake -o variable, which refuses a UFO ('Glyphs or designspace source required for variable font')",
+      "link": "https://github.com/googlefonts/fontc/pull/2028",
       "also": [
         "MoonlitOwen/ChocolateSans/$VIRTUAL/google/fonts/ofl/chocolateclassicalsans/config.yaml source/ChocolateClassicalSans-Regular.ufoz?624ecb8064 (default)",
         "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (default)"
@@ -1845,6 +1858,7 @@
     },
     {
       "text": "the raw FontCreator .ufoz needs the repo's fcp_ufo_process.py, which the google/fonts override skips: Then Khung's FEA uses '@\\BASE'-style class names that feaLib and fea-rs reject, and Cactus's public.openTypeMeta dlng isn't a list of strings, which ufo2ft rejects",
+      "link": "https://github.com/google/fonts/pull/10579",
       "also": [
         "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (default)"
       ]
@@ -1852,12 +1866,14 @@
   ],
   "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlow/config.yaml sources/Barlow.glyphs?b4726ddf91 (default)": [
     {
-      "text": "the SemiCondensed Regular/Italic instances' Axis Location (wdth 85 at design 400) contradicts the masters' (user = design), so the width map is non-monotonic (85→400, 300→300, 500→500) and fontTools rejects it; fontc first rejects a dated backup copy of the {53,400} brace layer in 'e'"
+      "text": "the SemiCondensed Regular/Italic instances' Axis Location (wdth 85 at design 400) contradicts the masters' (user = design), so the width map is non-monotonic (85→400, 300→300, 500→500) and fontTools rejects it; fontc first rejects a dated backup copy of the {53,400} brace layer in 'e'",
+      "link": "https://github.com/google/fonts/issues/3625"
     }
   ],
   "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlow/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)": [
     {
       "text": "the SemiCondensed Regular/Italic instances' Axis Location (wdth 85 at design 400) contradicts the masters' (user = design), so the width map is non-monotonic and fontTools rejects it when gftools instantiates the statics with fontmake, a step both compilers' builds share",
+      "link": "https://github.com/google/fonts/issues/3625",
       "also": [
         "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlowcondensed/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)",
         "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlowsemicondensed/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)"
@@ -1881,6 +1897,7 @@
     },
     {
       "text": "a stray 8th 'Regular' instance at wght 200 redefines user 400 → 200; glyphsLib 6.16 then maps the Regular master to the interpolated 400, overwriting that point, but fontc only adds the default's point if new, keeps 400 → 200, and fails 'Missing mapping on Weight for default'",
+      "link": "https://github.com/tokotype/PlusJakartaSans/issues/40",
       "also": [
         "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (gftools)"
       ]
@@ -1893,12 +1910,14 @@
   ],
   "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabincondensed/config.yaml sources/Cabin.glyphs?9476ee6f54 (gftools)": [
     {
-      "text": "Cabin.glyphs puts the normal width at design 0 and condensed at 100, so glyphsLib's wdth mapping decreases (75→100, 100→0); fontTools rejects it ('Invalid axis values ... 100, 0, 0') when gftools instantiates the statics with fontmake, a step both compilers' builds share"
+      "text": "Cabin.glyphs puts the normal width at design 0 and condensed at 100, so glyphsLib's wdth mapping decreases (75→100, 100→0); fontTools rejects it ('Invalid axis values ... 100, 0, 0') when gftools instantiates the statics with fontmake, a step both compilers' builds share",
+      "link": "https://github.com/impallari/Cabin/issues/16"
     }
   ],
   "docrepair-fonts/belanosima-fonts/sources/config.yaml Belanosima-Regular.designspace?b772e9b7c4 (default)": [
     {
       "text": "the designspace's axes don't describe its masters (wght 252..389 with one map point, onto the Bold master), so there is no usable default source; the repo's Makefile builds each master as a static (fontmake -m -o ttf), which neither crater mode does",
+      "link": "https://github.com/docrepair-fonts/belanosima-fonts/issues/2",
       "also": [
         "docrepair-fonts/belanosima-fonts/sources/config.yaml Belanosima-Regular.designspace?b772e9b7c4 (gftools)"
       ]
