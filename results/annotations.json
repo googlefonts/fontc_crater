@@ -646,7 +646,9 @@
       "text": "norad rejects more than 14 postscriptBlueValues, and glyphsLib writes a blue pair for every alignment zone into the instance UFO; fontmake doesn't validate it",
       "link": "https://github.com/googlefonts/fontc/issues/2241",
       "also": [
-        "haniadnansd/Badeen-Display/source/config.yaml BadeenDisplay.glyphs?c1370b602b (gftools)"
+        "haniadnansd/Badeen-Display/source/config.yaml BadeenDisplay.glyphs?c1370b602b (gftools)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (gftools)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools)"
       ]
     }
   ],
@@ -699,7 +701,10 @@
   ],
   "MoonlitOwen/ChocolateSans/$VIRTUAL/google/fonts/ofl/chocolateclassicalsans/config.yaml source/ChocolateClassicalSans-Regular.ufoz?624ecb8064 (gftools)": [
     {
-      "text": "gftools passes the config's extraFontmakeArgs ('--production-names --overlaps-backend pathops') through to fontc, which rejects '--production-names' (it only has --no-production-names)"
+      "text": "gftools passes the config's extraFontmakeArgs ('--production-names --overlaps-backend pathops') through to fontc, which rejects '--production-names' (it only has --no-production-names)",
+      "also": [
+        "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml source/CactusClassicalSerif-Regular.ufoz?a267f9f320 (gftools)"
+      ]
     }
   ],
   "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderStatic-upright.designspace?1ece6a8bfe (default)": [
@@ -748,7 +753,1162 @@
         "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace?34074c6b40 (default)",
         "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace?34074c6b40 (gftools)",
         "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace?14f8686945 (default)",
-        "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace?14f8686945 (gftools)"
+        "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace?14f8686945 (gftools)",
+        "justvanrossum/nabla/$VIRTUAL/google/fonts/ofl/nabla/config.yaml sources/Nabla.glyphs?2a06e9f735 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountsingle/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (gftools)",
+        "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinItalic.designspace?70efa8c317 (default)",
+        "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinItalic.designspace?70efa8c317 (gftools)",
+        "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace?70efa8c317 (default)",
+        "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace?70efa8c317 (gftools)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddoubleink/config.yaml sources/Bitcount_Template.designspace?89e7994f73 (default)",
+        "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace?af0818eaeb (default)"
+      ]
+    }
+  ],
+  "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Bold.ufo?6dcec520f9 (default)": [
+    {
+      "text": "features.fea include()s are relative to the features.fea inside the UFO (pre-2018 ufo2ft convention, against the UFO spec); ufo2ft resolves includes from the UFO's parent dir, so feaLib can't find ../fea/*.fea; fea-rs silently falls back to the including file's dir",
+      "also": [
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Bold.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-BoldItalic.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-BoldItalic.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Italic.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Italic.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Light.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Light.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-LightItalic.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-LightItalic.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Medium.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Medium.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-MediumItalic.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-MediumItalic.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Regular.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-Regular.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-SemiBold.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-SemiBold.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-SemiBoldItalic.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslab/config.yaml sources/ZillaSlab-SemiBoldItalic.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslabhighlight/config.yaml sources/ZillaSlabHighlight-Bold.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslabhighlight/config.yaml sources/ZillaSlabHighlight-Bold.ufo?6dcec520f9 (gftools)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslabhighlight/config.yaml sources/ZillaSlabHighlight-Regular.ufo?6dcec520f9 (default)",
+        "mozilla/zilla-slab/$VIRTUAL/google/fonts/ofl/zillaslabhighlight/config.yaml sources/ZillaSlabHighlight-Regular.ufo?6dcec520f9 (gftools)",
+        "sevmeyer/oxanium/$VIRTUAL/google/fonts/ofl/oxanium/config.yaml sources/Oxanium.designspace?a8f39e0c71 (default)",
+        "sevmeyer/oxanium/$VIRTUAL/google/fonts/ofl/oxanium/config.yaml sources/Oxanium.designspace?a8f39e0c71 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/roboto-serif/sources/config.yml RobotoSerif-Italic.designspace?1ecc2513e8 (default)": [
+    {
+      "text": "fontmake's compatibility checker rejects sparse anchors (upright: B F P V X b f p v x have anchors only in the default master) and exact-duplicate anchors (Italic: Display Cond Regular Italic lists each anchor twice); fontc == fontmake --no-check-compatibility",
+      "link": "https://github.com/googlefonts/fontc/issues/1288",
+      "also": [
+        "googlefonts/roboto-serif/sources/config.yml RobotoSerif.designspace?1ecc2513e8 (default)"
+      ]
+    }
+  ],
+  "Mestaratype/AlYamama/sources/config.yaml Alyamama.glyphs?aecc9e3950 (default)": [
+    {
+      "text": "glyphsLib >=6.13 decomposes smart component _part.sennah in heh-ar.fina for Light (2 pole layers) but keeps it as a component in Black (1 pole layer), so fontmake's compatibility check fails; fontc decomposes the mixed glyph, matching fontmake --no-check-compatibility",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/907",
+      "also": [
+        "Mestaratype/AlYamama/sources/config.yaml Alyamama.glyphs?aecc9e3950 (gftools)"
+      ]
+    }
+  ],
+  "DunwichType/RhodiumLibre/$VIRTUAL/google/fonts/ofl/rhodiumlibre/config.yaml RhodiumLibre-Regular.glyphs?c6e9dc9167 (default)": [
+    {
+      "text": "the Glyphs 2 automatic Languagesystems prefix repeats `languagesystem deva dflt` (Bellefair: `hebr dflt`); feaLib rejects the duplicate, fea-rs warns and ignores it (with the line removed fontmake == fontc)",
+      "also": [
+        "DunwichType/RhodiumLibre/$VIRTUAL/google/fonts/ofl/rhodiumlibre/config.yaml RhodiumLibre-Regular.glyphs?c6e9dc9167 (gftools)",
+        "Omnibus-Type/Jaldi/sources/config.yaml Jaldi.glyphs?13315457c7 (default)",
+        "Omnibus-Type/Jaldi/sources/config.yaml Jaldi.glyphs?13315457c7 (gftools)",
+        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Bold.glyphs?c4b5b34d0f (default)",
+        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Bold.glyphs?c4b5b34d0f (gftools)",
+        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Regular.glyphs?c4b5b34d0f (default)",
+        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Regular.glyphs?c4b5b34d0f (gftools)",
+        "shinntype/bellefair/$VIRTUAL/google/fonts/ofl/bellefair/config.yaml sources/Bellefair.glyphs?879a39cbf0 (default)",
+        "shinntype/bellefair/$VIRTUAL/google/fonts/ofl/bellefair/config.yaml sources/Bellefair.glyphs?879a39cbf0 (gftools)"
+      ]
+    }
+  ],
+  "CatharsisFonts/Ysabeau/sources/config.yaml Ysabeau-Italic.glyphs?c21395fc7e (default)": [
+    {
+      "text": "mturned's {48} brace layer hangs off Bold while every other glyph's {48} layer hangs off Light; glyphsLib makes one designspace source per (brace, master), so varLib sees two sources at wght=48 ('Locations must be unique'); fontc places brace layers per glyph",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/995",
+      "also": [
+        "CatharsisFonts/Ysabeau/sources/config.yaml Ysabeau-Italic.glyphs?c21395fc7e (gftools)",
+        "CatharsisFonts/Ysabeau/sources/config.yaml Ysabeau.glyphs?c21395fc7e (default)",
+        "CatharsisFonts/Ysabeau/sources/config.yaml Ysabeau.glyphs?c21395fc7e (gftools)"
+      ]
+    }
+  ],
+  "cathschmidt/yatra-one/$VIRTUAL/google/fonts/ofl/yatraone/config.yaml source/masters/YatraOne_0.ufo?b991e49f27 (default)": [
+    {
+      "text": "source has negative advance widths (Yatra dvCandrabindu/dvmE_Reph_Anusvara, Glegoo usigndeva, League Script bt/rst); ufo2ft refuses them on purpose, fontc silently clamps them to 0 with no warning (as in the shipped fonts)",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/60",
+      "also": [
+        "cathschmidt/yatra-one/$VIRTUAL/google/fonts/ofl/yatraone/config.yaml source/masters/YatraOne_0.ufo?b991e49f27 (gftools)",
+        "googlefonts/glegoo/sources/config.yaml Glegoo-Bold.glyphs?f33250e477 (default)",
+        "googlefonts/glegoo/sources/config.yaml Glegoo-Bold.glyphs?f33250e477 (gftools)",
+        "theleagueof/league-script-number-one/$VIRTUAL/google/fonts/ofl/leaguescript/config.yaml source/LeagueScriptNumberOne.ufo?225add0b37 (default)",
+        "theleagueof/league-script-number-one/$VIRTUAL/google/fonts/ofl/leaguescript/config.yaml source/LeagueScriptNumberOne.ufo?225add0b37 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/RadleyFont/sources/config.yaml Radley-Italic.ufo?7f54a0b10f (gftools)": [
+    {
+      "text": "composites reference a glyph that doesn't exist (Radley Italic uni0326; Kadwa Ge-cy, Ii-cy); gftools' default FlattenComponentsFilter raises on it, while plain fontmake and fontc drop the component with a warning (the default-mode twins are identical)",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/669",
+      "also": [
+        "solmatas/Kadwa/$VIRTUAL/google/fonts/ofl/kadwa/config.yaml Kadwa-Bold.glyphs?ec58500fc2 (gftools)",
+        "solmatas/Kadwa/$VIRTUAL/google/fonts/ofl/kadwa/config.yaml Kadwa-Regular.glyphs?ec58500fc2 (gftools)"
+      ]
+    }
+  ],
+  "EbenSorkin/Kavoon/$VIRTUAL/google/fonts/ofl/kavoon/config.yaml SRC/Kavoon-Regular.ufo?0b985571f9 (default)": [
+    {
+      "text": "commaaccentcomb.glif has a stray lib fragment after </glyph>; fontTools' glifLib rejects the invalid XML, norad stops reading at the first </glyph> without a warning (with the junk removed fontmake == fontc)",
+      "also": [
+        "EbenSorkin/Kavoon/$VIRTUAL/google/fonts/ofl/kavoon/config.yaml SRC/Kavoon-Regular.ufo?0b985571f9 (gftools)"
+      ]
+    }
+  ],
+  "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (default)": [
+    {
+      "text": "masters' features.fea differ only in LigatureCaretByPos, so ufo2ft compiles kern per master; 10 Telugu marks are non-zero-width in only 2 of 9 masters, so the per-master kern mark filtering sets differ and varLib's GDEF merge fails; fontc builds but counts those marks as spacing",
+      "also": [
+        "EkType/Anek/sources/AnekTelugu/builder.yaml Masters/AnekTelugu.designspace?34074c6b40 (gftools)"
+      ]
+    }
+  ],
+  "SophiaDesign/Foldit/sources/config.yaml ./glyphs-decomposed/Foldit.glyphs?934034370b (gftools)": [
+    {
+      "text": "gftools' COLRv1 fix step runs nanoemoji maximum_color to add an SVG table, which raises NotImplementedError on fontmake's PaintVarLinearGradient (format 5); fontc passes only because its COLRv1 paints are static",
+      "link": "https://github.com/googlefonts/nanoemoji/issues/426"
+    }
+  ],
+  "aaronbell/LxgwMarkerGothic/$VIRTUAL/google/fonts/ofl/lxgwmarkergothic/config.yaml sources/LXGWMarkerGothic-Regular.ufoz?fe83570074 (default)": [
+    {
+      "text": "harness: ttx_diff's source_is_variable doesn't recognise .ufoz and falls back to 'variable', so fontmake is run with -o variable on a single zipped UFO and refuses it ('Glyphs or designspace source required'); fontmake -o ttf builds it"
+    }
+  ],
+  "phoikoi/VT323/$VIRTUAL/google/fonts/ofl/vt323/config.yaml sources/VT323.glyphs?9bd4b3f698 (default)": [
+    {
+      "text": "_part.pixel components use the piece key 'Pixel width', which is _part.pixeldbl's axis (_part.pixel's is 'Pixelwidth'); glyphsLib's smart-component code raises KeyError, fontc ignores the unknown key and uses the axis default, as Glyphs.app does"
+    }
+  ],
+  "googlefonts/Bhavuka/sources/config.yaml Bhavuka-Regular.glyphs?5a9c2de51b (default)": [
+    {
+      "text": "the babelfont-rs-converted source uses BCP-47 'en-US' as the language of its licenses/trademarks properties; glyphsLib raises 'Unknown name language', fontc warns and uses the value as the default"
+    }
+  ],
+  "Omnibus-Type/MuseoModerno/sources/config.yaml MuseoModerno.glyphs?ad2f135bea (default)": [
+    {
+      "text": "MuseoModerno.glyphs has two identical fsType custom parameters; glyphsLib raises on any duplicated custom parameter, fontc keeps the first with a warning (fsType 0, as shipped)",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/672",
+      "also": [
+        "Omnibus-Type/MuseoModerno/sources/config.yaml MuseoModerno.glyphs?ad2f135bea (gftools)"
+      ]
+    }
+  ],
+  "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseidecol/config.yaml sources/Kaisei-Decol.glyphs?b396c906d6 (gftools)": [
+    {
+      "text": "static-only family: gftools builds one TTF per static instance, and crater's gftools mode requires exactly one output",
+      "link": "https://github.com/googlefonts/fontc/issues/1073",
+      "also": [
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiharunoumi/config.yaml sources/Kaisei-HarunoUmi.glyphs?b396c906d6 (gftools)",
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiopti/config.yaml sources/Kaisei-Opti.glyphs?b396c906d6 (gftools)",
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseitokumin/config.yaml sources/Kaisei-Tokumin.glyphs?b396c906d6 (gftools)",
+        "Fonthausen/Livvic/$VIRTUAL/google/fonts/ofl/livvic/config.yaml sources/LV_Livvic.glyphs?30f612bf37 (gftools)",
+        "Fonthausen/Livvic/$VIRTUAL/google/fonts/ofl/livvic/config.yaml sources/LV_Livvic_Italic.glyphs?30f612bf37 (gftools)",
+        "ManiackersDesign/monomaniac/$VIRTUAL/google/fonts/ofl/monomaniacone/config.yaml source/MonomaniacOne.glyphs?2318283d6d (gftools)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenal/config.yaml sources/Arsenal-Italic.glyphs?878af08407 (gftools)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenal/config.yaml sources/Arsenal.glyphs?878af08407 (gftools)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenalsc/config.yaml sources/Arsenal-Italic.glyphs?e34db566b2 (gftools)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenalsc/config.yaml sources/Arsenal.glyphs?e34db566b2 (gftools)",
+        "alexeiva/philosopher/sources/config.yaml Philosopher-Italic.glyphs?9983715d44 (gftools)",
+        "alexeiva/philosopher/sources/config.yaml Philosopher.glyphs?9983715d44 (gftools)",
+        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Italic.glyphs?b1dca64c3c (gftools)",
+        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Roman.glyphs?b1dca64c3c (gftools)",
+        "cadsondemak/Charm/$VIRTUAL/google/fonts/ofl/charm/config.yaml source/Charm.glyphs?873c551602 (gftools)",
+        "cadsondemak/Niramit/$VIRTUAL/google/fonts/ofl/niramit/config.yaml source/Niramit.glyphs?1b5fd50366 (gftools)",
+        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (gftools)",
+        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Upright_Master.glyphs?467dfe8421 (gftools)",
+        "christiannaths/redacted-font/RedactedScript/sources/config.yaml RedactedScript.glyphs?dae1afaa7d (gftools)",
+        "crozynski/comicneue/$VIRTUAL/google/fonts/ofl/comicneue/config.yaml Sources/Glyphs/ComicNeue_Italics.glyphs?c5ee07b5ee (gftools)",
+        "crozynski/comicneue/$VIRTUAL/google/fonts/ofl/comicneue/config.yaml Sources/Glyphs/ComicNeue_Roman.glyphs?c5ee07b5ee (gftools)",
+        "cyrealtype/Sumana/$VIRTUAL/google/fonts/ofl/sumana/config.yaml sources/Sumana.glyphs?68c5ce43ae (gftools)",
+        "danhhong/Battambang/Source/builder.yaml Battambang.glyphs?b2350045aa (gftools)",
+        "danhhong/KohSantepheap/Source/builder.yaml KohSantepheap.glyphs?316be9428c (gftools)",
+        "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (gftools)",
+        "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (gftools)",
+        "docrepair-fonts/lunasima-fonts/sources/config.yaml Lunasima-Regular.designspace?88f44d7a6c (gftools)",
+        "etunni/Arya/$VIRTUAL/google/fonts/ofl/arya/config.yaml Source/Arya-DEVA+LATIN-COPY.glyphs?103dc785f2 (gftools)",
+        "etunni/Arya/$VIRTUAL/google/fonts/ofl/arya/config.yaml Source/Arya-Scaled.glyphs?103dc785f2 (gftools)",
+        "etunni/sintony/$VIRTUAL/google/fonts/ofl/sintony/config.yaml sources/Sintony-GF-plus.glyphs?be9cf7be56 (gftools)",
+        "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantique/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)",
+        "fontdasu/ShipporiAntique/$VIRTUAL/google/fonts/ofl/shipporiantiqueb1/config.yaml sources/ShipporiAntique.glyphs?5653d23ee9 (gftools)",
+        "googlefonts/Crimson/sources/config.yaml CrimsonText-Italic.glyphs?4f1458ae64 (gftools)",
+        "googlefonts/Crimson/sources/config.yaml CrimsonText.glyphs?4f1458ae64 (gftools)",
+        "googlefonts/TangerineFont/$VIRTUAL/google/fonts/ofl/tangerine/config.yaml sources/Tangerine_Regular.glyphs?9b57a9f9be (gftools)",
+        "googlefonts/atkinson-hyperlegible/sources/config.yml AtkinsonHyperlegible-Italic.glyphs?1cb311624b (gftools)",
+        "googlefonts/atkinson-hyperlegible/sources/config.yml AtkinsonHyperlegible.glyphs?1cb311624b (gftools)",
+        "googlefonts/birthstone-bounce/sources/config.yaml BirthstoneBounce.glyphs?db48de44b6 (gftools)",
+        "googlefonts/corinthia/sources/config.yml Corinthia.glyphs?9c81839655 (gftools)",
+        "googlefonts/coustardFont/sources/config.yaml Coustard.glyphs?84d4ef2fbb (gftools)",
+        "googlefonts/gwendolyn/sources/config.yml GwendolynPro.glyphs?8ab228a0fd (gftools)",
+        "googlefonts/life-savers/sources/config.yaml LifeSavers.glyphs?76eb6d11fa (gftools)",
+        "googlefonts/qwitcher-grypen/sources/config.yml QwitcherGrypenPro.glyphs?cd12ed20d4 (gftools)",
+        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada-Italic.glyphs?df06a155d9 (gftools)",
+        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada.glyphs?df06a155d9 (gftools)",
+        "googlefonts/silkscreen/sources/config.yaml Silkscreen.glyphs?206ccf3f52 (gftools)",
+        "googlefonts/spacemono/sources/config.yaml SpaceMono-Italic.glyphs?329858c2c4 (gftools)",
+        "googlefonts/spacemono/sources/config.yaml SpaceMono.glyphs?329858c2c4 (gftools)",
+        "googlefonts/the-nautigal/sources/config.yml TheNautigalPro.glyphs?1d644f7cd7 (gftools)",
+        "googlefonts/windsong/sources/config.yml WindSongPro.glyphs?08da686e58 (gftools)",
+        "grayscaleltd/farro/$VIRTUAL/google/fonts/ofl/farro/config.yaml sources/farro.glyphs?fa80aadd0c (gftools)",
+        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (gftools)",
+        "impallari/Amiko-Devanagari/$VIRTUAL/google/fonts/ofl/amiko/config.yaml source/Amiko v1.000.glyphs?069f510b21 (gftools)",
+        "impallari/CabinSketch/$VIRTUAL/google/fonts/ofl/cabinsketch/config.yaml sources/CabinSketch.glyphs?f74674fd7b (gftools)",
+        "kosmynkab/Bona-Nova/sources/config.yaml BonaNova.glyphs?a5cbdfb874 (gftools)",
+        "magictype/goldman/$VIRTUAL/google/fonts/ofl/goldman/config.yaml sources/Goldman.glyphs?3fdf428a93 (gftools)",
+        "meirsadan/david-libre/sources/config.yaml DavidLibre.glyphs?15496c1be7 (gftools)",
+        "mooniak/abhaya-libre-font/$VIRTUAL/google/fonts/ofl/abhayalibre/config.yaml sources/glyphs/Abhaya-Masters.glyphs?ade314aa67 (gftools)",
+        "octaviopardo/GUPTER/$VIRTUAL/google/fonts/ofl/gupter/config.yaml SOURCES/Gupter-Family.glyphs?959e1580e0 (gftools)",
+        "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools)",
+        "ronykoch/Karantina/Sources/config.yaml karantina.glyphs?efb7e920f0 (gftools)",
+        "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml source/AndikaItalic.designspace?ca568520c6 (gftools)",
+        "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml source/AndikaRoman.designspace?ca568520c6 (gftools)",
+        "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace?ed19e4c206 (gftools)",
+        "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml source/Kanchenjunga.designspace?19a3efac0c (gftools)",
+        "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace?4973b2e025 (gftools)",
+        "supertype-de/Blinker/$VIRTUAL/google/fonts/ofl/blinker/config.yaml sources_ps/Blinker.designspace?35cee57f38 (gftools)",
+        "weiweihuanghuang/fragment-mono/$VIRTUAL/google/fonts/ofl/fragmentmono/config.yaml sources/Fragment-Mono.glyphs?3ff027831f (gftools)",
+        "weiweihuanghuang/fragment-mono/$VIRTUAL/google/fonts/ofl/fragmentmonosc/config.yaml sources/Fragment-Mono.glyphs?766d607030 (gftools)"
+      ]
+    }
+  ],
+  "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools)": [
+    {
+      "text": "the google/fonts config sets buildVariable: false, but Google Fonts ships Petrona as variable fonts; gftools builds one static per instance (9 per source), and crater's gftools mode requires exactly one output",
+      "also": [
+        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ROMAN-MASTER.glyphs?03d4b6dd8a (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/Bhavuka/sources/config.yaml Bhavuka-Regular.glyphs?5a9c2de51b (gftools)": [
+    {
+      "text": "single-master .glyphs source with no instances: gftools' googlefonts recipe builds one static per instance and the source isn't variable, so the recipe is empty and gftools asserts 'No final targets' for both compilers",
+      "also": [
+        "googlefonts/Bruno-ace/sources/brunoace-regular.yaml BrunoAce-Regular.glyphs?58dc219db3 (gftools)",
+        "googlefonts/Bruno-ace/sources/brunoacesc-regular.yaml BrunoAceSC-Regular.glyphs?58dc219db3 (gftools)"
+      ]
+    }
+  ],
+  "silnrsi/font-annapurna/$VIRTUAL/google/fonts/ofl/annapurnasil/config.yaml source/AnnapurnaSIL-RB.designspace?5bd915dff1 (gftools)": [
+    {
+      "text": "fea-rs rejects the glyph name '.Scratch' in features.fea (the FEA spec allows a leading period only in .notdef; feaLib accepts it), so fontc fails on gftools' instance UFOs; gftools also builds two statics, which crater's gftools mode can't compare"
+    }
+  ],
+  "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersdisplay/config.yaml Big-Shoulders/sources/Big_Shoulders.glyphs?41153e6fe0 (gftools)": [
+    {
+      "text": "the google/fonts config has an explicit recipe: with hard-coded target paths that --experimental-simple-output doesn't redirect, so both compilers build their two VFs (family + SC) into the source tree and crater's output dir stays empty",
+      "also": [
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersdisplaysc/config.yaml Big-Shoulders/sources/BigShoulders.glyphs?0b3d09a868 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinedisplay/config.yaml Big-Shoulders-Inline/sources/Big_Shoulders_Inline.glyphs?41153e6fe0 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinedisplaysc/config.yaml Big-Shoulders-Inline/sources/BigShouldersInline.glyphs?0b3d09a868 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinetext/config.yaml Big-Shoulders-Inline/sources/Big_Shoulders_Inline.glyphs?41153e6fe0 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersinlinetextsc/config.yaml Big-Shoulders-Inline/sources/BigShouldersInline.glyphs?0b3d09a868 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstencildisplay/config.yaml Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs?41153e6fe0 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstencildisplaysc/config.yaml Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs?0b3d09a868 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstenciltext/config.yaml Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs?41153e6fe0 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshouldersstenciltextsc/config.yaml Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs?0b3d09a868 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshoulderstext/config.yaml Big-Shoulders/sources/Big_Shoulders.glyphs?41153e6fe0 (gftools)",
+        "xotypeco/big_shoulders/$VIRTUAL/google/fonts/ofl/bigshoulderstextsc/config.yaml Big-Shoulders/sources/BigShoulders.glyphs?0b3d09a868 (gftools)"
+      ]
+    }
+  ],
+  "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseidecol/config.yaml sources/Kaisei-Decol.glyphs?b396c906d6 (default)": [
+    {
+      "text": "static-only family: Google Fonts ships statics and the masters aren't interpolation-compatible, but crater's default mode builds a variable font from any multi-master source, so both compilers fail",
+      "link": "https://github.com/googlefonts/fontc/issues/1288",
+      "also": [
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiharunoumi/config.yaml sources/Kaisei-HarunoUmi.glyphs?b396c906d6 (default)",
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiopti/config.yaml sources/Kaisei-Opti.glyphs?b396c906d6 (default)",
+        "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseitokumin/config.yaml sources/Kaisei-Tokumin.glyphs?b396c906d6 (default)",
+        "Omnibus-Type/PragatiNarrow/$VIRTUAL/google/fonts/ofl/pragatinarrow/config.yaml SRC/PragatiNarrow.glyphs?829be323c4 (default)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenal/config.yaml sources/Arsenal-Italic.glyphs?878af08407 (default)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenal/config.yaml sources/Arsenal.glyphs?878af08407 (default)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenalsc/config.yaml sources/Arsenal-Italic.glyphs?e34db566b2 (default)",
+        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenalsc/config.yaml sources/Arsenal.glyphs?e34db566b2 (default)",
+        "alexeiva/philosopher/sources/config.yaml Philosopher-Italic.glyphs?9983715d44 (default)",
+        "alexeiva/philosopher/sources/config.yaml Philosopher.glyphs?9983715d44 (default)",
+        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiri/config.yaml sources/Amiri.glyphspackage?04d40ee68c (default)",
+        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiriquran/config.yaml sources/Amiri.glyphspackage?480bb746e9 (default)",
+        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Italic.glyphs?b1dca64c3c (default)",
+        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Roman.glyphs?b1dca64c3c (default)",
+        "cadsondemak/Charm/$VIRTUAL/google/fonts/ofl/charm/config.yaml source/Charm.glyphs?873c551602 (default)",
+        "cadsondemak/Krub/$VIRTUAL/google/fonts/ofl/krub/config.yaml source/Krub.glyphs?c568bc61bd (default)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (default)",
+        "cadsondemak/Srisakdi/$VIRTUAL/google/fonts/ofl/srisakdi/config.yaml source/Srisakdi.glyphs?fc86bd7fea (default)",
+        "cadsondemak/Thasadith/$VIRTUAL/google/fonts/ofl/thasadith/config.yaml source/Thasadith_Master.glyphs?033efaea8d (default)",
+        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (default)",
+        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Upright_Master.glyphs?467dfe8421 (default)",
+        "christiannaths/redacted-font/RedactedScript/sources/config.yaml RedactedScript.glyphs?dae1afaa7d (default)",
+        "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (default)",
+        "cyrealtype/Sumana/$VIRTUAL/google/fonts/ofl/sumana/config.yaml sources/Sumana.glyphs?68c5ce43ae (default)",
+        "danhhong/Battambang/Source/builder.yaml Battambang.glyphs?b2350045aa (default)",
+        "danhhong/KohSantepheap/Source/builder.yaml KohSantepheap.glyphs?316be9428c (default)",
+        "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (default)",
+        "etunni/Arya/$VIRTUAL/google/fonts/ofl/arya/config.yaml Source/Arya-DEVA+LATIN-COPY.glyphs?103dc785f2 (default)",
+        "googlefonts/AmaticSC/sources/config.yaml AmaticSC.glyphs?308846136d (default)",
+        "googlefonts/Crimson/sources/config.yaml CrimsonText-Italic.glyphs?4f1458ae64 (default)",
+        "googlefonts/Crimson/sources/config.yaml CrimsonText.glyphs?4f1458ae64 (default)",
+        "googlefonts/TangerineFont/$VIRTUAL/google/fonts/ofl/tangerine/config.yaml sources/Tangerine_Regular.glyphs?9b57a9f9be (default)",
+        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Roman.glyphs?f4f60a57f5 (default)",
+        "googlefonts/birthstone-bounce/sources/config.yaml BirthstoneBounce.glyphs?db48de44b6 (default)",
+        "googlefonts/caladea/$VIRTUAL/google/fonts/ofl/caladea/config.yaml sources/glyphs/Caladea_Italics.glyphs?336a529cfa (default)",
+        "googlefonts/caladea/$VIRTUAL/google/fonts/ofl/caladea/config.yaml sources/glyphs/Caladea_Roman.glyphs?336a529cfa (default)",
+        "googlefonts/corinthia/sources/config.yml Corinthia.glyphs?9c81839655 (default)",
+        "googlefonts/coustardFont/sources/config.yaml Coustard.glyphs?84d4ef2fbb (default)",
+        "googlefonts/fuzzy-bubbles/sources/config.yml FuzzyBubbles.glyphs?16d63fbca1 (default)",
+        "googlefonts/gwendolyn/sources/config.yml GwendolynPro.glyphs?8ab228a0fd (default)",
+        "googlefonts/life-savers/sources/config.yaml LifeSavers.glyphs?76eb6d11fa (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (default)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (default)",
+        "googlefonts/qwitcher-grypen/sources/config.yml QwitcherGrypenPro.glyphs?cd12ed20d4 (default)",
+        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada-Italic.glyphs?df06a155d9 (default)",
+        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada.glyphs?df06a155d9 (default)",
+        "googlefonts/silkscreen/sources/config.yaml Silkscreen.glyphs?206ccf3f52 (default)",
+        "googlefonts/spacemono/sources/config.yaml SpaceMono-Italic.glyphs?329858c2c4 (default)",
+        "googlefonts/spacemono/sources/config.yaml SpaceMono.glyphs?329858c2c4 (default)",
+        "googlefonts/the-nautigal/sources/config.yml TheNautigalPro.glyphs?1d644f7cd7 (default)",
+        "googlefonts/windsong/sources/config.yml WindSongPro.glyphs?08da686e58 (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans-Italic.glyphs?030b9ac01f (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans.glyphs?030b9ac01f (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans-Italic.glyphs?e6d16c40fa (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans.glyphs?e6d16c40fa (default)",
+        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (default)",
+        "huertatipografica/sarala/$VIRTUAL/google/fonts/ofl/sarala/config.yaml Sarala.glyphs?7779e0c9eb (default)",
+        "huertatipografica/sura/$VIRTUAL/google/fonts/ofl/sura/config.yaml Sura.glyphs?d20d15fe0d (default)",
+        "impallari/CabinSketch/$VIRTUAL/google/fonts/ofl/cabinsketch/config.yaml sources/CabinSketch.glyphs?f74674fd7b (default)",
+        "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins Devanagari.glyphs?738d9d691b (default)",
+        "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins.glyphs?738d9d691b (default)",
+        "itfoundry/kalam/$VIRTUAL/google/fonts/ofl/kalam/config.yaml masters/Kalam.glyphs?03a4d8a338 (default)",
+        "kemie/Bellota-Font/$VIRTUAL/google/fonts/ofl/bellota/config.yaml src/Bellota.glyphs?db900d2710 (default)",
+        "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb-Italic.glyphs?f995ade617 (default)",
+        "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb.glyphs?f995ade617 (default)",
+        "meirsadan/david-libre/sources/config.yaml DavidLibre.glyphs?15496c1be7 (default)",
+        "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (default)",
+        "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (default)",
+        "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml source/AndikaItalic.designspace?ca568520c6 (default)",
+        "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml source/AndikaRoman.designspace?ca568520c6 (default)",
+        "silnrsi/font-annapurna/$VIRTUAL/google/fonts/ofl/annapurnasil/config.yaml source/AnnapurnaSIL-RB.designspace?5bd915dff1 (default)",
+        "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILItalic.designspace?258e532625 (default)",
+        "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILRoman.designspace?258e532625 (default)",
+        "smc/Gayathri/$VIRTUAL/google/fonts/ofl/gayathri/config.yaml sources/Gayathri.designspace?5ad0cb435b (default)",
+        "weiweihuanghuang/fragment-mono/$VIRTUAL/google/fonts/ofl/fragmentmono/config.yaml sources/Fragment-Mono.glyphs?3ff027831f (default)",
+        "weiweihuanghuang/fragment-mono/$VIRTUAL/google/fonts/ofl/fragmentmonosc/config.yaml sources/Fragment-Mono.glyphs?766d607030 (default)"
+      ]
+    }
+  ],
+  "Omnibus-Type/PragatiNarrow/$VIRTUAL/google/fonts/ofl/pragatinarrow/config.yaml SRC/PragatiNarrow.glyphs?829be323c4 (gftools)": [
+    {
+      "text": "static-only family: Google Fonts ships statics, but the config lacks buildVariable: false, so gftools builds a variable font from masters that were never interpolation-compatible; both compilers fail",
+      "also": [
+        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiri/config.yaml sources/Amiri.glyphspackage?04d40ee68c (gftools)",
+        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiriquran/config.yaml sources/Amiri.glyphspackage?480bb746e9 (gftools)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools)",
+        "cadsondemak/Srisakdi/$VIRTUAL/google/fonts/ofl/srisakdi/config.yaml source/Srisakdi.glyphs?fc86bd7fea (gftools)",
+        "cadsondemak/Thasadith/$VIRTUAL/google/fonts/ofl/thasadith/config.yaml source/Thasadith_Master.glyphs?033efaea8d (gftools)",
+        "googlefonts/AmaticSC/sources/config.yaml AmaticSC.glyphs?308846136d (gftools)",
+        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Roman.glyphs?f4f60a57f5 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools)",
+        "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins.glyphs?738d9d691b (gftools)",
+        "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumarone/config.yaml masters/Kumar One.glyphs?3192a79a79 (gftools)",
+        "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumaroneoutline/config.yaml masters/Kumar One.glyphs?3192a79a79 (gftools)",
+        "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb-Italic.glyphs?f995ade617 (gftools)",
+        "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb.glyphs?f995ade617 (gftools)",
+        "smc/Gayathri/$VIRTUAL/google/fonts/ofl/gayathri/config.yaml sources/Gayathri.designspace?5ad0cb435b (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/caladea/$VIRTUAL/google/fonts/ofl/caladea/config.yaml sources/glyphs/Caladea_Italics.glyphs?336a529cfa (gftools)": [
+    {
+      "text": "static-only family whose source sets 'Enforce Compatibility Check': gftools makes each static with `fontmake -i -o ufo` (on the fontc side too since gftools 0.10.3), and fontmake then runs its compatibility check on the incompatible masters, so both sides fail before compiling",
+      "also": [
+        "googlefonts/caladea/$VIRTUAL/google/fonts/ofl/caladea/config.yaml sources/glyphs/Caladea_Roman.glyphs?336a529cfa (gftools)"
+      ]
+    }
+  ],
+  "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Italic.glyphspackage?80a3341019 (default)": [
+    {
+      "text": "glyphsLib keeps a smart component as a plain component in masters where the part glyph has only one pole layer and decomposes it where it has several, so the glyph's contours and components differ across masters (Glyphs.app always decomposes); fontc ports the same fallback",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/907",
+      "also": [
+        "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Italic.glyphspackage?80a3341019 (gftools)",
+        "notofonts/oriya/$VIRTUAL/google/fonts/ofl/notosansoriyaui/config.yaml sources/NotoSansOriya.glyphs?1f6ceddd27 (default)"
+      ]
+    }
+  ],
+  "thundernixon/Libre-Caslon/$VIRTUAL/google/fonts/ofl/librecaslontext/config.yaml sources/LibreCaslonText.glyphs?52200a76d7 (default)": [
+    {
+      "text": "variable font whose masters disagree on ogonek (mark anchor _ogonekcurve in Regular, _ogonek in Bold; eogonek uses ogonek vs ogonek.curve): fontmake's compatibility check rejects it, and fontc rejects the anchor missing from the default master",
+      "also": [
+        "thundernixon/Libre-Caslon/$VIRTUAL/google/fonts/ofl/librecaslontext/config.yaml sources/LibreCaslonText.glyphs?52200a76d7 (gftools)"
+      ]
+    }
+  ],
+  "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (default)": [
+    {
+      "text": "the pinned m4rc1e/Ruda-new revision is a 2018 version 1.0 source whose Regular and Black masters differ in ~140 glyphs; it isn't the source of the shipped Ruda[wght] v2.001, so both compilers fail",
+      "also": [
+        "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (gftools)"
+      ]
+    }
+  ],
+  "mjlagattuta/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?4401d23f51 (default)": [
+    {
+      "text": "the pinned v1.100 source swaps designs with Glyphs 2 reverse bracket layers (]98], ]24]) on some masters, so the master layers on their own aren't interpolation-compatible and both compilers fail; the shipped v1.102 variable font came from the aaronbell/Hepta-Slab fork",
+      "also": [
+        "mjlagattuta/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?4401d23f51 (gftools)"
+      ]
+    }
+  ],
+  "EkType/Jaini/Source/jaini-purva.yaml JainiPurva.glyphs?4d2bcf9760 (default)": [
+    {
+      "text": "conflicting ligature rules (the same input sequence substituted twice in one lookup): feaLib >= 4.58.1 and fea-rs both reject them; older feaLib silently kept the last rule, which is what the shipped font contains",
+      "link": "https://github.com/fonttools/fonttools/pull/3835",
+      "also": [
+        "EkType/Jaini/Source/jaini-purva.yaml JainiPurva.glyphs?4d2bcf9760 (gftools)",
+        "EkType/Jaini/Source/jaini.yaml Jaini.glyphs?4d2bcf9760 (default)",
+        "EkType/Jaini/Source/jaini.yaml Jaini.glyphs?4d2bcf9760 (gftools)",
+        "etunni/Amita/sources/config.yaml Amita.glyphs?92680c07f0 (default)",
+        "etunni/Amita/sources/config.yaml Amita.glyphs?92680c07f0 (gftools)",
+        "googlefonts/gidugu/sources/config.yaml Gidugu-Regular.ufo?834c5de186 (default)",
+        "googlefonts/gidugu/sources/config.yaml Gidugu-Regular.ufo?834c5de186 (gftools)"
+      ]
+    }
+  ],
+  "slavonic/shafarik/sources/config.yaml Shafarik-Regular.ufo?e4045d59b2 (default)": [
+    {
+      "text": "conflicting ligature rules (`sub uni2C42 uni2C32` to uF040E, then to uF0411) that feaLib >= 4.58.1 and fea-rs both reject; fixed upstream in c9905f3, but google/fonts pins e4045d59 (pre-fix)",
+      "link": "https://github.com/slavonic/shafarik/issues/8",
+      "also": [
+        "slavonic/shafarik/sources/config.yaml Shafarik-Regular.ufo?e4045d59b2 (gftools)"
+      ]
+    }
+  ],
+  "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Bold Oblique/Cambay Devanagari-Bold Oblique.ufo?538b69cc50 (default)": [
+    {
+      "text": "the override config builds 2014 Glyphs.app UFO exports whose features still use nice names (la-deva) after the glyphs were renamed (ladeva), so both compilers reject unknown glyphs; the .glyphs file next to each UFO builds with both",
+      "also": [
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Bold Oblique/Cambay Devanagari-Bold Oblique.ufo?538b69cc50 (gftools)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Bold/Cambay Devanagari-Bold.ufo?538b69cc50 (default)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Bold/Cambay Devanagari-Bold.ufo?538b69cc50 (gftools)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Oblique/Cambay Devanagari-Oblique.ufo?538b69cc50 (default)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Oblique/Cambay Devanagari-Oblique.ufo?538b69cc50 (gftools)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Regular/Cambay Devanagari-Regular.ufo?538b69cc50 (default)",
+        "anexasajoop/cambay/$VIRTUAL/google/fonts/ofl/cambay/config.yaml Sources/Cambay Regular/Cambay Devanagari-Regular.ufo?538b69cc50 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/googlefontdirectory-hg/$VIRTUAL/google/fonts/ofl/leckerlione/config.yaml ofl/leckerlione/src/LeckerliOne-Regular.ufo?52f780bc9d (default)": [
+    {
+      "text": "FontLab-exported UFO whose features.fea uses FontLab kerning classes (@_kern_A_left, @_A, @_u_accents) that the FEA never defines (they're only in groups.plist, or renamed @MMK_* by vfb2ufo), so feaLib and fea-rs both reject them; the real source is FontLab",
+      "also": [
+        "googlefonts/googlefontdirectory-hg/$VIRTUAL/google/fonts/ofl/leckerlione/config.yaml ofl/leckerlione/src/LeckerliOne-Regular.ufo?52f780bc9d (gftools)",
+        "googlefonts/googlefontdirectory-hg/$VIRTUAL/google/fonts/ofl/snippet/config.yaml ofl/snippet/src/Snippet.ufo?52f780bc9d (default)",
+        "googlefonts/googlefontdirectory-hg/$VIRTUAL/google/fonts/ofl/snippet/config.yaml ofl/snippet/src/Snippet.ufo?52f780bc9d (gftools)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Bold.ufo?48ac6ba67e (default)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Bold.ufo?48ac6ba67e (gftools)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-BoldItalic.ufo?48ac6ba67e (default)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-BoldItalic.ufo?48ac6ba67e (gftools)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Italic.ufo?48ac6ba67e (default)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Italic.ufo?48ac6ba67e (gftools)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Regular.ufo?48ac6ba67e (default)",
+        "polarsys/b612/$VIRTUAL/google/fonts/ofl/b612/config.yaml sources/ufo/B612-Regular.ufo?48ac6ba67e (gftools)"
+      ]
+    }
+  ],
+  "marcelommp/Coiny/$VIRTUAL/google/fonts/ofl/coiny/config.yaml UFO/Coiny-Regular.ufo?0341b95f0c (default)": [
+    {
+      "text": "FontForge UFO export (the real source is the .sfd) whose features.fea has an invalid glyph reference `\\?` (`pos \\L <0 0 -20 0> \\? <0 0 -20 0>;`), which feaLib and fea-rs both reject",
+      "also": [
+        "marcelommp/Coiny/$VIRTUAL/google/fonts/ofl/coiny/config.yaml UFO/Coiny-Regular.ufo?0341b95f0c (gftools)"
+      ]
+    }
+  ],
+  "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace?071fc21f21 (default)": [
+    {
+      "text": "the UFOs' features.fea includes ./features/*.fea, which the repo's mastering/build_files.py copies next to the UFOs before building; crater doesn't run it, so both compilers fail on the missing includes",
+      "also": [
+        "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace?071fc21f21 (gftools)"
+      ]
+    }
+  ],
+  "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (default)": [
+    {
+      "text": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea; crater doesn't run it, so both compilers get the stale committed features.fea (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)",
+      "also": [
+        "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (gftools)",
+        "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (default)",
+        "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (gftools)",
+        "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable.designspace?56bcca3f2c (gftools)",
+        "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable_italic.designspace?56bcca3f2c (gftools)"
+      ]
+    }
+  ],
+  "rsms/inter-gf-tight/sources/config.yaml InterTight-Italic.glyphs?c194f94c60 (default)": [
+    {
+      "text": "the .glyphs feature code includes ../features/*.fea, which only resolved from the old glyphs2ufo master_ufo/ directory; fontmake and fontc resolve includes relative to the .glyphs file (sources/), where ../features doesn't exist",
+      "also": [
+        "rsms/inter-gf-tight/sources/config.yaml InterTight-Italic.glyphs?c194f94c60 (gftools)",
+        "rsms/inter-gf-tight/sources/config.yaml InterTight.glyphs?c194f94c60 (default)",
+        "rsms/inter-gf-tight/sources/config.yaml InterTight.glyphs?c194f94c60 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/zain/$VIRTUAL/google/fonts/ofl/zain/config.yaml Source/1-Drawings/Zain-Regular.glyphs?7c4a81812c (default)": [
+    {
+      "text": "the override config builds the drawing source Source/1-Drawings/Zain-Regular.glyphs, whose FEA uses an undefined lookup POS_2 (both compilers reject it); the repo's build.sh builds the zipped production UFOs in Source/2-Production instead",
+      "also": [
+        "googlefonts/zain/$VIRTUAL/google/fonts/ofl/zain/config.yaml Source/1-Drawings/Zain-Regular.glyphs?7c4a81812c (gftools)"
+      ]
+    }
+  ],
+  "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (default)": [
+    {
+      "text": "the ss05 note 'Name: Greek adscript iota\"' has a literal quote: fontc's glyphs-reader puts it unescaped in the featureNames record (glyphsLib escapes it as \\0022), and fontTools' FeatureNameStatement.asFea() drops that escape in ufo2ft's round-trip; both hit an unterminated string"
+    }
+  ],
+  "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (gftools)": [
+    {
+      "text": "the override config sets buildVariable: false although Google Fonts ships Alegreya as variable fonts, so fontc builds 5 statics and crater's gftools mode needs one output; fontmake fails first because fontTools' FeatureNameStatement.asFea() doesn't escape the '\"' in the ss05 name",
+      "also": [
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya_Italic.glyphs?1dd6b28b57 (gftools)"
+      ]
+    }
+  ],
+  "huertatipografica/sura/$VIRTUAL/google/fonts/ofl/sura/config.yaml Sura.glyphs?d20d15fe0d (gftools)": [
+    {
+      "text": "Glyphs.app-only FEA: the font disables nice names and its glyphs are named kadeva etc., but the manual classes and features use GlyphData nice names (k-deva); only Glyphs.app maps them, so feaLib and fea-rs both reject the unknown glyphs"
+    }
+  ],
+  "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (default)": [
+    {
+      "text": "fontc rejects 'fontmetrics' (5 paths in Regular, none in Bold) as interpolation-incompatible, where fontTools treats an empty non-default master as sparse; fontmake fails first on the stale automatic prefix repeating `languagesystem deva dflt` (feaLib errors, fea-rs warns)",
+      "link": "https://github.com/googlefonts/fontc/issues/185"
+    }
+  ],
+  "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools)": [
+    {
+      "text": "static-only family: fontc builds all 4 statics, which crater's gftools mode rejects (it needs one output); fontmake fails first because the stale automatic Languagesystems prefix repeats `languagesystem deva dflt`, which feaLib rejects and fea-rs only warns about",
+      "link": "https://github.com/googlefonts/fontc/issues/1073"
+    }
+  ],
+  "huertatipografica/sarala/$VIRTUAL/google/fonts/ofl/sarala/config.yaml Sarala.glyphs?7779e0c9eb (gftools)": [
+    {
+      "text": "static-only family: fontc builds both statics, which crater's gftools mode rejects (it needs one output); fontmake fails first because sh_r-deva and sh_la-deva.loclMAR mix paths with a component 'sha_comp' that doesn't exist (ufo2ft's decompose raises, fontc drops it with a warning)",
+      "link": "https://github.com/googlefonts/fontc/issues/1073"
+    }
+  ],
+  "notofonts/nyiakeng-puachue-hmong/$VIRTUAL/google/fonts/ofl/notoserifnyiakengpuachuehmong/config.yaml sources/NotoSerifNyiakengPuachueHmong.designspace?6f39c5843f (default)": [
+    {
+      "text": "every UFO's features.fea is just include(family.fea), and family.fea isn't in the repo at the pinned commit (the initial import), so both compilers fail on the missing include"
+    }
+  ],
+  "weiweihuanghuang/Work-Sans/sources/config.yaml WorkSans.glyphs?b35c810861 (default)": [
+    {
+      "text": "the features hard-code glyphsLib 5 bracket glyph names (cent.BRACKET.202, Adieresis.BRACKET.137); glyphsLib 6 and fontc name bracket alternates .BRACKET.varAltNN, so both compilers reject the unknown glyphs",
+      "also": [
+        "weiweihuanghuang/Work-Sans/sources/config.yaml WorkSans.glyphs?b35c810861 (gftools)"
+      ]
+    }
+  ],
+  "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas (Autosaved).glyphs?3bdb0ba164 (default)": [
+    {
+      "text": "numbered mark anchor _top_2 on wasla-ar, hamzaabove-ar and madda-ar: ufo2ft and fontc both reject it ('mark anchor cannot be numbered'); the config also lists the 'Rakkas (Autosaved).glyphs' autosave as a second source",
+      "also": [
+        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas (Autosaved).glyphs?3bdb0ba164 (gftools)",
+        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?3bdb0ba164 (default)",
+        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?3bdb0ba164 (gftools)"
+      ]
+    }
+  ],
+  "EkType/Anek/sources/AnekOdia/builder.yaml Masters/AnekOdia.designspace?34074c6b40 (default)": [
+    {
+      "text": "glyphsLib's eraseOpenCorners filter, which fontc ports, erases an open corner in some masters but not others, so the masters stop interpolating: cu2qu reports 'different number of segments', fontc 'interpolation-incompatible paths'",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/873",
+      "also": [
+        "EkType/Anek/sources/AnekOdia/builder.yaml Masters/AnekOdia.designspace?34074c6b40 (gftools)",
+        "Etcetera-Type-Co/Tourney/Sources/config.yaml Tourney-Italic.glyphs?643f1026ad (default)",
+        "Etcetera-Type-Co/Tourney/Sources/config.yaml Tourney-Italic.glyphs?643f1026ad (gftools)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya_Italic.glyphs?1dd6b28b57 (default)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (default)",
+        "hyper-type/hahmlet/sources/config.yaml Hahmlet.glyphs?1065411449 (default)",
+        "hyper-type/hahmlet/sources/config.yaml Hahmlet.glyphs?1065411449 (gftools)",
+        "itfoundry/hind-colombo/$VIRTUAL/google/fonts/ofl/hindcolombo/config.yaml masters/HindColombo.glyphs?3cf4e8b840 (default)",
+        "itfoundry/hind-colombo/$VIRTUAL/google/fonts/ofl/hindcolombo/config.yaml masters/HindColombo.glyphs?3cf4e8b840 (gftools)",
+        "kosmynkab/Brygada-1918/sources/config.yaml Brygada1918-Italic.glyphs?8325dc36ca (default)",
+        "kosmynkab/Brygada-1918/sources/config.yaml Brygada1918-Italic.glyphs?8325dc36ca (gftools)",
+        "ossobuffo/jura/sources/config.yaml Jura.glyphs?f9df75d92c (default)",
+        "ossobuffo/jura/sources/config.yaml Jura.glyphs?f9df75d92c (gftools)"
+      ]
+    }
+  ],
+  "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans-Italic.glyphs?030b9ac01f (default)": [
+    {
+      "text": "duplicate Glyphs 2 bracket layers: peso keeps a dated backup 'Bold [100] Nov 5 16, 16:11' next to 'Bold [100]' (the Italic also has two [100] layers on ampersand.sc), so glyphsLib makes peso.BRACKET.varAlt01 twice and fontc finds two outlines for one location",
+      "also": [
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans.glyphs?030b9ac01f (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans-Italic.glyphs?e6d16c40fa (default)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans.glyphs?e6d16c40fa (default)"
+      ]
+    }
+  ],
+  "cadsondemak/Krub/$VIRTUAL/google/fonts/ofl/krub/config.yaml source/Krub.glyphs?c568bc61bd (default)": [
+    {
+      "text": "Krub.glyphs defines Thai_Head_top twice, so glyphsLib fails with \"glyph named 'Thai_Head_top' already exists\"; fontc gets past it and fails on the incompatible masters instead"
+    }
+  ],
+  "googlefonts/sigmarone/$VIRTUAL/google/fonts/ofl/sigmar/config.yaml archive/Sigmar.glyphs?1fb4311d78 (default)": [
+    {
+      "text": "the google/fonts override config points at archive/Sigmar.glyphs, an old Glyphs 2 file that defines Ymacron.sc twice: glyphsLib raises 'already exists' and fontc hangs with jobs stuck pending; the live sources/Sigmar.glyphs builds with both compilers"
+    }
+  ],
+  "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (default)": [
+    {
+      "text": "126 brace layers are named like 'Rg {400, 100off}' (switched off with an 'off' suffix), and glyphsLib's brace-coordinate parser crashes on them (float(' 100off')); fontc skips them",
+      "also": [
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools)"
+      ]
+    }
+  ],
+  "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumarone/config.yaml masters/Kumar One.glyphs?3192a79a79 (default)": [
+    {
+      "text": "Kumar One.glyphs holds two co-located masters (Filled, Outlined) that the repo's hindkit build.py builds as two separate families; ttx_diff sees no axis range and runs fontmake -o ttf, which rejects two UFOs ('output_path requires a single input'), and fontc fails interpolating them"
+    }
+  ],
+  "cyrealtype/Rationale/$VIRTUAL/google/fonts/ofl/rationale/config.yaml sources/Rationale.glyphs?b12941da53 (gftools)": [
+    {
+      "text": "malformed .glyphs plist (a Glyphs 1 XML plist, or a syntax error) that neither glyphsLib nor fontc can read; gftools fails parsing it before either compiler runs",
+      "also": [
+        "googlefonts/TangerineFont/$VIRTUAL/google/fonts/ofl/tangerine/config.yaml sources/Tangerine_Bold.glyphs?9b57a9f9be (gftools)",
+        "itfoundry/hind-jalandhar/$VIRTUAL/google/fonts/ofl/hindjalandhar/config.yaml masters/HindJalandhar.glyphs?6d0af0d80b (gftools)",
+        "jmsole/noticiatext/$VIRTUAL/google/fonts/ofl/noticiatext/config.yaml source/NoticiaText-Bold.glyphs?bcc80c5a33 (gftools)",
+        "jmsole/noticiatext/$VIRTUAL/google/fonts/ofl/noticiatext/config.yaml source/NoticiaText-BoldItalic.glyphs?bcc80c5a33 (gftools)",
+        "jmsole/noticiatext/$VIRTUAL/google/fonts/ofl/noticiatext/config.yaml source/NoticiaText-Italic.glyphs?bcc80c5a33 (gftools)",
+        "jmsole/noticiatext/$VIRTUAL/google/fonts/ofl/noticiatext/config.yaml source/NoticiaText-Regular.glyphs?bcc80c5a33 (gftools)"
+      ]
+    }
+  ],
+  "EbenSorkin/Basic/$VIRTUAL/google/fonts/ofl/basic/config.yaml Basic-Regular.ufo?202e65ac93 (default)": [
+    {
+      "text": "Basic-Regular.ufo's contents.plist lists registered.glif, which isn't in the repo, so neither compiler can load the UFO",
+      "also": [
+        "EbenSorkin/Basic/$VIRTUAL/google/fonts/ofl/basic/config.yaml Basic-Regular.ufo?202e65ac93 (gftools)"
+      ]
+    }
+  ],
+  "enathu/pavanam/$VIRTUAL/google/fonts/ofl/pavanam/config.yaml source/Pavanam-Regular.ufo?c4ba933511 (default)": [
+    {
+      "text": "FontForge-exported UFO2 with off-curve points followed by a line point (quotesinglbase, quotedblbase, ae, s, ...), which ufo2ft ('expected 2 control points, found: 1') and norad both reject",
+      "also": [
+        "enathu/pavanam/$VIRTUAL/google/fonts/ofl/pavanam/config.yaml source/Pavanam-Regular.ufo?c4ba933511 (gftools)"
+      ]
+    }
+  ],
+  "etunni/Pathway-Variable-Font/sources/config.yaml PathwayExtreme.glyphs?4fa691f389 (default)": [
+    {
+      "text": "glyph 'a' has leftover smart-component axes with pole layers in the 8pt Thin master only; since glyphsLib 6.13 (and fontc's port) its components count as smart, and both compilers reject poles that exist in only some masters",
+      "link": "https://github.com/googlefonts/glyphsLib/pull/1177",
+      "also": [
+        "etunni/Pathway-Variable-Font/sources/config.yaml PathwayExtreme.glyphs?4fa691f389 (gftools)"
+      ]
+    }
+  ],
+  "fridamedrano/Kalnia-Glaze/sources/config.yaml KalniaGlaze.glyphs?3338853e09 (gftools)": [
+    {
+      "text": "the config's recipe runs paintcompiler, which fails for both compilers: since fontTools 4.62 VariableScalar no longer fills in partial locations, so paints.py's partial locations collide with the default ('Locations must be unique')",
+      "also": [
+        "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?09b2f79d68 (gftools)",
+        "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?3e0b1194c1 (gftools)"
+      ]
+    }
+  ],
+  "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Roman.glyphspackage?80a3341019 (default)": [
+    {
+      "text": "smart part _part.LC-baseline-stroke keeps dated backup layers with their pole mappings, so glyphsLib sees duplicate smart-component locations; fontc fails first on _part.LC-n-shoulder-top, whose layers have no pole for the later-added Thinning axis",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/927",
+      "also": [
+        "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Roman.glyphspackage?80a3341019 (gftools)"
+      ]
+    }
+  ],
+  "originaltype/kufam/$VIRTUAL/google/fonts/ofl/kufam/config.yaml sources/Kufam_Arabic_Latin_Roman_Master.glyphs?a2c0c9552f (default)": [
+    {
+      "text": "smart part _part.bar-ar has its right/left pole layers duplicated in a master, so glyphsLib sees duplicate smart-component locations; fontc fails first because _part.reh-ar's smart layers aren't interpolation-compatible",
+      "link": "https://github.com/googlefonts/glyphsLib/issues/927",
+      "also": [
+        "originaltype/kufam/$VIRTUAL/google/fonts/ofl/kufam/config.yaml sources/Kufam_Arabic_Latin_Roman_Master.glyphs?a2c0c9552f (gftools)",
+        "originaltype/kufam/$VIRTUAL/google/fonts/ofl/kufam/config.yaml sources/Kufam_Latin_Italic_Master.glyphs?a2c0c9552f (default)",
+        "originaltype/kufam/$VIRTUAL/google/fonts/ofl/kufam/config.yaml sources/Kufam_Latin_Italic_Master.glyphs?a2c0c9552f (gftools)"
+      ]
+    }
+  ],
+  "satsuyako/Hina-Mincho/$VIRTUAL/google/fonts/ofl/hinamincho/config.yaml sources/Hina-Mincho.glyphs?7642eb499c (default)": [
+    {
+      "text": "smart part _part.kanji.nabebuta's master layer has no pole for the later-added 'yoko' axis; glyphsLib raises KeyError 'yoko' and fontc 'unknown component axis', while Glyphs.app (the repo's build.py) exports it"
+    }
+  ],
+  "syakuzen/DelaGothic/$VIRTUAL/google/fonts/ofl/delagothicone/config.yaml Sources/DelaGothic.glyphs?da8b03e57a (default)": [
+    {
+      "text": "uni8679 sets smart part _part.mushi_hen to Width = -2147483648 (axis 0-100); glyphsLib extrapolates it to x = 4e9 and cu2qu fails, while Glyphs.app keeps the part at its minimum. fontc fails first, rejecting _part.higashi_tsukuri's incompatible smart layers though they get zero weight"
+    }
+  ],
+  "syakuzen/DelaGothic/$VIRTUAL/google/fonts/ofl/delagothicone/config.yaml Sources/DelaGothic.glyphs?da8b03e57a (gftools)": [
+    {
+      "text": "uni8679 sets smart part _part.mushi_hen to Width = -2147483648 (axis 0-100); glyphsLib extrapolates it to x = 4e9 in the instance UFO, so cu2qu fails in fontmake and fontc panics converting it to quadratic, while Glyphs.app keeps the part at its minimum"
+    }
+  ],
+  "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (gftools)": [
+    {
+      "text": "the Light instance is at weight 0, outside the masters (100-900); glyphsLib 6.16 bounds the axis at the masters, so fontmake -i writes no Light UFO and gftools' build step fails on the missing file for both compilers; the shipped Light static is extrapolated"
+    }
+  ],
+  "vernnobile/CodaFont/$VIRTUAL/google/fonts/ofl/coda/config.yaml coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo?41ce6c5246 (gftools)": [
+    {
+      "text": "the google/fonts override config points at coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo, an unfinished UFO: Gcommaaccent etc. use a missing commaaccentcomb (gftools' flattenComponents raises) and U+021A is mapped twice (fontc cmap error)"
+    }
+  ],
+  "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml source/DaiBannaSILItalic.designspace?dcf3e10a5a (default)": [
+    {
+      "text": "static-only family: the config names SIL's instance designspace, whose wght default (400, mapped to 450) has no master (only Light 300 and Bold 900); crater's default mode still builds a variable font from it, so both compilers fail with no default master",
+      "link": "https://github.com/googlefonts/fontc/issues/1073",
+      "also": [
+        "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml source/DaiBannaSILUpright.designspace?dcf3e10a5a (default)"
+      ]
+    }
+  ],
+  "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Italic/SourceSans3VF-Italic.designspace?272b22b02e (default)": [
+    {
+      "text": "fontmake's compatibility checker rejects masters whose anchor sets differ (sparse or duplicated anchors), which ufo2ft compiles fine; upstream never ran the checker and the VF builds with --no-check-compatibility",
+      "link": "https://github.com/googlefonts/fontc/issues/1288",
+      "also": [
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Italic/SourceSans3VF-Italic.designspace?272b22b02e (gftools)",
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Upright/SourceSans3VF-Upright.designspace?272b22b02e (default)",
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Upright/SourceSans3VF-Upright.designspace?272b22b02e (gftools)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderStatic-italics.designspace?1ece6a8bfe (default)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderStatic-italics.designspace?1ece6a8bfe (gftools)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderVF-italics.designspace?1ece6a8bfe (default)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderVF-italics.designspace?1ece6a8bfe (gftools)",
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Italic/FrauncesItalic.designspace?d6d3857836 (default)",
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Italic/FrauncesItalic.designspace?d6d3857836 (gftools)"
+      ]
+    },
+    {
+      "text": "fontc's per-master FEA merge rejects the sparse pole_1 master, whose features.fea only sets OS/2 values ('languagesystem statements differ from the default master'); ufo2ft compiles each master and varLib treats it as sparse",
+      "link": "https://github.com/googlefonts/fontc/issues/1552",
+      "also": [
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Italic/SourceSans3VF-Italic.designspace?272b22b02e (gftools)",
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Upright/SourceSans3VF-Upright.designspace?272b22b02e (default)",
+        "adobe-fonts/source-sans/$VIRTUAL/google/fonts/ofl/sourcesans3/config.yaml Upright/SourceSans3VF-Upright.designspace?272b22b02e (gftools)"
+      ]
+    }
+  ],
+  "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderStatic-italics.designspace?1ece6a8bfe (default)": [
+    {
+      "text": "norad rejects Newsreader72pt-Italic.ufo's kerning.plist because one pair's second side is an empty string (public.kern1.f -> ''), so fontc can't load the UFO; ufoLib loads it and ufo2ft ignores the pair",
+      "also": [
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderStatic-italics.designspace?1ece6a8bfe (gftools)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderVF-italics.designspace?1ece6a8bfe (default)",
+        "productiontype/NewsReader/$VIRTUAL/google/fonts/ofl/newsreader/config.yaml sources/NewsreaderVF-italics.designspace?1ece6a8bfe (gftools)"
+      ]
+    }
+  ],
+  "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Italic/FrauncesItalic.designspace?d6d3857836 (default)": [
+    {
+      "text": "norad can't parse the designspace: stray <labelname> elements sit between <axis> elements directly inside <axes>, which serde reports as 'duplicate field axis'; fontTools ignores them",
+      "also": [
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Italic/FrauncesItalic.designspace?d6d3857836 (gftools)",
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (default)",
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (gftools)"
+      ]
+    }
+  ],
+  "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (default)": [
+    {
+      "text": "gcircumflex and gmacron use different components in the 144pt Black masters (swapped order, spacing circumflex/macron instead of the combining marks), so the masters aren't interpolation-compatible; the shipped 2020 VF silently has no gvar for them",
+      "also": [
+        "undercasetype/Fraunces/$VIRTUAL/google/fonts/ofl/fraunces/config.yaml sources/Roman/Fraunces.designspace?d6d3857836 (gftools)"
+      ]
+    }
+  ],
+  "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?99e2d6ca17 (default)": [
+    {
+      "text": "at the refreshed pin the Italic masters aren't interpolation-compatible: 4 ligatures swap component order between Light and Bold Italic and numbersign_underscore_parenleft has a different point count; both compilers reject them",
+      "also": [
+        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?99e2d6ca17 (gftools)"
+      ]
+    }
+  ],
+  "silnrsi/font-lateef/$VIRTUAL/google/fonts/ofl/lateef/config.yaml source/lateef-edit.designspace?d682ea7cc0 (default)": [
+    {
+      "text": "the config names lateef-edit.designspace, a stale editing file whose masters (Lateef-Light.ufo, Lateef-Black.ufo) were renamed and no longer exist, so neither compiler can load it; SIL builds the shipped statics from lateef.designspace",
+      "also": [
+        "silnrsi/font-lateef/$VIRTUAL/google/fonts/ofl/lateef/config.yaml source/lateef-edit.designspace?d682ea7cc0 (gftools)"
+      ]
+    }
+  ],
+  "Etcetera-Type-Co/Anybody/Sources/config.yaml Anybody-Italic.glyphs?fe7b55cf9d (gftools)": [
+    {
+      "text": "upstream config uses the old gftools builder's `instances:` map (keyed by VF filename); the pinned gftools 0.10.3 defines `instances:` as a list of statics to cut from the VF, so its schema rejects the config ('Invalid configuration file') before either compiler runs",
+      "also": [
+        "Etcetera-Type-Co/Anybody/Sources/config.yaml Anybody.glyphs?fe7b55cf9d (gftools)",
+        "googlefonts/roboto-serif/sources/config.yml RobotoSerif-Italic.designspace?1ecc2513e8 (gftools)",
+        "googlefonts/roboto-serif/sources/config.yml RobotoSerif.designspace?1ecc2513e8 (gftools)",
+        "hyvyys/Tektur/sources/config.yaml UFO/Tektur.designspace?0313e9612e (gftools)"
+      ]
+    }
+  ],
+  "Fonthausen/CrimsonPro/sources/config.yaml CrimsonPro-Italic.glyphs?24e8f7bf59 (gftools)": [
+    {
+      "text": "Glyphs 2 source without an 'Axes' parameter: gftools names the VF from the default [wght, wdth] axes (X[wdth,wght].ttf) though fvar only has wght, so the config's stat entry for X[wght].ttf doesn't match and gftools-gen-stat fails on both sides",
+      "also": [
+        "Fonthausen/CrimsonPro/sources/config.yaml CrimsonPro.glyphs?24e8f7bf59 (gftools)",
+        "Gue3bara/El-Messiri/sources/config.yaml ElMessiri.glyphs?553b98d8e3 (gftools)",
+        "Gue3bara/Lemonada/sources/config.yaml Lemonada.glyphs?21a53a1760 (gftools)",
+        "cyrealtype/Podkova/sources/config.yaml Podkova.glyphs?e321080f4b (gftools)",
+        "googlefonts/changa-vf/sources/config.yaml Changa.glyphs?fb3207d4fe (gftools)"
+      ]
+    }
+  ],
+  "ijvanl/Amarna/sources/config.yaml Amarna.glyphspackage?22819bafba (gftools)": [
+    {
+      "text": "gftools' crater mode (--experimental-simple-output) forces splitItalic: false, so the VF is built as X[ital,wght].ttf, but the config's per-file stat only lists the split roman and italic names, so gftools-gen-stat fails on both sides",
+      "also": [
+        "mara-aa/elms-sans/sources/config.yaml ElmsSans.glyphs?bc5a52f349 (gftools)",
+        "supernotes/sn-pro/sources/config.yaml SNPro.glyphspackage?e025ac4755 (gftools)"
+      ]
+    }
+  ],
+  "NDISCOVER/Cinzel/$VIRTUAL/google/fonts/ofl/cinzeldecorative/config.yaml Glyphs Files/Cinzel_Decorative.glyphs?1c62abfb8d (gftools)": [
+    {
+      "text": "source directory name has a space (e.g. 'Glyphs Files/'); gftools' instantiateUfo step passes --instance-dir ninja-escaped but not shell-quoted, so `fontmake -i` gets a stray positional input and fails on both sides (static-only family, so it would still produce several outputs)",
+      "also": [
+        "NDISCOVER/Cinzel/$VIRTUAL/google/fonts/ofl/cinzeldecorative/config.yaml Glyphs Files/Cinzel_Regular.glyphs?1c62abfb8d (gftools)",
+        "typeoff/biryani/$VIRTUAL/google/fonts/ofl/biryani/config.yaml Source Files/Biryani 20150307.glyphs?6f7831d27b (gftools)",
+        "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (gftools)",
+        "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools)"
+      ]
+    }
+  ],
+  "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (gftools)": [
+    {
+      "text": "static-only Glyphs 2 family whose masters sit at width 5 while some instances leave width unset (100): splitInterpolable drops those instances, so the `fontmake -i` step both sides now share silently writes no UFO and the build fails 'instance_ufos/X.ufo.json not found'",
+      "also": [
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (gftools)",
+        "googlefonts/fuzzy-bubbles/sources/config.yml FuzzyBubbles.glyphs?16d63fbca1 (gftools)",
+        "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools)"
+      ]
+    }
+  ],
+  "cadsondemak/Krub/$VIRTUAL/google/fonts/ofl/krub/config.yaml source/Krub.glyphs?c568bc61bd (gftools)": [
+    {
+      "text": "the .glyphs source defines the same glyph name twice (Krub: Thai_Head_top; Sigmar's archive/ copy: Ymacron.sc), so glyphsLib raises KeyError while gftools lists the static instances, before either compiler runs",
+      "also": [
+        "googlefonts/sigmarone/$VIRTUAL/google/fonts/ofl/sigmar/config.yaml archive/Sigmar.glyphs?1fb4311d78 (gftools)"
+      ]
+    }
+  ],
+  "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans-Italic.glyphs?030b9ac01f (gftools)": [
+    {
+      "text": "glyph 'peso' has two 'Bold [100]' bracket layers (one a stale backup copy), so glyphsLib generates peso.BRACKET.varAlt01 twice and raises KeyError while gftools lists the static instances, before either compiler runs",
+      "also": [
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasans/config.yaml sources/Alegreya_Sans.glyphs?030b9ac01f (gftools)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans-Italic.glyphs?e6d16c40fa (gftools)",
+        "huertatipografica/Alegreya-Sans/$VIRTUAL/google/fonts/ofl/alegreyasanssc/config.yaml sources/Alegreya_Sans.glyphs?e6d16c40fa (gftools)"
+      ]
+    }
+  ],
+  "phoikoi/VT323/$VIRTUAL/google/fonts/ofl/vt323/config.yaml sources/VT323.glyphs?9bd4b3f698 (gftools)": [
+    {
+      "text": "smart component references an axis the smart glyph doesn't map (VT323: components say 'Pixel width' where one part defines 'Pixelwidth'; Hina Mincho: a master layer of _part.kanji.nabebuta has no 'yoko' pole), so glyphsLib raises KeyError while gftools lists the static instances",
+      "also": [
+        "satsuyako/Hina-Mincho/$VIRTUAL/google/fonts/ofl/hinamincho/config.yaml sources/Hina-Mincho.glyphs?7642eb499c (gftools)"
+      ]
+    }
+  ],
+  "SorkinType/Briem-Hand/sources/config.yaml BriemHand.glyphs?7b99184050 (gftools)": [
+    {
+      "text": "upstream config is a fontprimer-generated explicit recipe (61 targets) whose steps run `python3 -m fontprimer.guidelines`; fontprimer isn't in crater's venv, and the recipe would give 61 outputs anyway"
+    }
+  ],
+  "strichpunkt-design/Strichpunkt_Sans/sources/config.yaml StrichpunktSans.glyphs?9a24fe35f2 (gftools)": [
+    {
+      "text": "the config's recipe: adds postprocess steps to ../fonts/variable/StrichpunktSans[wdth,wght].ttf; crater's simple-output mode moves vfDir, so that key no longer matches an automatic target and becomes a new target with no source step ('First step must have a source key')"
+    }
+  ],
+  "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml source/CactusClassicalSerif-Regular.ufoz?a267f9f320 (gftools)": [
+    {
+      "text": "google/fonts override builds the raw committed .ufoz and skips the repo's fcp_ufo_process.py repair step, so fontmake fails on FontCreator export defects: meta dlng as a comma-separated string (Cactus) and '@\\BASE' class names in features.fea (Then Khung)",
+      "also": [
+        "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (gftools)"
+      ]
+    }
+  ],
+  "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (gftools)": [
+    {
+      "text": "gftools passes the config's extraFontmakeArgs ('--production-names') through to fontc, which rejects '--production-names' (it only has --no-production-names)"
+    }
+  ],
+  "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (gftools)": [
+    {
+      "text": "the AlegreyaSC instances' 'Rename Glyphs' swaps glyph data but not component references (quoteright.sc=quoteright leaves quoteright referencing itself), so fontmake fails 'cyclical component reference' on all 5 SC instances; static-only family anyway",
+      "link": "https://github.com/googlefonts/glyphsLib/pull/1164",
+      "also": [
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools)"
+      ]
+    }
+  ],
+  "kemie/Bellota-Font/$VIRTUAL/google/fonts/ofl/bellota/config.yaml src/Bellota.glyphs?db900d2710 (gftools)": [
+    {
+      "text": "static-only family: the italic instances carry a Glyphs Transformations filter with SlantCorrection, which ufo2ft's TransformationsFilter rejects ('unsupported keyword argument'), so fontmake fails; fontc ignores the filter, builds all 12 statics and fails the single-output check",
+      "also": [
+        "kemie/Bellota-Font/$VIRTUAL/google/fonts/ofl/bellotatext/config.yaml src/Bellota.glyphs?db900d2710 (gftools)"
+      ]
+    }
+  ],
+  "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (default)": [
+    {
+      "text": "source is a FontLab/FontForge/Superpolator file (.vfb/.sfd/.sp3) or a .zip archive that neither compiler reads; crater shouldn't make a target for it",
+      "also": [
+        "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (default)",
+        "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (gftools)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb?ffac6513dd (default)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb?ffac6513dd (gftools)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb?ffac6513dd (default)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb?ffac6513dd (gftools)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb?ffac6513dd (default)",
+        "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb?ffac6513dd (gftools)",
+        "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb?79d2ed54e7 (default)",
+        "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb?79d2ed54e7 (gftools)",
+        "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb?79d2ed54e7 (default)",
+        "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb?79d2ed54e7 (gftools)",
+        "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb?bb43144b50 (default)",
+        "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb?bb43144b50 (gftools)",
+        "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb?bb43144b50 (default)",
+        "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb?bb43144b50 (gftools)",
+        "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb?e32d050fbb (default)",
+        "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb?e32d050fbb (gftools)",
+        "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb?e32d050fbb (default)",
+        "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb?e32d050fbb (gftools)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb?0b03ab09ea (default)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb?0b03ab09ea (gftools)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb?0b03ab09ea (default)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb?0b03ab09ea (gftools)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb?0b03ab09ea (default)",
+        "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb?0b03ab09ea (gftools)",
+        "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb?db1c024077 (default)",
+        "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb?db1c024077 (gftools)",
+        "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb?db1c024077 (default)",
+        "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb?db1c024077 (gftools)",
+        "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip?f7127c4d24 (default)",
+        "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip?f7127c4d24 (gftools)",
+        "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip?4e73f5a9a0 (default)",
+        "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip?4e73f5a9a0 (gftools)"
+      ]
+    }
+  ],
+  "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (default)": [
+    {
+      "text": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds matching the five per-weight UFO/*/Khula-*.ufo, which fontmake builds but fontc rejects because a feature block is split across FEA include files",
+      "also": [
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (gftools)"
+      ]
+    }
+  ],
+  "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (default)": [
+    {
+      "text": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; the repo's src/NerkoOne-Regular.ufo is what upstream's build.sh compiles and both compilers build it, so the config should list the UFO",
+      "also": [
+        "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (gftools)"
+      ]
+    }
+  ],
+  "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (gftools)": [
+    {
+      "text": "gftools 0.10.3's crater path asks File.is_variable about the .sfd source and raises 'unsure how to determine if tiny5-Medium.sfd is variable'; behind that, the upstream recipe needs babelfont (SFD reader crashes) and writes ../fonts/ttf, not the output dir"
+    }
+  ],
+  "Lafontype/Gantari/sources/config.yaml Gantari-Italic.glyphs?363a3dd563 (default)": [
+    {
+      "text": "two exported glyphs claim one codepoint (e.g. dotlessi and idotless, U+0131); fontc and fontmake (ufo2ft >= 2.32) both reject it. The shipped font was built from this source by an older ufo2ft, which silently kept the first glyph; needs a source fix",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/739",
+      "also": [
+        "Lafontype/Gantari/sources/config.yaml Gantari-Italic.glyphs?363a3dd563 (gftools)",
+        "Lafontype/Gantari/sources/config.yaml Gantari.glyphs?363a3dd563 (default)",
+        "Lafontype/Gantari/sources/config.yaml Gantari.glyphs?363a3dd563 (gftools)",
+        "Omnibus-Type/Chivo/sources/config.yaml Chivo.glyphs?d98623c960 (default)",
+        "Omnibus-Type/Chivo/sources/config.yaml Chivo.glyphs?d98623c960 (gftools)",
+        "erinmclaughlin/BhuTuka-Extended-One/sources/builder.yaml BhuTukaExpandedOne-Regular.glyphs?ac2ad17bcd (default)",
+        "erinmclaughlin/BhuTuka-Extended-One/sources/builder.yaml BhuTukaExpandedOne-Regular.glyphs?ac2ad17bcd (gftools)",
+        "googlefonts/dosis-vf/sources/config.yaml Dosis.glyphs?3407d52f1d (default)",
+        "googlefonts/dosis-vf/sources/config.yaml Dosis.glyphs?3407d52f1d (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/Pacifico/sources/config.yaml Pacifico.glyphs?423e7cb2b0 (default)": [
+    {
+      "text": "the pinned commit is newer than the shipped binary and adds a second exported glyph for one codepoint (Pacifico Vdotbelow U+1E7F, Charis LtnSmAEgAlef.SngStory U+A7BB); fontc and fontmake (ufo2ft >= 2.32) both reject it",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/739",
+      "also": [
+        "googlefonts/Pacifico/sources/config.yaml Pacifico.glyphs?423e7cb2b0 (gftools)",
+        "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILItalic.designspace?258e532625 (gftools)",
+        "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILRoman.designspace?258e532625 (gftools)"
+      ]
+    }
+  ],
+  "appajid/gurajada/$VIRTUAL/google/fonts/ofl/gurajada/config.yaml Gurajada.ufo?47d49279bf (default)": [
+    {
+      "text": "the UFO is an export of a FontForge-built font that double-encodes a codepoint (Telugu Lla/LLa U+0C33, Coda uni021A/Tcommaaccent); FontForge silently kept one, but fontc and fontmake (ufo2ft >= 2.32) both reject it",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/739",
+      "also": [
+        "appajid/gurajada/$VIRTUAL/google/fonts/ofl/gurajada/config.yaml Gurajada.ufo?47d49279bf (gftools)",
+        "appajid/nats/$VIRTUAL/google/fonts/ofl/nats/config.yaml NATS.ufo?7e1486a729 (default)",
+        "appajid/nats/$VIRTUAL/google/fonts/ofl/nats/config.yaml NATS.ufo?7e1486a729 (gftools)",
+        "appajid/ntr/$VIRTUAL/google/fonts/ofl/ntr/config.yaml NTR.ufo?1268910cd8 (default)",
+        "appajid/ntr/$VIRTUAL/google/fonts/ofl/ntr/config.yaml NTR.ufo?1268910cd8 (gftools)",
+        "appajid/suravaram/$VIRTUAL/google/fonts/ofl/suravaram/config.yaml Suravaram.ufo?c8d4e86f6a (default)",
+        "appajid/suravaram/$VIRTUAL/google/fonts/ofl/suravaram/config.yaml Suravaram.ufo?c8d4e86f6a (gftools)",
+        "vernnobile/CodaFont/$VIRTUAL/google/fonts/ofl/coda/config.yaml coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo?41ce6c5246 (default)",
+        "vernnobile/CodaFont/$VIRTUAL/google/fonts/ofl/coda/config.yaml coda/in-progress/Regular/src/Coda.ufo?41ce6c5246 (default)",
+        "vernnobile/CodaFont/$VIRTUAL/google/fonts/ofl/coda/config.yaml coda/in-progress/Regular/src/Coda.ufo?41ce6c5246 (gftools)"
+      ]
+    }
+  ],
+  "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeecolor/config.yaml sources/2-build/Bungee_Color/Bungee_Color-Regular.ufo?bb29250eb0 (default)": [
+    {
+      "text": "the configured UFO/.glyphs feeds a makeotf or COLR build pipeline and double-encodes a codepoint (Bungee Idotaccent U+0069, Hind Vadodara U+0A81); the shipped font came from that pipeline, and fontc and fontmake (ufo2ft >= 2.32) both reject the duplicate",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/739",
+      "also": [
+        "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeecolor/config.yaml sources/2-build/Bungee_Color/Bungee_Color-Regular.ufo?bb29250eb0 (gftools)",
+        "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeespice/config.yaml sources/2-build/Bungee_Color/Bungee_Color-Regular.ufo?eb03cf69ad (default)",
+        "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeespice/config.yaml sources/2-build/Bungee_Color/Bungee_Color-Regular.ufo?eb03cf69ad (gftools)",
+        "itfoundry/hind-vadodara/$VIRTUAL/google/fonts/ofl/hindvadodara/config.yaml masters/HindVadodara.glyphs?d1972e4ebe (default)",
+        "itfoundry/hind-vadodara/$VIRTUAL/google/fonts/ofl/hindvadodara/config.yaml masters/HindVadodara.glyphs?d1972e4ebe (gftools)"
+      ]
+    }
+  ],
+  "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml source/CactusClassicalSerif-Regular.ufoz?a267f9f320 (default)": [
+    {
+      "text": "single zipped UFO: ttx_diff's source_is_variable() has no .ufoz case and falls back to variable, so default mode runs fontmake -o variable, which refuses a UFO ('Glyphs or designspace source required for variable font')",
+      "also": [
+        "MoonlitOwen/ChocolateSans/$VIRTUAL/google/fonts/ofl/chocolateclassicalsans/config.yaml source/ChocolateClassicalSans-Regular.ufoz?624ecb8064 (default)",
+        "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (default)"
+      ]
+    },
+    {
+      "text": "features.fea starts with a UTF-8 BOM (FontCreator export); ufoLib strips it when reading, but fontc passes it to fea-rs, which fails at 1:0 ('Unexpected token, expected global keyword')",
+      "also": [
+        "MoonlitOwen/ChocolateSans/$VIRTUAL/google/fonts/ofl/chocolateclassicalsans/config.yaml source/ChocolateClassicalSans-Regular.ufoz?624ecb8064 (default)",
+        "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (default)"
+      ]
+    },
+    {
+      "text": "the raw FontCreator .ufoz needs the repo's fcp_ufo_process.py, which the google/fonts override skips: Then Khung's FEA uses '@\\BASE'-style class names that feaLib and fea-rs reject, and Cactus's public.openTypeMeta dlng isn't a list of strings, which ufo2ft rejects",
+      "also": [
+        "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml source/UoqMunThenKhung-Regular.ufoz?cdf0805fd0 (default)"
+      ]
+    }
+  ],
+  "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlow/config.yaml sources/Barlow.glyphs?b4726ddf91 (default)": [
+    {
+      "text": "the SemiCondensed Regular/Italic instances' Axis Location (wdth 85 at design 400) contradicts the masters' (user = design), so the width map is non-monotonic (85→400, 300→300, 500→500) and fontTools rejects it; fontc first rejects a dated backup copy of the {53,400} brace layer in 'e'"
+    }
+  ],
+  "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlow/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)": [
+    {
+      "text": "the SemiCondensed Regular/Italic instances' Axis Location (wdth 85 at design 400) contradicts the masters' (user = design), so the width map is non-monotonic and fontTools rejects it when gftools instantiates the statics with fontmake, a step both compilers' builds share",
+      "also": [
+        "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlowcondensed/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)",
+        "jpt/barlow/$VIRTUAL/google/fonts/ofl/barlowsemicondensed/config.yaml sources/Barlow.glyphs?b4726ddf91 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansjp/config.yaml IBM-Plex-Sans-JP/sources/masters/IBM Plex Sans JP.glyphs?80fcb67650 (default)": [
+    {
+      "text": ".notdef is set not to export: ufo2ft re-adds it in every master with the 0xFFFF 'not participating' advance, the default master included, so varLib's HVAR fails ('Base master not found'); fontc panics ('GlyfFragment(.notdef) is not available')",
+      "also": [
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansjp/config.yaml IBM-Plex-Sans-JP/sources/masters/IBM Plex Sans JP.glyphs?80fcb67650 (gftools)"
+      ]
+    }
+  ],
+  "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (default)": [
+    {
+      "text": "the pinned source (newer than the shipped 2023 VF) has broken feature code: ss04's featureNames string has backslash-escaped quotes, and the @noexport class lists non-exported glyphs, which Glyphs.app drops but feaLib and fea-rs reject",
+      "also": [
+        "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (gftools)"
+      ]
+    },
+    {
+      "text": "a stray 8th 'Regular' instance at wght 200 redefines user 400 → 200; glyphsLib 6.16 then maps the Regular master to the interpolated 400, overwriting that point, but fontc only adds the default's point if new, keeps 400 → 200, and fails 'Missing mapping on Weight for default'",
+      "also": [
+        "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (gftools)"
+      ]
+    }
+  ],
+  "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins Devanagari.glyphs?738d9d691b (gftools)": [
+    {
+      "text": "static-only family (Google Fonts ships ITF's 18 statics), but the google/fonts config says buildVariable: true, so gftools builds a VF from Poppins Devanagari's upright and italic masters, which aren't interpolation-compatible; both compilers fail"
+    }
+  ],
+  "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabincondensed/config.yaml sources/Cabin.glyphs?9476ee6f54 (gftools)": [
+    {
+      "text": "Cabin.glyphs puts the normal width at design 0 and condensed at 100, so glyphsLib's wdth mapping decreases (75→100, 100→0); fontTools rejects it ('Invalid axis values ... 100, 0, 0') when gftools instantiates the statics with fontmake, a step both compilers' builds share"
+    }
+  ],
+  "docrepair-fonts/belanosima-fonts/sources/config.yaml Belanosima-Regular.designspace?b772e9b7c4 (default)": [
+    {
+      "text": "the designspace's axes don't describe its masters (wght 252..389 with one map point, onto the Bold master), so there is no usable default source; the repo's Makefile builds each master as a static (fontmake -m -o ttf), which neither crater mode does",
+      "also": [
+        "docrepair-fonts/belanosima-fonts/sources/config.yaml Belanosima-Regular.designspace?b772e9b7c4 (gftools)"
+      ]
+    }
+  ],
+  "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml source/DaiBannaSILItalic.designspace?dcf3e10a5a (gftools)": [
+    {
+      "text": "the designspace has only Light (300) and Bold (900) masters while the axis default maps to 450, so fontmake can't instantiate the statics ('no default master source') in the gftools step both compilers share; SIL builds them with its own smith pipeline",
+      "also": [
+        "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml source/DaiBannaSILUpright.designspace?dcf3e10a5a (gftools)"
       ]
     }
   ]
