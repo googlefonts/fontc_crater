@@ -3,4 +3,5 @@ venv/
 fontc/
 GITHUB_TOKEN
 results/CRATER.lock
+status/
 
