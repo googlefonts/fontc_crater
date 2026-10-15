@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "2750b521bd22ce141f12617194ab0e04cf5d12d5",
+  "fonts_repo_sha": "b7c8331cf620346575487ef8db0e2c729f014675",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -7772,7 +7772,7 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/googlesans",
-      "rev": "fce0e0668e22a324a021f1afb407b0ca155034ce",
+      "rev": "5c8f512c5fb42a7be099b951a7c097f96209c78e",
       "config": "sources/config.yaml"
     },
     {
