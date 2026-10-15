@@ -10,6 +10,58 @@
 	font-family: sans-serif;
 	}
 
+	#live_status {
+	width: fit-content;
+	margin-bottom: 1em;
+	padding: 0.4em 0.8em;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background: #f4f4f4;
+	font-size: 0.9em;
+	font-style: italic;
+	}
+
+	#live_status::before {
+	content: "●";
+	font-style: normal;
+	margin-right: 0.4em;
+	color: #888;
+	}
+
+	#live_status.running {
+	background: #fff5dc;
+	border-color: #efd28a;
+	}
+
+	#live_status.running::before {
+	color: #e69d00;
+	}
+
+	#live_status.ok {
+	background: #e9f5e9;
+	border-color: #b3d9b3;
+	}
+
+	#live_status.ok::before {
+	color: green;
+	}
+
+	#live_status.failed {
+	background: #fdeaea;
+	border-color: #efb3b3;
+	color: #a30000;
+	}
+
+	#live_status.failed::before {
+	color: red;
+	}
+
+	#live_status progress {
+	width: 10em;
+	margin-left: 0.5em;
+	vertical-align: middle;
+	}
+
 	#results {
 	table-layout: fixed;
 	width: 100%;
@@ -214,11 +266,119 @@
 	    }
 	});
 	</script>
+	<script>
+	// Live status of the current or most recent crater run.
+	//
+	// run.sh (in the fontc_crater repo) publishes status.json to the 'status'
+	// branch while it runs; #live_status's data-src is its url:
+	//
+	//   {"state": "running"|"finished", "started": <iso8601>, "updated": <iso8601>,
+	//    "finished": <iso8601>|null, "exit_code": <int>|null, "progress": <...>|null}
+	//
+	// where progress is the contents of crater's --progress-file: {"phase":
+	// "running", "done": n, "total": n} or {"phase": "skipped"}.
+
+	const STATUS_POLL_MS = 60 * 1000;
+	// run.sh republishes every minute and the CDN caches for five
+	const STATUS_STALE_MS = 15 * 60 * 1000;
+
+	// returns { status } or, if there's no status to show, { error }
+	async function fetchStatus(url) {
+	let response;
+	try {
+	response = await fetch(url, { cache: "no-store" });
+	} catch {
+	return { error: "couldn't reach GitHub to load crater's status" };
+	}
+	if (response.status === 404) {
+	return { error: "crater hasn't published a status yet" };
+	}
+	if (!response.ok) {
+	return { error: `couldn't load crater's status (HTTP ${response.status})` };
+	}
+	try {
+	return { status: await response.json() };
+	} catch {
+	return { error: "crater's status couldn't be read" };
+	}
+	}
+
+	function formatDuration(ms) {
+	const minutes = Math.max(0, Math.round(ms / 60000));
+	if (minutes < 60) return `${minutes} min`;
+	const hours = Math.floor(minutes / 60);
+	if (hours < 48) return `${hours}h ${minutes % 60}m`;
+	return `${Math.floor(hours / 24)} days`;
+	}
+
+	function since(isoDate) {
+	return `${formatDuration(Date.now() - Date.parse(isoDate))} ago`;
+	}
+
+	function describeStatus(status) {
+	const progress = status.progress;
+	if (status.state === "running") {
+	const quietFor = Date.now() - Date.parse(status.updated);
+	if (quietFor > STATUS_STALE_MS) {
+	    return {
+	        state: "failed",
+	        text: `crater looks stuck: started ${since(status.started)}, no update for ${formatDuration(quietFor)}`,
+	    };
+	}
+	const started = `crater is running, started ${since(status.started)}`;
+	if (progress?.phase === "running") {
+	    return { state: "running", text: `${started}: ${progress.done} of ${progress.total} targets`, progress };
+	}
+	return { state: "running", text: `${started}: preparing` };
+	}
+	const took = formatDuration(Date.parse(status.finished) - Date.parse(status.started));
+	if (status.exit_code !== 0) {
+	return {
+	    state: "failed",
+	    text: `last crater run failed ${since(status.finished)} (exit code ${status.exit_code}, after ${took})`,
+	};
+	}
+	if (progress?.phase === "skipped") {
+	return { state: "ok", text: `last crater run ${since(status.finished)} found nothing new to test` };
+	}
+	return { state: "ok", text: `last crater run finished ${since(status.finished)}, after ${took}` };
+	}
+
+	async function updateStatus() {
+	const container = document.getElementById("live_status");
+	const { status, error } = await fetchStatus(container.dataset.src);
+	const described = error ? { state: "unknown", text: error } : describeStatus(status);
+	container.hidden = false;
+	container.className = described.state;
+	container.title = error
+	? container.dataset.src
+	: `started ${status.started}, last update ${status.updated}`;
+	container.querySelector(".text").textContent = described.text;
+	const bar = container.querySelector("progress");
+	bar.hidden = !described.progress;
+	if (described.progress) {
+	bar.max = described.progress.total;
+	bar.value = described.progress.done;
+	}
+	}
+
+	document.addEventListener("DOMContentLoaded", function () {
+	if (document.getElementById("live_status")) {
+	updateStatus();
+	setInterval(updateStatus, STATUS_POLL_MS);
+	}
+	});
+	</script>
 	</head>
 	<body>
 	<h1>
 	fontc_crater
 	</h1>
+	<div id="live_status" hidden="" data-src=
+	"https://raw.githubusercontent.com/googlefonts/fontc_crater/refs/heads/status/status.json">
+	<span class="text">loading crater status</span><progress hidden=
+	""></progress>
+	</div>
 	<div id="explain">
 	Compiling all known Google Fonts that have sources with both
 	<a href="https://github.com/googlefonts/fontc">fontc</a> and
@@ -289,7 +449,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			737 results</a>
+			738 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -27690,7 +27850,7 @@
 			99.871 <span class="better">+0.000</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2026-10-09 1803 <span class=
 			"deemphasized">(40m13.95s)</span>
@@ -28269,6 +28429,44 @@
 			<a href=
 			"https://github.com/googlefonts/fontc/compare/1fbe2478...1b390b79/">
 			1b390b79</a>
+		</td>
+		<td class="identical">
+			2648
+		</td>
+		<td class="total">
+			3450
+		</td>
+		<td class="identical_perc">
+			76.8%
+		</td>
+		<td class="fontc_err">
+			42
+		</td>
+		<td class="fontmake_err">
+			64
+		</td>
+		<td class="both_err">
+			551
+		</td>
+		<td class="other_err">
+			7
+		</td>
+		<td class="diff_perc">
+			80.680
+		</td>
+		<td class="diff_perc_excl">
+			99.908
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2026-10-15 1703 <span class=
+			"deemphasized">(57m18.82s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/1b390b79...b3a5b68a/">
+			b3a5b68a</a>
 		</td>
 		<td class="identical">
 			2648
