@@ -18,6 +18,7 @@
       "diff_perc_including_failures": 68.696434,
       "diff_perc_excluding_failures": 85.67007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -40,6 +41,7 @@
       "diff_perc_including_failures": 71.35411,
       "diff_perc_excluding_failures": 85.332054
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -62,6 +64,7 @@
       "diff_perc_including_failures": 71.97932,
       "diff_perc_excluding_failures": 85.28417
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -84,6 +87,7 @@
       "diff_perc_including_failures": 73.85829,
       "diff_perc_excluding_failures": 85.149574
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -106,6 +110,7 @@
       "diff_perc_including_failures": 74.24816,
       "diff_perc_excluding_failures": 86.87446
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -128,6 +133,7 @@
       "diff_perc_including_failures": 74.3115,
       "diff_perc_excluding_failures": 87.1096
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -150,6 +156,7 @@
       "diff_perc_including_failures": 75.01422,
       "diff_perc_excluding_failures": 87.12661
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -172,6 +179,7 @@
       "diff_perc_including_failures": 74.30917,
       "diff_perc_excluding_failures": 87.106865
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -194,6 +202,7 @@
       "diff_perc_including_failures": 74.975296,
       "diff_perc_excluding_failures": 87.5634
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -216,6 +225,7 @@
       "diff_perc_including_failures": 75.589485,
       "diff_perc_excluding_failures": 87.633965
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -238,6 +248,7 @@
       "diff_perc_including_failures": 76.78913,
       "diff_perc_excluding_failures": 89.35206
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -260,6 +271,7 @@
       "diff_perc_including_failures": 77.08404,
       "diff_perc_excluding_failures": 89.36666
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -282,6 +294,7 @@
       "diff_perc_including_failures": 77.21559,
       "diff_perc_excluding_failures": 89.35552
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -304,6 +317,7 @@
       "diff_perc_including_failures": 77.07435,
       "diff_perc_excluding_failures": 89.35542
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -326,6 +340,7 @@
       "diff_perc_including_failures": 76.45369,
       "diff_perc_excluding_failures": 89.29001
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -348,6 +363,7 @@
       "diff_perc_including_failures": 77.265045,
       "diff_perc_excluding_failures": 89.41276
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -370,6 +386,7 @@
       "diff_perc_including_failures": 77.12335,
       "diff_perc_excluding_failures": 89.41224
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -392,6 +409,7 @@
       "diff_perc_including_failures": 77.11611,
       "diff_perc_excluding_failures": 89.40385
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -414,6 +432,7 @@
       "diff_perc_including_failures": 79.82218,
       "diff_perc_excluding_failures": 93.052376
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -436,6 +455,7 @@
       "diff_perc_including_failures": 79.27738,
       "diff_perc_excluding_failures": 92.58778
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -458,6 +478,7 @@
       "diff_perc_including_failures": 79.27948,
       "diff_perc_excluding_failures": 92.59025
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -480,6 +501,7 @@
       "diff_perc_including_failures": 81.15715,
       "diff_perc_excluding_failures": 94.60862
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -502,6 +524,7 @@
       "diff_perc_including_failures": 81.68101,
       "diff_perc_excluding_failures": 95.925934
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -524,6 +547,7 @@
       "diff_perc_including_failures": 83.05261,
       "diff_perc_excluding_failures": 95.76012
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -546,6 +570,7 @@
       "diff_perc_including_failures": 84.138855,
       "diff_perc_excluding_failures": 95.791176
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -568,6 +593,7 @@
       "diff_perc_including_failures": 82.017494,
       "diff_perc_excluding_failures": 93.20838
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -590,6 +616,7 @@
       "diff_perc_including_failures": 82.0094,
       "diff_perc_excluding_failures": 93.199196
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -612,6 +639,7 @@
       "diff_perc_including_failures": 82.0424,
       "diff_perc_excluding_failures": 93.236694
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -634,6 +662,7 @@
       "diff_perc_including_failures": 85.50629,
       "diff_perc_excluding_failures": 97.347984
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -656,6 +685,7 @@
       "diff_perc_including_failures": 85.81975,
       "diff_perc_excluding_failures": 97.35466
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -678,6 +708,7 @@
       "diff_perc_including_failures": 84.89678,
       "diff_perc_excluding_failures": 97.35447
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -700,6 +731,7 @@
       "diff_perc_including_failures": 85.51112,
       "diff_perc_excluding_failures": 97.353485
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -722,6 +754,7 @@
       "diff_perc_including_failures": 85.82398,
       "diff_perc_excluding_failures": 97.35947
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -744,6 +777,7 @@
       "diff_perc_including_failures": 85.841545,
       "diff_perc_excluding_failures": 97.37938
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -766,6 +800,7 @@
       "diff_perc_including_failures": 85.21117,
       "diff_perc_excluding_failures": 97.36221
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -788,6 +823,7 @@
       "diff_perc_including_failures": 85.0536,
       "diff_perc_excluding_failures": 97.35792
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -810,6 +846,7 @@
       "diff_perc_including_failures": 85.1178,
       "diff_perc_excluding_failures": 97.431404
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -832,6 +869,7 @@
       "diff_perc_including_failures": 85.68869,
       "diff_perc_excluding_failures": 97.38051
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -854,6 +892,7 @@
       "diff_perc_including_failures": 85.71997,
       "diff_perc_excluding_failures": 97.59126
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -876,6 +915,7 @@
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -898,6 +938,7 @@
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -920,6 +961,7 @@
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -942,6 +984,7 @@
       "diff_perc_including_failures": 86.03571,
       "diff_perc_excluding_failures": 97.599655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -964,6 +1007,7 @@
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -986,6 +1030,7 @@
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1008,6 +1053,7 @@
       "diff_perc_including_failures": 85.949066,
       "diff_perc_excluding_failures": 97.501366
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1030,6 +1076,7 @@
       "diff_perc_including_failures": 85.64191,
       "diff_perc_excluding_failures": 97.50239
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1052,6 +1099,7 @@
       "diff_perc_including_failures": 86.06148,
       "diff_perc_excluding_failures": 97.45423
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1074,6 +1122,7 @@
       "diff_perc_including_failures": 86.21484,
       "diff_perc_excluding_failures": 97.45357
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1096,6 +1145,7 @@
       "diff_perc_including_failures": 86.53694,
       "diff_perc_excluding_failures": 97.53992
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1118,6 +1168,7 @@
       "diff_perc_including_failures": 85.87022,
       "diff_perc_excluding_failures": 97.501465
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1140,6 +1191,7 @@
       "diff_perc_including_failures": 85.87024,
       "diff_perc_excluding_failures": 97.501495
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1162,6 +1214,7 @@
       "diff_perc_including_failures": 74.59815,
       "diff_perc_excluding_failures": 92.14119
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1184,6 +1237,7 @@
       "diff_perc_including_failures": 74.530914,
       "diff_perc_excluding_failures": 92.15756
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1206,6 +1260,7 @@
       "diff_perc_including_failures": 74.35643,
       "diff_perc_excluding_failures": 92.14081
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1228,6 +1283,7 @@
       "diff_perc_including_failures": 74.37116,
       "diff_perc_excluding_failures": 92.159065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1250,6 +1306,7 @@
       "diff_perc_including_failures": 74.508965,
       "diff_perc_excluding_failures": 92.23002
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1272,6 +1329,7 @@
       "diff_perc_including_failures": 74.5466,
       "diff_perc_excluding_failures": 92.17695
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1294,6 +1352,7 @@
       "diff_perc_including_failures": 74.63061,
       "diff_perc_excluding_failures": 92.181274
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1316,6 +1375,7 @@
       "diff_perc_including_failures": 74.70221,
       "diff_perc_excluding_failures": 92.17029
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1338,6 +1398,7 @@
       "diff_perc_including_failures": 70.70968,
       "diff_perc_excluding_failures": 88.0028
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1360,6 +1421,7 @@
       "diff_perc_including_failures": 70.70968,
       "diff_perc_excluding_failures": 88.0028
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1382,6 +1444,7 @@
       "diff_perc_including_failures": 70.703735,
       "diff_perc_excluding_failures": 87.995415
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1404,6 +1467,7 @@
       "diff_perc_including_failures": 78.184875,
       "diff_perc_excluding_failures": 97.20052
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1426,6 +1490,7 @@
       "diff_perc_including_failures": 78.10335,
       "diff_perc_excluding_failures": 97.20471
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1448,6 +1513,7 @@
       "diff_perc_including_failures": 78.18411,
       "diff_perc_excluding_failures": 97.19958
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1470,6 +1536,7 @@
       "diff_perc_including_failures": 77.952866,
       "diff_perc_excluding_failures": 96.80697
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1492,6 +1559,7 @@
       "diff_perc_including_failures": 78.26557,
       "diff_perc_excluding_failures": 97.19531
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1514,6 +1582,7 @@
       "diff_perc_including_failures": 78.26578,
       "diff_perc_excluding_failures": 97.195564
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1536,6 +1605,7 @@
       "diff_perc_including_failures": 78.26811,
       "diff_perc_excluding_failures": 97.19847
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1558,6 +1628,7 @@
       "diff_perc_including_failures": 78.26178,
       "diff_perc_excluding_failures": 97.190605
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1580,6 +1651,7 @@
       "diff_perc_including_failures": 78.26338,
       "diff_perc_excluding_failures": 97.1926
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1602,6 +1674,7 @@
       "diff_perc_including_failures": 78.26486,
       "diff_perc_excluding_failures": 97.194435
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1624,6 +1697,7 @@
       "diff_perc_including_failures": 78.264145,
       "diff_perc_excluding_failures": 97.19354
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1646,6 +1720,7 @@
       "diff_perc_including_failures": 78.265495,
       "diff_perc_excluding_failures": 97.19521
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1668,6 +1743,7 @@
       "diff_perc_including_failures": 78.26641,
       "diff_perc_excluding_failures": 97.19635
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1690,6 +1766,7 @@
       "diff_perc_including_failures": 78.26656,
       "diff_perc_excluding_failures": 97.19654
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1712,6 +1789,7 @@
       "diff_perc_including_failures": 78.437164,
       "diff_perc_excluding_failures": 97.19757
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1734,6 +1812,7 @@
       "diff_perc_including_failures": 78.264084,
       "diff_perc_excluding_failures": 97.19347
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1756,6 +1835,7 @@
       "diff_perc_including_failures": 78.35346,
       "diff_perc_excluding_failures": 97.19904
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1778,6 +1858,7 @@
       "diff_perc_including_failures": 78.43989,
       "diff_perc_excluding_failures": 97.20094
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1800,6 +1881,7 @@
       "diff_perc_including_failures": 78.3532,
       "diff_perc_excluding_failures": 97.198715
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1822,6 +1904,7 @@
       "diff_perc_including_failures": 78.43365,
       "diff_perc_excluding_failures": 97.298515
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1844,6 +1927,7 @@
       "diff_perc_including_failures": 78.43339,
       "diff_perc_excluding_failures": 97.298195
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1866,6 +1950,7 @@
       "diff_perc_including_failures": 78.34698,
       "diff_perc_excluding_failures": 97.2964
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1888,6 +1973,7 @@
       "diff_perc_including_failures": 78.532425,
       "diff_perc_excluding_failures": 97.31561
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1910,6 +1996,7 @@
       "diff_perc_including_failures": 78.533875,
       "diff_perc_excluding_failures": 97.31741
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1932,6 +2019,7 @@
       "diff_perc_including_failures": 78.53406,
       "diff_perc_excluding_failures": 97.31764
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1954,6 +2042,7 @@
       "diff_perc_including_failures": 78.53768,
       "diff_perc_excluding_failures": 97.32213
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1976,6 +2065,7 @@
       "diff_perc_including_failures": 78.53845,
       "diff_perc_excluding_failures": 97.32308
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -1998,6 +2088,7 @@
       "diff_perc_including_failures": 78.53901,
       "diff_perc_excluding_failures": 97.32378
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2020,6 +2111,7 @@
       "diff_perc_including_failures": 78.53929,
       "diff_perc_excluding_failures": 97.32412
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2042,6 +2134,7 @@
       "diff_perc_including_failures": 78.53931,
       "diff_perc_excluding_failures": 97.32414
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2064,6 +2157,7 @@
       "diff_perc_including_failures": 78.53933,
       "diff_perc_excluding_failures": 97.324165
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2086,6 +2180,7 @@
       "diff_perc_including_failures": 78.547134,
       "diff_perc_excluding_failures": 97.33384
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2108,6 +2203,7 @@
       "diff_perc_including_failures": 78.45981,
       "diff_perc_excluding_failures": 97.33097
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2130,6 +2226,7 @@
       "diff_perc_including_failures": 78.547134,
       "diff_perc_excluding_failures": 97.33384
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2152,6 +2249,7 @@
       "diff_perc_including_failures": 78.37248,
       "diff_perc_excluding_failures": 97.32808
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2174,6 +2272,7 @@
       "diff_perc_including_failures": 78.547165,
       "diff_perc_excluding_failures": 97.33388
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2196,6 +2295,7 @@
       "diff_perc_including_failures": 78.54726,
       "diff_perc_excluding_failures": 97.33399
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2218,6 +2318,7 @@
       "diff_perc_including_failures": 78.547264,
       "diff_perc_excluding_failures": 97.334
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2240,6 +2341,7 @@
       "diff_perc_including_failures": 78.54737,
       "diff_perc_excluding_failures": 97.33413
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2262,6 +2364,7 @@
       "diff_perc_including_failures": 78.547585,
       "diff_perc_excluding_failures": 97.334404
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2284,6 +2387,7 @@
       "diff_perc_including_failures": 78.553925,
       "diff_perc_excluding_failures": 97.34225
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2306,6 +2410,7 @@
       "diff_perc_including_failures": 78.55403,
       "diff_perc_excluding_failures": 97.34239
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2328,6 +2433,7 @@
       "diff_perc_including_failures": 78.51669,
       "diff_perc_excluding_failures": 97.320045
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2350,6 +2456,7 @@
       "diff_perc_including_failures": 78.516685,
       "diff_perc_excluding_failures": 97.32004
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2372,6 +2479,7 @@
       "diff_perc_including_failures": 78.531654,
       "diff_perc_excluding_failures": 97.338585
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2394,6 +2502,7 @@
       "diff_perc_including_failures": 78.53166,
       "diff_perc_excluding_failures": 97.33859
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2416,6 +2525,7 @@
       "diff_perc_including_failures": 78.53095,
       "diff_perc_excluding_failures": 97.33772
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2438,6 +2548,7 @@
       "diff_perc_including_failures": 78.444084,
       "diff_perc_excluding_failures": 97.33505
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2460,6 +2571,7 @@
       "diff_perc_including_failures": 78.53674,
       "diff_perc_excluding_failures": 97.344894
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2482,6 +2594,7 @@
       "diff_perc_including_failures": 78.53679,
       "diff_perc_excluding_failures": 97.344955
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2504,6 +2617,7 @@
       "diff_perc_including_failures": 78.53981,
       "diff_perc_excluding_failures": 97.348694
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2526,6 +2640,7 @@
       "diff_perc_including_failures": 78.45312,
       "diff_perc_excluding_failures": 97.34626
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2548,6 +2663,7 @@
       "diff_perc_including_failures": 78.6274,
       "diff_perc_excluding_failures": 97.45727
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2570,6 +2686,7 @@
       "diff_perc_including_failures": 79.566536,
       "diff_perc_excluding_failures": 97.46477
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2592,6 +2709,7 @@
       "diff_perc_including_failures": 79.57253,
       "diff_perc_excluding_failures": 97.47211
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2614,6 +2732,7 @@
       "diff_perc_including_failures": 79.69185,
       "diff_perc_excluding_failures": 97.61827
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2636,6 +2755,7 @@
       "diff_perc_including_failures": 79.62581,
       "diff_perc_excluding_failures": 97.641464
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2658,6 +2778,7 @@
       "diff_perc_including_failures": 79.70985,
       "diff_perc_excluding_failures": 97.64031
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2680,6 +2801,7 @@
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2702,6 +2824,7 @@
       "diff_perc_including_failures": 79.78152,
       "diff_perc_excluding_failures": 97.62403
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2724,6 +2847,7 @@
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2746,6 +2870,7 @@
       "diff_perc_including_failures": 79.71486,
       "diff_perc_excluding_failures": 97.646454
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2768,6 +2893,7 @@
       "diff_perc_including_failures": 79.864586,
       "diff_perc_excluding_failures": 97.62171
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2790,6 +2916,7 @@
       "diff_perc_including_failures": 79.86496,
       "diff_perc_excluding_failures": 97.62217
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2812,6 +2939,7 @@
       "diff_perc_including_failures": 79.77917,
       "diff_perc_excluding_failures": 97.62115
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2834,6 +2962,7 @@
       "diff_perc_including_failures": 79.86496,
       "diff_perc_excluding_failures": 97.62217
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2856,6 +2985,7 @@
       "diff_perc_including_failures": 79.79892,
       "diff_perc_excluding_failures": 97.645325
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2878,6 +3008,7 @@
       "diff_perc_including_failures": 79.77917,
       "diff_perc_excluding_failures": 97.62115
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2900,6 +3031,7 @@
       "diff_perc_including_failures": 79.87372,
       "diff_perc_excluding_failures": 97.63287
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2922,6 +3054,7 @@
       "diff_perc_including_failures": 79.90073,
       "diff_perc_excluding_failures": 97.66589
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2944,6 +3077,7 @@
       "diff_perc_including_failures": 79.922066,
       "diff_perc_excluding_failures": 97.69198
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2966,6 +3100,7 @@
       "diff_perc_including_failures": 80.02818,
       "diff_perc_excluding_failures": 97.821686
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -2988,6 +3123,7 @@
       "diff_perc_including_failures": 80.02833,
       "diff_perc_excluding_failures": 97.82186
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3010,6 +3146,7 @@
       "diff_perc_including_failures": 80.0341,
       "diff_perc_excluding_failures": 97.828926
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3032,6 +3169,7 @@
       "diff_perc_including_failures": 80.03416,
       "diff_perc_excluding_failures": 97.82899
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3054,6 +3192,7 @@
       "diff_perc_including_failures": 80.035515,
       "diff_perc_excluding_failures": 97.83064
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3076,6 +3215,7 @@
       "diff_perc_including_failures": 80.03658,
       "diff_perc_excluding_failures": 97.831955
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3098,6 +3238,7 @@
       "diff_perc_including_failures": 80.03666,
       "diff_perc_excluding_failures": 97.83204
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3120,6 +3261,7 @@
       "diff_perc_including_failures": 80.03963,
       "diff_perc_excluding_failures": 97.83566
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3142,6 +3284,7 @@
       "diff_perc_including_failures": 80.03972,
       "diff_perc_excluding_failures": 97.83578
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3164,6 +3307,7 @@
       "diff_perc_including_failures": 80.0397,
       "diff_perc_excluding_failures": 97.83577
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3186,6 +3330,7 @@
       "diff_perc_including_failures": 80.108955,
       "diff_perc_excluding_failures": 97.84493
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3208,6 +3353,7 @@
       "diff_perc_including_failures": 80.14705,
       "diff_perc_excluding_failures": 97.89147
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3230,6 +3376,7 @@
       "diff_perc_including_failures": 78.31393,
       "diff_perc_excluding_failures": 97.35245
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3252,6 +3399,7 @@
       "diff_perc_including_failures": 78.47656,
       "diff_perc_excluding_failures": 97.35574
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3274,6 +3422,7 @@
       "diff_perc_including_failures": 79.29819,
       "diff_perc_excluding_failures": 97.38234
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3296,6 +3445,7 @@
       "diff_perc_including_failures": 79.16002,
       "diff_perc_excluding_failures": 97.31086
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3318,6 +3468,7 @@
       "diff_perc_including_failures": 79.44879,
       "diff_perc_excluding_failures": 97.27281
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3340,6 +3491,7 @@
       "diff_perc_including_failures": 79.45732,
       "diff_perc_excluding_failures": 97.283264
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3362,6 +3514,7 @@
       "diff_perc_including_failures": 79.3788,
       "diff_perc_excluding_failures": 97.28499
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3384,6 +3537,7 @@
       "diff_perc_including_failures": 79.457344,
       "diff_perc_excluding_failures": 97.28329
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3406,6 +3560,7 @@
       "diff_perc_including_failures": 79.45863,
       "diff_perc_excluding_failures": 97.28487
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3428,6 +3583,7 @@
       "diff_perc_including_failures": 79.56581,
       "diff_perc_excluding_failures": 97.41609
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3450,6 +3606,7 @@
       "diff_perc_including_failures": 79.59672,
       "diff_perc_excluding_failures": 97.41806
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3472,6 +3629,7 @@
       "diff_perc_including_failures": 79.56637,
       "diff_perc_excluding_failures": 97.4788
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3494,6 +3652,7 @@
       "diff_perc_including_failures": 79.86975,
       "diff_perc_excluding_failures": 97.514496
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3516,6 +3675,7 @@
       "diff_perc_including_failures": 79.789696,
       "diff_perc_excluding_failures": 97.51207
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3538,6 +3698,7 @@
       "diff_perc_including_failures": 79.89937,
       "diff_perc_excluding_failures": 97.45539
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3560,6 +3721,7 @@
       "diff_perc_including_failures": 79.8994,
       "diff_perc_excluding_failures": 97.45542
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3582,6 +3744,7 @@
       "diff_perc_including_failures": 80.02144,
       "diff_perc_excluding_failures": 97.46501
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3604,6 +3767,7 @@
       "diff_perc_including_failures": 79.85996,
       "diff_perc_excluding_failures": 97.495384
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3626,6 +3790,7 @@
       "diff_perc_including_failures": 79.86737,
       "diff_perc_excluding_failures": 97.504425
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3648,6 +3813,7 @@
       "diff_perc_including_failures": 79.86741,
       "diff_perc_excluding_failures": 97.50447
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3670,6 +3836,7 @@
       "diff_perc_including_failures": 79.86752,
       "diff_perc_excluding_failures": 97.504616
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3692,6 +3859,7 @@
       "diff_perc_including_failures": 79.867516,
       "diff_perc_excluding_failures": 97.50461
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3714,6 +3882,7 @@
       "diff_perc_including_failures": 79.604485,
       "diff_perc_excluding_failures": 97.18349
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3736,6 +3905,7 @@
       "diff_perc_including_failures": 79.8673,
       "diff_perc_excluding_failures": 97.50435
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3758,6 +3928,7 @@
       "diff_perc_including_failures": 79.882225,
       "diff_perc_excluding_failures": 97.52256
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3780,6 +3951,7 @@
       "diff_perc_including_failures": 80.19817,
       "diff_perc_excluding_failures": 97.532074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3802,6 +3974,7 @@
       "diff_perc_including_failures": 80.19818,
       "diff_perc_excluding_failures": 97.53208
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3824,6 +3997,7 @@
       "diff_perc_including_failures": 80.19817,
       "diff_perc_excluding_failures": 97.532074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3846,6 +4020,7 @@
       "diff_perc_including_failures": 80.198364,
       "diff_perc_excluding_failures": 97.53231
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3868,6 +4043,7 @@
       "diff_perc_including_failures": 80.19947,
       "diff_perc_excluding_failures": 97.533646
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3890,6 +4066,7 @@
       "diff_perc_including_failures": 80.1995,
       "diff_perc_excluding_failures": 97.53368
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3912,6 +4089,7 @@
       "diff_perc_including_failures": 80.2397,
       "diff_perc_excluding_failures": 97.58257
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3934,6 +4112,7 @@
       "diff_perc_including_failures": 80.250046,
       "diff_perc_excluding_failures": 97.59515
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3956,6 +4135,7 @@
       "diff_perc_including_failures": 80.24727,
       "diff_perc_excluding_failures": 97.591774
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -3978,6 +4158,7 @@
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4000,6 +4181,7 @@
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4022,6 +4204,7 @@
       "diff_perc_including_failures": 78.54297,
       "diff_perc_excluding_failures": 97.58135
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4044,6 +4227,7 @@
       "diff_perc_including_failures": 78.464905,
       "diff_perc_excluding_failures": 97.580124
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4066,6 +4250,7 @@
       "diff_perc_including_failures": 80.2473,
       "diff_perc_excluding_failures": 97.59182
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4088,6 +4273,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4110,6 +4296,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4132,6 +4319,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4154,6 +4342,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.595184
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4176,6 +4365,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4198,6 +4388,7 @@
       "diff_perc_including_failures": 80.25008,
       "diff_perc_excluding_failures": 97.59519
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4220,6 +4411,7 @@
       "diff_perc_including_failures": 71.911026,
       "diff_perc_excluding_failures": 97.57702
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4242,6 +4434,7 @@
       "diff_perc_including_failures": 71.911026,
       "diff_perc_excluding_failures": 97.57702
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4264,6 +4457,7 @@
       "diff_perc_including_failures": 80.250084,
       "diff_perc_excluding_failures": 97.5952
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4286,6 +4480,7 @@
       "diff_perc_including_failures": 80.25018,
       "diff_perc_excluding_failures": 97.59532
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4308,6 +4503,7 @@
       "diff_perc_including_failures": 80.25018,
       "diff_perc_excluding_failures": 97.59532
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4330,6 +4526,7 @@
       "diff_perc_including_failures": 80.32868,
       "diff_perc_excluding_failures": 97.597046
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4352,6 +4549,7 @@
       "diff_perc_including_failures": 80.34265,
       "diff_perc_excluding_failures": 97.614006
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4374,6 +4572,7 @@
       "diff_perc_including_failures": 80.53206,
       "diff_perc_excluding_failures": 97.84414
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4396,6 +4595,7 @@
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4418,6 +4618,7 @@
       "diff_perc_including_failures": 80.53207,
       "diff_perc_excluding_failures": 97.84415
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4440,6 +4641,7 @@
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4462,6 +4664,7 @@
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4484,6 +4687,7 @@
       "diff_perc_including_failures": 80.53209,
       "diff_perc_excluding_failures": 97.84417
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4506,6 +4710,7 @@
       "diff_perc_including_failures": 80.51378,
       "diff_perc_excluding_failures": 97.91589
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4528,6 +4733,7 @@
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.915955
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4550,6 +4756,7 @@
       "diff_perc_including_failures": 80.53211,
       "diff_perc_excluding_failures": 97.84421
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4572,6 +4779,7 @@
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.915955
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4594,6 +4802,7 @@
       "diff_perc_including_failures": 80.51383,
       "diff_perc_excluding_failures": 97.91596
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4616,6 +4825,7 @@
       "diff_perc_including_failures": 80.53214,
       "diff_perc_excluding_failures": 97.84423
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4638,6 +4848,7 @@
       "diff_perc_including_failures": 80.535545,
       "diff_perc_excluding_failures": 97.84837
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4660,6 +4871,7 @@
       "diff_perc_including_failures": 80.53556,
       "diff_perc_excluding_failures": 97.84839
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4682,6 +4894,7 @@
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4704,6 +4917,7 @@
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4726,6 +4940,7 @@
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.8484
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4748,6 +4963,7 @@
       "diff_perc_including_failures": 80.535576,
       "diff_perc_excluding_failures": 97.84841
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4770,6 +4986,7 @@
       "diff_perc_including_failures": 80.53556,
       "diff_perc_excluding_failures": 97.84839
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4792,6 +5009,7 @@
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4814,6 +5032,7 @@
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4836,6 +5055,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4858,6 +5078,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4880,6 +5101,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4902,6 +5124,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4924,6 +5147,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4946,6 +5170,7 @@
       "diff_perc_including_failures": 80.53559,
       "diff_perc_excluding_failures": 97.84842
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4968,6 +5193,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -4990,6 +5216,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5012,6 +5239,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5034,6 +5262,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5056,6 +5285,7 @@
       "diff_perc_including_failures": 80.5356,
       "diff_perc_excluding_failures": 97.848434
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5078,6 +5308,7 @@
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5100,6 +5331,7 @@
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5122,6 +5354,7 @@
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5144,6 +5377,7 @@
       "diff_perc_including_failures": 80.537384,
       "diff_perc_excluding_failures": 97.8506
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5166,6 +5400,7 @@
       "diff_perc_including_failures": 80.53738,
       "diff_perc_excluding_failures": 97.85059
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5188,6 +5423,7 @@
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5210,6 +5446,7 @@
       "diff_perc_including_failures": 80.53738,
       "diff_perc_excluding_failures": 97.85059
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5232,6 +5469,7 @@
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5254,6 +5492,7 @@
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5276,6 +5515,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5298,6 +5538,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5320,6 +5561,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5342,6 +5584,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5364,6 +5607,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5386,6 +5630,7 @@
       "diff_perc_including_failures": 80.5374,
       "diff_perc_excluding_failures": 97.850624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5408,6 +5653,7 @@
       "diff_perc_including_failures": 80.53739,
       "diff_perc_excluding_failures": 97.85062
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5430,6 +5676,7 @@
       "diff_perc_including_failures": 80.458405,
       "diff_perc_excluding_failures": 97.84855
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5452,6 +5699,7 @@
       "diff_perc_including_failures": 80.53729,
       "diff_perc_excluding_failures": 97.850494
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5474,6 +5722,7 @@
       "diff_perc_including_failures": 80.53731,
       "diff_perc_excluding_failures": 97.85051
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5496,6 +5745,7 @@
       "diff_perc_including_failures": 80.71414,
       "diff_perc_excluding_failures": 97.877495
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5518,6 +5768,7 @@
       "diff_perc_including_failures": 80.714134,
       "diff_perc_excluding_failures": 97.87749
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5540,6 +5791,7 @@
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.454895
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5562,6 +5814,7 @@
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.454895
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5584,6 +5837,7 @@
       "diff_perc_including_failures": 79.634926,
       "diff_perc_excluding_failures": 98.4549
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5606,6 +5860,7 @@
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5628,6 +5883,7 @@
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5650,6 +5906,7 @@
       "diff_perc_including_failures": 79.72224,
       "diff_perc_excluding_failures": 98.56284
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5672,6 +5929,7 @@
       "diff_perc_including_failures": 79.72223,
       "diff_perc_excluding_failures": 98.562836
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5694,6 +5952,7 @@
       "diff_perc_including_failures": 79.722244,
       "diff_perc_excluding_failures": 98.56285
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5716,6 +5975,7 @@
       "diff_perc_including_failures": 79.72228,
       "diff_perc_excluding_failures": 98.562904
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5738,6 +5998,7 @@
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5760,6 +6021,7 @@
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5782,6 +6044,7 @@
       "diff_perc_including_failures": 79.72255,
       "diff_perc_excluding_failures": 98.56323
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5804,6 +6067,7 @@
       "diff_perc_including_failures": 79.72665,
       "diff_perc_excluding_failures": 98.5683
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5826,6 +6090,7 @@
       "diff_perc_including_failures": 79.72694,
       "diff_perc_excluding_failures": 98.56866
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5848,6 +6113,7 @@
       "diff_perc_including_failures": 79.751045,
       "diff_perc_excluding_failures": 98.598465
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5870,6 +6136,7 @@
       "diff_perc_including_failures": 79.72694,
       "diff_perc_excluding_failures": 98.56866
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5892,6 +6159,7 @@
       "diff_perc_including_failures": 79.726944,
       "diff_perc_excluding_failures": 98.568665
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5914,6 +6182,7 @@
       "diff_perc_including_failures": 79.726944,
       "diff_perc_excluding_failures": 98.568665
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5936,6 +6205,7 @@
       "diff_perc_including_failures": 79.76969,
       "diff_perc_excluding_failures": 98.62152
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5958,6 +6228,7 @@
       "diff_perc_including_failures": 79.836494,
       "diff_perc_excluding_failures": 98.7041
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -5980,6 +6251,7 @@
       "diff_perc_including_failures": 80.74551,
       "diff_perc_excluding_failures": 97.91553
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6002,6 +6274,7 @@
       "diff_perc_including_failures": 80.74953,
       "diff_perc_excluding_failures": 97.920395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6024,6 +6297,7 @@
       "diff_perc_including_failures": 80.434296,
       "diff_perc_excluding_failures": 97.91329
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6046,6 +6320,7 @@
       "diff_perc_including_failures": 80.43503,
       "diff_perc_excluding_failures": 97.914185
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6068,6 +6343,7 @@
       "diff_perc_including_failures": 80.43503,
       "diff_perc_excluding_failures": 97.914185
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6090,6 +6366,7 @@
       "diff_perc_including_failures": 80.3713,
       "diff_perc_excluding_failures": 97.930756
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6112,6 +6389,7 @@
       "diff_perc_including_failures": 80.292496,
       "diff_perc_excluding_failures": 97.929
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6134,6 +6412,7 @@
       "diff_perc_including_failures": 80.450066,
       "diff_perc_excluding_failures": 97.93248
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6156,6 +6435,7 @@
       "diff_perc_including_failures": 80.45195,
       "diff_perc_excluding_failures": 97.934784
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6178,6 +6458,7 @@
       "diff_perc_including_failures": 80.45253,
       "diff_perc_excluding_failures": 97.935486
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6200,6 +6481,7 @@
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6222,6 +6504,7 @@
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6244,6 +6527,7 @@
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93551
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6266,6 +6550,7 @@
       "diff_perc_including_failures": 80.452545,
       "diff_perc_excluding_failures": 97.9355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6288,6 +6573,7 @@
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93552
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6310,6 +6596,7 @@
       "diff_perc_including_failures": 80.45255,
       "diff_perc_excluding_failures": 97.93552
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6332,6 +6619,7 @@
       "diff_perc_including_failures": 80.452545,
       "diff_perc_excluding_failures": 97.9355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6354,6 +6642,7 @@
       "diff_perc_including_failures": 80.45257,
       "diff_perc_excluding_failures": 97.935524
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6376,6 +6665,7 @@
       "diff_perc_including_failures": 80.45257,
       "diff_perc_excluding_failures": 97.935524
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6398,6 +6688,7 @@
       "diff_perc_including_failures": 80.45259,
       "diff_perc_excluding_failures": 97.935555
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6420,6 +6711,7 @@
       "diff_perc_including_failures": 80.37375,
       "diff_perc_excluding_failures": 97.933754
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6442,6 +6734,7 @@
       "diff_perc_including_failures": 80.453316,
       "diff_perc_excluding_failures": 97.93644
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6464,6 +6757,7 @@
       "diff_perc_including_failures": 80.453316,
       "diff_perc_excluding_failures": 97.93644
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6486,6 +6780,7 @@
       "diff_perc_including_failures": 80.46247,
       "diff_perc_excluding_failures": 97.94758
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6508,6 +6803,7 @@
       "diff_perc_including_failures": 80.46336,
       "diff_perc_excluding_failures": 97.94866
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6530,6 +6826,7 @@
       "diff_perc_including_failures": 80.474976,
       "diff_perc_excluding_failures": 97.9628
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6552,6 +6849,7 @@
       "diff_perc_including_failures": 80.47621,
       "diff_perc_excluding_failures": 97.96431
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6574,6 +6872,7 @@
       "diff_perc_including_failures": 68.84146,
       "diff_perc_excluding_failures": 98.92542
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6596,6 +6895,7 @@
       "diff_perc_including_failures": 80.47739,
       "diff_perc_excluding_failures": 97.965744
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6618,6 +6918,7 @@
       "diff_perc_including_failures": 80.4774,
       "diff_perc_excluding_failures": 97.96576
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6640,6 +6941,7 @@
       "diff_perc_including_failures": 80.32374,
       "diff_perc_excluding_failures": 97.9671
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6662,6 +6964,7 @@
       "diff_perc_including_failures": 80.4774,
       "diff_perc_excluding_failures": 97.96576
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6684,6 +6987,7 @@
       "diff_perc_including_failures": 80.56411,
       "diff_perc_excluding_failures": 98.07131
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6706,6 +7010,7 @@
       "diff_perc_including_failures": 80.56417,
       "diff_perc_excluding_failures": 98.07138
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6728,6 +7033,7 @@
       "diff_perc_including_failures": 81.499275,
       "diff_perc_excluding_failures": 99.11439
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6750,6 +7056,7 @@
       "diff_perc_including_failures": 81.55773,
       "diff_perc_excluding_failures": 99.11801
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6772,6 +7079,7 @@
       "diff_perc_including_failures": 80.71415,
       "diff_perc_excluding_failures": 99.065056
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6794,6 +7102,7 @@
       "diff_perc_including_failures": 80.71416,
       "diff_perc_excluding_failures": 99.06506
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6816,6 +7125,7 @@
       "diff_perc_including_failures": 80.705215,
       "diff_perc_excluding_failures": 99.05409
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6838,6 +7148,7 @@
       "diff_perc_including_failures": 80.70518,
       "diff_perc_excluding_failures": 99.05405
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6860,6 +7171,7 @@
       "diff_perc_including_failures": 80.70553,
       "diff_perc_excluding_failures": 99.054474
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6882,6 +7194,7 @@
       "diff_perc_including_failures": 80.706215,
       "diff_perc_excluding_failures": 99.05532
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6904,6 +7217,7 @@
       "diff_perc_including_failures": 80.706215,
       "diff_perc_excluding_failures": 99.05532
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6926,6 +7240,7 @@
       "diff_perc_including_failures": 80.7062,
       "diff_perc_excluding_failures": 99.0553
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6948,6 +7263,7 @@
       "diff_perc_including_failures": 80.7062,
       "diff_perc_excluding_failures": 99.0553
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6970,6 +7286,7 @@
       "diff_perc_including_failures": 80.70618,
       "diff_perc_excluding_failures": 99.055275
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -6992,6 +7309,7 @@
       "diff_perc_including_failures": 80.86775,
       "diff_perc_excluding_failures": 99.07045
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7014,6 +7332,7 @@
       "diff_perc_including_failures": 80.86775,
       "diff_perc_excluding_failures": 99.07045
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7036,6 +7355,7 @@
       "diff_perc_including_failures": 80.90154,
       "diff_perc_excluding_failures": 99.11186
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7058,6 +7378,7 @@
       "diff_perc_including_failures": 80.903625,
       "diff_perc_excluding_failures": 99.1144
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7080,6 +7401,7 @@
       "diff_perc_including_failures": 80.90367,
       "diff_perc_excluding_failures": 99.114456
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7102,6 +7424,7 @@
       "diff_perc_including_failures": 80.903694,
       "diff_perc_excluding_failures": 99.114494
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7124,6 +7447,7 @@
       "diff_perc_including_failures": 80.903885,
       "diff_perc_excluding_failures": 99.11472
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7146,6 +7470,7 @@
       "diff_perc_including_failures": 80.903885,
       "diff_perc_excluding_failures": 99.11472
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7168,6 +7493,7 @@
       "diff_perc_including_failures": 80.903915,
       "diff_perc_excluding_failures": 99.11476
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7190,6 +7516,7 @@
       "diff_perc_including_failures": 80.90394,
       "diff_perc_excluding_failures": 99.114784
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7212,6 +7539,7 @@
       "diff_perc_including_failures": 80.90399,
       "diff_perc_excluding_failures": 99.11485
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7234,6 +7562,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7256,6 +7585,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7278,6 +7608,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7300,6 +7631,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7322,6 +7654,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7344,6 +7677,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7366,6 +7700,7 @@
       "diff_perc_including_failures": 80.904434,
       "diff_perc_excluding_failures": 99.115395
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7388,6 +7723,7 @@
       "diff_perc_including_failures": 80.90447,
       "diff_perc_excluding_failures": 99.11544
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7410,6 +7746,7 @@
       "diff_perc_including_failures": 80.90447,
       "diff_perc_excluding_failures": 99.11544
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7432,6 +7769,7 @@
       "diff_perc_including_failures": 80.892365,
       "diff_perc_excluding_failures": 99.10061
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7454,6 +7792,7 @@
       "diff_perc_including_failures": 80.89235,
       "diff_perc_excluding_failures": 99.100586
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7476,6 +7815,7 @@
       "diff_perc_including_failures": 80.904594,
       "diff_perc_excluding_failures": 99.115585
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7498,6 +7838,7 @@
       "diff_perc_including_failures": 80.913475,
       "diff_perc_excluding_failures": 99.12647
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7520,6 +7861,7 @@
       "diff_perc_including_failures": 80.91349,
       "diff_perc_excluding_failures": 99.12649
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7542,6 +7884,7 @@
       "diff_perc_including_failures": 80.97083,
       "diff_perc_excluding_failures": 99.12973
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7564,6 +7907,7 @@
       "diff_perc_including_failures": 80.970825,
       "diff_perc_excluding_failures": 99.12972
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7586,6 +7930,7 @@
       "diff_perc_including_failures": 80.97097,
       "diff_perc_excluding_failures": 99.129906
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7608,6 +7953,7 @@
       "diff_perc_including_failures": 80.97487,
       "diff_perc_excluding_failures": 99.134674
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7630,6 +7976,7 @@
       "diff_perc_including_failures": 80.97434,
       "diff_perc_excluding_failures": 99.134026
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7652,6 +7999,7 @@
       "diff_perc_including_failures": 80.97488,
       "diff_perc_excluding_failures": 99.13468
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7674,6 +8022,7 @@
       "diff_perc_including_failures": 81.05181,
       "diff_perc_excluding_failures": 99.13776
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7696,6 +8045,7 @@
       "diff_perc_including_failures": 81.05244,
       "diff_perc_excluding_failures": 99.13851
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7718,6 +8068,7 @@
       "diff_perc_including_failures": 81.0498,
       "diff_perc_excluding_failures": 99.135284
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7740,6 +8091,7 @@
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7762,6 +8114,7 @@
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7784,6 +8137,7 @@
       "diff_perc_including_failures": 81.05252,
       "diff_perc_excluding_failures": 99.138626
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7806,6 +8160,7 @@
       "diff_perc_including_failures": 81.052536,
       "diff_perc_excluding_failures": 99.13863
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7828,6 +8183,7 @@
       "diff_perc_including_failures": 81.052574,
       "diff_perc_excluding_failures": 99.13868
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7850,6 +8206,7 @@
       "diff_perc_including_failures": 81.052574,
       "diff_perc_excluding_failures": 99.13868
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7872,6 +8229,7 @@
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7894,6 +8252,7 @@
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7916,6 +8275,7 @@
       "diff_perc_including_failures": 80.90391,
       "diff_perc_excluding_failures": 99.138916
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7938,6 +8298,7 @@
       "diff_perc_including_failures": 80.90413,
       "diff_perc_excluding_failures": 99.13918
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7960,6 +8321,7 @@
       "diff_perc_including_failures": 81.05283,
       "diff_perc_excluding_failures": 99.13901
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -7982,6 +8344,7 @@
       "diff_perc_including_failures": 80.90974,
       "diff_perc_excluding_failures": 99.14606
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8004,6 +8367,7 @@
       "diff_perc_including_failures": 80.90955,
       "diff_perc_excluding_failures": 99.145836
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8026,6 +8390,7 @@
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8048,6 +8413,7 @@
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8070,6 +8436,7 @@
       "diff_perc_including_failures": 80.909744,
       "diff_perc_excluding_failures": 99.146065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8092,6 +8459,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8114,6 +8482,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8136,6 +8505,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8158,6 +8528,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8180,6 +8551,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8202,6 +8574,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8224,6 +8597,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8246,6 +8620,7 @@
       "diff_perc_including_failures": 80.90975,
       "diff_perc_excluding_failures": 99.14608
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8268,6 +8643,7 @@
       "diff_perc_including_failures": 81.10212,
       "diff_perc_excluding_failures": 99.01744
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8290,6 +8666,7 @@
       "diff_perc_including_failures": 81.14109,
       "diff_perc_excluding_failures": 99.06502
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8312,6 +8689,7 @@
       "diff_perc_including_failures": 81.14109,
       "diff_perc_excluding_failures": 99.06502
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8334,6 +8712,7 @@
       "diff_perc_including_failures": 81.064285,
       "diff_perc_excluding_failures": 98.98841
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8356,6 +8735,7 @@
       "diff_perc_including_failures": 81.11226,
       "diff_perc_excluding_failures": 98.9993
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8378,6 +8758,7 @@
       "diff_perc_including_failures": 81.11263,
       "diff_perc_excluding_failures": 98.99976
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8400,6 +8781,7 @@
       "diff_perc_including_failures": 81.11263,
       "diff_perc_excluding_failures": 98.99976
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8422,6 +8804,7 @@
       "diff_perc_including_failures": 81.11274,
       "diff_perc_excluding_failures": 98.99989
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8444,6 +8827,7 @@
       "diff_perc_including_failures": 81.26023,
       "diff_perc_excluding_failures": 99.001686
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8466,6 +8850,7 @@
       "diff_perc_including_failures": 81.19581,
       "diff_perc_excluding_failures": 98.821945
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8488,6 +8873,7 @@
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8510,6 +8896,7 @@
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8532,6 +8919,7 @@
       "diff_perc_including_failures": 81.488205,
       "diff_perc_excluding_failures": 98.826126
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8554,6 +8942,7 @@
       "diff_perc_including_failures": 81.56083,
       "diff_perc_excluding_failures": 98.826584
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8576,6 +8965,7 @@
       "diff_perc_including_failures": 81.70703,
       "diff_perc_excluding_failures": 98.82867
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8598,6 +8988,7 @@
       "diff_perc_including_failures": 81.85131,
       "diff_perc_excluding_failures": 99.00318
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8620,6 +9011,7 @@
       "diff_perc_including_failures": 82.143715,
       "diff_perc_excluding_failures": 99.00669
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8642,6 +9034,7 @@
       "diff_perc_including_failures": 82.143715,
       "diff_perc_excluding_failures": 99.0067
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8664,6 +9057,7 @@
       "diff_perc_including_failures": 82.14413,
       "diff_perc_excluding_failures": 99.007195
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8686,6 +9080,7 @@
       "diff_perc_including_failures": 82.21723,
       "diff_perc_excluding_failures": 99.00807
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8708,6 +9103,7 @@
       "diff_perc_including_failures": 82.217224,
       "diff_perc_excluding_failures": 99.00806
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8730,6 +9126,7 @@
       "diff_perc_including_failures": 81.525536,
       "diff_perc_excluding_failures": 98.9953
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8752,6 +9149,7 @@
       "diff_perc_including_failures": 81.859024,
       "diff_perc_excluding_failures": 98.99386
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8774,6 +9172,7 @@
       "diff_perc_including_failures": 81.857285,
       "diff_perc_excluding_failures": 98.99177
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8796,6 +9195,7 @@
       "diff_perc_including_failures": 81.6473,
       "diff_perc_excluding_failures": 99.019066
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8818,6 +9218,7 @@
       "diff_perc_including_failures": 81.6473,
       "diff_perc_excluding_failures": 99.019066
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8840,6 +9241,7 @@
       "diff_perc_including_failures": 81.64756,
       "diff_perc_excluding_failures": 99.019394
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8862,6 +9264,7 @@
       "diff_perc_including_failures": 82.29525,
       "diff_perc_excluding_failures": 99.02454
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8884,6 +9287,7 @@
       "diff_perc_including_failures": 82.29072,
       "diff_perc_excluding_failures": 99.01909
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8906,6 +9310,7 @@
       "diff_perc_including_failures": 81.84383,
       "diff_perc_excluding_failures": 99.0233
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8928,6 +9333,7 @@
       "diff_perc_including_failures": 81.85014,
       "diff_perc_excluding_failures": 99.03095
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8950,6 +9356,7 @@
       "diff_perc_including_failures": 82.30352,
       "diff_perc_excluding_failures": 99.034485
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8972,6 +9379,7 @@
       "diff_perc_including_failures": 82.30362,
       "diff_perc_excluding_failures": 99.034615
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -8994,6 +9402,7 @@
       "diff_perc_including_failures": 82.303566,
       "diff_perc_excluding_failures": 99.034546
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9016,6 +9425,7 @@
       "diff_perc_including_failures": 82.322365,
       "diff_perc_excluding_failures": 99.05717
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9038,6 +9448,7 @@
       "diff_perc_including_failures": 82.32421,
       "diff_perc_excluding_failures": 99.05939
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9060,6 +9471,7 @@
       "diff_perc_including_failures": 82.32425,
       "diff_perc_excluding_failures": 99.05944
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9082,6 +9494,7 @@
       "diff_perc_including_failures": 82.324295,
       "diff_perc_excluding_failures": 99.0595
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9104,6 +9517,7 @@
       "diff_perc_including_failures": 82.32431,
       "diff_perc_excluding_failures": 99.05952
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9126,6 +9540,7 @@
       "diff_perc_including_failures": 82.71265,
       "diff_perc_excluding_failures": 99.04166
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9148,6 +9563,7 @@
       "diff_perc_including_failures": 82.712555,
       "diff_perc_excluding_failures": 99.04153
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9170,6 +9586,7 @@
       "diff_perc_including_failures": 82.71257,
       "diff_perc_excluding_failures": 99.04155
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9192,6 +9609,7 @@
       "diff_perc_including_failures": 82.712845,
       "diff_perc_excluding_failures": 99.041885
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9214,6 +9632,7 @@
       "diff_perc_including_failures": 82.74958,
       "diff_perc_excluding_failures": 99.08588
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9236,6 +9655,7 @@
       "diff_perc_including_failures": 82.74958,
       "diff_perc_excluding_failures": 99.08588
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9258,6 +9678,7 @@
       "diff_perc_including_failures": 82.749565,
       "diff_perc_excluding_failures": 99.085846
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9280,6 +9701,7 @@
       "diff_perc_including_failures": 82.74955,
       "diff_perc_excluding_failures": 99.08584
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9302,6 +9724,7 @@
       "diff_perc_including_failures": 82.729935,
       "diff_perc_excluding_failures": 99.087906
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9324,6 +9747,7 @@
       "diff_perc_including_failures": 82.72997,
       "diff_perc_excluding_failures": 99.087944
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9346,6 +9770,7 @@
       "diff_perc_including_failures": 82.729935,
       "diff_perc_excluding_failures": 99.087906
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9368,6 +9793,7 @@
       "diff_perc_including_failures": 81.73725,
       "diff_perc_excluding_failures": 99.09953
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9390,6 +9816,7 @@
       "diff_perc_including_failures": 81.73722,
       "diff_perc_excluding_failures": 99.0995
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9412,6 +9839,7 @@
       "diff_perc_including_failures": 81.66433,
       "diff_perc_excluding_failures": 99.09829
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9434,6 +9862,7 @@
       "diff_perc_including_failures": 81.6643,
       "diff_perc_excluding_failures": 99.09825
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9456,6 +9885,7 @@
       "diff_perc_including_failures": 81.66983,
       "diff_perc_excluding_failures": 99.104965
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9478,6 +9908,7 @@
       "diff_perc_including_failures": 81.00211,
       "diff_perc_excluding_failures": 99.11135
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9500,6 +9931,7 @@
       "diff_perc_including_failures": 68.85247,
       "diff_perc_excluding_failures": 99.0595
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9522,6 +9954,7 @@
       "diff_perc_including_failures": 68.85247,
       "diff_perc_excluding_failures": 99.0595
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9544,6 +9977,7 @@
       "diff_perc_including_failures": 68.85267,
       "diff_perc_excluding_failures": 99.05979
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9566,6 +10000,7 @@
       "diff_perc_including_failures": 68.85268,
       "diff_perc_excluding_failures": 99.0598
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9588,6 +10023,7 @@
       "diff_perc_including_failures": 68.85268,
       "diff_perc_excluding_failures": 99.0598
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9610,6 +10046,7 @@
       "diff_perc_including_failures": 68.85487,
       "diff_perc_excluding_failures": 99.06296
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9632,6 +10069,7 @@
       "diff_perc_including_failures": 81.01039,
       "diff_perc_excluding_failures": 99.12147
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9654,6 +10092,7 @@
       "diff_perc_including_failures": 81.01081,
       "diff_perc_excluding_failures": 99.12199
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9676,6 +10115,7 @@
       "diff_perc_including_failures": 80.94906,
       "diff_perc_excluding_failures": 99.1213
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9698,6 +10138,7 @@
       "diff_perc_including_failures": 80.88743,
       "diff_perc_excluding_failures": 99.12075
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9720,6 +10161,7 @@
       "diff_perc_including_failures": 80.88852,
       "diff_perc_excluding_failures": 99.122086
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9742,6 +10184,7 @@
       "diff_perc_including_failures": 80.9678,
       "diff_perc_excluding_failures": 99.129364
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9764,6 +10207,7 @@
       "diff_perc_including_failures": 80.14397,
       "diff_perc_excluding_failures": 99.13486
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9786,6 +10230,7 @@
       "diff_perc_including_failures": 80.14403,
       "diff_perc_excluding_failures": 99.13494
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9808,6 +10253,7 @@
       "diff_perc_including_failures": 79.34371,
       "diff_perc_excluding_failures": 99.13533
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9830,6 +10276,7 @@
       "diff_perc_including_failures": 78.3527,
       "diff_perc_excluding_failures": 99.13067
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9852,6 +10299,7 @@
       "diff_perc_including_failures": 79.90104,
       "diff_perc_excluding_failures": 99.10746
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9874,6 +10322,7 @@
       "diff_perc_including_failures": 79.90135,
       "diff_perc_excluding_failures": 99.10785
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9896,6 +10345,7 @@
       "diff_perc_including_failures": 79.90135,
       "diff_perc_excluding_failures": 99.10785
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9918,6 +10368,7 @@
       "diff_perc_including_failures": 79.901306,
       "diff_perc_excluding_failures": 99.107796
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9940,6 +10391,7 @@
       "diff_perc_including_failures": 79.90133,
       "diff_perc_excluding_failures": 99.10781
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9962,6 +10414,7 @@
       "diff_perc_including_failures": 79.77307,
       "diff_perc_excluding_failures": 99.10849
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -9984,6 +10437,7 @@
       "diff_perc_including_failures": 79.773094,
       "diff_perc_excluding_failures": 99.10852
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10006,6 +10460,7 @@
       "diff_perc_including_failures": 79.773125,
       "diff_perc_excluding_failures": 99.10855
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10028,6 +10483,7 @@
       "diff_perc_including_failures": 79.42926,
       "diff_perc_excluding_failures": 99.1149
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10050,6 +10506,7 @@
       "diff_perc_including_failures": 79.182526,
       "diff_perc_excluding_failures": 99.10514
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10072,6 +10529,7 @@
       "diff_perc_including_failures": 78.09764,
       "diff_perc_excluding_failures": 99.11759
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10094,6 +10552,7 @@
       "diff_perc_including_failures": 78.097984,
       "diff_perc_excluding_failures": 99.11803
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10116,6 +10575,7 @@
       "diff_perc_including_failures": 78.09805,
       "diff_perc_excluding_failures": 99.11812
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10138,6 +10598,7 @@
       "diff_perc_including_failures": 78.098045,
       "diff_perc_excluding_failures": 99.11811
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10160,6 +10621,7 @@
       "diff_perc_including_failures": 78.09613,
       "diff_perc_excluding_failures": 99.115685
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10182,6 +10644,7 @@
       "diff_perc_including_failures": 78.09803,
       "diff_perc_excluding_failures": 99.11809
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10204,6 +10667,7 @@
       "diff_perc_including_failures": 78.09801,
       "diff_perc_excluding_failures": 99.11806
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10226,6 +10690,7 @@
       "diff_perc_including_failures": 78.04433,
       "diff_perc_excluding_failures": 99.18934
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10248,6 +10713,7 @@
       "diff_perc_including_failures": 78.04436,
       "diff_perc_excluding_failures": 99.18938
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10270,6 +10736,7 @@
       "diff_perc_including_failures": 78.04445,
       "diff_perc_excluding_failures": 99.1895
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10292,6 +10759,7 @@
       "diff_perc_including_failures": 78.022995,
       "diff_perc_excluding_failures": 99.23206
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10314,6 +10782,7 @@
       "diff_perc_including_failures": 78.02297,
       "diff_perc_excluding_failures": 99.23203
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10336,6 +10805,7 @@
       "diff_perc_including_failures": 78.02304,
       "diff_perc_excluding_failures": 99.23212
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10358,6 +10828,7 @@
       "diff_perc_including_failures": 78.02324,
       "diff_perc_excluding_failures": 99.232376
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10380,6 +10851,7 @@
       "diff_perc_including_failures": 78.023224,
       "diff_perc_excluding_failures": 99.23236
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10402,6 +10874,7 @@
       "diff_perc_including_failures": 77.48093,
       "diff_perc_excluding_failures": 99.24037
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10424,6 +10897,7 @@
       "diff_perc_including_failures": 77.480896,
       "diff_perc_excluding_failures": 99.24034
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10446,6 +10920,7 @@
       "diff_perc_including_failures": 77.48093,
       "diff_perc_excluding_failures": 99.24037
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10468,6 +10943,7 @@
       "diff_perc_including_failures": 77.48083,
       "diff_perc_excluding_failures": 99.24026
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10490,6 +10966,7 @@
       "diff_perc_including_failures": 77.48086,
       "diff_perc_excluding_failures": 99.24029
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10512,6 +10989,7 @@
       "diff_perc_including_failures": 77.399864,
       "diff_perc_excluding_failures": 99.27492
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10534,6 +11012,7 @@
       "diff_perc_including_failures": 77.505226,
       "diff_perc_excluding_failures": 99.2715
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10556,6 +11035,7 @@
       "diff_perc_including_failures": 75.950775,
       "diff_perc_excluding_failures": 99.28001
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10578,6 +11058,7 @@
       "diff_perc_including_failures": 76.0628,
       "diff_perc_excluding_failures": 99.221436
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10600,6 +11081,7 @@
       "diff_perc_including_failures": 76.06279,
       "diff_perc_excluding_failures": 99.22143
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10622,6 +11104,7 @@
       "diff_perc_including_failures": 76.06541,
       "diff_perc_excluding_failures": 99.22483
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10644,6 +11127,7 @@
       "diff_perc_including_failures": 76.06544,
       "diff_perc_excluding_failures": 99.224884
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10666,6 +11150,7 @@
       "diff_perc_including_failures": 76.06543,
       "diff_perc_excluding_failures": 99.22488
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10688,6 +11173,7 @@
       "diff_perc_including_failures": 76.06541,
       "diff_perc_excluding_failures": 99.22483
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10710,6 +11196,7 @@
       "diff_perc_including_failures": 76.06542,
       "diff_perc_excluding_failures": 99.22486
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10732,6 +11219,7 @@
       "diff_perc_including_failures": 76.06542,
       "diff_perc_excluding_failures": 99.22486
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10754,6 +11242,7 @@
       "diff_perc_including_failures": 74.47998,
       "diff_perc_excluding_failures": 99.1728
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10776,6 +11265,7 @@
       "diff_perc_including_failures": 74.51609,
       "diff_perc_excluding_failures": 99.154076
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10798,6 +11288,7 @@
       "diff_perc_including_failures": 74.4671,
       "diff_perc_excluding_failures": 99.155655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10820,6 +11311,7 @@
       "diff_perc_including_failures": 74.51882,
       "diff_perc_excluding_failures": 99.15771
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10842,6 +11334,7 @@
       "diff_perc_including_failures": 74.14705,
       "diff_perc_excluding_failures": 99.16111
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10864,6 +11357,7 @@
       "diff_perc_including_failures": 74.648224,
       "diff_perc_excluding_failures": 99.16626
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10886,6 +11380,7 @@
       "diff_perc_including_failures": 74.701485,
       "diff_perc_excluding_failures": 99.23702
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10908,6 +11403,7 @@
       "diff_perc_including_failures": 74.70578,
       "diff_perc_excluding_failures": 99.24272
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10930,6 +11426,7 @@
       "diff_perc_including_failures": 74.70583,
       "diff_perc_excluding_failures": 99.24279
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10952,6 +11449,7 @@
       "diff_perc_including_failures": 74.705795,
       "diff_perc_excluding_failures": 99.24274
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10974,6 +11472,7 @@
       "diff_perc_including_failures": 74.70581,
       "diff_perc_excluding_failures": 99.24276
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -10996,6 +11495,7 @@
       "diff_perc_including_failures": 74.85935,
       "diff_perc_excluding_failures": 99.26048
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11018,6 +11518,7 @@
       "diff_perc_including_failures": 74.85934,
       "diff_perc_excluding_failures": 99.26046
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11040,6 +11541,7 @@
       "diff_perc_including_failures": 74.85936,
       "diff_perc_excluding_failures": 99.26049
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11062,6 +11564,7 @@
       "diff_perc_including_failures": 74.85932,
       "diff_perc_excluding_failures": 99.26044
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11084,6 +11587,7 @@
       "diff_perc_including_failures": 74.85936,
       "diff_perc_excluding_failures": 99.26048
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11106,6 +11610,7 @@
       "diff_perc_including_failures": 74.85953,
       "diff_perc_excluding_failures": 99.26072
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11128,6 +11633,7 @@
       "diff_perc_including_failures": 30.010393,
       "diff_perc_excluding_failures": 99.287636
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11150,6 +11656,7 @@
       "diff_perc_including_failures": 30.00263,
       "diff_perc_excluding_failures": 99.26557
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11172,6 +11679,7 @@
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11194,6 +11702,7 @@
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11216,6 +11725,7 @@
       "diff_perc_including_failures": 74.771484,
       "diff_perc_excluding_failures": 99.24304
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11238,6 +11748,7 @@
       "diff_perc_including_failures": 74.77149,
       "diff_perc_excluding_failures": 99.24304
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11260,6 +11771,7 @@
       "diff_perc_including_failures": 74.77151,
       "diff_perc_excluding_failures": 99.243065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11282,6 +11794,7 @@
       "diff_perc_including_failures": 74.77151,
       "diff_perc_excluding_failures": 99.243065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11304,6 +11817,7 @@
       "diff_perc_including_failures": 74.7715,
       "diff_perc_excluding_failures": 99.24305
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11326,6 +11840,7 @@
       "diff_perc_including_failures": 74.771484,
       "diff_perc_excluding_failures": 99.24304
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11348,6 +11863,7 @@
       "diff_perc_including_failures": 74.5037,
       "diff_perc_excluding_failures": 99.211075
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11370,6 +11886,7 @@
       "diff_perc_including_failures": 74.504,
       "diff_perc_excluding_failures": 99.21147
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11392,6 +11909,7 @@
       "diff_perc_including_failures": 74.504005,
       "diff_perc_excluding_failures": 99.21149
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11414,6 +11932,7 @@
       "diff_perc_including_failures": 74.504005,
       "diff_perc_excluding_failures": 99.21149
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11436,6 +11955,7 @@
       "diff_perc_including_failures": 74.50411,
       "diff_perc_excluding_failures": 99.211624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11458,6 +11978,7 @@
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11480,6 +12001,7 @@
       "diff_perc_including_failures": 74.55694,
       "diff_perc_excluding_failures": 99.28197
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11502,6 +12024,7 @@
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11524,6 +12047,7 @@
       "diff_perc_including_failures": 74.55692,
       "diff_perc_excluding_failures": 99.281944
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11546,6 +12070,7 @@
       "diff_perc_including_failures": 74.55694,
       "diff_perc_excluding_failures": 99.28197
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11568,6 +12093,7 @@
       "diff_perc_including_failures": 74.55693,
       "diff_perc_excluding_failures": 99.28195
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11590,6 +12116,7 @@
       "diff_perc_including_failures": 74.556915,
       "diff_perc_excluding_failures": 99.28194
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11612,6 +12139,7 @@
       "diff_perc_including_failures": 74.55698,
       "diff_perc_excluding_failures": 99.28202
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11634,6 +12162,7 @@
       "diff_perc_including_failures": 74.4142,
       "diff_perc_excluding_failures": 99.3463
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11656,6 +12185,7 @@
       "diff_perc_including_failures": 74.41587,
       "diff_perc_excluding_failures": 99.348526
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11678,6 +12208,7 @@
       "diff_perc_including_failures": 74.607346,
       "diff_perc_excluding_failures": 99.34909
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11700,6 +12231,7 @@
       "diff_perc_including_failures": 74.607285,
       "diff_perc_excluding_failures": 99.34901
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11722,6 +12254,7 @@
       "diff_perc_including_failures": 74.60734,
       "diff_perc_excluding_failures": 99.34908
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11744,6 +12277,7 @@
       "diff_perc_including_failures": 74.414375,
       "diff_perc_excluding_failures": 99.34653
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11766,6 +12300,7 @@
       "diff_perc_including_failures": 74.414375,
       "diff_perc_excluding_failures": 99.34654
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11788,6 +12323,7 @@
       "diff_perc_including_failures": 72.07785,
       "diff_perc_excluding_failures": 99.34812
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11810,6 +12346,7 @@
       "diff_perc_including_failures": 68.81102,
       "diff_perc_excluding_failures": 99.280396
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11832,6 +12369,7 @@
       "diff_perc_including_failures": 68.97434,
       "diff_perc_excluding_failures": 99.221954
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11854,6 +12392,7 @@
       "diff_perc_including_failures": 68.97431,
       "diff_perc_excluding_failures": 99.22191
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11876,6 +12415,7 @@
       "diff_perc_including_failures": 68.97433,
       "diff_perc_excluding_failures": 99.22193
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11898,6 +12438,7 @@
       "diff_perc_including_failures": 68.9111,
       "diff_perc_excluding_failures": 99.22055
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11920,6 +12461,7 @@
       "diff_perc_including_failures": 68.9111,
       "diff_perc_excluding_failures": 99.22054
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11942,6 +12484,7 @@
       "diff_perc_including_failures": 68.91107,
       "diff_perc_excluding_failures": 99.220505
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11964,6 +12507,7 @@
       "diff_perc_including_failures": 68.97203,
       "diff_perc_excluding_failures": 99.30827
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -11986,6 +12530,7 @@
       "diff_perc_including_failures": 68.972015,
       "diff_perc_excluding_failures": 99.30826
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12008,6 +12553,7 @@
       "diff_perc_including_failures": 69.38372,
       "diff_perc_excluding_failures": 99.37091
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12030,6 +12576,7 @@
       "diff_perc_including_failures": 69.383736,
       "diff_perc_excluding_failures": 99.370926
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12052,6 +12599,7 @@
       "diff_perc_including_failures": 69.86476,
       "diff_perc_excluding_failures": 99.35686
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12074,6 +12622,7 @@
       "diff_perc_including_failures": 69.8648,
       "diff_perc_excluding_failures": 99.3569
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12096,6 +12645,7 @@
       "diff_perc_including_failures": 69.86481,
       "diff_perc_excluding_failures": 99.35691
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12118,6 +12668,7 @@
       "diff_perc_including_failures": 64.369644,
       "diff_perc_excluding_failures": 99.44311
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12140,6 +12691,7 @@
       "diff_perc_including_failures": 64.36965,
       "diff_perc_excluding_failures": 99.44312
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12162,6 +12714,7 @@
       "diff_perc_including_failures": 64.946465,
       "diff_perc_excluding_failures": 99.448
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12184,6 +12737,7 @@
       "diff_perc_including_failures": 70.41668,
       "diff_perc_excluding_failures": 99.361206
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12206,6 +12760,7 @@
       "diff_perc_including_failures": 70.269485,
       "diff_perc_excluding_failures": 99.32474
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12228,6 +12783,7 @@
       "diff_perc_including_failures": 70.27124,
       "diff_perc_excluding_failures": 99.32721
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12250,6 +12806,7 @@
       "diff_perc_including_failures": 71.163925,
       "diff_perc_excluding_failures": 99.30585
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12272,6 +12829,7 @@
       "diff_perc_including_failures": 71.521164,
       "diff_perc_excluding_failures": 99.30864
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12294,6 +12852,7 @@
       "diff_perc_including_failures": 71.52117,
       "diff_perc_excluding_failures": 99.308655
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12316,6 +12875,7 @@
       "diff_perc_including_failures": 71.52116,
       "diff_perc_excluding_failures": 99.308624
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12338,6 +12898,7 @@
       "diff_perc_including_failures": 71.52117,
       "diff_perc_excluding_failures": 99.30865
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12360,6 +12921,7 @@
       "diff_perc_including_failures": 71.521286,
       "diff_perc_excluding_failures": 99.30881
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12382,6 +12944,7 @@
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.308846
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12404,6 +12967,7 @@
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.30884
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12426,6 +12990,7 @@
       "diff_perc_including_failures": 71.52129,
       "diff_perc_excluding_failures": 99.308815
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12448,6 +13013,7 @@
       "diff_perc_including_failures": 71.52131,
       "diff_perc_excluding_failures": 99.30884
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12470,6 +13036,7 @@
       "diff_perc_including_failures": 71.52984,
       "diff_perc_excluding_failures": 99.32068
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12492,6 +13059,7 @@
       "diff_perc_including_failures": 71.533325,
       "diff_perc_excluding_failures": 99.32552
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12514,6 +13082,7 @@
       "diff_perc_including_failures": 71.53335,
       "diff_perc_excluding_failures": 99.325554
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12536,6 +13105,7 @@
       "diff_perc_including_failures": 71.53337,
       "diff_perc_excluding_failures": 99.32558
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12558,6 +13128,7 @@
       "diff_perc_including_failures": 71.53337,
       "diff_perc_excluding_failures": 99.32558
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12580,6 +13151,7 @@
       "diff_perc_including_failures": 71.49351,
       "diff_perc_excluding_failures": 99.33957
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12602,6 +13174,7 @@
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33969
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12624,6 +13197,7 @@
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33969
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12646,6 +13220,7 @@
       "diff_perc_including_failures": 71.4936,
       "diff_perc_excluding_failures": 99.33971
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12668,6 +13243,7 @@
       "diff_perc_including_failures": 71.576584,
       "diff_perc_excluding_failures": 99.455
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12690,6 +13266,7 @@
       "diff_perc_including_failures": 71.576584,
       "diff_perc_excluding_failures": 99.455
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12712,6 +13289,7 @@
       "diff_perc_including_failures": 71.576614,
       "diff_perc_excluding_failures": 99.45504
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12734,6 +13312,7 @@
       "diff_perc_including_failures": 71.57669,
       "diff_perc_excluding_failures": 99.455154
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12756,6 +13335,7 @@
       "diff_perc_including_failures": 67.87808,
       "diff_perc_excluding_failures": 98.485985
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12778,6 +13358,7 @@
       "diff_perc_including_failures": 67.87821,
       "diff_perc_excluding_failures": 98.48617
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12800,6 +13381,7 @@
       "diff_perc_including_failures": 67.878235,
       "diff_perc_excluding_failures": 98.486206
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12822,6 +13404,7 @@
       "diff_perc_including_failures": 67.878235,
       "diff_perc_excluding_failures": 98.486206
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12844,6 +13427,7 @@
       "diff_perc_including_failures": 68.58837,
       "diff_perc_excluding_failures": 99.516556
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12866,6 +13450,7 @@
       "diff_perc_including_failures": 51.187767,
       "diff_perc_excluding_failures": 99.5137
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12888,6 +13473,7 @@
       "diff_perc_including_failures": 69.73216,
       "diff_perc_excluding_failures": 99.52445
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12910,6 +13496,7 @@
       "diff_perc_including_failures": 69.732155,
       "diff_perc_excluding_failures": 99.52444
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12932,6 +13519,7 @@
       "diff_perc_including_failures": 69.73303,
       "diff_perc_excluding_failures": 99.525986
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12954,6 +13542,7 @@
       "diff_perc_including_failures": 69.73685,
       "diff_perc_excluding_failures": 99.53143
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12976,6 +13565,7 @@
       "diff_perc_including_failures": 69.73687,
       "diff_perc_excluding_failures": 99.53146
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -12998,6 +13588,7 @@
       "diff_perc_including_failures": 69.69738,
       "diff_perc_excluding_failures": 99.53059
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13020,6 +13611,7 @@
       "diff_perc_including_failures": 69.697395,
       "diff_perc_excluding_failures": 99.53061
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13042,6 +13634,7 @@
       "diff_perc_including_failures": 69.697426,
       "diff_perc_excluding_failures": 99.53065
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13064,6 +13657,7 @@
       "diff_perc_including_failures": 69.69755,
       "diff_perc_excluding_failures": 99.53082
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13086,6 +13680,7 @@
       "diff_perc_including_failures": 69.69753,
       "diff_perc_excluding_failures": 99.53081
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13108,6 +13703,7 @@
       "diff_perc_including_failures": 69.730156,
       "diff_perc_excluding_failures": 99.53103
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13130,6 +13726,7 @@
       "diff_perc_including_failures": 69.79459,
       "diff_perc_excluding_failures": 99.53034
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13152,6 +13749,7 @@
       "diff_perc_including_failures": 69.89244,
       "diff_perc_excluding_failures": 99.531
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13174,6 +13772,7 @@
       "diff_perc_including_failures": 69.90203,
       "diff_perc_excluding_failures": 99.54465
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13196,6 +13795,7 @@
       "diff_perc_including_failures": 69.950935,
       "diff_perc_excluding_failures": 99.52184
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13218,6 +13818,7 @@
       "diff_perc_including_failures": 69.89765,
       "diff_perc_excluding_failures": 99.53841
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13240,6 +13841,7 @@
       "diff_perc_including_failures": 69.9633,
       "diff_perc_excluding_failures": 99.53943
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13262,6 +13864,7 @@
       "diff_perc_including_failures": 69.995804,
       "diff_perc_excluding_failures": 99.58568
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13284,6 +13887,7 @@
       "diff_perc_including_failures": 70.02821,
       "diff_perc_excluding_failures": 99.63179
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13306,6 +13910,7 @@
       "diff_perc_including_failures": 70.02821,
       "diff_perc_excluding_failures": 99.63179
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13328,6 +13933,7 @@
       "diff_perc_including_failures": 70.044586,
       "diff_perc_excluding_failures": 99.65508
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13350,6 +13956,7 @@
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13372,6 +13979,7 @@
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13394,6 +14002,7 @@
       "diff_perc_including_failures": 69.79712,
       "diff_perc_excluding_failures": 99.6503
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13416,6 +14025,7 @@
       "diff_perc_including_failures": 68.130325,
       "diff_perc_excluding_failures": 99.66438
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13438,6 +14048,7 @@
       "diff_perc_including_failures": 67.816475,
       "diff_perc_excluding_failures": 99.66628
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13460,6 +14071,7 @@
       "diff_perc_including_failures": 69.51356,
       "diff_perc_excluding_failures": 99.6744
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13482,6 +14094,7 @@
       "diff_perc_including_failures": 69.37211,
       "diff_perc_excluding_failures": 99.65956
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13504,6 +14117,7 @@
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13526,6 +14140,7 @@
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13548,6 +14163,7 @@
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13570,6 +14186,7 @@
       "diff_perc_including_failures": 69.372154,
       "diff_perc_excluding_failures": 99.65963
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13592,6 +14209,7 @@
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13614,6 +14232,7 @@
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13636,6 +14255,7 @@
       "diff_perc_including_failures": 69.37235,
       "diff_perc_excluding_failures": 99.65993
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13658,6 +14278,7 @@
       "diff_perc_including_failures": 69.372345,
       "diff_perc_excluding_failures": 99.659904
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13680,6 +14301,7 @@
       "diff_perc_including_failures": 69.372345,
       "diff_perc_excluding_failures": 99.659904
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13702,6 +14324,7 @@
       "diff_perc_including_failures": 69.37285,
       "diff_perc_excluding_failures": 99.66064
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13724,6 +14347,7 @@
       "diff_perc_including_failures": 70.09593,
       "diff_perc_excluding_failures": 99.650734
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13746,6 +14370,7 @@
       "diff_perc_including_failures": 70.09593,
       "diff_perc_excluding_failures": 99.650734
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13768,6 +14393,7 @@
       "diff_perc_including_failures": 70.79016,
       "diff_perc_excluding_failures": 99.65989
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13790,6 +14416,7 @@
       "diff_perc_including_failures": 70.7702,
       "diff_perc_excluding_failures": 99.6318
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13812,6 +14439,7 @@
       "diff_perc_including_failures": 71.33863,
       "diff_perc_excluding_failures": 99.64097
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13834,6 +14462,7 @@
       "diff_perc_including_failures": 71.71179,
       "diff_perc_excluding_failures": 99.64723
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13856,6 +14485,7 @@
       "diff_perc_including_failures": 71.76388,
       "diff_perc_excluding_failures": 99.71961
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13878,6 +14508,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13900,6 +14531,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13922,6 +14554,7 @@
       "diff_perc_including_failures": 72.36891,
       "diff_perc_excluding_failures": 99.72754
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13944,6 +14577,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13966,6 +14600,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -13988,6 +14623,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14010,6 +14646,7 @@
       "diff_perc_including_failures": 72.36902,
       "diff_perc_excluding_failures": 99.727684
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14032,6 +14669,7 @@
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14054,6 +14692,7 @@
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14076,6 +14715,7 @@
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14098,6 +14738,7 @@
       "diff_perc_including_failures": 72.38188,
       "diff_perc_excluding_failures": 99.74541
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14120,6 +14761,7 @@
       "diff_perc_including_failures": 72.46659,
       "diff_perc_excluding_failures": 99.7427
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14142,6 +14784,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14164,6 +14807,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14186,6 +14830,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14208,6 +14853,7 @@
       "diff_perc_including_failures": 72.435814,
       "diff_perc_excluding_failures": 99.7401
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14230,6 +14876,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14252,6 +14899,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14274,6 +14922,7 @@
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14296,6 +14945,7 @@
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14318,6 +14968,7 @@
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14340,6 +14991,7 @@
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14362,6 +15014,7 @@
       "diff_perc_including_failures": 72.435776,
       "diff_perc_excluding_failures": 99.74005
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14384,6 +15037,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74013
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14406,6 +15060,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14428,6 +15083,7 @@
       "diff_perc_including_failures": 72.43579,
       "diff_perc_excluding_failures": 99.74007
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14450,6 +15106,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14472,6 +15129,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14494,6 +15152,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14516,6 +15175,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14538,6 +15198,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14560,6 +15221,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14582,6 +15244,7 @@
       "diff_perc_including_failures": 72.43583,
       "diff_perc_excluding_failures": 99.74011
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14604,6 +15267,7 @@
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14626,6 +15290,7 @@
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14648,6 +15313,7 @@
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14670,6 +15336,7 @@
       "diff_perc_including_failures": 72.4358,
       "diff_perc_excluding_failures": 99.740074
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 0,
     "reused_fontmake_failures": 0
   },
@@ -14692,6 +15359,7 @@
       "diff_perc_including_failures": 72.34894,
       "diff_perc_excluding_failures": 99.73983
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 3,
     "reused_fontmake_failures": 0
   },
@@ -14714,6 +15382,7 @@
       "diff_perc_including_failures": 72.435844,
       "diff_perc_excluding_failures": 99.74014
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2225,
     "reused_fontmake_failures": 0
   },
@@ -14736,6 +15405,7 @@
       "diff_perc_including_failures": 72.436134,
       "diff_perc_excluding_failures": 99.74054
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 3,
     "reused_fontmake_failures": 0
   },
@@ -14758,6 +15428,7 @@
       "diff_perc_including_failures": 72.436134,
       "diff_perc_excluding_failures": 99.74054
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2228,
     "reused_fontmake_failures": 0
   },
@@ -14780,6 +15451,7 @@
       "diff_perc_including_failures": 72.436134,
       "diff_perc_excluding_failures": 99.74054
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2228,
     "reused_fontmake_failures": 0
   },
@@ -14802,6 +15474,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2228,
     "reused_fontmake_failures": 0
   },
@@ -14824,6 +15497,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2260,
     "reused_fontmake_failures": 0
   },
@@ -14846,6 +15520,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2537,
     "reused_fontmake_failures": 0
   },
@@ -14868,6 +15543,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2539,
     "reused_fontmake_failures": 0
   },
@@ -14890,6 +15566,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2536,
     "reused_fontmake_failures": 0
   },
@@ -14912,6 +15589,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2539,
     "reused_fontmake_failures": 0
   },
@@ -14934,6 +15612,7 @@
       "diff_perc_including_failures": 73.36206,
       "diff_perc_excluding_failures": 99.742355
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2538,
     "reused_fontmake_failures": 0
   },
@@ -14956,6 +15635,7 @@
       "diff_perc_including_failures": 73.53588,
       "diff_perc_excluding_failures": 99.742966
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2540,
     "reused_fontmake_failures": 0
   },
@@ -14978,6 +15658,7 @@
       "diff_perc_including_failures": 73.542145,
       "diff_perc_excluding_failures": 99.69368
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2288,
     "reused_fontmake_failures": 0
   },
@@ -15000,6 +15681,7 @@
       "diff_perc_including_failures": 73.542145,
       "diff_perc_excluding_failures": 99.69368
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2545,
     "reused_fontmake_failures": 0
   },
@@ -15022,6 +15704,7 @@
       "diff_perc_including_failures": 73.58454,
       "diff_perc_excluding_failures": 99.75115
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2532,
     "reused_fontmake_failures": 0
   },
@@ -15044,6 +15727,7 @@
       "diff_perc_including_failures": 73.642525,
       "diff_perc_excluding_failures": 99.751366
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2540,
     "reused_fontmake_failures": 0
   },
@@ -15066,6 +15750,7 @@
       "diff_perc_including_failures": 73.67909,
       "diff_perc_excluding_failures": 99.80089
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2545,
     "reused_fontmake_failures": 0
   },
@@ -15088,6 +15773,7 @@
       "diff_perc_including_failures": 73.67909,
       "diff_perc_excluding_failures": 99.80089
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2543,
     "reused_fontmake_failures": 0
   },
@@ -15110,6 +15796,7 @@
       "diff_perc_including_failures": 73.67812,
       "diff_perc_excluding_failures": 99.799576
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2449,
     "reused_fontmake_failures": 0
   },
@@ -15132,6 +15819,7 @@
       "diff_perc_including_failures": 73.67812,
       "diff_perc_excluding_failures": 99.799576
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15154,6 +15842,7 @@
       "diff_perc_including_failures": 73.6822,
       "diff_perc_excluding_failures": 99.80509
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15176,6 +15865,7 @@
       "diff_perc_including_failures": 73.86078,
       "diff_perc_excluding_failures": 99.81186
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15198,6 +15888,7 @@
       "diff_perc_including_failures": 73.85979,
       "diff_perc_excluding_failures": 99.810524
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15220,6 +15911,7 @@
       "diff_perc_including_failures": 73.87805,
       "diff_perc_excluding_failures": 99.835205
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2797,
     "reused_fontmake_failures": 820
   },
@@ -15242,6 +15934,7 @@
       "diff_perc_including_failures": 73.87805,
       "diff_perc_excluding_failures": 99.835205
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2803,
     "reused_fontmake_failures": 820
   },
@@ -15264,6 +15957,7 @@
       "diff_perc_including_failures": 73.87805,
       "diff_perc_excluding_failures": 99.835205
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2799,
     "reused_fontmake_failures": 820
   },
@@ -15286,6 +15980,7 @@
       "diff_perc_including_failures": 73.879036,
       "diff_perc_excluding_failures": 99.83654
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2799,
     "reused_fontmake_failures": 820
   },
@@ -15308,6 +16003,7 @@
       "diff_perc_including_failures": 73.879036,
       "diff_perc_excluding_failures": 99.83654
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2802,
     "reused_fontmake_failures": 820
   },
@@ -15330,6 +16026,7 @@
       "diff_perc_including_failures": 73.87907,
       "diff_perc_excluding_failures": 99.83658
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2789,
     "reused_fontmake_failures": 820
   },
@@ -15352,6 +16049,7 @@
       "diff_perc_including_failures": 73.87915,
       "diff_perc_excluding_failures": 99.836685
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2795,
     "reused_fontmake_failures": 820
   },
@@ -15374,6 +16072,7 @@
       "diff_perc_including_failures": 73.87915,
       "diff_perc_excluding_failures": 99.836685
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2803,
     "reused_fontmake_failures": 820
   },
@@ -15396,6 +16095,7 @@
       "diff_perc_including_failures": 73.87915,
       "diff_perc_excluding_failures": 99.836685
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2806,
     "reused_fontmake_failures": 820
   },
@@ -15418,6 +16118,7 @@
       "diff_perc_including_failures": 73.879135,
       "diff_perc_excluding_failures": 99.83666
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2767,
     "reused_fontmake_failures": 820
   },
@@ -15440,6 +16141,7 @@
       "diff_perc_including_failures": 73.879135,
       "diff_perc_excluding_failures": 99.83666
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2805,
     "reused_fontmake_failures": 820
   },
@@ -15462,6 +16164,7 @@
       "diff_perc_including_failures": 73.87915,
       "diff_perc_excluding_failures": 99.83669
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15484,6 +16187,7 @@
       "diff_perc_including_failures": 73.87963,
       "diff_perc_excluding_failures": 99.83733
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15506,6 +16210,7 @@
       "diff_perc_including_failures": 73.879745,
       "diff_perc_excluding_failures": 99.83749
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 19
   },
@@ -15528,6 +16233,7 @@
       "diff_perc_including_failures": 73.90877,
       "diff_perc_excluding_failures": 99.87672
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2799,
     "reused_fontmake_failures": 824
   },
@@ -15550,6 +16256,7 @@
       "diff_perc_including_failures": 73.90598,
       "diff_perc_excluding_failures": 99.87295
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2802,
     "reused_fontmake_failures": 824
   },
@@ -15572,6 +16279,7 @@
       "diff_perc_including_failures": 73.90598,
       "diff_perc_excluding_failures": 99.87295
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2806,
     "reused_fontmake_failures": 824
   },
@@ -15594,6 +16302,7 @@
       "diff_perc_including_failures": 73.90598,
       "diff_perc_excluding_failures": 99.87295
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2805,
     "reused_fontmake_failures": 824
   },
@@ -15616,6 +16325,7 @@
       "diff_perc_including_failures": 73.90598,
       "diff_perc_excluding_failures": 99.87295
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2806,
     "reused_fontmake_failures": 824
   },
@@ -15638,6 +16348,7 @@
       "diff_perc_including_failures": 74.07986,
       "diff_perc_excluding_failures": 99.873184
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 19
   },
@@ -15660,6 +16371,7 @@
       "diff_perc_including_failures": 74.07986,
       "diff_perc_excluding_failures": 99.873184
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2812,
     "reused_fontmake_failures": 824
   },
@@ -15682,6 +16394,7 @@
       "diff_perc_including_failures": 74.08107,
       "diff_perc_excluding_failures": 99.87483
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 19
   },
@@ -15704,6 +16417,7 @@
       "diff_perc_including_failures": 74.104195,
       "diff_perc_excluding_failures": 99.82799
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2809,
     "reused_fontmake_failures": 824
   },
@@ -15726,6 +16440,7 @@
       "diff_perc_including_failures": 74.105545,
       "diff_perc_excluding_failures": 99.8298
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2821,
     "reused_fontmake_failures": 824
   },
@@ -15748,6 +16463,7 @@
       "diff_perc_including_failures": 74.105545,
       "diff_perc_excluding_failures": 99.8298
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2826,
     "reused_fontmake_failures": 824
   },
@@ -15770,6 +16486,7 @@
       "diff_perc_including_failures": 74.105545,
       "diff_perc_excluding_failures": 99.8298
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2826,
     "reused_fontmake_failures": 824
   },
@@ -15792,6 +16509,7 @@
       "diff_perc_including_failures": 74.22133,
       "diff_perc_excluding_failures": 99.829865
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2826,
     "reused_fontmake_failures": 824
   },
@@ -15814,6 +16532,7 @@
       "diff_perc_including_failures": 74.2194,
       "diff_perc_excluding_failures": 99.82726
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2824,
     "reused_fontmake_failures": 824
   },
@@ -15836,6 +16555,7 @@
       "diff_perc_including_failures": 79.92602,
       "diff_perc_excluding_failures": 99.871346
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15858,6 +16578,7 @@
       "diff_perc_including_failures": 79.92603,
       "diff_perc_excluding_failures": 99.87135
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2838,
     "reused_fontmake_failures": 632
   },
@@ -15880,6 +16601,7 @@
       "diff_perc_including_failures": 79.92603,
       "diff_perc_excluding_failures": 99.87135
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2839,
     "reused_fontmake_failures": 632
   },
@@ -15902,6 +16624,7 @@
       "diff_perc_including_failures": 80.24438,
       "diff_perc_excluding_failures": 99.87124
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15924,6 +16647,7 @@
       "diff_perc_including_failures": 80.24438,
       "diff_perc_excluding_failures": 99.87124
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2839,
     "reused_fontmake_failures": 621
   },
@@ -15946,6 +16670,7 @@
       "diff_perc_including_failures": 80.24438,
       "diff_perc_excluding_failures": 99.87124
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2839,
     "reused_fontmake_failures": 621
   },
@@ -15968,6 +16693,7 @@
       "diff_perc_including_failures": 80.389305,
       "diff_perc_excluding_failures": 99.871475
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -15990,6 +16716,7 @@
       "diff_perc_including_failures": 80.592636,
       "diff_perc_excluding_failures": 99.90822
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -16012,6 +16739,7 @@
       "diff_perc_including_failures": 80.592636,
       "diff_perc_excluding_failures": 99.90822
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2849,
     "reused_fontmake_failures": 617
   },
@@ -16034,6 +16762,7 @@
       "diff_perc_including_failures": 80.592636,
       "diff_perc_excluding_failures": 99.90822
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2849,
     "reused_fontmake_failures": 617
   },
@@ -16056,6 +16785,7 @@
       "diff_perc_including_failures": 80.592636,
       "diff_perc_excluding_failures": 99.90822
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2849,
     "reused_fontmake_failures": 617
   },
@@ -16078,6 +16808,7 @@
       "diff_perc_including_failures": 80.592636,
       "diff_perc_excluding_failures": 99.90823
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2837,
     "reused_fontmake_failures": 617
   },
@@ -16100,6 +16831,7 @@
       "diff_perc_including_failures": 80.62163,
       "diff_perc_excluding_failures": 99.908264
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -16122,6 +16854,7 @@
       "diff_perc_including_failures": 80.62163,
       "diff_perc_excluding_failures": 99.908264
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2849,
     "reused_fontmake_failures": 616
   },
@@ -16144,6 +16877,7 @@
       "diff_perc_including_failures": 80.650604,
       "diff_perc_excluding_failures": 99.90829
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -16166,6 +16900,7 @@
       "diff_perc_including_failures": 80.650604,
       "diff_perc_excluding_failures": 99.90829
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2848,
     "reused_fontmake_failures": 614
   },
@@ -16188,6 +16923,7 @@
       "diff_perc_including_failures": 80.67959,
       "diff_perc_excluding_failures": 99.908325
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2849,
     "reused_fontmake_failures": 614
   },
@@ -16210,6 +16946,7 @@
       "diff_perc_including_failures": 80.67959,
       "diff_perc_excluding_failures": 99.908325
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2850,
     "reused_fontmake_failures": 614
   },
@@ -16232,6 +16969,7 @@
       "diff_perc_including_failures": 80.67959,
       "diff_perc_excluding_failures": 99.908325
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2850,
     "reused_fontmake_failures": 614
   },
@@ -16254,6 +16992,7 @@
       "diff_perc_including_failures": 80.67959,
       "diff_perc_excluding_failures": 99.908325
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 2850,
     "reused_fontmake_failures": 614
   },
@@ -16276,6 +17015,7 @@
       "diff_perc_including_failures": 80.645805,
       "diff_perc_excluding_failures": 99.866486
     },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   },
@@ -16298,6 +17038,30 @@
       "diff_perc_including_failures": 83.48257,
       "diff_perc_excluding_failures": 99.861755
     },
+    "reused_unchanged_results": 0,
+    "reused_cached_results": 5,
+    "reused_fontmake_failures": 20
+  },
+  {
+    "began": "2026-10-16T13:03:09.927946Z",
+    "finished": "2026-10-16T15:42:05.516615Z",
+    "fontc_rev": "e3501ff8",
+    "pip_freeze_sha": "2af9ed3731c3b3cee279ef0bbe19c224cb4e2137  -",
+    "results_file": "2026-10-16-130206.json",
+    "input_file_sha": "8208fe63dd0f2439bfbf1e4d8badfabe08f79d78  /Users/rofls/dev/projects/fontville/fontc_crater/targets.json",
+    "stats": {
+      "total_targets": 3450,
+      "identical": 2629,
+      "produced_diff": 157,
+      "fontc_failed": 42,
+      "fontmake_failed": 64,
+      "both_failed": 453,
+      "other_failure": 7,
+      "accepted_failure": 98,
+      "diff_perc_including_failures": 83.548386,
+      "diff_perc_excluding_failures": 99.94325
+    },
+    "reused_unchanged_results": 0,
     "reused_cached_results": 5,
     "reused_fontmake_failures": 20
   }
