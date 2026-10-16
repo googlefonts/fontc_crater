@@ -476,7 +476,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			743 results</a>
+			744 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -28105,7 +28105,7 @@
 			99.908 <span class="better">+0.037</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2026-10-13 1302 <span class=
 			"deemphasized">(57m8.08s)</span>
@@ -28695,24 +28695,62 @@
 			78.8%
 		</td>
 		<td class="fontc_err">
-			<a href="#fontc-failures">40 <span class=
-			"better">-2</span></a>
+			40 <span class="better">-2</span>
 		</td>
 		<td class="fontmake_err">
-			<a href="#fontmake-failures">64</a>
+			64
 		</td>
 		<td class="both_err">
-			<a href="#both-failures">451 <span class=
-			"better">-2</span></a>
+			451 <span class="better">-2</span>
 		</td>
 		<td class="other_err">
-			<a href="#other-failures">7</a>
+			7
 		</td>
 		<td class="diff_perc">
 			83.664 <span class="better">+0.116</span>
 		</td>
 		<td class="diff_perc_excl">
 			99.943 <span class="worse">-0.000</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2026-10-16 1817 <span class=
+			"deemphasized">(6m0.44s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/244fd7da...244fd7da/">
+			244fd7da</a>
+		</td>
+		<td class="identical">
+			2729 <span class="better">+107</span>
+		</td>
+		<td class="total">
+			3554 <span class="better">+104</span>
+		</td>
+		<td class="identical_perc">
+			79.5%
+		</td>
+		<td class="fontc_err">
+			<a href="#fontc-failures">41 <span class=
+			"worse">+1</span></a>
+		</td>
+		<td class="fontmake_err">
+			<a href="#fontmake-failures">64</a>
+		</td>
+		<td class="both_err">
+			<a href="#both-failures">449 <span class=
+			"better">-2</span></a>
+		</td>
+		<td class="other_err">
+			<a href="#other-failures">7</a>
+		</td>
+		<td class="diff_perc">
+			84.169 <span class="better">+0.505</span>
+		</td>
+		<td class="diff_perc_excl">
+			99.944 <span class="better">+0.001</span>
 		</td>
 		</tr>
 	</tbody>
@@ -28727,7 +28765,7 @@
 	</div>
 	<div class="repo_failures">
 	<h4>
-		failed to find targets for 6 repos
+		failed to find targets for 8 repos
 	</h4>
 	<ul>
 		<li>https://github.com/Gissio/font_tiny5: 'missing source
@@ -28745,300 +28783,2066 @@
 		<li>https://github.com/googlefonts/sawarabi-mincho: 'missing
 		source 'SawarabiMincho.glyphs''
 		</li>
+		<li>https://github.com/silnrsi/font-namdhinggo: 'missing source
+		'source/Namdhinggo.designspace''
+		</li>
+		<li>https://github.com/simoncozens/pushster: 'missing source
+		'Lobster.glyphs''
+		</li>
 		<li>https://gitlab.com/smc/fonts/manjari: 'missing source
 		'sources/Manjari-Bold.ufo''
 		</li>
 	</ul>
 	</div>
+	<div class="surprises">
+	<h4>
+		2 accepted failures have changed
+	</h4>
+	<ul>
+		<li>Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd
+		(default): accepted as failing in both, but it was not in this
+		run. source is a FontLab/FontForge/Superpolator file
+		(.vfb/.sfd/.sp3) or a .zip archive that neither compiler reads;
+		crater shouldn't make a target for it
+		</li>
+		<li>Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd
+		(gftools): accepted as failing in both, but it was not in this
+		run. gftools 0.10.3's crater path asks File.is_variable about
+		the .sfd source and raises 'unsure how to determine if
+		tiny5-Medium.sfd is variable'; behind that, the upstream recipe
+		needs babelfont (SFD reader crashes) and writes ../fonts/ttf,
+		not the output dir
+		</li>
+	</ul>
+	</div>
+	<h4>
+	Added 108 new targets
+	</h4>
+	<ul>
+	<li>googlefonts/creepstercaps/sources/config.yaml
+	CreepsterCaps-Regular.glyphs?8cd28318d3 (default)
+	</li>
+	<li>googlefonts/creepstercaps/sources/config.yaml
+	CreepsterCaps-Regular.glyphs?8cd28318d3 (gftools)
+	</li>
+	<li>googlefonts/herrvonmuellerhoff/sources/config.yaml
+	HerrVonMuellerhoff-Regular.glyphs?174d55adb6 (default)
+	</li>
+	<li>googlefonts/herrvonmuellerhoff/sources/config.yaml
+	HerrVonMuellerhoff-Regular.glyphs?174d55adb6 (gftools)
+	</li>
+	<li>googlefonts/keaniaone/sources/config.yaml
+	KeaniaOne-Regular.glyphs?a07dc92b02 (default)
+	</li>
+	<li>googlefonts/keaniaone/sources/config.yaml
+	KeaniaOne-Regular.glyphs?a07dc92b02 (gftools)
+	</li>
+	<li>googlefonts/kellyslab/sources/config.yaml
+	KellySlab-Regular.glyphs?c51204fc61 (default)
+	</li>
+	<li>googlefonts/kellyslab/sources/config.yaml
+	KellySlab-Regular.glyphs?c51204fc61 (gftools)
+	</li>
+	<li>googlefonts/lovedbytheking/sources/config.yaml
+	LovedbytheKing.glyphs?0ccebbea77 (default)
+	</li>
+	<li>googlefonts/lovedbytheking/sources/config.yaml
+	LovedbytheKing.glyphs?0ccebbea77 (gftools)
+	</li>
+	<li>googlefonts/loveyalikeasister/sources/config.yaml
+	LoveYaLikeASister.glyphs?ac127baf86 (default)
+	</li>
+	<li>googlefonts/loveyalikeasister/sources/config.yaml
+	LoveYaLikeASister.glyphs?ac127baf86 (gftools)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Bold.glyphs?f290b8dc76 (default)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Bold.glyphs?f290b8dc76 (gftools)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-BoldItalic.glyphs?f290b8dc76 (default)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-BoldItalic.glyphs?f290b8dc76 (gftools)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Italic.glyphs?f290b8dc76 (default)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Italic.glyphs?f290b8dc76 (gftools)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Regular.glyphs?f290b8dc76 (default)
+	</li>
+	<li>googlefonts/marvel/sources/config.yaml
+	Marvel-Regular.glyphs?f290b8dc76 (gftools)
+	</li>
+	<li>googlefonts/medulaone/sources/config.yaml
+	MedulaOne-Regular.glyphs?4a34502cf7 (default)
+	</li>
+	<li>googlefonts/medulaone/sources/config.yaml
+	MedulaOne-Regular.glyphs?4a34502cf7 (gftools)
+	</li>
+	<li>googlefonts/meiescript/sources/config.yaml
+	MeieScript-Regular.glyphs?fece0d7d05 (default)
+	</li>
+	<li>googlefonts/meiescript/sources/config.yaml
+	MeieScript-Regular.glyphs?fece0d7d05 (gftools)
+	</li>
+	<li>googlefonts/missfajardose/sources/config.yaml
+	MissFajardose-Regular.glyphs?b8ef73ad16 (default)
+	</li>
+	<li>googlefonts/missfajardose/sources/config.yaml
+	MissFajardose-Regular.glyphs?b8ef73ad16 (gftools)
+	</li>
+	<li>googlefonts/monsieurladoulaise/sources/config.yaml
+	MonsieurLaDoulaise-Regular.glyphs?66fdca6107 (default)
+	</li>
+	<li>googlefonts/monsieurladoulaise/sources/config.yaml
+	MonsieurLaDoulaise-Regular.glyphs?66fdca6107 (gftools)
+	</li>
+	<li>googlefonts/mrdafoe/sources/config.yaml
+	MrDafoe-Regular.glyphs?eb7a5c3671 (default)
+	</li>
+	<li>googlefonts/mrdafoe/sources/config.yaml
+	MrDafoe-Regular.glyphs?eb7a5c3671 (gftools)
+	</li>
+	<li>googlefonts/mrdehaviland/sources/config.yaml
+	MrDeHaviland-Regular.glyphs?f92c920102 (default)
+	</li>
+	<li>googlefonts/mrdehaviland/sources/config.yaml
+	MrDeHaviland-Regular.glyphs?f92c920102 (gftools)
+	</li>
+	<li>googlefonts/mrssaintdelafield/sources/config.yaml
+	MrsSaintDelafield-Regular.glyphs?c0873de00c (default)
+	</li>
+	<li>googlefonts/mrssaintdelafield/sources/config.yaml
+	MrsSaintDelafield-Regular.glyphs?c0873de00c (gftools)
+	</li>
+	<li>googlefonts/mrssheppards/sources/config.yaml
+	MrsSheppards-Regular.glyphs?23a001ba79 (default)
+	</li>
+	<li>googlefonts/mrssheppards/sources/config.yaml
+	MrsSheppards-Regular.glyphs?23a001ba79 (gftools)
+	</li>
+	<li>googlefonts/novacut/sources/config.yaml
+	NovaCut.glyphs?90cd83c4dd (default)
+	</li>
+	<li>googlefonts/novacut/sources/config.yaml
+	NovaCut.glyphs?90cd83c4dd (gftools)
+	</li>
+	<li>googlefonts/novaflat/sources/config.yaml
+	NovaFlat.glyphs?8304f556ab (default)
+	</li>
+	<li>googlefonts/novaflat/sources/config.yaml
+	NovaFlat.glyphs?8304f556ab (gftools)
+	</li>
+	<li>googlefonts/novaoval/sources/config.yaml
+	NovaOval.glyphs?18f803cf68 (default)
+	</li>
+	<li>googlefonts/novaoval/sources/config.yaml
+	NovaOval.glyphs?18f803cf68 (gftools)
+	</li>
+	<li>googlefonts/novaround/sources/config.yaml
+	NovaRound.glyphs?8f84b5459d (default)
+	</li>
+	<li>googlefonts/novaround/sources/config.yaml
+	NovaRound.glyphs?8f84b5459d (gftools)
+	</li>
+	<li>googlefonts/novaslim/sources/config.yaml
+	NovaSlim.glyphs?e7bcda8f60 (default)
+	</li>
+	<li>googlefonts/novaslim/sources/config.yaml
+	NovaSlim.glyphs?e7bcda8f60 (gftools)
+	</li>
+	<li>googlefonts/novasquare/sources/config.yaml
+	NovaSquare.glyphs?1c1b71e3b6 (default)
+	</li>
+	<li>googlefonts/novasquare/sources/config.yaml
+	NovaSquare.glyphs?1c1b71e3b6 (gftools)
+	</li>
+	<li>googlefonts/numans/sources/config.yaml
+	Numans-Regular.glyphs?8ce300194e (default)
+	</li>
+	<li>googlefonts/numans/sources/config.yaml
+	Numans-Regular.glyphs?8ce300194e (gftools)
+	</li>
+	<li>googlefonts/overlocksc/sources/config.yaml
+	OverlockSC-Regular.glyphs?4aeced9bec (default)
+	</li>
+	<li>googlefonts/overlocksc/sources/config.yaml
+	OverlockSC-Regular.glyphs?4aeced9bec (gftools)
+	</li>
+	<li>googlefonts/overtherainbow/sources/config.yaml
+	OvertheRainbow.glyphs?38ae8bf620 (default)
+	</li>
+	<li>googlefonts/overtherainbow/sources/config.yaml
+	OvertheRainbow.glyphs?38ae8bf620 (gftools)
+	</li>
+	<li>googlefonts/patuaone/sources/config.yaml
+	PatuaOne-Regular.glyphs?0073acdf38 (default)
+	</li>
+	<li>googlefonts/patuaone/sources/config.yaml
+	PatuaOne-Regular.glyphs?0073acdf38 (gftools)
+	</li>
+	<li>googlefonts/piedra/sources/config.yaml
+	Piedra-Regular.glyphs?3de595b680 (default)
+	</li>
+	<li>googlefonts/piedra/sources/config.yaml
+	Piedra-Regular.glyphs?3de595b680 (gftools)
+	</li>
+	<li>googlefonts/pirataone/sources/config.yaml
+	PirataOne-Regular.glyphs?1b0f68b6b2 (default)
+	</li>
+	<li>googlefonts/pirataone/sources/config.yaml
+	PirataOne-Regular.glyphs?1b0f68b6b2 (gftools)
+	</li>
+	<li>googlefonts/portlligatsans/sources/config.yaml
+	PortLligatSans-Regular.glyphs?0f84e3c240 (default)
+	</li>
+	<li>googlefonts/portlligatsans/sources/config.yaml
+	PortLligatSans-Regular.glyphs?0f84e3c240 (gftools)
+	</li>
+	<li>googlefonts/portlligatslab/sources/config.yaml
+	PortLligatSlab-Regular.glyphs?c8a1033909 (default)
+	</li>
+	<li>googlefonts/portlligatslab/sources/config.yaml
+	PortLligatSlab-Regular.glyphs?c8a1033909 (gftools)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Bold.glyphs?c5d7ace521 (default)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Bold.glyphs?c5d7ace521 (gftools)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-BoldItalic.glyphs?c5d7ace521 (default)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-BoldItalic.glyphs?c5d7ace521 (gftools)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Italic.glyphs?c5d7ace521 (default)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Italic.glyphs?c5d7ace521 (gftools)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Regular.glyphs?c5d7ace521 (default)
+	</li>
+	<li>googlefonts/puritan/sources/config.yaml
+	Puritan-Regular.glyphs?c5d7ace521 (gftools)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Bold.glyphs?1a0cb10889 (default)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Bold.glyphs?1a0cb10889 (gftools)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-BoldItalic.glyphs?1a0cb10889 (default)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-BoldItalic.glyphs?1a0cb10889 (gftools)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Italic.glyphs?1a0cb10889 (default)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Italic.glyphs?1a0cb10889 (gftools)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Regular.glyphs?1a0cb10889 (default)
+	</li>
+	<li>googlefonts/quantico/sources/config.yaml
+	Quantico-Regular.glyphs?1a0cb10889 (gftools)
+	</li>
+	<li>googlefonts/rochester/sources/config.yaml
+	Rochester-Regular.glyphs?dc1cfd08f2 (default)
+	</li>
+	<li>googlefonts/rochester/sources/config.yaml
+	Rochester-Regular.glyphs?dc1cfd08f2 (gftools)
+	</li>
+	<li>googlefonts/rufina/sources/config.yaml
+	Rufina-Bold.glyphs?256f968dc4 (default)
+	</li>
+	<li>googlefonts/rufina/sources/config.yaml
+	Rufina-Bold.glyphs?256f968dc4 (gftools)
+	</li>
+	<li>googlefonts/rufina/sources/config.yaml
+	Rufina-Regular.glyphs?256f968dc4 (default)
+	</li>
+	<li>googlefonts/rufina/sources/config.yaml
+	Rufina-Regular.glyphs?256f968dc4 (gftools)
+	</li>
+	<li>googlefonts/russoone/sources/config.yaml
+	RussoOne-Regular.glyphs?c3624ce1f3 (default)
+	</li>
+	<li>googlefonts/russoone/sources/config.yaml
+	RussoOne-Regular.glyphs?c3624ce1f3 (gftools)
+	</li>
+	<li>googlefonts/sixcaps/sources/config.yaml
+	SixCaps.glyphs?de9fac499d (default)
+	</li>
+	<li>googlefonts/sixcaps/sources/config.yaml
+	SixCaps.glyphs?de9fac499d (gftools)
+	</li>
+	<li>googlefonts/spirax/sources/config.yaml
+	Spirax-Regular.glyphs?32281bec8b (default)
+	</li>
+	<li>googlefonts/spirax/sources/config.yaml
+	Spirax-Regular.glyphs?32281bec8b (gftools)
+	</li>
+	<li>googlefonts/squadaone/sources/config.yaml
+	SquadaOne-Regular.glyphs?53fb1e38c5 (default)
+	</li>
+	<li>googlefonts/squadaone/sources/config.yaml
+	SquadaOne-Regular.glyphs?53fb1e38c5 (gftools)
+	</li>
+	<li>googlefonts/swankyandmoomoo/sources/config.yaml
+	SwankyandMooMoo.glyphs?2a7b182ac1 (default)
+	</li>
+	<li>googlefonts/swankyandmoomoo/sources/config.yaml
+	SwankyandMooMoo.glyphs?2a7b182ac1 (gftools)
+	</li>
+	<li>googlefonts/thegirlnextdoor/sources/config.yaml
+	TheGirlNextDoor.glyphs?e591dbc5cd (default)
+	</li>
+	<li>googlefonts/thegirlnextdoor/sources/config.yaml
+	TheGirlNextDoor.glyphs?e591dbc5cd (gftools)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Bold.glyphs?3a72aad610 (default)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Bold.glyphs?3a72aad610 (gftools)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Italic.glyphs?3a72aad610 (default)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Italic.glyphs?3a72aad610 (gftools)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Regular.glyphs?3a72aad610 (default)
+	</li>
+	<li>googlefonts/trochut/sources/config.yaml
+	Trochut-Regular.glyphs?3a72aad610 (gftools)
+	</li>
+	<li>googlefonts/tulpenone/sources/config.yaml
+	TulpenOne-Regular.glyphs?991f5684e0 (default)
+	</li>
+	<li>googlefonts/tulpenone/sources/config.yaml
+	TulpenOne-Regular.glyphs?991f5684e0 (gftools)
+	</li>
+	<li>googlefonts/wendyone/sources/config.yaml
+	WendyOne-Regular.glyphs?2a55e184f1 (default)
+	</li>
+	<li>googlefonts/wendyone/sources/config.yaml
+	WendyOne-Regular.glyphs?2a55e184f1 (gftools)
+	</li>
+	</ul>
+	<h4>
+	Lost 4 old targets
+	</h4>
+	<ul>
+	<li>Gissio/font_tiny5/sources/config.yaml
+	tiny5-Medium.sfd?1d6e16fe1f (default)
+	</li>
+	<li>Gissio/font_tiny5/sources/config.yaml
+	tiny5-Medium.sfd?1d6e16fe1f (gftools)
+	</li>
+	<li>
+	silnrsi/font-namdhinggo/$VIRTUAL/google/fonts/ofl/namdhinggo/config.yaml
+	source/Namdhinggo.designspace?2c6ac797b0 (default)
+	</li>
+	<li>
+	silnrsi/font-namdhinggo/$VIRTUAL/google/fonts/ofl/namdhinggo/config.yaml
+	source/Namdhinggo.designspace?2c6ac797b0 (gftools)
+	</li>
+	</ul>
+	<h4>
+	Updated sources for 11 targets
+	</h4>
+	<ul>
+	<li>TikTok/TikTokSans: baa2f381f9 → 1cfe2b707a (2 targets)
+	</li>
+	<li>dy/linefont: 347effeda6 → ef58ea1d11 (2 targets)
+	</li>
+	<li>dy/wavefont: 76d6e2cb12 → 76c80f2136 (2 targets)
+	</li>
+	<li>googlefonts/googlesans: fce0e0668e → 5c8f512c5f (2 targets)
+	</li>
+	<li>isaozler/kode-mono: 2d427d3f44 → 3637b85449 (2 targets)
+	</li>
+	<li>notofonts/music: 2c97b9ea69 → 4a20607c89 (1 targets)
+	</li>
+	</ul>
 	<div class="diff_report">
 	<h3 id="diff-report">
 		Diffs
 	</h3>
 	<div class="matching_families">
-		1050 <span class="worse">-1</span> of 1384 total families
-		match.
+		1090 <span class="better">+40</span> of 1424 <span class=
+		"better">+40</span> total families match.
 	</div>
 	<details>
 		<summary>
-		<span class="font_path">Bahianita.glyphs <em>(gftools)</em>
-		✎</span><span class="diff_result">100.000% <span class=
-		"better">+100.000</span></span>
-		</summary>
-		<div class="diff_info">
-		<a href="https://github.com/Omnibus-Type/Bahiana">view
-		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/Omnibus-Type/Bahiana?0efedac55f#Bahianita/sources/Bahianita.glyphs' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/bahianita/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>crash on super bezier segments (3+ consecutive
-			off-curve points): <a href=
-			"https://github.com/googlefonts/fontc/issues/1997">
-				https://github.com/googlefonts/fontc/issues/1997</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">Agbalumo/Agbalumo.glyphspackage
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+0.001</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				meta
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+25.000</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.001</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/SorkinType/Agbalumo">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Agbalumo/sources/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>ufo2fontir trims spaces from the meta dlng/slng
-			tags ('Latn, Am' becomes 'Latn,Am'); ufo2ft writes
-			glyphsLib's string as-is
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">Asset/Asset.glyphs
+		<span class=
+		"font_path">creepstercaps/CreepsterCaps-Regular.glyphs
 		<em>(default)</em></span><span class="diff_result">100.000%
-		<span class="better">+0.002</span></span>
+		<span class="better">+100.000</span></span>
 		</summary>
 		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				OS_2
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+1.923</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.002</span>
-			</td>
-			</tr>
-		</table><a href="https://github.com/SorkinType/Asset">view
+		<a href="https://github.com/googlefonts/creepstercaps">view
 		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SorkinType/Asset?8b65aa032c#sources/Asset.glyphs'&quot;);">
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/creepstercaps?8cd28318d3#sources/CreepsterCaps-Regular.glyphs'&quot;);">
 		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SorkinType/Asset/sources/config.yaml Asset.glyphs (default)&quot;);">
+		"event.preventDefault(); openModal(&quot;googlefonts/creepstercaps/sources/config.yaml CreepsterCaps-Regular.glyphs (default)&quot;);">
 		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
-		<span class="font_path">Sankofa-Display/Sankofa.glyphs
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+0.001</span></span>
+		<span class=
+		"font_path">creepstercaps/CreepsterCaps-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
 		</summary>
 		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				meta
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+12.500</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+0.001</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/batsimadz/Sankofa-Display">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/batsimadz/Sankofa-Display?078848b905#sources/Sankofa.glyphs' --compare gftools --config ~/.fontc_crater_cache/batsimadz/Sankofa-Display/sources/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>ufo2fontir trims spaces from the meta dlng/slng
-			tags ('Latn, Am' becomes 'Latn,Am'); ufo2ft writes
-			glyphsLib's string as-is
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">VocesFont/Voces.glyphs
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+100.000</span></span>
-		</summary>
-		<div class="diff_info">
-		<a href="https://github.com/googlefonts/VocesFont">view
+		<a href="https://github.com/googlefonts/creepstercaps">view
 		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/VocesFont?48b989992d#sources/Voces.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/VocesFont/sources/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>norad rejects more than 14
-			postscriptBlueValues, and glyphsLib writes a blue
-			pair for every alignment zone into the instance
-			UFO; fontmake doesn't validate it: <a href=
-			"https://github.com/googlefonts/fontc/issues/2241">
-				https://github.com/googlefonts/fontc/issues/2241</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/creepstercaps?8cd28318d3#sources/CreepsterCaps-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/creepstercaps/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/creepstercaps/sources/config.yaml CreepsterCaps-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
-		<span class="font_path">Badeen-Display/BadeenDisplay.glyphs
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+100.000</span></span>
+		<span class=
+		"font_path">herrvonmuellerhoff/HerrVonMuellerhoff-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
 		</summary>
 		<div class="diff_info">
 		<a href=
-		"https://github.com/haniadnansd/Badeen-Display">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/haniadnansd/Badeen-Display?c1370b602b#source/BadeenDisplay.glyphs' --compare gftools --config ~/.fontc_crater_cache/haniadnansd/Badeen-Display/source/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>norad rejects more than 14
-			postscriptBlueValues, and glyphsLib writes a blue
-			pair for every alignment zone into the instance
-			UFO; fontmake doesn't validate it: <a href=
-			"https://github.com/googlefonts/fontc/issues/2241">
-				https://github.com/googlefonts/fontc/issues/2241</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
+		"https://github.com/googlefonts/herrvonmuellerhoff">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/herrvonmuellerhoff?174d55adb6#sources/HerrVonMuellerhoff-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/herrvonmuellerhoff/sources/config.yaml HerrVonMuellerhoff-Regular.glyphs (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
 		<summary>
-		<span class="font_path">maname-font/Maname.glyphspackage
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+100.000</span></span>
+		<span class=
+		"font_path">herrvonmuellerhoff/HerrVonMuellerhoff-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
 		</summary>
 		<div class="diff_info">
-		<a href="https://github.com/mooniak/maname-font">view
+		<a href=
+		"https://github.com/googlefonts/herrvonmuellerhoff">view
 		source repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/mooniak/maname-font?626ceee131#sources/Maname.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/mooniak/maname-font/sources/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>norad rejects a closed contour where an
-			off-curve point is followed by a line (unexported
-			cedi, colonsign, guarani in the instance UFO);
-			ufoLib loads it and fontmake skips the glyphs:
-			<a href=
-			"https://github.com/googlefonts/fontc/issues/2244">
-				https://github.com/googlefonts/fontc/issues/2244</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/herrvonmuellerhoff?174d55adb6#sources/HerrVonMuellerhoff-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/herrvonmuellerhoff/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/herrvonmuellerhoff/sources/config.yaml HerrVonMuellerhoff-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
 		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">keaniaone/KeaniaOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/keaniaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/keaniaone?a07dc92b02#sources/KeaniaOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/keaniaone/sources/config.yaml KeaniaOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">keaniaone/KeaniaOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/keaniaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/keaniaone?a07dc92b02#sources/KeaniaOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/keaniaone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/keaniaone/sources/config.yaml KeaniaOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">kellyslab/KellySlab-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/kellyslab">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/kellyslab?c51204fc61#sources/KellySlab-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/kellyslab/sources/config.yaml KellySlab-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">kellyslab/KellySlab-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/kellyslab">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/kellyslab?c51204fc61#sources/KellySlab-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/kellyslab/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/kellyslab/sources/config.yaml KellySlab-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">lovedbytheking/LovedbytheKing.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/lovedbytheking">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/lovedbytheking?0ccebbea77#sources/LovedbytheKing.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/lovedbytheking/sources/config.yaml LovedbytheKing.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">lovedbytheking/LovedbytheKing.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/lovedbytheking">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/lovedbytheking?0ccebbea77#sources/LovedbytheKing.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/lovedbytheking/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/lovedbytheking/sources/config.yaml LovedbytheKing.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">loveyalikeasister/LoveYaLikeASister.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/loveyalikeasister">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/loveyalikeasister?ac127baf86#sources/LoveYaLikeASister.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/loveyalikeasister/sources/config.yaml LoveYaLikeASister.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">loveyalikeasister/LoveYaLikeASister.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/loveyalikeasister">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/loveyalikeasister?ac127baf86#sources/LoveYaLikeASister.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/loveyalikeasister/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/loveyalikeasister/sources/config.yaml LoveYaLikeASister.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Bold.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Bold.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Bold.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Bold.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/marvel/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Bold.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-BoldItalic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-BoldItalic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-BoldItalic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-BoldItalic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-BoldItalic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/marvel/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-BoldItalic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Italic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Italic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Italic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Italic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/marvel/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Italic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">marvel/Marvel-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/marvel">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/marvel?f290b8dc76#sources/Marvel-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/marvel/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/marvel/sources/config.yaml Marvel-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">medulaone/MedulaOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/medulaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/medulaone?4a34502cf7#sources/MedulaOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/medulaone/sources/config.yaml MedulaOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">medulaone/MedulaOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/medulaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/medulaone?4a34502cf7#sources/MedulaOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/medulaone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/medulaone/sources/config.yaml MedulaOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">meiescript/MeieScript-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/meiescript">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/meiescript?fece0d7d05#sources/MeieScript-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/meiescript/sources/config.yaml MeieScript-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">meiescript/MeieScript-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/meiescript">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/meiescript?fece0d7d05#sources/MeieScript-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/meiescript/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/meiescript/sources/config.yaml MeieScript-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">missfajardose/MissFajardose-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/missfajardose">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/missfajardose?b8ef73ad16#sources/MissFajardose-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/missfajardose/sources/config.yaml MissFajardose-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">missfajardose/MissFajardose-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/missfajardose">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/missfajardose?b8ef73ad16#sources/MissFajardose-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/missfajardose/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/missfajardose/sources/config.yaml MissFajardose-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">monsieurladoulaise/MonsieurLaDoulaise-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/monsieurladoulaise">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/monsieurladoulaise?66fdca6107#sources/MonsieurLaDoulaise-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/monsieurladoulaise/sources/config.yaml MonsieurLaDoulaise-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">monsieurladoulaise/MonsieurLaDoulaise-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/monsieurladoulaise">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/monsieurladoulaise?66fdca6107#sources/MonsieurLaDoulaise-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/monsieurladoulaise/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/monsieurladoulaise/sources/config.yaml MonsieurLaDoulaise-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">mrdafoe/MrDafoe-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrdafoe">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrdafoe?eb7a5c3671#sources/MrDafoe-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrdafoe/sources/config.yaml MrDafoe-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">mrdafoe/MrDafoe-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrdafoe">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrdafoe?eb7a5c3671#sources/MrDafoe-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/mrdafoe/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrdafoe/sources/config.yaml MrDafoe-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrdehaviland/MrDeHaviland-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrdehaviland">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrdehaviland?f92c920102#sources/MrDeHaviland-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrdehaviland/sources/config.yaml MrDeHaviland-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrdehaviland/MrDeHaviland-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrdehaviland">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrdehaviland?f92c920102#sources/MrDeHaviland-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/mrdehaviland/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrdehaviland/sources/config.yaml MrDeHaviland-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrssaintdelafield/MrsSaintDelafield-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/mrssaintdelafield">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrssaintdelafield?c0873de00c#sources/MrsSaintDelafield-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrssaintdelafield/sources/config.yaml MrsSaintDelafield-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrssaintdelafield/MrsSaintDelafield-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/mrssaintdelafield">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrssaintdelafield?c0873de00c#sources/MrsSaintDelafield-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/mrssaintdelafield/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrssaintdelafield/sources/config.yaml MrsSaintDelafield-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrssheppards/MrsSheppards-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrssheppards">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrssheppards?23a001ba79#sources/MrsSheppards-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrssheppards/sources/config.yaml MrsSheppards-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">mrssheppards/MrsSheppards-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/mrssheppards">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/mrssheppards?23a001ba79#sources/MrsSheppards-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/mrssheppards/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/mrssheppards/sources/config.yaml MrsSheppards-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novacut/NovaCut.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novacut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novacut?90cd83c4dd#sources/NovaCut.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novacut/sources/config.yaml NovaCut.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novacut/NovaCut.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novacut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novacut?90cd83c4dd#sources/NovaCut.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novacut/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novacut/sources/config.yaml NovaCut.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaflat/NovaFlat.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaflat">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaflat?8304f556ab#sources/NovaFlat.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaflat/sources/config.yaml NovaFlat.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaflat/NovaFlat.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaflat">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaflat?8304f556ab#sources/NovaFlat.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novaflat/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaflat/sources/config.yaml NovaFlat.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaoval/NovaOval.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaoval">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaoval?18f803cf68#sources/NovaOval.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaoval/sources/config.yaml NovaOval.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaoval/NovaOval.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaoval">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaoval?18f803cf68#sources/NovaOval.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novaoval/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaoval/sources/config.yaml NovaOval.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaround/NovaRound.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaround">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaround?8f84b5459d#sources/NovaRound.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaround/sources/config.yaml NovaRound.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaround/NovaRound.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaround">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaround?8f84b5459d#sources/NovaRound.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novaround/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaround/sources/config.yaml NovaRound.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaslim/NovaSlim.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaslim">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaslim?e7bcda8f60#sources/NovaSlim.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaslim/sources/config.yaml NovaSlim.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novaslim/NovaSlim.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novaslim">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novaslim?e7bcda8f60#sources/NovaSlim.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novaslim/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novaslim/sources/config.yaml NovaSlim.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novasquare/NovaSquare.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novasquare">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novasquare?1c1b71e3b6#sources/NovaSquare.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novasquare/sources/config.yaml NovaSquare.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">novasquare/NovaSquare.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/novasquare">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/novasquare?1c1b71e3b6#sources/NovaSquare.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/novasquare/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/novasquare/sources/config.yaml NovaSquare.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">numans/Numans-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/numans">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/numans?8ce300194e#sources/Numans-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/numans/sources/config.yaml Numans-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">numans/Numans-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/numans">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/numans?8ce300194e#sources/Numans-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/numans/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/numans/sources/config.yaml Numans-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">overlocksc/OverlockSC-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/overlocksc">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/overlocksc?4aeced9bec#sources/OverlockSC-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/overlocksc/sources/config.yaml OverlockSC-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">overlocksc/OverlockSC-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/overlocksc">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/overlocksc?4aeced9bec#sources/OverlockSC-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/overlocksc/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/overlocksc/sources/config.yaml OverlockSC-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">overtherainbow/OvertheRainbow.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/overtherainbow">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/overtherainbow?38ae8bf620#sources/OvertheRainbow.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/overtherainbow/sources/config.yaml OvertheRainbow.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">overtherainbow/OvertheRainbow.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/overtherainbow">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/overtherainbow?38ae8bf620#sources/OvertheRainbow.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/overtherainbow/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/overtherainbow/sources/config.yaml OvertheRainbow.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">patuaone/PatuaOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/patuaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/patuaone?0073acdf38#sources/PatuaOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/patuaone/sources/config.yaml PatuaOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">patuaone/PatuaOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/patuaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/patuaone?0073acdf38#sources/PatuaOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/patuaone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/patuaone/sources/config.yaml PatuaOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">piedra/Piedra-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/piedra">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/piedra?3de595b680#sources/Piedra-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/piedra/sources/config.yaml Piedra-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">piedra/Piedra-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/piedra">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/piedra?3de595b680#sources/Piedra-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/piedra/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/piedra/sources/config.yaml Piedra-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">pirataone/PirataOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/pirataone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/pirataone?1b0f68b6b2#sources/PirataOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/pirataone/sources/config.yaml PirataOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">pirataone/PirataOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/pirataone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/pirataone?1b0f68b6b2#sources/PirataOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/pirataone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/pirataone/sources/config.yaml PirataOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">portlligatsans/PortLligatSans-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/portlligatsans">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/portlligatsans?0f84e3c240#sources/PortLligatSans-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/portlligatsans/sources/config.yaml PortLligatSans-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">portlligatsans/PortLligatSans-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/portlligatsans">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/portlligatsans?0f84e3c240#sources/PortLligatSans-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/portlligatsans/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/portlligatsans/sources/config.yaml PortLligatSans-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">portlligatslab/PortLligatSlab-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/portlligatslab">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/portlligatslab?c8a1033909#sources/PortLligatSlab-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/portlligatslab/sources/config.yaml PortLligatSlab-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">portlligatslab/PortLligatSlab-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/portlligatslab">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/portlligatslab?c8a1033909#sources/PortLligatSlab-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/portlligatslab/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/portlligatslab/sources/config.yaml PortLligatSlab-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Bold.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Bold.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Bold.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Bold.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/puritan/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Bold.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-BoldItalic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-BoldItalic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-BoldItalic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-BoldItalic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-BoldItalic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/puritan/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-BoldItalic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Italic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Italic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Italic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Italic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/puritan/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Italic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">puritan/Puritan-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/puritan">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/puritan?c5d7ace521#sources/Puritan-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/puritan/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/puritan/sources/config.yaml Puritan-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Bold.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Bold.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Bold.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Bold.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/quantico/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Bold.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-BoldItalic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-BoldItalic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-BoldItalic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-BoldItalic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-BoldItalic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/quantico/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-BoldItalic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Italic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Italic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Italic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Italic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/quantico/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Italic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">quantico/Quantico-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/quantico">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/quantico?1a0cb10889#sources/Quantico-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/quantico/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/quantico/sources/config.yaml Quantico-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rochester/Rochester-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rochester">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rochester?dc1cfd08f2#sources/Rochester-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rochester/sources/config.yaml Rochester-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rochester/Rochester-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rochester">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rochester?dc1cfd08f2#sources/Rochester-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/rochester/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rochester/sources/config.yaml Rochester-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rufina/Rufina-Bold.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rufina">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rufina?256f968dc4#sources/Rufina-Bold.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rufina/sources/config.yaml Rufina-Bold.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rufina/Rufina-Bold.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rufina">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rufina?256f968dc4#sources/Rufina-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/rufina/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rufina/sources/config.yaml Rufina-Bold.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rufina/Rufina-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rufina">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rufina?256f968dc4#sources/Rufina-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rufina/sources/config.yaml Rufina-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">rufina/Rufina-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/rufina">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/rufina?256f968dc4#sources/Rufina-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/rufina/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/rufina/sources/config.yaml Rufina-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">russoone/RussoOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/russoone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/russoone?c3624ce1f3#sources/RussoOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/russoone/sources/config.yaml RussoOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">russoone/RussoOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/russoone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/russoone?c3624ce1f3#sources/RussoOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/russoone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/russoone/sources/config.yaml RussoOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">sixcaps/SixCaps.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/sixcaps">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/sixcaps?de9fac499d#sources/SixCaps.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/sixcaps/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/sixcaps/sources/config.yaml SixCaps.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">spirax/Spirax-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/spirax">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/spirax?32281bec8b#sources/Spirax-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/spirax/sources/config.yaml Spirax-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">spirax/Spirax-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/spirax">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/spirax?32281bec8b#sources/Spirax-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/spirax/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/spirax/sources/config.yaml Spirax-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">squadaone/SquadaOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/squadaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/squadaone?53fb1e38c5#sources/SquadaOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/squadaone/sources/config.yaml SquadaOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">squadaone/SquadaOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/squadaone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/squadaone?53fb1e38c5#sources/SquadaOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/squadaone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/squadaone/sources/config.yaml SquadaOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">swankyandmoomoo/SwankyandMooMoo.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/swankyandmoomoo">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/swankyandmoomoo?2a7b182ac1#sources/SwankyandMooMoo.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/swankyandmoomoo/sources/config.yaml SwankyandMooMoo.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">swankyandmoomoo/SwankyandMooMoo.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/swankyandmoomoo">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/swankyandmoomoo?2a7b182ac1#sources/SwankyandMooMoo.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/swankyandmoomoo/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/swankyandmoomoo/sources/config.yaml SwankyandMooMoo.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">thegirlnextdoor/TheGirlNextDoor.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/thegirlnextdoor">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/thegirlnextdoor?e591dbc5cd#sources/TheGirlNextDoor.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/thegirlnextdoor/sources/config.yaml TheGirlNextDoor.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class=
+		"font_path">thegirlnextdoor/TheGirlNextDoor.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href=
+		"https://github.com/googlefonts/thegirlnextdoor">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/thegirlnextdoor?e591dbc5cd#sources/TheGirlNextDoor.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/thegirlnextdoor/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/thegirlnextdoor/sources/config.yaml TheGirlNextDoor.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Bold.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Bold.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Bold.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Bold.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/trochut/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Bold.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Italic.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Italic.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Italic.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Italic.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/trochut/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Italic.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">trochut/Trochut-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/trochut">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/trochut?3a72aad610#sources/Trochut-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/trochut/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/trochut/sources/config.yaml Trochut-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">tulpenone/TulpenOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/tulpenone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/tulpenone?991f5684e0#sources/TulpenOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/tulpenone/sources/config.yaml TulpenOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">tulpenone/TulpenOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/tulpenone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/tulpenone?991f5684e0#sources/TulpenOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/tulpenone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/tulpenone/sources/config.yaml TulpenOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">wendyone/WendyOne-Regular.glyphs
+		<em>(default)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/wendyone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/wendyone?2a55e184f1#sources/WendyOne-Regular.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/wendyone/sources/config.yaml WendyOne-Regular.glyphs (default)&quot;);">
+		new annotation</a>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">wendyone/WendyOne-Regular.glyphs
+		<em>(gftools)</em></span><span class="diff_result">100.000%
+		<span class="better">+100.000</span></span>
+		</summary>
+		<div class="diff_info">
+		<a href="https://github.com/googlefonts/wendyone">view
+		source repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/wendyone?2a55e184f1#sources/WendyOne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/wendyone/sources/config.yaml&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/wendyone/sources/config.yaml WendyOne-Regular.glyphs (gftools)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -29217,8 +31021,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Agbalumo/Agbalumo.glyphspackage
-		<em>(default)</em></span><span class="diff_result">99.999%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29238,7 +31042,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29246,7 +31050,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.999% <span class="worse">-0.001</span>
+				99.999%
 			</td>
 			</tr>
 		</table><a href=
@@ -29261,8 +31065,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Menbere/Menbere.glyphspackage
-		<em>(default)</em></span><span class="diff_result">99.999%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29282,7 +31086,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				87.500% <span class="worse">-12.500</span>
+				87.500%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29290,7 +31094,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				100.000% <span class="worse">-0.000</span>
+				100.000%
 			</td>
 			</tr>
 		</table><a href=
@@ -29305,8 +31109,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Menbere/Menbere.glyphspackage
-		<em>(gftools)</em></span><span class="diff_result">99.999%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29326,7 +31130,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				87.500% <span class="worse">-12.500</span>
+				87.500%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29334,7 +31138,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				100.000% <span class="worse">-0.000</span>
+				100.000%
 			</td>
 			</tr>
 		</table><a href=
@@ -29551,8 +31355,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Sankofa-Display/Sankofa.glyphs
-		<em>(default)</em></span><span class="diff_result">99.999%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29572,7 +31376,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				87.500% <span class="worse">-12.500</span>
+				87.500%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29580,7 +31384,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.999% <span class="worse">-0.001</span>
+				99.999%
 			</td>
 			</tr>
 		</table><a href=
@@ -29930,8 +31734,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Estedad/Estedad.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.998%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.998%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29951,7 +31755,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29959,7 +31763,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.999% <span class="worse">-0.001</span>
+				99.999%
 			</td>
 			</tr>
 		</table><a href=
@@ -29974,8 +31778,8 @@
 	<details>
 		<summary>
 		<span class="font_path">Estedad/Estedad.glyphs
-		<em>(default)</em></span><span class="diff_result">99.998%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.998%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -29995,7 +31799,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30003,7 +31807,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.999% <span class="worse">-0.001</span>
+				99.999%
 			</td>
 			</tr>
 		</table><a href=
@@ -30567,8 +32371,8 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.997%
-		<span class="worse">-0.003</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.997%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -30588,7 +32392,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30596,7 +32400,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.997% <span class="worse">-0.003</span>
+				99.997%
 			</td>
 			</tr>
 		</table><a href="https://github.com/SUSE/suse-font">view
@@ -30610,8 +32414,8 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(default)</em></span><span class="diff_result">99.997%
-		<span class="worse">-0.003</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.997%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -30631,7 +32435,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30639,7 +32443,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.997% <span class="worse">-0.003</span>
+				99.997%
 			</td>
 			</tr>
 		</table><a href="https://github.com/SUSE/suse-font">view
@@ -30710,8 +32514,8 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.996%
-		<span class="worse">-0.003</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -30731,7 +32535,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30739,7 +32543,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.997% <span class="worse">-0.003</span>
+				99.997%
 			</td>
 			</tr>
 		</table><a href="https://github.com/SUSE/suse-font">view
@@ -30820,8 +32624,8 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE.glyphs
-		<em>(default)</em></span><span class="diff_result">99.996%
-		<span class="worse">-0.003</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -30841,7 +32645,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30849,7 +32653,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.997% <span class="worse">-0.003</span>
+				99.997%
 			</td>
 			</tr>
 		</table><a href="https://github.com/SUSE/suse-font">view
@@ -30930,8 +32734,8 @@
 	<details>
 		<summary>
 		<span class="font_path">StrichpunktSans.glyphs
-		<em>(default)</em></span><span class="diff_result">99.996%
-		<span class="worse">-0.003</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -30951,7 +32755,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -30959,7 +32763,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.997% <span class="worse">-0.003</span>
+				99.997%
 			</td>
 			</tr>
 		</table><a href=
@@ -31895,100 +33699,6 @@
 	</details>
 	<details>
 		<summary>
-		<span class="font_path">GoogleSans.designspace
-		<em>(default)</em> ✎</span><span class=
-		"diff_result">99.992%</span> <span class=
-		"changed_tag_list">((mark/kern), GPOS, fvar, name)</span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				99.989%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GPOS
-			</td>
-			<td class="table_diff_value">
-				98.582%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				fvar
-			</td>
-			<td class="table_diff_value">
-				98.649%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				name
-			</td>
-			<td class="table_diff_value">
-				88.550%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				99.992%
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/googlesans">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans?fce0e0668e#sources/../source/GoogleSans/GoogleSans.designspace'&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>default fvar instance: fontc reuses nameID
-			2/17; fontTools allocates a new ID because the FEA
-			featureNames add Mac records that 2/17 lack (both
-			valid)
-			</li>
-			<li>several '# Automatic Code' markers for one
-			feature (dist in bangla.fea and telugu-*.fea):
-			ufo2ft inserts the generated kern/dist lookups at
-			the first, fea-rs at the last
-			</li>
-			<li>fontc runs propagateAnchors before
-			decomposeTransformedComponents regardless of the
-			source's filter order: rotated-component Ethiopic
-			composites gain a top anchor: <a href=
-			"https://github.com/googlefonts/fontc/issues/2020">
-				https://github.com/googlefonts/fontc/issues/2020</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
 		<span class="font_path">NotoSansLaoLooped.glyphs
 		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.992%</span> <span class=
@@ -32274,100 +33984,6 @@
 			<a href=
 			"https://github.com/googlefonts/fontc/issues/1990">
 				https://github.com/googlefonts/fontc/issues/1990</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
-	<details>
-		<summary>
-		<span class="font_path">GoogleSans-Italic.designspace
-		<em>(default)</em> ✎</span><span class=
-		"diff_result">99.990%</span> <span class=
-		"changed_tag_list">((mark/kern), GPOS, fvar, name)</span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				(mark/kern)
-			</td>
-			<td class="table_diff_value">
-				99.983%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				GPOS
-			</td>
-			<td class="table_diff_value">
-				99.044%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				fvar
-			</td>
-			<td class="table_diff_value">
-				98.649%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				name
-			</td>
-			<td class="table_diff_value">
-				88.000%
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				99.991%
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/googlefonts/googlesans">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans?fce0e0668e#sources/../source/GoogleSans/GoogleSans-Italic.designspace'&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>default fvar instance: fontc reuses nameID
-			2/17; fontTools allocates a new ID because the FEA
-			featureNames add Mac records that 2/17 lack (both
-			valid)
-			</li>
-			<li>several '# Automatic Code' markers for one
-			feature (dist in bangla.fea and telugu-*.fea):
-			ufo2ft inserts the generated kern/dist lookups at
-			the first, fea-rs at the last
-			</li>
-			<li>fontc runs propagateAnchors before
-			decomposeTransformedComponents regardless of the
-			source's filter order: rotated-component Ethiopic
-			composites gain a top anchor: <a href=
-			"https://github.com/googlefonts/fontc/issues/2020">
-				https://github.com/googlefonts/fontc/issues/2020</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -32858,6 +34474,50 @@
 			</li>
 			</ul>
 		</div>
+		</div>
+	</details>
+	<details>
+		<summary>
+		<span class="font_path">sixcaps/SixCaps.glyphs
+		<em>(default)</em></span><span class="diff_result">99.987%
+		<span class="better">+99.988</span></span><span class=
+		"changed_tag_list">(head)</span>
+		</summary>
+		<div class="diff_info">
+		<table>
+			<thead>
+			<tr>
+				<th class="diff_table" scope="col">
+				table
+				</th>
+				<th class="diff_value" scope="col">
+				value
+				</th>
+			</tr>
+			</thead>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				head
+			</td>
+			<td class="table_diff_value">
+				95.000% <span class="better">+95.000</span>
+			</td>
+			</tr>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				total
+			</td>
+			<td class="table_diff_value">
+				99.988% <span class="better">+99.988</span>
+			</td>
+			</tr>
+		</table><a href=
+		"https://github.com/googlefonts/sixcaps">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/sixcaps?de9fac499d#sources/SixCaps.glyphs'&quot;);">
+		copy reproduction command</a> <a href="#" onclick=
+		"event.preventDefault(); openModal(&quot;googlefonts/sixcaps/sources/config.yaml SixCaps.glyphs (default)&quot;);">
+		new annotation</a>
 		</div>
 	</details>
 	<details>
@@ -33606,8 +35266,7 @@
 		<summary>
 		<span class="font_path">NotoSerifBengali.glyphspackage
 		<em>(default)</em> ✎</span><span class=
-		"diff_result">99.972% <span class=
-		"worse">-0.026</span></span><span class=
+		"diff_result">99.972%</span> <span class=
 		"changed_tag_list">(OS_2, meta, name, sizeof(meta))</span>
 		</summary>
 		<div class="diff_info">
@@ -33635,7 +35294,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="better">+75.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -33659,7 +35318,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.973% <span class="worse">-0.027</span>
+				99.973%
 			</td>
 			</tr>
 		</table><a href="https://github.com/notofonts/bengali">view
@@ -35039,8 +36698,8 @@
 	<details>
 		<summary>
 		<span class="font_path">NotoSansSunuwar.glyphs
-		<em>(default)</em></span><span class="diff_result">99.944%
-		<span class="worse">-0.055</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.944%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
 		<div class="diff_info">
@@ -35060,7 +36719,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -35068,7 +36727,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.945% <span class="worse">-0.055</span>
+				99.945%
 			</td>
 			</tr>
 		</table><a href="https://github.com/notofonts/sunuwar">view
@@ -38040,8 +39699,8 @@
 	<details>
 		<summary>
 		<span class="font_path">parkinsans/Parkinsans.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.696%
-		<span class="worse">-0.303</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.696%</span> <span class=
 		"changed_tag_list">(meta, sizeof(meta))</span>
 		</summary>
 		<div class="diff_info">
@@ -38061,7 +39720,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -38069,7 +39728,7 @@
 				sizeof(meta)
 			</td>
 			<td class="table_diff_value">
-				19B <span class="worse">+18</span>
+				19B
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -38077,7 +39736,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.697% <span class="worse">-0.303</span>
+				99.697%
 			</td>
 			</tr>
 		</table><a href=
@@ -38092,8 +39751,8 @@
 	<details>
 		<summary>
 		<span class="font_path">parkinsans/Parkinsans.glyphs
-		<em>(default)</em></span><span class="diff_result">99.692%
-		<span class="worse">-0.307</span></span><span class=
+		<em>(default)</em></span><span class=
+		"diff_result">99.692%</span> <span class=
 		"changed_tag_list">(meta, sizeof(meta))</span>
 		</summary>
 		<div class="diff_info">
@@ -38113,7 +39772,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="worse">-25.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -38121,7 +39780,7 @@
 				sizeof(meta)
 			</td>
 			<td class="table_diff_value">
-				19B <span class="worse">+18</span>
+				19B
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -38129,7 +39788,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.693% <span class="worse">-0.307</span>
+				99.693%
 			</td>
 			</tr>
 		</table><a href=
@@ -38490,8 +40149,7 @@
 		<summary>
 		<span class="font_path">NotoSansBengali.glyphspackage
 		<em>(default)</em> ✎</span><span class=
-		"diff_result">99.584% <span class=
-		"worse">-0.058</span></span><span class=
+		"diff_result">99.584%</span> <span class=
 		"changed_tag_list">(GPOS, meta, sizeof(meta))</span>
 		</summary>
 		<div class="diff_info">
@@ -38519,7 +40177,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="better">+75.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -38535,7 +40193,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.584% <span class="worse">-0.058</span>
+				99.584%
 			</td>
 			</tr>
 		</table><a href="https://github.com/notofonts/bengali">view
@@ -39779,6 +41437,101 @@
 	</details>
 	<details>
 		<summary>
+		<span class="font_path">GoogleSans.designspace
+		<em>(default)</em> ✎</span><span class=
+		"diff_result">95.769% <span class=
+		"worse">-4.223</span></span><span class=
+		"changed_tag_list">((mark/kern), GPOS, fvar, name)</span>
+		</summary>
+		<div class="diff_info">
+		<table>
+			<thead>
+			<tr>
+				<th class="diff_table" scope="col">
+				table
+				</th>
+				<th class="diff_value" scope="col">
+				value
+				</th>
+			</tr>
+			</thead>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				(mark/kern)
+			</td>
+			<td class="table_diff_value">
+				90.386% <span class="worse">-9.603</span>
+			</td>
+			</tr>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				GPOS
+			</td>
+			<td class="table_diff_value">
+				97.409% <span class="worse">-1.173</span>
+			</td>
+			</tr>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				fvar
+			</td>
+			<td class="table_diff_value">
+				98.649%
+			</td>
+			</tr>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				name
+			</td>
+			<td class="table_diff_value">
+				88.806% <span class="better">+0.256</span>
+			</td>
+			</tr>
+			<tr class="table_diff_row">
+			<td class="table_diff_name">
+				total
+			</td>
+			<td class="table_diff_value">
+				95.769% <span class="worse">-4.223</span>
+			</td>
+			</tr>
+		</table><a href=
+		"https://github.com/googlefonts/googlesans">view source
+		repository</a> <a href="" onclick=
+		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans?5c8f512c5f#sources/../source/GoogleSans/GoogleSans.designspace'&quot;);">
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>default fvar instance: fontc reuses nameID
+			2/17; fontTools allocates a new ID because the FEA
+			featureNames add Mac records that 2/17 lack (both
+			valid)
+			</li>
+			<li>several '# Automatic Code' markers for one
+			feature (dist in bangla.fea and telugu-*.fea):
+			ufo2ft inserts the generated kern/dist lookups at
+			the first, fea-rs at the last
+			</li>
+			<li>fontc runs propagateAnchors before
+			decomposeTransformedComponents regardless of the
+			source's filter order: rotated-component Ethiopic
+			composites gain a top anchor: <a href=
+			"https://github.com/googlefonts/fontc/issues/2020">
+				https://github.com/googlefonts/fontc/issues/2020</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</details>
+	<details>
+		<summary>
 		<span class="font_path">Foldit.glyphs <em>(default)</em>
 		✎</span><span class="diff_result">92.840%</span>
 		<span class="changed_tag_list">(COLR, GlyphOrder, HVAR,
@@ -40213,8 +41966,7 @@
 		<summary>
 		<span class="font_path">NotoNastaliqUrdu.glyphspackage
 		<em>(default)</em> ✎</span><span class=
-		"diff_result">92.461% <span class=
-		"worse">-0.057</span></span><span class=
+		"diff_result">92.461%</span> <span class=
 		"changed_tag_list">(GDEF, GPOS, GSUB, meta,
 		sizeof(meta))</span>
 		</summary>
@@ -40259,7 +42011,7 @@
 				meta
 			</td>
 			<td class="table_diff_value">
-				75.000% <span class="better">+75.000</span>
+				75.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -40275,7 +42027,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				92.461% <span class="worse">-0.057</span>
+				92.461%
 			</td>
 			</tr>
 		</table><a href=
@@ -40811,7 +42563,7 @@
 			name
 		</td>
 		<td>
-			55
+			54
 		</td>
 		</tr>
 		<tr>
@@ -40819,7 +42571,7 @@
 			fvar
 		</td>
 		<td>
-			50
+			49
 		</td>
 		</tr>
 		<tr>
@@ -40851,15 +42603,7 @@
 			(mark/kern)
 		</td>
 		<td>
-			19
-		</td>
-		</tr>
-		<tr>
-		<td>
-			GPOS
-		</td>
-		<td>
-			17
+			18
 		</td>
 		</tr>
 		<tr>
@@ -40876,6 +42620,14 @@
 		</td>
 		<td>
 			17
+		</td>
+		</tr>
+		<tr>
+		<td>
+			GPOS
+		</td>
+		<td>
+			16
 		</td>
 		</tr>
 		<tr>
@@ -40992,6 +42744,14 @@
 		</tr>
 		<tr>
 		<td>
+			head
+		</td>
+		<td>
+			3
+		</td>
+		</tr>
+		<tr>
+		<td>
 			sizeof(GDEF)
 		</td>
 		<td>
@@ -41025,14 +42785,6 @@
 		<tr>
 		<td>
 			DSIG
-		</td>
-		<td>
-			2
-		</td>
-		</tr>
-		<tr>
-		<td>
-			head
 		</td>
 		<td>
 			2
@@ -42670,6 +44422,62 @@
 			ThreadId(1) fontc [1;31mERROR[0m] Missing mapping
 			on Weight for min at DesignSpace(150.0). Mappings
 			[(UserSpace(400.0), DesignSpace(683.0))]
+			</div>
+		</div>
+		</details>
+		<details class="report_group_item">
+		<summary>
+			googlefonts/googlesans/sources/config.yaml
+			../source/GoogleSans/GoogleSans-Italic.designspace?5c8f512c5f
+			(default) 🆕 ✎
+		</summary>
+		<div class="diff_info">
+			<a href=
+			"https://github.com/googlefonts/googlesans">view source
+			repository</a> <a href="" onclick=
+			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans?5c8f512c5f#sources/../source/GoogleSans/GoogleSans-Italic.designspace'&quot;);">
+			copy reproduction command</a>
+			<div class="annotations">
+			<h5>
+				annotations
+			</h5>
+			<ul>
+				<li>default fvar instance: fontc reuses nameID
+				2/17; fontTools allocates a new ID because the
+				FEA featureNames add Mac records that 2/17 lack
+				(both valid)
+				</li>
+				<li>several '# Automatic Code' markers for one
+				feature (dist in bangla.fea and telugu-*.fea):
+				ufo2ft inserts the generated kern/dist lookups
+				at the first, fea-rs at the last
+				</li>
+				<li>fontc runs propagateAnchors before
+				decomposeTransformedComponents regardless of
+				the source's filter order: rotated-component
+				Ethiopic composites gain a top anchor:
+				<a href="https://github.com/googlefonts/fontc/issues/2020">
+				https://github.com/googlefonts/fontc/issues/2020</a>
+				</li>
+				<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+				</li>
+			</ul>
+			</div>
+		</div>
+		<div class="backtrace">
+			<div class="stderr">
+			[2026-10-16T18:18:30.451095Z ThreadId(1)
+			ufo2fontir::source [34mDEBUG[0m] Loaded
+			"designspace" from
+			"/Users/rofls/.fontc_crater_cache/googlefonts/googlesans_5c8f512c5f/source/GoogleSans/GoogleSans-Italic.designspace"
+			[2026-10-16T18:18:30.503001Z ThreadId(1) fontc
+			[1;31mERROR[0m] Reading source failed for
+			'/Users/rofls/.fontc_crater_cache/googlefonts/googlesans_5c8f512c5f/source/GoogleSans/GoogleSansItalic-opsz18-wght380-GRAD0.ufo':
+			failed to load font info data: failed to parse
+			fontinfo.plist file: InvalidIntegerString (offset
+			1956)
 			</div>
 		</div>
 		</details>
@@ -71043,28 +72851,27 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			, most recently Be(GlyfFragment(five))
-			[2026-10-16T17:04:20.194203Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(twosuperior))' failed:
-			''twosuperior' has interpolation-incompatible
-			paths' [2026-10-16T17:04:20.194206Z ThreadId(1)
-			fontc::workload DEBUG] 1143/3432 complete, most
-			recently Be(GlyfFragment(twosuperior))
-			[2026-10-16T17:04:20.194208Z ThreadId(1)
-			fontc::workload ERROR] task
-			'Be(GlyfFragment(gjSS_PHA))' failed: ''gjSS_PHA'
-			has interpolation-incompatible paths'
-			[2026-10-16T17:04:20.194211Z ThreadId(1)
-			fontc::workload DEBUG] 1144/3432 complete, most
-			recently Be(GlyfFragment(gjSS_PHA))
-			[2026-10-16T17:04:20.193793Z ThreadId(6)
-			fontbe::glyphs WARN] g has inconsistent path
-			elements:
-			{"MLLLLLLLLZMLLLLZMLLLLLLLLLLLLLLLLZMLLLLLLLLLLLLLLLLZ",
-			"MLLLLLLLLLLLLLLLLLLZMLLLLLLZ"}
-			[2026-10-16T17:04:20.199396Z ThreadId(1) fontc
-			ERROR] 'gjTH' has interpolation-incompatible paths
+			h DEBUG] ConvertToContour gjDH_NA
+			[2026-10-16T18:18:23.222363Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjDH_VA
+			[2026-10-16T18:18:23.222370Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjDH_YA
+			[2026-10-16T18:18:23.222376Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjD_MA
+			[2026-10-16T18:18:23.222384Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjGH_MA
+			[2026-10-16T18:18:23.222391Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjGH_NA
+			[2026-10-16T18:18:23.222397Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjGH_YA
+			[2026-10-16T18:18:23.222406Z ThreadId(3)
+			fontir::glyph DEBUG] ConvertToContour gjJA_mAA
+			[2026-10-16T18:18:23.217843Z ThreadId(2)
+			fontbe::glyphs WARN] gjmI.24 has inconsistent path
+			elements: {"MLLLLLLLLLLLLLLZ",
+			"MLLLLZMLLLLLLLLLLLLLLLLZ"}
+			[2026-10-16T18:18:23.244323Z ThreadId(1) fontc
+			ERROR] 'gjJ_R' has interpolation-incompatible paths
 			ninja: build stopped: subcommand failed. Cleaning
 			up temporary files... Done cleaning up temporary
 			files
@@ -71132,31 +72939,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			] 1081/3432 complete, most recently Fe(Glyph(d))
-			[2026-10-16T17:04:26.547181Z ThreadId(1)
-			fontc::workload DEBUG] 1082/3432 complete, most
-			recently Fe(Glyph(gjD_BHA))
-			[2026-10-16T17:04:26.547183Z ThreadId(1)
+			s' [2026-10-16T18:18:27.182052Z ThreadId(1)
+			fontc::workload DEBUG] 2082/3432 complete, most
+			recently Be(GlyfFragment(g))
+			[2026-10-16T18:18:27.182054Z ThreadId(1)
 			fontc::workload ERROR] task
-			'Be(GlyfFragment(gjPH_RA))' failed: ''gjPH_RA' has
+			'Be(GlyfFragment(gjmI.32))' failed: ''gjmI.32' has
 			interpolation-incompatible paths'
-			[2026-10-16T17:04:26.547186Z ThreadId(1)
-			fontc::workload DEBUG] 1083/3432 complete, most
-			recently Be(GlyfFragment(gjPH_RA))
-			[2026-10-16T17:04:26.547188Z ThreadId(1)
-			fontc::workload DEBUG] 1084/3432 complete, most
-			recently Fe(Glyph(gjJ_NA))
-			[2026-10-16T17:04:26.547190Z ThreadId(1)
-			fontc::workload DEBUG] 1085/3432 complete, most
-			recently Fe(Glyph(gjG_R))
-			[2026-10-16T17:04:26.547193Z ThreadId(1)
-			fontc::workload DEBUG] 1086/3432 complete, most
-			recently Fe(Glyph(gjDH_RA))
-			[2026-10-16T17:04:26.552313Z ThreadId(1) fontc
-			ERROR] 'gjmI.28' has interpolation-incompatible
-			paths ninja: build stopped: subcommand failed.
-			Cleaning up temporary files... Done cleaning up
-			temporary files
+			[2026-10-16T18:18:27.182057Z ThreadId(1)
+			fontc::workload DEBUG] 2083/3432 complete, most
+			recently Be(GlyfFragment(gjmI.32))
+			[2026-10-16T18:18:27.182059Z ThreadId(1)
+			fontc::workload ERROR] task 'Fe(GlyphOrder)'
+			failed: 'Invalid source glyph 'gjJA_mAA':
+			'components differ between sources: [] at
+			Normalized {XXXX: 1.00, wdth: 0.00, wght: 0.00};
+			[gjJA, gjmAA] at Normalized {XXXX: 0.00, wdth:
+			0.00, wght: 0.00}'' [2026-10-16T18:18:27.182080Z
+			ThreadId(1) fontc::workload DEBUG] 2084/3432
+			complete, most recently Fe(GlyphOrder)
+			[2026-10-16T18:18:27.185677Z ThreadId(1) fontc
+			ERROR] 'f' has interpolation-incompatible paths
+			ninja: build stopped: subcommand failed. Cleaning
+			up temporary files... Done cleaning up temporary
+			files
 			</div>
 		</div>
 		<div class="h5">
@@ -78912,147 +80718,6 @@
 		</details>
 		<details class="report_group_item">
 		<summary>
-			silnrsi/font-namdhinggo/$VIRTUAL/google/fonts/ofl/namdhinggo/config.yaml
-			source/Namdhinggo.designspace?2c6ac797b0 (default) ✎
-		</summary>
-		<div class="diff_info">
-			<a href=
-			"https://github.com/silnrsi/font-namdhinggo">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/silnrsi/font-namdhinggo?2c6ac797b0#source/Namdhinggo.designspace'&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>non-identical feature files across UFO
-				sources that the feature merge can't reconcile
-				(named/contextual lookups or GSUB differ
-				between masters): <a href=
-				"https://github.com/googlefonts/fontc/issues/1552">
-				https://github.com/googlefonts/fontc/issues/1552</a>
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<div class="h5">
-			fontc
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			g generating feature 'kern', which is manually
-			declared in FEA and has no insertion comment.
-			[2026-10-16T17:41:07.391541Z ThreadId(3)
-			fontbe::features::kern [32mINFO[0m] no kerning
-			work to do [2026-10-16T17:41:07.391597Z ThreadId(1)
-			fontc::workload [34mDEBUG[0m] 1873/1889 complete,
-			most recently Be(Marks)
-			[2026-10-16T17:41:07.391603Z ThreadId(1)
-			fontc::workload [34mDEBUG[0m] 1874/1889 complete,
-			most recently Be(GatherBeKerning)
-			[2026-10-16T17:41:07.391606Z ThreadId(1)
-			fontc::workload [34mDEBUG[0m] Be(Marks)
-			successful [2026-10-16T17:41:07.391614Z ThreadId(1)
-			fontc::workload [34mDEBUG[0m] Be(GatherBeKerning)
-			successful [2026-10-16T17:41:07.397414Z ThreadId(1)
-			fontc::workload [34mDEBUG[0m] 1875/1889 complete,
-			most recently Be(Features)
-			[2026-10-16T17:41:07.400368Z ThreadId(1) fontc
-			[1;31mERROR[0m] failed to merge the masters'
-			features: master 1: GPOS lookup 2 ('IkarKWid') in
-			feature kern: DFLT/dflt is a contextual lookup that
-			differs from the default master
-			</div>
-		</div>
-		<div class="h5">
-			fontmake
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			of base master: 0 INFO:fontTools.varLib:Building
-			variable font INFO:fontTools.varLib:Loading master
-			fonts INFO:fontTools.varLib:Dropped 30 on-curve
-			points from simple glyphs in the 'glyf' table
-			INFO:fontTools.varLib:Generating fvar
-			INFO:fontTools.varLib:Building variations tables
-			INFO:fontTools.varLib:Generating avar
-			INFO:fontTools.varLib:Generating MVAR
-			INFO:fontTools.varLib:Generating HVAR
-			INFO:fontTools.varLib:Merging OpenType Layout
-			tables fontmake: Error: In
-			'../../../../../../../../Users/rofls/.fontc_crater_cache/silnrsi/font-namdhinggo_2c6ac797b0/source/Namdhinggo.designspace':
-			Generating fonts from Designspace failed: Couldn't
-			merge the fonts, because some values were
-			different, but should have been the same. This
-			happened while performing the following operation:
-			GPOS.ta
-			ble.LookupList.Lookup[2][0].ChainPosRuleSet[0].ChainPosRule[14].PosLookupRecor
-			d[0].LookupListIndex The problem is likely to be in
-			Namdhinggo ExtraBold: Expected to see
-			.LookupListIndex==17, instead saw 3
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
-			silnrsi/font-namdhinggo/$VIRTUAL/google/fonts/ofl/namdhinggo/config.yaml
-			source/Namdhinggo.designspace?2c6ac797b0 (gftools) ✎
-		</summary>
-		<div class="diff_info">
-			<a href=
-			"https://github.com/silnrsi/font-namdhinggo">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/silnrsi/font-namdhinggo?2c6ac797b0#source/Namdhinggo.designspace' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/namdhinggo/config.yaml&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>non-identical feature files across UFO
-				sources that the feature merge can't reconcile
-				(named/contextual lookups or GSUB differ
-				between masters): <a href=
-				"https://github.com/googlefonts/fontc/issues/1552">
-				https://github.com/googlefonts/fontc/issues/1552</a>
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<div class="h5">
-			fontc
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			gftools produced multiple outputs:
-			['Namdhinggo-Medium.ttf', 'Namdhinggo-Regular.ttf',
-			'Namdhinggo-Bold.ttf', 'Namdhinggo-SemiBold.ttf',
-			'Namdhinggo-ExtraBold.ttf']
-			</div>
-		</div>
-		<div class="h5">
-			fontmake
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			gftools produced multiple outputs:
-			['Namdhinggo-Medium.ttf', 'Namdhinggo-Regular.ttf',
-			'Namdhinggo-Bold.ttf', 'Namdhinggo-SemiBold.ttf',
-			'Namdhinggo-ExtraBold.ttf']
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
 			silnrsi/font-padauk/$VIRTUAL/google/fonts/ofl/padauk/config.yaml
 			source/Padauk.designspace?278b8efb03 (default) ✎
 		</summary>
@@ -83114,14 +84779,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpQL45Gf/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpuV6B1N/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpQL45Gf/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpuV6B1N/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/cyrealtype/Rationale_b12941da53/sources/Rationale.glyphs
-			--emit-debug) I1016 12:46:10.566458 8345330432
+			--emit-debug) I1016 14:17:11.445868 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83195,14 +84860,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpTZnzGd/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp7khYb2/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpTZnzGd/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp7khYb2/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/googlefonts/TangerineFont_9b57a9f9be/sources/Tangerine_Bold.glyphs
-			--emit-debug) I1016 12:30:14.497601 8345330432
+			--emit-debug) I1016 14:18:58.794549 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83276,14 +84941,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpocl6FN/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp3nbkDM/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpocl6FN/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp3nbkDM/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/itfoundry/hind-jalandhar_6d0af0d80b/masters/HindJalandhar.glyphs
-			--emit-debug) I1016 13:00:21.152197 8345330432
+			--emit-debug) I1016 14:18:20.222326 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83390,14 +85055,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp3aTphu/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpIkMtEg/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmp3aTphu/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpIkMtEg/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/jmsole/noticiatext_bcc80c5a33/source/NoticiaText-Bold.glyphs
-			--emit-debug) I1016 13:08:20.854263 8345330432
+			--emit-debug) I1016 14:18:28.407353 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83471,14 +85136,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpTa8vDA/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmplPb2ny/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpTa8vDA/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmplPb2ny/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/jmsole/noticiatext_bcc80c5a33/source/NoticiaText-BoldItalic.glyphs
-			--emit-debug) I1016 13:08:25.498069 8345330432
+			--emit-debug) I1016 14:18:28.791513 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83551,14 +85216,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpPdiGJy/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpFFS1nh/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpPdiGJy/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpFFS1nh/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/jmsole/noticiatext_bcc80c5a33/source/NoticiaText-Italic.glyphs
-			--emit-debug) I1016 13:08:15.859100 8345330432
+			--emit-debug) I1016 14:18:28.110565 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -83632,14 +85297,14 @@
 			unknown error (status 1): 'Detected fontc repository at
 			~/dev/projects/fontville/fontc_crater/fontc Compare
 			default in
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpS6yZDK/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpXasWA4/default
 			(cd
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpS6yZDK/default
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpXasWA4/default
 			&amp;&
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			--build-dir . -o fontc.ttf
 			~/.fontc_crater_cache/jmsole/noticiatext_bcc80c5a33/source/NoticiaText-Regular.glyphs
-			--emit-debug) I1016 13:08:10.781888 8345330432
+			--emit-debug) I1016 14:18:27.765676 8345330432
 			parser.py:148] Parsing .glyphs file Traceback (most
 			recent call last): File "&lt;frozen runpy&gt;", line
 			198, in _run_module_as_main File "&lt;frozen
@@ -84169,159 +85834,6 @@
 		</details>
 		<details class="report_group_item">
 		<summary>
-			Gissio/font_tiny5/sources/config.yaml
-			tiny5-Medium.sfd?1d6e16fe1f (default) ✎
-		</summary>
-		<div class="diff_info">
-			<a href="https://github.com/Gissio/font_tiny5">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/Gissio/font_tiny5?1d6e16fe1f#sources/tiny5-Medium.sfd'&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>source is a FontLab/FontForge/Superpolator
-				file (.vfb/.sfd/.sp3) or a .zip archive that
-				neither compiler reads; crater shouldn't make a
-				target for it
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<p>
-			source is a FontLab/FontForge/Superpolator file
-			(.vfb/.sfd/.sp3) or a .zip archive that neither
-			compiler reads; crater shouldn't make a target for it
-		</p>
-		<div class="h5">
-			fontc
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			[2026-10-16T17:00:09.184003Z ThreadId(1) fontc
-			[1;31mERROR[0m] Unrecognized source
-			/Users/rofls/.fontc_crater_cache/Gissio/font_tiny5_1d6e16fe1f/sources/tiny5-Medium.sfd
-			</div>
-		</div>
-		<div class="h5">
-			fontmake
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			[--indent-json] [--keep-overlaps]
-			[--overlaps-backend BACKEND] [--keep-direction]
-			[--ttf-curves {cu2qu,mixed,keep-quad,keep-cubic}]
-			[-e ERROR] [-f] [-a [AUTOHINT]] [-A]
-			[--cff-round-tolerance FLOAT] [--optimize-cff
-			OPTIMIZE_CFF] [--subroutinizer
-			{compreffor,cffsubr}] [--no-optimize-gvar]
-			[--filter CLASS] [--no-auto-use-my-metrics]
-			[--auto-use-my-metrics] [--drop-implied-oncurves]
-			[--interpolate-binary-layout [MASTER_DIR]]
-			[--feature-writer CLASS] [--debug-feature-file
-			FILE] [--no-variable-features] [--mti-source
-			MTI_SOURCE] [--production-names |
-			--no-production-names] [--subset | --no-subset] [-s
-			| -S] [--timing] [--verbose LEVEL] [INPUTS ...]
-			fontmake: error: Unknown input file extension:
-			'/Users/rofls/.fontc_crater_cache/Gissio/font_tiny5_1d6e16fe1f/sources/tiny5-Medium.sfd'
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
-			Gissio/font_tiny5/sources/config.yaml
-			tiny5-Medium.sfd?1d6e16fe1f (gftools) ✎
-		</summary>
-		<div class="diff_info">
-			<a href="https://github.com/Gissio/font_tiny5">view
-			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/Gissio/font_tiny5?1d6e16fe1f#sources/tiny5-Medium.sfd' --compare gftools --config ~/.fontc_crater_cache/Gissio/font_tiny5/sources/config.yaml&quot;);">
-			copy reproduction command</a>
-			<div class="annotations">
-			<h5>
-				annotations
-			</h5>
-			<ul>
-				<li>gftools 0.10.3's crater path asks
-				File.is_variable about the .sfd source and
-				raises 'unsure how to determine if
-				tiny5-Medium.sfd is variable'; behind that, the
-				upstream recipe needs babelfont (SFD reader
-				crashes) and writes ../fonts/ttf, not the
-				output dir
-				</li>
-				<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<p>
-			gftools 0.10.3's crater path asks File.is_variable
-			about the .sfd source and raises 'unsure how to
-			determine if tiny5-Medium.sfd is variable'; behind
-			that, the upstream recipe needs babelfont (SFD reader
-			crashes) and writes ../fonts/ttf, not the output dir
-		</p>
-		<div class="h5">
-			fontc
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			nit__ fontc_args.modify_config(self.config)
-			~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^ File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/fontc.py",
-			line 72, in modify_config if
-			self.will_build_variable_font(config):
-			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^ File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/fontc.py",
-			line 93, in will_build_variable_font return
-			source.is_variable ^^^^^^^^^^^^^^^^^^ File
-			"/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py",
-			line 1025, in __get__ val = self.func(instance)
-			File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/file.py",
-			line 85, in is_variable raise ValueError(f"unsure
-			how to determine if {self.path} is variable")
-			ValueError: unsure how to determine if
-			tiny5-Medium.sfd is variable
-			</div>
-		</div>
-		<div class="h5">
-			fontmake
-		</div>
-		<div class="backtrace">
-			<div class="stderr">
-			nit__ fontc_args.modify_config(self.config)
-			~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^ File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/fontc.py",
-			line 72, in modify_config if
-			self.will_build_variable_font(config):
-			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^ File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/fontc.py",
-			line 93, in will_build_variable_font return
-			source.is_variable ^^^^^^^^^^^^^^^^^^ File
-			"/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py",
-			line 1025, in __get__ val = self.func(instance)
-			File
-			"/Users/rofls/dev/projects/fontville/fontc_crater/venv/lib/python3.13/site-packages/gftools/builder/file.py",
-			line 85, in is_variable raise ValueError(f"unsure
-			how to determine if {self.path} is variable")
-			ValueError: unsure how to determine if
-			tiny5-Medium.sfd is variable
-			</div>
-		</div>
-		</details>
-		<details class="report_group_item">
-		<summary>
 			RedHatOfficial/Overpass/sources/config.yaml
 			Overpass-Italic.designspace?c580d28bfa (default) ✎
 		</summary>
@@ -84640,12 +86152,12 @@
 		<details class="report_group_item">
 		<summary>
 			TikTok/TikTokSans/sources/config.yaml
-			TikTokSans.designspace?baa2f381f9 (default) ✎
+			TikTokSans.designspace?1cfe2b707a (default) ✎
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/TikTok/TikTokSans">view
 			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/TikTok/TikTokSans?baa2f381f9#sources/TikTokSans.designspace'&quot;);">
+			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/TikTok/TikTokSans?1cfe2b707a#sources/TikTokSans.designspace'&quot;);">
 			copy reproduction command</a>
 			<div class="annotations">
 			<h5>
@@ -84675,13 +86187,13 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			[2026-10-16T17:13:34.590723Z ThreadId(1)
+			[2026-10-16T18:17:11.622282Z ThreadId(1)
 			ufo2fontir::source [34mDEBUG[0m] Loaded
 			"designspace" from
-			"/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_baa2f381f9/sources/TikTokSans.designspace"
-			[2026-10-16T17:13:34.590781Z ThreadId(1) fontc
+			"/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_1cfe2b707a/sources/TikTokSans.designspace"
+			[2026-10-16T18:17:11.622471Z ThreadId(1) fontc
 			[1;31mERROR[0m] Reading source failed for
-			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_baa2f381f9/sources/build/TikTokSans-BlackExt.ufo':
+			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_1cfe2b707a/sources/build/TikTokSans-LightCdOblique.ufo':
 			cannot access UFO package: No such file or
 			directory (os error 2)
 			</div>
@@ -84693,22 +86205,22 @@
 			<div class="stderr">
 			INFO:fontmake.font_project:Loading 20 DesignSpace
 			source UFOs fontmake: Error: In
-			'../../../../../../../../Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_baa2f381f9/sources/build/TikTokSans-Light.ufo':
+			'../../../../../../../../Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_1cfe2b707a/sources/build/TikTokSans-Light.ufo':
 			Reading UFO source failed: No such file or
 			directory:
-			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_baa2f381f9/sources/build/TikTokSans-Light.ufo'
+			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_1cfe2b707a/sources/build/TikTokSans-Light.ufo'
 			</div>
 		</div>
 		</details>
 		<details class="report_group_item">
 		<summary>
 			TikTok/TikTokSans/sources/config.yaml
-			TikTokSans.designspace?baa2f381f9 (gftools) ✎
+			TikTokSans.designspace?1cfe2b707a (gftools) ✎
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/TikTok/TikTokSans">view
 			source repository</a> <a href="" onclick=
-			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/TikTok/TikTokSans?baa2f381f9#sources/TikTokSans.designspace' --compare gftools --config ~/.fontc_crater_cache/TikTok/TikTokSans/sources/config.yaml&quot;);">
+			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/TikTok/TikTokSans?1cfe2b707a#sources/TikTokSans.designspace' --compare gftools --config ~/.fontc_crater_cache/TikTok/TikTokSans/sources/config.yaml&quot;);">
 			copy reproduction command</a>
 			<div class="annotations">
 			<h5>
@@ -84738,30 +86250,30 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			88h0000gn/T/tmpdz7x8ynw
+			0gn/T/tmpimkgbuqe
 			/Users/rofls/dev/projects/fontville/fontc_crater/venv/bin/python3.13
 			-m gftools.jobrunner
-			'/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc'
+			'/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc'
 			-o
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/tmpdz7x8ynw
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/tmpimkgbuqe
 			TikTokSans.designspace --flatten-components
 			--decompose-transformed-components --log=DEBUG
 			Command failed:
-			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpg1c3DO/fontc
+			/private/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/.tmpxUjEFU/fontc
 			-o
-			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/tmpdz7x8ynw
+			/var/folders/4b/4k6sk92d38qc2zzr8kbcv88h0000gn/T/tmpimkgbuqe
 			TikTokSans.designspace --flatten-components
 			--decompose-transformed-components --log=DEBUG
-			[2026-10-16T17:13:37.314897Z ThreadId(1)
+			[2026-10-16T18:17:16.104391Z ThreadId(1)
 			ufo2fontir::source DEBUG] Loaded "designspace" from
 			"TikTokSans.designspace"
-			[2026-10-16T17:13:37.314959Z ThreadId(1) fontc
+			[2026-10-16T18:17:16.104457Z ThreadId(1) fontc
 			ERROR] Reading source failed for
-			'build/TikTokSans-TextLight.ufo': cannot access UFO
-			package: No such file or directory (os error 2)
-			ninja: build stopped: subcommand failed. Cleaning
-			up temporary files... Done cleaning up temporary
-			files
+			'build/TikTokSans-LightExtOblique.ufo': cannot
+			access UFO package: No such file or directory (os
+			error 2) ninja: build stopped: subcommand failed.
+			Cleaning up temporary files... Done cleaning up
+			temporary files
 			</div>
 		</div>
 		<div class="h5">
@@ -84784,7 +86296,7 @@
 			fontmake.errors.FontmakeError: In
 			'build/TikTokSans-Light.ufo': Reading UFO source
 			failed: No such file or directory:
-			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_baa2f381f9/sources/build/TikTokSans-Light.ufo'
+			'/Users/rofls/.fontc_crater_cache/TikTok/TikTokSans_1cfe2b707a/sources/build/TikTokSans-Light.ufo'
 			ninja: build stopped: subcommand failed. Cleaning
 			up temporary files... Done cleaning up temporary
 			files
@@ -89123,21 +90635,22 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			readId(1) fontc::workload DEBUG] 14934/17428
-			complete, most recently Be(GlyfFragment(dong))
-			[2026-10-16T16:11:10.840716Z ThreadId(1)
-			fontc::workload DEBUG] 14935/17428 complete, most
-			recently Be(GlyfFragment(Eta))
-			[2026-10-16T16:11:10.840719Z ThreadId(1)
-			fontc::workload DEBUG] 14936/17428 complete, most
+			G] 14805/17428 complete, most recently
+			Be(GlyfFragment(meemDotbelow-ar))
+			[2026-10-16T18:17:15.492293Z ThreadId(1)
+			fontc::workload DEBUG] 14806/17428 complete, most
 			recently
-			Be(GlyfFragment(bar_bar_hyphen_middle.seq))
-			[2026-10-16T16:11:10.840721Z ThreadId(1)
-			fontc::workload DEBUG] 14937/17428 complete, most
-			recently Be(GlyfFragment(_alefWasla-ar.fina.rlig))
-			[2026-10-16T16:11:10.879044Z ThreadId(1) fontc
+			Be(GlyfFragment(yehTwodotsabove-farsi.medi))
+			[2026-10-16T18:17:15.492296Z ThreadId(1)
+			fontc::workload DEBUG] 14807/17428 complete, most
+			recently Be(GlyfFragment(period_hyphen.liga))
+			[2026-10-16T18:17:15.492298Z ThreadId(1)
+			fontc::workload DEBUG] 14808/17428 complete, most
+			recently
+			Be(GlyfFragment(less_asterisk_greater.liga))
+			[2026-10-16T18:17:15.540063Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 1 errors
-			[2026-10-16T16:11:10.879058Z ThreadId(1) fontc
+			[2026-10-16T18:17:15.540077Z ThreadId(1) fontc
 			WARN] error: Unexpected token, expected glyph or
 			glyph class in
 			sources/CascadiaCode-Regular.ufo/features.fea at
@@ -89316,18 +90829,18 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			slash_greater.liga)) [2026-10-16T16:11:32.347844Z
-			ThreadId(1) fontc::workload DEBUG] 11594/12456
-			complete, most recently Be(GlyfFragment(tugrik))
-			[2026-10-16T16:11:32.347846Z ThreadId(1)
-			fontc::workload DEBUG] 11595/12456 complete, most
-			recently Be(GlyfFragment(abreve))
-			[2026-10-16T16:11:32.347848Z ThreadId(1)
-			fontc::workload DEBUG] 11596/12456 complete, most
-			recently Be(GlyfFragment(backslash_slash.liga))
-			[2026-10-16T16:11:32.367149Z ThreadId(1) fontc
+			tart.seq)) [2026-10-16T18:17:19.022219Z ThreadId(1)
+			fontc::workload DEBUG] 11204/12456 complete, most
+			recently Be(GlyfFragment(bar_hyphen_start.seq))
+			[2026-10-16T18:17:19.022221Z ThreadId(1)
+			fontc::workload DEBUG] 11205/12456 complete, most
+			recently Be(GlyfFragment(uhookabove))
+			[2026-10-16T18:17:19.022224Z ThreadId(1)
+			fontc::workload DEBUG] 11206/12456 complete, most
+			recently Be(GlyfFragment(upsilontonos))
+			[2026-10-16T18:17:19.042410Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 1 errors
-			[2026-10-16T16:11:32.367675Z ThreadId(1) fontc
+			[2026-10-16T18:17:19.042428Z ThreadId(1) fontc
 			WARN] error: 'zhe-cy.loclBGR.alt' is neither a
 			known glyph or a range of known glyphs in
 			sources/CascadiaCode-Italic.ufo/features.fea at
@@ -89412,21 +90925,21 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			fontc::workload DEBUG] 13733/17428 complete, most
-			recently Be(GlyfFragment(noonDotbelow-ar.fina))
-			[2026-10-16T16:11:43.248684Z ThreadId(1)
-			fontc::workload DEBUG] 13734/17428 complete, most
-			recently Be(GlyfFragment(qafDotabove-ar.fina))
-			[2026-10-16T16:11:43.248685Z ThreadId(1)
-			fontc::workload DEBUG] 13735/17428 complete, most
+			ontc::workload DEBUG] 15104/17428 complete, most
 			recently
-			Be(GlyfFragment(slash_slash_equal_start.seq))
-			[2026-10-16T16:11:43.248748Z ThreadId(3)
-			fontbe::features::kern DEBUG] 1 ir kerns became 10
-			classes and 0 adjustments
-			[2026-10-16T16:11:43.308788Z ThreadId(1) fontc
+			Be(GlyfFragment(diagonalcrosshatchFillSquare))
+			[2026-10-16T18:17:23.128573Z ThreadId(1)
+			fontc::workload DEBUG] 15105/17428 complete, most
+			recently Be(GlyfFragment(Ytilde))
+			[2026-10-16T18:17:23.128575Z ThreadId(1)
+			fontc::workload DEBUG] 15106/17428 complete, most
+			recently Be(GlyfFragment(bar_hyphen_start.seq))
+			[2026-10-16T18:17:23.128578Z ThreadId(1)
+			fontc::workload DEBUG] 15107/17428 complete, most
+			recently Be(GlyfFragment(omicrontonos))
+			[2026-10-16T18:17:23.179959Z ThreadId(1) fontc
 			ERROR] FEA parsing failed with 1 errors
-			[2026-10-16T16:11:43.308886Z ThreadId(1) fontc
+			[2026-10-16T18:17:23.179975Z ThreadId(1) fontc
 			WARN] error: Unexpected token, expected glyph or
 			glyph class in
 			sources/CascadiaCode-Regular.ufo/features.fea at
@@ -89512,20 +91025,21 @@
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
-			Be(GlyfFragment(ocircumflexgrave))
-			[2026-10-16T16:11:45.550746Z ThreadId(1)
-			fontc::workload DEBUG] 11619/12456 complete, most
-			recently Be(GlyfFragment(aring))
-			[2026-10-16T16:11:45.550748Z ThreadId(1)
-			fontc::workload DEBUG] 11620/12456 complete, most
-			recently Be(GlyfFragment(fiveeighths.BRACKET.500))
-			[2026-10-16T16:11:45.550751Z ThreadId(1)
-			fontc::workload DEBUG] 11621/12456 complete, most
-			recently Be(Hvar) [2026-10-16T16:11:45.569922Z
-			ThreadId(1) fontc ERROR] FEA parsing failed with 1
-			errors [2026-10-16T16:11:45.569934Z ThreadId(1)
-			fontc WARN] error: 'zhe-cy.loclBGR.alt' is neither
-			a known glyph or a range of known glyphs in
+			ly Be(GlyfFragment(quotedbl))
+			[2026-10-16T18:17:25.815458Z ThreadId(1)
+			fontc::workload DEBUG] 11261/12456 complete, most
+			recently Be(GlyfFragment(icircumflex))
+			[2026-10-16T18:17:25.815461Z ThreadId(1)
+			fontc::workload DEBUG] 11262/12456 complete, most
+			recently Be(GlyfFragment(Agrave))
+			[2026-10-16T18:17:25.815463Z ThreadId(1)
+			fontc::workload DEBUG] 11263/12456 complete, most
+			recently Be(GlyfFragment(ograve))
+			[2026-10-16T18:17:25.839829Z ThreadId(1) fontc
+			ERROR] FEA parsing failed with 1 errors
+			[2026-10-16T18:17:25.839844Z ThreadId(1) fontc
+			WARN] error: 'zhe-cy.loclBGR.alt' is neither a
+			known glyph or a range of known glyphs in
 			sources/CascadiaCode-Italic.ufo/features.fea at
 			39:680 | 39 | ...-cy.loclBGR ka-cy.loclBGR]' by
 			[b.alt h.alt k.alt shha-cy.alt zhe-cy.loclBGR.alt
