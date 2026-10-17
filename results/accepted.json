@@ -1,7 +1,6 @@
 [
   {
     "targets": [
-      "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (default)",
       "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (default)",
       "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb?3039d277fa (gftools)",
       "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb?ffac6513dd (default)",
@@ -55,13 +54,6 @@
     ],
     "fails": "both",
     "reason": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; the repo's src/NerkoOne-Regular.ufo is what upstream's build.sh compiles and both compilers build it, so the config should list the UFO"
-  },
-  {
-    "targets": [
-      "Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd?1d6e16fe1f (gftools)"
-    ],
-    "fails": "both",
-    "reason": "gftools 0.10.3's crater path asks File.is_variable about the .sfd source and raises 'unsure how to determine if tiny5-Medium.sfd is variable'; behind that, the upstream recipe needs babelfont (SFD reader crashes) and writes ../fonts/ttf, not the output dir"
   },
   {
     "targets": [
