@@ -7,8 +7,8 @@
 # (such as cron) should be setup to run it regularly (for instance, each night)
 #
 # this script is intentionally minimal and not intended to change much; all it
-# should do is clone the fontc repo, and then call another script in that repo
-# which will handle actually starting crater.
+# should do is update its fontc checkout, and then call another script in that
+# repo which will handle actually starting crater.
 
 # the github repo this instance pushes its results and status to
 CRATER_REPO=googlefonts/fontc_crater
@@ -29,19 +29,26 @@ export FONTC_CRATER_STATUS_URL="https://raw.githubusercontent.com/$CRATER_REPO/r
 GENERATED_HTML="$FONTC_CRATER_RESULTS/index.html"
 LOCKFILE="$FONTC_CRATER_RESULTS/CRATER.lock"
 FONTC_REPO=https://github.com/googlefonts/fontc.git
+# FONTC_DIR (including its target dir) and the venv are kept between runs
 FONTC_DIR=./fontc
 # relative to FONTC_DIR
 FONTC_REQUIREMENTS="resources/scripts/requirements.txt"
 SCRIPT_PATH=fontc_crater/resources/ci.sh
 GITHUB_TOKEN=$(<"GITHUB_TOKEN")
 PYTHON_EXEC=python3.13
+# what the venv was built from; it is rebuilt when this changes
+VENV_STAMP=venv/crater-stamp
 CRATER_ROOT=$(pwd)
+
+# crater builds fontc with these set; match them in crater's own build, so the
+# two builds don't keep invalidating each other
+export VERGEN_GIT_DESCRIBE=VERGEN_IDEMPOTENT_OUTPUT
+export VERGEN_GIT_SHA=VERGEN_IDEMPOTENT_OUTPUT
 
 cleanup() {
     echo "cleaning up"
     # we may have failed while inside FONTC_DIR
     cd "$CRATER_ROOT"
-    rm -rf $FONTC_DIR
     rm $LOCKFILE
     deactivate
     # if we crashed after writing some files, stash them
@@ -102,6 +109,36 @@ on_exit() {
     publish_status
 }
 
+# true if FONTC_DIR is the top of a clone of FONTC_REPO. if FONTC_DIR is a
+# broken repo, git looks upward and finds ours, which we must not touch.
+fontc_is_clone() {
+    local toplevel
+    toplevel=$(git -C "$FONTC_DIR" rev-parse --show-toplevel 2>/dev/null) &&
+        [ "$toplevel" = "$(cd "$FONTC_DIR" && pwd -P)" ] &&
+        [ "$(git -C "$FONTC_DIR" remote get-url origin)" = "$FONTC_REPO" ]
+}
+
+# check out origin/main, discarding everything except cargo's target dir
+sync_fontc() {
+    git -C "$FONTC_DIR" fetch --quiet --prune origin &&
+        git -C "$FONTC_DIR" checkout --quiet --force --detach origin/main &&
+        git -C "$FONTC_DIR" clean -ffdxq -e /target/
+}
+
+update_fontc() {
+    if fontc_is_clone && sync_fontc; then
+        return
+    fi
+    echo "recloning fontc"
+    rm -rf "$FONTC_DIR"
+    git clone $FONTC_REPO $FONTC_DIR && sync_fontc
+}
+
+venv_stamp() {
+    $PYTHON_EXEC -c 'import sys; print(sys.version)'
+    (cd $FONTC_DIR && shasum -a 256 $FONTC_REQUIREMENTS ttx_diff/pyproject.toml)
+}
+
 # acquire lock, or bail:
 if [ -f $LOCKFILE ]; then
     echo "$LOCKFILE exists (CI is already running, or failed and requires manual cleanup)"
@@ -141,44 +178,49 @@ fi
 heartbeat &
 HEARTBEAT_PID=$!
 
-if [ -d venv ]; then
-    rm -rf venv
-fi
-
-echo "setting up venv for $( $PYTHON_EXEC --version)"
-$PYTHON_EXEC -m venv venv
-if [ $? -ne 0 ]; then
-    echo could not setup venv, exiting
+# before the venv, which is installed from (and stamped with) files in fontc
+echo "updating fontc"
+if ! update_fontc; then
+    echo "failed to update fontc, exiting"
     cleanup
     exit 1
 fi
 
-source venv/bin/activate
-
-echo "fetching fontc"
-if git clone $FONTC_REPO $FONTC_DIR ; then
-    cd $FONTC_DIR
-    # install requirements:
-    echo "installing requirements"
-    pip install -r $FONTC_REQUIREMENTS
-
-    # run the actual script that starts CI:
-    chmod +x $SCRIPT_PATH
-    # pass our token through to the crater executable, it will use it to
-    # authenticate to private repos
-    ( export GITHUB_TOKEN=$GITHUB_TOKEN; $SCRIPT_PATH )
+stamp=$(venv_stamp)
+if [ "$stamp" = "$(cat $VENV_STAMP 2>/dev/null)" ] &&
+    venv/bin/python -c 'import ttx_diff' 2>/dev/null; then
+    echo "reusing venv"
+    source venv/bin/activate
+else
+    rm -rf venv
+    echo "setting up venv for $( $PYTHON_EXEC --version)"
+    $PYTHON_EXEC -m venv venv
     if [ $? -ne 0 ]; then
-        echo script did not finish successfully, exiting
+        echo could not setup venv, exiting
         cleanup
         exit 1
     fi
 
-    cd ..
-else
-    echo "failed to clone fontc, exiting"
+    source venv/bin/activate
+
+    echo "installing requirements"
+    (cd $FONTC_DIR && pip install -r $FONTC_REQUIREMENTS) &&
+        echo "$stamp" > $VENV_STAMP
+fi
+
+cd $FONTC_DIR
+# run the actual script that starts CI:
+chmod +x $SCRIPT_PATH
+# pass our token through to the crater executable, it will use it to
+# authenticate to private repos
+( export GITHUB_TOKEN=$GITHUB_TOKEN; $SCRIPT_PATH )
+if [ $? -ne 0 ]; then
+    echo script did not finish successfully, exiting
     cleanup
     exit 1
 fi
+
+cd ..
 
 # so it doesn't race the git commands below
 stop_heartbeat
