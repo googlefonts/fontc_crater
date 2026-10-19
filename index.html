@@ -28794,27 +28794,6 @@
 		</li>
 	</ul>
 	</div>
-	<div class="surprises">
-	<h4>
-		2 accepted failures have changed
-	</h4>
-	<ul>
-		<li>Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd
-		(default): accepted as failing in both, but it was not in this
-		run. source is a FontLab/FontForge/Superpolator file
-		(.vfb/.sfd/.sp3) or a .zip archive that neither compiler reads;
-		crater shouldn't make a target for it
-		</li>
-		<li>Gissio/font_tiny5/sources/config.yaml tiny5-Medium.sfd
-		(gftools): accepted as failing in both, but it was not in this
-		run. gftools 0.10.3's crater path asks File.is_variable about
-		the .sfd source and raises 'unsure how to determine if
-		tiny5-Medium.sfd is variable'; behind that, the upstream recipe
-		needs babelfont (SFD reader crashes) and writes ../fonts/ttf,
-		not the output dir
-		</li>
-	</ul>
-	</div>
 	<h4>
 	Added 108 new targets
 	</h4>
@@ -29185,7 +29164,7 @@
 		Diffs
 	</h3>
 	<div class="matching_families">
-		1090 <span class="better">+40</span> of 1424 <span class=
+		1090 <span class="better">+41</span> of 1424 <span class=
 		"better">+40</span> total families match.
 	</div>
 	<details>
@@ -31021,7 +31000,7 @@
 	<details>
 		<summary>
 		<span class="font_path">Agbalumo/Agbalumo.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31057,15 +31036,31 @@
 		"https://github.com/SorkinType/Agbalumo">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SorkinType/Agbalumo?261ad51ef2#sources/Agbalumo.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SorkinType/Agbalumo/sources/config.yaml Agbalumo.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Menbere/Menbere.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31101,15 +31096,31 @@
 		"https://github.com/SorkinType/Menbere">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SorkinType/Menbere?ab34feb55b#sources/Menbere.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SorkinType/Menbere/sources/config.yaml Menbere.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Menbere/Menbere.glyphspackage
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31145,9 +31156,25 @@
 		"https://github.com/SorkinType/Menbere">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SorkinType/Menbere?ab34feb55b#sources/Menbere.glyphspackage' --compare gftools --config ~/.fontc_crater_cache/SorkinType/Menbere/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SorkinType/Menbere/sources/config.yaml Menbere.glyphspackage (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -31355,7 +31382,7 @@
 	<details>
 		<summary>
 		<span class="font_path">Sankofa-Display/Sankofa.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31391,9 +31418,25 @@
 		"https://github.com/batsimadz/Sankofa-Display">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/batsimadz/Sankofa-Display?078848b905#sources/Sankofa.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;batsimadz/Sankofa-Display/sources/config.yaml Sankofa.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -31633,7 +31676,7 @@
 		<summary>
 		<span class=
 		"font_path">NotoSerifKhitanSmallScript.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(name)</span>
 		</summary>
@@ -31669,9 +31712,26 @@
 		"https://github.com/notofonts/khitan-small-script">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/notofonts/khitan-small-script?8769c8b092#sources/NotoSerifKhitanSmallScript.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;notofonts/khitan-small-script/sources/config-serif.yaml NotoSerifKhitanSmallScript.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>the Khitan-script sample text (nameID 19) is
+			outside the BMP: since #2253 fontc keeps it at
+			Windows encoding 1, while ufo2ft 3.9.1 moves it to
+			encoding 10. ufo2ft#1012 makes ufo2ft match but
+			isn't released yet: <a href=
+			"https://github.com/googlefonts/ufo2ft/pull/1012">
+				https://github.com/googlefonts/ufo2ft/pull/1012</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -31734,7 +31794,7 @@
 	<details>
 		<summary>
 		<span class="font_path">Estedad/Estedad.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.998%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31770,15 +31830,31 @@
 		"https://github.com/aminabedi68/Estedad">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/aminabedi68/Estedad?69e879f78a#sources/Estedad.glyphs' --compare gftools --config ~/.fontc_crater_cache/aminabedi68/Estedad/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;aminabedi68/Estedad/sources/config.yaml Estedad.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Estedad/Estedad.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.998%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -31814,9 +31890,25 @@
 		"https://github.com/aminabedi68/Estedad">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/aminabedi68/Estedad?69e879f78a#sources/Estedad.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;aminabedi68/Estedad/sources/config.yaml Estedad.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -32154,20 +32246,11 @@
 			annotations
 			</h5>
 			<ul>
-			<li>single zipped UFO: ttx_diff's
-			source_is_variable() has no .ufoz case and falls
-			back to variable, so default mode runs fontmake -o
-			variable, which refuses a UFO ('Glyphs or
-			designspace source required for variable font'):
-			<a href=
-			"https://github.com/googlefonts/fontc/pull/2028">
-				https://github.com/googlefonts/fontc/pull/2028</a>
-			</li>
-			<li>features.fea starts with a UTF-8 BOM
-			(FontCreator export); ufoLib strips it when
-			reading, but fontc passes it to fea-rs, which fails
-			at 1:0 ('Unexpected token, expected global
-			keyword')
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -32371,7 +32454,7 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.997%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -32406,15 +32489,31 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/SUSE/suse-font/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.997%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -32449,9 +32548,25 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE-Italic.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -32514,7 +32629,7 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -32549,9 +32664,25 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE.glyphs' --compare gftools --config ~/.fontc_crater_cache/SUSE/suse-font/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -32624,7 +32755,7 @@
 	<details>
 		<summary>
 		<span class="font_path">suse-font/SUSE.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -32659,9 +32790,25 @@
 		</table><a href="https://github.com/SUSE/suse-font">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/SUSE/suse-font?7159afb255#sources/SUSE.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;SUSE/suse-font/sources/config.yaml SUSE.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -32734,7 +32881,7 @@
 	<details>
 		<summary>
 		<span class="font_path">StrichpunktSans.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.996%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -32770,9 +32917,25 @@
 		"https://github.com/strichpunkt-design/Strichpunkt_Sans">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/strichpunkt-design/Strichpunkt_Sans?9a24fe35f2#sources/StrichpunktSans.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;strichpunkt-design/Strichpunkt_Sans/sources/config.yaml StrichpunktSans.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -33888,12 +34051,11 @@
 			annotations
 			</h5>
 			<ul>
-			<li>ufo2fontir ignores the platform, encoding and
-			language IDs of openTypeNameRecords, so a localized
-			(Korean/Chinese) record overwrites the English name
-			and the localized records are lost: <a href=
-			"https://github.com/googlefonts/fontc/issues/188">
-				https://github.com/googlefonts/fontc/issues/188</a>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -33997,7 +34159,7 @@
 		<summary>
 		<span class=
 		"font_path">latin-greek-cyrillic/NotoSans.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.990%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -34033,9 +34195,24 @@
 		"https://github.com/notofonts/latin-greek-cyrillic">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/notofonts/latin-greek-cyrillic?c4a321e123#sources/NotoSans.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;notofonts/latin-greek-cyrillic/sources/config-sans.yaml NotoSans.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -34479,8 +34656,9 @@
 	<details>
 		<summary>
 		<span class="font_path">sixcaps/SixCaps.glyphs
-		<em>(default)</em></span><span class="diff_result">99.987%
-		<span class="better">+99.988</span></span><span class=
+		<em>(default)</em> ✎</span><span class=
+		"diff_result">99.987% <span class=
+		"better">+99.988</span></span><span class=
 		"changed_tag_list">(head)</span>
 		</summary>
 		<div class="diff_info">
@@ -34515,9 +34693,24 @@
 		"https://github.com/googlefonts/sixcaps">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/sixcaps?de9fac499d#sources/SixCaps.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/sixcaps/sources/config.yaml SixCaps.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>the source has no versionMajor: glyphsLib
+			defaults it to 1, fontc's glyphs-reader to 0, so
+			head.fontRevision is 0.0 vs 1.0. gftools mode
+			matches because fontc compiles glyphsLib's instance
+			UFO there
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -34804,7 +34997,7 @@
 	<details>
 		<summary>
 		<span class="font_path">NotoSansNushu.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.982%</span> <span class=
 		"changed_tag_list">(vhea, vmtx)</span>
 		</summary>
@@ -34847,9 +35040,24 @@
 		</table><a href="https://github.com/notofonts/nushu">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/notofonts/nushu?933f7be1e6#sources/NotoSansNushu.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;notofonts/nushu/sources/config-sans-nushu.yaml NotoSansNushu.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontc bug (from #2262): the default vertical
+			advance for glyphs without vertWidth uses the
+			static instance's typoDescender (1390) where
+			glyphsLib keeps the master's (1362), so 6 vmtx
+			heights and vhea.advanceHeightMax differ
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -35246,13 +35454,18 @@
 			annotations
 			</h5>
 			<ul>
-			<li>harness: ttx_diff's source_is_variable doesn't
-			recognise .ufoz and falls back to 'variable', so
-			fontmake is run with -o variable on a single zipped
-			UFO and refuses it ('Glyphs or designspace source
-			required'); fontmake -o ttf builds it: <a href=
-			"https://github.com/googlefonts/fontc/pull/2028">
-				https://github.com/googlefonts/fontc/pull/2028</a>
+			<li>fontc bug: fontc ignores the UFO component
+			objectLibs keys public.truetype.roundOffsetToGrid
+			and public.truetype.useMyMetrics, which ufo2ft
+			honours. It sets ROUND_XY_TO_GRID on 209 components
+			whose lib says false and auto-sets USE_MY_METRICS
+			on 9
+			</li>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -35335,6 +35548,13 @@
 			warned since #2024): <a href=
 			"https://github.com/googlefonts/fontc/issues/1856">
 				https://github.com/googlefonts/fontc/issues/1856</a>
+			</li>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -36288,7 +36508,7 @@
 	<details>
 		<summary>
 		<span class="font_path">Protest/ProtestRevolution.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.961%</span> <span class=
 		"changed_tag_list">((mark/kern), GPOS, GSUB)</span>
 		</summary>
@@ -36340,9 +36560,23 @@
 		"https://github.com/octaviopardo/Protest">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/octaviopardo/Protest?094e74050a#sources/ProtestRevolution.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;octaviopardo/Protest/sources/config-Revolution.yaml ProtestRevolution.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>fontmake's post-compile subsetter (triggered by
+			an instance 'Remove Glyphs' list of nonexistent
+			glyphs) prunes an unreferenced lookup and latn
+			LangSys records identical to the default
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -36698,7 +36932,7 @@
 	<details>
 		<summary>
 		<span class="font_path">NotoSansSunuwar.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.944%</span> <span class=
 		"changed_tag_list">(meta)</span>
 		</summary>
@@ -36733,9 +36967,25 @@
 		</table><a href="https://github.com/notofonts/sunuwar">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/notofonts/sunuwar?981b7c03c9#sources/NotoSansSunuwar.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;notofonts/sunuwar/sources/config-sans-sunuwar.yaml NotoSansSunuwar.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -38314,7 +38564,7 @@
 	<details>
 		<summary>
 		<span class="font_path">raleway/Raleway-Italic.designspace
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.884%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -38350,15 +38600,30 @@
 		"https://github.com/theleagueof/raleway">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/theleagueof/raleway?938ac77022#sources/Raleway-Italic.designspace' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/raleway/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;theleagueof/raleway/$VIRTUAL/google/fonts/ofl/raleway/config.yaml sources/Raleway-Italic.designspace (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">raleway/Raleway-Italic.designspace
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.884%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -38394,9 +38659,24 @@
 		"https://github.com/theleagueof/raleway">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/theleagueof/raleway?938ac77022#sources/Raleway-Italic.designspace'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;theleagueof/raleway/$VIRTUAL/google/fonts/ofl/raleway/config.yaml sources/Raleway-Italic.designspace (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -38626,7 +38906,7 @@
 	<details>
 		<summary>
 		<span class="font_path">raleway/Raleway.designspace
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.880%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -38662,15 +38942,30 @@
 		"https://github.com/theleagueof/raleway">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/theleagueof/raleway?938ac77022#sources/Raleway.designspace' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/raleway/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;theleagueof/raleway/$VIRTUAL/google/fonts/ofl/raleway/config.yaml sources/Raleway.designspace (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">raleway/Raleway.designspace
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.879%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -38706,9 +39001,24 @@
 		"https://github.com/theleagueof/raleway">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/theleagueof/raleway?938ac77022#sources/Raleway.designspace'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;theleagueof/raleway/$VIRTUAL/google/fonts/ofl/raleway/config.yaml sources/Raleway.designspace (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size gap, fontc's GPOS is bigger
+			with matching ttx and mark/kern (Raleway +3238 B,
+			Raleway Italic +5122, Noto Sans +7780, Chocolate
+			Classical Sans +2304, LXGW Marker Gothic +38);
+			cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -39306,7 +39616,7 @@
 		<summary>
 		<span class=
 		"font_path">googlesans-code/GoogleSansCode-Italic.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.825%</span> <span class=
 		"changed_tag_list">(sizeof(name))</span>
 		</summary>
@@ -39342,16 +39652,31 @@
 		"https://github.com/googlefonts/googlesans-code">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans-code?edcd56e39f#sources/GoogleSansCode-Italic.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/googlesans-code/sources/config.yaml GoogleSansCode-Italic.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's name table
+			is 38-52 B bigger with matching ttx. Possibly
+			nameID 25, which fontc writes and fontmake doesn't,
+			and which ttx_diff removes before comparing
+			(unverified); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class=
 		"font_path">googlesans-code/GoogleSansCode.glyphspackage
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.811%</span> <span class=
 		"changed_tag_list">(sizeof(name))</span>
 		</summary>
@@ -39387,9 +39712,24 @@
 		"https://github.com/googlefonts/googlesans-code">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/googlesans-code?edcd56e39f#sources/GoogleSansCode.glyphspackage'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/googlesans-code/sources/config.yaml GoogleSansCode.glyphspackage (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's name table
+			is 38-52 B bigger with matching ttx. Possibly
+			nameID 25, which fontc writes and fontmake doesn't,
+			and which ttx_diff removes before comparing
+			(unverified); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -39699,7 +40039,7 @@
 	<details>
 		<summary>
 		<span class="font_path">parkinsans/Parkinsans.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.696%</span> <span class=
 		"changed_tag_list">(meta, sizeof(meta))</span>
 		</summary>
@@ -39743,15 +40083,31 @@
 		"https://github.com/redstonedesign/parkinsans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/redstonedesign/parkinsans?9b5ec433f1#sources/Parkinsans.glyphs' --compare gftools --config ~/.fontc_crater_cache/redstonedesign/parkinsans/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;redstonedesign/parkinsans/sources/config.yaml Parkinsans.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">parkinsans/Parkinsans.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.692%</span> <span class=
 		"changed_tag_list">(meta, sizeof(meta))</span>
 		</summary>
@@ -39795,9 +40151,25 @@
 		"https://github.com/redstonedesign/parkinsans">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/redstonedesign/parkinsans?9b5ec433f1#sources/Parkinsans.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;redstonedesign/parkinsans/sources/config.yaml Parkinsans.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -39992,7 +40364,7 @@
 		<summary>
 		<span class=
 		"font_path">mozilla-text-type/MozillaText.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.613%</span> <span class=
 		"changed_tag_list">(sizeof(name))</span>
 		</summary>
@@ -40028,17 +40400,31 @@
 		"https://github.com/mozilla/mozilla-text-type">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/mozilla/mozilla-text-type?5ff275ec49#sources/MozillaText.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;mozilla/mozilla-text-type/sources/config.yaml MozillaText.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's name table
+			is 38-52 B bigger with matching ttx. Possibly
+			nameID 25, which fontc writes and fontmake doesn't,
+			and which ttx_diff removes before comparing
+			(unverified); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
-		<span class="font_path">karantina.glyphs
-		<em>(default)</em></span><span class=
-		"diff_result">99.609%</span> <span class=
-		"changed_tag_list">(sizeof(cmap))</span>
+		<span class="font_path">karantina.glyphs <em>(default)</em>
+		✎</span><span class="diff_result">99.609%</span>
+		<span class="changed_tag_list">(sizeof(cmap))</span>
 		</summary>
 		<div class="diff_info">
 		<table>
@@ -40072,9 +40458,24 @@
 		"https://github.com/ronykoch/Karantina">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/ronykoch/Karantina?efb7e920f0#Sources/karantina.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;ronykoch/Karantina/Sources/config.yaml karantina.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -40209,6 +40610,13 @@
 			Feature' to number values: <a href=
 			"https://github.com/notofonts/bengali/pull/40">https://github.com/notofonts/bengali/pull/40</a>
 			</li>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
+			</li>
 			<li>master-level 'Replace Feature'/'Replace Prefix'
 			is a glyphsLib-only oddity (Glyphs.app ignores it);
 			we'd prefer to fix the sources to use number
@@ -40227,7 +40635,7 @@
 	<details>
 		<summary>
 		<span class="font_path">Brawler/Brawler.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.444%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40263,9 +40671,24 @@
 		"https://github.com/cyrealtype/Brawler">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Brawler?a8e1fc6a4c#sources/Brawler.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Brawler/sources/config.yaml Brawler.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -40392,7 +40815,7 @@
 		<summary>
 		<span class=
 		"font_path">Jacques-Francois-Shadow/JacquesFrancoisShadow.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.387%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40428,9 +40851,24 @@
 		"https://github.com/cyrealtype/Jacques-Francois-Shadow">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Jacques-Francois-Shadow?073491c6b1#sources/JacquesFrancoisShadow.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Jacques-Francois-Shadow/$VIRTUAL/google/fonts/ofl/jacquesfrancoisshadow/config.yaml sources/JacquesFrancoisShadow.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -40720,7 +41158,7 @@
 	<details>
 		<summary>
 		<span class="font_path">josefinslab/JosefinSlab.designspace
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.331%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40756,15 +41194,30 @@
 		"https://github.com/googlefonts/josefinslab">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/josefinslab?61773366f7#sources/JosefinSlab.designspace'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/josefinslab/sources/config.yaml JosefinSlab.designspace (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Artifika/Artifika.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.111%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40800,15 +41253,30 @@
 		"https://github.com/cyrealtype/Artifika">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Artifika?c317fd292b#sources/Artifika.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Artifika/sources/builder.yaml Artifika.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Marko-One/MarkoOne.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.074%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40844,15 +41312,30 @@
 		"https://github.com/cyrealtype/Marko-One">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Marko-One?d5cfae97a1#sources/MarkoOne.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Marko-One/$VIRTUAL/google/fonts/ofl/markoone/config.yaml sources/MarkoOne.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Federant/Federant-Regular.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.052%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40888,16 +41371,31 @@
 		"https://github.com/cyrealtype/Federant">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Federant?c5c5f60221#src/Federant-Regular.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Federant/$VIRTUAL/google/fonts/ofl/federant/config.yaml src/Federant-Regular.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class=
 		"font_path">Jacques-Francois/JacquesFrancois.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.032%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40933,15 +41431,30 @@
 		"https://github.com/cyrealtype/Jacques-Francois">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Jacques-Francois?d34156392b#sources/JacquesFrancois.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Jacques-Francois/$VIRTUAL/google/fonts/ofl/jacquesfrancois/config.yaml sources/JacquesFrancois.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Adamina/Adamina.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.026%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -40977,15 +41490,30 @@
 		"https://github.com/cyrealtype/Adamina">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Adamina?719bd2a687#sources/Adamina.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Adamina/$VIRTUAL/google/fonts/ofl/adamina/config.yaml sources/Adamina.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Wire-One/WireOne.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">98.898%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -41021,15 +41549,30 @@
 		"https://github.com/cyrealtype/Wire-One">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Wire-One?16db96d778#sources/WireOne.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Wire-One/sources/builder.yaml WireOne.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">Aubrey/Aubrey.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">98.765%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -41064,9 +41607,24 @@
 		</table><a href="https://github.com/cyrealtype/Aubrey">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/cyrealtype/Aubrey?1946b0d99c#sources/Aubrey.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;cyrealtype/Aubrey/sources/builder.yaml Aubrey.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -41394,7 +41952,7 @@
 	<details>
 		<summary>
 		<span class="font_path">homecomputer-fonts/Workbench.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">97.730%</span> <span class=
 		"changed_tag_list">(sizeof(cmap))</span>
 		</summary>
@@ -41430,9 +41988,24 @@
 		"https://github.com/jenskutilek/homecomputer-fonts">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/jenskutilek/homecomputer-fonts?09b2f79d68#Workbench/sources/Workbench.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;jenskutilek/homecomputer-fonts/Workbench/sources/config.yaml Workbench.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>provisional: size-only diff, fontc's cmap is
+			16-18 B bigger with matching ttx. On Adamina,
+			fontc's format 4 subtable has 30 segments where
+			fontmake's has 22, for the same 216 mappings (610
+			vs 592 B); cause under investigation
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -41521,6 +42094,13 @@
 			composites gain a top anchor: <a href=
 			"https://github.com/googlefonts/fontc/issues/2020">
 				https://github.com/googlefonts/fontc/issues/2020</a>
+			</li>
+			<li>the new arabic-*.fea, included last, declares
+			languagesystem arab after other features. ufo2ft
+			inserts its generated abvm/blwm at telugu's blwm
+			insertion marker, ahead of those statements, so
+			feaLib doesn't register them for arab; fontc
+			registers them for arab too
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -42044,6 +42624,13 @@
 			implemented: <a href=
 			"https://github.com/googlefonts/fontc/issues/551">
 				https://github.com/googlefonts/fontc/issues/551</a>
+			</li>
+			<li>glyphsLib 6.16.1 splits a comma-separated meta
+			Table dlng/slng value into a list, which ufo2ft
+			writes as 'Latn,Am'; fontc's Glyphs reader still
+			writes the string as-is ('Latn, Am'): <a href=
+			"https://github.com/googlefonts/glyphsLib/pull/1208">
+				https://github.com/googlefonts/glyphsLib/pull/1208</a>
 			</li>
 			<li>
 				<em>(to add or change, manually edit
@@ -43026,10 +43613,13 @@
 				annotations
 			</h5>
 			<ul>
-				<li>crash on super bezier segments (3+
-				consecutive off-curve points): <a href=
-				"https://github.com/googlefonts/fontc/issues/1997">
-				https://github.com/googlefonts/fontc/issues/1997</a>
+				<li>fontc rejects 'manat', whose path has two
+				off-curve points before a line node ('has 2
+				consecutive offcurve points'); glyphsLib 6.16.1
+				drops such off-curves, so fontmake builds it:
+				<a href=
+				"https://github.com/googlefonts/glyphsLib/pull/1210">
+				https://github.com/googlefonts/glyphsLib/pull/1210</a>
 				</li>
 				<li>
 				<em>(to add or change, manually edit
@@ -44442,22 +45032,12 @@
 				annotations
 			</h5>
 			<ul>
-				<li>default fvar instance: fontc reuses nameID
-				2/17; fontTools allocates a new ID because the
-				FEA featureNames add Mac records that 2/17 lack
-				(both valid)
-				</li>
-				<li>several '# Automatic Code' markers for one
-				feature (dist in bangla.fea and telugu-*.fea):
-				ufo2ft inserts the generated kern/dist lookups
-				at the first, fea-rs at the last
-				</li>
-				<li>fontc runs propagateAnchors before
-				decomposeTransformedComponents regardless of
-				the source's filter order: rotated-component
-				Ethiopic composites gain a top anchor:
-				<a href="https://github.com/googlefonts/fontc/issues/2020">
-				https://github.com/googlefonts/fontc/issues/2020</a>
+				<li>8 Italic masters' fontinfo.plist pad
+				openTypeOS2WinAscent with spaces
+				('&lt;integer&gt;1509 &lt;/integer&gt;');
+				Python's plistlib accepts it, but the Rust
+				plist crate rejects it (InvalidIntegerString),
+				so fontc can't read the source
 				</li>
 				<li>
 				<em>(to add or change, manually edit
@@ -51236,21 +51816,6 @@
 				annotations
 			</h5>
 			<ul>
-				<li>single zipped UFO: ttx_diff's
-				source_is_variable() has no .ufoz case and
-				falls back to variable, so default mode runs
-				fontmake -o variable, which refuses a UFO
-				('Glyphs or designspace source required for
-				variable font'): <a href=
-				"https://github.com/googlefonts/fontc/pull/2028">
-				https://github.com/googlefonts/fontc/pull/2028</a>
-				</li>
-				<li>features.fea starts with a UTF-8 BOM
-				(FontCreator export); ufoLib strips it when
-				reading, but fontc passes it to fea-rs, which
-				fails at 1:0 ('Unexpected token, expected
-				global keyword')
-				</li>
 				<li>the raw FontCreator .ufoz needs the repo's
 				fcp_ufo_process.py, which the google/fonts
 				override skips: Then Khung's FEA uses
@@ -51440,21 +52005,6 @@
 				annotations
 			</h5>
 			<ul>
-				<li>single zipped UFO: ttx_diff's
-				source_is_variable() has no .ufoz case and
-				falls back to variable, so default mode runs
-				fontmake -o variable, which refuses a UFO
-				('Glyphs or designspace source required for
-				variable font'): <a href=
-				"https://github.com/googlefonts/fontc/pull/2028">
-				https://github.com/googlefonts/fontc/pull/2028</a>
-				</li>
-				<li>features.fea starts with a UTF-8 BOM
-				(FontCreator export); ufoLib strips it when
-				reading, but fontc passes it to fea-rs, which
-				fails at 1:0 ('Unexpected token, expected
-				global keyword')
-				</li>
 				<li>the raw FontCreator .ufoz needs the repo's
 				fcp_ufo_process.py, which the google/fonts
 				override skips: Then Khung's FEA uses
@@ -69634,7 +70184,9 @@
 				<li>norad rejects more than 14
 				postscriptBlueValues, and glyphsLib writes a
 				blue pair for every alignment zone into the
-				instance UFO; fontmake doesn't validate it:
+				instance UFO; 6.16.1 skips zero-height and
+				duplicate zones, but Alegreya SC has 8 real
+				ones (16 values). fontmake doesn't validate it:
 				<a href=
 				"https://github.com/googlefonts/fontc/issues/2241">
 				https://github.com/googlefonts/fontc/issues/2241</a>
@@ -69725,14 +70277,6 @@
 				annotations
 			</h5>
 			<ul>
-				<li>norad rejects more than 14
-				postscriptBlueValues, and glyphsLib writes a
-				blue pair for every alignment zone into the
-				instance UFO; fontmake doesn't validate it:
-				<a href=
-				"https://github.com/googlefonts/fontc/issues/2241">
-				https://github.com/googlefonts/fontc/issues/2241</a>
-				</li>
 				<li>the AlegreyaSC instances' 'Rename Glyphs'
 				swaps glyph data but not component references
 				(quoteright.sc=quoteright leaves quoteright
@@ -69741,6 +70285,16 @@
 				instances; static-only family anyway:
 				<a href="https://github.com/googlefonts/glyphsLib/pull/1164">
 				https://github.com/googlefonts/glyphsLib/pull/1164</a>
+				</li>
+				<li>norad rejects more than 14
+				postscriptBlueValues, and glyphsLib writes a
+				blue pair for every alignment zone into the
+				instance UFO; 6.16.1 skips zero-height and
+				duplicate zones, but Alegreya SC has 8 real
+				ones (16 values). fontmake doesn't validate it:
+				<a href=
+				"https://github.com/googlefonts/fontc/issues/2241">
+				https://github.com/googlefonts/fontc/issues/2241</a>
 				</li>
 				<li>
 				<em>(to add or change, manually edit
