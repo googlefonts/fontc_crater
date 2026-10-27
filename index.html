@@ -435,7 +435,7 @@
 	</h1>
 	<div id="live_status" hidden="" data-src=
 	"https://raw.githubusercontent.com/googlefonts/fontc_crater/refs/heads/status/status.json"
-	data-run-finished="2026-10-27T13:36:50.436Z">
+	data-run-finished="2026-10-27T14:20:37.558Z">
 	<span class="text">loading crater status</span><progress hidden=
 	""></progress>
 	</div>
@@ -510,7 +510,7 @@
 		<td id="show_all_row">
 			<a href="" onclick=
 			"event.preventDefault(); showAllResults();">Show all
-			759 results</a>
+			760 results</a>
 		</td>
 		</tr>
 		<tr class="hidden_row">
@@ -28747,7 +28747,7 @@
 			99.943 <span class="worse">-0.000</span>
 		</td>
 		</tr>
-		<tr>
+		<tr class="hidden_row">
 		<td class="date">
 			2026-10-16 1817 <span class=
 			"deemphasized">(6m0.44s)</span>
@@ -29337,8 +29337,45 @@
 			79.6%
 		</td>
 		<td class="fontc_err">
-			<a href="#fontc-failures">47 <span class=
-			"worse">+7</span></a>
+			47 <span class="worse">+7</span>
+		</td>
+		<td class="fontmake_err">
+			66
+		</td>
+		<td class="both_err">
+			447
+		</td>
+		<td class="other_err">
+			7
+		</td>
+		<td class="diff_perc">
+			84.320 <span class="worse">-0.202</span>
+		</td>
+		<td class="diff_perc_excl">
+			99.937 <span class="worse">-0.012</span>
+		</td>
+		</tr>
+		<tr>
+		<td class="date">
+			2026-10-27 1401 <span class=
+			"deemphasized">(19m18.63s)</span>
+		</td>
+		<td class="rev">
+			<a href=
+			"https://github.com/googlefonts/fontc/compare/a0206d7a...ef6baad2/">
+			ef6baad2</a>
+		</td>
+		<td class="identical">
+			2791
+		</td>
+		<td class="total">
+			3628
+		</td>
+		<td class="identical_perc">
+			79.6%
+		</td>
+		<td class="fontc_err">
+			<a href="#fontc-failures">47</a>
 		</td>
 		<td class="fontmake_err">
 			<a href="#fontmake-failures">66</a>
@@ -29350,10 +29387,10 @@
 			<a href="#other-failures">7</a>
 		</td>
 		<td class="diff_perc">
-			84.320 <span class="worse">-0.202</span>
+			84.320
 		</td>
 		<td class="diff_perc_excl">
-			99.937 <span class="worse">-0.012</span>
+			99.937
 		</td>
 		</tr>
 	</tbody>
@@ -29402,92 +29439,8 @@
 		Diffs
 	</h3>
 	<div class="matching_families">
-		1130 <span class="better">+1</span> of 1451 total families
-		match.
+		1130 of 1451 total families match.
 	</div>
-	<details>
-		<summary>
-		<span class="font_path">Aoboshi/aoboshi.glyphs
-		<em>(gftools)</em> ✎</span><span class=
-		"diff_result">100.000% <span class=
-		"better">+7.273</span></span>
-		</summary>
-		<div class="diff_info">
-		<table>
-			<thead>
-			<tr>
-				<th class="diff_table" scope="col">
-				table
-				</th>
-				<th class="diff_value" scope="col">
-				value
-				</th>
-			</tr>
-			</thead>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				glyf
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+8.830</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				hmtx
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+18.136</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				maxp
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+11.111</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				total
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+7.273</span>
-			</td>
-			</tr>
-			<tr class="table_diff_row">
-			<td class="table_diff_name">
-				vmtx
-			</td>
-			<td class="table_diff_value">
-				100.000% <span class="better">+1.165</span>
-			</td>
-			</tr>
-		</table><a href=
-		"https://github.com/matsuba723/Aoboshi">view source
-		repository</a> <a href="" onclick=
-		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/matsuba723/Aoboshi?97f6481745#sources/aoboshi.glyphs' --compare gftools --config ~/.fontc_crater_cache/google/fonts/ofl/aoboshione/config.yaml&quot;);">
-		copy reproduction command</a>
-		<div class="annotations">
-			<h5>
-			annotations
-			</h5>
-			<ul>
-			<li>the glyphsLib cornerComponents filter isn't
-			implemented for UFO sources, so the instance UFO's
-			corner components are missing: <a href=
-			"https://github.com/googlefonts/fontc/issues/2243">
-				https://github.com/googlefonts/fontc/issues/2243</a>
-			</li>
-			<li>
-				<em>(to add or change, manually edit
-				annotations.json)</em>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</details>
 	<details>
 		<summary>
 		<span class="font_path">iansui/Iansui-build.glyphspackage
@@ -29548,8 +29501,8 @@
 	<details>
 		<summary>
 		<span class="font_path">iansui/Iansui-build.glyphspackage
-		<em>(gftools)</em></span><span class="diff_result">99.999%
-		<span class="worse">-0.001</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(glyf)</span>
 		</summary>
 		<div class="diff_info">
@@ -29569,7 +29522,7 @@
 				glyf
 			</td>
 			<td class="table_diff_value">
-				100.000% <span class="worse">-0.000</span>
+				100.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -29577,7 +29530,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				100.000% <span class="worse">-0.000</span>
+				100.000%
 			</td>
 			</tr>
 		</table><a href="https://github.com/ButTaiwan/iansui">view
@@ -32102,8 +32055,8 @@
 	<details>
 		<summary>
 		<span class="font_path">solitreo/Solitreo.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.993%
-		<span class="worse">-0.007</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.993%</span> <span class=
 		"changed_tag_list">((mark/kern))</span>
 		</summary>
 		<div class="diff_info">
@@ -32123,7 +32076,7 @@
 				(mark/kern)
 			</td>
 			<td class="table_diff_value">
-				99.978% <span class="worse">-0.022</span>
+				99.978%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -32131,7 +32084,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.993% <span class="worse">-0.007</span>
+				99.993%
 			</td>
 			</tr>
 		</table><a href=
@@ -32938,8 +32891,8 @@
 	<details>
 		<summary>
 		<span class="font_path">sixcaps/SixCaps.glyphs
-		<em>(gftools)</em></span><span class="diff_result">99.987%
-		<span class="worse">-0.012</span></span><span class=
+		<em>(gftools)</em></span><span class=
+		"diff_result">99.987%</span> <span class=
 		"changed_tag_list">(head)</span>
 		</summary>
 		<div class="diff_info">
@@ -32959,7 +32912,7 @@
 				head
 			</td>
 			<td class="table_diff_value">
-				95.000% <span class="worse">-5.000</span>
+				95.000%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -32967,7 +32920,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				99.988% <span class="worse">-0.012</span>
+				99.988%
 			</td>
 			</tr>
 		</table><a href=
@@ -41271,10 +41224,9 @@
 		<summary>
 		<span class="font_path">Blaka/Blaka-Ink.glyphs
 		<em>(gftools, sources/blakaink.yaml)</em>
-		✎</span><span class="diff_result">50.225% <span class=
-		"worse">-48.366</span></span><span class=
-		"changed_tag_list">(COLR, GlyphOrder, OS_2, SVG, glyf,
-		hhea, hmtx, maxp, post)</span>
+		✎</span><span class="diff_result">50.225%</span>
+		<span class="changed_tag_list">(COLR, GlyphOrder, OS_2,
+		SVG, glyf, hhea, hmtx, maxp, post)</span>
 		</summary>
 		<div class="diff_info">
 		<table>
@@ -41293,8 +41245,7 @@
 				COLR
 			</td>
 			<td class="table_diff_value">
-				fontmake only <span class=
-				"worse">-96.618</span>
+				fontmake only
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41302,7 +41253,7 @@
 				GlyphOrder
 			</td>
 			<td class="table_diff_value">
-				69.070% <span class="better">+69.070</span>
+				69.070%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41310,7 +41261,7 @@
 				OS_2
 			</td>
 			<td class="table_diff_value">
-				98.077% <span class="better">+98.077</span>
+				98.077%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41326,7 +41277,7 @@
 				glyf
 			</td>
 			<td class="table_diff_value">
-				73.889% <span class="better">+73.889</span>
+				73.889%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41334,7 +41285,7 @@
 				hhea
 			</td>
 			<td class="table_diff_value">
-				94.737% <span class="better">+94.737</span>
+				94.737%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41342,7 +41293,7 @@
 				hmtx
 			</td>
 			<td class="table_diff_value">
-				69.036% <span class="better">+69.036</span>
+				69.036%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41350,7 +41301,7 @@
 				maxp
 			</td>
 			<td class="table_diff_value">
-				94.444% <span class="better">+94.444</span>
+				94.444%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41358,7 +41309,7 @@
 				post
 			</td>
 			<td class="table_diff_value">
-				59.483% <span class="better">+59.483</span>
+				59.483%
 			</td>
 			</tr>
 			<tr class="table_diff_row">
@@ -41366,7 +41317,7 @@
 				total
 			</td>
 			<td class="table_diff_value">
-				50.225% <span class="worse">-48.366</span>
+				50.225%
 			</td>
 			</tr>
 		</table><a href="https://github.com/Gue3bara/Blaka">view
@@ -41964,7 +41915,6 @@
 		<summary>
 			Omnibus-Type/Bahiana/$VIRTUAL/google/fonts/ofl/bahianita/config.yaml
 			Bahianita/sources/Bahianita.glyphs?0efedac55f (gftools)
-			🆕
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/Omnibus-Type/Bahiana">view
@@ -42111,7 +42061,7 @@
 		<details class="report_group_item">
 		<summary>
 			RosaWagner/Borel/Borel/sources/config.yaml
-			Borel.glyphs?68b8266ec6 (gftools) 🆕 ✎
+			Borel.glyphs?68b8266ec6 (gftools) ✎
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/RosaWagner/Borel">view
@@ -43273,7 +43223,7 @@
 		<summary>
 			googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml
 			Serif/Source/DeepMindDisplay-Italic.glyphs?027cea4e4f
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/dm-fonts">view
@@ -43361,7 +43311,7 @@
 		<summary>
 			googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmserifdisplay/config.yaml
 			Serif/Source/DeepMindDisplay-Roman.glyphs?027cea4e4f
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/dm-fonts">view
@@ -43446,7 +43396,7 @@
 		<summary>
 			googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml
 			Serif/Source/DeepMindSerif-Italic.glyphs?027cea4e4f
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/dm-fonts">view
@@ -43534,7 +43484,7 @@
 		<summary>
 			googlefonts/dm-fonts/$VIRTUAL/google/fonts/ofl/dmseriftext/config.yaml
 			Serif/Source/DeepMindSerif-Roman.glyphs?027cea4e4f
-			(gftools) 🆕
+			(gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/googlefonts/dm-fonts">view
@@ -44179,7 +44129,7 @@
 		<details class="report_group_item">
 		<summary>
 			rosettatype/handjet/$VIRTUAL/google/fonts/ofl/handjet/config.yaml
-			sources/Handjet.glyphs?3918b7798e (gftools) 🆕
+			sources/Handjet.glyphs?3918b7798e (gftools)
 		</summary>
 		<div class="diff_info">
 			<a href="https://github.com/rosettatype/handjet">view
