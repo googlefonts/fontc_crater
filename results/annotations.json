@@ -1132,17 +1132,6 @@
       ]
     }
   ],
-  "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (default)": [
-    {
-      "text": "the ss05 note 'Name: Greek adscript iota\"' has a literal quote: fontc's glyphs-reader puts it unescaped in the featureNames record (glyphsLib escapes it as \\0022), so fea-rs hits an unterminated string; fontmake builds it since fontTools 4.68.0 keeps the escape",
-      "also": [
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (gftools: Alegreya Black)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (gftools: Alegreya Regular)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya_Italic.glyphs?1dd6b28b57 (gftools: Alegreya Black Italic)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya_Italic.glyphs?1dd6b28b57 (gftools: Alegreya Italic)"
-      ]
-    }
-  ],
   "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (default)": [
     {
       "text": "fontc rejects 'fontmetrics' (5 paths in Regular, none in Bold) as interpolation-incompatible, where fontTools treats an empty non-default master as sparse; fontmake fails first on the stale automatic prefix repeating `languagesystem deva dflt` (feaLib errors, fea-rs warns)",
@@ -1690,12 +1679,6 @@
       "text": "fontc bug (from #2262): the default vertical advance for glyphs without vertWidth uses the static instance's typoDescender (1390) where glyphsLib keeps the master's (1362), so 6 vmtx heights and vhea.advanceHeightMax differ"
     }
   ],
-  "notofonts/khitan-small-script/sources/config-serif.yaml NotoSerifKhitanSmallScript.glyphspackage?8769c8b092 (default)": [
-    {
-      "text": "the Khitan-script sample text (nameID 19) is outside the BMP: since #2253 fontc keeps it at Windows encoding 1, while ufo2ft 3.9.1 moves it to encoding 10. ufo2ft#1012 makes ufo2ft match but isn't released yet",
-      "link": "https://github.com/googlefonts/ufo2ft/pull/1012"
-    }
-  ],
   "aaronbell/LxgwMarkerGothic/$VIRTUAL/google/fonts/ofl/lxgwmarkergothic/config.yaml sources/LXGWMarkerGothic-Regular.ufoz?fe83570074 (default)": [
     {
       "text": "fontc bug: fontc ignores the UFO component objectLibs keys public.truetype.roundOffsetToGrid and public.truetype.useMyMetrics, which ufo2ft honours. It sets ROUND_XY_TO_GRID on 209 components whose lib says false and auto-sets USE_MY_METRICS on 9"
@@ -1754,8 +1737,6 @@
     {
       "text": "fontmake fails because the stale automatic Languagesystems prefix repeats `languagesystem deva dflt`, which feaLib rejects and fea-rs only warns about",
       "also": [
-        "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Bold)",
-        "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Medium)",
         "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Regular)"
       ]
     }
@@ -2175,58 +2156,6 @@
       ]
     }
   ],
-  "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Bold.glyphs?bcb93f7b9b (default)": [
-    {
-      "text": "the case feature's single-pos lookup has `subtable;` between its rules: fea-rs splits there into 4 format-1 subtables, while feaLib ignores subtable breaks in SinglePos lookups and regroups by value into one format-1 and one format-2 subtable; the positioning is the same",
-      "link": "https://github.com/googlefonts/fontc/pull/2308",
-      "also": [
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Bold.glyphs?bcb93f7b9b (gftools)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-BoldItalic.glyphs?bcb93f7b9b (default)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-BoldItalic.glyphs?bcb93f7b9b (gftools)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Italic.glyphs?bcb93f7b9b (default)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Italic.glyphs?bcb93f7b9b (gftools)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Regular.glyphs?bcb93f7b9b (default)",
-        "googlefonts/ptsans/sources/config.yaml PT_Sans-Web-Regular.glyphs?bcb93f7b9b (gftools)",
-        "googlefonts/ptsanscaption/sources/config.yaml PT_Sans-Caption-Web-Bold.glyphs?6c1efcf8b0 (default)",
-        "googlefonts/ptsanscaption/sources/config.yaml PT_Sans-Caption-Web-Bold.glyphs?6c1efcf8b0 (gftools)",
-        "googlefonts/ptsanscaption/sources/config.yaml PT_Sans-Caption-Web-Regular.glyphs?6c1efcf8b0 (default)",
-        "googlefonts/ptsanscaption/sources/config.yaml PT_Sans-Caption-Web-Regular.glyphs?6c1efcf8b0 (gftools)",
-        "googlefonts/ptsansnarrow/sources/config.yaml PT_Sans-Narrow-Web-Bold.glyphs?ff02de9bb2 (default)",
-        "googlefonts/ptsansnarrow/sources/config.yaml PT_Sans-Narrow-Web-Bold.glyphs?ff02de9bb2 (gftools)",
-        "googlefonts/ptsansnarrow/sources/config.yaml PT_Sans-Narrow-Web-Regular.glyphs?ff02de9bb2 (default)",
-        "googlefonts/ptsansnarrow/sources/config.yaml PT_Sans-Narrow-Web-Regular.glyphs?ff02de9bb2 (gftools)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Bold.glyphs?54cfef3107 (default)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Bold.glyphs?54cfef3107 (gftools)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-BoldItalic.glyphs?54cfef3107 (default)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-BoldItalic.glyphs?54cfef3107 (gftools)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Italic.glyphs?54cfef3107 (default)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Italic.glyphs?54cfef3107 (gftools)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Regular.glyphs?54cfef3107 (default)",
-        "googlefonts/ptserif/sources/config.yaml PT_Serif-Web-Regular.glyphs?54cfef3107 (gftools)",
-        "googlefonts/ptserifcaption/sources/config.yaml PT_Serif-Caption-Web-Italic.glyphs?95cb161f0e (default)",
-        "googlefonts/ptserifcaption/sources/config.yaml PT_Serif-Caption-Web-Italic.glyphs?95cb161f0e (gftools)",
-        "googlefonts/ptserifcaption/sources/config.yaml PT_Serif-Caption-Web-Regular.glyphs?95cb161f0e (default)",
-        "googlefonts/ptserifcaption/sources/config.yaml PT_Serif-Caption-Web-Regular.glyphs?95cb161f0e (gftools)"
-      ]
-    }
-  ],
-  "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (gftools: Bold)": [
-    {
-      "text": "gftools' instantiateUfo (ufo2ft's instantiator) zeroes the OS/2 panose digits the designspace sources disagree on (ufo2ft#943), while fontc's --export deliberately keeps the panose of the source the export sits on, so bWeight (Agdasima: also bProportion) is 0 vs the source's value",
-      "link": "https://github.com/googlefonts/fontc/pull/2294",
-      "also": [
-        "docrepair-fonts/agdasima-fonts/sources/config.yaml Agdasima-Regular.designspace?c971400d77 (gftools: Regular)",
-        "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools: instance_ExtraBold_Italic)",
-        "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools: instance_ExtraLight_Italic)",
-        "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools: instance_Italic)",
-        "productiontype/Spectral/sources/config.yaml Spectral.designspace?dbc06862d7 (gftools: instance_ExtraBold)",
-        "productiontype/Spectral/sources/config.yaml Spectral.designspace?dbc06862d7 (gftools: instance_ExtraLight)",
-        "productiontype/Spectral/sources/config.yaml Spectral.designspace?dbc06862d7 (gftools: instance_Regular)",
-        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (gftools: Kay Pho Du Bold)",
-        "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace?4c49d8ac7a (gftools: Kay Pho Du Regular)"
-      ]
-    }
-  ],
   "productiontype/Spectral/sources/config.yaml Spectral-Italic.designspace?dbc06862d7 (gftools: instance_ExtraBold_Italic)": [
     {
       "text": "the UFOs store meta dlng as one string ('en-latn, fr-latn, …'): ufo2fontir splits it on commas and trims each tag, while ufo2ft writes the string as-is (deliberately not matched)",
@@ -2262,61 +2191,11 @@
       ]
     }
   ],
-  "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenal/config.yaml sources/Arsenal-Italic.glyphs?878af08407 (gftools: Arsenal Bold Italic)": [
-    {
-      "text": "for an export off the default master, fontc infers GDEF base/ligature classes from that master's own anchors (as Glyphs 3.5 does), while fontmake's instance UFO inherits the default master's public.openTypeCategories (ufo2ft's instantiator copies the default source lib), so the classes differ and ufo2ft drops mark attachment for anchored glyphs it doesn't class as bases",
-      "link": "https://github.com/googlefonts/fontc/pull/2290",
-      "also": [
-        "alexeiva/Arsenal/$VIRTUAL/google/fonts/ofl/arsenalsc/config.yaml sources/Arsenal-Italic.glyphs?e34db566b2 (gftools: Arsenal Bold Italic)",
-        "alexeiva/philosopher/sources/config.yaml Philosopher-Italic.glyphs?9983715d44 (gftools: Philosopher Bold Italic)",
-        "alexeiva/philosopher/sources/config.yaml Philosopher.glyphs?9983715d44 (gftools: Philosopher Bold)",
-        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Italic.glyphs?b1dca64c3c (gftools: Balsamiq Sans Bold Italic)",
-        "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Roman.glyphs?b1dca64c3c (gftools: Balsamiq Sans Bold)",
-        "cadsondemak/Charm/$VIRTUAL/google/fonts/ofl/charm/config.yaml source/Charm.glyphs?873c551602 (gftools: Charm Bold)",
-        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (gftools: Kanit Black Italic)",
-        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (gftools: Kanit ExtraBold Italic)",
-        "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (gftools: Kanit SemiBold Italic)",
-        "cyrealtype/Sumana/$VIRTUAL/google/fonts/ofl/sumana/config.yaml sources/Sumana.glyphs?68c5ce43ae (gftools: Sumana Bold)",
-        "googlefonts/Crimson/sources/config.yaml CrimsonText-Italic.glyphs?4f1458ae64 (gftools: Crimson Text Bold Italic)",
-        "googlefonts/Crimson/sources/config.yaml CrimsonText-Italic.glyphs?4f1458ae64 (gftools: Crimson Text SemiBold Italic)",
-        "googlefonts/Crimson/sources/config.yaml CrimsonText.glyphs?4f1458ae64 (gftools: Crimson Text Bold)",
-        "googlefonts/Crimson/sources/config.yaml CrimsonText.glyphs?4f1458ae64 (gftools: Crimson Text SemiBold)",
-        "googlefonts/birthstone-bounce/sources/config.yaml BirthstoneBounce.glyphs?db48de44b6 (gftools: Birthstone Bounce Medium)",
-        "googlefonts/corinthia/sources/config.yml Corinthia.glyphs?9c81839655 (gftools: Corinthia Bold)",
-        "googlefonts/corinthia/sources/config.yml Corinthia.glyphs?9c81839655 (gftools: Corinthia Medium)",
-        "googlefonts/fuzzy-bubbles/sources/config.yml FuzzyBubbles.glyphs?16d63fbca1 (gftools: Fuzzy Bubbles Bold)",
-        "googlefonts/qwitcher-grypen/sources/config.yml QwitcherGrypenPro.glyphs?cd12ed20d4 (gftools: Qwitcher Grypen Bold)",
-        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada-Italic.glyphs?df06a155d9 (gftools: Scada Bold Italic)",
-        "googlefonts/scada/$VIRTUAL/google/fonts/ofl/scada/config.yaml sources/Scada.glyphs?df06a155d9 (gftools: Scada Bold)",
-        "googlefonts/spacemono/sources/config.yaml SpaceMono-Italic.glyphs?329858c2c4 (gftools: Space Mono Bold Italic)",
-        "googlefonts/the-nautigal/sources/config.yml TheNautigalPro.glyphs?1d644f7cd7 (gftools: The Nautigal Bold)",
-        "googlefonts/windsong/sources/config.yml WindSongPro.glyphs?08da686e58 (gftools: WindSong Medium)",
-        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (gftools: Betania Patmos GDL Regular)",
-        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (gftools: Betania Patmos In GDL Regular)",
-        "meirsadan/david-libre/sources/config.yaml DavidLibre.glyphs?15496c1be7 (gftools: David Libre Medium)",
-        "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools: Sulphur Point Bold)",
-        "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools: Sulphur Point Light)",
-        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (gftools: Betania Patmos GuideLine Regular)",
-        "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (gftools: Inknut Antiqua Black)"
-      ]
-    }
-  ],
   "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools: Sulphur Point Bold)": [
     {
       "text": "circumflexcomb uses caroncomb in Regular and caroncomb uses circumflexcomb in Bold: glyphsLib's anchor propagation unions components across masters, sees a cycle and leaves 33 composites (Acircumflex, Scaron, …) anchorless, while fontc --export keeps only the export's master, propagates them and classes them as GDEF bases with mark2base rules",
       "also": [
         "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools: Sulphur Point Light)"
-      ]
-    }
-  ],
-  "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (gftools: Suwannaphum Black)": [
-    {
-      "text": "some glyphs are empty in the exported master but drawn in the default one (Suwannaphum's cho.half/ru.half/ruu.half/ta.half exist only in Regular): ufo2ft's instantiator skips empty non-default masters, so fontmake's instance gets the default master's outline, width and anchors, while fontc --export builds the master's empty layer",
-      "also": [
-        "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (gftools: Suwannaphum Bold)",
-        "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (gftools: Suwannaphum Light)",
-        "danhhong/Suwannaphum/Source/builder.yaml Suwannaphum.glyphs?86c0dfc2b5 (gftools: Suwannaphum Thin)",
-        "huertatipografica/betania-patmos/sources/config.yaml betania-patmos.glyphs?08c83ac954 (gftools: Betania Patmos GuideLine Regular)"
       ]
     }
   ],
@@ -2339,30 +2218,14 @@
       ]
     }
   ],
-  "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Black Italic)": [
-    {
-      "text": "glyphsLib turns bracket layers into .BRACKET.varAltNN glyphs, and fontmake's static instance keeps them as unreachable extra glyphs with copied kerning and anchors; fontc --export swaps in the alternate layer that applies at the instance's location and drops the rest, as Glyphs 3.5 does",
-      "also": [
-        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Italic)",
-        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Thin Italic)",
-        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ROMAN-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Black)",
-        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ROMAN-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Regular)",
-        "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ROMAN-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Thin)",
-        "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (gftools: Inknut Antiqua Black)",
-        "clauseggers/Inknut-Antiqua/$VIRTUAL/google/fonts/ofl/inknutantiqua/config.yaml Inknut Antiqua uprights.glyphs?9db4a5c235 (gftools: Inknut Antiqua Regular)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (gftools: Alegreya Black Italic)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (gftools: Alegreya Italic)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools: Alegreya Black)",
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools: Alegreya Regular)"
-      ]
-    }
-  ],
   "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya italic.glyphs?d6aedcbb5a (gftools: Alegreya Black Italic)": [
     {
       "text": "glyphsLib's overlapping bracket rules (130-175, 100-175, 80-175) all match at Black, and ufo2ft's instantiator swaps a glyph once per matching rule, so cent, dollar, won, peso and the other [75]/[100] glyphs swap back to their master layer in fontmake; fontc uses the alternate layers, as Glyphs does",
       "link": "https://github.com/googlefonts/ufo2ft/issues/852",
       "also": [
-        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools: Alegreya Black)"
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreyasc/config.yaml sources/Alegreya.glyphs?d6aedcbb5a (gftools: Alegreya Black)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya.glyphs?1dd6b28b57 (gftools: Alegreya Black)",
+        "huertatipografica/Alegreya/$VIRTUAL/google/fonts/ofl/alegreya/config.yaml sources/Alegreya_Italic.glyphs?1dd6b28b57 (gftools: Alegreya Black Italic)"
       ]
     }
   ],
@@ -2378,6 +2241,15 @@
     {
       "text": "Heavy has 'Remove Glyphs' dollar, cent and 'Rename Glyphs' dollar.bold=dollar, cent.bold=cent: fontc ignores both and keeps the regular $ and ¢ plus the .bold glyphs; glyphsLib swaps the glyphs first and fontmake then removes 'dollar'/'cent' by name, losing the bold $ and ¢ and leaving U+0024/U+00A2 unmapped (Glyphs' shipped Black maps them to the bold design)",
       "link": "https://github.com/googlefonts/fontc/issues/2284"
+    }
+  ],
+  "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Bold)": [
+    {
+      "text": "fontmake fails because fontmetrics has contours in the default Regular master (179) but an empty layer in the Bold master (344): glyphsLib 6.17.0 marks that layer explicitly empty (glyphsLib#1219) and ufo2ft 3.11.0 keeps it as a master, so the Medium (242) and Bold (282) instances between the two can't interpolate it ('list index out of range'). Before, ufo2ft treated the empty layer as sparse and fontmake went on to fail on the repeated `languagesystem deva dflt`",
+      "link": "https://github.com/googlefonts/ufo2ft/pull/1018",
+      "also": [
+        "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Medium)"
+      ]
     }
   ]
 }
