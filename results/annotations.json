@@ -2251,5 +2251,42 @@
         "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Medium)"
       ]
     }
+  ],
+  "googlefonts/nanumgothic/sources/config.yaml NanumGothic-Bold.glyphs?1893597aed (default)": [
+    {
+      "text": "the Bold export isn't style-linked, and its Korean `Name Table Entry` parameters set IDs 2, 4, 16 and 17 but not 1: fontc builds the Korean ID 1 from the font's KOR familyNames plus the default-language style suffix, as Glyphs 3.5 does ('나눔고딕 Bold', like its English 'NanumGothic Bold'); glyphsLib writes the bare KOR family '나눔고딕', which the shipped, style-linked font also has. The same ID 1 rule as LINE Seed JP's note",
+      "link": "https://github.com/googlefonts/fontc/pull/2280",
+      "also": [
+        "googlefonts/nanumgothic/sources/config.yaml NanumGothic-Bold.glyphs?1893597aed (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/niconne/sources/config.yaml Niconne-Regular.glyphs?e483ce27f6 (default)": [
+    {
+      "text": "size-only GPOS gap: the source's kern lookup has `subtable;` breaks between glyph pairs, which reproduce the shipped binary's subtables. fea-rs honours them, one PairPos format 1 subtable per segment as shipped, keeping pairs that repeat across segments; feaLib merges a lookup's glyph pairs into one subtable, first rule winning, and applies breaks only to class pairs, the one place the FEA spec requires them (a break left over from the glyph pairs also splits feaLib's class pairs after their first rule). The positioning is the same. fea-rs already ignores such breaks in SinglePos (fontc#2308)",
+      "link": "https://github.com/googlefonts/fontc/pull/2329",
+      "also": [
+        "googlefonts/niconne/sources/config.yaml Niconne-Regular.glyphs?e483ce27f6 (gftools)",
+        "googlefonts/salsa/sources/config.yaml Salsa-Regular.glyphs?bcc583ae22 (default)",
+        "googlefonts/salsa/sources/config.yaml Salsa-Regular.glyphs?bcc583ae22 (gftools)",
+        "googlefonts/share/sources/config.yaml Share-Bold.glyphs?b66729eb3a (default)",
+        "googlefonts/share/sources/config.yaml Share-Bold.glyphs?b66729eb3a (gftools)",
+        "googlefonts/share/sources/config.yaml Share-BoldItalic.glyphs?b66729eb3a (default)",
+        "googlefonts/share/sources/config.yaml Share-BoldItalic.glyphs?b66729eb3a (gftools)",
+        "googlefonts/share/sources/config.yaml Share-Italic.glyphs?b66729eb3a (default)",
+        "googlefonts/share/sources/config.yaml Share-Italic.glyphs?b66729eb3a (gftools)",
+        "googlefonts/share/sources/config.yaml Share-Regular.glyphs?b66729eb3a (default)",
+        "googlefonts/share/sources/config.yaml Share-Regular.glyphs?b66729eb3a (gftools)"
+      ]
+    }
+  ],
+  "xotypeco/big_shoulders/Big-Shoulders-Inline/sources/config.yml BigShouldersInline.glyphs?8ba99c9e34 (gftools)": [
+    {
+      "text": "gftools 0.10.7 leaves hidden axes out of the VF filename (gftools#1244). The source hides opsz (masters at 10 and 72), so the VF is built as X[wght].ttf, but the config's stat is keyed by X[opsz,wght].ttf, the name google/fonts ships from this config, so gftools-gen-stat fails on both sides. gftools' maintainers call it a new policy, so the config needs updating",
+      "link": "https://github.com/googlefonts/gftools/issues/1247",
+      "also": [
+        "xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml BigShouldersStencil.glyphs?8ba99c9e34 (gftools)"
+      ]
+    }
   ]
 }
