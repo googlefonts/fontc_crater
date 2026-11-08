@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "bbda7253fc363238b05d97515ca71f8ae49c4fa9",
+  "fonts_repo_sha": "5bb28733cec313b63fbd415b574b5ae35c8aa8b8",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -4008,6 +4008,11 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/intel-one-mono",
+      "rev": "06572f3e0bbd90622b7f9e8b53e5994a1fd9f593",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/island-moments",
       "rev": "665d59f297c782358f09699fc2231c0eee293f25",
       "config": "sources/config.yml"
@@ -5505,12 +5510,6 @@
       "repo_url": "https://github.com/indestructible-type/Jost",
       "rev": "35f141c970538f1ed0f235789c19156b3ce2a762",
       "config": "google/fonts/ofl/jost/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/intel/intel-one-mono",
-      "rev": "99e2d6ca170744c62bfb5f52547435f23720abe1",
-      "config": "google/fonts/ofl/intelonemono/config.yaml",
       "config_is_external": true
     },
     {
