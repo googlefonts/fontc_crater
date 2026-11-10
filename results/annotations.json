@@ -448,8 +448,6 @@
       "text": "default fvar instance: fontc reuses nameID 2/17; fontTools allocates a new ID because the FEA featureNames add Mac records that 2/17 lack (both valid)",
       "also": [
         "hyvyys/Tektur/sources/config.yaml UFO/Tektur.designspace?0313e9612e (default)",
-        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Roman.designspace?99e2d6ca17 (default)",
-        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Roman.designspace?99e2d6ca17 (gftools)",
         "notofonts/thai/sources/config-sans-thai.yaml NotoSansThai.designspace?f8f3f02470 (default)"
       ]
     },
@@ -1373,14 +1371,6 @@
       ]
     }
   ],
-  "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?99e2d6ca17 (default)": [
-    {
-      "text": "at the refreshed pin the Italic masters aren't interpolation-compatible: 4 ligatures swap component order between Light and Bold Italic and numbersign_underscore_parenleft has a different point count; both compilers reject them",
-      "also": [
-        "intel/intel-one-mono/$VIRTUAL/google/fonts/ofl/intelonemono/config.yaml sources/masters/IntelOneMono-Italic.designspace?99e2d6ca17 (gftools)"
-      ]
-    }
-  ],
   "silnrsi/font-lateef/$VIRTUAL/google/fonts/ofl/lateef/config.yaml source/lateef-edit.designspace?d682ea7cc0 (default)": [
     {
       "text": "the config names lateef-edit.designspace, a stale editing file whose masters (Lateef-Light.ufo, Lateef-Black.ufo) were renamed and no longer exist, so neither compiler can load it; SIL builds the shipped statics from lateef.designspace",
@@ -2286,6 +2276,14 @@
       "link": "https://github.com/googlefonts/gftools/issues/1247",
       "also": [
         "xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml BigShouldersStencil.glyphs?8ba99c9e34 (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/intel-one-mono/sources/config.yaml masters/IntelOneMono.designspace?06572f3e0b (gftools)": [
+    {
+      "text": "gftools passes the config's extraFontmakeArgs ('--fea-include-dir=features') through to fontc, which has no such option and rejects it. The default-mode targets, which pass neither compiler the flag, are identical",
+      "also": [
+        "googlefonts/intel-one-mono/sources/config.yaml masters/IntelOneMono-Italic.designspace?06572f3e0b (gftools)"
       ]
     }
   ]
