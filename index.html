@@ -30981,7 +30981,7 @@
 	<details>
 		<summary>
 		<span class="font_path">nanumgothic/NanumGothic-Bold.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(name)</span>
 		</summary>
@@ -31017,15 +31017,36 @@
 		"https://github.com/googlefonts/nanumgothic">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/nanumgothic?1893597aed#sources/NanumGothic-Bold.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/nanumgothic/sources/config.yaml NanumGothic-Bold.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>the Bold export isn't style-linked, and its
+			Korean `Name Table Entry` parameters set IDs 2, 4,
+			16 and 17 but not 1: fontc builds the Korean ID 1
+			from the font's KOR familyNames plus the
+			default-language style suffix, as Glyphs 3.5 does
+			('나눔고딕 Bold', like its English 'NanumGothic Bold');
+			glyphsLib writes the bare KOR family '나눔고딕', which
+			the shipped, style-linked font also has. The same
+			ID 1 rule as LINE Seed JP's note: <a href=
+			"https://github.com/googlefonts/fontc/pull/2280">
+				https://github.com/googlefonts/fontc/pull/2280</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">nanumgothic/NanumGothic-Bold.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.999%</span> <span class=
 		"changed_tag_list">(name)</span>
 		</summary>
@@ -31061,9 +31082,30 @@
 		"https://github.com/googlefonts/nanumgothic">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/nanumgothic?1893597aed#sources/NanumGothic-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/nanumgothic/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/nanumgothic/sources/config.yaml NanumGothic-Bold.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>the Bold export isn't style-linked, and its
+			Korean `Name Table Entry` parameters set IDs 2, 4,
+			16 and 17 but not 1: fontc builds the Korean ID 1
+			from the font's KOR familyNames plus the
+			default-language style suffix, as Glyphs 3.5 does
+			('나눔고딕 Bold', like its English 'NanumGothic Bold');
+			glyphsLib writes the bare KOR family '나눔고딕', which
+			the shipped, style-linked font also has. The same
+			ID 1 rule as LINE Seed JP's note: <a href=
+			"https://github.com/googlefonts/fontc/pull/2280">
+				https://github.com/googlefonts/fontc/pull/2280</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -40738,7 +40780,7 @@
 	<details>
 		<summary>
 		<span class="font_path">salsa/Salsa-Regular.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.446%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -40773,15 +40815,40 @@
 		</table><a href="https://github.com/googlefonts/salsa">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/salsa?bcc583ae22#sources/Salsa-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/salsa/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/salsa/sources/config.yaml Salsa-Regular.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">salsa/Salsa-Regular.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.446%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -40816,9 +40883,34 @@
 		</table><a href="https://github.com/googlefonts/salsa">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/salsa?bcc583ae22#sources/Salsa-Regular.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/salsa/sources/config.yaml Salsa-Regular.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -41128,7 +41220,7 @@
 	<details>
 		<summary>
 		<span class="font_path">niconne/Niconne-Regular.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.342%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41164,15 +41256,40 @@
 		"https://github.com/googlefonts/niconne">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/niconne?e483ce27f6#sources/Niconne-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/niconne/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/niconne/sources/config.yaml Niconne-Regular.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">niconne/Niconne-Regular.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.342%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41208,9 +41325,34 @@
 		"https://github.com/googlefonts/niconne">view source
 		repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/niconne?e483ce27f6#sources/Niconne-Regular.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/niconne/sources/config.yaml Niconne-Regular.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -41501,7 +41643,7 @@
 	<details>
 		<summary>
 		<span class="font_path">share/Share-BoldItalic.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.045%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41536,15 +41678,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-BoldItalic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/share/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-BoldItalic.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-BoldItalic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.045%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41579,15 +41746,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-BoldItalic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-BoldItalic.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Italic.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">99.043%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41622,15 +41814,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Italic.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/share/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Italic.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Italic.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">99.042%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41665,15 +41882,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Italic.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Italic.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Bold.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">98.986%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41708,15 +41950,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Bold.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/share/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Bold.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Bold.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">98.986%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41751,15 +42018,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Bold.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Bold.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Regular.glyphs
-		<em>(gftools)</em></span><span class=
+		<em>(gftools)</em> ✎</span><span class=
 		"diff_result">98.980%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41794,15 +42086,40 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Regular.glyphs' --compare gftools --config ~/.fontc_crater_cache/googlefonts/share/sources/config.yaml&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Regular.glyphs (gftools)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
 		<summary>
 		<span class="font_path">share/Share-Regular.glyphs
-		<em>(default)</em></span><span class=
+		<em>(default)</em> ✎</span><span class=
 		"diff_result">98.980%</span> <span class=
 		"changed_tag_list">(sizeof(GPOS))</span>
 		</summary>
@@ -41837,9 +42154,34 @@
 		</table><a href="https://github.com/googlefonts/share">view
 		source repository</a> <a href="" onclick=
 		"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/share?b66729eb3a#sources/Share-Regular.glyphs'&quot;);">
-		copy reproduction command</a> <a href="#" onclick=
-		"event.preventDefault(); openModal(&quot;googlefonts/share/sources/config.yaml Share-Regular.glyphs (default)&quot;);">
-		new annotation</a>
+		copy reproduction command</a>
+		<div class="annotations">
+			<h5>
+			annotations
+			</h5>
+			<ul>
+			<li>size-only GPOS gap: the source's kern lookup
+			has `subtable;` breaks between glyph pairs, which
+			reproduce the shipped binary's subtables. fea-rs
+			honours them, one PairPos format 1 subtable per
+			segment as shipped, keeping pairs that repeat
+			across segments; feaLib merges a lookup's glyph
+			pairs into one subtable, first rule winning, and
+			applies breaks only to class pairs, the one place
+			the FEA spec requires them (a break left over from
+			the glyph pairs also splits feaLib's class pairs
+			after their first rule). The positioning is the
+			same. fea-rs already ignores such breaks in
+			SinglePos (fontc#2308): <a href=
+			"https://github.com/googlefonts/fontc/pull/2329">
+				https://github.com/googlefonts/fontc/pull/2329</a>
+			</li>
+			<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+			</li>
+			</ul>
+		</div>
 		</div>
 	</details>
 	<details>
@@ -45549,16 +45891,32 @@
 		<summary>
 			googlefonts/intel-one-mono/sources/config.yaml
 			masters/IntelOneMono-Italic.designspace?06572f3e0b
-			(gftools) 🆕
+			(gftools) 🆕 ✎
 		</summary>
 		<div class="diff_info">
 			<a href=
 			"https://github.com/googlefonts/intel-one-mono">view
 			source repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/intel-one-mono?06572f3e0b#sources/masters/IntelOneMono-Italic.designspace' --compare gftools --config ~/.fontc_crater_cache/googlefonts/intel-one-mono/sources/config.yaml&quot;);">
-			copy reproduction command</a> <a href="#" onclick=
-			"event.preventDefault(); openModal(&quot;googlefonts/intel-one-mono/sources/config.yaml masters/IntelOneMono-Italic.designspace (gftools)&quot;);">
-			new annotation</a>
+			copy reproduction command</a>
+			<div class="annotations">
+			<h5>
+				annotations
+			</h5>
+			<ul>
+				<li>gftools passes the config's
+				extraFontmakeArgs
+				('--fea-include-dir=features') through to
+				fontc, which has no such option and rejects it.
+				The default-mode targets, which pass neither
+				compiler the flag, are identical
+				</li>
+				<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+				</li>
+			</ul>
+			</div>
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
@@ -45594,15 +45952,32 @@
 		<summary>
 			googlefonts/intel-one-mono/sources/config.yaml
 			masters/IntelOneMono.designspace?06572f3e0b (gftools) 🆕
+			✎
 		</summary>
 		<div class="diff_info">
 			<a href=
 			"https://github.com/googlefonts/intel-one-mono">view
 			source repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/googlefonts/intel-one-mono?06572f3e0b#sources/masters/IntelOneMono.designspace' --compare gftools --config ~/.fontc_crater_cache/googlefonts/intel-one-mono/sources/config.yaml&quot;);">
-			copy reproduction command</a> <a href="#" onclick=
-			"event.preventDefault(); openModal(&quot;googlefonts/intel-one-mono/sources/config.yaml masters/IntelOneMono.designspace (gftools)&quot;);">
-			new annotation</a>
+			copy reproduction command</a>
+			<div class="annotations">
+			<h5>
+				annotations
+			</h5>
+			<ul>
+				<li>gftools passes the config's
+				extraFontmakeArgs
+				('--fea-include-dir=features') through to
+				fontc, which has no such option and rejects it.
+				The default-mode targets, which pass neither
+				compiler the flag, are identical
+				</li>
+				<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+				</li>
+			</ul>
+			</div>
 		</div>
 		<div class="backtrace">
 			<div class="stderr">
@@ -84571,16 +84946,37 @@
 		<details class="report_group_item">
 		<summary>
 			xotypeco/big_shoulders/Big-Shoulders-Inline/sources/config.yml
-			BigShouldersInline.glyphs?8ba99c9e34 (gftools)
+			BigShouldersInline.glyphs?8ba99c9e34 (gftools) ✎
 		</summary>
 		<div class="diff_info">
 			<a href=
 			"https://github.com/xotypeco/big_shoulders">view source
 			repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/xotypeco/big_shoulders?8ba99c9e34#Big-Shoulders-Inline/sources/BigShouldersInline.glyphs' --compare gftools --config ~/.fontc_crater_cache/xotypeco/big_shoulders/Big-Shoulders-Inline/sources/config.yml&quot;);">
-			copy reproduction command</a> <a href="#" onclick=
-			"event.preventDefault(); openModal(&quot;xotypeco/big_shoulders/Big-Shoulders-Inline/sources/config.yml BigShouldersInline.glyphs (gftools)&quot;);">
-			new annotation</a>
+			copy reproduction command</a>
+			<div class="annotations">
+			<h5>
+				annotations
+			</h5>
+			<ul>
+				<li>gftools 0.10.7 leaves hidden axes out of
+				the VF filename (gftools#1244). The source
+				hides opsz (masters at 10 and 72), so the VF is
+				built as X[wght].ttf, but the config's stat is
+				keyed by X[opsz,wght].ttf, the name
+				google/fonts ships from this config, so
+				gftools-gen-stat fails on both sides. gftools'
+				maintainers call it a new policy, so the config
+				needs updating: <a href=
+				"https://github.com/googlefonts/gftools/issues/1247">
+				https://github.com/googlefonts/gftools/issues/1247</a>
+				</li>
+				<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+				</li>
+			</ul>
+			</div>
 		</div>
 		<div class="h5">
 			fontc
@@ -84636,16 +85032,37 @@
 		<details class="report_group_item">
 		<summary>
 			xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml
-			BigShouldersStencil.glyphs?8ba99c9e34 (gftools)
+			BigShouldersStencil.glyphs?8ba99c9e34 (gftools) ✎
 		</summary>
 		<div class="diff_info">
 			<a href=
 			"https://github.com/xotypeco/big_shoulders">view source
 			repository</a> <a href="" onclick=
 			"event.preventDefault(); copyText(&quot;python3 -m ttx_diff 'https://github.com/xotypeco/big_shoulders?8ba99c9e34#Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs' --compare gftools --config ~/.fontc_crater_cache/xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml&quot;);">
-			copy reproduction command</a> <a href="#" onclick=
-			"event.preventDefault(); openModal(&quot;xotypeco/big_shoulders/Big-Shoulders-Stencil/sources/config.yml BigShouldersStencil.glyphs (gftools)&quot;);">
-			new annotation</a>
+			copy reproduction command</a>
+			<div class="annotations">
+			<h5>
+				annotations
+			</h5>
+			<ul>
+				<li>gftools 0.10.7 leaves hidden axes out of
+				the VF filename (gftools#1244). The source
+				hides opsz (masters at 10 and 72), so the VF is
+				built as X[wght].ttf, but the config's stat is
+				keyed by X[opsz,wght].ttf, the name
+				google/fonts ships from this config, so
+				gftools-gen-stat fails on both sides. gftools'
+				maintainers call it a new policy, so the config
+				needs updating: <a href=
+				"https://github.com/googlefonts/gftools/issues/1247">
+				https://github.com/googlefonts/gftools/issues/1247</a>
+				</li>
+				<li>
+				<em>(to add or change, manually edit
+				annotations.json)</em>
+				</li>
+			</ul>
+			</div>
 		</div>
 		<div class="h5">
 			fontc
