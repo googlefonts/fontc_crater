@@ -1,68 +1,10 @@
 [
   {
     "targets": [
-      "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb (default)",
-      "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml Lancelot_source/Lancelot_Rom_Reg.vfb (gftools)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb (default)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-OTF.vfb (gftools)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb (default)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular-TTF.vfb (gftools)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb (default)",
-      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml src/Bonbon-Regular.vfb (gftools)",
-      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb (default)",
-      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-Regular_PS_Source.vfb (gftools)",
-      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb (default)",
-      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml src/Federo-TTF.vfb (gftools)",
-      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb (default)",
-      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-OTF.vfb (gftools)",
-      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb (default)",
-      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml src/Iceland-Regular-TTF.vfb (gftools)",
-      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb (default)",
-      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Light-TTF.vfb (gftools)",
-      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb (default)",
-      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml src/Codystar-Regular-TTF.vfb (gftools)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb (default)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-OTF.vfb (gftools)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb (default)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular-TTF.vfb (gftools)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb (default)",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml src/Englebert-Regular.vfb (gftools)",
-      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb (default)",
-      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-OTF.vfb (gftools)",
-      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb (default)",
-      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml src/Iceberg-Regular-TTF.vfb (gftools)",
-      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip (default)",
-      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml sources/Dongle.zip (gftools)",
-      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip (default)",
-      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml sources/GowunBatang.zip (gftools)"
-    ],
-    "fails": "both",
-    "reason": "source is a FontLab/FontForge/Superpolator file (.vfb/.sfd/.sp3) or a .zip archive that neither compiler reads; crater shouldn't make a target for it"
-  },
-  {
-    "targets": [
-      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3 (default)",
-      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3 (gftools)"
-    ],
-    "fails": "both",
-    "reason": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds matching the five per-weight UFO/*/Khula-*.ufo, which fontmake builds but fontc rejects because a feature block is split across FEA include files"
-  },
-  {
-    "targets": [
-      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd (default)",
-      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd (gftools)"
-    ],
-    "fails": "both",
-    "reason": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; the repo's src/NerkoOne-Regular.ufo is what upstream's build.sh compiles and both compilers build it, so the config should list the UFO"
-  },
-  {
-    "targets": [
       "42dot/42dot-Sans/sources/config_variable.yaml 42dotSans.designspace (default)",
       "42dot/42dot-Sans/sources/config_variable.yaml 42dotSans.designspace (gftools)",
       "42dot/Asta-Sans/sources/config_variable.yaml AstaSans.designspace (default)",
       "42dot/Asta-Sans/sources/config_variable.yaml AstaSans.designspace (gftools)",
-      "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace (default)",
-      "EkType/Anek/sources/AnekTamil/builder.yaml Masters/AnekTamil.designspace (gftools)",
       "RedHatOfficial/Overpass/sources/config.yaml Overpass-Italic.designspace (default)",
       "RedHatOfficial/Overpass/sources/config.yaml Overpass-Italic.designspace (gftools)",
       "RedHatOfficial/Overpass/sources/config.yaml Overpass.designspace (default)",
@@ -89,6 +31,19 @@
       "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinItalic.designspace (gftools)",
       "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace (default)",
       "impallari/Cabin/$VIRTUAL/google/fonts/ofl/cabin/config.yaml sources/CabinRegular.designspace (gftools)",
+      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace (default)",
+      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace (gftools)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace (default)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace (gftools)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace (default)",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace (gftools)"
+    ],
+    "fails": "both",
+    "stderr_contains": "cannot access UFO package",
+    "reason": "the designspace's master UFOs are generated by the repo's own build script (Makefile, shell or Python) and aren't committed; crater doesn't run it, so neither compiler can find them"
+  },
+  {
+    "targets": [
       "justvanrossum/nabla/$VIRTUAL/google/fonts/ofl/nabla/config.yaml sources/Nabla.glyphs (gftools)",
       "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace (default)",
       "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml sources/Bitcount_Template.designspace (gftools)",
@@ -100,16 +55,10 @@
       "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdouble/config.yaml sources/Bitcount_Template.designspace (gftools)",
       "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdoubleink/config.yaml sources/Bitcount_Template.designspace (gftools)",
       "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropsingle/config.yaml sources/Bitcount_Template.designspace (gftools)",
-      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountsingle/config.yaml sources/Bitcount_Template.designspace (gftools)",
-      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace (default)",
-      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml scripts/Vazirmatn.designspace (gftools)",
-      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace (default)",
-      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Italic.designspace (gftools)",
-      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace (default)",
-      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml source/STIXTwoTextVF-Roman.designspace (gftools)"
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountsingle/config.yaml sources/Bitcount_Template.designspace (gftools)"
     ],
     "fails": "both",
-    "reason": "sources are generated by the repo's own build script (Makefile, shell or Python) and aren't committed; crater doesn't run it, so neither compiler can find them"
+    "reason": "not yet reviewed: these were accepted as build-script failures, but gftools finds no final targets (Bitcount, Nabla) and neither compiler finds a master at the default location of Bitcount's template designspace"
   },
   {
     "targets": [
@@ -117,6 +66,7 @@
       "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace (gftools)"
     ],
     "fails": "both",
+    "stderr_contains": "Failed to load source at './features/",
     "reason": "the UFOs' features.fea includes ./features/*.fea, which the repo's mastering/build_files.py copies next to the UFOs before building; crater doesn't run it, so both compilers fail on the missing includes"
   },
   {
@@ -129,6 +79,7 @@
       "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable_italic.designspace (gftools)"
     ],
     "fails": "both",
+    "stderr_contains": "FEA parsing failed",
     "reason": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea; crater doesn't run it, so both compilers get the stale committed features.fea (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)"
   },
   {
@@ -344,17 +295,6 @@
       "productiontype/Spectral/sources/config.yaml Spectral.designspace (gftools: instance_Light)",
       "productiontype/Spectral/sources/config.yaml Spectral.designspace (gftools: instance_Medium)",
       "productiontype/Spectral/sources/config.yaml Spectral.designspace (gftools: instance_SemiBold)",
-      "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml source/Idiqlat.designspace (gftools: Idiqlat Light)",
-      "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml source/Kanchenjunga.designspace (gftools: Kanchenjunga Medium)",
-      "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml source/Kanchenjunga.designspace (gftools: Kanchenjunga SemiBold)",
-      "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace (gftools: Kay Pho Du Medium)",
-      "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml source/KayPhoDu.designspace (gftools: Kay Pho Du SemiBold)",
-      "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace (gftools: Kedebideri Bold)",
-      "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace (gftools: Kedebideri ExtraBold)",
-      "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace (gftools: Kedebideri Medium)",
-      "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml source/Kedebideri.designspace (gftools: Kedebideri SemiBold)",
-      "silnrsi/font-padauk/$VIRTUAL/google/fonts/ofl/padauk/config.yaml source/Padauk.designspace (gftools: Padauk Bold)",
-      "silnrsi/font-padauk/$VIRTUAL/google/fonts/ofl/padauk/config.yaml source/Padauk.designspace (gftools: Padauk Book Regular)",
       "supertype-de/Blinker/$VIRTUAL/google/fonts/ofl/blinker/config.yaml sources_ps/Blinker.designspace (gftools: Blinker ExtraBold)",
       "supertype-de/Blinker/$VIRTUAL/google/fonts/ofl/blinker/config.yaml sources_ps/Blinker.designspace (gftools: Blinker ExtraLight)",
       "supertype-de/Blinker/$VIRTUAL/google/fonts/ofl/blinker/config.yaml sources_ps/Blinker.designspace (gftools: Blinker Light)",

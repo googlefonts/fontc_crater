@@ -1,0 +1,71 @@
+[
+  {
+    "configs": {
+      "chiron-fonts/chiron-go-round-tc/scripts/config.yaml": "803fb2f042",
+      "chiron-fonts/chiron-hei-hk/scripts/config.yaml": "5d80c2cecb",
+      "chiron-fonts/chiron-sung-hk/scripts/config.yaml": "65b752caf7"
+    },
+    "reason": "the repos are too large to build (moved from crater's hard-coded denylist)",
+    "link": "https://github.com/googlefonts/fontc/pull/1907"
+  },
+  {
+    "configs": {
+      "antonxheight/Lancelot/$VIRTUAL/google/fonts/ofl/lancelot/config.yaml": "3039d277fa",
+      "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml": "ffac6513dd",
+      "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml": "79d2ed54e7",
+      "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml": "bb43144b50",
+      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml": "e32d050fbb",
+      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml": "0b03ab09ea",
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml": "db1c024077",
+      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml": "f7127c4d24",
+      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml": "4e73f5a9a0"
+    },
+    "reason": "the google/fonts config lists FontLab .vfb files or a .zip archive, which neither compiler reads",
+    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/bonbon/config.yaml"
+  },
+  {
+    "configs": {
+      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml": "1389c01848"
+    },
+    "reason": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds of the per-weight UFO/*/Khula-*.ufo, so the config may just name the wrong file (under review)",
+    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/khula/config.yaml"
+  },
+  {
+    "configs": {
+      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml": "62c2998197"
+    },
+    "reason": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; upstream's build.sh compiles src/NerkoOne-Regular.ufo, so the config may just name the wrong file (under review)",
+    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/nerkoone/config.yaml"
+  },
+  {
+    "configs": {
+      "silnrsi/font-abyssinica/$VIRTUAL/google/fonts/ofl/abyssinicasil/config.yaml": "1f7e65b0e7",
+      "silnrsi/font-akatab/$VIRTUAL/google/fonts/ofl/akatab/config.yaml": "54e989b80b",
+      "silnrsi/font-akatab/$VIRTUAL/google/fonts/ofl/tirra/config.yaml": "faaa0ba74f",
+      "silnrsi/font-alkalami/$VIRTUAL/google/fonts/ofl/alkalami/config.yaml": "aac8fee846",
+      "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml": "ca568520c6",
+      "silnrsi/font-annapurna/$VIRTUAL/google/fonts/ofl/annapurnasil/config.yaml": "5bd915dff1",
+      "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml": "258e532625",
+      "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml": "dcf3e10a5a",
+      "silnrsi/font-gentium/$VIRTUAL/google/fonts/ofl/gentiumbookplus/config.yaml": "7ac5e5ca61",
+      "silnrsi/font-gentium/$VIRTUAL/google/fonts/ofl/gentiumplus/config.yaml": "7ac5e5ca61",
+      "silnrsi/font-harmattan/$VIRTUAL/google/fonts/ofl/harmattan/config.yaml": "b8d089bdb2",
+      "silnrsi/font-idiqlat/$VIRTUAL/google/fonts/ofl/idiqlat/config.yaml": "ed19e4c206",
+      "silnrsi/font-kanchenjunga/$VIRTUAL/google/fonts/ofl/kanchenjunga/config.yaml": "19a3efac0c",
+      "silnrsi/font-kayphodu/$VIRTUAL/google/fonts/ofl/kayphodu/config.yaml": "4c49d8ac7a",
+      "silnrsi/font-kedebideri/$VIRTUAL/google/fonts/ofl/kedebideri/config.yaml": "4973b2e025",
+      "silnrsi/font-lateef/$VIRTUAL/google/fonts/ofl/lateef/config.yaml": "d682ea7cc0",
+      "silnrsi/font-lisu-bosa/$VIRTUAL/google/fonts/ofl/lisubosa/config.yaml": "95b4da9504",
+      "silnrsi/font-mingzat/$VIRTUAL/google/fonts/ofl/mingzat/config.yaml": "613ac08e03",
+      "silnrsi/font-namdhinggo/$VIRTUAL/google/fonts/ofl/namdhinggo/config.yaml": "0523659e89",
+      "silnrsi/font-narnoor/$VIRTUAL/google/fonts/ofl/narnoor/config.yaml": "53fa5d8f5c",
+      "silnrsi/font-nuosu/$VIRTUAL/google/fonts/ofl/nuosusil/config.yaml": "1e9b50a3cb",
+      "silnrsi/font-padauk/$VIRTUAL/google/fonts/ofl/padauk/config.yaml": "278b8efb03",
+      "silnrsi/font-ramsina/$VIRTUAL/google/fonts/ofl/ramsina/config.yaml": "29f057928d",
+      "silnrsi/font-ruwudu/$VIRTUAL/google/fonts/ofl/ruwudu/config.yaml": "b5aa4e6438",
+      "silnrsi/font-scheherazade/$VIRTUAL/google/fonts/ofl/scheherazadenew/config.yaml": "60e64560db"
+    },
+    "reason": "built by SIL's smith (MutatorMath instances, psfufo2ttf, .feax features), and Google Fonts ships SIL's release binaries, so neither uses fontmake, gftools or fontc",
+    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/gentiumplus/METADATA.pb"
+  }
+]
