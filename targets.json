@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "b78877b777ed3a18a1b431b0df7d8ee3f84c2e5f",
+  "fonts_repo_sha": "29b4ec6df2522a8aee279414b78a07910b065874",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -1981,12 +1981,6 @@
       "repo_url": "https://github.com/cyrealtype/Alike-Angular",
       "rev": "20765691758ef999907b9a20950d4f57f62de1d1",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/cyrealtype/Amethysta",
-      "rev": "10ae36bc060bec28f1c504c42ce6871b7c034add",
-      "config": "google/fonts/ofl/amethysta/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/cyrealtype/Artifika",
@@ -7826,8 +7820,7 @@
     {
       "repo_url": "https://github.com/simoncozens/pushster",
       "rev": "dfafa10ae7fd09fe7498a5255948c8773af60f96",
-      "config": "google/fonts/ofl/pushster/config.yaml",
-      "config_is_external": true
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/simpals/onest",
