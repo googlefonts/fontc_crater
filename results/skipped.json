@@ -57,10 +57,28 @@
   },
   {
     "configs": {
+      "42dot/42dot-Sans/sources/config_variable.yaml": "d23e87fe44",
+      "42dot/Asta-Sans/sources/config_variable.yaml": "62b8301ac4",
       "Gissio/font_tiny5/sources/config.yaml": "cd350d5028",
       "Gue3bara/Cairo/sources/cairo.yaml": "73d16933c6",
       "Gue3bara/Cairo/sources/cairoplay.yaml": "73d16933c6",
-      "googlefonts/sawarabi-mincho/sources/config.yaml": "8bd1525717"
+      "RedHatOfficial/Overpass/sources/config.yaml": "c580d28bfa",
+      "TikTok/TikTokSans/sources/config.yaml": "1cfe2b707a",
+      "aaronbell/LxgwWenkaiTC/sources/project.yaml": "a5cf76f5bd",
+      "aaronbell/signika/sources/config.yaml": "bd066259b5",
+      "arrowtype/shantell-sans/$VIRTUAL/google/fonts/ofl/shantellsans/config.yaml": "68f5eca149",
+      "googlefonts/sawarabi-mincho/sources/config.yaml": "8bd1525717",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddouble/config.yaml": "af0818eaeb",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgriddoubleink/config.yaml": "89e7994f73",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingle/config.yaml": "af0818eaeb",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountgridsingleink/config.yaml": "89e7994f73",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountink/config.yaml": "89e7994f73",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdouble/config.yaml": "af0818eaeb",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropdoubleink/config.yaml": "89e7994f73",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountpropsingle/config.yaml": "af0818eaeb",
+      "petrvanblokland/TYPETR-Bitcount/$VIRTUAL/google/fonts/ofl/bitcountsingle/config.yaml": "af0818eaeb",
+      "rastikerdar/vazirmatn/$VIRTUAL/google/fonts/ofl/vazirmatn/config.yaml": "14f8686945",
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwotext/config.yaml": "c4afdf3fa5"
     },
     "reason": "the config's sources are generated at build time (a Makefile, build.sh or a recipe exec step), so crater finds no source to build; left out until we decide how crater may run such steps",
     "link": "https://github.com/Gue3bara/Cairo/blob/73d16933c6a0f341c27a69e401da83dcb0d53114/build.sh"
