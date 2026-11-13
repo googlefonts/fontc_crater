@@ -25,27 +25,13 @@
   },
   {
     "configs": {
-      "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml": "1389c01848"
-    },
-    "reason": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds of the per-weight UFO/*/Khula-*.ufo, so the config may just name the wrong file (under review)",
-    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/khula/config.yaml"
-  },
-  {
-    "configs": {
-      "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml": "62c2998197"
-    },
-    "reason": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; upstream's build.sh compiles src/NerkoOne-Regular.ufo, so the config may just name the wrong file (under review)",
-    "link": "https://github.com/google/fonts/blob/5bb28733/ofl/nerkoone/config.yaml"
-  },
-  {
-    "configs": {
       "silnrsi/font-abyssinica/$VIRTUAL/google/fonts/ofl/abyssinicasil/config.yaml": "1f7e65b0e7",
       "silnrsi/font-akatab/$VIRTUAL/google/fonts/ofl/akatab/config.yaml": "54e989b80b",
       "silnrsi/font-akatab/$VIRTUAL/google/fonts/ofl/tirra/config.yaml": "faaa0ba74f",
       "silnrsi/font-alkalami/$VIRTUAL/google/fonts/ofl/alkalami/config.yaml": "aac8fee846",
       "silnrsi/font-andika/$VIRTUAL/google/fonts/ofl/andika/config.yaml": "ca568520c6",
       "silnrsi/font-annapurna/$VIRTUAL/google/fonts/ofl/annapurnasil/config.yaml": "5bd915dff1",
-      "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml": "258e532625",
+      "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml": "f99e75143a",
       "silnrsi/font-daibannasil/$VIRTUAL/google/fonts/ofl/daibannasil/config.yaml": "dcf3e10a5a",
       "silnrsi/font-gentium/$VIRTUAL/google/fonts/ofl/gentiumbookplus/config.yaml": "7ac5e5ca61",
       "silnrsi/font-gentium/$VIRTUAL/google/fonts/ofl/gentiumplus/config.yaml": "7ac5e5ca61",
