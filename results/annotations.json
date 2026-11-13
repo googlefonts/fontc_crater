@@ -143,7 +143,7 @@
       "text": "unmapped Glyphs 2 point axis (custom XXXX, or wdth=5): fontmake keeps it, fontc drops it",
       "link": "https://github.com/googlefonts/fontc/issues/1958",
       "also": [
-        "cadsondemak/Charmonman/$VIRTUAL/google/fonts/ofl/charmonman/config.yaml source/Charmonman.glyphs?8590fc4aae (gftools)",
+        "etunni/Amita/$VIRTUAL/google/fonts/ofl/amita/config.yaml sources/Amita.glyphs?bc05021c47 (default)",
         "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
         "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)"
       ]
@@ -170,27 +170,20 @@
       "link": "https://github.com/googlefonts/fontc/issues/1994",
       "also": [
         "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (default)",
-        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools)",
         "cadsondemak/Fah-Kwang/$VIRTUAL/google/fonts/ofl/fahkwang/config.yaml source/Fahkwang.glyphs?7b16186dad (default)",
         "cadsondemak/K2D/$VIRTUAL/google/fonts/ofl/k2d/config.yaml source/K2D.glyphs?5df785dc3b (default)",
         "cadsondemak/Kodchasan/$VIRTUAL/google/fonts/ofl/kodchasan/config.yaml source/Kodchasan-Master.glyphs?d68c1268f9 (default)",
         "cadsondemak/Koho/$VIRTUAL/google/fonts/ofl/koho/config.yaml source/KoHo-Master.glyphs?066267ad87 (default)",
-        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (default)",
-        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools)",
-        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools)"
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (default)"
       ]
     }
   ],
-  "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (default)": [
+  "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (default)": [
     {
       "text": "fontc drops point axes that fontmake keeps",
       "link": "https://github.com/googlefonts/fontc/issues/1990",
       "also": [
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
-        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (default)",
-        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (gftools)",
         "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-MASTER.glyphs?57fadabfb2 (default)",
-        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-MASTER.glyphs?57fadabfb2 (gftools)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (default)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla-Italic.glyphs?fbd775f98a (gftools)",
         "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml sources/Piazzolla.glyphs?fbd775f98a (default)",
@@ -226,15 +219,16 @@
         "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml sources/glyphs/final/AyannaNarrow-all.glyphs?bd4f7c3222 (gftools)",
         "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (default)"
       ]
-    },
+    }
+  ],
+  "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)": [
     {
       "text": "fontmake drops in-range instances whose Glyphs 2 width is unset, and wdth=5 gives usWidthClass 1 (glyphsLib/designspaceLib bug)",
       "also": [
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (default)",
-        "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (default)",
         "noponies/Turret-Road/$VIRTUAL/google/fonts/ofl/turretroad/config.yaml sources/turret-road.glyphs?c77a268e22 (gftools)",
         "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (default)",
-        "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (default)"
+        "typeoff/martel/$VIRTUAL/google/fonts/ofl/martel/config.yaml Martel Source Files/Martel 20150306.glyphs?76c161e71b (default)",
+        "etunni/Amita/$VIRTUAL/google/fonts/ofl/amita/config.yaml sources/Amita.glyphs?bc05021c47 (default)"
       ]
     }
   ],
@@ -286,7 +280,17 @@
         "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Light/Yantramanav-Light.ufo?e40db8e442 (gftools)",
         "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Medium/Yantramanav-Medium.ufo?e40db8e442 (gftools)",
         "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Regular/Yantramanav-Regular.ufo?e40db8e442 (gftools)",
-        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Thin/Yantramanav-Thin.ufo?e40db8e442 (gftools)"
+        "erinmclaughlin/Yantramanav/$VIRTUAL/google/fonts/ofl/yantramanav/config.yaml UFO/Thin/Yantramanav-Thin.ufo?e40db8e442 (gftools)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Bold/Khula-Bold.ufo?1389c01848 (default)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Bold/Khula-Bold.ufo?1389c01848 (gftools)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/ExtraBold/Khula-ExtraBold.ufo?1389c01848 (default)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/ExtraBold/Khula-ExtraBold.ufo?1389c01848 (gftools)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Light/Khula-Light.ufo?1389c01848 (default)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Light/Khula-Light.ufo?1389c01848 (gftools)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Regular/Khula-Regular.ufo?1389c01848 (default)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/Regular/Khula-Regular.ufo?1389c01848 (gftools)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/SemiBold/Khula-Semibold.ufo?1389c01848 (default)",
+        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml UFO/SemiBold/Khula-Semibold.ufo?1389c01848 (gftools)"
       ]
     }
   ],
@@ -323,7 +327,9 @@
       "also": [
         "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (default)",
         "zalando/sans/sources/config.yaml ZalandoSans.glyphs?4e44d0864c (gftools)",
-        "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (gftools)"
+        "RosaWagner/Borel/Borel/sources/config.yaml Borel.glyphs?68b8266ec6 (gftools)",
+        "aliftype/qahiri/$VIRTUAL/google/fonts/ofl/qahiri/config.yaml sources/Qahiri.glyphspackage?964c2f87c7 (default)",
+        "aliftype/qahiri/$VIRTUAL/google/fonts/ofl/qahiri/config.yaml sources/Qahiri.glyphspackage?964c2f87c7 (gftools)"
       ]
     }
   ],
@@ -495,7 +501,8 @@
     {
       "text": "duplicate master layer (same layerId) in a glyph: glyphsLib keeps the last, fontc errors",
       "also": [
-        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Italic.glyphs?f4f60a57f5 (gftools)"
+        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Italic.glyphs?f4f60a57f5 (gftools: Amaranth Bold Italic)",
+        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Italic.glyphs?f4f60a57f5 (gftools: Amaranth Italic)"
       ]
     }
   ],
@@ -752,13 +759,8 @@
     {
       "text": "the Glyphs 2 automatic Languagesystems prefix repeats `languagesystem deva dflt` (Bellefair: `hebr dflt`); feaLib rejects the duplicate, fea-rs warns and ignores it (with the line removed fontmake == fontc)",
       "also": [
-        "DunwichType/RhodiumLibre/$VIRTUAL/google/fonts/ofl/rhodiumlibre/config.yaml RhodiumLibre-Regular.glyphs?c6e9dc9167 (gftools)",
-        "Omnibus-Type/Jaldi/sources/config.yaml Jaldi.glyphs?13315457c7 (default)",
-        "Omnibus-Type/Jaldi/sources/config.yaml Jaldi.glyphs?13315457c7 (gftools)",
-        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Bold.glyphs?c4b5b34d0f (default)",
-        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Bold.glyphs?c4b5b34d0f (gftools)",
-        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Regular.glyphs?c4b5b34d0f (default)",
-        "huertatipografica/sahitya/$VIRTUAL/google/fonts/ofl/sahitya/config.yaml Sahitya-Regular.glyphs?c4b5b34d0f (gftools)",
+        "Omnibus-Type/PragatiNarrow/$VIRTUAL/google/fonts/ofl/pragatinarrow/config.yaml SRC/PragatiNarrow.glyphs?829be323c4 (gftools: Pragati Narrow Bold)",
+        "Omnibus-Type/PragatiNarrow/$VIRTUAL/google/fonts/ofl/pragatinarrow/config.yaml SRC/PragatiNarrow.glyphs?829be323c4 (gftools: Pragati Narrow Regular)",
         "shinntype/bellefair/$VIRTUAL/google/fonts/ofl/bellefair/config.yaml sources/Bellefair.glyphs?879a39cbf0 (default)",
         "shinntype/bellefair/$VIRTUAL/google/fonts/ofl/bellefair/config.yaml sources/Bellefair.glyphs?879a39cbf0 (gftools)"
       ]
@@ -961,28 +963,10 @@
       ]
     }
   ],
-  "Omnibus-Type/PragatiNarrow/$VIRTUAL/google/fonts/ofl/pragatinarrow/config.yaml SRC/PragatiNarrow.glyphs?829be323c4 (gftools)": [
+  "googlefonts/AmaticSC/sources/config.yaml AmaticSC.glyphs?308846136d (gftools)": [
     {
       "text": "static-only family: Google Fonts ships statics, but the config lacks buildVariable: false, so gftools builds a variable font from masters that were never interpolation-compatible; both compilers fail",
       "also": [
-        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiri/config.yaml sources/Amiri.glyphspackage?04d40ee68c (gftools)",
-        "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiriquran/config.yaml sources/Amiri.glyphspackage?480bb746e9 (gftools)",
-        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools)",
-        "cadsondemak/Srisakdi/$VIRTUAL/google/fonts/ofl/srisakdi/config.yaml source/Srisakdi.glyphs?fc86bd7fea (gftools)",
-        "cadsondemak/Thasadith/$VIRTUAL/google/fonts/ofl/thasadith/config.yaml source/Thasadith_Master.glyphs?033efaea8d (gftools)",
-        "googlefonts/AmaticSC/sources/config.yaml AmaticSC.glyphs?308846136d (gftools)",
-        "googlefonts/amaranth/$VIRTUAL/google/fonts/ofl/amaranth/config.yaml sources/Amaranth-Roman.glyphs?f4f60a57f5 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools)",
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools)",
         "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins.glyphs?738d9d691b (gftools)",
         "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumarone/config.yaml masters/Kumar One.glyphs?3192a79a79 (gftools)",
         "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumaroneoutline/config.yaml masters/Kumar One.glyphs?3192a79a79 (gftools)",
@@ -992,14 +976,10 @@
       ]
     }
   ],
-  "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Italic.glyphspackage?80a3341019 (default)": [
+  "notofonts/oriya/$VIRTUAL/google/fonts/ofl/notosansoriyaui/config.yaml sources/NotoSansOriya.glyphs?1f6ceddd27 (default)": [
     {
       "text": "glyphsLib keeps a smart component as a plain component in masters where the part glyph has only one pole layer and decomposes it where it has several, so the glyph's contours and components differ across masters (Glyphs.app always decomposes); fontc ports the same fallback",
-      "link": "https://github.com/googlefonts/glyphsLib/issues/907",
-      "also": [
-        "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Italic.glyphspackage?80a3341019 (gftools)",
-        "notofonts/oriya/$VIRTUAL/google/fonts/ofl/notosansoriyaui/config.yaml sources/NotoSansOriya.glyphs?1f6ceddd27 (default)"
-      ]
+      "link": "https://github.com/googlefonts/glyphsLib/issues/907"
     }
   ],
   "thundernixon/Libre-Caslon/$VIRTUAL/google/fonts/ofl/librecaslontext/config.yaml sources/LibreCaslonText.glyphs?52200a76d7 (default)": [
@@ -1007,23 +987,6 @@
       "text": "variable font whose masters disagree on ogonek (mark anchor _ogonekcurve in Regular, _ogonek in Bold; eogonek uses ogonek vs ogonek.curve): fontmake's compatibility check rejects it, and fontc rejects the anchor missing from the default master",
       "also": [
         "thundernixon/Libre-Caslon/$VIRTUAL/google/fonts/ofl/librecaslontext/config.yaml sources/LibreCaslonText.glyphs?52200a76d7 (gftools)"
-      ]
-    }
-  ],
-  "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (default)": [
-    {
-      "text": "the pinned m4rc1e/Ruda-new revision is a 2018 version 1.0 source whose Regular and Black masters differ in ~140 glyphs; it isn't the source of the shipped Ruda[wght] v2.001, so both compilers fail",
-      "link": "https://github.com/google/fonts/issues/9393",
-      "also": [
-        "m4rc1e/Ruda-new/$VIRTUAL/google/fonts/ofl/ruda/config.yaml Ruda_new.glyphs?a63532e04f (gftools)"
-      ]
-    }
-  ],
-  "mjlagattuta/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?4401d23f51 (default)": [
-    {
-      "text": "the pinned v1.100 source swaps designs with Glyphs 2 reverse bracket layers (]98], ]24]) on some masters, so the master layers on their own aren't interpolation-compatible and both compilers fail; the shipped v1.102 variable font came from the aaronbell/Hepta-Slab fork",
-      "also": [
-        "mjlagattuta/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?4401d23f51 (gftools)"
       ]
     }
   ],
@@ -1035,8 +998,6 @@
         "EkType/Jaini/Source/jaini-purva.yaml JainiPurva.glyphs?4d2bcf9760 (gftools)",
         "EkType/Jaini/Source/jaini.yaml Jaini.glyphs?4d2bcf9760 (default)",
         "EkType/Jaini/Source/jaini.yaml Jaini.glyphs?4d2bcf9760 (gftools)",
-        "etunni/Amita/sources/config.yaml Amita.glyphs?92680c07f0 (default)",
-        "etunni/Amita/sources/config.yaml Amita.glyphs?92680c07f0 (gftools)",
         "googlefonts/gidugu/sources/config.yaml Gidugu-Regular.ufo?834c5de186 (default)",
         "googlefonts/gidugu/sources/config.yaml Gidugu-Regular.ufo?834c5de186 (gftools)"
       ]
@@ -1149,16 +1110,6 @@
       ]
     }
   ],
-  "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas (Autosaved).glyphs?3bdb0ba164 (default)": [
-    {
-      "text": "numbered mark anchor _top_2 on wasla-ar, hamzaabove-ar and madda-ar: ufo2ft and fontc both reject it ('mark anchor cannot be numbered'); the config also lists the 'Rakkas (Autosaved).glyphs' autosave as a second source",
-      "also": [
-        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas (Autosaved).glyphs?3bdb0ba164 (gftools)",
-        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?3bdb0ba164 (default)",
-        "zeynepakay/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?3bdb0ba164 (gftools)"
-      ]
-    }
-  ],
   "EkType/Anek/sources/AnekOdia/builder.yaml Masters/AnekOdia.designspace?34074c6b40 (default)": [
     {
       "text": "glyphsLib's eraseOpenCorners filter, which fontc ports, erases an open corner in some masters but not others, so the masters stop interpolating: cu2qu reports 'different number of segments', fontc 'interpolation-incompatible paths'",
@@ -1205,7 +1156,14 @@
       "text": "126 brace layers are named like 'Rg {400, 100off}' (switched off with an 'off' suffix), and glyphsLib's brace-coordinate parser crashes on them (float(' 100off')); fontc skips them",
       "link": "https://github.com/googlefonts/glyphsLib/issues/826",
       "also": [
-        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools)"
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Bold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Regular)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Semibold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml IBM-Plex-Sans-KR/sources/masters/IBM Plex Sans KR.glyphs?1331d4514d (gftools: IBM Plex Sans KR Thin)"
       ]
     }
   ],
@@ -1261,15 +1219,6 @@
       "also": [
         "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?09b2f79d68 (gftools)",
         "jenskutilek/homecomputer-fonts/Sixtyfour/sources/config.yaml Sixtyfour.glyphs?3e0b1194c1 (gftools)"
-      ]
-    }
-  ],
-  "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Roman.glyphspackage?80a3341019 (default)": [
-    {
-      "text": "smart part _part.LC-baseline-stroke keeps dated backup layers with their pole mappings, so glyphsLib sees duplicate smart-component locations; fontc fails first on _part.LC-n-shoulder-top, whose layers have no pole for the later-added Thinning axis",
-      "link": "https://github.com/googlefonts/glyphsLib/issues/927",
-      "also": [
-        "clauseggers/Playfair/sources/config.yaml Playfair-2_2-Roman.glyphspackage?80a3341019 (gftools)"
       ]
     }
   ],
@@ -1489,22 +1438,6 @@
       ]
     }
   ],
-  "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (default)": [
-    {
-      "text": "the google/fonts config lists the Superpolator .sp3, which neither compiler reads; the shipped TTFs are makeotf builds matching the five per-weight UFO/*/Khula-*.ufo, which fontmake builds but fontc rejects because a feature block is split across FEA include files",
-      "also": [
-        "erinmclaughlin/Khula/$VIRTUAL/google/fonts/ofl/khula/config.yaml Khula_superpolator.sp3?1389c01848 (gftools)"
-      ]
-    }
-  ],
-  "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (default)": [
-    {
-      "text": "the google/fonts config lists src/NerkoOne-Regular.sfd (FontForge), which neither compiler reads; the repo's src/NerkoOne-Regular.ufo is what upstream's build.sh compiles and both compilers build it, so the config should list the UFO",
-      "also": [
-        "nermink99/Nerko/$VIRTUAL/google/fonts/ofl/nerkoone/config.yaml src/NerkoOne-Regular.sfd?62c2998197 (gftools)"
-      ]
-    }
-  ],
   "Lafontype/Gantari/sources/config.yaml Gantari-Italic.glyphs?363a3dd563 (default)": [
     {
       "text": "two exported glyphs claim one codepoint (e.g. dotlessi and idotless, U+0131); fontc and fontmake (ufo2ft >= 2.32) both reject it. The shipped font was built from this source by an older ufo2ft, which silently kept the first glyph; needs a source fix",
@@ -1522,13 +1455,11 @@
       ]
     }
   ],
-  "googlefonts/Pacifico/sources/config.yaml Pacifico.glyphs?423e7cb2b0 (default)": [
+  "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILItalic.designspace?258e532625 (gftools: Charis SIL Bold Italic)": [
     {
-      "text": "the pinned commit is newer than the shipped binary and adds a second exported glyph for one codepoint (Pacifico Vdotbelow U+1E7F, Charis LtnSmAEgAlef.SngStory U+A7BB); fontc and fontmake (ufo2ft >= 2.32) both reject it",
+      "text": "the pinned commit is newer than the shipped binary and adds a second exported glyph for one codepoint (LtnSmAEgAlef.SngStory U+A7BB); fontc and fontmake (ufo2ft >= 2.32) both reject it",
       "link": "https://github.com/googlefonts/ufo2ft/pull/739",
       "also": [
-        "googlefonts/Pacifico/sources/config.yaml Pacifico.glyphs?423e7cb2b0 (gftools)",
-        "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILItalic.designspace?258e532625 (gftools: Charis SIL Bold Italic)",
         "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILItalic.designspace?258e532625 (gftools: Charis SIL Italic)",
         "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILRoman.designspace?258e532625 (gftools: Charis SIL Bold)",
         "silnrsi/font-charis/$VIRTUAL/google/fonts/ofl/charissil/config.yaml source/CharisSILRoman.designspace?258e532625 (gftools: Charis SIL Regular)"
@@ -1586,21 +1517,6 @@
       "text": ".notdef is set not to export: ufo2ft re-adds it in every master with the 0xFFFF 'not participating' advance, the default master included, so varLib's HVAR fails ('Base master not found'); fontc panics ('GlyfFragment(.notdef) is not available')",
       "also": [
         "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansjp/config.yaml IBM-Plex-Sans-JP/sources/masters/IBM Plex Sans JP.glyphs?80fcb67650 (gftools)"
-      ]
-    }
-  ],
-  "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (default)": [
-    {
-      "text": "the pinned source (newer than the shipped 2023 VF) has broken feature code: ss04's featureNames string has backslash-escaped quotes, and the @noexport class lists non-exported glyphs, which Glyphs.app drops but feaLib and fea-rs reject",
-      "also": [
-        "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (gftools)"
-      ]
-    },
-    {
-      "text": "a stray 8th 'Regular' instance at wght 200 redefines user 400 → 200; glyphsLib 6.16 then maps the Regular master to the interpolated 400, overwriting that point, but fontc only adds the default's point if new, keeps 400 → 200, and fails 'Missing mapping on Weight for default'",
-      "link": "https://github.com/tokotype/PlusJakartaSans/issues/40",
-      "also": [
-        "tokotype/PlusJakartaSans/sources/config.yaml PlusJakartaSans.glyphs?18d1cd2f7e (gftools)"
       ]
     }
   ],
@@ -1715,19 +1631,11 @@
       ]
     }
   ],
-  "huertatipografica/sura/$VIRTUAL/google/fonts/ofl/sura/config.yaml Sura.glyphs?d20d15fe0d (gftools: Sura Bold)": [
-    {
-      "text": "Glyphs.app-only FEA: the font disables nice names and its glyphs are named kadeva etc., but the manual classes and features use GlyphData nice names (k-deva); only Glyphs.app maps them, so feaLib and fea-rs both reject the unknown glyphs",
-      "also": [
-        "huertatipografica/sura/$VIRTUAL/google/fonts/ofl/sura/config.yaml Sura.glyphs?d20d15fe0d (gftools: Sura Regular)"
-      ]
-    }
-  ],
-  "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Black)": [
+  "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Regular)": [
     {
       "text": "fontmake fails because the stale automatic Languagesystems prefix repeats `languagesystem deva dflt`, which feaLib rejects and fea-rs only warns about",
       "also": [
-        "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?b765c5a68c (gftools: Vesper Libre Regular)"
+        "motaitalic/vesper-libre/$VIRTUAL/google/fonts/ofl/vesperlibre/config.yaml VesperLibre.glyphs?30690a08e9 (gftools: Vesper Libre Heavy)"
       ]
     }
   ],
@@ -1750,14 +1658,10 @@
       ]
     }
   ],
-  "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (gftools: Unna Light Italic)": [
+  "googlefonts/fuzzy-bubbles/sources/config.yml FuzzyBubbles.glyphs?16d63fbca1 (gftools: Fuzzy Bubbles Regular)": [
     {
       "text": "static-only Glyphs 2 family whose masters sit at width 5 while some instances leave width unset (100): splitInterpolable drops those instances, so gftools' `fontmake -i` step silently writes no UFO and the fontmake build fails 'instance_ufos/X.ufo.json not found'",
       "also": [
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (gftools: Unna Medium Italic)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (gftools: Unna Light)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (gftools: Unna Medium)",
-        "googlefonts/fuzzy-bubbles/sources/config.yml FuzzyBubbles.glyphs?16d63fbca1 (gftools: Fuzzy Bubbles Regular)",
         "noponies/sulphur-point/$VIRTUAL/google/fonts/ofl/sulphurpoint/config.yaml sources/sulphur-point.glyphs?2c1a600846 (gftools: Sulphur Point Regular)"
       ]
     }
@@ -1948,10 +1852,6 @@
         "NDISCOVER/Cinzel/$VIRTUAL/google/fonts/ofl/cinzeldecorative/config.yaml Glyphs Files/Cinzel_Decorative.glyphs?1c62abfb8d (gftools: Cinzel Decorative Bold)",
         "NDISCOVER/Cinzel/$VIRTUAL/google/fonts/ofl/cinzeldecorative/config.yaml Glyphs Files/Cinzel_Decorative.glyphs?1c62abfb8d (gftools: Cinzel Decorative Semi Bold)",
         "NDISCOVER/Cinzel/$VIRTUAL/google/fonts/ofl/cinzeldecorative/config.yaml Glyphs Files/Cinzel_Regular.glyphs?1c62abfb8d (gftools: Cinzel Bold)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (gftools: Unna Light Italic)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna Italic.glyphs?826be2abeb (gftools: Unna Medium Italic)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (gftools: Unna Light)",
-        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?826be2abeb (gftools: Unna Medium)",
         "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona Bold Italic)",
         "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona ExtraBold Italic)",
         "RingoSeeber/Petrona/$VIRTUAL/google/fonts/ofl/petrona/config.yaml Sources/Petrona-ITALIC-MASTER.glyphs?03d4b6dd8a (gftools: Petrona ExtraLight Italic)",
@@ -2142,7 +2042,106 @@
         "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools: Martel Sans DemiBold)",
         "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools: Martel Sans ExtraBold)",
         "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools: Martel Sans Light)",
-        "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools: Martel Sans Regular)"
+        "typeoff/martel_sans/$VIRTUAL/google/fonts/ofl/martelsans/config.yaml Martel Sans Source Files/Martel_Sans_20150305.glyphs?7a536b7ce5 (gftools: Martel Sans Regular)",
+        "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs?b1a0a7781e (gftools: Cormorant Upright Medium)",
+        "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs?b1a0a7781e (gftools: Cormorant Upright Regular)",
+        "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs?b1a0a7781e (gftools: Cormorant Upright SemiBold)",
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna-italic.glyphs?ff1d2046ce (gftools: Unna Bold Italic)",
+        "Omnibus-Type/Unna/$VIRTUAL/google/fonts/ofl/unna/config.yaml sources/Unna.glyphs?ff1d2046ce (gftools: Unna Bold)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree Light Italic)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree Light)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree Medium Italic)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree Medium)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree SemiBold Italic)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (gftools: Bai Jamjuree SemiBold)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali Light Italic)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali Light)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali Medium Italic)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali Medium)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali SemiBold Italic)",
+        "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (gftools: Mali SemiBold)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Bold Italic)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Bold)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun ExtraLight Italic)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun ExtraLight)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Light Italic)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Light)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Medium Italic)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun Medium)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun SemiBold Italic)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (gftools: Sarabun SemiBold)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Italic.glyphs?439686b0f8 (gftools: Playfair Display Bold Italic)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Italic.glyphs?439686b0f8 (gftools: Playfair Display SC Bold Italic)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Roman.glyphs?439686b0f8 (gftools: Playfair Display Bold)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Roman.glyphs?439686b0f8 (gftools: Playfair Display SC Bold)",
+        "etunni/Amita/$VIRTUAL/google/fonts/ofl/amita/config.yaml sources/Amita.glyphs?bc05021c47 (gftools: Amita Bold)",
+        "etunni/Amita/$VIRTUAL/google/fonts/ofl/amita/config.yaml sources/Amita.glyphs?bc05021c47 (gftools: Amita Regular)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (gftools: DM Mono Italic)",
+        "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-MASTER.glyphs?57fadabfb2 (gftools: DM Mono Regular)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Extralight Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Extralight Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped ExtraLight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Extralight Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Text)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch Light Italic)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch Light)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch Medium Italic)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch Medium)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch SemiBold Italic)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (gftools: Chakra Petch SemiBold)",
+        "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (gftools: Solway Bold)",
+        "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (gftools: Solway ExtraBold)",
+        "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (gftools: Solway Medium)",
+        "mashavp/Solway/$VIRTUAL/google/fonts/ofl/solway/config.yaml sources/Solway.glyphs?41e054e457 (gftools: Solway Regular)",
+        "mt-funa/Tsukimi-Rounded/$VIRTUAL/google/fonts/ofl/tsukimirounded/config.yaml sources/tsukimi_rounded.glyphs?7199ebaed5 (gftools: Tsukimi Rounded Bold)",
+        "mt-funa/Tsukimi-Rounded/$VIRTUAL/google/fonts/ofl/tsukimirounded/config.yaml sources/tsukimi_rounded.glyphs?7199ebaed5 (gftools: Tsukimi Rounded Medium)",
+        "mt-funa/Tsukimi-Rounded/$VIRTUAL/google/fonts/ofl/tsukimirounded/config.yaml sources/tsukimi_rounded.glyphs?7199ebaed5 (gftools: Tsukimi Rounded Regular)",
+        "mt-funa/Tsukimi-Rounded/$VIRTUAL/google/fonts/ofl/tsukimirounded/config.yaml sources/tsukimi_rounded.glyphs?7199ebaed5 (gftools: Tsukimi Rounded SemiBold)"
       ]
     }
   ],
@@ -2284,6 +2283,109 @@
       "text": "gftools passes the config's extraFontmakeArgs ('--fea-include-dir=features') through to fontc, which has no such option and rejects it. The default-mode targets, which pass neither compiler the flag, are identical",
       "also": [
         "googlefonts/intel-one-mono/sources/config.yaml masters/IntelOneMono-Italic.designspace?06572f3e0b (gftools)"
+      ]
+    }
+  ],
+  "DunwichType/RhodiumLibre/$VIRTUAL/google/fonts/ofl/rhodiumlibre/config.yaml RhodiumLibre-Regular.glyphs?d08857148a (gftools)": [
+    {
+      "text": "at this pin dollar.lf has two bracket layers with the same [150] rule ('Regular [150]', 'Bold [150]') in a single-master Glyphs 2 source; gftools' glyphsLib step names both dollar.lf.BRACKET.varAlt01 and fails (KeyError) before either compiler runs"
+    }
+  ],
+  "Omnibus-Type/Jaldi/$VIRTUAL/google/fonts/ofl/jaldi/config.yaml SRC/Jaldi-[2048].glyphs?4460fe0094 (default)": [
+    {
+      "text": "static-only family (the config sets buildVariable: false), but crater's default mode builds a variable font: fontmake's compatibility check rejects the masters (nukta_rakar_rVocalicMatra-deva has a bottom anchor only in Regular), and fontc builds it",
+      "link": "https://github.com/googlefonts/fontc/issues/1288"
+    }
+  ],
+  "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Italic.glyphs?439686b0f8 (gftools: Playfair Display SC Black Italic)": [
+    {
+      "text": "the SC instances' 'Rename Glyphs' swaps commaaccentcomb.smcp, which is just a commaaccentcomb component, with commaaccentcomb, so commaaccentcomb ends up referencing itself and ufo2ft rejects the cycle (Gcommaaccent -> commaaccentcomb.case -> commaaccentcomb)",
+      "also": [
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Italic.glyphs?439686b0f8 (gftools: Playfair Display SC Bold Italic)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Italic.glyphs?439686b0f8 (gftools: Playfair Display SC Italic)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Roman.glyphs?439686b0f8 (gftools: Playfair Display SC Black)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Roman.glyphs?439686b0f8 (gftools: Playfair Display SC Bold)",
+        "clauseggers/Playfair/$VIRTUAL/google/fonts/ofl/playfairdisplaysc/config.yaml sources/Playfair-Display-Roman.glyphs?439686b0f8 (gftools: Playfair Display SC Regular)"
+      ]
+    }
+  ],
+  "aaronbell/Playfair-Display/sources/config.yaml PlayfairDisplay-Italic.glyphs?e9c6c4f96e (gftools)": [
+    {
+      "text": "the repository's config keys its stat: block by PlayfairDisplay[wght].ttf, but the sources at this pin also have a wdth axis, so gftools names the font PlayfairDisplay[wdth,wght].ttf and its STAT step fails for both compilers",
+      "also": [
+        "aaronbell/Playfair-Display/sources/config.yaml PlayfairDisplay.glyphs?e9c6c4f96e (gftools)"
+      ]
+    }
+  ],
+  "aaronbell/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?8dd0f95d35 (default)": [
+    {
+      "text": "at the aaronbell fork's pin the masters aren't compatible: uniEFFD has a different number of segments across masters, which fontmake rejects, and Ereversed-cy and Fita-cy have a bottom anchor the default master lacks, which fontc rejects",
+      "also": [
+        "aaronbell/Hepta-Slab/$VIRTUAL/google/fonts/ofl/heptaslab/config.yaml sources/HeptaSlab.glyphs?8dd0f95d35 (gftools)"
+      ]
+    }
+  ],
+  "Gue3bara/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?2c9d43f87f (default)": [
+    {
+      "text": "numbered mark anchor _top_2 on wasla-ar, hamzaabove-ar and madda-ar: ufo2ft and fontc both reject it ('mark anchor cannot be numbered')",
+      "also": [
+        "Gue3bara/Rakkas/$VIRTUAL/google/fonts/ofl/rakkas/config.yaml Rakkas_SourceFiles/Rakkas.glyphs?2c9d43f87f (gftools)"
+      ]
+    }
+  ],
+  "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Extralight Italic)": [
+    {
+      "text": "fontmake can't cut this static either: the masters aren't point-compatible, so instancing fails ('Failed to generate instance of glyph …')",
+      "also": [
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Italic.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml IBM-Plex-Mono/sources/masters/IBM Plex Mono Roman.designspace?9ab3b5b3b9 (gftools: IBM Plex Mono Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Extralight Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace?71d012bccb (gftools: IBM Plex Sans Condensed Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace?4ef531544d (gftools: IBM Plex Sans Devanagari Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace?0f91126e49 (gftools: IBM Plex Sans Hebrew Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml IBM-Plex-Sans-Thai/sources/masters/IBM Plex Sans Thai.designspace?67b4babc1f (gftools: IBM Plex Sans Thai Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped ExtraLight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml IBM-Plex-Sans-Thai-Looped/sources/masters/IBM Plex Sans Thai Looped.designspace?20f93381c4 (gftools: IBM Plex Sans Thai Looped Text)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Extralight Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Light Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Medium Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif SemiBold Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Italic.designspace?43279c1511 (gftools: IBM Plex Serif Text Italic)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Extralight)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Light)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Medium)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif SemiBold)",
+        "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml IBM-Plex-Serif/sources/masters/IBM Plex Serif Roman.designspace?43279c1511 (gftools: IBM Plex Serif Text)"
       ]
     }
   ]
