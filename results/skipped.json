@@ -53,5 +53,15 @@
     },
     "reason": "built by SIL's smith (MutatorMath instances, psfufo2ttf, .feax features), and Google Fonts ships SIL's release binaries, so neither uses fontmake, gftools or fontc",
     "link": "https://github.com/google/fonts/blob/5bb28733/ofl/gentiumplus/METADATA.pb"
+  },
+  {
+    "configs": {
+      "Gissio/font_tiny5/sources/config.yaml": "cd350d5028",
+      "Gue3bara/Cairo/sources/cairo.yaml": "73d16933c6",
+      "Gue3bara/Cairo/sources/cairoplay.yaml": "73d16933c6",
+      "googlefonts/sawarabi-mincho/sources/config.yaml": "8bd1525717"
+    },
+    "reason": "the config's sources are generated at build time (a Makefile, build.sh or a recipe exec step), so crater finds no source to build; left out until we decide how crater may run such steps",
+    "link": "https://github.com/Gue3bara/Cairo/blob/73d16933c6a0f341c27a69e401da83dcb0d53114/build.sh"
   }
 ]
