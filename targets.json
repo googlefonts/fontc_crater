@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "e774067705989f0bcb5e32eb0e8f76c24d679f92",
+  "fonts_repo_sha": "3e5667764ccfea32ce0c3d58a3a4756de890adc1",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -143,7 +143,7 @@
     },
     {
       "repo_url": "https://github.com/DunwichType/RhodiumLibre",
-      "rev": "c6e9dc9167fb6f4bc6fc44f2262129aaf771c8a3",
+      "rev": "d08857148a9426a3f68f6e90adc30232bc2bf1c6",
       "config": "google/fonts/ofl/rhodiumlibre/config.yaml",
       "config_is_external": true
     },
@@ -404,6 +404,12 @@
       "repo_url": "https://github.com/Gue3bara/Lemonada",
       "rev": "21a53a1760f6f3c3e585bc50bc3463e97f1fa7e6",
       "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/Gue3bara/Rakkas",
+      "rev": "2c9d43f87fb569b61c468ad82d8688c6904ac840",
+      "config": "google/fonts/ofl/rakkas/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/Gutenberg-Labo/Otomanopee",
@@ -816,16 +822,16 @@
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Bahiana",
-      "rev": "0efedac55f05ea7f6b277b2d63424984e53d005d",
+      "rev": "e96af6905aadd095bf2568c44fc643c1b2c412d4",
       "config": "google/fonts/ofl/bahianita/config.yaml",
-      "config_is_external": true,
-      "has_rev_conflict": true
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Bahiana",
       "rev": "43505501149a661266ef6c7603fe0d6ddd58984e",
       "config": "google/fonts/ofl/bahiana/config.yaml",
-      "config_is_external": true
+      "config_is_external": true,
+      "has_rev_conflict": true
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Ballet",
@@ -874,8 +880,9 @@
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Jaldi",
-      "rev": "13315457c7dd2cadd03642a2edd9d9552d0c227f",
-      "config": "sources/config.yaml"
+      "rev": "4460fe009455b96be92bf73d1f66d0490e1e10b3",
+      "config": "google/fonts/ofl/jaldi/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Labrada",
@@ -932,7 +939,7 @@
     },
     {
       "repo_url": "https://github.com/Omnibus-Type/Unna",
-      "rev": "826be2abebda53d63bcd99b7ca30a7061b89bcfd",
+      "rev": "ff1d2046ceeb64bca7410573ef7af2744596825d",
       "config": "google/fonts/ofl/unna/config.yaml",
       "config_is_external": true
     },
@@ -1262,7 +1269,7 @@
     },
     {
       "repo_url": "https://github.com/TypeTogether/Playpen-Sans",
-      "rev": "354fed4e5d1397aa3a092e6baa41b0064c8340b5",
+      "rev": "e9de3f5df6328821ed98775d347b8da652fc47fc",
       "config": "sources/config-LGC.yaml",
       "has_rev_conflict": true
     },
@@ -1333,6 +1340,12 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/aaronbell/Hepta-Slab",
+      "rev": "8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9",
+      "config": "google/fonts/ofl/heptaslab/config.yaml",
+      "config_is_external": true
+    },
+    {
       "repo_url": "https://github.com/aaronbell/LxgwMarkerGothic",
       "rev": "fe8357007423a983e696d2d3ff545ac9bb1bb89e",
       "config": "google/fonts/ofl/lxgwmarkergothic/config.yaml",
@@ -1342,6 +1355,16 @@
       "repo_url": "https://github.com/aaronbell/LxgwWenkaiTC",
       "rev": "a5cf76f5bd1f26cdf74ca1b22b9f6fe17b8d5bc5",
       "config": "sources/project.yaml"
+    },
+    {
+      "repo_url": "https://github.com/aaronbell/Playfair-Display",
+      "rev": "e9c6c4f96e929d6b39cf13d8349816c4424e4254",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/aaronbell/Ruda-new",
+      "rev": "0a66529fc9d128ae394d716810423f39b295e4a8",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/manrope",
@@ -1761,7 +1784,7 @@
     },
     {
       "repo_url": "https://github.com/cadsondemak/Srisakdi",
-      "rev": "fc86bd7feae6bf8b3a9f388f2a71f4c826a27859",
+      "rev": "db08a3a88093caf28fddb5ec3e90825114c9ea8d",
       "config": "google/fonts/ofl/srisakdi/config.yaml",
       "config_is_external": true
     },
@@ -1923,8 +1946,9 @@
     },
     {
       "repo_url": "https://github.com/clauseggers/Playfair",
-      "rev": "80a334101928546b04fa9e709ad4b2f11f8a9e10",
-      "config": "sources/config.yaml"
+      "rev": "439686b0f8b056caa5ccc181fd0ea8c4397229bb",
+      "config": "google/fonts/ofl/playfairdisplaysc/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/coreyhu/Urbanist",
@@ -2348,8 +2372,9 @@
     },
     {
       "repo_url": "https://github.com/etunni/Amita",
-      "rev": "92680c07f01285a23744cda1190690c5c7f3f73c",
-      "config": "sources/config.yaml"
+      "rev": "bc05021c474e3b5fbe7c97f037df6331f9fb2b53",
+      "config": "google/fonts/ofl/amita/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/etunni/Arya",
@@ -2774,8 +2799,9 @@
     },
     {
       "repo_url": "https://github.com/googlefonts/Pacifico",
-      "rev": "423e7cb2b036ead2624c05197e17a83ddf5c6068",
-      "config": "sources/config.yaml"
+      "rev": "aff5d08efd4883cd58a660b4b688a73edcea3d92",
+      "config": "google/fonts/ofl/pacifico/config.yaml",
+      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/googlefonts/Playfair",
@@ -5429,19 +5455,19 @@
     },
     {
       "repo_url": "https://github.com/huertatipografica/sahitya",
-      "rev": "c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6",
+      "rev": "3d5fba22c2baba55989c9dd6daa8e4be47bb0cd4",
       "config": "google/fonts/ofl/sahitya/config.yaml",
       "config_is_external": true
     },
     {
       "repo_url": "https://github.com/huertatipografica/sarala",
-      "rev": "7779e0c9eb121b25d9fcb7c20d5b3541b3f4fc15",
+      "rev": "9f767d4dd8245bf006908d6b50693eecd56958e4",
       "config": "google/fonts/ofl/sarala/config.yaml",
       "config_is_external": true
     },
     {
       "repo_url": "https://github.com/huertatipografica/sura",
-      "rev": "d20d15fe0de4a84a9d3a944f87e9c35d4c9da612",
+      "rev": "4e8dd108837963448113957f6084bba337e69381",
       "config": "google/fonts/ofl/sura/config.yaml",
       "config_is_external": true
     },
@@ -5603,13 +5629,13 @@
     },
     {
       "repo_url": "https://github.com/itfoundry/kumar",
-      "rev": "3192a79a79202eb715d83fd044e9234a6d0dde66",
+      "rev": "551e277f8fc8f18a5ee11935cf5007bda9930364",
       "config": "google/fonts/ofl/kumarone/config.yaml",
       "config_is_external": true
     },
     {
       "repo_url": "https://github.com/itfoundry/kumar",
-      "rev": "3192a79a79202eb715d83fd044e9234a6d0dde66",
+      "rev": "551e277f8fc8f18a5ee11935cf5007bda9930364",
       "config": "google/fonts/ofl/kumaroneoutline/config.yaml",
       "config_is_external": true
     },
@@ -5846,12 +5872,6 @@
       "config_is_external": true
     },
     {
-      "repo_url": "https://github.com/m4rc1e/Ruda-new",
-      "rev": "a63532e04ffb0f46b635cf9e000966155958e19d",
-      "config": "google/fonts/ofl/ruda/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/m4rc1e/ShareTech",
       "rev": "2c501093f8f4fc6d985435133c8ac0fa92137431",
       "config": "google/fonts/ofl/sharetech/config.yaml",
@@ -5993,12 +6013,6 @@
       "config": "sources/config.yaml"
     },
     {
-      "repo_url": "https://github.com/mjlagattuta/Hepta-Slab",
-      "rev": "4401d23f516b412f1b8472fe705b37b8712b2ecd",
-      "config": "google/fonts/ofl/heptaslab/config.yaml",
-      "config_is_external": true
-    },
-    {
       "repo_url": "https://github.com/mooniak/abhaya-libre-font",
       "rev": "ade314aa678ceb44f892ed58169c6b270c775d02",
       "config": "google/fonts/ofl/abhayalibre/config.yaml",
@@ -6033,7 +6047,7 @@
     },
     {
       "repo_url": "https://github.com/motaitalic/vesper-libre",
-      "rev": "b765c5a68c1786a177b46e3b3ecd766157ffe349",
+      "rev": "30690a08e9e2278f88c51031ea474f38868b9ff5",
       "config": "google/fonts/ofl/vesperlibre/config.yaml",
       "config_is_external": true
     },
@@ -6122,7 +6136,7 @@
     },
     {
       "repo_url": "https://github.com/noponies/sulphur-point",
-      "rev": "2c1a600846ca8b7890a89076aeeb2d43cdaeac23",
+      "rev": "0212c26a5510b9b5f7314b98042468556a9c0bd9",
       "config": "google/fonts/ofl/sulphurpoint/config.yaml",
       "config_is_external": true
     },
@@ -7686,7 +7700,7 @@
     },
     {
       "repo_url": "https://github.com/silnrsi/font-charis",
-      "rev": "258e532625d5e6c5fca8448782e710db78a6ca8a",
+      "rev": "f99e75143ab2295806f547f4b5bc7dfc4d7dde94",
       "config": "google/fonts/ofl/charissil/config.yaml",
       "config_is_external": true
     },
@@ -8059,7 +8073,7 @@
     },
     {
       "repo_url": "https://github.com/tokotype/PlusJakartaSans",
-      "rev": "18d1cd2f7ea10481919d2f05c1f7064b7307fc26",
+      "rev": "163c006ff169bbb932757276b98a26f36a1409d8",
       "config": "sources/config.yaml"
     },
     {
@@ -8421,12 +8435,6 @@
       "repo_url": "https://github.com/zalando/sans",
       "rev": "4e44d0864c4e37ab67fa549cd188aec8776dc948",
       "config": "sources/config.yaml"
-    },
-    {
-      "repo_url": "https://github.com/zeynepakay/Rakkas",
-      "rev": "3bdb0ba164c9e987a5ab4de7f7cc8842a04d267a",
-      "config": "google/fonts/ofl/rakkas/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://gitlab.com/smc/fonts/manjari",
