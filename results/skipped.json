@@ -79,6 +79,27 @@
   },
   {
     "configs": {
+      "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml": "738d9d691b",
+      "itfoundry/hind-colombo/$VIRTUAL/google/fonts/ofl/hindcolombo/config.yaml": "3cf4e8b840",
+      "itfoundry/hind-guntur/$VIRTUAL/google/fonts/ofl/hindguntur/config.yaml": "d1f95f8d9a",
+      "itfoundry/hind-jalandhar/$VIRTUAL/google/fonts/ofl/hindjalandhar/config.yaml": "6d0af0d80b",
+      "itfoundry/hind-kochi/$VIRTUAL/google/fonts/ofl/hindkochi/config.yaml": "57ad6793ac",
+      "itfoundry/hind-madurai/$VIRTUAL/google/fonts/ofl/hindmadurai/config.yaml": "3f3bd22248",
+      "itfoundry/hind-mysuru/$VIRTUAL/google/fonts/ofl/hindmysuru/config.yaml": "7d7fe4cfa6",
+      "itfoundry/hind-siliguri/$VIRTUAL/google/fonts/ofl/hindsiliguri/config.yaml": "affb7dbd00",
+      "itfoundry/hind-vadodara/$VIRTUAL/google/fonts/ofl/hindvadodara/config.yaml": "d1972e4ebe",
+      "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumarone/config.yaml": "551e277f8f",
+      "itfoundry/kumar/$VIRTUAL/google/fonts/ofl/kumaroneoutline/config.yaml": "551e277f8f",
+      "jonpinhorn/shrikhand/$VIRTUAL/google/fonts/ofl/shrikhand/config.yaml": "c11c9b0720",
+      "lipiraval/Mogra/$VIRTUAL/google/fonts/ofl/mogra/config.yaml": "048039d237",
+      "mooniak/abhaya-libre-font/$VIRTUAL/google/fonts/ofl/abhayalibre/config.yaml": "ade314aa67",
+      "mooniak/yaldevi-font/$VIRTUAL/google/fonts/ofl/yaldevicolombo/config.yaml": "bd4f7c3222"
+    },
+    "reason": "built with ITF's hindkit, which runs AFDKO's makeotf on UFO masters exported from the .glyphs files, with the repo's GlyphOrderAndAliasDB and features/; Google Fonts ships those builds, so neither uses fontmake, gftools or fontc",
+    "link": "https://github.com/itfoundry/hind-vadodara/blob/d1972e4ebebc3a65feef2f66823a83444469ece4/build.py"
+  },
+  {
+    "configs": {
       "42dot/42dot-Sans/sources/config_variable.yaml": "d23e87fe44",
       "42dot/Asta-Sans/sources/config_variable.yaml": "62b8301ac4",
       "Gissio/font_tiny5/sources/config.yaml": "cd350d5028",
