@@ -82,5 +82,28 @@
     },
     "reason": "the config's sources are generated at build time (a Makefile, build.sh or a recipe exec step), so crater finds no source to build; left out until we decide how crater may run such steps",
     "link": "https://github.com/Gue3bara/Cairo/blob/73d16933c6a0f341c27a69e401da83dcb0d53114/build.sh"
+  },
+  {
+    "configs": {
+      "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml": "a267f9f320",
+      "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml": "cdf0805fd0"
+    },
+    "reason": "the config names the raw FontCreator .ufoz, which the repo's build.sh extracts and repairs with source/fcp_ufo_process.py before building; crater builds the raw export, so the compilers fail on the defects that script fixes (Cactus Classical Serif's public.openTypeMeta dlng/slng are strings, not lists; Uoq Mun Then Khung's features.fea escapes class names as @\\MARK)",
+    "link": "https://github.com/MoonlitOwen/CactusSerif/blob/a267f9f32087eb9e6a9203c734cb952a64bc05be/source/fcp_ufo_process.py"
+  },
+  {
+    "configs": {
+      "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml": "071fc21f21"
+    },
+    "reason": "the UFOs' features.fea includes ./features/*.fea, which the repo's mastering/build_files.py copies next to the UFOs before building; crater builds the committed UFOs, so both compilers fail on the missing includes",
+    "link": "https://github.com/arrowtype/recursive/blob/071fc21f217781110d67e8d0bf5021f31cbdcb85/mastering/build_files.py#L64-L68"
+  },
+  {
+    "configs": {
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml": "56bcca3f2c",
+      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml": "56bcca3f2c"
+    },
+    "reason": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea before compiling; crater builds the committed UFOs, whose stale features.fea both compilers reject (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)",
+    "link": "https://github.com/microsoft/cascadia-code/blob/56bcca3f2c1e4cb19458954f0e2bb4635960df91/build.py#L67-L120"
   }
 ]
