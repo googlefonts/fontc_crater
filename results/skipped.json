@@ -72,6 +72,13 @@
   },
   {
     "configs": {
+      "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml": "f995ade617"
+    },
+    "reason": "Google Fonts ships the 2014 FontForge and xgridfit builds of the per-style .sfd files, now under old/; the override builds a later .glyphs conversion that no shipped font comes from, and whose masters aren't compatible",
+    "link": "https://github.com/m4rc1e/Istok-Web/blob/f995ade61785c37629bed658e1898096ad934ec5/old/v.1.0.3/sources/SFD/Makefile"
+  },
+  {
+    "configs": {
       "42dot/42dot-Sans/sources/config_variable.yaml": "d23e87fe44",
       "42dot/Asta-Sans/sources/config_variable.yaml": "62b8301ac4",
       "Gissio/font_tiny5/sources/config.yaml": "cd350d5028",
