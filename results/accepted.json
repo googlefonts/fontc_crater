@@ -8,28 +8,6 @@
   },
   {
     "targets": [
-      "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace (default)",
-      "arrowtype/recursive/$VIRTUAL/google/fonts/ofl/recursive/config.yaml src/ufo/recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace (gftools)"
-    ],
-    "fails": "both",
-    "stderr_contains": "Failed to load source at './features/",
-    "reason": "the UFOs' features.fea includes ./features/*.fea, which the repo's mastering/build_files.py copies next to the UFOs before building; crater doesn't run it, so both compilers fail on the missing includes"
-  },
-  {
-    "targets": [
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace (default)",
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable.designspace (gftools)",
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace (default)",
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiacode/config.yaml sources/CascadiaCode_variable_italic.designspace (gftools)",
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable.designspace (gftools)",
-      "microsoft/cascadia-code/$VIRTUAL/google/fonts/ofl/cascadiamono/config.yaml sources/CascadiaCode_variable_italic.designspace (gftools)"
-    ],
-    "fails": "both",
-    "stderr_contains": "FEA parsing failed",
-    "reason": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea; crater doesn't run it, so both compilers get the stale committed features.fea (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)"
-  },
-  {
-    "targets": [
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright Medium)",
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright Regular)",
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright SemiBold)",
