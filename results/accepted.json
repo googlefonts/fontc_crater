@@ -1,13 +1,6 @@
 [
   {
     "targets": [
-      "justvanrossum/nabla/$VIRTUAL/google/fonts/ofl/nabla/config.yaml sources/Nabla.glyphs (gftools)"
-    ],
-    "fails": "both",
-    "reason": "not yet reviewed: accepted as a build-script failure, but sources/Nabla.glyphs is committed and gftools finds no final targets for it; upstream's build.sh runs glyphs2ufo, then fontmake on the generated designspace"
-  },
-  {
-    "targets": [
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright Medium)",
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright Regular)",
       "CatharsisFonts/Cormorant/$VIRTUAL/google/fonts/ofl/cormorantupright/config.yaml 4. Glyphs Source Files/CormorantUpright.glyphs (gftools: Cormorant Upright SemiBold)",
