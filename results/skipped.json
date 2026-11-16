@@ -168,5 +168,12 @@
     },
     "reason": "the repo's Makefile regenerates sources/*.ufo from _sources/master.ufo with plop (npm run build-ufo) before every build, and its clean target deletes them; crater builds the committed copies",
     "link": "https://github.com/dy/wavefont/blob/76c80f21363cba19c35882f25afac3aa7399ace5/Makefile#L16-L21"
+  },
+  {
+    "configs": {
+      "justvanrossum/nabla/$VIRTUAL/google/fonts/ofl/nabla/config.yaml": "2a06e9f735"
+    },
+    "reason": "the repo's build.sh converts the single-master Nabla.glyphs to a UFO, then scripts/shear_and_extrude.py generates the extruded masters and the EDPT/EHLT designspace the variable font is built from; crater builds the single-master source",
+    "link": "https://github.com/justvanrossum/nabla/blob/2a06e9f735390a7988d0ef190981ce4abf4dfd28/build.sh#L7-L15"
   }
 ]
