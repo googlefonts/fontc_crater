@@ -86,9 +86,10 @@
   {
     "configs": {
       "MoonlitOwen/CactusSerif/$VIRTUAL/google/fonts/ofl/cactusclassicalserif/config.yaml": "a267f9f320",
+      "MoonlitOwen/ChocolateSans/$VIRTUAL/google/fonts/ofl/chocolateclassicalsans/config.yaml": "624ecb8064",
       "MoonlitOwen/ThenKhung/$VIRTUAL/google/fonts/ofl/uoqmunthenkhung/config.yaml": "cdf0805fd0"
     },
-    "reason": "the config names the raw FontCreator .ufoz, which the repo's build.sh extracts and repairs with source/fcp_ufo_process.py before building; crater builds the raw export, so the compilers fail on the defects that script fixes (Cactus Classical Serif's public.openTypeMeta dlng/slng are strings, not lists; Uoq Mun Then Khung's features.fea escapes class names as @\\MARK)",
+    "reason": "the config names the raw FontCreator .ufoz, which the repo's build.sh extracts and repairs with source/fcp_ufo_process.py before building; crater builds the raw export (Cactus Classical Serif and Uoq Mun Then Khung fail on defects that script fixes: public.openTypeMeta dlng/slng stored as strings, class names escaped as @\\MARK)",
     "link": "https://github.com/MoonlitOwen/CactusSerif/blob/a267f9f32087eb9e6a9203c734cb952a64bc05be/source/fcp_ufo_process.py"
   },
   {
@@ -105,5 +106,67 @@
     },
     "reason": "the repo's build.py replaces each UFO's features with a concatenation of sources/features/*.fea before compiling; crater builds the committed UFOs, whose stale features.fea both compilers reject (a stray 'by' in a class in Regular, an unknown zhe-cy.loclBGR.alt in Italic)",
     "link": "https://github.com/microsoft/cascadia-code/blob/56bcca3f2c1e4cb19458954f0e2bb4635960df91/build.py#L67-L120"
+  },
+  {
+    "configs": {
+      "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseidecol/config.yaml": "b396c906d6",
+      "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiharunoumi/config.yaml": "b396c906d6",
+      "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseiopti/config.yaml": "b396c906d6",
+      "FontKai-Kaisei/Kaisei/$VIRTUAL/google/fonts/ofl/kaiseitokumin/config.yaml": "b396c906d6"
+    },
+    "reason": "the repo's build.py merges the glyphs of the shared Kaisei-Shared source into each family's masters and replaces their features with sources/features.fea before compiling; crater builds each family's .glyphs alone",
+    "link": "https://github.com/FontKai-Kaisei/Kaisei/blob/b396c906d67ddbfde60c2c78588f8de00b46c891/build.py#L21-L47"
+  },
+  {
+    "configs": {
+      "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiri/config.yaml": "04d40ee68c",
+      "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiriquran/config.yaml": "480bb746e9"
+    },
+    "reason": "the repo's Makefile compiles each style with scripts/build.py, which adds the matching AmiriLatin UFO and the features from sources/Amiri.fea (and slants the italics); crater builds Amiri.glyphspackage alone",
+    "link": "https://github.com/aliftype/amiri/blob/04d40ee68cc6b8cb6870eca81a8a7451165aa95a/Makefile#L34-L61"
+  },
+  {
+    "configs": {
+      "Etcetera-Type-Co/Trispace/$VIRTUAL/google/fonts/ofl/trispace/config.yaml": "8f332ade4a",
+      "huertatipografica/piazzolla/$VIRTUAL/google/fonts/ofl/piazzolla/config.yaml": "fbd775f98a",
+      "indestructible-type/Jost/$VIRTUAL/google/fonts/ofl/jost/config.yaml": "35f141c970"
+    },
+    "reason": "the repo's build script rewrites the design space before compiling: Piazzolla's tools/processDesignSpace.py remaps wght and generates the opsz masters from re-spaced, scaled copies; Jost's scripts/build-GF.sh compiles a sed-rewritten copy of sources/ with regenerated italic masters and instances; Trispace's build-vf.sh compiles a hand-written designspace that puts the masters at wght 800 and wdth 125 where the .glyphs says 900 and 200; crater builds the committed sources",
+    "link": "https://github.com/huertatipografica/piazzolla/blob/fbd775f98a0a27570de0eaf20206860021c68b6b/tools/processDesignSpace.py"
+  },
+  {
+    "configs": {
+      "stipub/stixfonts/$VIRTUAL/google/fonts/ofl/stixtwomath/config.yaml": "c4afdf3fa5",
+      "vaishnavimurthy/Akaya-Telivigala/$VIRTUAL/google/fonts/ofl/akayatelivigala/config.yaml": "93b31e45b6"
+    },
+    "reason": "the repo's build.sh replaces the layout before compiling: STIX's tools/preprocess-ufo.py renames the glyphs and copies GDEF, GSUB, GPOS, MATH and cmap in from STIXTwoMath-Regular.input.ttf; Akaya Telivigala's build.sh swaps the features for includes of Source/Features/*_GSUB.txt and *_GPOS.txt; crater builds the source with its own features",
+    "link": "https://github.com/stipub/stixfonts/blob/c4afdf3fa5390159ef24aca1db5e957487c23897/build.sh#L47-L54"
+  },
+  {
+    "configs": {
+      "vercel/geist-font/sources/config-GeistSerif.yaml": "a2026e99b3"
+    },
+    "reason": "the config documents a family built by scripts/build-geist-serif.py, not gftools: it expands the Glyphs corner components and stroked paths in a copy of the source before running fontmake; crater builds the source as committed",
+    "link": "https://github.com/vercel/geist-font/blob/a2026e99b3f1b36ffb6c0473fdf383e97d3f9d5a/sources/config-GeistSerif.yaml#L1-L2"
+  },
+  {
+    "configs": {
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungee/config.yaml": "eb03cf69ad",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeecolor/config.yaml": "bb29250eb0",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeehairline/config.yaml": "eb03cf69ad",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeeinline/config.yaml": "eb03cf69ad",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeeoutline/config.yaml": "eb03cf69ad",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeeshade/config.yaml": "eb03cf69ad",
+      "djrrb/Bungee/$VIRTUAL/google/fonts/ofl/bungeespice/config.yaml": "eb03cf69ad"
+    },
+    "reason": "the repo's build.sh assembles each Bungee family from the layers of the drawing UFO (scripts/assembleSources.py and friends) and compiles the result; these configs name the drawing UFO itself or a committed copy of an assembled UFO under sources/2-build (at bb29250e, the output of the older colorFont_* scripts), not what the build compiles",
+    "link": "https://github.com/djrrb/Bungee/blob/eb03cf69adab5094f6b84e95357789cdf3bfeb99/build.sh#L7-L9"
+  },
+  {
+    "configs": {
+      "dy/wavefont/sources/config.yaml": "76c80f2136"
+    },
+    "reason": "the repo's Makefile regenerates sources/*.ufo from _sources/master.ufo with plop (npm run build-ufo) before every build, and its clean target deletes them; crater builds the committed copies",
+    "link": "https://github.com/dy/wavefont/blob/76c80f21363cba19c35882f25afac3aa7399ace5/Makefile#L16-L21"
   }
 ]
