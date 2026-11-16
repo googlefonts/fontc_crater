@@ -57,6 +57,21 @@
   },
   {
     "configs": {
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexmono/config.yaml": "9ab3b5b3b9",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanscondensed/config.yaml": "71d012bccb",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansdevanagari/config.yaml": "4ef531544d",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanshebrew/config.yaml": "0f91126e49",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansjp/config.yaml": "80fcb67650",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsanskr/config.yaml": "1331d4514d",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthai/config.yaml": "67b4babc1f",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexsansthailooped/config.yaml": "20f93381c4",
+      "googlefonts/plex/$VIRTUAL/google/fonts/ofl/ibmplexserif/config.yaml": "43279c1511"
+    },
+    "reason": "Google Fonts ships IBM's release binaries from Google-Fonts-Fixes/fonts, put through convert.py, which only rewrites names, flags and metrics; neither uses fontmake, gftools or fontc, and the master files the overrides name aren't interpolation-compatible",
+    "link": "https://github.com/google/fonts/blob/cc39c4c2c304bc368c9b7c311ea2bcc6013299fe/ofl/ibmplexmono/METADATA.pb#L139-L151"
+  },
+  {
+    "configs": {
       "42dot/42dot-Sans/sources/config_variable.yaml": "d23e87fe44",
       "42dot/Asta-Sans/sources/config_variable.yaml": "62b8301ac4",
       "Gissio/font_tiny5/sources/config.yaml": "cd350d5028",
