@@ -164,20 +164,6 @@
       ]
     }
   ],
-  "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (default)": [
-    {
-      "text": "crash on Width toggle axis used as italic switch",
-      "link": "https://github.com/googlefonts/fontc/issues/1994",
-      "also": [
-        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (default)",
-        "cadsondemak/Fah-Kwang/$VIRTUAL/google/fonts/ofl/fahkwang/config.yaml source/Fahkwang.glyphs?7b16186dad (default)",
-        "cadsondemak/K2D/$VIRTUAL/google/fonts/ofl/k2d/config.yaml source/K2D.glyphs?5df785dc3b (default)",
-        "cadsondemak/Kodchasan/$VIRTUAL/google/fonts/ofl/kodchasan/config.yaml source/Kodchasan-Master.glyphs?d68c1268f9 (default)",
-        "cadsondemak/Koho/$VIRTUAL/google/fonts/ofl/koho/config.yaml source/KoHo-Master.glyphs?066267ad87 (default)",
-        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (default)"
-      ]
-    }
-  ],
   "googlefonts/dm-mono/$VIRTUAL/google/fonts/ofl/dmmono/config.yaml source/DMMono-Italics-MASTER.glyphs?57fadabfb2 (default)": [
     {
       "text": "fontc drops point axes that fontmake keeps",
@@ -889,9 +875,15 @@
         "aliftype/amiri/$VIRTUAL/google/fonts/ofl/amiriquran/config.yaml sources/Amiri.glyphspackage?480bb746e9 (default)",
         "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Italic.glyphs?b1dca64c3c (default)",
         "balsamiq/balsamiqsans/sources/config.yaml glyphs/BalsamiqSans-Roman.glyphs?b1dca64c3c (default)",
+        "cadsondemak/Bai-Jamjuree/$VIRTUAL/google/fonts/ofl/baijamjuree/config.yaml source/Baijam.glyphs?e35cafdf69 (default)",
         "cadsondemak/Charm/$VIRTUAL/google/fonts/ofl/charm/config.yaml source/Charm.glyphs?873c551602 (default)",
+        "cadsondemak/Fah-Kwang/$VIRTUAL/google/fonts/ofl/fahkwang/config.yaml source/Fahkwang.glyphs?7b16186dad (default)",
+        "cadsondemak/K2D/$VIRTUAL/google/fonts/ofl/k2d/config.yaml source/K2D.glyphs?5df785dc3b (default)",
+        "cadsondemak/Kodchasan/$VIRTUAL/google/fonts/ofl/kodchasan/config.yaml source/Kodchasan-Master.glyphs?d68c1268f9 (default)",
+        "cadsondemak/Koho/$VIRTUAL/google/fonts/ofl/koho/config.yaml source/KoHo-Master.glyphs?066267ad87 (default)",
         "cadsondemak/Krub/$VIRTUAL/google/fonts/ofl/krub/config.yaml source/Krub.glyphs?c568bc61bd (default)",
         "cadsondemak/Mali/$VIRTUAL/google/fonts/ofl/mali/config.yaml source/Mali-Master.glyphs?4f4843c99a (default)",
+        "cadsondemak/Sarabun/$VIRTUAL/google/fonts/ofl/sarabun/config.yaml source/Sarabun.glyphs?854cdbc6af (default)",
         "cadsondemak/Srisakdi/$VIRTUAL/google/fonts/ofl/srisakdi/config.yaml source/Srisakdi.glyphs?fc86bd7fea (default)",
         "cadsondemak/Thasadith/$VIRTUAL/google/fonts/ofl/thasadith/config.yaml source/Thasadith_Master.glyphs?033efaea8d (default)",
         "cadsondemak/kanit/$VIRTUAL/google/fonts/ofl/kanit/config.yaml sources/Kanit_Italic_Master.glyphs?467dfe8421 (default)",
@@ -947,6 +939,7 @@
         "itfoundry/Poppins/$VIRTUAL/google/fonts/ofl/poppins/config.yaml masters/Poppins.glyphs?738d9d691b (default)",
         "itfoundry/kalam/$VIRTUAL/google/fonts/ofl/kalam/config.yaml masters/Kalam.glyphs?03a4d8a338 (default)",
         "kemie/Bellota-Font/$VIRTUAL/google/fonts/ofl/bellota/config.yaml src/Bellota.glyphs?db900d2710 (default)",
+        "m4rc1e/Chakra-Petch/$VIRTUAL/google/fonts/ofl/chakrapetch/config.yaml source/Chakra Petch.glyphs?6176529d05 (default)",
         "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb-Italic.glyphs?f995ade617 (default)",
         "m4rc1e/Istok-Web/$VIRTUAL/google/fonts/ofl/istokweb/config.yaml sources/IstokWeb.glyphs?f995ade617 (default)",
         "meirsadan/david-libre/sources/config.yaml DavidLibre.glyphs?15496c1be7 (default)",
