@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "cc39c4c2c304bc368c9b7c311ea2bcc6013299fe",
+  "fonts_repo_sha": "06bfe0d62a98375cb09c942fa18e68bd32cff057",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -2747,6 +2747,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/BethEllen",
+      "rev": "d2eebcc2584a4596f185fe8fe428f7052332fb37",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/BevanFont",
       "rev": "ab1035d7823b4c53400a6007ee077ecc9324c3e5",
       "config": "sources/config.yaml"
@@ -3167,6 +3172,21 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/averialibre",
+      "rev": "62c6d4c1f4f2cb3deab595d9b0b82032c5ae4512",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/averiasanslibre",
+      "rev": "83dd4c4514fca2b5594567ac962e87c1c62b7ed4",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/averiaseriflibre",
+      "rev": "473558d24c41f1a701089e3b054a18884e5a0129",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/babylonica",
       "rev": "7b1c733f74a11604a711e87f840010e0746cfcd1",
       "config": "sources/config.yml"
@@ -3215,6 +3235,16 @@
     {
       "repo_url": "https://github.com/googlefonts/bentham",
       "rev": "e5fe7fcc66269491f3ccd6cf5ee69d7dfd3b8316",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/berkshireswash",
+      "rev": "e18507cc4dd27f518716fb03c3937788cb62c2ae",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/bigelowrules",
+      "rev": "d153e877f651c9c839bff2ecd4b8afc7fb07454c",
       "config": "sources/config.yaml"
     },
     {
@@ -3470,6 +3500,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/clickerscript",
+      "rev": "3a25c83b8d44fa4ac972c8a5afd0264cca3e693e",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/codystar",
+      "rev": "7bfc4fb2c00bf8460ab02fd1a51583a1de45f859",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/combo",
       "rev": "8921bc4f7647f45413b745a1890fdc2413f31d90",
       "config": "sources/config.yaml"
@@ -3670,6 +3710,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/dongle",
+      "rev": "d424e1283eec663ccc1cc66c8ea7f7262d7a8b04",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/doppioone",
       "rev": "f2fcd625359c4aa7d2b76aa5ab99b760707f6669",
       "config": "sources/config.yaml"
@@ -3695,8 +3740,18 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/dynalight",
+      "rev": "928472e4d0605aeb6330dac07a87d70f84fbcb12",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/dynapuff",
       "rev": "d1b4a98067a23e7ffbcf5b3665a887241983857b",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/eaglelake",
+      "rev": "957c07a2eddc7a83def020af9f83fc6a0b9c4bb8",
       "config": "sources/config.yaml"
     },
     {
@@ -3740,6 +3795,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/engagement",
+      "rev": "ac44547ef4762d575caa21f6419c976cd7d035b2",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/englebert",
+      "rev": "078d44fadf93ad6d38f472080dbae534734a5ae4",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/ephesis",
       "rev": "8b303b53193b302c8894fb4635bbd49d4420d433",
       "config": "sources/config.yml"
@@ -3773,6 +3838,16 @@
       "repo_url": "https://github.com/googlefonts/explora",
       "rev": "b0d0e026f48eefee38dc06821f2c9088a347fa9b",
       "config": "sources/config.yml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/fascinate",
+      "rev": "5a67838f42f72cb577748e2c8f66ef37e6548cc5",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/fascinateinline",
+      "rev": "ad896b7c74d9a035ede96d0855dec6a6eb44fd73",
+      "config": "sources/config.yaml"
     },
     {
       "repo_url": "https://github.com/googlefonts/felipa",
@@ -3867,6 +3942,11 @@
     {
       "repo_url": "https://github.com/googlefonts/galdeano",
       "rev": "79cf98b98a74be1aac08d719abd22e7986ee9949",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/galindo",
+      "rev": "1856721cb25ca4a9347270ef1c681b0cece271c8",
       "config": "sources/config.yaml"
     },
     {
@@ -3983,6 +4063,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/gowunbatang",
+      "rev": "bf6ce63b0e0655f80f377a7ffd28b974903a7908",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/grandhotel",
+      "rev": "50694216099013614c2eda174d4886b8c5c4d9d7",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/grapenuts",
       "rev": "1313fb48d7196fd9388b8327d1a30c03323c33ee",
       "config": "sources/config.yml"
@@ -4035,6 +4125,16 @@
     {
       "repo_url": "https://github.com/googlefonts/hammersmithone",
       "rev": "6459b0722c0ab3bdfb742cb5672dbaf572f4eca5",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/hanalei",
+      "rev": "0f5856bc2578ce02afb35e668c889254c8142b15",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/hanaleifill",
+      "rev": "ddf4f849d6ed523f41b811965b836fa3795c7c41",
       "config": "sources/config.yaml"
     },
     {
@@ -4135,6 +4235,11 @@
       "config": "sources/config.yml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/jimnightshade",
+      "rev": "11a5210e11c6bc2c988773016f3c951bfe8c64a4",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/jockeyone",
       "rev": "328c36706235aca94efbd2c56d2ee7b69d494bb0",
       "config": "sources/config.yaml"
@@ -4233,6 +4338,11 @@
     {
       "repo_url": "https://github.com/googlefonts/kreon",
       "rev": "d7f798b480013cfa899779d6dae4511fd3c310cb",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/kronaone",
+      "rev": "a7b07801999d35f3bb373c039f6fc921e646923c",
       "config": "sources/config.yaml"
     },
     {
@@ -4403,8 +4513,23 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/marcellus",
+      "rev": "81e2f726f299957b341745c0b80a57354904677c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/marcellussc",
+      "rev": "1570720f3e805d5788600b57ff9aa8d1546c4ff9",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/marckscript",
       "rev": "f4e66d73d1cc7190be547d491b99a0979c60fb10",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/margarine",
+      "rev": "882077c7855681d41e8377e7de3a745a7c16dd39",
       "config": "sources/config.yaml"
     },
     {
@@ -4415,6 +4540,11 @@
     {
       "repo_url": "https://github.com/googlefonts/mashanzheng",
       "rev": "6bfdbe288f5935c6e9072cdd6ab1aa102a006aab",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/mclaren",
+      "rev": "43b028c204c5672261d47b8717704876bd8d4965",
       "config": "sources/config.yaml"
     },
     {
@@ -4445,6 +4575,11 @@
     {
       "repo_url": "https://github.com/googlefonts/mergeone",
       "rev": "a244e59ac470dc37d946da2a95156791aed68d35",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/mervalescript",
+      "rev": "d8bb7f3c3cb8c6678c143e2057a99e1cab6908ed",
       "config": "sources/config.yaml"
     },
     {
@@ -4551,6 +4686,11 @@
     {
       "repo_url": "https://github.com/googlefonts/mountainsofchristmas",
       "rev": "85f79958e9e62f99a12dcc4f94a8f5bbf947e7ac",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/mousememoirs",
+      "rev": "b9416f58b1215eeb099748ffea4e1a13a8bc6bf6",
       "config": "sources/config.yaml"
     },
     {
@@ -4720,6 +4860,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/oregano",
+      "rev": "8acb85f087f2151b2057c597a439ca8732ebd4ec",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/originalsurfer",
+      "rev": "84f724ede93b61be0b390e278b9b0a221d0f8dfb",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/overlocksc",
       "rev": "4aeced9bec3bb9583f941cfab54f9908e1bd5189",
       "config": "sources/config.yaml"
@@ -4727,6 +4877,11 @@
     {
       "repo_url": "https://github.com/googlefonts/overtherainbow",
       "rev": "38ae8bf620b6eb4ba4facb07787f6826ff413a4c",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/ovo",
+      "rev": "c773c708edf58adaac5a8fa8b3e6583a9dca556a",
       "config": "sources/config.yaml"
     },
     {
@@ -4738,6 +4893,11 @@
     {
       "repo_url": "https://github.com/googlefonts/parastoo-font",
       "rev": "80a254f68aa51a80a97e33218e3e23e9d3229b10",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/parisienne",
+      "rev": "2eca5ed2015f55ce00e7b2fac88a76f1a14db260",
       "config": "sources/config.yaml"
     },
     {
@@ -4758,6 +4918,11 @@
     {
       "repo_url": "https://github.com/googlefonts/paytoneFont",
       "rev": "126567cf41b70d287e05359dbaf31561496282fa",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/peralta",
+      "rev": "7e13f488eafb140c68c1e4c23b9f554d7523daa7",
       "config": "sources/config.yaml"
     },
     {
@@ -4858,6 +5023,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/pompiere",
+      "rev": "5fd68f82e69f978f32254ee4c9fe080d17c15279",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/poorstory",
       "rev": "b2d4c0cc67e5a36633e2f55784612e04e721d3e8",
       "config": "sources/config.yaml"
@@ -4928,6 +5098,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/purplepurse",
+      "rev": "249707f479dd640756ba7cab2bbf835e448a195b",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/quando",
       "rev": "097ef0d66cfa4118a3e05bc76d55ccf103129e82",
       "config": "sources/config.yaml"
@@ -4950,6 +5125,11 @@
     {
       "repo_url": "https://github.com/googlefonts/questrial",
       "rev": "8db71bfbabedd8c8dda35818ea5d5508758c2e19",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/quintessential",
+      "rev": "32ac87daac4bd702e3d00850a9f4d152983c3efb",
       "config": "sources/config.yaml"
     },
     {
@@ -5003,6 +5183,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/ribeye",
+      "rev": "a543ca308e3502a8d80b05f65aeeb9a846a0c4b7",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/risque",
+      "rev": "e4d023dd6e9a265d5ba9a7f8fbf02b827a85dc1d",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/road-rage",
       "rev": "e55c939b96e80e4760f27d81d1abca714739e3fe",
       "config": "sources/config.yml"
@@ -5031,6 +5221,11 @@
     {
       "repo_url": "https://github.com/googlefonts/rocksalt",
       "rev": "549a707ac164f35706d9580c300c916db01c006a",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/romanesco",
+      "rev": "e0e598501252b27bbb58adb25ecf60e554f5cc9b",
       "config": "sources/config.yaml"
     },
     {
@@ -5064,6 +5259,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/rumraisin",
+      "rev": "f23ab590ede19223de02cbb7337d3968a8d97457",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/russoone",
       "rev": "c3624ce1f3553320cc4383eedb77ae4812b7533a",
       "config": "sources/config.yaml"
@@ -5086,6 +5286,11 @@
     {
       "repo_url": "https://github.com/googlefonts/sancreek",
       "rev": "6a26130542b916d49c5ed3e06ec5edfe68743d8a",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/sansation",
+      "rev": "074dd0f8c369bc9e1732230fef774782b3232855",
       "config": "sources/config.yaml"
     },
     {
@@ -5170,6 +5375,16 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/shojumaru",
+      "rev": "6404ae0d69635ce78e6a073f1fc651650c48cfeb",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/shortstack",
+      "rev": "72c526a1a473cec79011f45f7d50f975caa998b8",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/sigmarone",
       "rev": "1fb4311d78953da0f943e0e4b806acdd076af81b",
       "config": "google/fonts/ofl/sigmar/config.yaml",
@@ -5226,8 +5441,18 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/sonsieone",
+      "rev": "c23746810cfe16ca97967878d09e052497da20bd",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/spacemono",
       "rev": "329858c2c4dbd3476f972a4ae00624b018cf4b81",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/spicyrice",
+      "rev": "5f2a867790a43436e93031f4111fc18140516ba7",
       "config": "sources/config.yaml"
     },
     {
@@ -5257,8 +5482,23 @@
       "config_is_external": true
     },
     {
+      "repo_url": "https://github.com/googlefonts/stalemate",
+      "rev": "6911bf3eed0f7c702e297573a92b6214343df749",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/stalinistone",
       "rev": "3ca514581dd3870d61159669afa553f21fe60f97",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/stintultracondensed",
+      "rev": "4994a25dc09d58c5e3f27b42f062a1093fd608ea",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/stintultraexpanded",
+      "rev": "b1a205de61c1fe73bf0e6d9f7e91382a5ae829d4",
       "config": "sources/config.yaml"
     },
     {
@@ -5363,6 +5603,11 @@
       "config": "Source/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/uncialantiqua",
+      "rev": "084af67347bc5c436dfedc567acb63dd21d378a7",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/underdog",
       "rev": "7fd152d75041b2bc10d1ef0d14484c55c6fce44f",
       "config": "sources/config.yaml"
@@ -5430,6 +5675,11 @@
     {
       "repo_url": "https://github.com/googlefonts/yeonsung",
       "rev": "8979fd9bff991f4cc9eb2141534b376a296a3bb6",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/yesteryear",
+      "rev": "06a606b9d8d7d734595543ea23e25ea25d141ba1",
       "config": "sources/config.yaml"
     },
     {
@@ -5919,18 +6169,6 @@
       "repo_url": "https://github.com/liamspradlin/Girassol-Display",
       "rev": "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa",
       "config": "google/fonts/ofl/girassol/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/codystar",
-      "rev": "e32d050fbb01232b6a85423b121da89f21bba8b3",
-      "config": "google/fonts/ofl/codystar/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/englebert",
-      "rev": "0b03ab09eab75a39c93f8fb0432459a7dca74176",
-      "config": "google/fonts/ofl/englebert/config.yaml",
       "config_is_external": true
     },
     {
@@ -8492,18 +8730,6 @@
       "rev": "8ba99c9e347396d828b263b8b818269cb99eb27c",
       "config": "Big-Shoulders-Stencil/sources/config.yml",
       "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/yangheeryu/Dongle",
-      "rev": "f7127c4d2450e1cad20254ec692591347e2fc260",
-      "config": "google/fonts/ofl/dongle/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/yangheeryu/Gowun-Batang",
-      "rev": "4e73f5a9a004927220354f4b68a4c720da538147",
-      "config": "google/fonts/ofl/gowunbatang/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/yangheeryu/Gowun-Dodum",
