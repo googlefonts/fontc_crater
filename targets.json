@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "fonts_repo_sha": "cc39c4c2c304bc368c9b7c311ea2bcc6013299fe",
+  "fonts_repo_sha": "869789e84da92782c144d83d69b64cec54905b5f",
   "sources": [
     {
       "repo_url": "https://github.com/42dot/42dot-Sans",
@@ -3470,6 +3470,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/codystar",
+      "rev": "7bfc4fb2c00bf8460ab02fd1a51583a1de45f859",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/combo",
       "rev": "8921bc4f7647f45413b745a1890fdc2413f31d90",
       "config": "sources/config.yaml"
@@ -3670,6 +3675,11 @@
       "config": "sources/config.yaml"
     },
     {
+      "repo_url": "https://github.com/googlefonts/dongle",
+      "rev": "d424e1283eec663ccc1cc66c8ea7f7262d7a8b04",
+      "config": "sources/config.yaml"
+    },
+    {
       "repo_url": "https://github.com/googlefonts/doppioone",
       "rev": "f2fcd625359c4aa7d2b76aa5ab99b760707f6669",
       "config": "sources/config.yaml"
@@ -3737,6 +3747,11 @@
     {
       "repo_url": "https://github.com/googlefonts/emilyscandy",
       "rev": "8707cfc1953c8f9804beb360bace88492e45d34d",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/englebert",
+      "rev": "078d44fadf93ad6d38f472080dbae534734a5ae4",
       "config": "sources/config.yaml"
     },
     {
@@ -3980,6 +3995,11 @@
     {
       "repo_url": "https://github.com/googlefonts/gorditas",
       "rev": "3b508646e06ed3ef1933f839c425020aa6ecce73",
+      "config": "sources/config.yaml"
+    },
+    {
+      "repo_url": "https://github.com/googlefonts/gowunbatang",
+      "rev": "bf6ce63b0e0655f80f377a7ffd28b974903a7908",
       "config": "sources/config.yaml"
     },
     {
@@ -5919,18 +5939,6 @@
       "repo_url": "https://github.com/liamspradlin/Girassol-Display",
       "rev": "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa",
       "config": "google/fonts/ofl/girassol/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/codystar",
-      "rev": "e32d050fbb01232b6a85423b121da89f21bba8b3",
-      "config": "google/fonts/ofl/codystar/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/librefonts/englebert",
-      "rev": "0b03ab09eab75a39c93f8fb0432459a7dca74176",
-      "config": "google/fonts/ofl/englebert/config.yaml",
       "config_is_external": true
     },
     {
@@ -8492,18 +8500,6 @@
       "rev": "8ba99c9e347396d828b263b8b818269cb99eb27c",
       "config": "Big-Shoulders-Stencil/sources/config.yml",
       "has_rev_conflict": true
-    },
-    {
-      "repo_url": "https://github.com/yangheeryu/Dongle",
-      "rev": "f7127c4d2450e1cad20254ec692591347e2fc260",
-      "config": "google/fonts/ofl/dongle/config.yaml",
-      "config_is_external": true
-    },
-    {
-      "repo_url": "https://github.com/yangheeryu/Gowun-Batang",
-      "rev": "4e73f5a9a004927220354f4b68a4c720da538147",
-      "config": "google/fonts/ofl/gowunbatang/config.yaml",
-      "config_is_external": true
     },
     {
       "repo_url": "https://github.com/yangheeryu/Gowun-Dodum",
