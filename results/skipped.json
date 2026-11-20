@@ -14,11 +14,7 @@
       "cyrealtype/Bonbon/$VIRTUAL/google/fonts/ofl/bonbon/config.yaml": "ffac6513dd",
       "cyrealtype/Federo/$VIRTUAL/google/fonts/ofl/federo/config.yaml": "79d2ed54e7",
       "cyrealtype/Iceland/$VIRTUAL/google/fonts/ofl/iceland/config.yaml": "bb43144b50",
-      "librefonts/codystar/$VIRTUAL/google/fonts/ofl/codystar/config.yaml": "e32d050fbb",
-      "librefonts/englebert/$VIRTUAL/google/fonts/ofl/englebert/config.yaml": "0b03ab09ea",
-      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml": "db1c024077",
-      "yangheeryu/Dongle/$VIRTUAL/google/fonts/ofl/dongle/config.yaml": "f7127c4d24",
-      "yangheeryu/Gowun-Batang/$VIRTUAL/google/fonts/ofl/gowunbatang/config.yaml": "4e73f5a9a0"
+      "librefonts/iceberg/$VIRTUAL/google/fonts/ofl/iceberg/config.yaml": "db1c024077"
     },
     "reason": "the google/fonts config lists FontLab .vfb files or a .zip archive, which neither compiler reads",
     "link": "https://github.com/google/fonts/blob/5bb28733/ofl/bonbon/config.yaml"
